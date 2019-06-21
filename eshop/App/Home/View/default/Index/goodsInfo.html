@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>商品详细信息</title>
+<include file = "Public:common"/>
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/Css/goods.css">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Common/Css/smoothproducts.css">
+<script src="__PUBLIC__/Common/Js/smoothproducts.min.js"></script>
+<script src="__PUBLIC__/Home/Js/goodInfo.js"></script>
+<script type="text/javascript">
+  var goodPurchase = "{:U('Home/ShoppingCart/purchase')}";
+  var toSettlement = "{:U('Home/ShoppingCart/settlement')}";
+  var userLogin = "{:U('Home/User/login')}";
+</script>
+</head>
+<body>
+<include file = "Public:header"/>
+<div class="position_now">
+  <label><a href="{:U('Home/Index/index')}" target="_blank">首页</a></label>
+  <span>&gt</span>
+  <label>商品详细信息</label>
+</div>
+<div class="goods_info">
+  <div class="goods_info_left">
+    <div class="zoom">
+      <div class="sp-loading">
+        <img src="#" alt=""><br>
+        LOADING __PUBLIC__/Home/GoodImage</div>
+        <div class="sp-wrap">
+          <empty name="goodImgs">
+            <a href="__ROOT__/{$goodInfo.good_log}">
+              <img src="__ROOT__/{$goodInfo.good_log}" alt="">
+            </a> 
+            <else/>
+            <volist name="goodImgs" id="item">
+              <a href="__ROOT__/{$item.img}">
+                <img src="__ROOT__/{$item.thumb_img}" alt="">
+              </a> 
+            </volist> 
+          </empty> 
+      </div>
+    </div>
+    <!--商品图片放大显示结束 -->
+    <div class="goods_intro">
+      <h2 class="goods_name">{$goodInfo.name}</h2>
+      <div class="goods_items">
+        <ul>
+          <li>
+            <label>市场价：</label>
+            <span class="m_price">&yen;&nbsp;{$goodInfo.marketprice}</span></li>
+          <li>
+            <label>促销价：</label>
+            <span class="s_price">&yen;&nbsp;{$goodInfo.shopprice}</span></li>
+          <li>
+            <label>商品产地：</label>
+            <span>{$goodInfo.place}</span></li>
+          <li>
+            <label>商品编号：</label>
+            <span>{$goodInfo.goodnumber}</span></li>
+          <li>
+            <label>购买数量：</label>
+            <a href="javascript:void(0)" class="jian">-</a>
+            <input class="goodnum" value="1" name="num[]" type="text">
+            <a href="javascript:void(0)" class="jia">+</a><span id="goodStock" value="{$goodInfo.stock}">库存（{$goodInfo.stock}）</span></li>
+        </ul>
+      </div>
+      <div class="goods_icon">
+        <empty name="$shopInfo.qrcode">
+          <img src="__PUBLIC__/Home/Image/float_icon_weixin.jpg">
+          <else/>
+          <img src="__ROOT__/{$shopInfo.qrcode}">
+        </empty> 
+        <div style="text-align:center">（扫码关注店铺）</div>
+      </div>
+      <div class="select_btn"> 
+        <a href="javascript:void(0);" class="goods_add"  onclick="addCarts({$goodInfo.id},1)">加入购物车</a> 
+        <a href="javascript:void(0);" class="goods_buy" onclick="purchase({$goodInfo.id})">立即购买</a>
+        <if condition="checkCollection($goodInfo['id'],0) eq 1">
+          <a href="javascript:void(0);" class="goods_collection-do" onclick="cancle({$goodInfo.id},0,{$Think.session.uid})">
+            <img src="__PUBLIC__/Home/Icon/good-collection-do.png">
+            取消收藏
+          </a>
+          <else/>
+          <a href="javascript:void(0);" class="goods_collection" onclick="Collection({$goodInfo.id},0)">
+            <img src="__PUBLIC__/Home/Icon/good-collection.png">
+            收藏商品
+          </a>  
+        </if>
+      </div>
+    </div>
+    <!--图片右侧介绍信息结束 -->
+    <div class="goods_moreInfo">
+      <div class="wrapper">
+        <div class="shoper_info">
+          <h3>{$shopInfo.name}</h3>
+          <div class="shoper_item">
+            <div class="shop_logo">
+              <empty name="$shopInfo.logo">
+                <img src="__PUBLIC__/Home/ShopImage/shop_logo.jpg">
+                <else/>
+                <img src="__ROOT__/{$shopInfo.logo}">
+              </empty>  
+            </div>
+            <div class="itemscore">商品评分：{:sprintf("%.1f", $goodScore)}分</div>
+            <div class="itemscore">服务评分：{:sprintf("%.1f", $logisticsSocre)}分</div>
+            <div class="itemscore">物流评分：{:sprintf("%.1f", $serviceScore)}分</div>
+            <div class="shop_footer"> 
+              <a href="{:U('Home/Shop/index',array('shopId'=>$shopInfo['id']))}" target="_blank">进店逛逛</a>
+              <if condition="checkCollection($shopInfo['id'],1) eq 1">
+                <a href="javascript:void(0);" onclick="cancle({$shopInfo.id},1,{$Think.session.uid})">取消关注</a>
+                <else/>
+                <a href="javascript:void(0);" onclick="Collection({$shopInfo.id},1)">关注本店</a>
+              </if>
+            </div>
+          </div>
+        </div>
+        <div class="shop_recommend">
+          <h3>店主推荐</h3>
+          <empty name="recomendGoods">
+            <else/>
+            <ul class="p_list">
+              <volist name="recomendGoods" id="item">
+                <li>
+                  <div class="list-wrap">
+                    <div class="p_pics">
+                      <a href="{:U('Home/Index/goodsInfo',array('id'=>$item['goodid']))}" class="eshop_img" target="_blank"><img src="__ROOT__/{$item.good_log}"/>
+                      </a>
+                    </div>
+                    <div class="p_sales">
+                      <div class="p_price"> 
+                        <strong><em style="color:red;">￥</em><i style="color:red;">{$item.shopprice}</i></strong>
+                      </div>
+                      <div class="p_amounts"> 
+                         <strong>销量：<span>{$item.count}</span></strong>
+                      </div>
+                    </div>
+                    <div class="p_name"> 
+                      <a href="{:U('Home/Index/goodsInfo',array('id'=>$item['goodid']))}" target="_blank">{$item.name} 
+                      </a> 
+                    </div>
+                    <div class="p_shop_info">
+                      <div class="p_shop_name">
+                        <span><a href="{:U('Home/Shop/index',array('shopId'=> $item['shopid']))}" target="_blank">{$shopInfo.name}</a></span>
+                      </div>
+                      <div class="p_good_place">
+                        <span style="color:#868686;">{$item.place}</span>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </volist>
+            </ul>
+          </empty>
+        </div>
+      </div>
+      <!-- 店铺信息和商家推荐结束-->
+      <div class="goods_details">
+        <div class="details_nav">
+          <ul>
+            <a href="javascript:void(0);" class="nav_active" rel="nav1">商品详情</a> <a href="javascript:void(0);" rel="nav2">商品评论（{$goodComment|count}）</a> <a href="javascript:void(0);" rel="nav3">专享服务</a>
+          </ul>
+        </div>
+        <div class="details_wrapper">
+          <div class="details_content" id="nav1">
+            <div class="goods_detail_lists">
+              <ul>
+                <volist name="goodLable" id="data"  empty="该商品还没有详细信息！！！">
+                  <li>
+                    {$data.name}：
+                    <if condition="$data.lablecontent eq '1'">
+                      是
+                      <elseif condition ="$data.lablecontent eq '0'"/>
+                      否
+                      <else/>
+                      {$data.lablecontent}
+                    </if>
+                  </li>
+                </volist>           
+              </ul>
+            </div>
+            <div class="goods_img">
+              <ul>
+                <li><img src="__PUBLIC__/Home/Image/sg5.jpg" alt=""></li>
+                <li><img src="__PUBLIC__/Home/Image/sg4.jpg" alt=""></li>
+                <li><img src="__PUBLIC__/Home/Image/sg3.jpg" alt=""></li>
+              </ul>
+            </div>
+          </div>
+          <!--商品详细参数结束 -->
+          <div class="details_content" id="nav2" style="display:none;">
+            <ul class="s_comment">
+              <volist name="goodComment" id="data" empty="暂时没有评论！！！">
+                <li>
+                  <div class="s_comment_left">
+                    <div class="user_photo">
+                      <if condition="$data.photo eq null ">
+                        <img src="__PUBLIC__/Home/Icon/user_photo.png">
+                        <else/>
+                        <img src="__ROOT__/{$data.photo}">
+                      </if>  
+                    </div>
+                    <div class="user_name">{$data.name}</div>
+                  </div>
+                  <div class="s_comment_right">
+                    <div class="texts">{$data.contents}</div>
+                    <div class="p_date">{$data.time|date="Y-m-d h:m",###}&nbsp;&nbsp;详情：{$goodInfo.name}</div>
+                  </li>
+              </volist>      
+            </ul>
+          </div>
+          <!--商品评论结束 -->
+          <div class="details_content" id="nav3" style="display:none;">
+            <empty name="goodService[0].content">
+              商家很懒，还没有填写任何东西！！！
+              <else /> 
+              {$goodService[0].content|html_entity_decode}
+            </empty> 
+          </div>
+          <!--商品专享服务结束 --> 
+        </div>
+      </div>
+      <!--商品详细参数和评论结束 --> 
+    </div>
+  </div>
+  <!--商品内容左侧显示结束 -->
+  <div class="goods_info_right">
+    <notempty name="likeGoods">
+      <div class="like_wrap">
+        <h3>您可能喜欢</h3>
+        <div class="like">
+          <ul class="p_list">
+            <volist name="likeGoods" id="item">
+              <li>
+                <div class="list-wrap">
+                    <div class="p_pics">
+                      <a href="{:U('Home/Index/goodsInfo',array('id'=>$item['id']))}" class="eshop_img" target="_bank"><img src="__ROOT__/{$item.good_log}"/>
+                      </a>
+                    </div>
+                    <div class="p_sales">
+                      <div class="p_price"> 
+                        <strong><em style="color:red;">￥</em><i style="color:red;">{$item.shopprice}</i></strong>
+                      </div>
+                      <div class="p_amounts"> 
+                         <strong>销量：<span>{$item.count}</span></strong>
+                      </div>
+                    </div>
+                    <div class="p_name" style="max-height:60px;overflow:hidden;min-height: auto;"> 
+                      <a href="{:U('Home/Index/goodsInfo',array('id'=>$item['id']))}" target="_blank">{$item.name}
+                      </a> 
+                    </div>
+                    <div class="p_shop_info">
+                      <div class="p_shop_name">
+                        <span><a href="{:U('Home/Shop/index',array('shopId'=> $item['shopid']))}" target="_blank">{$item.shopname}</a></span>
+                      </div>
+                      <div class="p_good_place">
+                        <span style="color:#868686;">{$item.place}</span>
+                      </div>
+                    </div>
+                </div>
+              </li>
+            </volist>
+          </ul>
+        </div>
+      </div>
+    </notempty>
+    <notempty name="history">
+      <div class="history_wrap">
+        <h3>浏览记录</h3>
+        <div class="history">
+          <ul class="p_list">
+            <volist name="history" id="item" offset="0" length='4'>
+              <li>
+                <div class="list-wrap">
+                  <div class="p_pics">
+                    <a href="{:U('Home/Index/goodsInfo',array('id'=>$item['id']))}" class="eshop_img" target="_bank"><img src="__ROOT__/{$item.good_log}"/>
+                    </a>
+                  </div>
+                  <div class="p_sales">
+                    <div class="p_price"> 
+                      <strong><em style="color:red;">￥</em><i style="color:red;">{$item.shopprice}</i></strong>
+                    </div>
+                    <div class="p_amounts"> 
+                     <strong>销量：<span>{$item.count}</span></strong>
+                   </div>
+                 </div>
+                 <div class="p_name" style="max-height:60px;overflow:hidden;min-height: auto;"> 
+                  <a href="{:U('Home/Index/goodsInfo',array('id'=>$item['id']))}" target="_blank">{$item.name}
+                  </a> 
+                </div>
+                <div class="p_shop_info">
+                  <div class="p_shop_name">
+                    <span><a href="{:U('Home/Shop/index',array('shopId'=>$shopInfo['id']))}" target="_blank">{$shopInfo.name}</a></span>
+                  </div>
+                  <div class="p_good_place">
+                    <span style="color:#868686;">{$item.place}</span>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </volist>
+          </ul>
+        </div>
+      </div>
+    </notempty>
+  </div>
+  <!--商品内容右侧显示结束 --> 
+</div>
+<include file = "Public:footer"/>
+</body>
+</html>

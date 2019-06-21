@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>服务中心-{$content.name}</title>
+<include file = "Public:common"/>
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/Css/help.css">
+<script type="text/javascript" src="__PUBLIC__/Home/Js/help.js"></script>
+</head>
+<body>
+<include file="Public:header" />
+<div class="position_now">
+  <label><a href="{:U('Index/index')}">首页</a></label>
+  <span>&gt</span>
+  <label>{$content.name}</label>
+</div>
+<div class="help_content">
+  <div class="help_content_left">
+    <h3 class="help_title">服务中心</h3>
+    <notempty name="footerMenu">
+      <ul id="help_nav">
+        <volist name="footerMenu" id="item">
+          <li class="h_list"> 
+            <span>{$item.name}
+              <p class="h_list_icon h_list_icon_hidden"></p>
+            </span>
+            <ul class="h_menus" >
+              <volist name="item.child" id="data">
+                <a href="{:U('Home/Help/index',array('id' => $data[0]))}">
+                  <li>{$data[1]}</li>
+                </a> 
+              </volist>
+            </ul>
+          </li>
+        </volist>
+      </ul>
+    </notempty>
+  </div>
+  <div class="help_content_right">
+    <div class="right_title">
+      <h2>{$content.name}</h2>
+    </div>
+    <div class="right_content">
+      <empty name="content.content">
+        <div>暂无内容！！！</div>
+        <else/>
+        <ul>
+          <li>
+            <p>{$content.content|html_entity_decode}</p>
+          </li>
+      </empty>
+    </div>
+  </div>
+</div>
+<div class="float_clear"></div>
+<include file="Public:footer" />
+</body>
+</html>

@@ -1,0 +1,794 @@
+[ 2017-03-12T08:42:50+08:00 ] ::1 /eshop/index.php/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002420s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001547s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001697s ]
+
+[ 2017-03-12T08:43:02+08:00 ] ::1 /eshop/index.php/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003542s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001830s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001982s ]
+
+[ 2017-03-12T08:43:02+08:00 ] ::1 /eshop/index.php/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002704s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004188s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002599s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002848s ]
+
+[ 2017-03-12T08:43:04+08:00 ] ::1 /eshop/index.php/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003373s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002296s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002536s ]
+
+[ 2017-03-12T08:43:04+08:00 ] ::1 /eshop/index.php/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003744s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002229s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002475s ]
+
+[ 2017-03-12T08:43:05+08:00 ] ::1 /eshop/index.php/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002899s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002073s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002293s ]
+
+[ 2017-03-12T08:43:07+08:00 ] ::1 /eshop/index.php/Shoper/doLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002458s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0340s ]
+SQL: SELECT * FROM `eshop_shoper` WHERE `name` = 'shoper3' LIMIT 1   [ RunTime:0.0013s ]
+NOTIC: [2] fopen(D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Org\Net/UTFWry.dat): failed to open stream: No such file or directory D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Org\Net\IpLocation.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `eshop_shoper_log` [ RunTime:0.0160s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `eshop_shoper_log` (`shoperId`,`action`,`ip`,`location`,`time`) VALUES ('13','登录','0.0.0.0',NULL,'1489279387') [ RunTime:0.1961s ]
+
+[ 2017-03-12T09:02:14+08:00 ] ::1 /eshop/index.php/Good/getShopCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002187s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003407s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_secondmenu` [ RunTime:0.0077s ]
+SQL: SELECT `id`,`sname` FROM `eshop_shop_secondmenu` WHERE `pid` = 1 AND `is_show` = 1  [ RunTime:0.0006s ]
+
+[ 2017-03-12T09:02:17+08:00 ] ::1 /eshop/index.php/Good/getShopCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001804s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002829s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_secondmenu` [ RunTime:0.0086s ]
+SQL: SELECT `id`,`sname` FROM `eshop_shop_secondmenu` WHERE `pid` = 5 AND `is_show` = 1  [ RunTime:0.0007s ]
+
+[ 2017-03-12T09:02:49+08:00 ] ::1 /eshop/index.php/Good/getShopCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002507s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_secondmenu` [ RunTime:0.0061s ]
+SQL: SELECT `id`,`sname` FROM `eshop_shop_secondmenu` WHERE `pid` = 1 AND `is_show` = 1  [ RunTime:0.0005s ]
+
+[ 2017-03-12T09:12:00+08:00 ] ::1 /eshop/index.php/Good/goodImgDel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002396s ]
+NOTIC: [2] closedir() expects parameter 1 to be resource, string given D:\wampserver\wamp\www\eshop\App\Common\Common\function.php 第 98 行.
+NOTIC: [2] closedir() expects parameter 1 to be resource, string given D:\wampserver\wamp\www\eshop\App\Common\Common\function.php 第 98 行.
+NOTIC: [2] closedir() expects parameter 1 to be resource, string given D:\wampserver\wamp\www\eshop\App\Common\Common\function.php 第 98 行.
+NOTIC: [2] closedir() expects parameter 1 to be resource, string given D:\wampserver\wamp\www\eshop\App\Common\Common\function.php 第 98 行.
+
+[ 2017-03-12T09:15:56+08:00 ] ::1 /eshop/index.php/Good/getShopCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001960s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_secondmenu` [ RunTime:0.0081s ]
+SQL: SELECT `id`,`sname` FROM `eshop_shop_secondmenu` WHERE `pid` = 1 AND `is_show` = 1  [ RunTime:0.0006s ]
+
+[ 2017-03-12T09:23:51+08:00 ] ::1 /eshop/index.php/Good/eidtSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002213s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001368s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001538s ]
+
+[ 2017-03-12T11:23:14+08:00 ] ::1 /eshop/index.php/Good/getWebCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002228s ]
+SQL: SHOW COLUMNS FROM `eshop_secondmenu` [ RunTime:0.0054s ]
+SQL: SELECT `id`,`name` FROM `eshop_secondmenu` WHERE `pid` = 2 AND `is_show` = 1  [ RunTime:0.0005s ]
+
+[ 2017-03-12T11:23:22+08:00 ] ::1 /eshop/index.php/Good/getShopCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001515s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_secondmenu` [ RunTime:0.0072s ]
+SQL: SELECT `id`,`sname` FROM `eshop_shop_secondmenu` WHERE `pid` = 1 AND `is_show` = 1  [ RunTime:0.0008s ]
+
+[ 2017-03-12T11:47:10+08:00 ] ::1 /eshop/index.php/Good/getShopCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000758s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001505s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_secondmenu` [ RunTime:0.0063s ]
+SQL: SELECT `id`,`sname` FROM `eshop_shop_secondmenu` WHERE `pid` = 1 AND `is_show` = 1  [ RunTime:0.0005s ]
+
+[ 2017-03-12T11:47:11+08:00 ] ::1 /eshop/index.php/Good/goodsSearch.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001254s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0072s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0053s ]
+SQL: SELECT `goodid`,`goodnumber`,`name`,`shopprice`,`place`,`stock`,`is_new`,`is_hot`,`is_recomend` FROM eshop_good g INNER JOIN eshop_goodnav as n on g.id = n.goodId  WHERE `s_fid` = 1 AND `is_exam` = 0 AND `is_legal` = 1 AND `is_forbid` = 0  [ RunTime:0.0006s ]
+SQL: SELECT eshop_good.* FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `s_fid` = 1 AND `is_exam` = 0 AND `is_legal` = 1 AND `is_forbid` = 0 ORDER BY time desc LIMIT 0,20   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012086s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000623s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000598s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001351s ]
+
+[ 2017-03-12T11:48:01+08:00 ] ::1 /eshop/index.php/Good/getShopCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001352s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_secondmenu` [ RunTime:0.0057s ]
+SQL: SELECT `id`,`sname` FROM `eshop_shop_secondmenu` WHERE `pid` = 5 AND `is_show` = 1  [ RunTime:0.0005s ]
+
+[ 2017-03-12T11:48:03+08:00 ] ::1 /eshop/index.php/Good/goodsSearch.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001347s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0180s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0048s ]
+SQL: SELECT `goodid`,`goodnumber`,`name`,`shopprice`,`place`,`stock`,`is_new`,`is_hot`,`is_recomend` FROM eshop_good g INNER JOIN eshop_goodnav as n on g.id = n.goodId  WHERE `s_fid` = 5 AND `is_exam` = 0 AND `is_legal` = 1 AND `is_forbid` = 0  [ RunTime:0.0004s ]
+SQL: SELECT eshop_good.* FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `s_fid` = 5 AND `is_exam` = 0 AND `is_legal` = 1 AND `is_forbid` = 0 ORDER BY time desc LIMIT 0,20   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012151s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000663s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000880s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001721s ]
+
+[ 2017-03-12T11:48:04+08:00 ] ::1 /eshop/index.php/Good/goodsSearch.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001358s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0057s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0057s ]
+SQL: SELECT `goodid`,`goodnumber`,`name`,`shopprice`,`place`,`stock`,`is_new`,`is_hot`,`is_recomend` FROM eshop_good g INNER JOIN eshop_goodnav as n on g.id = n.goodId  WHERE `s_fid` = 5 AND `is_exam` = 0 AND `is_legal` = 1 AND `is_forbid` = 0  [ RunTime:0.0004s ]
+SQL: SELECT eshop_good.* FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `s_fid` = 5 AND `is_exam` = 0 AND `is_legal` = 1 AND `is_forbid` = 0 ORDER BY time desc LIMIT 0,20   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012096s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012189s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000593s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000660s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001369s ]
+
+[ 2017-03-12T11:48:07+08:00 ] ::1 /eshop/index.php/Good/getShopCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000768s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001377s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_secondmenu` [ RunTime:0.0055s ]
+SQL: SELECT `id`,`sname` FROM `eshop_shop_secondmenu` WHERE `pid` = 1 AND `is_show` = 1  [ RunTime:0.0004s ]
+
+[ 2017-03-12T11:48:09+08:00 ] ::1 /eshop/index.php/Good/goodsSearch.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001455s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.1011s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0064s ]
+SQL: SELECT `goodid`,`goodnumber`,`name`,`shopprice`,`place`,`stock`,`is_new`,`is_hot`,`is_recomend` FROM eshop_good g INNER JOIN eshop_goodnav as n on g.id = n.goodId  WHERE `s_fid` = 1 AND `is_exam` = 0 AND `is_legal` = 1 AND `is_forbid` = 0  [ RunTime:0.0010s ]
+SQL: SELECT eshop_good.* FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `s_fid` = 1 AND `is_exam` = 0 AND `is_legal` = 1 AND `is_forbid` = 0 ORDER BY time desc LIMIT 0,20   [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000240s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026168s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026399s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001367s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001342s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002939s ]
+
+[ 2017-03-12T11:48:13+08:00 ] ::1 /eshop/index.php/Good/getShopCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001186s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_secondmenu` [ RunTime:0.0055s ]
+SQL: SELECT `id`,`sname` FROM `eshop_shop_secondmenu` WHERE `pid` = 5 AND `is_show` = 1  [ RunTime:0.0004s ]
+
+[ 2017-03-12T11:48:14+08:00 ] ::1 /eshop/index.php/Good/goodsSearch.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001169s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0062s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0055s ]
+SQL: SELECT `goodid`,`goodnumber`,`name`,`shopprice`,`place`,`stock`,`is_new`,`is_hot`,`is_recomend` FROM eshop_good g INNER JOIN eshop_goodnav as n on g.id = n.goodId  WHERE `s_fid` = 5 AND `is_exam` = 0 AND `is_legal` = 1 AND `is_forbid` = 0  [ RunTime:0.0005s ]
+SQL: SELECT eshop_good.* FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `s_fid` = 5 AND `is_exam` = 0 AND `is_legal` = 1 AND `is_forbid` = 0 ORDER BY time desc LIMIT 0,20   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011780s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011882s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000551s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000610s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001285s ]
+
+[ 2017-03-12T11:48:56+08:00 ] ::1 /eshop/index.php/Good/goodsSearch.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001927s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0055s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0060s ]
+SQL: SELECT `goodid`,`goodnumber`,`name`,`shopprice`,`place`,`stock`,`is_new`,`is_hot`,`is_recomend` FROM eshop_good g INNER JOIN eshop_goodnav as n on g.id = n.goodId  WHERE `s_fid` = 5 AND `is_exam` = 0 AND `is_legal` = 1 AND `is_forbid` = 0  [ RunTime:0.0005s ]
+SQL: SELECT eshop_good.* FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `s_fid` = 5 AND `is_exam` = 0 AND `is_legal` = 1 AND `is_forbid` = 0 ORDER BY time desc LIMIT 0,20   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012756s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012841s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000654s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000740s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001503s ]
+
+[ 2017-03-12T11:48:57+08:00 ] ::1 /eshop/index.php/Good/goodsSearch.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000946s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001626s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0055s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0059s ]
+SQL: SELECT `goodid`,`goodnumber`,`name`,`shopprice`,`place`,`stock`,`is_new`,`is_hot`,`is_recomend` FROM eshop_good g INNER JOIN eshop_goodnav as n on g.id = n.goodId  WHERE `s_fid` = 5 AND `is_exam` = 0 AND `is_legal` = 1 AND `is_forbid` = 0  [ RunTime:0.0005s ]
+SQL: SELECT eshop_good.* FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `s_fid` = 5 AND `is_exam` = 0 AND `is_legal` = 1 AND `is_forbid` = 0 ORDER BY time desc LIMIT 0,20   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013370s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013469s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000685s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000755s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001548s ]
+
+[ 2017-03-12T11:48:58+08:00 ] ::1 /eshop/index.php/Good/goodsSearch.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000835s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001415s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0049s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0056s ]
+SQL: SELECT `goodid`,`goodnumber`,`name`,`shopprice`,`place`,`stock`,`is_new`,`is_hot`,`is_recomend` FROM eshop_good g INNER JOIN eshop_goodnav as n on g.id = n.goodId  WHERE `s_fid` = 5 AND `is_exam` = 0 AND `is_legal` = 1 AND `is_forbid` = 0  [ RunTime:0.0004s ]
+SQL: SELECT eshop_good.* FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `s_fid` = 5 AND `is_exam` = 0 AND `is_legal` = 1 AND `is_forbid` = 0 ORDER BY time desc LIMIT 0,20   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012786s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012868s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000679s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000676s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001460s ]
+
+[ 2017-03-12T11:48:59+08:00 ] ::1 /eshop/index.php/Good/getShopCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000955s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001603s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_secondmenu` [ RunTime:0.0051s ]
+SQL: SELECT `id`,`sname` FROM `eshop_shop_secondmenu` WHERE `pid` = 1 AND `is_show` = 1  [ RunTime:0.0004s ]
+
+[ 2017-03-12T11:49:00+08:00 ] ::1 /eshop/index.php/Good/goodsSearch.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001476s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0054s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0053s ]
+SQL: SELECT `goodid`,`goodnumber`,`name`,`shopprice`,`place`,`stock`,`is_new`,`is_hot`,`is_recomend` FROM eshop_good g INNER JOIN eshop_goodnav as n on g.id = n.goodId  WHERE `s_fid` = 1 AND `is_exam` = 0 AND `is_legal` = 1 AND `is_forbid` = 0  [ RunTime:0.0004s ]
+SQL: SELECT eshop_good.* FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `s_fid` = 1 AND `is_exam` = 0 AND `is_legal` = 1 AND `is_forbid` = 0 ORDER BY time desc LIMIT 0,20   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000139s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012989s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013078s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000670s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000684s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001462s ]
+
+[ 2017-03-12T11:51:43+08:00 ] ::1 /eshop/index.php/Good/getShopCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000942s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001577s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_secondmenu` [ RunTime:0.0091s ]
+SQL: SELECT `id`,`sname` FROM `eshop_shop_secondmenu` WHERE `pid` = 1 AND `is_show` = 1  [ RunTime:0.0004s ]
+
+[ 2017-03-12T11:51:44+08:00 ] ::1 /eshop/index.php/Good/goodsSearch.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000881s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001540s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0074s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0053s ]
+SQL: SELECT `goodid`,`goodnumber`,`name`,`shopprice`,`place`,`stock`,`is_new`,`is_hot`,`is_recomend` FROM eshop_good g INNER JOIN eshop_goodnav as n on g.id = n.goodId  WHERE `s_fid` = 1 AND `is_exam` = 0 AND `is_legal` = 1 AND `is_forbid` = 0  [ RunTime:0.0004s ]
+SQL: SELECT eshop_good.* FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `s_fid` = 1 AND `is_exam` = 0 AND `is_legal` = 1 AND `is_forbid` = 0 ORDER BY time desc LIMIT 0,20   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000181s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012470s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012570s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000633s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000770s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001540s ]
+
+[ 2017-03-12T11:51:47+08:00 ] ::1 /eshop/index.php/Good/goodsSearch.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001162s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001801s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0057s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0070s ]
+SQL: SELECT `goodid`,`goodnumber`,`name`,`shopprice`,`place`,`stock`,`is_new`,`is_hot`,`is_recomend` FROM eshop_good g INNER JOIN eshop_goodnav as n on g.id = n.goodId  WHERE `s_fid` = 1 AND `s_sid` = 1 AND `is_exam` = 0 AND `is_legal` = 1 AND `is_forbid` = 0  [ RunTime:0.0006s ]
+SQL: SELECT eshop_good.* FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `s_fid` = 1 AND `s_sid` = 1 AND `is_exam` = 0 AND `is_legal` = 1 AND `is_forbid` = 0 ORDER BY time desc LIMIT 0,20   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012195s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012313s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000660s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000795s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001621s ]
+
+[ 2017-03-12T11:52:33+08:00 ] ::1 /eshop/index.php/Good/goodImgDel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001102s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001722s ]
+NOTIC: [2] closedir() expects parameter 1 to be resource, string given D:\wampserver\wamp\www\eshop\App\Common\Common\function.php 第 98 行.
+NOTIC: [2] closedir() expects parameter 1 to be resource, string given D:\wampserver\wamp\www\eshop\App\Common\Common\function.php 第 98 行.
+NOTIC: [2] closedir() expects parameter 1 to be resource, string given D:\wampserver\wamp\www\eshop\App\Common\Common\function.php 第 98 行.
+NOTIC: [2] closedir() expects parameter 1 to be resource, string given D:\wampserver\wamp\www\eshop\App\Common\Common\function.php 第 98 行.
+
+[ 2017-03-12T11:52:35+08:00 ] ::1 /eshop/index.php/Good/goodImgDel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002165s ]
+NOTIC: [2] closedir() expects parameter 1 to be resource, string given D:\wampserver\wamp\www\eshop\App\Common\Common\function.php 第 98 行.
+NOTIC: [2] closedir() expects parameter 1 to be resource, string given D:\wampserver\wamp\www\eshop\App\Common\Common\function.php 第 98 行.
+NOTIC: [2] closedir() expects parameter 1 to be resource, string given D:\wampserver\wamp\www\eshop\App\Common\Common\function.php 第 98 行.
+NOTIC: [2] closedir() expects parameter 1 to be resource, string given D:\wampserver\wamp\www\eshop\App\Common\Common\function.php 第 98 行.
+
+[ 2017-03-12T12:07:32+08:00 ] ::1 /eshop/index.php/Good/goodImgDel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001697s ]
+NOTIC: [2] closedir() expects parameter 1 to be resource, string given D:\wampserver\wamp\www\eshop\App\Common\Common\function.php 第 98 行.
+NOTIC: [2] closedir() expects parameter 1 to be resource, string given D:\wampserver\wamp\www\eshop\App\Common\Common\function.php 第 98 行.
+NOTIC: [2] closedir() expects parameter 1 to be resource, string given D:\wampserver\wamp\www\eshop\App\Common\Common\function.php 第 98 行.
+NOTIC: [2] closedir() expects parameter 1 to be resource, string given D:\wampserver\wamp\www\eshop\App\Common\Common\function.php 第 98 行.
+
+[ 2017-03-12T12:18:57+08:00 ] ::1 /eshop/index.php/Good/eidtSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000866s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001415s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001364s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001686s ]
+
+[ 2017-03-12T12:19:10+08:00 ] ::1 /eshop/index.php/Good/eidtSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000880s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001471s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000896s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000990s ]
+
+[ 2017-03-12T12:39:39+08:00 ] ::1 /eshop/index.php/Good/getShopCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000892s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001454s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_secondmenu` [ RunTime:0.0074s ]
+SQL: SELECT `id`,`sname` FROM `eshop_shop_secondmenu` WHERE `pid` = 1 AND `is_show` = 1  [ RunTime:0.0005s ]
+
+[ 2017-03-12T12:39:40+08:00 ] ::1 /eshop/index.php/Good/goodsSearch.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001342s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0055s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0057s ]
+SQL: SELECT `goodid`,`goodnumber`,`name`,`shopprice`,`place`,`stock`,`is_new`,`is_hot`,`is_recomend` FROM eshop_good g INNER JOIN eshop_goodnav as n on g.id = n.goodId  WHERE `s_fid` = 1 AND `is_exam` = 0 AND `is_legal` = 1 AND `is_forbid` = 0  [ RunTime:0.0008s ]
+SQL: SELECT eshop_good.* FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `s_fid` = 1 AND `is_exam` = 0 AND `is_legal` = 1 AND `is_forbid` = 0 ORDER BY time desc LIMIT 0,20   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013126s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013246s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000601s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000702s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001428s ]
+
+[ 2017-03-12T12:40:01+08:00 ] ::1 /eshop/index.php/Good/goodsSearch.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000983s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001786s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0058s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0066s ]
+SQL: SELECT `goodid`,`goodnumber`,`name`,`shopprice`,`place`,`stock`,`is_new`,`is_hot`,`is_recomend` FROM eshop_good g INNER JOIN eshop_goodnav as n on g.id = n.goodId  WHERE `s_fid` = 1 AND `s_sid` = 1 AND `is_exam` = 0 AND `is_legal` = 1 AND `is_forbid` = 0  [ RunTime:0.0005s ]
+SQL: SELECT eshop_good.* FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `s_fid` = 1 AND `s_sid` = 1 AND `is_exam` = 0 AND `is_legal` = 1 AND `is_forbid` = 0 ORDER BY time desc LIMIT 0,20   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000261s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012545s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012672s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000654s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000645s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001430s ]
+
+[ 2017-03-12T12:40:05+08:00 ] ::1 /eshop/index.php/Good/getShopCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000753s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001421s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_secondmenu` [ RunTime:0.0054s ]
+SQL: SELECT `id`,`sname` FROM `eshop_shop_secondmenu` WHERE `pid` = 0 AND `is_show` = 1  [ RunTime:0.0004s ]
+
+[ 2017-03-12T12:40:16+08:00 ] ::1 /eshop/index.php/Good/goodsSearch.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000745s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001332s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0231s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0053s ]
+SQL: SELECT `goodid`,`goodnumber`,`name`,`shopprice`,`place`,`stock`,`is_new`,`is_hot`,`is_recomend` FROM eshop_good g INNER JOIN eshop_goodnav as n on g.id = n.goodId  WHERE `name` LIKE '%玉米%' AND `is_exam` = 0 AND `is_legal` = 1 AND `is_forbid` = 0  [ RunTime:0.0316s ]
+SQL: SELECT eshop_good.* FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `name` LIKE '%玉米%' AND `is_exam` = 0 AND `is_legal` = 1 AND `is_forbid` = 0 ORDER BY time desc LIMIT 0,20   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000255s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028742s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029015s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001126s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001083s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002426s ]
+
+[ 2017-03-12T13:50:32+08:00 ] ::1 /eshop/index.php/Good/eidtSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001253s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001016s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001142s ]
+
+[ 2017-03-12T13:55:14+08:00 ] ::1 /eshop/index.php/Good/getWebCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001339s ]
+SQL: SHOW COLUMNS FROM `eshop_secondmenu` [ RunTime:0.0057s ]
+SQL: SELECT `id`,`name` FROM `eshop_secondmenu` WHERE `pid` = 2 AND `is_show` = 1  [ RunTime:0.0005s ]
+
+[ 2017-03-12T13:55:16+08:00 ] ::1 /eshop/index.php/Good/getWebCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001547s ]
+SQL: SHOW COLUMNS FROM `eshop_thirdmenu` [ RunTime:0.0057s ]
+SQL: SELECT `id`,`name` FROM `eshop_thirdmenu` WHERE `pid` = 3 AND `is_show` = 1  [ RunTime:0.0006s ]
+
+[ 2017-03-12T13:55:23+08:00 ] ::1 /eshop/index.php/Good/getShopCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001288s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_secondmenu` [ RunTime:0.0094s ]
+SQL: SELECT `id`,`sname` FROM `eshop_shop_secondmenu` WHERE `pid` = 5 AND `is_show` = 1  [ RunTime:0.0005s ]
+
+[ 2017-03-12T13:58:23+08:00 ] ::1 /eshop/index.php/Good/goodsSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001120s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001793s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0058s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined variable: x D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: y D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0052s ]
+SQL: SHOW COLUMNS FROM `eshop_goodnav` [ RunTime:0.0048s ]
+SQL: SHOW COLUMNS FROM `eshop_goodservice` [ RunTime:0.0055s ]
+SQL: SHOW COLUMNS FROM `eshop_goodinfo` [ RunTime:0.0052s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `eshop_good` WHERE `goodNumber` = '14828254901358206992' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `eshop_good` (`marketPrice`,`shopPrice`,`stock`,`place`,`status`,`good_log`,`name`,`stock_warning`,`goodNumber`,`is_recomend`,`is_hot`,`time`,`modify_recenet`) VALUES ('3.4','2.81','324','江苏','1','Uploads/Shops/logo/2017-03-12/thumb_58c4e37f151e7.jpg','水蜜桃','21','14828254901358206992','1','1','1489298303','1489298303') [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `eshop_goodimg` [ RunTime:0.0060s ]
+SQL: INSERT INTO `eshop_goodnav` (`goodId`,`shopId`,`createtime`,`modify_time`,`w_fid`,`w_sid`,`w_tid`,`s_fid`,`s_sid`) VALUES ('15','3','1489298303','1489298303','2','3','3','5','17') [ RunTime:0.0029s ]
+SQL: INSERT INTO `eshop_goodservice` (`goodId`,`content`,`createtime`) VALUES ('15','&lt;p&gt;水蜜桃很甜，可口，多吃对身体有好处。&lt;br/&gt;&lt;/p&gt;','1489298303') [ RunTime:0.0008s ]
+SQL: INSERT INTO `eshop_goodinfo` (`goodId`,`lableId`,`lableContent`) VALUES ('15','1','0.5斤一个'),('15','2','袋装'),('15','3','蜜桃'),('15','4','2017-03-04'),('15','5','冷藏下60天'),('15','6','冷藏'),('15','7','1'),('15','8','1'),('15','9','免邮') [ RunTime:0.0026s ]
+SQL: INSERT INTO `eshop_goodimg` (`goodId`,`img`,`thumb_img`,`createtime`) VALUES ('15','Uploads/Shops/goods/2017-03-12/58c4e37d5be26.jpg','Uploads/Shops/goods/2017-03-12/thumb150_58c4e37d5be26.jpg','1489298303'),('15','Uploads/Shops/goods/2017-03-12/58c4e37d690cb.jpg','Uploads/Shops/goods/2017-03-12/thumb150_58c4e37d690cb.jpg','1489298303'),('15','Uploads/Shops/goods/2017-03-12/58c4e37d75665.jpg','Uploads/Shops/goods/2017-03-12/thumb150_58c4e37d75665.jpg','1489298303') [ RunTime:0.0010s ]
+
+[ 2017-03-12T14:06:53+08:00 ] ::1 /eshop/index.php/Good/goodImgDel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001432s ]
+NOTIC: [2] closedir() expects parameter 1 to be resource, string given D:\wampserver\wamp\www\eshop\App\Common\Common\function.php 第 98 行.
+NOTIC: [2] closedir() expects parameter 1 to be resource, string given D:\wampserver\wamp\www\eshop\App\Common\Common\function.php 第 98 行.
+NOTIC: [2] closedir() expects parameter 1 to be resource, string given D:\wampserver\wamp\www\eshop\App\Common\Common\function.php 第 98 行.
+NOTIC: [2] closedir() expects parameter 1 to be resource, string given D:\wampserver\wamp\www\eshop\App\Common\Common\function.php 第 98 行.
+
+[ 2017-03-12T14:07:55+08:00 ] ::1 /eshop/index.php/Good/changePro.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000771s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001380s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0056s ]
+SQL: UPDATE `eshop_good` SET `is_recomend`='1',`modify_recenet`='1489298875' WHERE ( id in (10) ) [ RunTime:0.0005s ]
+
+[ 2017-03-12T14:13:08+08:00 ] ::1 /eshop/index.php/Good/eidtSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002874s ]
+NOTIC: [8] Undefined variable: logo D:\wampserver\wamp\www\eshop\App\Home\Controller\GoodController.class.php 第 238 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001679s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001849s ]
+
+[ 2017-03-12T14:15:06+08:00 ] ::1 /eshop/index.php/Good/eidtSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001751s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0055s ]
+NOTIC: [8] Undefined variable: logo D:\wampserver\wamp\www\eshop\App\Home\Controller\GoodController.class.php 第 239 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001863s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002034s ]
+
+[ 2017-03-12T14:15:29+08:00 ] ::1 /eshop/index.php/Good/eidtSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001176s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001836s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0085s ]
+NOTIC: [8] Undefined variable: logo D:\wampserver\wamp\www\eshop\App\Home\Controller\GoodController.class.php 第 239 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001173s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001278s ]
+
+[ 2017-03-12T14:16:26+08:00 ] ::1 /eshop/index.php/Good/eidtSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005215s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0099s ]
+NOTIC: [8] Undefined variable: logo D:\wampserver\wamp\www\eshop\App\Home\Controller\GoodController.class.php 第 239 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001652s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001808s ]
+
+[ 2017-03-12T14:16:49+08:00 ] ::1 /eshop/index.php/Good/eidtSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003248s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0070s ]
+SQL: SELECT `good_log` FROM `eshop_good` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2017-03-12T14:19:10+08:00 ] ::1 /eshop/index.php/Good/eidtSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000892s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001661s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001039s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001167s ]
+
+[ 2017-03-12T14:19:56+08:00 ] ::1 /eshop/index.php/Good/eidtSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002346s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001031s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001145s ]
+
+[ 2017-03-12T14:20:33+08:00 ] ::1 /eshop/index.php/Good/goodImgDel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001427s ]
+NOTIC: [2] closedir() expects parameter 1 to be resource, string given D:\wampserver\wamp\www\eshop\App\Common\Common\function.php 第 98 行.
+NOTIC: [2] closedir() expects parameter 1 to be resource, string given D:\wampserver\wamp\www\eshop\App\Common\Common\function.php 第 98 行.
+NOTIC: [2] closedir() expects parameter 1 to be resource, string given D:\wampserver\wamp\www\eshop\App\Common\Common\function.php 第 98 行.
+NOTIC: [2] closedir() expects parameter 1 to be resource, string given D:\wampserver\wamp\www\eshop\App\Common\Common\function.php 第 98 行.
+
+[ 2017-03-12T14:20:35+08:00 ] ::1 /eshop/index.php/Good/goodImgDel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000830s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001375s ]
+NOTIC: [2] closedir() expects parameter 1 to be resource, string given D:\wampserver\wamp\www\eshop\App\Common\Common\function.php 第 98 行.
+NOTIC: [2] closedir() expects parameter 1 to be resource, string given D:\wampserver\wamp\www\eshop\App\Common\Common\function.php 第 98 行.
+NOTIC: [2] closedir() expects parameter 1 to be resource, string given D:\wampserver\wamp\www\eshop\App\Common\Common\function.php 第 98 行.
+NOTIC: [2] closedir() expects parameter 1 to be resource, string given D:\wampserver\wamp\www\eshop\App\Common\Common\function.php 第 98 行.
+
+[ 2017-03-12T14:30:00+08:00 ] ::1 /eshop/index.php/Good/eidtSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001404s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0059s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001269s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001386s ]
+
+[ 2017-03-12T14:30:10+08:00 ] ::1 /eshop/index.php/Good/eidtSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001093s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002106s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0088s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002134s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002361s ]
+
+[ 2017-03-12T14:31:06+08:00 ] ::1 /eshop/index.php/Good/eidtSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000776s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001376s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0060s ]
+SQL: SELECT `good_log` FROM `eshop_good` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001134s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001249s ]
+
+[ 2017-03-12T14:40:15+08:00 ] ::1 /eshop/index.php/Good/eidtSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000868s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001707s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0064s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001099s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001229s ]
+
+[ 2017-03-12T15:52:59+08:00 ] ::1 /eshop/index.php/Good/eidtSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000999s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001848s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0069s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `eshop_good` SET `marketPrice`='3.40',`shopPrice`='2.81',`stock`='324',`place`='江苏',`status`='1',`name`='水蜜桃',`stock_warning`='21',`is_hot`='1',`time`='1489305179',`modify_recenet`='1489305179' WHERE `id` = 15 [ RunTime:0.0012s ]
+
+[ 2017-03-12T15:53:44+08:00 ] ::1 /eshop/index.php/Good/eidtSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001447s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0071s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `eshop_good` SET `marketPrice`='3.20',`shopPrice`='1.25',`stock`='1234',`place`='湖南',`status`='1',`name`='湖南红柚1',`stock_warning`='12',`is_hot`='1',`is_new`='1',`time`='1489305224',`modify_recenet`='1489305224' WHERE `id` = 14 [ RunTime:0.0233s ]
+
+[ 2017-03-12T15:57:11+08:00 ] ::1 /eshop/index.php/Good/eidtSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000936s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001545s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0059s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `eshop_good` SET `marketPrice`='3.20',`shopPrice`='1.25',`stock`='1234',`place`='湖南',`status`='1',`name`='湖南红柚1',`stock_warning`='12',`is_hot`='1',`is_new`='1',`time`='1489305431',`modify_recenet`='1489305431' WHERE `id` = 14 [ RunTime:0.0006s ]
+
+[ 2017-03-12T16:01:02+08:00 ] ::1 /eshop/index.php/Good/eidtSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002609s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `eshop_good` SET `marketPrice`='3.20',`shopPrice`='1.251',`stock`='1234',`place`='湖南',`status`='1',`name`='湖南红柚',`stock_warning`='12',`is_hot`='1',`is_new`='1',`time`='1489305661',`modify_recenet`='1489305661' WHERE `id` = 14 [ RunTime:0.0918s ]
+
+[ 2017-03-12T16:01:43+08:00 ] ::1 /eshop/index.php/Good/eidtSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001369s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0059s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `eshop_good` SET `marketPrice`='3.20',`shopPrice`='1.251',`stock`='1234',`place`='湖南',`status`='1',`name`='湖南红柚',`stock_warning`='12',`is_hot`='1',`is_new`='1',`time`='1489305703',`modify_recenet`='1489305703' WHERE `id` = 14 [ RunTime:0.0005s ]
+
+[ 2017-03-12T16:04:34+08:00 ] ::1 /eshop/index.php/Good/eidtSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001191s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001860s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0057s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `eshop_good` SET `marketPrice`='3.20',`shopPrice`='1.251',`stock`='1234',`place`='湖南',`status`='1',`name`='湖南红柚',`stock_warning`='12',`is_hot`='1',`is_new`='1',`time`='1489305874',`modify_recenet`='1489305874' WHERE `id` = 14 [ RunTime:0.0005s ]
+
+[ 2017-03-12T16:15:47+08:00 ] ::1 /eshop/index.php/Good/eidtSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001656s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0061s ]
+SQL: SHOW COLUMNS FROM `eshop_goodnav` [ RunTime:0.0063s ]
+SQL: SHOW COLUMNS FROM `eshop_goodservice` [ RunTime:0.0074s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `eshop_good` SET `marketPrice`='3.20',`shopPrice`='1.25',`stock`='1234',`place`='湖南',`status`='1',`name`='湖南红柚',`stock_warning`='12',`is_hot`='1',`is_new`='1',`time`='1489306547',`modify_recenet`='1489306547' WHERE `id` = 14 [ RunTime:0.0007s ]
+
+[ 2017-03-12T21:04:39+08:00 ] ::1 /eshop/index.php/Good/eidtSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002150s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `eshop_goodnav` [ RunTime:0.0071s ]
+SQL: SHOW COLUMNS FROM `eshop_goodservice` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `eshop_good` SET `marketPrice`='3.40',`shopPrice`='2.81',`stock`='324',`place`='江苏',`status`='1',`name`='水蜜桃',`stock_warning`='21',`is_hot`='1',`time`='1489323879',`modify_recenet`='1489323879' WHERE `id` = 15 [ RunTime:0.0008s ]
+
+[ 2017-03-12T21:31:11+08:00 ] ::1 /eshop/index.php/Good/eidtSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001717s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0095s ]
+SQL: SHOW COLUMNS FROM `eshop_goodnav` [ RunTime:0.0063s ]
+SQL: SHOW COLUMNS FROM `eshop_goodservice` [ RunTime:0.0096s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `eshop_good` SET `marketPrice`='3.40',`shopPrice`='2.81',`stock`='324',`place`='江苏',`status`='1',`name`='水蜜桃',`stock_warning`='21',`is_hot`='1',`time`='1489325471',`modify_recenet`='1489325471' WHERE `id` = 15 [ RunTime:0.0016s ]
+
+[ 2017-03-12T21:57:52+08:00 ] ::1 /eshop/index.php/Good/eidtSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000968s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001588s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `eshop_goodnav` [ RunTime:0.0066s ]
+SQL: SHOW COLUMNS FROM `eshop_goodservice` [ RunTime:0.0062s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `eshop_good` SET `marketPrice`='3.40',`shopPrice`='2.81',`stock`='324',`place`='江苏',`status`='1',`name`='水蜜桃',`stock_warning`='21',`is_hot`='1',`time`='1489327072',`modify_recenet`='1489327072' WHERE `id` = 15 [ RunTime:0.0009s ]
+
+[ 2017-03-12T22:04:06+08:00 ] ::1 /eshop/index.php/Index/more_info.html
+ERR: 非法操作:more_info
+

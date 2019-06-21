@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>订单（确认）填写</title>
+<include file = "Public:common"/>
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/Css/shopcart.css">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/Css/shoporders.css">
+<script src="__PUBLIC__/Home/Js/Cart/settlement.js"></script>
+<script src="__PUBLIC__/Home/Js/User/addrManage.js"></script>
+<script type="text/javascript">
+  var paymentIndex = "{:U('payment')}";
+</script>
+</head>
+<body>
+<!-- header开始 --> 
+<include file ='Public:header' /> 
+<!-- header结束 --> 
+<div class="shoporders_wrapper">
+  <div class="shopcart_nav">
+    <dl class="first doing">
+      <dt class="cart_num">1</dt>
+      <dd class="cart_text">我的购物车</dd>
+      <dd></dd>
+    </dl>
+    <dl class="second doing">
+      <dt class="cart_num">2</dt>
+      <dd class="cart_text">填写（确认）订单</dd>
+    </dl>
+    <dl class="third">
+      <dt class="cart_num1">3</dt>
+      <dd class="cart_text1">付款</dd>
+    </dl>
+  </div>
+  <!-- 导航标题结束 -->
+  <div class="cart_title">填写并订单确认</div>
+  <!-- 标题 -->
+  <div class="cart_content">
+    <form action="{:U('success')}" method="post">
+      <div class="order_place">
+        <span>收货人信息：</span>
+        <empty name="addrList">
+          <div class="address">
+            暂时还没有任何地址！<a href="javascript:;" id="addressEdit">新增收货地址</a>  
+          </div>
+          <else/>
+          <volist name="addrList" id="item">
+            <if condition="$item.is_first eq 1">
+              <div class="name">姓名：{$item.username}</div>
+              <div class="postcode">邮编：{$item.postcode}</div>
+              <div class="tel">联系电话：{$item.tel}</div>
+              <div class="address" style="float:left;">收货地址：{:formatAddr($item['location'],0)}&nbsp;&nbsp;&nbsp;{$item.streetinfo}（默认地址） 
+              </div>
+            </if>
+          </volist>
+        </empty>
+        <div class="addr-action">
+          <notempty name="addrList">
+            <a href="javascript:;" id="moreAddress">更多收货地址</a>
+          </notempty>
+          <if condition="$num lt 5">
+            <a href="javascript:;" id="addressEdit">新增收货地址</a> 
+          </if>
+        </div>
+        <div class="addrList" style="display:none">
+          <volist name="addrList" id="item">
+              <div class="addrListItem" <if condition="$item.is_first eq 1"> style="display:none"</if>>
+                <div class="item-left">
+                  <span><input type="radio" name="addr" value="{$item.id}" autocomplete="off"  <if condition="$item.is_first eq 1"> checked="checked"</if>></span>
+                  <span>{$item.username}</span>
+                  <span>{:formatAddr($item['location'],0)}&nbsp;&nbsp;&nbsp;{$item.streetinfo}</span>
+                  <span>{$item.postcode}</span>
+                  <span>{$item.tel}</span>
+                </div>
+                <div class="item-right" style="display:none;">
+                  <span><a href="javascript:;" class="modifyAddr" value="{$item.id}">编辑</a></span>
+                  <span><a href="javascript:setDefaultAddr({$item.id});">设为默认</a></span>
+                  <span><a href="javascript:delAddr({$item.id});">删除</a></span>
+                </div>
+              </div>
+          </volist>
+        </div>
+      </div>
+      <!-- 买家信息显示结束 -->
+      <div class="pay_way">
+        <span>支付方式：</span>
+        <div class="pay_way_select">
+          <input type="radio" name="payway" checked="checked" id="zhifubao" value="1">
+          <label for="zhifubao"><img src="__PUBLIC__/Home/OrderImage/zhifubao.jpg"></label>
+          <input type="radio" name="payway" id="weixin"value="2">
+          <label for="weixin"><img src="__PUBLIC__/Home/OrderImage/weixin.jpg"></label>
+          <input type="radio" name="payway" id="yinlian" value="3">
+          <label for="yinlian"><img src="__PUBLIC__/Home/OrderImage/yinlian.jpg"></label> 
+        </div>
+      </div>
+      <!-- 支付方式显示结束 -->
+      <div class="goods_order_lists">
+        <span class="list_title">商品清单</span>
+        <div class="order_content">
+          <div class="order_content_head">
+            <ul>
+              <li class="order_nav cart-item">商品编号</li>
+              <li class="order_nav cart-item1">商品信息</li>
+              <li class="order_nav cart-item2">单价（元）</li>
+              <li class="order_nav cart-item2">数量</li>
+              <li class="cart-item2">总计</li>
+            </ul>
+          </div>
+          <volist name="carts" id="item">
+            <div class="order-item" rel="{$i}">
+              <volist name="info" id="data">
+                <if condition="$item['goodid'] eq $data['goodid']">
+                  <div class="shopinfo">
+                    店铺：<a href="{:U('Home/Shop/index',array('shopId'=> $data['id']))}" target="_blank">&nbsp;&nbsp;{$data.shopname}&nbsp;&nbsp;</a> 商家：<a href="{:U('Home/Shop/index',array('shopId'=> $data['id']))}" target="_blank" class="shopName">&nbsp;&nbsp;{$data.shopername}&nbsp;&nbsp;</a> <a href="tencent://message/?uin={$data.service_qq}&Site=qq&Menu=yes"s><img src="__PUBLIC__/Home/ShopImage/qq.gif"></a>
+                    <input type="hidden" name="shopId" value="{$data['id']}"/>
+                  </div>
+                </if>
+              </volist>
+              <div class="order-info">
+                  <input type="hidden" name="goodId" value="{$item['goodid']}"/>
+                <div class="order_nav cart-item goodNumber">{$item.goodnumber}</div>
+                <div class="order_nav cart-item1 goodInfo">
+                  <a href="{:U('Home/Index/goodsInfo',array('id'=>$item['goodid']))}" target="_blank"><img src="__ROOT__/{$item.good_log}"></a>
+                  <span>{$item.name}</span>
+                </div>
+                <div class="order_nav cart-item2 price">{$item.shopprice}</div>
+                <div class="order_nav cart-item2 mount">{$item.mount}</div>
+                <div class="cart-item2 itemPrice">{:getCartItemPrice($item['goodid'],$carts)}</div>
+              </div>
+              <div class="order-message">
+                <span>给卖家留言：</span>
+                <input type="text" class="message" name="messages" placeholder="留言内容50个字以内！" value="" autocomplete="off"/>
+              </div>
+            </div>
+          </volist>
+        </div>
+      </div>
+      <!-- 商品清单列表显示结束 -->
+          <div class="lastStep"><a href="{:U('index')}">上一步</a></div>
+          <div class="sumMoney"> 应付总金额（含运费：0）：&yen;&nbsp;<span style="font-size:18px;margin-right:10px;" id="totalPrice">{$totalPrice}</span> 
+            <a href="javascript:orderSubmit(this);" id="submitOrder">提交订单</a> 
+          </div>
+      <!-- 商品清单列表显示结束 -->
+    </form>
+  </div>
+</div>
+<!-- 订单页面中间包裹内容结束 -->
+<include file='Public:footer'/>
+</body>
+</html>

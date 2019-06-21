@@ -1,0 +1,18 @@
+<!-- 系统消息列表Ajax分页显示页面 -->
+<div class="moreInfo_lists">
+  <ul>
+    <empty name="infoList">
+      <li>暂无信息！！！</li>
+      <else/>
+      <volist name="infoList" id="data">
+        <li>
+          <a href="{:U('infoDetail')}">{$data.title}</a>
+          <span>{$data.modify_time|date="Y-m-d h：m：s",###}</span>
+        </li>
+      </volist>
+    </empty>
+  </ul>
+</div>
+<!-- 分页开始 -->
+<div class="pages">{$page}</div>
+<!-- 分页结束 -->

@@ -1,0 +1,641 @@
+[ 2017-06-11T08:45:37+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-06-11 08:45:37 Use 0.049359 s
+
+[ 2017-06-11T08:45:49+08:00 ] ::1 /eshop/index.php/Admin/Login/checkVerify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001335s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.003679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001415s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001557s ]
+
+[ 2017-06-11T08:45:50+08:00 ] ::1 /eshop/index.php/Admin/Login/doLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001222s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.003365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005629s ]
+SQL: SHOW COLUMNS FROM `eshop_admin` [ RunTime:0.1332s ]
+SQL: SELECT * FROM `eshop_admin` WHERE `name` = 'admin' LIMIT 1   [ RunTime:0.0628s ]
+SQL: UPDATE `eshop_admin` SET `loginTime`='1497141950',`ip`='0.0.0.0' WHERE `id` = 1 [ RunTime:0.0885s ]
+
+[ 2017-06-11T08:53:34+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/infoEdit/id/3.html
+NOTIC: D方法实例化没找到模型类Home\Model\ArticalManageModel
+ERR: 1146:Table 'eshop.eshop_artical_manage' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `eshop_artical_manage`
+
+[ 2017-06-11T09:09:48+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/infoEdit/id/infoEditSave
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001030s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.002525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004292s ]
+SQL: SHOW COLUMNS FROM `eshop_information` [ RunTime:0.0051s ]
+ERR: 页面不存在！
+
+[ 2017-06-11T09:10:40+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/infoEditSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001152s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.002946s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004943s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000956s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001047s ]
+
+[ 2017-06-11T09:11:37+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/infoEditSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000854s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.002542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004126s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001287s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001427s ]
+
+[ 2017-06-11T09:13:48+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/infoEditSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000884s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.002298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003858s ]
+SQL: SHOW COLUMNS FROM `eshop_information` [ RunTime:0.0048s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `eshop_information` SET `title`='eshop系统上线运营通知11',`type`='3',`content`='&lt;p style=&quot;text-indent:24.0pt;&quot;&gt;&lt;span style=&quot;font-size:12.0pt;line-height:150%;font-family:宋体;&quot;&gt;我校资产管理系统自&lt;/span&gt;&lt;span style=&quot;font-size:12.0pt;line-height:150%;&quot;&gt;3&lt;/span&gt;&lt;span style=&quot;font-size:12.0pt;line-height:150%;font-family:宋体;&quot;&gt;月&lt;/span&gt;&lt;span style=&quot;font-size:12.0pt;line-height:150%;&quot;&gt;15&lt;/span&gt;&lt;span style=&quot;font-size:12.0pt;line-height:150%;font-family:宋体;&quot;&gt;日试运行测试以来，经过&lt;/span&gt;&lt;span style=&quot;font-size:12.0pt;line-height:150%;&quot;&gt;2&lt;/span&gt;&lt;span style=&quot;font-size:12.0pt;line-height:150%;font-family:宋体;&quot;&gt;个多月的测试运行，期间对系统各模块功能与流程进行了全面的测试与优化，目前系统已达到正式运行条件。&lt;/span&gt;&lt;span style=&quot;font-size:12.0pt;line-height:150%;&quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent:24.0pt;&quot;&gt;&lt;span style=&quot;font-size:12.0pt;line-height:150%;font-family:宋体;&quot;&gt;为充分发挥资产管理系统高效快捷的功能，方便各位老师申购设备、报销经费及资产的日常管理，实现我校资产管理信息化，提高日常管理工作的运作效率，现决定该系统于&lt;/span&gt;&lt;span style=&quot;font-size:12.0pt;line-height:150%;&quot;&gt;2015&lt;/span&gt;&lt;span style=&quot;font-size:12.0pt;line-height:150%;font-family:宋体;&quot;&gt;年&lt;/span&gt;&lt;span style=&quot;font-size:12.0pt;line-height:150%;&quot;&gt;6&lt;/span&gt;&lt;span style=&quot;font-size:12.0pt;line-height:150%;font-family:宋体;&quot;&gt;月&lt;/span&gt;&lt;span style=&quot;font-size:12.0pt;line-height:150%;&quot;&gt;1&lt;/span&gt;&lt;span style=&quot;font-size:12.0pt;line-height:150%;font-family:宋体;&quot;&gt;日正式上线运行。现将有关事宜通知如下：&lt;/span&gt;&lt;span style=&quot;font-size:12.0pt;line-height:150%;&quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-left:0cm;&quot;&gt;&lt;span style=&quot;font-size:12.0pt;line-height:150%;&quot;&gt;一、&lt;span style=&quot;font-size:7pt;line-height:normal;font-family:&amp;#39;Times New Roman&amp;#39;;&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-size:12.0pt;line-height:150%;font-family:宋体;&quot;&gt;系统登录：登录校园网个人门户，在应用系统入口中点击“资产管理系统”即可跳转到资产管理系统中。&lt;/span&gt;&lt;span style=&quot;font-size:12.0pt;line-height:150%;&quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-left:0cm;&quot;&gt;&lt;span style=&quot;font-size:12.0pt;line-height:150%;&quot;&gt;二、&lt;span style=&quot;font-size:7pt;line-height:normal;font-family:&amp;#39;Times New Roman&amp;#39;;&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-size:12.0pt;line-height:150%;font-family:宋体;&quot;&gt;系统包括“设备申购”、“验收入库”、“日常管理”等多个模块，各模块的操作流程可在系统的“通知公告列表”的文件下载区中下载查看。&lt;/span&gt;&lt;span style=&quot;font-size:12.0pt;line-height:150%;&quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-left:0cm;&quot;&gt;&lt;span style=&quot;font-size:12.0pt;line-height:150%;&quot;&gt;三、&lt;span style=&quot;font-size:7pt;line-height:normal;font-family:&amp;#39;Times New Roman&amp;#39;;&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-size:12.0pt;line-height:150%;font-family:宋体;&quot;&gt;系统正式运行后，设备申购、领用、资产入帐、查询、变更、调拨等功能均在系统中进行提交和申请等各项操作。&lt;/span&gt;&lt;span style=&quot;font-size:12.0pt;line-height:150%;&quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-left:0cm;&quot;&gt;&lt;span style=&quot;font-size:12.0pt;line-height:150%;&quot;&gt;四、&lt;span style=&quot;font-size:7pt;line-height:normal;font-family:&amp;#39;Times New Roman&amp;#39;;&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-size:12.0pt;line-height:150%;font-family:宋体;&quot;&gt;设备申购、经费报销都需要经费主管事先将经费导入到系统中，否则后续无法进行。全校所有固定资产或低值材料的购买，必须先通过资产管理系统的设备申购流程，由资产处安排采购或自购。&lt;/span&gt;&lt;span style=&quot;font-size:12.0pt;line-height:150%;&quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-left:0cm;&quot;&gt;&lt;span style=&quot;font-size:12.0pt;line-height:150%;&quot;&gt;五、&lt;span style=&quot;font-size:7pt;line-height:normal;font-family:&amp;#39;Times New Roman&amp;#39;;&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-size:12.0pt;line-height:150%;font-family:宋体;&quot;&gt;报销须知：系统正式上线后，申请人须填好支出报销凭证（附发票原件）、由经费主管签字后，带上合同复印件（若有合同，无合同则不需要）到资产处审核，打印入库单（或直发单）。从&lt;/span&gt;&lt;span style=&quot;font-size:12.0pt;line-height:150%;&quot;&gt;2015&lt;/span&gt;&lt;span style=&quot;font-size:12.0pt;line-height:150%;font-family:宋体;&quot;&gt;年&lt;/span&gt;&lt;span style=&quot;font-size:12.0pt;line-height:150%;&quot;&gt;6&lt;/span&gt;&lt;span style=&quot;font-size:12.0pt;line-height:150%;font-family:宋体;&quot;&gt;月&lt;/span&gt;&lt;span style=&quot;font-size:12.0pt;line-height:150%;&quot;&gt;1&lt;/span&gt;&lt;span style=&quot;font-size:12.0pt;line-height:150%;font-family:宋体;&quot;&gt;日开始财务处凭资产处&lt;strong&gt;打印件&lt;/strong&gt;报销，原有手写入库单（或直发单）不再使用。单据具体生成流程，可查阅文件下载区中申购流程。&lt;/span&gt;&lt;span style=&quot;font-size:12.0pt;line-height:150%;&quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-left:0cm;&quot;&gt;&lt;span style=&quot;font-size:12.0pt;line-height:150%;&quot;&gt;六、&lt;span style=&quot;font-size:7pt;line-height:normal;font-family:&amp;#39;Times New Roman&amp;#39;;&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-size:12.0pt;line-height:150%;font-family:宋体;&quot;&gt;系统在运行过程中各种不便在所难免，敬请各位教职工谅解。如对资产管理系统有任何意见、建议和要求，可向资产处提出，以期不断完善改进。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;						&lt;/p&gt;',`publish_time`='1497143628',`modify_time`='1497143628' WHERE `id` = 3 [ RunTime:0.1130s ]
+
+[ 2017-06-11T09:20:10+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/infoEditSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000820s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.002126s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003659s ]
+SQL: SHOW COLUMNS FROM `eshop_information` [ RunTime:0.0044s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2017-06-11T09:29:36+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/infoEditSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000884s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.002577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004108s ]
+SQL: SHOW COLUMNS FROM `eshop_information` [ RunTime:0.0054s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2017-06-11T09:30:24+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/infoEditSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000879s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.002247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003903s ]
+SQL: SHOW COLUMNS FROM `eshop_information` [ RunTime:0.0048s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `eshop_information` SET `title`='eshop正式上线通知22',`type`='1',`content`='&lt;p&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;一个人总要走陌生的路，欣赏的陌生的风景，相遇陌生的人一个人总要走陌生的路，欣赏的陌生的风景，相遇陌生的人。&lt;/p&gt;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;一个人总要走陌生的路，欣赏的陌生的风景，相遇陌生的人一个人总要走陌生的路，欣赏的陌生的风景，相遇陌生的人。&lt;/p&gt;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;一个人总要走陌生的路，欣赏的陌生的风景，相遇陌生的人一个人总要走陌生的路，欣赏的陌生的风景，相遇陌生的人。&lt;/p&gt;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;一个人总要走陌生的路，欣赏的陌生的风景，相遇陌生的人一个人总要走陌生的路，欣赏的陌生的风景，相遇陌生的人。&lt;/p&gt;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;						&lt;/p&gt;',`id`='1',`modify_time`='1497144624' WHERE `id` = 1 [ RunTime:0.0749s ]
+
+[ 2017-06-11T09:31:41+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/infoEditSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000768s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.002152s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003561s ]
+SQL: SHOW COLUMNS FROM `eshop_information` [ RunTime:0.0215s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `eshop_information` SET `title`='eshop正式上线通知',`type`='1',`content`='&lt;p&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;一个人总要走陌生的路，欣赏的陌生的风景，相遇陌生的人一个人总要走陌生的路，欣赏的陌生的风景，相遇陌生的人。&lt;/p&gt;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;一个人总要走陌生的路，欣赏的陌生的风景，相遇陌生的人一个人总要走陌生的路，欣赏的陌生的风景，相遇陌生的人。&lt;/p&gt;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;一个人总要走陌生的路，欣赏的陌生的风景，相遇陌生的人一个人总要走陌生的路，欣赏的陌生的风景，相遇陌生的人。&lt;/p&gt;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;一个人总要走陌生的路，欣赏的陌生的风景，相遇陌生的人一个人总要走陌生的路，欣赏的陌生的风景，相遇陌生的人。&lt;/p&gt;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;						&lt;/p&gt;',`id`='1',`modify_time`='1497144701' WHERE `id` = 1 [ RunTime:0.0486s ]
+
+[ 2017-06-11T09:33:02+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/index1.html
+ERR: 非法操作:index1
+
+[ 2017-06-11T09:55:25+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/infoAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000866s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.002667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004273s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001088s ]
+
+[ 2017-06-11T09:56:04+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/infoAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000783s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.002992s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004498s ]
+SQL: SHOW COLUMNS FROM `eshop_information` [ RunTime:0.0085s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2017-06-11T09:57:01+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/infoAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001348s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.002670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004797s ]
+SQL: SHOW COLUMNS FROM `eshop_information` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `eshop_information` (`title`,`type`,`content`,`publisherId`,`publisherName`,`publishType`,`publish_time`,`modify_time`) VALUES ('111','3','&lt;p&gt;擦擦&lt;br/&gt;&lt;/p&gt;','1','admin','0','1497146221','1497146221') [ RunTime:0.0801s ]
+
+[ 2017-06-11T10:00:28+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/infoEditSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000836s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.002461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003902s ]
+SQL: SHOW COLUMNS FROM `eshop_information` [ RunTime:0.0211s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `eshop_information` SET `title`='电子商务培训通知',`type`='3',`content`='&lt;p style=&quot;text-indent: 2em;&quot;&gt;为了进一步推进永靖县电子商务产业的发展，营造发展电子商务的良好社会氛围，根据《临夏回族自治州人民政府办公室关于批转临夏州大众创业万众创新培训方案的通知》精神，现将有关事宜通知如下：&lt;/p&gt;&lt;p style=&quot;text-indent: 2em;&quot;&gt;一、培训对象&lt;/p&gt;&lt;p style=&quot;text-indent: 2em;&quot;&gt;全县各乡（镇）、村电商服务体系从业人员，大学生村官、未就业大学生和贫困村在校大学生以及致富能人、驻村工作队队员、电商扶贫专干、扶贫对象、所有电子商务相关企业代表、个人网店店主、有意向应用电商的企业代表和有意从事电商的未就业大学生及有志青年。&lt;/p&gt;&lt;p style=&quot;text-indent: 2em;&quot;&gt;二、培训时间及地点&lt;/p&gt;&lt;p style=&quot;text-indent: 2em;&quot;&gt;每期培训40人，每期培训5天，共培训2期；&lt;/p&gt;&lt;p style=&quot;text-indent: 2em;&quot;&gt;第一期2016年5月30日-6月3日；&lt;/p&gt;&lt;p style=&quot;text-indent: 2em;&quot;&gt;第二期2016年6月6日-6月10日；&lt;/p&gt;&lt;p style=&quot;text-indent: 2em;&quot;&gt;培训地点：临夏市职教中心。&lt;/p&gt;&lt;p style=&quot;text-indent: 2em;&quot;&gt;三、培训费用&lt;/p&gt;&lt;p style=&quot;text-indent: 2em;&quot;&gt;学员全部实行免费培训，免费提供食宿。&lt;/p&gt;&lt;p style=&quot;text-indent: 2em;&quot;&gt;四、报名地点&lt;/p&gt;&lt;p style=&quot;text-indent: 2em;&quot;&gt;永靖县古城新区统办大楼309室&lt;/p&gt;&lt;p style=&quot;text-indent: 2em;&quot;&gt;联系电话：0930-8837223&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;',`id`='4',`modify_time`='1497146428' WHERE `id` = 4 [ RunTime:0.1101s ]
+
+[ 2017-06-11T10:02:49+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/infoAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000767s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.002720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004137s ]
+SQL: SHOW COLUMNS FROM `eshop_information` [ RunTime:0.0044s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `eshop_information` (`title`,`type`,`content`,`publisherId`,`publisherName`,`publishType`,`publish_time`,`modify_time`) VALUES ('2017年端午节放假通知','3','&lt;p&gt;
+	&lt;span style=&quot;line-height:1.5;&quot;&gt;尊敬的客户：&lt;/span&gt; &lt;/p&gt;&lt;p&gt;
+	&amp;nbsp; &amp;nbsp; &amp;nbsp; 您好！根据国家节假日放假规定并结合我司实际情况，2017年端午节我司放假安排如下：&lt;/p&gt;&lt;p&gt;
+	&amp;nbsp;&lt;strong&gt; &amp;nbsp; &amp;nbsp; 一、放假时间安排&lt;/strong&gt;：&lt;/p&gt;&lt;p&gt;
+	&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;strong&gt;&lt;span style=&quot;color:#E53333;&quot;&gt;5月30号（星斯二）我司全体员工放假一天&lt;/span&gt;&lt;/strong&gt;，放假期间无人值班收货；&lt;strong&gt;&lt;span style=&quot;color:#E53333;&quot;&gt;31号（星期三）&lt;/span&gt;&lt;/strong&gt;&lt;strong&gt;&lt;span style=&quot;color:#E53333;&quot;&gt;恢复正常上班&lt;/span&gt;&lt;/strong&gt;。&lt;/p&gt;&lt;p&gt;
+	&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;strong&gt; 二、收货及出货须知：&lt;/strong&gt; &lt;/p&gt;&lt;p&gt;
+	&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&amp;nbsp;截单后收到的货物，顺延至5月31号出货。&lt;/p&gt;&lt;p&gt;
+	&lt;br/&gt;&lt;/p&gt;&lt;p&gt;
+	&lt;strong&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; 温馨提醒：&lt;/strong&gt; &lt;/p&gt;&lt;p&gt;
+	&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;因端午假期原因，货物上网或中转会有延误，端午假期期间我司无人值班，请客户自行跟进国际快递件，如有货物在假期期间退回，所产生的费用需要客户自行承担，谢谢理解！&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;','1','admin','0','1497146569','1497146569') [ RunTime:0.0864s ]
+
+[ 2017-06-11T10:09:06+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/infoAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002125s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.002225s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005093s ]
+SQL: SHOW COLUMNS FROM `eshop_information` [ RunTime:0.0046s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `eshop_information` (`title`,`type`,`content`,`publisherId`,`publisherName`,`publishType`,`publish_time`,`modify_time`) VALUES ('eshop正式上线更名为微农','3','&lt;p style=&quot;background: rgb(255, 255, 255) none repeat scroll 0% 0%; line-height: 2em;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;span style=&quot;line-height: 200%; letter-spacing: 0px; font-weight: normal; font-style: normal; font-size: 14px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; color: rgb(0, 0, 0); font-family: 微软雅黑;&quot;&gt;各投资机构、投资人&lt;/span&gt;&lt;span style=&quot;line-height: 200%; font-size: 14px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; color: rgb(0, 0, 0); font-family: 微软雅黑;&quot;&gt;：&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-right: 0px; margin-bottom: 0px; text-indent: 32px; padding: 0px; line-height: 2em;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 14px;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: 微软雅黑;&quot;&gt;经过前期大量的准备工作，华艺电商平台新系统上线业已就绪，经本公司研究，现定于&lt;/span&gt;4月15日（星期六）休市一天，进行系统升级。升级完成后，华艺电商平台新系统将于4月17日正式上线，&lt;span style=&quot;color: rgb(0, 0, 0); font-family: 微软雅黑;&quot;&gt;现将相关事宜告知如下：&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-right: 0px; margin-bottom: 0px; text-indent: 32px; padding: 0px; line-height: 2em;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 14px;&quot;&gt;一、4月16日（星期日）为正常休市日，4月17日（星期一）正常开市；&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-right: 0px; margin-bottom: 0px; text-indent: 32px; padding: 0px; line-height: 2em;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 14px;&quot;&gt;二、&lt;span style=&quot;color: rgb(0, 0, 0); font-family: 微软雅黑;&quot;&gt;休市期间，本公司系统暂停交易及办理出入金业务；&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-right: 0px; margin-bottom: 0px; text-indent: 32px; padding: 0px; line-height: 2em;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 14px;&quot;&gt;三、&lt;span style=&quot;color: rgb(0, 0, 0); font-family: 微软雅黑;&quot;&gt;从&lt;/span&gt;4月17日起，原客户端系统所有商品将采用华艺电商平台新系统交易模式，新的系统采取现货实物挂牌方式进行实名自主协商交易，原有交易方式将不再继续使用；升级期间，投资人持仓及资金不受影响；&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-right: 0px; margin-bottom: 0px; text-indent: 32px; padding: 0px; line-height: 2em;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 14px;&quot;&gt;四、&lt;span style=&quot;color: rgb(0, 0, 0); font-family: 微软雅黑;&quot;&gt;华艺电商平台新系统与华艺商城直连，所有用户均可使用平台账号登录华艺商城，使用身份证号码激活商城账号，账号激活后能够使用在平台获得的采购专款，进行自由消费；&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-right: 0px; margin-bottom: 0px; text-indent: 32px; padding: 0px; line-height: 2em;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 14px;&quot;&gt;五、&lt;span style=&quot;color: rgb(0, 0, 0); font-family: 微软雅黑;&quot;&gt;本公司电商平台新系统上线后，平台交易时间将统一调整为周一至周五：上午&lt;/span&gt;9:30-11:30，下午13:30-15:30；周六、周日正常休市。平台入金时间为周一至周五9:00-16:00；平台出金时间为周一至周五9:30-15:30。用户可每日24小时提交开户申请，平台将于工作时间内进行审核。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-right: 0px; margin-bottom: 0px; text-indent: 28px; padding: 0px; line-height: 2em;&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑; font-size: 14px; color: rgb(0, 0, 0);&quot;&gt;以上事项特此公告，如有任何疑问可致电400-0730-929进行咨询。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;','1','admin','0','1497146946','1497146946') [ RunTime:0.1480s ]
+
+[ 2017-06-11T10:09:49+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/index1.html
+ERR: 非法操作:index1
+
+[ 2017-06-11T10:14:57+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/index1.html
+ERR: 非法操作:index1
+
+[ 2017-06-11T10:21:22+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/infoSearch
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000869s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.002386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003989s ]
+
+[ 2017-06-11T10:22:29+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/infoSearch
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000822s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.002324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003782s ]
+
+[ 2017-06-11T10:33:36+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/infoSearch
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000874s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.002411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004011s ]
+SQL: SHOW COLUMNS FROM `eshop_information` [ RunTime:0.0048s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_information` WHERE `publishType` = 0 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `eshop_information` WHERE `publishType` = 0 AND `is_show` = 1 LIMIT 0,6   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010127s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010440s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000639s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000715s ]
+
+[ 2017-06-11T10:33:40+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/infoSearch
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001721s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.002340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004807s ]
+SQL: SHOW COLUMNS FROM `eshop_information` [ RunTime:0.0220s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_information` WHERE `publishType` = 0 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `eshop_information` WHERE `publishType` = 0 AND `is_show` = 1 LIMIT 0,6   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000186s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010634s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010731s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000615s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000707s ]
+
+[ 2017-06-11T10:33:47+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/infoSearch
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001046s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.002914s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004808s ]
+SQL: SHOW COLUMNS FROM `eshop_information` [ RunTime:0.0047s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_information` WHERE `publishType` = 0 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `eshop_information` WHERE `publishType` = 0 AND `is_show` = 1 LIMIT 0,6   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010713s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010842s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000791s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000884s ]
+
+[ 2017-06-11T10:34:32+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/infoSearch
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000816s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.002230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003747s ]
+SQL: SHOW COLUMNS FROM `eshop_information` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_information` WHERE `publishType` = 0 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `eshop_information` WHERE `publishType` = 0 AND `is_show` = 1 LIMIT 0,6   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011348s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011464s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000700s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000789s ]
+
+[ 2017-06-11T10:34:41+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/infoSearch
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001102s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.002659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004645s ]
+SQL: SHOW COLUMNS FROM `eshop_information` [ RunTime:0.0052s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_information` WHERE `publishType` = 0 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `eshop_information` WHERE `publishType` = 0 AND `is_show` = 1 LIMIT 0,6   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010173s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010260s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000596s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000660s ]
+
+[ 2017-06-11T10:34:42+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/infoSearch
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000941s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.003207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004838s ]
+SQL: SHOW COLUMNS FROM `eshop_information` [ RunTime:0.0056s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_information` WHERE `publishType` = 0 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `eshop_information` WHERE `publishType` = 0 AND `is_show` = 1 LIMIT 0,6   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010454s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010610s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000665s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000751s ]
+
+[ 2017-06-11T10:34:43+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/infoSearch
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001597s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.002461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004747s ]
+SQL: SHOW COLUMNS FROM `eshop_information` [ RunTime:0.0048s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_information` WHERE `publishType` = 0 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `eshop_information` WHERE `publishType` = 0 AND `is_show` = 1 LIMIT 0,6   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010116s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000608s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000684s ]
+
+[ 2017-06-11T10:34:43+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/infoSearch
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000864s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.002356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003852s ]
+SQL: SHOW COLUMNS FROM `eshop_information` [ RunTime:0.0049s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_information` WHERE `publishType` = 0 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `eshop_information` WHERE `publishType` = 0 AND `is_show` = 1 LIMIT 0,6   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010077s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010174s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000613s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000703s ]
+
+[ 2017-06-11T10:34:43+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/infoSearch
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000904s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.002407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004073s ]
+SQL: SHOW COLUMNS FROM `eshop_information` [ RunTime:0.0059s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_information` WHERE `publishType` = 0 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `eshop_information` WHERE `publishType` = 0 AND `is_show` = 1 LIMIT 0,6   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010782s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010888s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000607s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000702s ]
+
+[ 2017-06-11T10:34:53+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/infoSearch
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000932s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.002422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004025s ]
+SQL: SHOW COLUMNS FROM `eshop_information` [ RunTime:0.0053s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_information` WHERE `publishType` = 0 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `eshop_information` WHERE `publishType` = 0 AND `is_show` = 1 LIMIT 0,6   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009710s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009802s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000727s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000797s ]
+
+[ 2017-06-11T10:35:36+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/infoSearch
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001014s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.002573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004330s ]
+SQL: SHOW COLUMNS FROM `eshop_information` [ RunTime:0.0079s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_information` WHERE `publishType` = 0 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `eshop_information` WHERE `publishType` = 0 AND `is_show` = 1 LIMIT 0,6   [ RunTime:0.0007s ]
+
+[ 2017-06-11T10:36:30+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/infoSearch
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000846s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.002411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003961s ]
+SQL: SHOW COLUMNS FROM `eshop_information` [ RunTime:0.0046s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_information` WHERE `publishType` = 0 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `eshop_information` WHERE `publishType` = 0 AND `is_show` = 1 LIMIT 0,6   [ RunTime:0.0004s ]
+
+[ 2017-06-11T10:36:58+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/infoSearch
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001031s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.002447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004190s ]
+SQL: SHOW COLUMNS FROM `eshop_information` [ RunTime:0.0048s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_information` WHERE `publishType` = 0 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `eshop_information` WHERE `publishType` = 0 AND `is_show` = 1 LIMIT 0,6   [ RunTime:0.0005s ]
+
+[ 2017-06-11T10:38:13+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/infoSearch
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000963s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.003389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005081s ]
+SQL: SHOW COLUMNS FROM `eshop_information` [ RunTime:0.0052s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_information` WHERE `publishType` = 0 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `eshop_information` WHERE `publishType` = 0 AND `is_show` = 1 LIMIT 0,6   [ RunTime:0.0004s ]
+
+[ 2017-06-11T10:39:06+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/infoSearch
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000881s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.002283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003844s ]
+SQL: SHOW COLUMNS FROM `eshop_information` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_information` WHERE `type` = 1 AND `publishType` = 0 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `eshop_information` WHERE `type` = 1 AND `publishType` = 0 AND `is_show` = 1 LIMIT 0,6   [ RunTime:0.0005s ]
+
+[ 2017-06-11T10:39:20+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/infoSearch
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001055s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.002294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004327s ]
+SQL: SHOW COLUMNS FROM `eshop_information` [ RunTime:0.0052s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_information` WHERE `type` = 1 AND `publishType` = 0 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `eshop_information` WHERE `type` = 1 AND `publishType` = 0 AND `is_show` = 1 LIMIT 0,6   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010843s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010934s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000636s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000706s ]
+
+[ 2017-06-11T10:40:16+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/infoSearch
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000967s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.002364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004372s ]
+SQL: SHOW COLUMNS FROM `eshop_information` [ RunTime:0.0048s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_information` WHERE `type` = 1 AND `publishType` = 0 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `eshop_information` WHERE `type` = 1 AND `publishType` = 0 AND `is_show` = 1 LIMIT 0,6   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010719s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010818s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000567s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000630s ]
+
+[ 2017-06-11T10:40:21+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/infoSearch
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000825s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.002454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003940s ]
+SQL: SHOW COLUMNS FROM `eshop_information` [ RunTime:0.0049s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_information` WHERE `type` = 3 AND `publishType` = 0 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `eshop_information` WHERE `type` = 3 AND `publishType` = 0 AND `is_show` = 1 LIMIT 0,6   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000171s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010204s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010299s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000613s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000679s ]
+
+[ 2017-06-11T10:40:32+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/infoSearch
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000844s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.002126s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003646s ]
+SQL: SHOW COLUMNS FROM `eshop_information` [ RunTime:0.0048s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_information` WHERE `type` = 3 AND `publishType` = 0 AND `title` LIKE '%eshop%' AND `is_show` = 1 LIMIT 1   [ RunTime:0.0511s ]
+SQL: SELECT * FROM `eshop_information` WHERE `type` = 3 AND `publishType` = 0 AND `title` LIKE '%eshop%' AND `is_show` = 1 LIMIT 0,6   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009745s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009849s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000537s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000599s ]
+
+[ 2017-06-11T10:43:42+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/index1.html
+ERR: 非法操作:index1
+
+[ 2017-06-11T10:44:07+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/index1.html
+ERR: 非法操作:index1
+
+[ 2017-06-11T11:17:49+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/helpListEdit/id/6.html
+ERR: 非法操作:helpListEdit
+
+[ 2017-06-11T11:18:18+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/helpListEdit/id/6.html
+ERR: 非法操作:helpListEdit
+
+[ 2017-06-11T11:38:54+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/helpItemEdit/id/6.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000781s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.002356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003810s ]
+SQL: SHOW COLUMNS FROM `eshop_footer_nav` [ RunTime:0.0047s ]
+SQL: SELECT `id`,`pid`,`name`,`content` FROM `eshop_footer_nav` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT f.id,f.name,n.id sid,n.name sname,n.content scontent FROM eshop_footer_nav f INNER JOIN eshop_footer_nav as n on f.id = n.pid   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000187s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000264s ]
+NOTIC: [8] Undefined index: id D:\wampserver\wamp\www\eshop\App\Runtime\Cache\Admin\ef38b6398a8c2cc3d5621e9850e790f1.php 第 152 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013606s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013680s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000645s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000709s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000781s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000861s ]
+
+[ 2017-06-11T11:42:52+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/helpItemSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001555s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.003369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006407s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001329s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001473s ]
+
+[ 2017-06-11T11:44:03+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/helpItemSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000933s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.002857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004515s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000969s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001068s ]
+
+[ 2017-06-11T11:48:42+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/helpItemSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000887s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.002940s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004581s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001357s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001508s ]
+
+[ 2017-06-11T11:50:28+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/helpItemSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001629s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.002601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005548s ]
+
+[ 2017-06-11T11:50:39+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/helpItemSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001015s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.002737s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004697s ]
+SQL: SHOW COLUMNS FROM `eshop_footer_nav` [ RunTime:0.0057s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2017-06-11T11:52:12+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/helpItemSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001970s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.022988s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.026449s ]
+SQL: SHOW COLUMNS FROM `eshop_footer_nav` [ RunTime:0.0055s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2017-06-11T11:53:36+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/helpItemSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000823s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.002747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004315s ]
+SQL: SHOW COLUMNS FROM `eshop_footer_nav` [ RunTime:0.0059s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2017-06-11T11:53:47+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/helpItemSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001325s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.002921s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005006s ]
+SQL: SHOW COLUMNS FROM `eshop_footer_nav` [ RunTime:0.0052s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `eshop_footer_nav` SET `pid`='1',`content`='&lt;p&gt;萨达&lt;br/&gt;&lt;/p&gt;',`id`='6',`modify_time`='1497153227' WHERE `id` = 6 [ RunTime:0.1047s ]
+
+[ 2017-06-11T13:25:05+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/helpItemSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000817s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.020122s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021655s ]
+SQL: SHOW COLUMNS FROM `eshop_footer_nav` [ RunTime:0.0044s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `eshop_footer_nav` SET `pid`='1',`content`='&lt;p&gt;&lt;img src=&quot;/ueditor/php/upload/image/20170611/1497158702136100.jpg&quot; title=&quot;1497158702136100.jpg&quot; alt=&quot;rBEQWVFlHpYIAAAAAACI4qKbEu4AAD0VAKcRBMAAIj6957.jpg&quot;/&gt;&lt;/p&gt;&lt;p&gt;						&lt;/p&gt;',`id`='6',`modify_time`='1497158705' WHERE `id` = 6 [ RunTime:0.0596s ]
+
+[ 2017-06-11T13:30:44+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/infoSearch
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000836s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.002269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003807s ]
+SQL: SHOW COLUMNS FROM `eshop_information` [ RunTime:0.0047s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_information` WHERE `type` = 2 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `eshop_information` WHERE `type` = 2 AND `is_show` = 1 LIMIT 0,6   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009981s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010063s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000587s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000652s ]
+
+[ 2017-06-11T13:30:50+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/infoSearch
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000907s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.003123s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004691s ]
+SQL: SHOW COLUMNS FROM `eshop_information` [ RunTime:0.0047s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_information` WHERE `type` = 1 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `eshop_information` WHERE `type` = 1 AND `is_show` = 1 LIMIT 0,6   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010237s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010320s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000621s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000686s ]
+
+[ 2017-06-11T13:52:48+08:00 ] ::1 /eshop/index.php/Admin/SystemManage/Admin/Index/index
+ERR: 非法操作:Admin
+
+[ 2017-06-11T13:55:58+08:00 ] ::1 /eshop/index.php/Admin/SystemManage/eshop/Admin/Index/index
+ERR: 非法操作:eshop
+

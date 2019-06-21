@@ -1,0 +1,69 @@
+[ 2016-12-29T13:43:58+08:00 ] ::1 /eshop/index.php/Home/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000987s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001593s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000995s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001085s ]
+
+[ 2016-12-29T13:44:02+08:00 ] ::1 /eshop/index.php/Home/User/doLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001412s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0261s ]
+SQL: SELECT * FROM `eshop_user` WHERE `name` = 'admin1' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] fopen(D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Org\Net/UTFWry.dat): failed to open stream: No such file or directory D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Org\Net\IpLocation.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `eshop_user_log` [ RunTime:0.0057s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `eshop_user_log` (`userId`,`action`,`ip`,`location`,`time`) VALUES ('11','登录','0.0.0.0',NULL,'1482990242') [ RunTime:0.1321s ]
+
+[ 2016-12-29T13:44:44+08:00 ] ::1 /eshop/index.php/Home/UserCenter/addressDefault.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001419s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0059s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0066s ]
+SQL: UPDATE `eshop_user_address` SET `is_first`='0',`modifytime`='1482990284' WHERE `userId` = 11 [ RunTime:0.0822s ]
+SQL: UPDATE `eshop_user_address` SET `is_first`='1',`modifytime`='1482990284' WHERE `id` = 1 [ RunTime:0.0218s ]
+
+[ 2016-12-29T13:44:55+08:00 ] ::1 /eshop/index.php/Home/UserCenter/doEditAddrShow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001357s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0404s ]
+SQL: UPDATE `eshop_user_address` SET `is_first`='0',`modifytime`='1482990295' WHERE `userId` = 11 AND `is_first` = 1 [ RunTime:0.0374s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `eshop_user_address` SET `userId`='11',`userName`='李永发',`location`='辽宁省|沈阳市|铁西区',`streetInfo`='沈阳工业大学',`postCode`='112244',`tel`='18904010296',`is_first`='1',`modifytime`='1482990295' WHERE `id` = 1 [ RunTime:0.0220s ]
+
+[ 2016-12-29T13:45:14+08:00 ] ::1 /eshop/index.php/Home/UserCenter/doEditAddrShow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000928s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001577s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.2055s ]
+SQL: UPDATE `eshop_user_address` SET `is_first`='0',`modifytime`='1482990313' WHERE `userId` = 11 AND `is_first` = 1 [ RunTime:0.2667s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `eshop_user_address` SET `userId`='11',`userName`='李永发',`location`='辽宁省|沈阳市|铁西区',`streetInfo`='沈阳工业大学',`postCode`='112244',`tel`='18904010296',`is_first`='1',`modifytime`='1482990313' WHERE `id` = 1 [ RunTime:0.1271s ]
+
+[ 2016-12-29T13:49:10+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000892s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001435s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001293s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001471s ]
+
+[ 2016-12-29T13:49:10+08:00 ] ::1 /eshop/index.php/Home/Shoper/doLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000946s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001441s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0819s ]
+SQL: SELECT * FROM `eshop_shoper` WHERE `name` = 'shoper3' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] fopen(D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Org\Net/UTFWry.dat): failed to open stream: No such file or directory D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Org\Net\IpLocation.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `eshop_shoper_log` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `eshop_shoper_log` (`shoperId`,`action`,`ip`,`location`,`time`) VALUES ('13','登录','0.0.0.0',NULL,'1482990550') [ RunTime:0.0468s ]
+

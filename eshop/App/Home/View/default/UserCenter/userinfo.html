@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>个人资料</title>
+<!-- 公共链接 -->
+<include file = "Public:common"/>
+<include file='Public:ucenterlink'/>
+<!-- 公共链接 -->
+<script src="__PUBLIC__/Home/Js/User/userInfo.js"></script>
+</head>
+<body>
+<!-- header开始 --> 
+<include file ='Public:header' /> 
+<!-- header结束 --> 
+<!-- 当前位置开始 -->
+<div class="position_now">
+  <label><a href="{:U('Home/Index/index')}">首页</a></label>
+  <span>&gt</span>
+  <label>个人资料</label>
+</div>
+<!-- 当前位置显示结束 --> 
+<!-- 主体内容开始 -->
+<div class="ucenter_wrapper"> 
+  <!-- 左边导航标签开始 --> 
+  <include file='Public:ucenternav'/> 
+  <!-- 左边导航标签结束 -->
+  <div class="ucenter_right">
+    <div class="ucenter_right_title"> <span>个人资料</span> </div>
+    <div class="ucenter_right_content">
+      <form method="post"  enctype="multipart/form-data" id="uinfo_form" autocomplete="off">
+        <table class="uinfo_table">
+          <tbody>
+            <tr>
+              <td class="title">登录账号：</td>
+              <td class="uaccount"><div>{$Think.session.uname}</div></td>
+              <td style="padding-left:32px;">个人头像：</td>
+            </tr>
+            <tr>
+              <td class="title"><label for="unick">昵称：</label></td>
+              <td class="content"><input type="text" name="nick" id="unick" value="{$list.nick}" class="inputs" placeholder="昵称"/></td>
+              <td rowspan="8" valign="top">
+                <div id="preview" class="uphoto">
+                  <empty name="list.photo">
+                    <img id="imghead" border="0" src="__PUBLIC__/Home/Icon/default-face.png">
+                    <else/>
+                    <img id="imghead" border="0" src="__ROOT__/{$list.photo}">
+                  </empty>
+                </div>
+                <div class="face-upload">
+                  <span>（图片大小为150*150(px),格式包含jpg,jpeg,png,gif）</span>
+                  <input type="button" name="face" value="上传头像" onclick="$('#previewImg').click();"/>    
+                  <input type="file" name= "photo" onchange="previewImage(this)" style="display: none;" id="previewImg" accept="image/*">
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td class="title"><label for="utruename">真实姓名：</label></td>
+              <td class="content"><input type="text" name="truename" value="{$list.truename}" id="utruename" class="inputs" placeholder="您的真实姓名"/></td>
+            </tr>
+            <tr>
+              <td class="title"><label>性别：</label></td>
+              <td class="sex"><input type="radio" name="usex" value="男"
+                <if condition="$list.sex eq '男'">checked="checked"</if>
+                />&nbsp;男 <input type="radio" name="usex" value="女"  
+                <if condition="$list.sex eq '女'">checked="checked"</if>
+                />&nbsp;女 <input type="radio" name="usex" value="保密"  
+                <if condition="$list.sex eq '保密'">checked="checked"</if>
+                />&nbsp;保密 </td>
+            </tr>
+            <tr>
+              <td class="title"><label for="ubirtd">生日：</label></td>
+              <td class="content"><input class="Wdate inputs" type="text" onClick="WdatePicker()" name="ubirtd" id="ubirtd" value="{$list.birthday}" placeholder="您的生日"></td>
+            </tr>
+            <tr>
+              <td class="title"><label for="ucarnum">身份证号：</label></td>
+              <td class="content"><input type="text" name="carnum" id="ucarnum" value="{$list.carnum}" class="inputs" placeholder="您的省份证号"/></td>
+            </tr>
+            <tr>
+              <td class="title"><label for="uqq">qq：</label></td>
+              <td class="content"><input type="text" name="qq" id="uqq" value="{$list.qq}" class="inputs" placeholder="您的QQ号"/></td>
+            </tr>
+            <tr>
+              <td class="title"><label for="utel">联系电话：</label></td>
+              <td class="content"><input type="text" name="tel" id="utel" value="{$list.tel}" class="inputs" placeholder="您的联系方式"/></td>
+            </tr>
+            <tr>
+              <td colspan="2"><input type="submit" name="btn" value="保存" class="btn" id="uinfo_submit"/></td>
+            </tr>
+          </tbody>
+        </table>
+      </form>
+    </div>
+  </div>
+  <!-- 用户中心右侧内容显示结束 --> 
+</div>
+<!-- 主体内容结束 --> 
+<include file='Public:footer'/>
+</body>
+</html>

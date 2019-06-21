@@ -1,0 +1,474 @@
+[ 2016-12-20T09:54:02+08:00 ] ::1 /eshop/index.php/Home/UserCenter/checkuNickname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003110s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0099s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `nick` = '大漠雄鹰1' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001725s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001894s ]
+
+[ 2016-12-20T10:58:36+08:00 ] ::1 /eshop/index.php/Home/UserCenter/checkuNickname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000940s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001589s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0059s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `nick` = '大漠雄鹰1' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001362s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001461s ]
+
+[ 2016-12-20T10:58:41+08:00 ] ::1 /eshop/index.php/Home/UserCenter/checkuNickname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000900s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001531s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0059s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `nick` = '大漠雄鹰1' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001097s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001176s ]
+
+[ 2016-12-20T10:58:50+08:00 ] ::1 /eshop/index.php/Home/UserCenter/checkuNickname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002193s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0059s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `nick` = '大漠雄鹰' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001080s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001156s ]
+
+[ 2016-12-20T11:01:22+08:00 ] ::1 /eshop/index.php/Home/UserCenter/modifyPwd.html
+ERR: 页面不存在！
+
+[ 2016-12-20T11:02:43+08:00 ] ::1 /eshop/index.php/Home/UserCenter/modifyPwd.html
+ERR: 页面不存在！
+
+[ 2016-12-20T11:02:51+08:00 ] ::1 /eshop/index.php/Home/UserCenter/modifyPwd.html
+ERR: 页面不存在！
+
+[ 2016-12-20T11:04:12+08:00 ] ::1 /eshop/index.php/Home/UserCenter/modifyPwd.html
+ERR: 页面不存在！
+
+[ 2016-12-20T11:04:16+08:00 ] ::1 /eshop/index.php/Home/UserCenter/modifyPwd.html
+ERR: 页面不存在！
+
+[ 2016-12-20T11:14:19+08:00 ] ::1 /eshop/index.php/Home/UserCenter/domodifyPwd.html
+ERR: 页面不存在！
+
+[ 2016-12-20T11:40:32+08:00 ] ::1 /eshop/index.php/Home/UserCenter/doModifyPwd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000967s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001599s ]
+
+[ 2016-12-20T11:41:13+08:00 ] ::1 /eshop/index.php/Home/UserCenter/doModifyPwd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000937s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001598s ]
+
+[ 2016-12-20T11:41:40+08:00 ] ::1 /eshop/index.php/Home/UserCenter/doModifyPwd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000951s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001590s ]
+
+[ 2016-12-20T11:43:26+08:00 ] ::1 /eshop/index.php/Home/UserCenter/doModifyPwd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000959s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001591s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0060s ]
+
+[ 2016-12-20T11:44:30+08:00 ] ::1 /eshop/index.php/Home/UserCenter/doModifyPwd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000957s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001610s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0053s ]
+SQL: UPDATE `eshop_user` SET `password`='admin12' WHERE `id` = 11 [ RunTime:0.0803s ]
+NOTIC: [2] fopen(D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Org\Net/UTFWry.dat): failed to open stream: No such file or directory D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Org\Net\IpLocation.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `eshop_user_log` [ RunTime:0.0051s ]
+SQL: INSERT INTO `eshop_user_log` (`userId`,`action`,`ip`,`location`,`time`) VALUES ('11','修改密码','0.0.0.0',NULL,'1482205470') [ RunTime:0.0709s ]
+
+[ 2016-12-20T11:45:32+08:00 ] ::1 /eshop/index.php/Home/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001496s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000872s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000959s ]
+
+[ 2016-12-20T11:45:50+08:00 ] ::1 /eshop/index.php/Home/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000866s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001482s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000882s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000967s ]
+
+[ 2016-12-20T11:49:12+08:00 ] ::1 /eshop/index.php/Home/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000897s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001645s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000877s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000964s ]
+
+[ 2016-12-20T11:49:47+08:00 ] ::1 /eshop/index.php/Home/UserCenter/doModifyPwd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000951s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001657s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0082s ]
+SQL: UPDATE `eshop_user` SET `password`='e00cf25ad42683b3df678c61f42c6bda' WHERE `id` = 11 [ RunTime:0.0509s ]
+NOTIC: [2] fopen(D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Org\Net/UTFWry.dat): failed to open stream: No such file or directory D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Org\Net\IpLocation.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `eshop_user_log` [ RunTime:0.0096s ]
+SQL: INSERT INTO `eshop_user_log` (`userId`,`action`,`ip`,`location`,`time`) VALUES ('11','修改密码','0.0.0.0',NULL,'1482205787') [ RunTime:0.0370s ]
+
+[ 2016-12-20T11:50:11+08:00 ] ::1 /eshop/index.php/Home/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000912s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001587s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000997s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001100s ]
+
+[ 2016-12-20T13:29:20+08:00 ] ::1 /eshop/index.php/Home/UserCenter/checkuNickname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000935s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001544s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0096s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `nick` = '大漠雄鹰' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001229s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001328s ]
+
+[ 2016-12-20T13:29:22+08:00 ] ::1 /eshop/index.php/Home/UserCenter/userinfoEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002536s ]
+
+[ 2016-12-20T13:29:25+08:00 ] ::1 /eshop/index.php/Home/UserCenter/userinfoEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000956s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001630s ]
+
+[ 2016-12-20T13:29:31+08:00 ] ::1 /eshop/index.php/Home/UserCenter/userinfoEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000988s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001666s ]
+
+[ 2016-12-20T13:30:22+08:00 ] ::1 /eshop/index.php/Home/UserCenter/checkuNickname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002623s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0521s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `nick` = '大漠雄鹰' LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001191s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001344s ]
+
+[ 2016-12-20T13:30:22+08:00 ] ::1 /eshop/index.php/Home/UserCenter/userinfoEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001094s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002117s ]
+
+[ 2016-12-20T13:31:04+08:00 ] ::1 /eshop/index.php/Home/UserCenter/checkuNickname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000947s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001575s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0415s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `nick` = '大漠雄鹰' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001607s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001744s ]
+
+[ 2016-12-20T13:31:04+08:00 ] ::1 /eshop/index.php/Home/UserCenter/userinfoEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002337s ]
+
+[ 2016-12-20T13:31:08+08:00 ] ::1 /eshop/index.php/Home/UserCenter/userinfoEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002577s ]
+
+[ 2016-12-20T13:32:14+08:00 ] ::1 /eshop/index.php/Home/UserCenter/checkuNickname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002871s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0298s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `nick` = '大漠雄鹰' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001612s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001753s ]
+
+[ 2016-12-20T13:32:14+08:00 ] ::1 /eshop/index.php/Home/UserCenter/userinfoEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002390s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0095s ]
+SQL: UPDATE `eshop_user` SET `nick`='大漠雄鹰',`trueName`='李永发',`sex`='男',`birthday`='2016-11-29',`carNum`='430521199410095672',`qq`='1411387108',`tel`='18904010296' WHERE `id` = 11 [ RunTime:0.0414s ]
+NOTIC: [2] fopen(D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Org\Net/UTFWry.dat): failed to open stream: No such file or directory D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Org\Net\IpLocation.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `eshop_user_log` [ RunTime:0.0094s ]
+SQL: INSERT INTO `eshop_user_log` (`userId`,`action`,`ip`,`location`,`time`) VALUES ('11','修改个人信息','0.0.0.0',NULL,'1482211934') [ RunTime:0.0472s ]
+
+[ 2016-12-20T14:03:20+08:00 ] ::1 /eshop/index.php/Home/UserCenter/checkuNickname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000902s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001639s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0127s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `nick` = '大漠雄鹰1' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001084s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001207s ]
+
+[ 2016-12-20T14:03:20+08:00 ] ::1 /eshop/index.php/Home/UserCenter/userinfoEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002409s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0088s ]
+SQL: UPDATE `eshop_user` SET `nick`='大漠雄鹰1',`trueName`='李永发',`sex`='男',`birthday`='2016-11-29',`carNum`='430521199410095672',`qq`='1411387108',`tel`='18904010296' WHERE `id` = 11 [ RunTime:0.0454s ]
+NOTIC: [2] fopen(D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Org\Net/UTFWry.dat): failed to open stream: No such file or directory D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Org\Net\IpLocation.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `eshop_user_log` [ RunTime:0.0090s ]
+SQL: INSERT INTO `eshop_user_log` (`userId`,`action`,`ip`,`location`,`time`) VALUES ('11','修改个人信息','0.0.0.0',NULL,'1482213800') [ RunTime:0.0281s ]
+
+[ 2016-12-20T14:05:31+08:00 ] ::1 /eshop/index.php/Home/UserCenter/checkuNickname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002497s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0074s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `nick` = '大漠雄鹰1' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001119s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001217s ]
+
+[ 2016-12-20T14:05:34+08:00 ] ::1 /eshop/index.php/Home/UserCenter/checkuNickname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002121s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0090s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `nick` = '大漠雄鹰' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001385s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001478s ]
+
+[ 2016-12-20T14:05:54+08:00 ] ::1 /eshop/index.php/Home/UserCenter/checkuNickname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000920s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001711s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0265s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `nick` = '大漠雄鹰1' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001579s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001714s ]
+
+[ 2016-12-20T14:05:58+08:00 ] ::1 /eshop/index.php/Home/UserCenter/checkuNickname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002378s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0467s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `nick` = '大漠雄鹰' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001361s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001471s ]
+
+[ 2016-12-20T14:06:10+08:00 ] ::1 /eshop/index.php/Home/UserCenter/checkuNickname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002211s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0086s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `nick` = '大漠雄鹰' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001348s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001547s ]
+
+[ 2016-12-20T14:06:56+08:00 ] ::1 /eshop/index.php/Home/UserCenter/checkuNickname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001009s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001739s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0078s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `nick` = '大漠雄鹰' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001319s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001419s ]
+
+[ 2016-12-20T14:08:14+08:00 ] ::1 /eshop/index.php/Home/UserCenter/checkuNickname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001937s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0236s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `nick` = '大漠雄鹰' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001646s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001761s ]
+
+[ 2016-12-20T14:08:16+08:00 ] ::1 /eshop/index.php/Home/UserCenter/checkuNickname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000890s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001535s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0264s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `nick` = '大漠雄鹰1' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001104s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001224s ]
+
+[ 2016-12-20T14:08:19+08:00 ] ::1 /eshop/index.php/Home/UserCenter/checkuNickname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002541s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0069s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `nick` = '大漠雄鹰' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001142s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001226s ]
+
+[ 2016-12-20T14:08:52+08:00 ] ::1 /eshop/index.php/Home/UserCenter/checkuNickname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000888s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001594s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0232s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `nick` = '大漠雄鹰1' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001538s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001659s ]
+
+[ 2016-12-20T14:08:55+08:00 ] ::1 /eshop/index.php/Home/UserCenter/checkuNickname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000992s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001824s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0095s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `nick` = '大漠雄鹰' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001366s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001463s ]
+
+[ 2016-12-20T14:08:57+08:00 ] ::1 /eshop/index.php/Home/UserCenter/userinfoEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001153s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001907s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0849s ]
+SQL: UPDATE `eshop_user` SET `nick`='大漠雄鹰',`trueName`='李永发',`sex`='男',`birthday`='2016-11-29',`carNum`='430521199410095672',`qq`='1411387108',`tel`='18904010296' WHERE `id` = 11 [ RunTime:0.0638s ]
+NOTIC: [2] fopen(D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Org\Net/UTFWry.dat): failed to open stream: No such file or directory D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Org\Net\IpLocation.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `eshop_user_log` [ RunTime:0.0065s ]
+SQL: INSERT INTO `eshop_user_log` (`userId`,`action`,`ip`,`location`,`time`) VALUES ('11','修改个人信息','0.0.0.0',NULL,'1482214137') [ RunTime:0.0899s ]
+
+[ 2016-12-20T15:36:14+08:00 ] ::1 /eshop/index.php/Home/UserCenter/ucenter_orders.html
+ERR: 非法操作:ucenter_orders
+
+[ 2016-12-20T15:36:29+08:00 ] ::1 /eshop/index.php/Home/Index/more_info.html
+ERR: 非法操作:more_info
+
+[ 2016-12-20T15:36:38+08:00 ] ::1 /eshop/index.php/Home/Index/goods_info.html
+ERR: 非法操作:goods_info
+
+[ 2016-12-20T15:55:07+08:00 ] ::1 /eshop/index.php/Home/UserCenter/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-12-20T15:55:07+08:00 ] ::1 /eshop/index.php/Home/UserCenter/includes/Distpicker/js/distpicker.data.js
+ERR: 非法操作:includes
+
+[ 2016-12-20T15:55:07+08:00 ] ::1 /eshop/index.php/Home/UserCenter/includes/Distpicker/js/main.js
+ERR: 非法操作:includes
+
+[ 2016-12-20T15:55:07+08:00 ] ::1 /eshop/index.php/Home/UserCenter/includes/Distpicker/js/distpicker.js
+ERR: 非法操作:includes
+
+[ 2016-12-20T15:55:07+08:00 ] ::1 /eshop/index.php/Home/UserCenter/includes/Distpicker/js/distpicker.data.js
+ERR: 非法操作:includes
+
+[ 2016-12-20T15:55:07+08:00 ] ::1 /eshop/index.php/Home/UserCenter/includes/Distpicker/js/distpicker.js
+ERR: 非法操作:includes
+
+[ 2016-12-20T15:55:07+08:00 ] ::1 /eshop/index.php/Home/UserCenter/includes/Distpicker/js/main.js
+ERR: 非法操作:includes
+
+[ 2016-12-20T16:35:36+08:00 ] ::1 /eshop/index.php/Home/UserCenter/checkuNickname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001774s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0086s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `nick` = '大漠雄鹰' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001215s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001314s ]
+
+[ 2016-12-20T17:07:48+08:00 ] ::1 /eshop/index.php/Home/UserCenter/checkuNickname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000923s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001571s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0072s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `nick` = '大漠雄鹰' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000955s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001028s ]
+
+[ 2016-12-20T17:16:25+08:00 ] ::1 /eshop/index.php/Home/UserCenter/ucenter_orders.html
+ERR: 非法操作:ucenter_orders
+
+[ 2016-12-20T20:55:04+08:00 ] ::1 /eshop/index.php/Home/UserCenter/checkuNickname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001171s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001828s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0072s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `nick` = '大漠雄鹰' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001229s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001305s ]
+
+[ 2016-12-20T21:14:30+08:00 ] ::1 /eshop/index.php/Home/UserCenter/checkuNickname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001122s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001917s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0066s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `nick` = '大漠雄鹰' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001083s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001174s ]
+
+[ 2016-12-20T21:14:41+08:00 ] ::1 /eshop/index.php/Home/UserCenter/checkuNickname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002651s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0096s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `nick` = '大漠雄鹰1' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001327s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001428s ]
+
+[ 2016-12-20T21:30:02+08:00 ] ::1 /eshop/index.php/Home/UserCenter/addressAdd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001700s ]
+
+[ 2016-12-20T21:46:55+08:00 ] ::1 /eshop/index.php/Home/UserCenter/checkuNickname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001961s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0170s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `nick` = '大漠雄鹰' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001560s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001684s ]
+
+[ 2016-12-20T21:47:01+08:00 ] ::1 /eshop/index.php/Home/UserCenter/checkuNickname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001956s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0095s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `nick` = '大漠雄鹰1' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001631s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001778s ]
+
+[ 2016-12-20T21:48:43+08:00 ] ::1 /eshop/index.php/Home/UserCenter/addressAdd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002976s ]
+
+[ 2016-12-20T22:07:22+08:00 ] ::1 /eshop/index.php/Home/UserCenter/addressAdd
+ERR: 页面不存在！
+
+[ 2016-12-20T22:11:33+08:00 ] ::1 /eshop/index.php/Home/UserCenter/addressAdd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000929s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001702s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0822s ]
+SQL: UPDATE `eshop_user_address` SET `is_first`='0' WHERE `userId` = 11 AND `is_first` = 1 [ RunTime:0.0005s ]
+

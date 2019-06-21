@@ -1,0 +1,64 @@
+/*商家/用户消息页面样式*/
+.msg-action{
+	height: 42px;
+	line-height: 42px;
+	padding: 0px 20px;
+}
+.msg-action a{
+	display: inline-block;
+	width: 100px;
+	text-decoration: none;
+}
+.msg-table{
+	width: 100%;
+	border-collapse: separate;
+	border-spacing: 0;
+}
+.msg-table thead tr{
+	height: 42px;
+	text-align: left;
+	background: #f5f5f5;
+}
+.msg-table thead tr th{
+	padding: 0px 15px;
+}
+.msg-table tbody tr{
+	height: 52px;
+}
+.msg-table tbody tr:nth-child(2n){
+	background: #FCFAE1;
+}
+.newMsg{
+	display: inline-block;
+	/*width: 120px;*/
+	height: 52px;
+}
+.newMsg img{
+	max-width: 40px;
+	max-height: 40px;
+	padding:6px;
+}
+.msg-item-box,.msg-actions{
+	text-align: center;
+}
+.msg-content{
+	padding:0px 14px;
+}
+.msg-actions a{
+	display: inline-block;
+	color: #32a9ea;
+	margin-right: 2px;
+}
+.msg-actions a:hover{
+	color: red;
+}
+/*消息详细信息页面显示样式*/
+.msg-detail{
+	min-height: 120px;
+	padding: 20px;
+}
+.msg-detail span{
+	display: inline-block;
+	line-height: 26px;
+}
+

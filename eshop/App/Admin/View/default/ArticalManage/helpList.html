@@ -1,0 +1,96 @@
+<extend name="Public:base"/>
+<block name="title"><title>微农后台管理系统-帮助中心列表</title></block>
+<block name="css">
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/Admin/Css/ArticalManage/artical.css">
+</block>
+<block name="js">
+	<script src="__PUBLIC__/Admin/Js/ArticalManage/info.js"></script>
+</block>
+<block name="main">
+	<div class="now-position">
+		<span>帮助中心列表</span>
+	</div>
+	<div class="head-wrapper">
+		<div class="head-search">
+			<!-- 头部检索框 -->
+			<form action=" " id="info-search">
+				<div class="artical-search">
+					<label for="cat1">文章类型</label>
+					<select name="cat1" id="cat1" autocomplete="off">
+						<option value="0">--请选择--</option>
+						<volist name="info" id="item">
+							<option value="{$item.id}">{$item.name}</option>
+						</volist>
+					</select>
+					<label for="artical-title">文章标题</label>
+					<input type="text" name="artical-title" id="artical-title" class="inputs" placeholder="输入标题进行查询" autocomplete="off">
+					<input type="button" value="查询"  class="btn btn-info" id="help_select"/>
+				</div>
+			</form>
+			<!-- 头部检索框 -->  
+		</div>
+		<div class="action-nav">
+			<a href="javascript:void(0);" onclick="delInfo(1)">
+				<span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
+				批量删除
+			</a>
+			<a href="{:U('Admin/ArticalManage/info')}">
+				<span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
+				新增
+			</a>
+		</div>
+	</div>
+	<div class="right-content-wrapper ajaxWrapper">
+		<table class="table table-bordered table-striped table-hover">
+			<thead>
+				<tr>
+					<th>
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" id="allchecked" autocomplete="off">全选
+							</label>
+						</div>
+					</th>
+					<th>分类</th>
+					<th>标题</th>
+					<th>发布者</th>
+					<th>发布时间</th>
+					<th>最近一次修改</th>
+					<th>操作</th>
+				</tr>
+			</thead>
+			<empty name="info">
+				<else/>
+				<volist name="info" id="item">
+					<tbody>
+						<volist name="item.child" id="data">
+							<tr class="data-item">
+								<td>
+									<div class="checkbox">
+										<label>
+											<input type="checkbox" class="item-check" value="{$item.id}" autocomplete="off">
+										</label>
+									</div>
+								</td>
+								<td>{$item.name}</td>
+								<td>    
+									{$data[1]}
+								</td>
+								<td>系统管理员</td>
+								<td>{$item.publish_time|date="Y-m-d",###}</td>
+								<td>{$item.modify_time|date="Y-m-d",###}</td>
+								<td>
+									<a class="btn-link" href="{:U('Admin/ArticalManage/helpItemEdit',array('id' => $data[0]))}">修改</a>
+									<a class="btn-link" href="javascript:void(0);" onclick="delInfo(0,{$data[0]})">删除</a>
+								</td>
+							</tr>
+						</volist>
+					</tbody>
+				</volist>
+			</empty>
+		</table>
+		<!-- 分页开始 -->
+		<div class="pages">{$page}</div>
+		<!-- 分页结束 --> 
+	</div>
+</block>

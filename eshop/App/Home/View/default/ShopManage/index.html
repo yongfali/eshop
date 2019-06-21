@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>店铺管理-店铺信息</title>
+<!-- 公共链接 -->
+<include file = "Public:common"/>
+<include file = "Good:commonnav" />
+<!-- 公共链接 -->
+<script src="__PUBLIC__/Home/Js/ShopManage/shopInfo.js"></script>
+</head>
+<body>
+<!-- header开始 --> 
+<include file = "Public:sheader"/>
+<!-- header结束 --> 
+<!-- 当前位置开始 -->
+<div class="position_now">
+  <label><a href="{:U('Home/Index/index')}">首页</a></label>
+  <span>&gt</span>
+  <label>店铺信息</label>
+</div>
+<!-- 当前位置显示结束 --> 
+<!-- 主体内容开始 -->
+<div class="scenter_wrapper"> 
+  <!-- 左边导航标签开始 --> 
+  <include file='Public:scenternav'/> 
+  <!-- 左边导航标签结束 -->
+  <div class="scenter_right">
+    <div class="scenter_right_title"> 
+      <ul class="good_nav">
+        <a href="javascript:;" class="active" rel="nav1">店铺信息 </a> <a href="javascript:;" rel="nav2">信息编辑</a> 
+      </ul>
+    </div>
+    <div class="scenter_right_content">
+      <!-- 店铺基本信息展示 -->
+      <div id="nav1">
+        <table class="shopInfo_table">
+          <tbody>
+            <tr>
+              <td class="saccount">商家账号：</td>
+              <td>
+                <div class="sNick">{$Think.session.uname}
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td class="itemsName">
+                店铺编号：
+              </td>
+              <td><span class="content">{:get_number($shopInfo['id'])}</span></td>
+            </tr>
+            <tr>
+              <td class="itemsName">店铺名称：</td>
+              <td><span class="content">{$shopInfo.name}</span></td>
+            </tr>
+            <tr>
+              <td class="itemsName">经营范围：</td>
+              <td><span class="content">时蔬水果、网上菜场、厨卫清洁、纸制用品、酒水饮料、茶叶冲饮、粮油食品、南北干货、美容护理、洗浴用品、家居家电</span></td>
+            </tr>
+            <tr>
+              <td class="itemsName">认证类型：</td>
+              <td><span class="content">消保认证商家、 七天无条件退款 </span></td>
+            </tr>
+            <tr>
+              <td class="itemsName">店铺Logo：</td>
+              <td>
+                <empty name="shopInfo.logo">
+                  <img src="__PUBLIC__/Home/Icon/no-img.png">
+                  <else/>
+                  <img src="__ROOT__/{$shopInfo.logo}">
+                </empty>
+              </td>
+            </tr>
+            <tr>
+              <td class="itemsName">客服QQ：</td>
+              <td><span class="content">{$shopInfo.service_qq}</span></td>
+            </tr>
+            <tr>
+              <td class="itemsName">客服电话：</td>
+              <td><span class="content">{$shopInfo.server_tel}</span></td>
+            </tr>
+            <tr>
+              <td class="itemsName">店铺二维码：</td>
+              <td>
+                <empty name="shopInfo.qrcode">
+                  <img src="__PUBLIC__/Home/Icon/no-img.png">
+                  <else/>
+                  <img src="__ROOT__/{$shopInfo.qrcode}">
+                </empty> 
+              </td>
+            </tr>
+            <tr>
+              <td class="itemsName">店铺等级：</td>
+              <td><span class="content">{$shopInfo.rank}</span></td>
+            </tr>
+            <tr>
+              <td class="itemsName">店铺地址：</td>
+              <td><span class="content">{$shopInfo.address}</span></td>
+            </tr>
+            <tr>
+              <td class="itemsName">服务时间：</td>
+              <td><span class="content">{$shopInfo.server_time}</span></td>
+            </tr>
+            <tr>
+              <td class="itemsName">店铺经营状态：</td>
+              <td>
+                <if condition="$shopInfo.is_forbid eq 0">
+                 <span class="content">正常</span>
+                 <else/>
+                 <span class="content">违规，被封号，请联系<a href="#" style="color:red;">管理员</a></span>
+               </if>
+             </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <!-- 店铺基本信息修改 -->
+      <div id="nav2" style="display:none">
+        <form id="shopInfo-edit" autocomplete="off">
+          <table class="shopInfo_table">
+            <tbody>
+              <tr>
+                <td class="saccount">商家账号：</td>
+                <td>
+                  <div class="sNick" style="float:left;">{$Think.session.uname}
+                  </div>
+                  <span>（以下信息双击可修改包括图片）</span>
+                </td>
+              </tr>
+              <tr>
+                <td class="itemsName">店铺名称：</td>
+                <td><input type="text" name="shopName" id="shopName" class="inputs" value="{$shopInfo.name}"/></td>
+                <td rowspan="2">
+                  <div id="preview">
+                    <empty name="shopInfo.logo">
+                      <img id="imghead" border="0" src="__PUBLIC__/Home/Icon/good_default.png" onclick="$('#previewImg').click();">
+                      <else/>
+                      <img id="imghead" border="0" src="__ROOT__/{$shopInfo.logo}"onclick="$('#previewImg').click();">
+                    </empty> 
+                  </div>
+                  <div>
+                    <input type="file" name= "logo" onchange="previewImage(this)" style="display: none;" id="previewImg" accept="image/*">
+                  </div>
+                  <span class="names">店铺logo</span>
+                </td>
+                <td rowspan="2">
+                  <div id="preview2">
+                     <empty name="shopInfo.qrcode">
+                      <img id="imghead" border="0" src="__PUBLIC__/Home/Icon/good_default.png" onclick="$('#previewImg2').click();">
+                      <else/>
+                      <img id="imghead" border="0" src="__ROOT__/{$shopInfo.qrcode}"onclick="$('#previewImg2').click();">
+                    </empty> 
+                  </div>
+                  <div>
+                    <input type="file" name= "qrcode" onchange="previewImage2(this)" style="display: none;" id="previewImg2" accept="image/*">
+                  </div>
+                  <span class="names">店铺二维码</span>
+                </td>
+              </tr>
+              <tr>
+                <td class="itemsName">客服QQ：</td>
+                <td><input type="text" name="shopqq" id="shopqq" class="inputs"value="{$shopInfo.service_qq}"/></td>
+              </tr>
+              <tr>
+                <td class="itemsName">客服电话：</td>
+                <td><input type="text" name="shopTel" id="shopTel" class="inputs" value="{$shopInfo.server_tel}"/></td>
+              </tr>
+              <tr>
+                <td class="itemsName">店铺地址：</td>
+                <td><input type="text" name="shopAddr" id="shopAddr" class="inputs" value="{$shopInfo.address}"/></td>
+              </tr>
+              <tr>
+                <td class="itemsName">服务时间：</td>
+                <td><input type="text" name="serverTime" id="serverTime" class="inputs" value="{$shopInfo.server_time}"/></td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <input type="submit" value="编辑" class="btn" style="margin-left:150px"/>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </form>
+      </div>
+    </div>
+  </div>
+  <!-- 用户中心右侧内容显示结束 --> 
+</div>
+<!-- 主体内容结束 --> 
+<include file='Public:footer'/>
+</body>
+</html>

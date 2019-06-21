@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>商家中心-安全设置</title>
+<!-- 公共链接 -->
+<include file = "Public:common"/>
+<include file = "Good:commonnav" />
+<script src="__PUBLIC__/Home/Js/Security/security.js"></script>
+<!-- 公共链接 -->
+</head>
+<body>
+<!-- header开始 --> 
+<include file = "Public:sheader"/>
+<!-- header结束 --> 
+<!-- 当前位置开始 -->
+<div class="position_now">
+  <label><a href="{:U('Home/Index/index')}">首页</a></label>
+  <span>&gt</span>
+  <label>安全设置</label>
+</div>
+<!-- 当前位置显示结束 --> 
+<!-- 主体内容开始 -->
+<div class="scenter_wrapper"> 
+  <!-- 左边导航标签开始 --> 
+  <include file='Public:scenternav'/> 
+  <!-- 左边导航标签结束 -->
+  <div class="scenter_right">
+    <div class="scenter_right_title"> <span>安全设置</span> </div>
+    <div class="scenter_right_content">
+      <div class="security_head">
+        <div class="left">
+          <empty name="info.face">
+            <img src="__PUBLIC__/Home/Icon/no-img.png">
+            <else/>
+            <img src="__ROOT_/{$info.face}">
+          </empty>
+        </div>
+        <div class="right">
+          <div class="lists">
+            <span style="color:red;font-size:18px;">{$Think.session.uname}</span>
+          </div>
+          <div class="lists">
+            安全级别<span style="color:red;dispaly:inline-block;margin:0px 5px;">
+            <if condition="($info.bind_email eq 1) AND ($info.bind_tel eq 1)">
+              （高）
+              <elseif condition="($info.bind_email eq 0) AND ($info.bind_tel eq 0)"/>
+              （较低）建议提升安全等级
+              <else/>
+              （中）建议提升安全等级
+            </if>
+          </span>
+          </div>
+          <div class="lists">
+            <span class="progress">
+              <span class="p-complete"
+             <if condition="($info.bind_email eq 1) AND ($info.bind_tel eq 1)">
+              style="width:300px;"
+              <elseif condition="($info.bind_email eq 0) AND ($info.bind_tel eq 0)"/>
+               style="width:100px;"
+              <else/>
+               style="width:200px;"
+            </if>
+              ></span>
+            </span>
+          </div>
+          <div class="lists">
+            <span>上次登录时间：{$recentLog[0].time|date="Y-m-d H:i:s",###}</span>
+          </div>
+          <div class="lists">
+            <span>上次登录IP：{$recentLog[0].ip}</span>
+          </div>
+        </div>
+      </div>
+      <div class="security_content">
+        <div class="setting">
+          <span class="set-icon">
+            <img src="__PUBLIC__/Home/Icon/binding.png"/>
+          </span>
+          <span class="set-success">已设置</span>
+          <span class="set-name">登录密码</span>
+          <span class="set-info">登录密码用于登录以及进行登录的一系列操作，建议您定期更改密码。 </span>
+          <a href="{:U('Home/ShoperCenter/modifyPwd')}" class="set-action">修改密码</a>
+        </div>
+        <div class="setting">
+          <if condition="$info.bind_email eq 1">
+           <span class="set-icon">
+            <img src="__PUBLIC__/Home/Icon/binding.png"/>
+          </span>
+          <span class="set-success">已验证</span>
+          <span class="set-name">邮箱验证</span>
+          <span class="set-info">邮箱验证方便您及时接收优惠促销信息，以及积分、优惠卷和账户余额变动的提醒。</span>
+          <a href="javascript:void(0);" onclick="bindEmail('{$info.email}','unbind',1);">解绑邮箱</a>
+          <else/>
+          <span class="set-icon">
+            <img src="__PUBLIC__/Home/Icon/email.png"/>
+          </span>
+          <span class="set-error">未验证</span>
+          <span class="set-name">邮箱验证</span>
+          <span class="set-info">邮箱验证方便您及时接收优惠促销信息，以及积分、优惠卷和账户余额变动的提醒。</span>
+          <a href="javascript:void(0);" onclick="bindEmail('{$info.email}','bind',1);">邮箱验证</a>
+          </if>
+        </div>
+        <div class="setting">
+          <if condition="$info.bind_tel eq 1">
+           <span class="set-icon">
+            <img src="__PUBLIC__/Home/Icon/binding.png"/>
+          </span>
+          <span class="set-success">已绑定</span>
+          <span class="set-name">手机号</span>
+          <span class="set-info">手机验证方便您及时接收优惠促销信息，以及积分、优惠卷和账户余额变动的提醒。 </span>
+          <a href="#" class="set-action">解绑手机</a>
+            <else/>
+            <span class="set-icon">
+              <img src="__PUBLIC__/Home/Icon/tel.png"/>
+            </span>
+            <span class="set-error">未绑定</span>
+            <span class="set-name">手机号</span>
+            <span class="set-info">手机验证方便您及时接收优惠促销信息，以及积分、优惠卷和账户余额变动的提醒。 </span>
+            <a href="#" class="set-action">绑定手机</a>
+          </if>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 用户中心右侧内容显示结束 --> 
+</div>
+<!-- 主体内容结束 --> 
+<include file='Public:footer'/>
+</body>
+</html>

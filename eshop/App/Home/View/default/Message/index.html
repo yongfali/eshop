@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>
+  <if condition="$Think.session.type eq 1">
+    商户中心-商家消息
+    <else/>
+    用户中心-用户消息
+  </if>
+</title>
+<include file = "Public:common"/>
+<if condition="$Think.session.type eq 1">
+ <include file = "Good:commonnav" />
+ <else/>
+ <include file='Public:ucenterlink'/>
+</if>
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/Css/Message/message.css">
+<script src="__PUBLIC__/Home/Js/Message/msg.js"></script>
+<script src="__PUBLIC__/Home/Js/common.js"></script>
+</head>
+<body>
+  <if condition="$Think.session.type eq 1">
+   <include file = "Public:sheader"/>
+   <else/>
+   <include file = "Public:header"/>
+ </if>
+<div class="position_now">
+  <label><a href="index.html">首页</a></label>
+  <span>&gt</span>
+  <label>
+    <if condition="$Think.session.type eq 1">
+    商户消息
+    <else/>
+    用户消息
+  </if>
+  </label>
+</div>
+<div class="<if condition="$Think.session.type eq 1">scenter_wrapper<else/>ucenter_wrapper</if>"> 
+  <!-- 左侧导航开始 --> 
+  <if condition="$Think.session.type eq 1">
+    <include file = "Public:scenternav"/> 
+    <else/>
+    <include file = "Public:ucenternav"/> 
+  </if>
+  <!-- 左侧导航结束 --> 
+  <!-- 右侧内容显示开始 -->
+  <div class="<if condition="$Think.session.type eq 1">scenter_right<else/>ucenter_right</if>">
+    <div class="<if condition="$Think.session.type eq 1">scenter_right_title<else/>ucenter_right_title</if>"> 
+      <span>
+        <if condition="$Think.session.type eq 1">
+          商户消息
+          <else/>
+          用户消息
+        </if>
+      </span>
+    </div>
+    <div class="msg-action">
+    	<a href="javascript:allMsgRead();">全部标为已读</a>
+    	<a href="javascript:delMsg(1);" rel="{:U('messageDel')}">批量删除</a>
+    </div>
+    <div class="ucenter_right_content">
+    	<table class="msg-table">
+    		<thead>
+    			<tr>
+    				<th width="8%">
+    					<input type="checkbox" id="allchecked" autocomplete="off"/>
+    					<label for="allchecked">全选</label>
+    				</th>
+    				<th width="6%">状态</th>
+    				<th width="76%">内容</th>
+    				<th width="10%" style="text-align:center;">操作</th>
+    			</tr>
+    		</thead>
+    		<tbody>
+                <empty name="list">
+                    <tr>
+                        <td colspan="4" style="text-align:center;color:red;">
+                            暂无消息！！！
+                        </td>
+                    </tr>
+                    <else/>
+                    <volist name="list" id="item">
+                        <tr>
+                            <td class="msg-item-box"><input type="checkbox" class="msg_check" value="{$item.id}" status="{$item.status}" autocomplete="off"/></td>
+                            <td>
+                                <span class="newMsg">
+                                    <if condition="$item.status eq 1">
+                                       <img src="__PUBLIC__/Home/Icon/redMsg.png"> 
+                                       <else/>
+                                       <img src="__PUBLIC__/Home/Icon/newMsg.png">
+                                    </if>
+                                </span>
+                            </td>
+                            <td class="msg-content"><span>{$item.content}</span></td>
+                            <td class="msg-actions">
+                              <if condition="$item.status eq 1">
+                                <a href="{:U('messageDetail',array('msgId' => $item['id'],'status'=>'old'))}" >查看</a>
+                                <else/>
+                                <a href="{:U('messageDetail',array('msgId' => $item['id'],'status'=>'new'))}" >查看</a>
+                              </if>
+                                <a href="javascript:delMsg(0,{$item.id});" rel="{:U('messageDel')}">删除</a>
+                            </td>
+                        </tr>
+                    </volist>
+                </empty>	
+    		</tbody>
+    	</table>
+      <!-- 分页开始 -->
+      <div class="pages">{$page}</div>
+      <!-- 分页结束 --> 
+    </div>
+  </div>
+  <!-- 右侧内容显示结束 --> 
+</div>
+<include file= "Public:footer" />
+</body>
+</html>

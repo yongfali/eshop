@@ -1,0 +1,890 @@
+[ 2017-03-05T09:47:30+08:00 ] ::1 /eshop/index.php/Good/getShopCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002414s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_secondmenu` [ RunTime:0.0094s ]
+SQL: SELECT `id`,`sname` FROM `eshop_shop_secondmenu` WHERE `pid` = 1 AND `is_show` = 1  [ RunTime:0.0008s ]
+
+[ 2017-03-05T09:49:29+08:00 ] ::1 /eshop/index.php/Good/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002533s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0067s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001581s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001835s ]
+
+[ 2017-03-05T09:50:07+08:00 ] ::1 /eshop/index.php/Good/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002228s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0104s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001900s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002081s ]
+
+[ 2017-03-05T10:03:54+08:00 ] ::1 /eshop/index.php/Good/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001990s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003039s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0079s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002268s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002450s ]
+
+[ 2017-03-05T10:46:58+08:00 ] ::1 /eshop/index.php/Good/goodImgDel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001881s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002728s ]
+NOTIC: [2] closedir() expects parameter 1 to be resource, string given D:\wampserver\wamp\www\eshop\App\Home\Common\function.php 第 57 行.
+NOTIC: [2] closedir() expects parameter 1 to be resource, string given D:\wampserver\wamp\www\eshop\App\Home\Common\function.php 第 57 行.
+NOTIC: [2] closedir() expects parameter 1 to be resource, string given D:\wampserver\wamp\www\eshop\App\Home\Common\function.php 第 57 行.
+NOTIC: [2] closedir() expects parameter 1 to be resource, string given D:\wampserver\wamp\www\eshop\App\Home\Common\function.php 第 57 行.
+
+[ 2017-03-05T10:52:27+08:00 ] ::1 /eshop/index.php/Good/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002451s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0077s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001658s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001810s ]
+
+[ 2017-03-05T10:59:21+08:00 ] ::1 /eshop/index.php/Good/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002490s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0088s ]
+ERR: 1054:Unknown column '$ids' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `eshop_good` WHERE ( id in ($ids) ) LIMIT 1  
+ERR: 1054:Unknown column '$ids' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `eshop_good` WHERE ( id in ($ids) ) LIMIT 1  
+
+[ 2017-03-05T10:59:52+08:00 ] ::1 /eshop/index.php/Good/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001094s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002051s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0106s ]
+SQL: SELECT * FROM `eshop_good` WHERE ( id in (13,12) ) LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001459s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001608s ]
+
+[ 2017-03-05T11:01:22+08:00 ] ::1 /eshop/index.php/Good/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002295s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0103s ]
+SQL: SELECT * FROM `eshop_good` WHERE ( id in (13,12) ) LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001705s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001885s ]
+
+[ 2017-03-05T11:02:04+08:00 ] ::1 /eshop/index.php/Good/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002237s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `eshop_good` WHERE ( id in (13,12) )  [ RunTime:0.0011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002374s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002620s ]
+
+[ 2017-03-05T11:03:31+08:00 ] ::1 /eshop/index.php/Good/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002487s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0093s ]
+SQL: SELECT `id`,`good_log` FROM `eshop_good` WHERE ( id in (13,12) )  [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001502s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001673s ]
+
+[ 2017-03-05T11:03:48+08:00 ] ::1 /eshop/index.php/Good/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001181s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002236s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0072s ]
+SQL: SELECT `id`,`good_log` FROM `eshop_good` WHERE ( id in (12) )  [ RunTime:0.0280s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001461s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001639s ]
+
+[ 2017-03-05T11:15:06+08:00 ] ::1 /eshop/index.php/Good/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002398s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0077s ]
+SQL: SELECT `id`,`good_log` FROM `eshop_good` WHERE ( id in (12) )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `eshop_goodimg` [ RunTime:0.0095s ]
+SQL: SELECT `id`,`img`,`thumb_img` FROM `eshop_goodimg` WHERE ( goodId in (12) )  [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002329s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002561s ]
+
+[ 2017-03-05T11:15:40+08:00 ] ::1 /eshop/index.php/Good/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002476s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0089s ]
+SQL: SELECT `id`,`good_log` FROM `eshop_good` WHERE ( id in (12) )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `eshop_goodimg` [ RunTime:0.0075s ]
+SQL: SELECT `id`,`img`,`thumb_img` FROM `eshop_goodimg` WHERE ( goodId in (12) )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001959s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002190s ]
+
+[ 2017-03-05T11:16:06+08:00 ] ::1 /eshop/index.php/Good/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002481s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0127s ]
+SQL: SELECT `id`,`good_log` FROM `eshop_good` WHERE ( id in (13) )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `eshop_goodimg` [ RunTime:0.0075s ]
+SQL: SELECT `id`,`img`,`thumb_img` FROM `eshop_goodimg` WHERE ( goodId in (13) )  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002618s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002905s ]
+
+[ 2017-03-05T13:16:01+08:00 ] ::1 /eshop/index.php/Good/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010946s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.026363s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0077s ]
+SQL: SELECT `id`,`good_log` FROM `eshop_good` WHERE ( id in (13,12,10,9,4) )  [ RunTime:0.0204s ]
+SQL: SHOW COLUMNS FROM `eshop_goodimg` [ RunTime:0.0054s ]
+SQL: SELECT `id`,`img`,`thumb_img` FROM `eshop_goodimg` WHERE ( goodId in (13,12,10,9,4) )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.023671s ]
+INFO: [ app_end ] --END-- [ RunTime:0.023821s ]
+
+[ 2017-03-05T13:19:32+08:00 ] ::1 /eshop/index.php/Good/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000961s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001549s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`good_log` FROM `eshop_good` WHERE ( id in (13,12) )  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `eshop_goodimg` [ RunTime:0.0043s ]
+SQL: SELECT `id`,`img`,`thumb_img` FROM `eshop_goodimg` WHERE ( goodId in (13,12) )  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: result1 D:\wampserver\wamp\www\eshop\App\Home\Model\GoodModel.class.php 第 122 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001002s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001092s ]
+
+[ 2017-03-05T13:20:14+08:00 ] ::1 /eshop/index.php/Good/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001124s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001821s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0055s ]
+SQL: SELECT `id`,`good_log` FROM `eshop_good` WHERE ( id in (13,12) )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `eshop_goodimg` [ RunTime:0.0053s ]
+SQL: SELECT `id`,`img`,`thumb_img` FROM `eshop_goodimg` WHERE ( goodId in (13,12) )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001530s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001678s ]
+
+[ 2017-03-05T13:20:30+08:00 ] ::1 /eshop/index.php/Good/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000869s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001469s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0044s ]
+SQL: SELECT `good_log` FROM `eshop_good` WHERE ( id in (13,12) )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `eshop_goodimg` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`img`,`thumb_img` FROM `eshop_goodimg` WHERE ( goodId in (13,12) )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001228s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001370s ]
+
+[ 2017-03-05T13:20:46+08:00 ] ::1 /eshop/index.php/Good/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000957s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001791s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0051s ]
+SQL: SELECT `id`,`good_log` FROM `eshop_good` WHERE ( id in (13,12) )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `eshop_goodimg` [ RunTime:0.0042s ]
+SQL: SELECT `id`,`img`,`thumb_img` FROM `eshop_goodimg` WHERE ( goodId in (13,12) )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001070s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001160s ]
+
+[ 2017-03-05T13:21:41+08:00 ] ::1 /eshop/index.php/Good/goodDel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000904s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001495s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0048s ]
+SQL: SELECT `id`,`good_log` FROM `eshop_good` WHERE ( id in (13,12) )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_goodimg` [ RunTime:0.0042s ]
+SQL: SELECT `id`,`img`,`thumb_img` FROM `eshop_goodimg` WHERE ( goodId in (13,12) )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001078s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001181s ]
+
+[ 2017-03-05T13:22:59+08:00 ] ::1 /eshop/index.php/Good/goodDel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000931s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001514s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0048s ]
+SQL: SELECT `id`,`good_log` FROM `eshop_good` WHERE ( id in (13,12) )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `eshop_goodimg` [ RunTime:0.0048s ]
+SQL: SELECT `id`,`img`,`thumb_img` FROM `eshop_goodimg` WHERE ( goodId in (13,12) )  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001182s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001297s ]
+
+[ 2017-03-05T13:24:53+08:00 ] ::1 /eshop/index.php/Good/goodDel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000872s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001420s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0053s ]
+SQL: SELECT `id`,`good_log` FROM `eshop_good` WHERE ( id in (13,12) )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_goodimg` [ RunTime:0.0046s ]
+SQL: SELECT `id`,`img`,`thumb_img` FROM `eshop_goodimg` WHERE ( goodId in (13,12) )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001035s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001120s ]
+
+[ 2017-03-05T13:25:15+08:00 ] ::1 /eshop/index.php/Good/goodDel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000853s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001499s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0043s ]
+SQL: SELECT `id`,`good_log` FROM `eshop_good` WHERE ( id in (12) )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `eshop_goodimg` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`img`,`thumb_img` FROM `eshop_goodimg` WHERE ( goodId in (12) )  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: thumbs D:\wampserver\wamp\www\eshop\App\Home\Model\GoodModel.class.php 第 129 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001623s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001759s ]
+
+[ 2017-03-05T13:25:47+08:00 ] ::1 /eshop/index.php/Good/goodDel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000926s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002095s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0049s ]
+SQL: SELECT `id`,`good_log` FROM `eshop_good` WHERE ( id in (12) )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `eshop_goodimg` [ RunTime:0.0045s ]
+SQL: SELECT `id`,`img`,`thumb_img` FROM `eshop_goodimg` WHERE ( goodId in (12) )  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: thumbs D:\wampserver\wamp\www\eshop\App\Home\Model\GoodModel.class.php 第 129 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001176s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001283s ]
+
+[ 2017-03-05T13:27:06+08:00 ] ::1 /eshop/index.php/Good/goodDel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000970s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001581s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`good_log` FROM `eshop_good` WHERE ( id in (12) )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_goodimg` [ RunTime:0.0051s ]
+SQL: SELECT `id`,`img`,`thumb_img` FROM `eshop_goodimg` WHERE ( goodId in (12) )  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: thumbs D:\wampserver\wamp\www\eshop\App\Home\Model\GoodModel.class.php 第 134 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000983s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001089s ]
+
+[ 2017-03-05T13:27:32+08:00 ] ::1 /eshop/index.php/Good/goodDel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001411s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0224s ]
+SQL: SELECT `id`,`good_log` FROM `eshop_good` WHERE ( id in (12) )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `eshop_goodimg` [ RunTime:0.0048s ]
+SQL: SELECT `id`,`img`,`thumb_img` FROM `eshop_goodimg` WHERE ( goodId in (12) )  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: thumbs D:\wampserver\wamp\www\eshop\App\Home\Model\GoodModel.class.php 第 134 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001085s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001181s ]
+
+[ 2017-03-05T13:35:16+08:00 ] ::1 /eshop/index.php/Good/goodDel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001454s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0044s ]
+SQL: SELECT `id`,`good_log` FROM `eshop_good` WHERE ( id in (12) )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `eshop_goodimg` [ RunTime:0.0055s ]
+SQL: SELECT `id`,`img`,`thumb_img` FROM `eshop_goodimg` WHERE ( goodId in (12) )  [ RunTime:0.0003s ]
+SQL: DELETE FROM `eshop_good` WHERE `id` = '12' [ RunTime:0.0502s ]
+NOTIC: [8] Undefined variable: thumbs D:\wampserver\wamp\www\eshop\App\Home\Model\GoodModel.class.php 第 142 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001025s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001110s ]
+
+[ 2017-03-05T13:35:54+08:00 ] ::1 /eshop/index.php/Good/goodDel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000900s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001507s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0047s ]
+SQL: SELECT `id`,`good_log` FROM `eshop_good` WHERE ( id in (12) )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `eshop_goodimg` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`img`,`thumb_img` FROM `eshop_goodimg` WHERE ( goodId in (12) )  [ RunTime:0.0004s ]
+SQL: DELETE FROM `eshop_good` WHERE `id` = '12' [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001709s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001843s ]
+
+[ 2017-03-05T13:36:24+08:00 ] ::1 /eshop/index.php/Good/goodDel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001468s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`good_log` FROM `eshop_good` WHERE ( id in (12,4) )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_goodimg` [ RunTime:0.0053s ]
+SQL: SELECT `id`,`img`,`thumb_img` FROM `eshop_goodimg` WHERE ( goodId in (12,4) )  [ RunTime:0.0005s ]
+SQL: DELETE FROM `eshop_good` WHERE `id` IN ('12','4') [ RunTime:0.2625s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001179s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001283s ]
+
+[ 2017-03-05T13:36:51+08:00 ] ::1 /eshop/index.php/Good/goodDel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000825s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001449s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0066s ]
+SQL: SELECT `id`,`good_log` FROM `eshop_good` WHERE ( id in (12,4) )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_goodimg` [ RunTime:0.0053s ]
+SQL: SELECT `id`,`img`,`thumb_img` FROM `eshop_goodimg` WHERE ( goodId in (12,4) )  [ RunTime:0.0005s ]
+SQL: DELETE FROM `eshop_good` WHERE `id` IN ('12','4') [ RunTime:0.3045s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000999s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001116s ]
+
+[ 2017-03-05T13:36:56+08:00 ] ::1 /eshop/index.php/Good/goodDel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002942s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`good_log` FROM `eshop_good` WHERE ( id in (12) )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `eshop_goodimg` [ RunTime:0.0044s ]
+SQL: SELECT `id`,`img`,`thumb_img` FROM `eshop_goodimg` WHERE ( goodId in (12) )  [ RunTime:0.0004s ]
+SQL: DELETE FROM `eshop_good` WHERE `id` = '12' [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000868s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000951s ]
+
+[ 2017-03-05T13:42:35+08:00 ] ::1 /eshop/index.php/Good/goodDel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001417s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0046s ]
+SQL: SELECT `id`,`good_log` FROM `eshop_good` WHERE ( id in (12,4) )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_goodimg` [ RunTime:0.0062s ]
+SQL: SELECT `id`,`img`,`thumb_img` FROM `eshop_goodimg` WHERE ( goodId in (12,4) )  [ RunTime:0.0005s ]
+SQL: DELETE FROM `eshop_good` WHERE `id` IN ('12','4') [ RunTime:0.3740s ]
+
+[ 2017-03-05T13:43:07+08:00 ] ::1 /eshop/index.php/Good/goodDel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001322s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0045s ]
+SQL: SELECT `id`,`good_log` FROM `eshop_good` WHERE ( id in (12) )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `eshop_goodimg` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`img`,`thumb_img` FROM `eshop_goodimg` WHERE ( goodId in (12) )  [ RunTime:0.0003s ]
+SQL: DELETE FROM `eshop_good` WHERE `id` IN ('12') [ RunTime:0.0004s ]
+
+[ 2017-03-05T13:46:48+08:00 ] ::1 /eshop/index.php/Good/goodDel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000845s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001400s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0044s ]
+SQL: SELECT `id`,`good_log` FROM `eshop_good` WHERE ( id in (12) )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `eshop_goodimg` [ RunTime:0.0058s ]
+SQL: SELECT `id`,`img`,`thumb_img` FROM `eshop_goodimg` WHERE ( goodId in (12) )  [ RunTime:0.0004s ]
+SQL: DELETE FROM `eshop_good` WHERE `id` = '12' [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: imgs D:\wampserver\wamp\www\eshop\App\Home\Model\GoodModel.class.php 第 136 行.
+
+[ 2017-03-05T13:47:19+08:00 ] ::1 /eshop/index.php/Good/goodDel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000909s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001502s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0046s ]
+SQL: SELECT `id`,`good_log` FROM `eshop_good` WHERE ( id in (13) )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_goodimg` [ RunTime:0.0049s ]
+SQL: SELECT `id`,`img`,`thumb_img` FROM `eshop_goodimg` WHERE ( goodId in (13) )  [ RunTime:0.0004s ]
+SQL: DELETE FROM `eshop_good` WHERE `id` = '13' [ RunTime:0.2998s ]
+
+[ 2017-03-05T13:51:42+08:00 ] ::1 /eshop/index.php/Good/goodDel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000984s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001596s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0066s ]
+SQL: SELECT `id`,`good_log` FROM `eshop_good` WHERE ( id in (13) )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_goodimg` [ RunTime:0.0051s ]
+SQL: SELECT `id`,`img`,`thumb_img` FROM `eshop_goodimg` WHERE ( goodId in (13) )  [ RunTime:0.0004s ]
+SQL: DELETE FROM `eshop_good` WHERE `id` = '13' [ RunTime:0.0007s ]
+
+[ 2017-03-05T13:52:30+08:00 ] ::1 /eshop/index.php/Good/goodDel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000958s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001632s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0047s ]
+SQL: SELECT `id`,`good_log` FROM `eshop_good` WHERE ( id in (12) )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_goodimg` [ RunTime:0.0043s ]
+SQL: SELECT `id`,`img`,`thumb_img` FROM `eshop_goodimg` WHERE ( goodId in (12) )  [ RunTime:0.0003s ]
+SQL: DELETE FROM `eshop_good` WHERE `id` = '12' [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: imgs D:\wampserver\wamp\www\eshop\App\Home\Model\GoodModel.class.php 第 151 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wampserver\wamp\www\eshop\App\Home\Model\GoodModel.class.php 第 151 行.
+NOTIC: [8] Undefined variable: thumbs D:\wampserver\wamp\www\eshop\App\Home\Model\GoodModel.class.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wampserver\wamp\www\eshop\App\Home\Model\GoodModel.class.php 第 157 行.
+NOTIC: [2] closedir() expects parameter 1 to be resource, string given D:\wampserver\wamp\www\eshop\App\Home\Common\function.php 第 57 行.
+NOTIC: [2] closedir() expects parameter 1 to be resource, string given D:\wampserver\wamp\www\eshop\App\Home\Common\function.php 第 57 行.
+NOTIC: [2] closedir() expects parameter 1 to be resource, string given D:\wampserver\wamp\www\eshop\App\Home\Common\function.php 第 57 行.
+NOTIC: [2] closedir() expects parameter 1 to be resource, string given D:\wampserver\wamp\www\eshop\App\Home\Common\function.php 第 57 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000863s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000940s ]
+
+[ 2017-03-05T13:55:17+08:00 ] ::1 /eshop/index.php/Good/goodDel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000920s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001526s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0090s ]
+SQL: SELECT `id`,`good_log` FROM `eshop_good` WHERE ( id in (4) )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_goodimg` [ RunTime:0.0041s ]
+SQL: SELECT `id`,`img`,`thumb_img` FROM `eshop_goodimg` WHERE ( goodId in (4) )  [ RunTime:0.0004s ]
+SQL: DELETE FROM `eshop_good` WHERE `id` = '4' [ RunTime:0.0004s ]
+NOTIC: [2] closedir() expects parameter 1 to be resource, string given D:\wampserver\wamp\www\eshop\App\Home\Common\function.php 第 57 行.
+NOTIC: [2] closedir() expects parameter 1 to be resource, string given D:\wampserver\wamp\www\eshop\App\Home\Common\function.php 第 57 行.
+NOTIC: [2] closedir() expects parameter 1 to be resource, string given D:\wampserver\wamp\www\eshop\App\Home\Common\function.php 第 57 行.
+NOTIC: [2] closedir() expects parameter 1 to be resource, string given D:\wampserver\wamp\www\eshop\App\Home\Common\function.php 第 57 行.
+
+[ 2017-03-05T13:57:32+08:00 ] ::1 /eshop/index.php/Good/goodDel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001188s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0048s ]
+SQL: SELECT `id`,`good_log` FROM `eshop_good` WHERE ( id in (9) )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_goodimg` [ RunTime:0.0048s ]
+SQL: SELECT `id`,`img`,`thumb_img` FROM `eshop_goodimg` WHERE ( goodId in (9) )  [ RunTime:0.0003s ]
+SQL: DELETE FROM `eshop_good` WHERE `id` IN ('9') [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: imgs D:\wampserver\wamp\www\eshop\App\Home\Model\GoodModel.class.php 第 151 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wampserver\wamp\www\eshop\App\Home\Model\GoodModel.class.php 第 151 行.
+NOTIC: [8] Undefined variable: thumbs D:\wampserver\wamp\www\eshop\App\Home\Model\GoodModel.class.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wampserver\wamp\www\eshop\App\Home\Model\GoodModel.class.php 第 157 行.
+NOTIC: [2] closedir() expects parameter 1 to be resource, string given D:\wampserver\wamp\www\eshop\App\Home\Common\function.php 第 57 行.
+NOTIC: [2] closedir() expects parameter 1 to be resource, string given D:\wampserver\wamp\www\eshop\App\Home\Common\function.php 第 57 行.
+NOTIC: [2] closedir() expects parameter 1 to be resource, string given D:\wampserver\wamp\www\eshop\App\Home\Common\function.php 第 57 行.
+NOTIC: [2] closedir() expects parameter 1 to be resource, string given D:\wampserver\wamp\www\eshop\App\Home\Common\function.php 第 57 行.
+
+[ 2017-03-05T14:00:33+08:00 ] ::1 /eshop/index.php/Good/getShopCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001812s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_secondmenu` [ RunTime:0.0072s ]
+SQL: SELECT `id`,`sname` FROM `eshop_shop_secondmenu` WHERE `pid` = 1 AND `is_show` = 1  [ RunTime:0.0005s ]
+
+[ 2017-03-05T14:22:47+08:00 ] ::1 /eshop/index.php/Good/getShopCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000926s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001516s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_secondmenu` [ RunTime:0.0048s ]
+SQL: SELECT `id`,`sname` FROM `eshop_shop_secondmenu` WHERE `pid` = 1 AND `is_show` = 1  [ RunTime:0.0006s ]
+
+[ 2017-03-05T14:24:08+08:00 ] ::1 /eshop/index.php/Good/getShopCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000901s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001590s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_secondmenu` [ RunTime:0.0047s ]
+SQL: SELECT `id`,`sname` FROM `eshop_shop_secondmenu` WHERE `pid` = 1 AND `is_show` = 1  [ RunTime:0.0005s ]
+
+[ 2017-03-05T14:24:33+08:00 ] ::1 /eshop/index.php/Good/getShopCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001444s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_secondmenu` [ RunTime:0.0041s ]
+SQL: SELECT `id`,`sname` FROM `eshop_shop_secondmenu` WHERE `pid` = 5 AND `is_show` = 1  [ RunTime:0.0004s ]
+
+[ 2017-03-05T14:48:48+08:00 ] ::1 /eshop/index.php/Good/getShopCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_secondmenu` [ RunTime:0.0087s ]
+SQL: SELECT `id`,`sname` FROM `eshop_shop_secondmenu` WHERE `pid` = 1 AND `is_show` = 1  [ RunTime:0.0006s ]
+
+[ 2017-03-05T14:51:16+08:00 ] ::1 /eshop/index.php/Good/getShopCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001492s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_secondmenu` [ RunTime:0.0054s ]
+SQL: SELECT `id`,`sname` FROM `eshop_shop_secondmenu` WHERE `pid` = 1 AND `is_show` = 1  [ RunTime:0.0004s ]
+
+[ 2017-03-05T14:52:50+08:00 ] ::1 /eshop/index.php/Good/getShopCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000952s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001541s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_secondmenu` [ RunTime:0.0047s ]
+SQL: SELECT `id`,`sname` FROM `eshop_shop_secondmenu` WHERE `pid` = 1 AND `is_show` = 1  [ RunTime:0.0004s ]
+
+[ 2017-03-05T15:07:25+08:00 ] ::1 /eshop/index.php/Good/getShopCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001132s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002025s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_secondmenu` [ RunTime:0.0047s ]
+SQL: SELECT `id`,`sname` FROM `eshop_shop_secondmenu` WHERE `pid` = 0 AND `is_show` = 1  [ RunTime:0.0005s ]
+
+[ 2017-03-05T15:29:04+08:00 ] ::1 /eshop/index.php/Good/getShopCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001720s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_secondmenu` [ RunTime:0.0053s ]
+SQL: SELECT `id`,`sname` FROM `eshop_shop_secondmenu` WHERE `pid` = 1 AND `is_show` = 1  [ RunTime:0.0005s ]
+
+[ 2017-03-05T15:29:13+08:00 ] ::1 /eshop/index.php/Good/getShopCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000907s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001746s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_secondmenu` [ RunTime:0.0053s ]
+SQL: SELECT `id`,`sname` FROM `eshop_shop_secondmenu` WHERE `pid` = 5 AND `is_show` = 1  [ RunTime:0.0004s ]
+
+[ 2017-03-05T15:38:52+08:00 ] ::1 /eshop/index.php/Good/goodsSearch.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000927s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001602s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000885s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001006s ]
+
+[ 2017-03-05T19:22:51+08:00 ] ::1 /eshop/index.php/Good/goodsSearch.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021945s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.026259s ]
+INFO: [ app_end ] --END-- [ RunTime:0.026513s ]
+
+[ 2017-03-05T19:40:26+08:00 ] ::1 /eshop/index.php/Good/goodsSearch.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001998s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001009s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001145s ]
+
+[ 2017-03-05T19:42:49+08:00 ] ::1 /eshop/index.php/Good/goodsSearch.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000973s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001587s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001073s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001171s ]
+
+[ 2017-03-05T19:50:42+08:00 ] ::1 /eshop/index.php/Good/goodsSearch.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000911s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001502s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000913s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001002s ]
+
+[ 2017-03-05T20:35:32+08:00 ] ::1 /eshop/index.php/Good/goodsSearch.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000823s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001590s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000953s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001048s ]
+
+[ 2017-03-05T20:37:20+08:00 ] ::1 /eshop/index.php/Good/goodsSearch.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001821s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002322s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002458s ]
+
+[ 2017-03-05T20:38:13+08:00 ] ::1 /eshop/index.php/Good/goodsSearch.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001414s ]
+ERR: 模板不存在:./App/Home/View/default/Good/goodsSearch.html
+
+[ 2017-03-05T20:38:42+08:00 ] ::1 /eshop/index.php/Good/goodsSearch.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001527s ]
+ERR: 模板不存在:./App/Home/View/default/Good/audit.html.html
+
+[ 2017-03-05T20:38:50+08:00 ] ::1 /eshop/index.php/Good/goodsSearch.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001454s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000159s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000243s ]
+NOTIC: [8] Undefined variable: list1 D:\wampserver\wamp\www\eshop\App\Runtime\Cache\Home\16ba3432e8104866a120dc81ddbbb947.php 第 205 行.
+NOTIC: [8] Undefined variable: list D:\wampserver\wamp\www\eshop\App\Runtime\Cache\Home\16ba3432e8104866a120dc81ddbbb947.php 第 244 行.
+NOTIC: [8] Undefined variable: page D:\wampserver\wamp\www\eshop\App\Runtime\Cache\Home\16ba3432e8104866a120dc81ddbbb947.php 第 269 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023403s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023517s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000654s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000799s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001567s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001113s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001203s ]
+
+[ 2017-03-05T20:39:27+08:00 ] ::1 /eshop/index.php/Good/goodsSearch.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000896s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001429s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000153s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000238s ]
+NOTIC: [8] Undefined variable: list1 D:\wampserver\wamp\www\eshop\App\Runtime\Cache\Home\16ba3432e8104866a120dc81ddbbb947.php 第 205 行.
+NOTIC: [8] Undefined variable: list D:\wampserver\wamp\www\eshop\App\Runtime\Cache\Home\16ba3432e8104866a120dc81ddbbb947.php 第 245 行.
+NOTIC: [8] Undefined variable: page D:\wampserver\wamp\www\eshop\App\Runtime\Cache\Home\16ba3432e8104866a120dc81ddbbb947.php 第 270 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021766s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021850s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000710s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000747s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001570s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000832s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000915s ]
+
+[ 2017-03-05T20:39:51+08:00 ] ::1 /eshop/index.php/Good/goodsSearch.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001362s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000226s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000336s ]
+NOTIC: [8] Undefined variable: list1 D:\wampserver\wamp\www\eshop\App\Runtime\Cache\Home\16ba3432e8104866a120dc81ddbbb947.php 第 205 行.
+NOTIC: [8] Undefined variable: list D:\wampserver\wamp\www\eshop\App\Runtime\Cache\Home\16ba3432e8104866a120dc81ddbbb947.php 第 244 行.
+NOTIC: [8] Undefined variable: page D:\wampserver\wamp\www\eshop\App\Runtime\Cache\Home\16ba3432e8104866a120dc81ddbbb947.php 第 269 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024510s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024613s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000845s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000958s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001993s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001116s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001230s ]
+
+[ 2017-03-05T20:40:09+08:00 ] ::1 /eshop/index.php/Good/goodsSearch.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000899s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001477s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000420s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000626s ]
+NOTIC: [8] Undefined variable: list1 D:\wampserver\wamp\www\eshop\App\Runtime\Cache\Home\16ba3432e8104866a120dc81ddbbb947.php 第 205 行.
+NOTIC: [8] Undefined variable: page D:\wampserver\wamp\www\eshop\App\Runtime\Cache\Home\16ba3432e8104866a120dc81ddbbb947.php 第 269 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039782s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039948s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001248s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001518s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002988s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001209s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001321s ]
+
+[ 2017-03-05T20:40:59+08:00 ] ::1 /eshop/index.php/Good/goodsSearch.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001415s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000183s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000260s ]
+NOTIC: [8] Undefined variable: list1 D:\wampserver\wamp\www\eshop\App\Runtime\Cache\Home\16ba3432e8104866a120dc81ddbbb947.php 第 205 行.
+NOTIC: [8] Undefined variable: page D:\wampserver\wamp\www\eshop\App\Runtime\Cache\Home\16ba3432e8104866a120dc81ddbbb947.php 第 269 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021082s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021195s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000686s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000710s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001536s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000875s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000959s ]
+
+[ 2017-03-05T20:41:44+08:00 ] ::1 /eshop/index.php/Good/goodsSearch.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001800s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000189s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000293s ]
+NOTIC: [8] Undefined variable: list1 D:\wampserver\wamp\www\eshop\App\Runtime\Cache\Home\16ba3432e8104866a120dc81ddbbb947.php 第 205 行.
+NOTIC: [8] Undefined variable: page D:\wampserver\wamp\www\eshop\App\Runtime\Cache\Home\16ba3432e8104866a120dc81ddbbb947.php 第 269 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022467s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022542s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000654s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000639s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001394s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000826s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000943s ]
+
+[ 2017-03-05T20:43:33+08:00 ] ::1 /eshop/index.php/Good/goodsSearch.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001162s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002164s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000148s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000222s ]
+NOTIC: [8] Undefined variable: list1 D:\wampserver\wamp\www\eshop\App\Runtime\Cache\Home\16ba3432e8104866a120dc81ddbbb947.php 第 205 行.
+NOTIC: [8] Undefined variable: page D:\wampserver\wamp\www\eshop\App\Runtime\Cache\Home\16ba3432e8104866a120dc81ddbbb947.php 第 269 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020068s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020199s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000677s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000700s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001494s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000915s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-05T20:44:39+08:00 ] ::1 /eshop/index.php/Good/goodsSearch.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000916s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001484s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000185s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000261s ]
+NOTIC: [8] Undefined variable: list1 D:\wampserver\wamp\www\eshop\App\Runtime\Cache\Home\16ba3432e8104866a120dc81ddbbb947.php 第 205 行.
+NOTIC: [8] Undefined variable: page D:\wampserver\wamp\www\eshop\App\Runtime\Cache\Home\16ba3432e8104866a120dc81ddbbb947.php 第 269 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023420s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023506s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001258s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000866s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002306s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000918s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001007s ]
+
+[ 2017-03-05T20:49:57+08:00 ] ::1 /eshop/index.php/Good/goodsSearch.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001818s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000205s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000341s ]
+NOTIC: [8] Undefined variable: list1 D:\wampserver\wamp\www\eshop\App\Runtime\Cache\Home\16ba3432e8104866a120dc81ddbbb947.php 第 205 行.
+NOTIC: [8] Undefined variable: page D:\wampserver\wamp\www\eshop\App\Runtime\Cache\Home\16ba3432e8104866a120dc81ddbbb947.php 第 269 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020860s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020938s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000876s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001032s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002088s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000910s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-03-05T20:50:02+08:00 ] ::1 /eshop/index.php/Good/getShopCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002228s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_secondmenu` [ RunTime:0.0079s ]
+SQL: SELECT `id`,`sname` FROM `eshop_shop_secondmenu` WHERE `pid` = 0 AND `is_show` = 1  [ RunTime:0.0004s ]
+
+[ 2017-03-05T20:50:11+08:00 ] ::1 /eshop/index.php/Good/getShopCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002402s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_secondmenu` [ RunTime:0.0060s ]
+SQL: SELECT `id`,`sname` FROM `eshop_shop_secondmenu` WHERE `pid` = 1 AND `is_show` = 1  [ RunTime:0.0005s ]
+
+[ 2017-03-05T20:52:03+08:00 ] ::1 /eshop/index.php/Good/goodsSearch.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000917s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001503s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000153s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000227s ]
+NOTIC: [8] Undefined variable: list1 D:\wampserver\wamp\www\eshop\App\Runtime\Cache\Home\16ba3432e8104866a120dc81ddbbb947.php 第 205 行.
+NOTIC: [8] Undefined variable: page D:\wampserver\wamp\www\eshop\App\Runtime\Cache\Home\16ba3432e8104866a120dc81ddbbb947.php 第 269 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022540s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022617s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000763s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000725s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001590s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000830s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000907s ]
+
+[ 2017-03-05T20:59:12+08:00 ] ::1 /eshop/index.php/Good/goodsSearch.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001554s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000148s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000223s ]
+NOTIC: [8] Undefined variable: list1 D:\wampserver\wamp\www\eshop\App\Runtime\Cache\Home\16ba3432e8104866a120dc81ddbbb947.php 第 205 行.
+NOTIC: [8] Undefined variable: page D:\wampserver\wamp\www\eshop\App\Runtime\Cache\Home\16ba3432e8104866a120dc81ddbbb947.php 第 269 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021312s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021403s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000643s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001404s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002262s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001156s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001264s ]
+
+[ 2017-03-05T21:02:32+08:00 ] ::1 /eshop/index.php/Good/goodsSearch.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003525s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0059s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0076s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `shopId` = '3' AND `is_exam` = 0 AND `status` = 1 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT eshop_good.* FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `shopId` = '3' AND `is_exam` = 0 AND `status` = 1 AND `is_show` = 1 ORDER BY time desc LIMIT 0,10   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: list1 D:\wampserver\wamp\www\eshop\App\Home\Controller\GoodController.class.php 第 347 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000524s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000756s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028028s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028149s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001182s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000828s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002191s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000979s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001072s ]
+
+[ 2017-03-05T21:02:55+08:00 ] ::1 /eshop/index.php/Good/goodsSearch.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000943s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001685s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0051s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `shopId` = '3' AND `is_exam` = 0 AND `status` = 1 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT eshop_good.* FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `shopId` = '3' AND `is_exam` = 0 AND `status` = 1 AND `is_show` = 1 ORDER BY time desc LIMIT 0,1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: list1 D:\wampserver\wamp\www\eshop\App\Home\Controller\GoodController.class.php 第 347 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000232s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000365s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027821s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027907s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000535s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000613s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001251s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000775s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000840s ]
+

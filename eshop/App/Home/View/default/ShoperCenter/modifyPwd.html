@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>商家中心-修改密码</title>
+<!-- 公共链接 -->
+<include file = "Public:common"/>
+<include file = "Good:commonnav" />
+<!-- 公共链接 -->
+<script src="__PUBLIC__/Home/Js/Shoper/modifyPwd.js"></script>
+</head>
+<body>
+<!-- header开始 --> 
+<include file = "Public:sheader"/>
+<!-- header结束 --> 
+<!-- 当前位置开始 -->
+<div class="position_now">
+  <label><a href="{:U('Home/Index/index')}">首页</a></label>
+  <span>&gt</span>
+  <label>修改密码</label>
+</div>
+<!-- 当前位置显示结束 --> 
+<!-- 主体内容开始 -->
+<div class="scenter_wrapper"> 
+  <!-- 左边导航标签开始 --> 
+  <include file='Public:scenternav'/> 
+  <!-- 左边导航标签结束 -->
+  <div class="scenter_right">
+    <div class="scenter_right_title"> 
+      <span>修改密码</span> 
+    </div>
+    <div class="scenter_right_content">
+      <form method="post" autocomplete="off" id="smodifypwd_form" rel="{:U('doModifyPwd')}">
+        <table class="smodifypwd_table">
+          <tbody>
+            <tr>
+              <td class="saccount">商家账号：</td>
+              <td><div class="sNick">{$Think.session.uname}</div></td>
+            </tr>
+             <tr>
+              <td class="itemsName">
+                <span class="icon">*</span>原密码：
+              </td>
+              <td><input type="password" name="soldpwd" id="soldpwd" value="" class="inputs" placeholder="请输入您的原密码"/></td>
+            </tr>
+            <tr>
+              <td class="itemsName">
+                <span class="icon">*</span>新密码：
+              </td>
+              <td><input type="password" name="snewpwd" id="snewpwd" value="" class="inputs" placeholder="请输入您的新密码"/></td>
+            </tr>
+            <tr>
+              <td class="itemsName">
+                 <span class="icon">*</span>确认密码： 
+              </td>
+              <td><input type="password" name="snewpwd1" id="snewpwd1" value="" class="inputs" placeholder="再次确认您的密码"/></td>
+            </tr>
+            <tr>
+              <td colspan="2"><input type="submit" name="btn" value="修改" class="btn mbtn"/></td>
+            </tr>
+          </tbody>
+        </table>
+      </form>
+    </div>
+  </div>
+  <!-- 用户中心右侧内容显示结束 --> 
+</div>
+<!-- 主体内容结束 --> 
+<include file='Public:footer'/>
+</body>
+</html>

@@ -1,0 +1,210 @@
+[ 2017-05-31T09:20:01+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-31 09:20:01 Use 0.000410 s
+
+[ 2017-05-31T09:20:17+08:00 ] ::1 /eshop/index.php/Admin/Login/checkVerify
+ERR: Cron:cron Runat 2017-05-31 09:20:17 Use 0.000270 s
+
+[ 2017-05-31T09:20:17+08:00 ] ::1 /eshop/index.php/Admin/Login/checkVerify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000653s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.005002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006239s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001248s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001376s ]
+
+[ 2017-05-31T09:20:17+08:00 ] ::1 /eshop/index.php/Admin/Login/doLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000703s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.002140s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003480s ]
+SQL: SHOW COLUMNS FROM `eshop_admin` [ RunTime:0.1347s ]
+SQL: SELECT * FROM `eshop_admin` WHERE `name` = 'admin' LIMIT 1   [ RunTime:0.0015s ]
+SQL: UPDATE `eshop_admin` SET `loginTime`='1496193617',`ip`='0.0.0.0' WHERE `id` = 1 [ RunTime:0.0581s ]
+
+[ 2017-05-31T09:20:19+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-31 09:20:19 Use 0.000718 s
+
+[ 2017-05-31T09:20:25+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-31 09:20:25 Use 0.000346 s
+
+[ 2017-05-31T09:20:27+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/autho.html
+ERR: Cron:cron Runat 2017-05-31 09:20:27 Use 0.000405 s
+
+[ 2017-05-31T09:20:30+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/apply.html
+ERR: Cron:cron Runat 2017-05-31 09:20:30 Use 0.000352 s
+
+[ 2017-05-31T09:20:32+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/autho.html
+ERR: Cron:cron Runat 2017-05-31 09:20:32 Use 0.000373 s
+
+[ 2017-05-31T09:20:34+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/addAutho.html
+ERR: Cron:cron Runat 2017-05-31 09:20:34 Use 0.000357 s
+
+[ 2017-05-31T09:20:52+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/apply.html
+ERR: Cron:cron Runat 2017-05-31 09:20:52 Use 0.000354 s
+
+[ 2017-05-31T09:41:40+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/apply.html
+ERR: Cron:cron Runat 2017-05-31 09:41:40 Use 0.000352 s
+
+[ 2017-05-31T09:42:46+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/apply.html
+ERR: Cron:cron Runat 2017-05-31 09:42:46 Use 0.000323 s
+
+[ 2017-05-31T09:42:54+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/list.html
+ERR: Cron:cron Runat 2017-05-31 09:42:54 Use 0.000327 s
+
+[ 2017-05-31T09:43:19+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/list.html
+ERR: Cron:cron Runat 2017-05-31 09:43:19 Use 0.000400 s
+
+[ 2017-05-31T09:44:04+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/list.html
+ERR: Cron:cron Runat 2017-05-31 09:44:04 Use 0.001140 s
+
+[ 2017-05-31T09:44:45+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/list.html
+ERR: Cron:cron Runat 2017-05-31 09:44:45 Use 0.000382 s
+
+[ 2017-05-31T09:45:14+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/list.html
+ERR: Cron:cron Runat 2017-05-31 09:45:14 Use 0.000360 s
+
+[ 2017-05-31T09:45:14+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/list.html
+ERR: 非法操作:list
+
+[ 2017-05-31T09:45:20+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/apply.html
+ERR: Cron:cron Runat 2017-05-31 09:45:20 Use 0.000347 s
+
+[ 2017-05-31T09:45:23+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/index.html
+ERR: Cron:cron Runat 2017-05-31 09:45:23 Use 0.000281 s
+
+[ 2017-05-31T09:45:57+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/index.html
+ERR: Cron:cron Runat 2017-05-31 09:45:57 Use 0.000395 s
+
+[ 2017-05-31T09:46:06+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/index.html
+ERR: Cron:cron Runat 2017-05-31 09:46:06 Use 0.000377 s
+
+[ 2017-05-31T09:47:41+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/index.html
+ERR: Cron:cron Runat 2017-05-31 09:47:41 Use 0.000358 s
+
+[ 2017-05-31T09:47:58+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/index.html
+ERR: Cron:cron Runat 2017-05-31 09:47:58 Use 0.000398 s
+
+[ 2017-05-31T09:48:36+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/index.html
+ERR: Cron:cron Runat 2017-05-31 09:48:36 Use 0.000361 s
+
+[ 2017-05-31T09:48:46+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/index.html
+ERR: Cron:cron Runat 2017-05-31 09:48:46 Use 0.000358 s
+
+[ 2017-05-31T09:50:24+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/index.html
+ERR: Cron:cron Runat 2017-05-31 09:50:24 Use 0.000396 s
+
+[ 2017-05-31T09:51:01+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/index.html
+ERR: Cron:cron Runat 2017-05-31 09:51:01 Use 0.000336 s
+
+[ 2017-05-31T09:51:09+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/apply.html
+ERR: Cron:cron Runat 2017-05-31 09:51:09 Use 0.000349 s
+
+[ 2017-05-31T09:51:18+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/index.html
+ERR: Cron:cron Runat 2017-05-31 09:51:18 Use 0.000364 s
+
+[ 2017-05-31T09:51:37+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/index.html
+ERR: Cron:cron Runat 2017-05-31 09:51:37 Use 0.000355 s
+
+[ 2017-05-31T09:54:47+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/index.html
+ERR: Cron:cron Runat 2017-05-31 09:54:47 Use 0.000348 s
+
+[ 2017-05-31T09:55:18+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/index.html
+ERR: Cron:cron Runat 2017-05-31 09:55:18 Use 0.000390 s
+
+[ 2017-05-31T09:55:20+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/index.html
+ERR: Cron:cron Runat 2017-05-31 09:55:20 Use 0.000346 s
+
+[ 2017-05-31T09:58:28+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/index.html
+ERR: Cron:cron Runat 2017-05-31 09:58:28 Use 0.000283 s
+
+[ 2017-05-31T09:58:30+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/index.html
+ERR: Cron:cron Runat 2017-05-31 09:58:30 Use 0.000417 s
+
+[ 2017-05-31T10:00:00+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/index.html
+ERR: Cron:cron Runat 2017-05-31 10:00:00 Use 0.000361 s
+
+[ 2017-05-31T10:00:23+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/index.html
+ERR: Cron:cron Runat 2017-05-31 10:00:23 Use 0.000413 s
+
+[ 2017-05-31T10:01:12+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/index.html
+ERR: Cron:cron Runat 2017-05-31 10:01:12 Use 0.000328 s
+
+[ 2017-05-31T10:01:22+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/index.html
+ERR: Cron:cron Runat 2017-05-31 10:01:22 Use 0.000337 s
+
+[ 2017-05-31T10:02:14+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/index.html
+ERR: Cron:cron Runat 2017-05-31 10:02:14 Use 0.000355 s
+
+[ 2017-05-31T10:06:05+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/index.html
+ERR: Cron:cron Runat 2017-05-31 10:06:05 Use 0.000338 s
+
+[ 2017-05-31T10:06:05+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/__PUBLIC/Admin
+ERR: 非法操作:__PUBLIC
+
+[ 2017-05-31T10:06:05+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/__PUBLIC/Admin
+ERR: 非法操作:__PUBLIC
+
+[ 2017-05-31T10:06:31+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/index.html
+ERR: Cron:cron Runat 2017-05-31 10:06:31 Use 0.000319 s
+
+[ 2017-05-31T10:06:32+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/__PUBLIC/Admin/ArticalManage/artical.css
+ERR: 非法操作:__PUBLIC
+
+[ 2017-05-31T10:06:32+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/__PUBLIC/Admin/ArticalManage/artical.css
+ERR: 非法操作:__PUBLIC
+
+[ 2017-05-31T10:06:36+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/index.html
+ERR: Cron:cron Runat 2017-05-31 10:06:36 Use 0.000488 s
+
+[ 2017-05-31T10:06:51+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/index.html
+ERR: Cron:cron Runat 2017-05-31 10:06:51 Use 0.000369 s
+
+[ 2017-05-31T10:06:54+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/index.html
+ERR: Cron:cron Runat 2017-05-31 10:06:54 Use 0.000413 s
+
+[ 2017-05-31T10:07:53+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/index.html
+ERR: Cron:cron Runat 2017-05-31 10:07:53 Use 0.000357 s
+
+[ 2017-05-31T10:08:19+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/index.html
+ERR: Cron:cron Runat 2017-05-31 10:08:19 Use 0.000300 s
+
+[ 2017-05-31T10:08:54+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/index.html
+ERR: Cron:cron Runat 2017-05-31 10:08:54 Use 0.000310 s
+
+[ 2017-05-31T10:10:33+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/index.html
+ERR: Cron:cron Runat 2017-05-31 10:10:33 Use 0.000390 s
+
+[ 2017-05-31T10:10:55+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/index.html
+ERR: Cron:cron Runat 2017-05-31 10:10:55 Use 0.000330 s
+
+[ 2017-05-31T10:12:13+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/index.html
+ERR: Cron:cron Runat 2017-05-31 10:12:13 Use 0.000281 s
+
+[ 2017-05-31T10:12:42+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/index.html
+ERR: Cron:cron Runat 2017-05-31 10:12:42 Use 0.000271 s
+
+[ 2017-05-31T10:18:25+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/index.html
+ERR: Cron:cron Runat 2017-05-31 10:18:25 Use 0.000328 s
+
+[ 2017-05-31T16:53:19+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/autho.html
+ERR: Cron:cron Runat 2017-05-31 16:53:19 Use 0.000456 s
+
+[ 2017-05-31T16:53:21+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/apply.html
+ERR: Cron:cron Runat 2017-05-31 16:53:21 Use 0.000313 s
+
+[ 2017-05-31T16:53:24+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/autho.html
+ERR: Cron:cron Runat 2017-05-31 16:53:24 Use 0.000301 s
+
+[ 2017-05-31T16:53:29+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/index.html
+ERR: Cron:cron Runat 2017-05-31 16:53:29 Use 0.000360 s
+
+[ 2017-05-31T17:05:02+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/autho.html
+ERR: Cron:cron Runat 2017-05-31 17:05:02 Use 0.000258 s
+
+[ 2017-05-31T17:05:06+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/index.html
+ERR: Cron:cron Runat 2017-05-31 17:05:06 Use 0.000334 s
+
+[ 2017-05-31T17:22:32+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-31 17:22:32 Use 0.000574 s
+

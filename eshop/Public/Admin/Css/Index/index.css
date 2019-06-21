@@ -1,0 +1,11 @@
+/*后台首页样式*/
+.login-log{
+	height: 32px;
+	line-height: 32px;
+	padding-left: 15px;
+	border-bottom: 1px solid #dddddd;
+	box-shadow: 0 1px 3px #ddd;
+}
+.info-table{
+	padding: 10px 15px 0px 15px;
+}

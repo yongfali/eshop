@@ -1,0 +1,37 @@
+[ 2017-02-25T15:17:41+08:00 ] ::1 /eshop/index.php/Good/goodImgDel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001303s ]
+
+[ 2017-02-25T15:34:43+08:00 ] ::1 /eshop/index.php/Good/getWebCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000822s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001390s ]
+SQL: SHOW COLUMNS FROM `eshop_secondmenu` [ RunTime:0.0051s ]
+SQL: SELECT `id`,`name` FROM `eshop_secondmenu` WHERE `pid` = 5 AND `is_show` = 1  [ RunTime:0.0008s ]
+
+[ 2017-02-25T15:34:44+08:00 ] ::1 /eshop/index.php/Good/getWebCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000802s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001323s ]
+SQL: SHOW COLUMNS FROM `eshop_thirdmenu` [ RunTime:0.0052s ]
+SQL: SELECT `id`,`name` FROM `eshop_thirdmenu` WHERE `pid` = 10 AND `is_show` = 1  [ RunTime:0.0004s ]
+
+[ 2017-02-25T15:34:46+08:00 ] ::1 /eshop/index.php/Good/getShopCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000908s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001623s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_secondmenu` [ RunTime:0.0061s ]
+SQL: SELECT `id`,`sname` FROM `eshop_shop_secondmenu` WHERE `pid` = 1 AND `is_show` = 1  [ RunTime:0.0010s ]
+
+[ 2017-02-25T15:36:12+08:00 ] ::1 /eshop/index.php/Good/goodsSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001408s ]
+
+[ 2017-02-25T17:20:21+08:00 ] ::1 /eshop/index.php/Good/shopcart.html
+ERR: 非法操作:shopcart
+
+[ 2017-02-25T17:20:25+08:00 ] ::1 /eshop/index.php/Good/shoporders.html
+ERR: 非法操作:shoporders
+

@@ -1,0 +1,51 @@
+<extend name="Public:base"/>
+<block name="title"><title>微农后台管理系统-店铺管理</title></block>
+<block name="css">
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/Admin/Css/ShopManage/index.css">
+</block>
+<block name="main">
+	<div class="now-position">
+		<span>店铺认证</span>
+	</div>
+	<div class="add-item">
+		<a class="glyphicon glyphicon-plus" href="#" id="add-autho">新增</a>
+	</div>
+	<div class="autho-wrapper">
+		<table class="table table-bordered table-striped table-hover">
+			<thead>
+				<tr>
+					<th>序号</th>
+					<th>图标</th>
+					<th>认证名称</th>
+					<th>创建时间</th>
+					<th>操作</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td class="col-md-1">1</td>
+					<td class="col-md-2">Bangalore</td>
+					<td class="col-md-4">消费者保障</td>
+					<td class="col-md-3">2017-06-01 10:42:22</td>
+					<td class="col-md-2">
+					<a class="btn-link" href="#">修改</a>
+					<a class="btn-link" href="#">删除</a>
+					</td>
+				</tr>
+				<tr>
+					<td class="col-md-1">2</td>
+					<td class="col-md-2">Bangalore</td>
+					<td class="col-md-4">七天无条件退款</td>
+					<td class="col-md-3">2017-06-01 10:42:22</td>
+					<td class="col-md-2">
+					<a class="btn-link" href="#" role="button">修改</a>
+					<a class="btn-link" href="#" role="button">删除</a>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</block>
+<block name="js">
+	<script src="__PUBLIC__/Admin/Js/ShopManage/autho.js"></script>
+</block>

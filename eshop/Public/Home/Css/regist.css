@@ -1,0 +1,174 @@
+/**用户和商户注册页面样式**/
+#reg-wrap {
+	width: 740px;
+	height: auto;
+	overflow: hidden;
+	border-top: 2px solid #F00;
+	margin: 0 auto;
+	background: #FAFAFA;
+	padding: 20px;
+	border-radius: 5px;
+	margin-top: 20px;
+}
+#reg-wrap fieldset {
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+#reg-wrap fieldset legend {
+	padding: 0 10px;
+	font-size: 18px;
+	color: #f60;
+}
+#reg-wrap fieldset p {
+	padding: 15px;
+}
+#reg-wrap fieldset p label {
+	display: inline-block;
+	width: 100px;
+	text-align: right;
+	padding-right: 10px;
+	color: #777;
+	font-size: 16px;
+}
+.input {
+	width: 275px;
+	height: 26px;
+	line-height: 26px;
+	padding: 5px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+.run {
+	width: 100%;
+	text-align: center;
+}
+#verify {
+	width: 126px;
+}
+#verify-img, #s_verufyImg {
+	display: block;
+	float: right;
+	margin-right: 260px;
+	margin-top: 3px;
+	cursor: pointer;
+}
+#regis {
+	width: 200px;
+	height: 40px;
+	border: 1px solid #f60;
+	background: #f60;
+	border-radius: 10px;
+	color: #fff;
+	font-weight: bold;
+	font-size: 18px;
+	cursor: pointer;
+}
+.R_protocol {
+	height: 20px;
+	width: 20px;
+	vertical-align: middle;
+}
+.protocol {
+	margin-left: 113px;
+}
+.protocol span {
+	display: inline-block;
+	vertical-align: top;
+}
+/*商户分步注册样式*/
+#wizard {
+	border: 1px solid #ccc;
+	height: 500px;
+	margin: 0px auto;
+	width: 700px;
+	overflow: hidden;
+	position: relative;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+#wizard .items {
+	width: 20000px;
+	clear: both;
+	position: absolute;
+}
+#wizard .right {
+	float: left;
+    margin-left: 44px;
+}
+#wizard #status {
+	height: 39px;
+	background: #F96D06;
+}
+#status li {
+	float: left;
+	color: #fff;
+	width: 175px;
+	line-height: 39px;
+	text-align: center;
+}
+#status li.active {
+	background-color: #369;
+	font-weight: normal;
+}
+.page {
+	padding: 20px 30px;
+	width: 655px;
+	float: left;
+}
+.page h3 {
+	height: 42px;
+	font-size: 16px;
+	border-bottom: 1px dotted #ccc;
+	margin-bottom: 20px;
+	padding-bottom: 5px
+}
+.page h3 em {
+	font-size: 12px;
+	font-weight: 500;
+	font-style: normal
+}
+.page p {
+	height: 50px;
+	line-height: 50px;
+}
+.page p label {
+	width: 100px;
+	height: 60px;
+	text-align: right;
+	display: inline-block;
+}
+.page p label span{
+	color: red;
+	font-size: 16px;
+}
+.btn_nav {
+	height: 36px;
+	line-height: 36px;
+	margin: 20px 100px;
+}
+.prev, .next {
+	width: 80px;
+	height: 35px;
+	border: 1px solid #d3d3d3;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	background:#F96D06;
+	color: #fff;
+	font-weight:bold;
+}
+.prev:hover, .next:hover{
+	background: red;
+}
+#s_verufyImg{
+	margin-top: 7px;
+	margin-right: 250px;
+}
+.sprotocol{
+	margin-left: 42px;
+}
+.sex{
+	display: inline-block;
+	margin: 0px 5px;
+}

@@ -1,0 +1,620 @@
+[ 2017-04-24T09:05:18+08:00 ] ::1 /eshop/index.php/Home/Shop/index/shopId/3.html
+ERR: Cron:cron Runat 2017-04-24 09:05:18 Use 0.001154 s
+
+[ 2017-04-24T09:05:26+08:00 ] ::1 /eshop/index.php/Home/Index/index.html
+ERR: Cron:cron Runat 2017-04-24 09:05:26 Use 0.000564 s
+
+[ 2017-04-24T09:05:29+08:00 ] ::1 /eshop/index.php/Home/UserCenter/index.html
+ERR: Cron:cron Runat 2017-04-24 09:05:29 Use 0.000368 s
+
+[ 2017-04-24T09:05:33+08:00 ] ::1 /eshop/index.php/ShoppingCart/index.html
+ERR: Cron:cron Runat 2017-04-24 09:05:33 Use 0.000482 s
+
+[ 2017-04-24T09:06:00+08:00 ] ::1 /eshop/index.php/ShoppingCart/ischecked
+ERR: Cron:cron Runat 2017-04-24 09:06:00 Use 0.000547 s
+
+[ 2017-04-24T09:06:00+08:00 ] ::1 /eshop/index.php/ShoppingCart/ischecked
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001524s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.006249s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008896s ]
+SQL: SHOW COLUMNS FROM `eshop_cart` [ RunTime:0.0066s ]
+SQL: SELECT `goodId`,`goodNumber`,`mount`,`name`,`shopPrice`,`good_log` FROM eshop_cart c INNER JOIN eshop_good as g on c.goodId = g.id  WHERE `userId` = '20' ORDER BY c.time desc  [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001412s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001574s ]
+
+[ 2017-04-24T09:06:09+08:00 ] ::1 /eshop/index.php/UserCenter/addressedit.html
+ERR: Cron:cron Runat 2017-04-24 09:06:09 Use 0.000488 s
+
+[ 2017-04-24T09:39:24+08:00 ] ::1 /eshop/index.php/ShoppingCart/settlement
+ERR: Cron:cron Runat 2017-04-24 09:39:24 Use 0.000561 s
+
+[ 2017-04-24T10:14:03+08:00 ] ::1 /eshop/index.php/ShoppingCart/settlement
+ERR: Cron:cron Runat 2017-04-24 10:14:03 Use 0.000279 s
+
+[ 2017-04-24T10:16:03+08:00 ] ::1 /eshop/index.php/ShoppingCart/settlement
+ERR: Cron:cron Runat 2017-04-24 10:16:03 Use 0.000287 s
+
+[ 2017-04-24T10:20:45+08:00 ] ::1 /eshop/index.php/ShoppingCart/settlement
+ERR: Cron:cron Runat 2017-04-24 10:20:45 Use 0.000327 s
+
+[ 2017-04-24T10:48:19+08:00 ] ::1 /eshop/index.php/Home/Shoper/index.html
+ERR: Cron:cron Runat 2017-04-24 10:48:19 Use 0.000314 s
+
+[ 2017-04-24T10:48:59+08:00 ] ::1 /eshop/index.php/Shoper/verify.html
+ERR: Cron:cron Runat 2017-04-24 10:48:59 Use 0.000419 s
+
+[ 2017-04-24T11:13:49+08:00 ] ::1 /eshop/index.php/ShoppingCart/settlement
+ERR: Cron:cron Runat 2017-04-24 11:13:49 Use 0.000341 s
+
+[ 2017-04-24T11:28:45+08:00 ] ::1 /eshop/index.php/ShoppingCart/settlement
+ERR: Cron:cron Runat 2017-04-24 11:28:45 Use 0.000319 s
+
+[ 2017-04-24T11:29:31+08:00 ] ::1 /eshop/index.php/ShoppingCart/settlement
+ERR: Cron:cron Runat 2017-04-24 11:29:31 Use 0.000262 s
+
+[ 2017-04-24T11:30:30+08:00 ] ::1 /eshop/index.php/ShoppingCart/settlement
+ERR: Cron:cron Runat 2017-04-24 11:30:30 Use 0.000459 s
+
+[ 2017-04-24T11:31:16+08:00 ] ::1 /eshop/index.php/ShoppingCart/settlement
+ERR: Cron:cron Runat 2017-04-24 11:31:16 Use 0.000433 s
+
+[ 2017-04-24T11:31:20+08:00 ] ::1 /eshop/index.php/UserCenter/addressedit.html
+ERR: Cron:cron Runat 2017-04-24 11:31:20 Use 0.000283 s
+
+[ 2017-04-24T11:33:40+08:00 ] ::1 /eshop/index.php/ShoppingCart/settlement
+ERR: Cron:cron Runat 2017-04-24 11:33:40 Use 0.000418 s
+
+[ 2017-04-24T11:33:49+08:00 ] ::1 /eshop/index.php/ShoppingCart/settlement
+ERR: Cron:cron Runat 2017-04-24 11:33:49 Use 0.000377 s
+
+[ 2017-04-24T11:36:24+08:00 ] ::1 /eshop/index.php/ShoppingCart/settlement
+ERR: Cron:cron Runat 2017-04-24 11:36:24 Use 0.000333 s
+
+[ 2017-04-24T11:39:50+08:00 ] ::1 /eshop/index.php/ShoppingCart/settlement
+ERR: Cron:cron Runat 2017-04-24 11:39:50 Use 0.000342 s
+
+[ 2017-04-24T11:40:16+08:00 ] ::1 /eshop/index.php/ShoppingCart/settlement
+ERR: Cron:cron Runat 2017-04-24 11:40:16 Use 0.000390 s
+
+[ 2017-04-24T11:41:57+08:00 ] ::1 /eshop/index.php/ShoppingCart/settlement
+ERR: Cron:cron Runat 2017-04-24 11:41:57 Use 0.000322 s
+
+[ 2017-04-24T11:43:09+08:00 ] ::1 /eshop/index.php/ShoppingCart/settlement
+ERR: Cron:cron Runat 2017-04-24 11:43:09 Use 0.001279 s
+
+[ 2017-04-24T11:43:57+08:00 ] ::1 /eshop/index.php/ShoppingCart/settlement
+ERR: Cron:cron Runat 2017-04-24 11:43:57 Use 0.000349 s
+
+[ 2017-04-24T11:44:15+08:00 ] ::1 /eshop/index.php/ShoppingCart/settlement
+ERR: Cron:cron Runat 2017-04-24 11:44:15 Use 0.000321 s
+
+[ 2017-04-24T11:44:47+08:00 ] ::1 /eshop/index.php/ShoppingCart/settlement
+ERR: Cron:cron Runat 2017-04-24 11:44:47 Use 0.000508 s
+
+[ 2017-04-24T11:50:55+08:00 ] ::1 /eshop/index.php/ShoppingCart/settlement
+ERR: Cron:cron Runat 2017-04-24 11:50:55 Use 0.000323 s
+
+[ 2017-04-24T11:55:26+08:00 ] ::1 /eshop/index.php/ShoppingCart/settlement
+ERR: Cron:cron Runat 2017-04-24 11:55:26 Use 0.000382 s
+
+[ 2017-04-24T11:55:42+08:00 ] ::1 /eshop/index.php/ShoppingCart/settlement
+ERR: Cron:cron Runat 2017-04-24 11:55:42 Use 0.000261 s
+
+[ 2017-04-24T11:55:46+08:00 ] ::1 /eshop/index.php/Home/Index/goodsInfo/id/14.html
+ERR: Cron:cron Runat 2017-04-24 11:55:46 Use 0.000319 s
+
+[ 2017-04-24T11:56:00+08:00 ] ::1 /eshop/index.php/ShoppingCart/settlement
+ERR: Cron:cron Runat 2017-04-24 11:56:00 Use 0.000467 s
+
+[ 2017-04-24T11:57:07+08:00 ] ::1 /eshop/index.php/ShoppingCart/settlement
+ERR: Cron:cron Runat 2017-04-24 11:57:07 Use 0.000308 s
+
+[ 2017-04-24T11:57:16+08:00 ] ::1 /eshop/index.php/ShoppingCart/settlement
+ERR: Cron:cron Runat 2017-04-24 11:57:16 Use 0.000278 s
+
+[ 2017-04-24T11:57:50+08:00 ] ::1 /eshop/index.php/ShoppingCart/settlement
+ERR: Cron:cron Runat 2017-04-24 11:57:50 Use 0.000292 s
+
+[ 2017-04-24T13:05:46+08:00 ] ::1 /eshop/index.php/UserCenter/index/p/2.html
+ERR: Cron:cron Runat 2017-04-24 13:05:46 Use 0.000337 s
+
+[ 2017-04-24T13:05:46+08:00 ] ::1 /eshop/index.php/UserCenter/index/p/2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000947s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.005125s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006769s ]
+SQL: SHOW COLUMNS FROM `eshop_cart` [ RunTime:0.0062s ]
+NOTIC: [2] Missing argument 1 for Home\Model\CartModel::getAllCarts(), called in D:\wampserver\wamp\www\eshop\App\Home\Controller\CommonController.class.php on line 41 and defined D:\wampserver\wamp\www\eshop\App\Home\Model\CartModel.class.php 第 86 行.
+NOTIC: [8] Undefined variable: where D:\wampserver\wamp\www\eshop\App\Home\Model\CartModel.class.php 第 90 行.
+SQL: SELECT `goodId`,`goodNumber`,`mount`,`name`,`shopPrice`,`good_log` FROM eshop_cart c INNER JOIN eshop_good as g on c.goodId = g.id  ORDER BY c.time desc  [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `eshop_user_log` [ RunTime:0.0058s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_user_log` WHERE `is_show` = 1 AND `userId` = 20 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `eshop_user_log` WHERE `is_show` = 1 AND `userId` = 20 ORDER BY time desc LIMIT 10,10   [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000230s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042510s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042812s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001320s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001415s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003058s ]
+
+[ 2017-04-24T13:06:20+08:00 ] ::1 /eshop/index.php/ShoppingCart/settlement
+ERR: Cron:cron Runat 2017-04-24 13:06:20 Use 0.000394 s
+
+[ 2017-04-24T13:06:24+08:00 ] ::1 /eshop/index.php/UserCenter/addressedit.html
+ERR: Cron:cron Runat 2017-04-24 13:06:24 Use 0.000411 s
+
+[ 2017-04-24T13:07:30+08:00 ] ::1 /eshop/index.php/ShoppingCart/settlement
+ERR: Cron:cron Runat 2017-04-24 13:07:30 Use 0.000414 s
+
+[ 2017-04-24T13:07:34+08:00 ] ::1 /eshop/index.php/UserCenter/editAddrShow?id=15
+ERR: Cron:cron Runat 2017-04-24 13:07:34 Use 0.000382 s
+
+[ 2017-04-24T13:07:38+08:00 ] ::1 /eshop/index.php/ShoppingCart/addressDefault
+ERR: Cron:cron Runat 2017-04-24 13:07:38 Use 0.000362 s
+
+[ 2017-04-24T13:07:38+08:00 ] ::1 /eshop/index.php/ShoppingCart/addressDefault
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000752s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.004977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006480s ]
+SQL: SHOW COLUMNS FROM `eshop_cart` [ RunTime:0.0051s ]
+SQL: SELECT `goodId`,`goodNumber`,`mount`,`name`,`shopPrice`,`good_log` FROM eshop_cart c INNER JOIN eshop_good as g on c.goodId = g.id  WHERE `userId` = '20' ORDER BY c.time desc  [ RunTime:0.0005s ]
+ERR: 非法操作:addressDefault
+
+[ 2017-04-24T13:07:47+08:00 ] ::1 /eshop/index.php/ShoppingCart/addressDefault
+ERR: Cron:cron Runat 2017-04-24 13:07:47 Use 0.000353 s
+
+[ 2017-04-24T13:07:47+08:00 ] ::1 /eshop/index.php/ShoppingCart/addressDefault
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000798s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.004961s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006404s ]
+SQL: SHOW COLUMNS FROM `eshop_cart` [ RunTime:0.0228s ]
+SQL: SELECT `goodId`,`goodNumber`,`mount`,`name`,`shopPrice`,`good_log` FROM eshop_cart c INNER JOIN eshop_good as g on c.goodId = g.id  WHERE `userId` = '20' ORDER BY c.time desc  [ RunTime:0.0005s ]
+ERR: 非法操作:addressDefault
+
+[ 2017-04-24T13:10:20+08:00 ] ::1 /eshop/index.php/ShoppingCart/settlement
+ERR: Cron:cron Runat 2017-04-24 13:10:20 Use 0.000440 s
+
+[ 2017-04-24T13:10:27+08:00 ] ::1 /eshop/index.php/ShoppingCart/addressDefault
+ERR: Cron:cron Runat 2017-04-24 13:10:27 Use 0.000397 s
+
+[ 2017-04-24T13:10:27+08:00 ] ::1 /eshop/index.php/ShoppingCart/addressDefault
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000789s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.005691s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007282s ]
+SQL: SHOW COLUMNS FROM `eshop_cart` [ RunTime:0.0055s ]
+SQL: SELECT `goodId`,`goodNumber`,`mount`,`name`,`shopPrice`,`good_log` FROM eshop_cart c INNER JOIN eshop_good as g on c.goodId = g.id  WHERE `userId` = '20' ORDER BY c.time desc  [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 1 for Home\Model\CartModel::getAllCarts(), called in D:\wampserver\wamp\www\eshop\App\Home\Controller\CommonController.class.php on line 41 and defined D:\wampserver\wamp\www\eshop\App\Home\Model\CartModel.class.php 第 86 行.
+NOTIC: [8] Undefined variable: where D:\wampserver\wamp\www\eshop\App\Home\Model\CartModel.class.php 第 90 行.
+SQL: SELECT `goodId`,`goodNumber`,`mount`,`name`,`shopPrice`,`good_log` FROM eshop_cart c INNER JOIN eshop_good as g on c.goodId = g.id  ORDER BY c.time desc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0058s ]
+SQL: UPDATE `eshop_user_address` SET `is_first`='0',`modifytime`='1493010627' WHERE `userId` = 20 [ RunTime:0.2028s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0049s ]
+SQL: UPDATE `eshop_user_address` SET `is_first`='1',`modifytime`='1493010627' WHERE `id` = 16 [ RunTime:0.0611s ]
+
+[ 2017-04-24T13:10:40+08:00 ] ::1 /eshop/index.php/UserCenter/address.html
+ERR: Cron:cron Runat 2017-04-24 13:10:40 Use 0.000465 s
+
+[ 2017-04-24T13:13:34+08:00 ] ::1 /eshop/index.php/UserCenter/editAddrShow?id=14
+ERR: Cron:cron Runat 2017-04-24 13:13:34 Use 0.000276 s
+
+[ 2017-04-24T13:13:43+08:00 ] ::1 /eshop/index.php/UserCenter/doEditAddrShow.html
+ERR: Cron:cron Runat 2017-04-24 13:13:43 Use 0.000330 s
+
+[ 2017-04-24T13:13:43+08:00 ] ::1 /eshop/index.php/UserCenter/doEditAddrShow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000869s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.005102s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006633s ]
+SQL: SHOW COLUMNS FROM `eshop_cart` [ RunTime:0.0530s ]
+NOTIC: [2] Missing argument 1 for Home\Model\CartModel::getAllCarts(), called in D:\wampserver\wamp\www\eshop\App\Home\Controller\CommonController.class.php on line 41 and defined D:\wampserver\wamp\www\eshop\App\Home\Model\CartModel.class.php 第 86 行.
+NOTIC: [8] Undefined variable: where D:\wampserver\wamp\www\eshop\App\Home\Model\CartModel.class.php 第 90 行.
+SQL: SELECT `goodId`,`goodNumber`,`mount`,`name`,`shopPrice`,`good_log` FROM eshop_cart c INNER JOIN eshop_good as g on c.goodId = g.id  ORDER BY c.time desc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0047s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `eshop_user_address` SET `userId`='20',`userName`='李黎明',`location`='北京市|北京市市辖区|东城区',`streetInfo`='铁西区',`postCode`='110021',`tel`='13437826498',`is_first`='0',`modifytime`='1493010823' WHERE `id` = 14 [ RunTime:0.0462s ]
+
+[ 2017-04-24T13:13:46+08:00 ] ::1 /eshop/index.php/ShoppingCart/settlement
+ERR: Cron:cron Runat 2017-04-24 13:13:46 Use 0.000337 s
+
+[ 2017-04-24T13:14:07+08:00 ] ::1 /eshop/index.php/UserCenter/addressedit.html
+ERR: Cron:cron Runat 2017-04-24 13:14:07 Use 0.000274 s
+
+[ 2017-04-24T13:14:29+08:00 ] ::1 /eshop/index.php/UserCenter/addressAdd
+ERR: Cron:cron Runat 2017-04-24 13:14:29 Use 0.000368 s
+
+[ 2017-04-24T13:14:29+08:00 ] ::1 /eshop/index.php/UserCenter/addressAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000737s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.005199s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006820s ]
+SQL: SHOW COLUMNS FROM `eshop_cart` [ RunTime:0.0825s ]
+NOTIC: [2] Missing argument 1 for Home\Model\CartModel::getAllCarts(), called in D:\wampserver\wamp\www\eshop\App\Home\Controller\CommonController.class.php on line 41 and defined D:\wampserver\wamp\www\eshop\App\Home\Model\CartModel.class.php 第 86 行.
+NOTIC: [8] Undefined variable: where D:\wampserver\wamp\www\eshop\App\Home\Model\CartModel.class.php 第 90 行.
+SQL: SELECT `goodId`,`goodNumber`,`mount`,`name`,`shopPrice`,`good_log` FROM eshop_cart c INNER JOIN eshop_good as g on c.goodId = g.id  ORDER BY c.time desc  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0142s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0155s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_user_address` WHERE `userId` = 20 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_user_address` WHERE `userId` = 20 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `eshop_user_address` (`userId`,`userName`,`location`,`streetInfo`,`postCode`,`tel`,`is_first`,`createtime`,`modifytime`) VALUES ('20','测试','北京市|北京市市辖区|东城区','测试街道','123456','18904010647','0','1493010869','1493010869') [ RunTime:0.0950s ]
+
+[ 2017-04-24T13:14:32+08:00 ] ::1 /eshop/index.php/ShoppingCart/settlement
+ERR: Cron:cron Runat 2017-04-24 13:14:32 Use 0.000420 s
+
+[ 2017-04-24T13:14:35+08:00 ] ::1 /eshop/index.php/ShoppingCart/settlement
+ERR: Cron:cron Runat 2017-04-24 13:14:35 Use 0.000353 s
+
+[ 2017-04-24T13:14:48+08:00 ] ::1 /eshop/index.php/UserCenter/address.html
+ERR: Cron:cron Runat 2017-04-24 13:14:48 Use 0.000260 s
+
+[ 2017-04-24T13:14:53+08:00 ] ::1 /eshop/index.php/UserCenter/editAddrShow?id=17
+ERR: Cron:cron Runat 2017-04-24 13:14:53 Use 0.000352 s
+
+[ 2017-04-24T13:15:02+08:00 ] ::1 /eshop/index.php/UserCenter/doEditAddrShow.html
+ERR: Cron:cron Runat 2017-04-24 13:15:02 Use 0.000399 s
+
+[ 2017-04-24T13:15:02+08:00 ] ::1 /eshop/index.php/UserCenter/doEditAddrShow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000876s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.004704s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006258s ]
+SQL: SHOW COLUMNS FROM `eshop_cart` [ RunTime:0.0905s ]
+NOTIC: [2] Missing argument 1 for Home\Model\CartModel::getAllCarts(), called in D:\wampserver\wamp\www\eshop\App\Home\Controller\CommonController.class.php on line 41 and defined D:\wampserver\wamp\www\eshop\App\Home\Model\CartModel.class.php 第 86 行.
+NOTIC: [8] Undefined variable: where D:\wampserver\wamp\www\eshop\App\Home\Model\CartModel.class.php 第 90 行.
+SQL: SELECT `goodId`,`goodNumber`,`mount`,`name`,`shopPrice`,`good_log` FROM eshop_cart c INNER JOIN eshop_good as g on c.goodId = g.id  ORDER BY c.time desc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0049s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `eshop_user_address` SET `userId`='20',`userName`='测试号',`location`='北京市|北京市市辖区|东城区',`streetInfo`='测试街道',`postCode`='123456',`tel`='18904010647',`is_first`='0',`modifytime`='1493010902' WHERE `id` = 17 [ RunTime:0.0588s ]
+
+[ 2017-04-24T13:15:05+08:00 ] ::1 /eshop/index.php/UserCenter/address.html
+ERR: Cron:cron Runat 2017-04-24 13:15:05 Use 0.000284 s
+
+[ 2017-04-24T13:15:15+08:00 ] ::1 /eshop/index.php/UserCenter/address.html
+ERR: Cron:cron Runat 2017-04-24 13:15:15 Use 0.000330 s
+
+[ 2017-04-24T13:15:22+08:00 ] ::1 /eshop/index.php/ShoppingCart/settlement
+ERR: Cron:cron Runat 2017-04-24 13:15:22 Use 0.000358 s
+
+[ 2017-04-24T13:15:28+08:00 ] ::1 /eshop/index.php/ShoppingCart/addressDel
+ERR: Cron:cron Runat 2017-04-24 13:15:28 Use 0.000404 s
+
+[ 2017-04-24T13:15:28+08:00 ] ::1 /eshop/index.php/ShoppingCart/addressDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000737s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.004949s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006375s ]
+SQL: SHOW COLUMNS FROM `eshop_cart` [ RunTime:0.0048s ]
+SQL: SELECT `goodId`,`goodNumber`,`mount`,`name`,`shopPrice`,`good_log` FROM eshop_cart c INNER JOIN eshop_good as g on c.goodId = g.id  WHERE `userId` = '20' ORDER BY c.time desc  [ RunTime:0.0005s ]
+ERR: 非法操作:addressDel
+
+[ 2017-04-24T13:15:40+08:00 ] ::1 /eshop/index.php/ShoppingCart/addressDel
+ERR: Cron:cron Runat 2017-04-24 13:15:40 Use 0.000385 s
+
+[ 2017-04-24T13:15:40+08:00 ] ::1 /eshop/index.php/ShoppingCart/addressDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001019s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.005162s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007013s ]
+SQL: SHOW COLUMNS FROM `eshop_cart` [ RunTime:0.0049s ]
+SQL: SELECT `goodId`,`goodNumber`,`mount`,`name`,`shopPrice`,`good_log` FROM eshop_cart c INNER JOIN eshop_good as g on c.goodId = g.id  WHERE `userId` = '20' ORDER BY c.time desc  [ RunTime:0.0005s ]
+ERR: 非法操作:addressDel
+
+[ 2017-04-24T13:17:21+08:00 ] ::1 /eshop/index.php/ShoppingCart/settlement
+ERR: Cron:cron Runat 2017-04-24 13:17:21 Use 0.000307 s
+
+[ 2017-04-24T13:17:43+08:00 ] ::1 /eshop/index.php/ShoppingCart/addressDel
+ERR: Cron:cron Runat 2017-04-24 13:17:43 Use 0.000402 s
+
+[ 2017-04-24T13:17:43+08:00 ] ::1 /eshop/index.php/ShoppingCart/addressDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001060s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.005698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007545s ]
+SQL: SHOW COLUMNS FROM `eshop_cart` [ RunTime:0.0056s ]
+SQL: SELECT `goodId`,`goodNumber`,`mount`,`name`,`shopPrice`,`good_log` FROM eshop_cart c INNER JOIN eshop_good as g on c.goodId = g.id  WHERE `userId` = '20' ORDER BY c.time desc  [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 1 for Home\Model\CartModel::getAllCarts(), called in D:\wampserver\wamp\www\eshop\App\Home\Controller\CommonController.class.php on line 41 and defined D:\wampserver\wamp\www\eshop\App\Home\Model\CartModel.class.php 第 86 行.
+NOTIC: [8] Undefined variable: where D:\wampserver\wamp\www\eshop\App\Home\Model\CartModel.class.php 第 90 行.
+SQL: SELECT `goodId`,`goodNumber`,`mount`,`name`,`shopPrice`,`good_log` FROM eshop_cart c INNER JOIN eshop_good as g on c.goodId = g.id  ORDER BY c.time desc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0064s ]
+SQL: UPDATE `eshop_user_address` SET `is_show`='0' WHERE `id` = 17 [ RunTime:0.0790s ]
+
+[ 2017-04-24T13:17:50+08:00 ] ::1 /eshop/index.php/UserCenter/address.html
+ERR: Cron:cron Runat 2017-04-24 13:17:50 Use 0.000373 s
+
+[ 2017-04-24T13:18:29+08:00 ] ::1 /eshop/index.php/UserCenter/address.html
+ERR: Cron:cron Runat 2017-04-24 13:18:29 Use 0.000400 s
+
+[ 2017-04-24T13:20:07+08:00 ] ::1 /eshop/index.php/ShoppingCart/settlement
+ERR: Cron:cron Runat 2017-04-24 13:20:07 Use 0.000352 s
+
+[ 2017-04-24T13:20:23+08:00 ] ::1 /eshop/index.php/UserCenter/addressedit.html
+ERR: Cron:cron Runat 2017-04-24 13:20:23 Use 0.000312 s
+
+[ 2017-04-24T13:21:27+08:00 ] ::1 /eshop/index.php/ShoppingCart/settlement
+ERR: Cron:cron Runat 2017-04-24 13:21:27 Use 0.000410 s
+
+[ 2017-04-24T13:23:18+08:00 ] ::1 /eshop/index.php/ShoppingCart/settlement
+ERR: Cron:cron Runat 2017-04-24 13:23:18 Use 0.000467 s
+
+[ 2017-04-24T13:24:05+08:00 ] ::1 /eshop/index.php/ShoppingCart/settlement
+ERR: Cron:cron Runat 2017-04-24 13:24:05 Use 0.000500 s
+
+[ 2017-04-24T13:25:39+08:00 ] ::1 /eshop/index.php/ShoppingCart/settlement
+ERR: Cron:cron Runat 2017-04-24 13:25:39 Use 0.000316 s
+
+[ 2017-04-24T13:26:05+08:00 ] ::1 /eshop/index.php/ShoppingCart/settlement
+ERR: Cron:cron Runat 2017-04-24 13:26:05 Use 0.000527 s
+
+[ 2017-04-24T13:26:49+08:00 ] ::1 /eshop/index.php/ShoppingCart/settlement
+ERR: Cron:cron Runat 2017-04-24 13:26:49 Use 0.000434 s
+
+[ 2017-04-24T13:27:00+08:00 ] ::1 /eshop/index.php/UserCenter/addressedit.html
+ERR: Cron:cron Runat 2017-04-24 13:27:00 Use 0.000305 s
+
+[ 2017-04-24T13:27:49+08:00 ] ::1 /eshop/index.php/ShoppingCart/settlement
+ERR: Cron:cron Runat 2017-04-24 13:27:49 Use 0.000381 s
+
+[ 2017-04-24T13:28:06+08:00 ] ::1 /eshop/index.php/ShoppingCart/settlement
+ERR: Cron:cron Runat 2017-04-24 13:28:06 Use 0.000335 s
+
+[ 2017-04-24T13:28:28+08:00 ] ::1 /eshop/index.php/ShoppingCart/settlement
+ERR: Cron:cron Runat 2017-04-24 13:28:28 Use 0.000376 s
+
+[ 2017-04-24T13:29:03+08:00 ] ::1 /eshop/index.php/ShoppingCart/settlement
+ERR: Cron:cron Runat 2017-04-24 13:29:03 Use 0.000407 s
+
+[ 2017-04-24T13:29:34+08:00 ] ::1 /eshop/index.php/ShoppingCart/settlement
+ERR: Cron:cron Runat 2017-04-24 13:29:34 Use 0.000301 s
+
+[ 2017-04-24T13:29:50+08:00 ] ::1 /eshop/index.php/ShoppingCart/settlement
+ERR: Cron:cron Runat 2017-04-24 13:29:50 Use 0.000360 s
+
+[ 2017-04-24T13:33:03+08:00 ] ::1 /eshop/index.php/ShoppingCart/settlement
+ERR: Cron:cron Runat 2017-04-24 13:33:03 Use 0.000447 s
+
+[ 2017-04-24T13:34:07+08:00 ] ::1 /eshop/index.php/ShoppingCart/settlement
+ERR: Cron:cron Runat 2017-04-24 13:34:07 Use 0.000366 s
+
+[ 2017-04-24T13:34:09+08:00 ] ::1 /eshop/index.php/UserCenter/addressedit.html
+ERR: Cron:cron Runat 2017-04-24 13:34:09 Use 0.000333 s
+
+[ 2017-04-24T13:34:14+08:00 ] ::1 /eshop/index.php/ShoppingCart/settlement
+ERR: Cron:cron Runat 2017-04-24 13:34:14 Use 0.000356 s
+
+[ 2017-04-24T13:34:22+08:00 ] ::1 /eshop/index.php/ShoppingCart/settlement
+ERR: Cron:cron Runat 2017-04-24 13:34:22 Use 0.000396 s
+
+[ 2017-04-24T13:34:24+08:00 ] ::1 /eshop/index.php/UserCenter/addressedit.html
+ERR: Cron:cron Runat 2017-04-24 13:34:24 Use 0.000489 s
+
+[ 2017-04-24T13:34:29+08:00 ] ::1 /eshop/index.php/ShoppingCart/settlement
+ERR: Cron:cron Runat 2017-04-24 13:34:29 Use 0.000500 s
+
+[ 2017-04-24T13:35:40+08:00 ] ::1 /eshop/index.php/ShoppingCart/settlement
+ERR: Cron:cron Runat 2017-04-24 13:35:40 Use 0.003037 s
+
+[ 2017-04-24T13:35:58+08:00 ] ::1 /eshop/index.php/ShoppingCart/settlement
+ERR: Cron:cron Runat 2017-04-24 13:35:58 Use 0.000988 s
+
+[ 2017-04-24T13:38:05+08:00 ] ::1 /eshop/index.php/ShoppingCart/settlement
+ERR: Cron:cron Runat 2017-04-24 13:38:05 Use 0.000357 s
+
+[ 2017-04-24T13:38:14+08:00 ] ::1 /eshop/index.php/ShoppingCart/settlement
+ERR: Cron:cron Runat 2017-04-24 13:38:14 Use 0.000374 s
+
+[ 2017-04-24T13:38:30+08:00 ] ::1 /eshop/index.php/ShoppingCart/settlement
+ERR: Cron:cron Runat 2017-04-24 13:38:30 Use 0.000963 s
+
+[ 2017-04-24T13:38:38+08:00 ] ::1 /eshop/index.php/ShoppingCart/settlement
+ERR: Cron:cron Runat 2017-04-24 13:38:38 Use 0.000404 s
+
+[ 2017-04-24T13:38:47+08:00 ] ::1 /eshop/index.php/ShoppingCart/settlement
+ERR: Cron:cron Runat 2017-04-24 13:38:47 Use 0.000399 s
+
+[ 2017-04-24T13:39:26+08:00 ] ::1 /eshop/index.php/ShoppingCart/settlement
+ERR: Cron:cron Runat 2017-04-24 13:39:26 Use 0.000396 s
+
+[ 2017-04-24T13:43:37+08:00 ] ::1 /eshop/index.php/ShoppingCart/settlement
+ERR: Cron:cron Runat 2017-04-24 13:43:37 Use 0.000264 s
+
+[ 2017-04-24T13:44:23+08:00 ] ::1 /eshop/index.php/ShoppingCart/settlement
+ERR: Cron:cron Runat 2017-04-24 13:44:23 Use 0.000306 s
+
+[ 2017-04-24T13:46:02+08:00 ] ::1 /eshop/index.php/ShoppingCart/shopcart.html
+ERR: Cron:cron Runat 2017-04-24 13:46:02 Use 0.000366 s
+
+[ 2017-04-24T13:46:02+08:00 ] ::1 /eshop/index.php/ShoppingCart/shopcart.html
+ERR: 非法操作:shopcart
+
+[ 2017-04-24T13:46:24+08:00 ] ::1 /eshop/index.php/ShoppingCart/shopcart.html
+ERR: Cron:cron Runat 2017-04-24 13:46:24 Use 0.000358 s
+
+[ 2017-04-24T13:46:24+08:00 ] ::1 /eshop/index.php/ShoppingCart/shopcart.html
+ERR: 非法操作:shopcart
+
+[ 2017-04-24T13:46:48+08:00 ] ::1 /eshop/index.php/ShoppingCart/settlement
+ERR: Cron:cron Runat 2017-04-24 13:46:48 Use 0.000361 s
+
+[ 2017-04-24T13:46:51+08:00 ] ::1 /eshop/index.php/ShoppingCart/index.html
+ERR: Cron:cron Runat 2017-04-24 13:46:51 Use 0.000530 s
+
+[ 2017-04-24T13:46:55+08:00 ] ::1 /eshop/index.php/ShoppingCart/ischecked
+ERR: Cron:cron Runat 2017-04-24 13:46:55 Use 0.000409 s
+
+[ 2017-04-24T13:46:55+08:00 ] ::1 /eshop/index.php/ShoppingCart/ischecked
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000795s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.004753s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006384s ]
+SQL: SHOW COLUMNS FROM `eshop_cart` [ RunTime:0.0048s ]
+SQL: SELECT `goodId`,`goodNumber`,`mount`,`name`,`shopPrice`,`good_log` FROM eshop_cart c INNER JOIN eshop_good as g on c.goodId = g.id  WHERE `userId` = '20' ORDER BY c.time desc  [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000969s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001072s ]
+
+[ 2017-04-24T13:47:10+08:00 ] ::1 /eshop/index.php/ShoppingCart/index.html
+ERR: Cron:cron Runat 2017-04-24 13:47:10 Use 0.000396 s
+
+[ 2017-04-24T13:47:16+08:00 ] ::1 /eshop/index.php/ShoppingCart/ischecked
+ERR: Cron:cron Runat 2017-04-24 13:47:16 Use 0.000403 s
+
+[ 2017-04-24T13:47:16+08:00 ] ::1 /eshop/index.php/ShoppingCart/ischecked
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000874s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.004631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006227s ]
+SQL: SHOW COLUMNS FROM `eshop_cart` [ RunTime:0.0049s ]
+SQL: SELECT `goodId`,`goodNumber`,`mount`,`name`,`shopPrice`,`good_log` FROM eshop_cart c INNER JOIN eshop_good as g on c.goodId = g.id  WHERE `userId` = '20' ORDER BY c.time desc  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001099s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001193s ]
+
+[ 2017-04-24T13:47:20+08:00 ] ::1 /eshop/index.php/UserCenter/addressedit.html
+ERR: Cron:cron Runat 2017-04-24 13:47:20 Use 0.000426 s
+
+[ 2017-04-24T13:48:37+08:00 ] ::1 /eshop/index.php/ShoppingCart/settlement
+ERR: Cron:cron Runat 2017-04-24 13:48:37 Use 0.000350 s
+
+[ 2017-04-24T13:50:57+08:00 ] ::1 /eshop/index.php/ShoppingCart/settlement
+ERR: Cron:cron Runat 2017-04-24 13:50:57 Use 0.000267 s
+
+[ 2017-04-24T13:51:16+08:00 ] ::1 /eshop/index.php/ShoppingCart/settlement
+ERR: Cron:cron Runat 2017-04-24 13:51:16 Use 0.000308 s
+
+[ 2017-04-24T13:51:33+08:00 ] ::1 /eshop/index.php/ShoppingCart/settlement
+ERR: Cron:cron Runat 2017-04-24 13:51:33 Use 0.000371 s
+
+[ 2017-04-24T13:52:11+08:00 ] ::1 /eshop/index.php/ShoppingCart/settlement
+ERR: Cron:cron Runat 2017-04-24 13:52:11 Use 0.000539 s
+
+[ 2017-04-24T13:52:17+08:00 ] ::1 /eshop/index.php/ShoppingCart/settlement
+ERR: Cron:cron Runat 2017-04-24 13:52:17 Use 0.000390 s
+
+[ 2017-04-24T13:52:20+08:00 ] ::1 /eshop/index.php/ShoppingCart/shopOrderPay.html
+ERR: Cron:cron Runat 2017-04-24 13:52:20 Use 0.000334 s
+
+[ 2017-04-24T13:52:20+08:00 ] ::1 /eshop/index.php/ShoppingCart/shopOrderPay.html
+ERR: 非法操作:shopOrderPay
+
+[ 2017-04-24T14:00:55+08:00 ] ::1 /eshop/index.php/UserCenter/address.html
+ERR: Cron:cron Runat 2017-04-24 14:00:55 Use 0.000400 s
+
+[ 2017-04-24T14:01:03+08:00 ] ::1 /eshop/index.php/UserCenter/modifyPwd.html
+ERR: Cron:cron Runat 2017-04-24 14:01:03 Use 0.000397 s
+
+[ 2017-04-24T17:55:53+08:00 ] ::1 /eshop/index.php/Home/Shop/index/shopId/3.html
+ERR: Cron:cron Runat 2017-04-24 17:55:53 Use 0.000413 s
+
+[ 2017-04-24T17:55:58+08:00 ] ::1 /eshop/index.php/Home/Shop/index/shopId/3.html
+ERR: Cron:cron Runat 2017-04-24 17:55:58 Use 0.000319 s
+
+[ 2017-04-24T17:56:02+08:00 ] ::1 /eshop/index.php/Home/Collection/collection.html
+ERR: Cron:cron Runat 2017-04-24 17:56:02 Use 0.000372 s
+
+[ 2017-04-24T17:56:02+08:00 ] ::1 /eshop/index.php/Home/Collection/collection.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000818s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.004164s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005645s ]
+
+[ 2017-04-24T17:56:05+08:00 ] ::1 /eshop/index.php/Home/User/login.html
+ERR: Cron:cron Runat 2017-04-24 17:56:05 Use 0.000276 s
+
+[ 2017-04-24T17:58:18+08:00 ] ::1 /eshop/index.php/Home/Shop/index/shopId/3.html
+ERR: Cron:cron Runat 2017-04-24 17:58:18 Use 0.000327 s
+
+[ 2017-04-24T17:58:20+08:00 ] ::1 /eshop/index.php/User/verify.html
+ERR: Cron:cron Runat 2017-04-24 17:58:20 Use 0.000310 s
+
+[ 2017-04-24T17:58:22+08:00 ] ::1 /eshop/index.php/Home/User/login.html
+ERR: Cron:cron Runat 2017-04-24 17:58:22 Use 0.000351 s
+
+[ 2017-04-24T17:58:31+08:00 ] ::1 /eshop/index.php/User/regist.html
+ERR: Cron:cron Runat 2017-04-24 17:58:31 Use 0.000284 s
+
+[ 2017-04-24T17:58:36+08:00 ] ::1 /eshop/index.php/User/registProtocol.html
+ERR: Cron:cron Runat 2017-04-24 17:58:36 Use 0.000408 s
+
+[ 2017-04-24T17:58:41+08:00 ] ::1 /eshop/index.php/User/login.html
+ERR: Cron:cron Runat 2017-04-24 17:58:41 Use 0.000421 s
+
+[ 2017-04-24T17:58:50+08:00 ] ::1 /eshop/index.php/User/verify.html
+ERR: Cron:cron Runat 2017-04-24 17:58:50 Use 0.000338 s
+
+[ 2017-04-24T17:58:55+08:00 ] ::1 /eshop/index.php/Home/Index/index.html
+ERR: Cron:cron Runat 2017-04-24 17:58:55 Use 0.000377 s
+
+[ 2017-04-24T17:59:00+08:00 ] ::1 /eshop/index.php/Home/UserCenter/index.html
+ERR: Cron:cron Runat 2017-04-24 17:59:00 Use 0.000359 s
+
+[ 2017-04-24T17:59:03+08:00 ] ::1 /eshop/index.php/Home/UserCenter/index.html
+ERR: Cron:cron Runat 2017-04-24 17:59:03 Use 0.000381 s
+
+[ 2017-04-24T17:59:15+08:00 ] ::1 /eshop/index.php/Home/UserCenter/index.html
+ERR: Cron:cron Runat 2017-04-24 17:59:15 Use 0.000434 s
+
+[ 2017-04-24T17:59:26+08:00 ] ::1 /eshop/index.php/Home/UserCenter/index.html
+ERR: Cron:cron Runat 2017-04-24 17:59:26 Use 0.000372 s
+
+[ 2017-04-24T17:59:42+08:00 ] ::1 /eshop/index.php/ShoppingCart/index.html
+ERR: Cron:cron Runat 2017-04-24 17:59:42 Use 0.000500 s
+
+[ 2017-04-24T17:59:45+08:00 ] ::1 /eshop/index.php/ShoppingCart/ischecked
+ERR: Cron:cron Runat 2017-04-24 17:59:45 Use 0.000343 s
+
+[ 2017-04-24T17:59:45+08:00 ] ::1 /eshop/index.php/ShoppingCart/ischecked
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000711s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.003954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005311s ]
+SQL: SHOW COLUMNS FROM `eshop_cart` [ RunTime:0.0039s ]
+SQL: SELECT `goodId`,`goodNumber`,`mount`,`name`,`shopPrice`,`good_log` FROM eshop_cart c INNER JOIN eshop_good as g on c.goodId = g.id  WHERE `userId` = '20' ORDER BY c.time desc  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001433s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001575s ]
+
+[ 2017-04-24T18:00:02+08:00 ] ::1 /eshop/index.php/UserCenter/addressedit.html
+ERR: Cron:cron Runat 2017-04-24 18:00:02 Use 0.000304 s
+
+[ 2017-04-24T18:00:46+08:00 ] ::1 /eshop/index.php/ShoppingCart/settlement
+ERR: Cron:cron Runat 2017-04-24 18:00:46 Use 0.000303 s
+
+[ 2017-04-24T18:02:38+08:00 ] ::1 /eshop/index.php/Home/Shop/index/shopId/3.html
+ERR: Cron:cron Runat 2017-04-24 18:02:38 Use 0.000373 s
+
+[ 2017-04-24T18:03:26+08:00 ] ::1 /eshop/index.php/ShoppingCart/settlement
+ERR: Cron:cron Runat 2017-04-24 18:03:26 Use 0.000453 s
+
+[ 2017-04-24T18:03:28+08:00 ] ::1 /eshop/index.php/Home/Shop/index/shopId/3.html
+ERR: Cron:cron Runat 2017-04-24 18:03:28 Use 0.000309 s
+
+[ 2017-04-24T18:03:39+08:00 ] ::1 /eshop/index.php/Home/Shop/index/shopId/3.html
+ERR: Cron:cron Runat 2017-04-24 18:03:39 Use 0.000503 s
+
+[ 2017-04-24T18:24:35+08:00 ] ::1 /eshop/index.php/Home/UserCenter/ucenter_orders.html
+ERR: Cron:cron Runat 2017-04-24 18:24:35 Use 0.000470 s
+
+[ 2017-04-24T18:24:35+08:00 ] ::1 /eshop/index.php/Home/UserCenter/ucenter_orders.html
+ERR: 非法操作:ucenter_orders
+
+[ 2017-04-24T18:25:45+08:00 ] ::1 /eshop/index.php/Home/UserCenter/index.html
+ERR: Cron:cron Runat 2017-04-24 18:25:45 Use 0.000381 s
+
+[ 2017-04-24T19:17:14+08:00 ] ::1 /eshop/index.php/Home/Shop/index/shopId/3.html
+ERR: Cron:cron Runat 2017-04-24 19:17:14 Use 0.000286 s
+
+[ 2017-04-24T19:17:19+08:00 ] ::1 /eshop/index.php/Home/Shoper/index.html
+ERR: Cron:cron Runat 2017-04-24 19:17:19 Use 0.000416 s
+

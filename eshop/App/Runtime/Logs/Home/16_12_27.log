@@ -1,0 +1,3628 @@
+[ 2016-12-27T10:17:51+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShoperName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001150s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001972s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0070s ]
+SQL: SELECT `id` FROM `eshop_shoper` WHERE `name` = 'wqwewe' LIMIT 1   [ RunTime:0.0268s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001307s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001430s ]
+
+[ 2016-12-27T10:18:00+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShoperEmail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000875s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001519s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0063s ]
+SQL: SELECT `email` FROM `eshop_shoper` WHERE `email` = '123456@qq.com' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001050s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001154s ]
+
+[ 2016-12-27T10:18:16+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShopName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001707s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0050s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `name` = '大漠雄鹰' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001051s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001146s ]
+
+[ 2016-12-27T10:18:23+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001463s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001008s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001118s ]
+
+[ 2016-12-27T10:18:26+08:00 ] ::1 /eshop/index.php/Home/Shoper/doRegist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001098s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001830s ]
+
+[ 2016-12-27T10:49:40+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000855s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001408s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000878s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000964s ]
+
+[ 2016-12-27T10:49:41+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShoperName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001465s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0827s ]
+SQL: SELECT `id` FROM `eshop_shoper` WHERE `name` = 'wqwewe' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001003s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001082s ]
+
+[ 2016-12-27T10:49:41+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShoperEmail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001171s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001868s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0049s ]
+SQL: SELECT `email` FROM `eshop_shoper` WHERE `email` = '123456@qq.com' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000994s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001091s ]
+
+[ 2016-12-27T10:49:41+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShopName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000770s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001276s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0058s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `name` = '大漠雄鹰' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000972s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001054s ]
+
+[ 2016-12-27T10:49:41+08:00 ] ::1 /eshop/index.php/Home/Shoper/doRegist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001130s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002235s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0054s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `eshop_shoper` WHERE `name` = 'wqwewe' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] preg_match(): Compilation failed: PCRE does not support \L, \l, \N{name}, \U, or \u at offset 3 D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1117 行.
+NOTIC: [8] Undefined variable: shoper D:\wampserver\wamp\www\eshop\App\Home\Model\ShoperModel.class.php 第 43 行.
+
+[ 2016-12-27T10:52:26+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000897s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001445s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000858s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000950s ]
+
+[ 2016-12-27T10:52:29+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002700s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001681s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001865s ]
+
+[ 2016-12-27T10:52:29+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002350s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000916s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001011s ]
+
+[ 2016-12-27T10:52:31+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShoperName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001974s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0268s ]
+SQL: SELECT `id` FROM `eshop_shoper` WHERE `name` = 'wqwewe' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001100s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001195s ]
+
+[ 2016-12-27T10:52:31+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShoperEmail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002279s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0059s ]
+SQL: SELECT `email` FROM `eshop_shoper` WHERE `email` = '123456@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000983s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001073s ]
+
+[ 2016-12-27T10:52:31+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShopName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000863s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001419s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0452s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `name` = '大漠雄鹰' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000979s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001065s ]
+
+[ 2016-12-27T10:52:32+08:00 ] ::1 /eshop/index.php/Home/Shoper/doRegist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001331s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0056s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `eshop_shoper` WHERE `name` = 'wqwewe' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] preg_match(): Compilation failed: PCRE does not support \L, \l, \N{name}, \U, or \u at offset 3 D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1117 行.
+
+[ 2016-12-27T10:57:53+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001446s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000778s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000867s ]
+
+[ 2016-12-27T10:57:54+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001349s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001116s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001258s ]
+
+[ 2016-12-27T10:57:55+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000786s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001367s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000816s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000911s ]
+
+[ 2016-12-27T10:57:57+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002196s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001345s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001501s ]
+
+[ 2016-12-27T10:57:57+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002352s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001413s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001585s ]
+
+[ 2016-12-27T10:57:58+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001349s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000781s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000869s ]
+
+[ 2016-12-27T10:57:59+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShoperName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002181s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0806s ]
+SQL: SELECT `id` FROM `eshop_shoper` WHERE `name` = 'wqwewe' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001156s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001259s ]
+
+[ 2016-12-27T10:57:59+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShoperEmail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001713s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0064s ]
+SQL: SELECT `email` FROM `eshop_shoper` WHERE `email` = '123456@qq.com' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001102s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001201s ]
+
+[ 2016-12-27T10:57:59+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShopName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002046s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0055s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `name` = '大漠雄鹰' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001021s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001112s ]
+
+[ 2016-12-27T10:58:00+08:00 ] ::1 /eshop/index.php/Home/Shoper/doRegist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001366s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `eshop_shoper` WHERE `name` = 'wqwewe' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] preg_match(): Compilation failed: PCRE does not support \L, \l, \N{name}, \U, or \u at offset 3 D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1117 行.
+
+[ 2016-12-27T11:00:59+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001485s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000797s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000897s ]
+
+[ 2016-12-27T11:00:59+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShoperName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001132s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001886s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0486s ]
+SQL: SELECT `id` FROM `eshop_shoper` WHERE `name` = 'wqwewe' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001278s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001511s ]
+
+[ 2016-12-27T11:00:59+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShoperEmail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002312s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0048s ]
+SQL: SELECT `email` FROM `eshop_shoper` WHERE `email` = '123456@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001213s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001305s ]
+
+[ 2016-12-27T11:00:59+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShopName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001402s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0053s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `name` = '大漠雄鹰' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000987s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001079s ]
+
+[ 2016-12-27T11:00:59+08:00 ] ::1 /eshop/index.php/Home/Shoper/doRegist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000765s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001375s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0052s ]
+
+[ 2016-12-27T11:02:13+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001309s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000755s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000842s ]
+
+[ 2016-12-27T11:02:13+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShoperName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001130s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001871s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0229s ]
+SQL: SELECT `id` FROM `eshop_shoper` WHERE `name` = 'wqwewe' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000954s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001045s ]
+
+[ 2016-12-27T11:02:13+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShoperEmail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003562s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0054s ]
+SQL: SELECT `email` FROM `eshop_shoper` WHERE `email` = '123456@qq.com' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000993s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001080s ]
+
+[ 2016-12-27T11:02:14+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShopName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003529s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004411s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0065s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `name` = '大漠雄鹰' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001067s ]
+
+[ 2016-12-27T11:02:22+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000840s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001406s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000825s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000937s ]
+
+[ 2016-12-27T11:02:24+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001490s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000824s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000920s ]
+
+[ 2016-12-27T11:02:25+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000830s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001402s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000820s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000914s ]
+
+[ 2016-12-27T11:02:25+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000852s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001415s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000825s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000920s ]
+
+[ 2016-12-27T11:02:26+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002667s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001627s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001821s ]
+
+[ 2016-12-27T11:02:28+08:00 ] ::1 /eshop/index.php/Home/Shoper/doRegist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000856s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001449s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0974s ]
+
+[ 2016-12-27T11:03:03+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001341s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000812s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000903s ]
+
+[ 2016-12-27T11:03:03+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShoperName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002128s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0061s ]
+SQL: SELECT `id` FROM `eshop_shoper` WHERE `name` = 'wqwewe' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001178s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001293s ]
+
+[ 2016-12-27T11:03:03+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShoperEmail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002484s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0055s ]
+SQL: SELECT `email` FROM `eshop_shoper` WHERE `email` = '123456@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001034s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001123s ]
+
+[ 2016-12-27T11:03:03+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShopName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002235s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0057s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `name` = '大漠雄鹰' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001086s ]
+
+[ 2016-12-27T11:03:03+08:00 ] ::1 /eshop/index.php/Home/Shoper/doRegist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000964s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002167s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0052s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `eshop_shoper` WHERE `name` = 'wqwewe' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] preg_match(): Compilation failed: PCRE does not support \L, \l, \N{name}, \U, or \u at offset 3 D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1117 行.
+
+[ 2016-12-27T11:08:59+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001334s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000808s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000901s ]
+
+[ 2016-12-27T11:08:59+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShoperName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003690s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0587s ]
+SQL: SELECT `id` FROM `eshop_shoper` WHERE `name` = 'wqwewe' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001158s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001270s ]
+
+[ 2016-12-27T11:08:59+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShopName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004400s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0058s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `name` = '大漠雄鹰' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001665s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001902s ]
+
+[ 2016-12-27T11:08:59+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShoperEmail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003747s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0051s ]
+SQL: SELECT `email` FROM `eshop_shoper` WHERE `email` = '123456@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001114s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001208s ]
+
+[ 2016-12-27T11:09:21+08:00 ] ::1 /eshop/index.php/Home/Shoper/doRegist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001677s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0926s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `eshop_shoper` WHERE `name` = 'wqwewe' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] preg_match(): Compilation failed: PCRE does not support \L, \l, \N{name}, \U, or \u at offset 3 D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1117 行.
+
+[ 2016-12-27T11:10:12+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001685s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000751s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000836s ]
+
+[ 2016-12-27T11:10:13+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShoperName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001174s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001956s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0403s ]
+SQL: SELECT `id` FROM `eshop_shoper` WHERE `name` = 'wqwewe' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000911s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000988s ]
+
+[ 2016-12-27T11:10:13+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShoperEmail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001756s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002598s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0061s ]
+SQL: SELECT `email` FROM `eshop_shoper` WHERE `email` = '123456@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001006s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001095s ]
+
+[ 2016-12-27T11:10:13+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShopName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000846s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001426s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0053s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `name` = '大漠雄鹰' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000966s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001052s ]
+
+[ 2016-12-27T11:10:13+08:00 ] ::1 /eshop/index.php/Home/Shoper/doRegist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001310s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0053s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `eshop_shoper` WHERE `name` = 'wqwewe' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] preg_match(): Compilation failed: PCRE does not support \L, \l, \N{name}, \U, or \u at offset 3 D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1117 行.
+NOTIC: [8] Undefined variable: msg D:\wampserver\wamp\www\eshop\App\Home\Model\ShoperModel.class.php 第 55 行.
+
+[ 2016-12-27T12:12:22+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001451s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001082s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001194s ]
+
+[ 2016-12-27T12:12:27+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000982s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001555s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000932s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001030s ]
+
+[ 2016-12-27T12:12:27+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001006s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001581s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000950s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001056s ]
+
+[ 2016-12-27T12:12:28+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001842s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000915s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001033s ]
+
+[ 2016-12-27T12:12:31+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003532s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004329s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004591s ]
+
+[ 2016-12-27T12:12:31+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002285s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002551s ]
+
+[ 2016-12-27T12:12:33+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShoperName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002220s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0443s ]
+SQL: SELECT `id` FROM `eshop_shoper` WHERE `name` = 'wqwewe' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001432s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001562s ]
+
+[ 2016-12-27T12:12:33+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShoperEmail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002471s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0069s ]
+SQL: SELECT `email` FROM `eshop_shoper` WHERE `email` = '123456@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001020s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001110s ]
+
+[ 2016-12-27T12:12:33+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShopName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002517s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0063s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `name` = '大漠雄鹰' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001394s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001526s ]
+
+[ 2016-12-27T12:12:34+08:00 ] ::1 /eshop/index.php/Home/Shoper/doRegist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003471s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0072s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `eshop_shoper` WHERE `name` = 'wqwewe' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] preg_match(): Compilation failed: PCRE does not support \L, \l, \N{name}, \U, or \u at offset 3 D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1117 行.
+
+[ 2016-12-27T12:13:29+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002016s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001230s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001369s ]
+
+[ 2016-12-27T12:13:31+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000898s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001525s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000893s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000988s ]
+
+[ 2016-12-27T12:13:31+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000740s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001185s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000753s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000842s ]
+
+[ 2016-12-27T12:13:33+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000947s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001496s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001009s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001186s ]
+
+[ 2016-12-27T12:13:34+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001214s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000793s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000899s ]
+
+[ 2016-12-27T12:13:34+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001410s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000934s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001037s ]
+
+[ 2016-12-27T12:13:37+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShoperName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002225s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0431s ]
+SQL: SELECT `id` FROM `eshop_shoper` WHERE `name` = 'wqwewe' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001542s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001708s ]
+
+[ 2016-12-27T12:13:37+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShoperEmail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004740s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005551s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0078s ]
+SQL: SELECT `email` FROM `eshop_shoper` WHERE `email` = '123456@qq.com' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001589s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001743s ]
+
+[ 2016-12-27T12:13:37+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShopName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001523s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0055s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `name` = '大漠雄鹰' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000972s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001065s ]
+
+[ 2016-12-27T12:13:37+08:00 ] ::1 /eshop/index.php/Home/Shoper/doRegist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003526s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `eshop_shoper` WHERE `name` = 'wqwewe' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] preg_match(): Compilation failed: PCRE does not support \L, \l, \N{name}, \U, or \u at offset 3 D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1117 行.
+
+[ 2016-12-27T12:14:32+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShoperName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000957s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001555s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0056s ]
+SQL: SELECT `id` FROM `eshop_shoper` WHERE `name` = 'admin123' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001244s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001347s ]
+
+[ 2016-12-27T12:14:51+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001497s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000796s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000888s ]
+
+[ 2016-12-27T12:15:04+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000968s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001604s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000934s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001034s ]
+
+[ 2016-12-27T12:15:04+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000899s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001472s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000912s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001023s ]
+
+[ 2016-12-27T12:15:05+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002143s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003372s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001704s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001859s ]
+
+[ 2016-12-27T12:15:05+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001417s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001482s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001624s ]
+
+[ 2016-12-27T12:15:06+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001199s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001897s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001275s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001425s ]
+
+[ 2016-12-27T12:15:10+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShoperEmail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002328s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0565s ]
+SQL: SELECT `email` FROM `eshop_shoper` WHERE `email` = '123456@qq.com' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001323s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001442s ]
+
+[ 2016-12-27T12:15:10+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShopName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001910s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0070s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `name` = '大漠雄鹰' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000965s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001055s ]
+
+[ 2016-12-27T12:15:10+08:00 ] ::1 /eshop/index.php/Home/Shoper/doRegist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002721s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0052s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `eshop_shoper` WHERE `name` = 'admin123' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] preg_match(): Compilation failed: PCRE does not support \L, \l, \N{name}, \U, or \u at offset 3 D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1117 行.
+
+[ 2016-12-27T12:16:39+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001149s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001787s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001340s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001511s ]
+
+[ 2016-12-27T12:16:41+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000840s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001418s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000905s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001027s ]
+
+[ 2016-12-27T12:16:42+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000765s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001371s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000726s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000816s ]
+
+[ 2016-12-27T12:16:55+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001201s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001211s ]
+
+[ 2016-12-27T12:16:55+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001447s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000824s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000940s ]
+
+[ 2016-12-27T12:16:57+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000855s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001452s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000942s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001045s ]
+
+[ 2016-12-27T12:16:57+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002377s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001417s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001585s ]
+
+[ 2016-12-27T12:16:57+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000742s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001433s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000852s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000967s ]
+
+[ 2016-12-27T12:17:00+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShoperName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002473s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0390s ]
+SQL: SELECT `id` FROM `eshop_shoper` WHERE `name` = 'admin123' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000942s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001042s ]
+
+[ 2016-12-27T12:17:00+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShoperEmail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000866s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001418s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0052s ]
+SQL: SELECT `email` FROM `eshop_shoper` WHERE `email` = '123456@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000844s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000921s ]
+
+[ 2016-12-27T12:17:00+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShopName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000915s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001478s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0056s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `name` = '大漠雄鹰' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001313s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001421s ]
+
+[ 2016-12-27T12:17:01+08:00 ] ::1 /eshop/index.php/Home/Shoper/doRegist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002130s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `eshop_shoper` WHERE `name` = 'admin123' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] preg_match(): No ending delimiter '^' found D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1117 行.
+
+[ 2016-12-27T12:19:01+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000952s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001561s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000874s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000962s ]
+
+[ 2016-12-27T12:19:02+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShoperName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002283s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0503s ]
+SQL: SELECT `id` FROM `eshop_shoper` WHERE `name` = 'admin123' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000986s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001077s ]
+
+[ 2016-12-27T12:19:02+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShoperEmail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009247s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0064s ]
+SQL: SELECT `email` FROM `eshop_shoper` WHERE `email` = '123456@qq.com' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001711s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001880s ]
+
+[ 2016-12-27T12:19:02+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShopName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001297s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0050s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `name` = '大漠雄鹰' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001237s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001354s ]
+
+[ 2016-12-27T12:19:02+08:00 ] ::1 /eshop/index.php/Home/Shoper/doRegist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001622s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0053s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `eshop_shoper` WHERE `name` = 'admin123' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `eshop_shoper` WHERE `email` = '123456@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: trueName D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `eshop_shoper` (`carNum`,`sex`,`birthday`,`qq`,`name`,`password`,`email`,`tel`,`create_time`) VALUES ('430521199410095672','男','2016-12-08','','admin123','e00cf25ad42683b3df678c61f42c6bda','123456@qq.com','18904010296','1482812342') [ RunTime:0.0924s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001005s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001097s ]
+
+[ 2016-12-27T12:24:52+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShoperName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000823s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001352s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0055s ]
+SQL: SELECT `id` FROM `eshop_shoper` WHERE `name` = 'admin123' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001018s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001115s ]
+
+[ 2016-12-27T12:24:54+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShoperName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000933s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001493s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0053s ]
+SQL: SELECT `id` FROM `eshop_shoper` WHERE `name` = 'admin12' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000992s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001080s ]
+
+[ 2016-12-27T12:25:37+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000884s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001460s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001007s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001136s ]
+
+[ 2016-12-27T12:25:40+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000845s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001395s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001644s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001812s ]
+
+[ 2016-12-27T12:25:42+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000912s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001603s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000896s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000993s ]
+
+[ 2016-12-27T12:25:42+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001108s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001664s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000841s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000940s ]
+
+[ 2016-12-27T12:25:43+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000885s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001475s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000837s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000954s ]
+
+[ 2016-12-27T12:25:46+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShoperEmail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001255s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002070s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0670s ]
+SQL: SELECT `email` FROM `eshop_shoper` WHERE `email` = '123456@qq.com' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001117s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001226s ]
+
+[ 2016-12-27T12:25:46+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShopName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002147s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0063s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `name` = '大漠雄鹰' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001229s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001336s ]
+
+[ 2016-12-27T12:25:58+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShoperEmail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000903s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001553s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0058s ]
+SQL: SELECT `email` FROM `eshop_shoper` WHERE `email` = '12345@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001149s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001252s ]
+
+[ 2016-12-27T12:25:58+08:00 ] ::1 /eshop/index.php/Home/Shoper/doRegist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000865s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001422s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0047s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `eshop_shoper` WHERE `name` = 'admin12' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] preg_match(): Compilation failed: PCRE does not support \L, \l, \N{name}, \U, or \u at offset 3 D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1117 行.
+
+[ 2016-12-27T12:44:21+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShoperName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001361s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0055s ]
+SQL: SELECT `id` FROM `eshop_shoper` WHERE `name` = 'admin' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001192s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001288s ]
+
+[ 2016-12-27T12:44:22+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShoperName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000992s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001582s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0055s ]
+SQL: SELECT `id` FROM `eshop_shoper` WHERE `name` = 'admin1' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000911s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000991s ]
+
+[ 2016-12-27T12:44:36+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShoperEmail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001140s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001958s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0054s ]
+SQL: SELECT `email` FROM `eshop_shoper` WHERE `email` = '12345@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001239s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001338s ]
+
+[ 2016-12-27T12:44:43+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001401s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000875s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000961s ]
+
+[ 2016-12-27T12:44:46+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000904s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001467s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001169s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001301s ]
+
+[ 2016-12-27T12:44:48+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001764s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000955s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001047s ]
+
+[ 2016-12-27T12:44:48+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001837s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000842s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000944s ]
+
+[ 2016-12-27T12:44:48+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001628s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000864s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000958s ]
+
+[ 2016-12-27T12:44:50+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShopName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000958s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001566s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0201s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `name` = '大漠雄鹰' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000945s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001026s ]
+
+[ 2016-12-27T12:44:51+08:00 ] ::1 /eshop/index.php/Home/Shoper/doRegist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001511s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0049s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `eshop_shoper` WHERE `name` = 'admin1' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] preg_match(): Compilation failed: PCRE does not support \L, \l, \N{name}, \U, or \u at offset 3 D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1117 行.
+
+[ 2016-12-27T14:20:53+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001394s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000905s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000996s ]
+
+[ 2016-12-27T14:20:57+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000923s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001555s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000823s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000902s ]
+
+[ 2016-12-27T14:20:58+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001426s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000822s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000899s ]
+
+[ 2016-12-27T14:21:02+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShoperName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000927s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001472s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0724s ]
+SQL: SELECT `id` FROM `eshop_shoper` WHERE `name` = 'admin1' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001204s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001319s ]
+
+[ 2016-12-27T14:21:02+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShopName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001804s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002547s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0062s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `name` = '大漠雄鹰' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000988s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001074s ]
+
+[ 2016-12-27T14:21:02+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShoperEmail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003039s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0050s ]
+SQL: SELECT `email` FROM `eshop_shoper` WHERE `email` = '12345@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000927s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001011s ]
+
+[ 2016-12-27T14:21:03+08:00 ] ::1 /eshop/index.php/Home/Shoper/doRegist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001584s ]
+NOTIC: [2] preg_match(): Compilation failed: PCRE does not support \L, \l, \N{name}, \U, or \u at offset 3 D:\wampserver\wamp\www\eshop\App\Home\Common\function.php 第 11 行.
+
+[ 2016-12-27T14:22:04+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001397s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000878s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000968s ]
+
+[ 2016-12-27T14:22:09+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001421s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000821s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000906s ]
+
+[ 2016-12-27T14:22:09+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000833s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001413s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000824s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000906s ]
+
+[ 2016-12-27T14:22:10+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002507s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001491s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001651s ]
+
+[ 2016-12-27T14:22:10+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001422s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000820s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000903s ]
+
+[ 2016-12-27T14:22:10+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000947s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001526s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000811s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000893s ]
+
+[ 2016-12-27T14:22:13+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShoperName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001134s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001955s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0738s ]
+SQL: SELECT `id` FROM `eshop_shoper` WHERE `name` = 'admin1' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001839s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001943s ]
+
+[ 2016-12-27T14:22:13+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShoperEmail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001101s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0081s ]
+SQL: SELECT `email` FROM `eshop_shoper` WHERE `email` = '12345@qq.com' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001100s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001203s ]
+
+[ 2016-12-27T14:22:13+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShopName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001352s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0050s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `name` = '大漠雄鹰' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001130s ]
+
+[ 2016-12-27T14:22:13+08:00 ] ::1 /eshop/index.php/Home/Shoper/doRegist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001415s ]
+NOTIC: [2] preg_match(): Compilation failed: PCRE does not support \L, \l, \N{name}, \U, or \u at offset 3 D:\wampserver\wamp\www\eshop\App\Home\Common\function.php 第 11 行.
+
+[ 2016-12-27T14:22:55+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001625s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000879s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000960s ]
+
+[ 2016-12-27T14:22:58+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000863s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001465s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000923s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001029s ]
+
+[ 2016-12-27T14:22:58+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002739s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001090s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001227s ]
+
+[ 2016-12-27T14:23:00+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001988s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000931s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001037s ]
+
+[ 2016-12-27T14:23:01+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001920s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000848s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000949s ]
+
+[ 2016-12-27T14:23:01+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000875s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001466s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000858s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000935s ]
+
+[ 2016-12-27T14:23:03+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShoperName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002119s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0915s ]
+SQL: SELECT `id` FROM `eshop_shoper` WHERE `name` = 'admin1' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001154s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001259s ]
+
+[ 2016-12-27T14:23:03+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShopName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002070s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0069s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `name` = '大漠雄鹰' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000996s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001092s ]
+
+[ 2016-12-27T14:23:03+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShoperEmail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000916s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001520s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0052s ]
+SQL: SELECT `email` FROM `eshop_shoper` WHERE `email` = '12345@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001057s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001145s ]
+
+[ 2016-12-27T14:23:04+08:00 ] ::1 /eshop/index.php/Home/Shoper/doRegist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001466s ]
+NOTIC: [2] preg_match(): Compilation failed: PCRE does not support \L, \l, \N{name}, \U, or \u at offset 3 D:\wampserver\wamp\www\eshop\App\Home\Common\function.php 第 11 行.
+
+[ 2016-12-27T14:30:17+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShoperName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001097s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001734s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0057s ]
+SQL: SELECT `id` FROM `eshop_shoper` WHERE `name` = 'admin1' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001309s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001418s ]
+
+[ 2016-12-27T14:30:33+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001421s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000846s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000931s ]
+
+[ 2016-12-27T14:30:41+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001387s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000832s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000914s ]
+
+[ 2016-12-27T14:30:41+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001420s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000834s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000917s ]
+
+[ 2016-12-27T14:30:43+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001426s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000868s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000949s ]
+
+[ 2016-12-27T14:30:43+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000849s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001417s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000860s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000950s ]
+
+[ 2016-12-27T14:30:44+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001416s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000843s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000924s ]
+
+[ 2016-12-27T14:30:45+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShoperEmail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001397s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0363s ]
+SQL: SELECT `email` FROM `eshop_shoper` WHERE `email` = '12345@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001212s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001320s ]
+
+[ 2016-12-27T14:30:46+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShopName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001151s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001730s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0068s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `name` = '大漠雄鹰' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001018s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001118s ]
+
+[ 2016-12-27T14:30:46+08:00 ] ::1 /eshop/index.php/Home/Shoper/doRegist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001450s ]
+NOTIC: [2] preg_match(): Compilation failed: PCRE does not support \L, \l, \N{name}, \U, or \u at offset 4 D:\wampserver\wamp\www\eshop\App\Home\Common\function.php 第 11 行.
+
+[ 2016-12-27T14:33:08+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001351s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000924s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001006s ]
+
+[ 2016-12-27T14:33:09+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShoperName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002117s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0538s ]
+SQL: SELECT `id` FROM `eshop_shoper` WHERE `name` = 'admin1' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001743s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001922s ]
+
+[ 2016-12-27T14:33:09+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShopName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005786s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006591s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0047s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `name` = '大漠雄鹰' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001051s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001129s ]
+
+[ 2016-12-27T14:33:09+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShoperEmail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001406s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0057s ]
+SQL: SELECT `email` FROM `eshop_shoper` WHERE `email` = '12345@qq.com' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001010s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001126s ]
+
+[ 2016-12-27T14:33:09+08:00 ] ::1 /eshop/index.php/Home/Shoper/doRegist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000880s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001519s ]
+NOTIC: [2] preg_match(): Compilation failed: nothing to repeat at offset 6 D:\wampserver\wamp\www\eshop\App\Home\Common\function.php 第 11 行.
+
+[ 2016-12-27T14:36:02+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000898s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001689s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000832s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000915s ]
+
+[ 2016-12-27T14:36:03+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShoperName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002133s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0312s ]
+SQL: SELECT `id` FROM `eshop_shoper` WHERE `name` = 'admin1' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000998s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001084s ]
+
+[ 2016-12-27T14:36:03+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShopName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002722s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0050s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `name` = '大漠雄鹰' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001113s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001211s ]
+
+[ 2016-12-27T14:36:03+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShoperEmail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002159s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003467s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0068s ]
+SQL: SELECT `email` FROM `eshop_shoper` WHERE `email` = '12345@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001180s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001281s ]
+
+[ 2016-12-27T14:36:03+08:00 ] ::1 /eshop/index.php/Home/Shoper/doRegist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002098s ]
+
+[ 2016-12-27T14:38:30+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002141s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001257s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001434s ]
+
+[ 2016-12-27T14:38:39+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002664s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000824s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000908s ]
+
+[ 2016-12-27T14:38:41+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001445s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000825s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000908s ]
+
+[ 2016-12-27T14:38:41+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002200s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001335s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001480s ]
+
+[ 2016-12-27T14:38:43+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShoperName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002790s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0839s ]
+SQL: SELECT `id` FROM `eshop_shoper` WHERE `name` = 'admin1' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001297s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001426s ]
+
+[ 2016-12-27T14:38:43+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShopName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001174s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001842s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0055s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `name` = '大漠雄鹰' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001125s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001247s ]
+
+[ 2016-12-27T14:38:43+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShoperEmail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002304s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0060s ]
+SQL: SELECT `email` FROM `eshop_shoper` WHERE `email` = '12345@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001014s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001115s ]
+
+[ 2016-12-27T14:38:43+08:00 ] ::1 /eshop/index.php/Home/Shoper/doRegist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001420s ]
+
+[ 2016-12-27T14:41:07+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000890s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001583s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000878s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000984s ]
+
+[ 2016-12-27T14:41:09+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShoperName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002215s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0551s ]
+SQL: SELECT `id` FROM `eshop_shoper` WHERE `name` = 'admin1' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001388s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001505s ]
+
+[ 2016-12-27T14:41:09+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShoperEmail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002154s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0175s ]
+SQL: SELECT `email` FROM `eshop_shoper` WHERE `email` = '12345@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000991s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001067s ]
+
+[ 2016-12-27T14:41:09+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShopName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001840s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0063s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `name` = '大漠雄鹰' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001047s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001149s ]
+
+[ 2016-12-27T14:41:09+08:00 ] ::1 /eshop/index.php/Home/Shoper/doRegist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000876s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001463s ]
+NOTIC: [2] preg_match(): Compilation failed: character value in \x{...} sequence is too large at offset 9 D:\wampserver\wamp\www\eshop\App\Home\Common\function.php 第 11 行.
+
+[ 2016-12-27T14:41:31+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShoperName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001420s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0051s ]
+SQL: SELECT `id` FROM `eshop_shoper` WHERE `name` = 'admin1' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001077s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001157s ]
+
+[ 2016-12-27T14:41:49+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001413s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000830s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000912s ]
+
+[ 2016-12-27T14:41:51+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShoperEmail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001127s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001729s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0925s ]
+SQL: SELECT `email` FROM `eshop_shoper` WHERE `email` = '12345@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001058s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001254s ]
+
+[ 2016-12-27T14:41:51+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShopName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000786s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001307s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0052s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `name` = '大漠雄鹰' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000907s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000998s ]
+
+[ 2016-12-27T14:41:51+08:00 ] ::1 /eshop/index.php/Home/Shoper/doRegist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000947s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001528s ]
+NOTIC: [2] preg_match(): Compilation failed: character value in \x{...} sequence is too large at offset 9 D:\wampserver\wamp\www\eshop\App\Home\Common\function.php 第 11 行.
+
+[ 2016-12-27T14:45:29+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000852s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001420s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000876s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001021s ]
+
+[ 2016-12-27T14:45:33+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000933s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001530s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000886s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000979s ]
+
+[ 2016-12-27T14:45:36+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000933s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001798s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001602s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001733s ]
+
+[ 2016-12-27T14:45:37+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShoperName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002086s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0729s ]
+SQL: SELECT `id` FROM `eshop_shoper` WHERE `name` = 'admin1' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001030s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001120s ]
+
+[ 2016-12-27T14:45:38+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShoperEmail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002835s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0050s ]
+SQL: SELECT `email` FROM `eshop_shoper` WHERE `email` = '12345@qq.com' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001300s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001413s ]
+
+[ 2016-12-27T14:45:38+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShopName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002202s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0072s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `name` = '大漠雄鹰' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001004s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001103s ]
+
+[ 2016-12-27T14:45:38+08:00 ] ::1 /eshop/index.php/Home/Shoper/doRegist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001852s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003926s ]
+
+[ 2016-12-27T14:49:01+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000878s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001466s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001423s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001550s ]
+
+[ 2016-12-27T14:49:06+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000943s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001573s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000827s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000910s ]
+
+[ 2016-12-27T14:49:06+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000852s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001425s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000842s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000926s ]
+
+[ 2016-12-27T14:49:07+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000852s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001437s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001148s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001246s ]
+
+[ 2016-12-27T14:49:08+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001398s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001366s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001482s ]
+
+[ 2016-12-27T14:49:08+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000858s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001443s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000847s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000941s ]
+
+[ 2016-12-27T14:49:10+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShoperName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002148s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0110s ]
+SQL: SELECT `id` FROM `eshop_shoper` WHERE `name` = 'admin1' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001068s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001168s ]
+
+[ 2016-12-27T14:49:10+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShoperEmail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002104s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0334s ]
+SQL: SELECT `email` FROM `eshop_shoper` WHERE `email` = '12345@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000930s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001006s ]
+
+[ 2016-12-27T14:49:10+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShopName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001135s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001833s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0053s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `name` = '大漠雄鹰' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000948s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001052s ]
+
+[ 2016-12-27T14:49:10+08:00 ] ::1 /eshop/index.php/Home/Shoper/doRegist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001205s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002626s ]
+
+[ 2016-12-27T14:50:01+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001848s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000891s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000995s ]
+
+[ 2016-12-27T14:50:06+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001659s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000885s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000989s ]
+
+[ 2016-12-27T14:50:06+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000863s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001455s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000932s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001049s ]
+
+[ 2016-12-27T14:50:08+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShoperName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002334s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0746s ]
+SQL: SELECT `id` FROM `eshop_shoper` WHERE `name` = 'admin1' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001104s ]
+
+[ 2016-12-27T14:50:08+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShoperEmail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002071s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0063s ]
+SQL: SELECT `email` FROM `eshop_shoper` WHERE `email` = '12345@qq.com' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001475s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001598s ]
+
+[ 2016-12-27T14:50:08+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShopName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001277s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002051s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0060s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `name` = '大漠雄鹰' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001113s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001212s ]
+
+[ 2016-12-27T14:50:08+08:00 ] ::1 /eshop/index.php/Home/Shoper/doRegist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001696s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002514s ]
+
+[ 2016-12-27T14:52:45+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000869s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001418s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000887s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000982s ]
+
+[ 2016-12-27T14:52:49+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000940s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001622s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000872s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000957s ]
+
+[ 2016-12-27T14:52:50+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001666s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000840s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000932s ]
+
+[ 2016-12-27T14:52:51+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000863s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001438s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001210s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001335s ]
+
+[ 2016-12-27T14:52:52+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000866s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001374s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000967s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001079s ]
+
+[ 2016-12-27T14:52:53+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002686s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001591s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001769s ]
+
+[ 2016-12-27T14:52:55+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShoperName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001822s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002731s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0397s ]
+SQL: SELECT `id` FROM `eshop_shoper` WHERE `name` = 'admin1' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001026s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001108s ]
+
+[ 2016-12-27T14:52:55+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShoperEmail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002124s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0052s ]
+SQL: SELECT `email` FROM `eshop_shoper` WHERE `email` = '12345@qq.com' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001063s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001189s ]
+
+[ 2016-12-27T14:52:55+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShopName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001170s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002015s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0061s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `name` = '大漠雄鹰' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000901s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000989s ]
+
+[ 2016-12-27T14:52:55+08:00 ] ::1 /eshop/index.php/Home/Shoper/doRegist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002200s ]
+NOTIC: [2] preg_match(): Compilation failed: PCRE does not support \L, \l, \N{name}, \U, or \u at offset 3 D:\wampserver\wamp\www\eshop\App\Home\Common\function.php 第 11 行.
+
+[ 2016-12-27T14:55:23+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000843s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001434s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000843s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000929s ]
+
+[ 2016-12-27T14:55:27+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001415s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000856s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000949s ]
+
+[ 2016-12-27T14:55:28+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000852s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001457s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000849s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000937s ]
+
+[ 2016-12-27T14:55:30+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000910s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001479s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000857s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000945s ]
+
+[ 2016-12-27T14:55:31+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000863s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001440s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000918s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001009s ]
+
+[ 2016-12-27T14:55:32+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000875s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001476s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000884s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000972s ]
+
+[ 2016-12-27T14:55:34+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShoperName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002203s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0869s ]
+SQL: SELECT `id` FROM `eshop_shoper` WHERE `name` = 'admin1' LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002680s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002908s ]
+
+[ 2016-12-27T14:55:34+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShopName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000853s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001373s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0068s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `name` = '大漠雄鹰' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001316s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001431s ]
+
+[ 2016-12-27T14:55:34+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShoperEmail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002162s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0052s ]
+SQL: SELECT `email` FROM `eshop_shoper` WHERE `email` = '12345@qq.com' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001246s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001363s ]
+
+[ 2016-12-27T14:55:34+08:00 ] ::1 /eshop/index.php/Home/Shoper/doRegist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000877s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001599s ]
+
+[ 2016-12-27T14:57:35+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000870s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001438s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000872s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000957s ]
+
+[ 2016-12-27T14:57:42+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001448s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000889s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2016-12-27T14:57:43+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000992s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001579s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000882s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001003s ]
+
+[ 2016-12-27T14:57:44+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001490s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000893s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-12-27T14:57:46+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001688s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000908s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000990s ]
+
+[ 2016-12-27T14:57:46+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000970s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001613s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001068s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001307s ]
+
+[ 2016-12-27T14:57:47+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000928s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001526s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000997s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001089s ]
+
+[ 2016-12-27T14:57:48+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShoperName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002331s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0607s ]
+SQL: SELECT `id` FROM `eshop_shoper` WHERE `name` = 'admin1' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001078s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001153s ]
+
+[ 2016-12-27T14:57:48+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShoperEmail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000980s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001569s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0052s ]
+SQL: SELECT `email` FROM `eshop_shoper` WHERE `email` = '12345@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001093s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001218s ]
+
+[ 2016-12-27T14:57:48+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShopName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002021s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0052s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `name` = '大漠雄鹰' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000984s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001065s ]
+
+[ 2016-12-27T14:57:49+08:00 ] ::1 /eshop/index.php/Home/Shoper/doRegist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001361s ]
+NOTIC: [2] preg_match(): Compilation failed: PCRE does not support \L, \l, \N{name}, \U, or \u at offset 4 D:\wampserver\wamp\www\eshop\App\Home\Common\function.php 第 11 行.
+
+[ 2016-12-27T15:03:57+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001099s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001689s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000864s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001051s ]
+
+[ 2016-12-27T15:03:58+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShoperName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002076s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0431s ]
+SQL: SELECT `id` FROM `eshop_shoper` WHERE `name` = 'admin1' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001079s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001173s ]
+
+[ 2016-12-27T15:03:58+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShopName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001935s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0137s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `name` = '大漠雄鹰' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000938s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001032s ]
+
+[ 2016-12-27T15:03:58+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShoperEmail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002062s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0539s ]
+SQL: SELECT `email` FROM `eshop_shoper` WHERE `email` = '12345@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000982s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001072s ]
+
+[ 2016-12-27T15:03:59+08:00 ] ::1 /eshop/index.php/Home/Shoper/doRegist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000938s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001514s ]
+
+[ 2016-12-27T15:05:04+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000931s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001577s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000993s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001096s ]
+
+[ 2016-12-27T15:05:04+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShoperName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002489s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0737s ]
+SQL: SELECT `id` FROM `eshop_shoper` WHERE `name` = 'admin1' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001007s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001098s ]
+
+[ 2016-12-27T15:05:05+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShoperEmail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001135s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001924s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0057s ]
+SQL: SELECT `email` FROM `eshop_shoper` WHERE `email` = '12345@qq.com' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001014s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001110s ]
+
+[ 2016-12-27T15:05:05+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShopName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001434s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0058s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `name` = '大漠雄鹰' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000892s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000978s ]
+
+[ 2016-12-27T15:05:05+08:00 ] ::1 /eshop/index.php/Home/Shoper/doRegist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001174s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001989s ]
+
+[ 2016-12-27T15:06:55+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShoperName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000865s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001474s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0073s ]
+SQL: SELECT `id` FROM `eshop_shoper` WHERE `name` = 'admin1' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001046s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001140s ]
+
+[ 2016-12-27T15:07:02+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001390s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000926s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001031s ]
+
+[ 2016-12-27T15:07:04+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000869s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001435s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000833s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000928s ]
+
+[ 2016-12-27T15:07:04+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000880s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001484s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000845s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000936s ]
+
+[ 2016-12-27T15:07:05+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001388s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000832s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000922s ]
+
+[ 2016-12-27T15:07:06+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000908s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001456s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000841s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000936s ]
+
+[ 2016-12-27T15:07:07+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000856s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001468s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000834s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000927s ]
+
+[ 2016-12-27T15:07:08+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShoperEmail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002153s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0882s ]
+SQL: SELECT `email` FROM `eshop_shoper` WHERE `email` = '12345@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001095s ]
+
+[ 2016-12-27T15:07:08+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShopName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002435s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0056s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `name` = '大漠雄鹰' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001601s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001697s ]
+
+[ 2016-12-27T15:07:09+08:00 ] ::1 /eshop/index.php/Home/Shoper/doRegist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001440s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `eshop_shoper` WHERE `name` = 'admin1' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `eshop_shoper` WHERE `email` = '12345@qq.com' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `eshop_shoper` (`trueName`,`carNum`,`sex`,`birthday`,`qq`,`name`,`password`,`email`,`tel`,`create_time`) VALUES ('李永发','430521199410095672','男','2016-12-08','1411387108','admin1','e00cf25ad42683b3df678c61f42c6bda','12345@qq.com','18904010296','1482822428') [ RunTime:0.0544s ]
+
+[ 2016-12-27T15:13:10+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShoperName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001620s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0053s ]
+SQL: SELECT `id` FROM `eshop_shoper` WHERE `name` = 'admin1' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001034s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001126s ]
+
+[ 2016-12-27T15:13:11+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShoperName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001402s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0053s ]
+SQL: SELECT `id` FROM `eshop_shoper` WHERE `name` = 'admin12' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001334s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001461s ]
+
+[ 2016-12-27T15:13:58+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002634s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001741s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001920s ]
+
+[ 2016-12-27T15:13:59+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShoperEmail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001469s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0759s ]
+SQL: SELECT `email` FROM `eshop_shoper` WHERE `email` = '12345@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000965s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001043s ]
+
+[ 2016-12-27T15:13:59+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShopName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000869s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001406s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0064s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `name` = '大漠雄鹰' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000985s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001063s ]
+
+[ 2016-12-27T15:14:09+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShoperEmail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000826s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001379s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0050s ]
+SQL: SELECT `email` FROM `eshop_shoper` WHERE `email` = '123454@qq.com' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000996s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001084s ]
+
+[ 2016-12-27T15:14:09+08:00 ] ::1 /eshop/index.php/Home/Shoper/doRegist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000810s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001314s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0051s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `eshop_shoper` WHERE `name` = 'admin12' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `eshop_shoper` WHERE `email` = '123454@qq.com' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `eshop_shoper` (`trueName`,`carNum`,`sex`,`birthday`,`qq`,`name`,`password`,`email`,`tel`,`create_time`) VALUES ('张三','430521199410095672','男','2016-12-13','1411387102','admin12','1844156d4166d94387f1a4ad031ca5fa','123454@qq.com','18904010292','1482822849') [ RunTime:0.0471s ]
+
+[ 2016-12-27T15:41:22+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShoperName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001300s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0052s ]
+SQL: SELECT `id` FROM `eshop_shoper` WHERE `name` = 'shoper' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000964s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001048s ]
+
+[ 2016-12-27T15:41:39+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShoperEmail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000853s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001620s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0051s ]
+SQL: SELECT `email` FROM `eshop_shoper` WHERE `email` = '123454@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000927s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-27T15:41:41+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShoperEmail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000827s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001362s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0051s ]
+SQL: SELECT `email` FROM `eshop_shoper` WHERE `email` = '1234546@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001179s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001286s ]
+
+[ 2016-12-27T15:41:41+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShoperEmail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001406s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0051s ]
+SQL: SELECT `email` FROM `eshop_shoper` WHERE `email` = '12345466@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000960s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001042s ]
+
+[ 2016-12-27T15:42:35+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShopName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001415s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0072s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `name` = '红富士旗舰店' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001055s ]
+
+[ 2016-12-27T15:42:49+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001394s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000776s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000854s ]
+
+[ 2016-12-27T15:42:50+08:00 ] ::1 /eshop/index.php/Home/Shoper/doRegist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001364s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.1055s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0117s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `eshop_shoper` WHERE `name` = 'shoper' LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: name D:\wampserver\wamp\www\eshop\App\Home\Common\function.php 第 24 行.
+
+[ 2016-12-27T15:43:05+08:00 ] ::1 /eshop/index.php/Home/Shoper/doRegist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000919s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001633s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0812s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0047s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `eshop_shoper` WHERE `name` = 'shoper' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: name D:\wampserver\wamp\www\eshop\App\Home\Common\function.php 第 24 行.
+
+[ 2016-12-27T15:43:28+08:00 ] ::1 /eshop/index.php/Home/Shoper/doRegist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000934s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001632s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0641s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0062s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `eshop_shoper` WHERE `name` = 'shoper' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: name D:\wampserver\wamp\www\eshop\App\Home\Common\function.php 第 24 行.
+
+[ 2016-12-27T15:44:22+08:00 ] ::1 /eshop/index.php/Home/Shoper/doRegist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001427s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0707s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0069s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `eshop_shoper` WHERE `name` = 'shoper' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: name D:\wampserver\wamp\www\eshop\App\Home\Common\function.php 第 24 行.
+
+[ 2016-12-27T15:44:26+08:00 ] ::1 /eshop/index.php/Home/Shoper/doRegist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001443s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0900s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0048s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `eshop_shoper` WHERE `name` = 'shoper' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: name D:\wampserver\wamp\www\eshop\App\Home\Common\function.php 第 24 行.
+
+[ 2016-12-27T15:45:18+08:00 ] ::1 /eshop/index.php/Home/Shoper/doRegist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000886s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001450s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0837s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0044s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `eshop_shoper` WHERE `name` = 'shoper' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `eshop_shoper` WHERE `email` = '12345466@qq.com' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [2] call_user_func_array() expects parameter 1 to be a valid callback, function 'require' not found or invalid function name D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1279 行.
+SQL: SELECT * FROM `eshop_shop` WHERE `name` = '红富士旗舰店' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: server_qq D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: server_tel D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `eshop_shoper` (`trueName`,`carNum`,`sex`,`birthday`,`qq`,`name`,`password`,`email`,`tel`,`create_time`) VALUES ('李红','430521189410095672','女','2016-03-08','1411387133','shoper','757e9fa72797327135101b5a586fadfc','12345466@qq.com','18945610292','1482824718') [ RunTime:0.0512s ]
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`eshop`.`eshop_shop`, CONSTRAINT `eshop_shop_ibfk_1` FOREIGN KEY (`shoperId`) REFERENCES `eshop_shoper` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `eshop_shop` (`service_qq`,`name`,`createtime`,`modifytime`) VALUES ('1234567','红富士旗舰店','1482824718','1482824718')
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`eshop`.`eshop_shop`, CONSTRAINT `eshop_shop_ibfk_1` FOREIGN KEY (`shoperId`) REFERENCES `eshop_shoper` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `eshop_shop` (`service_qq`,`name`,`createtime`,`modifytime`) VALUES ('1234567','红富士旗舰店','1482824718','1482824718')
+
+[ 2016-12-27T15:47:48+08:00 ] ::1 /eshop/index.php/Home/Shoper/doRegist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001427s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0788s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0046s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `eshop_shoper` WHERE `name` = 'shoper' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-12-27T15:47:58+08:00 ] ::1 /eshop/index.php/Home/Shoper/doRegist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001424s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0935s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0047s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `eshop_shoper` WHERE `name` = 'shoper' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-12-27T15:47:59+08:00 ] ::1 /eshop/index.php/Home/Shoper/doRegist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001392s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0953s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0046s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `eshop_shoper` WHERE `name` = 'shoper' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-12-27T15:52:01+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShoperName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001377s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0051s ]
+SQL: SELECT `id` FROM `eshop_shoper` WHERE `name` = 'shoper12' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001060s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001150s ]
+
+[ 2016-12-27T15:52:30+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShopName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000833s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001390s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0052s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `name` = '红富士旗舰店1' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001210s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001312s ]
+
+[ 2016-12-27T15:52:40+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000830s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001370s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000853s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000937s ]
+
+[ 2016-12-27T15:52:42+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShoperEmail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001371s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0562s ]
+SQL: SELECT `email` FROM `eshop_shoper` WHERE `email` = '12345466@qq.com' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001280s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001389s ]
+
+[ 2016-12-27T15:52:53+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShoperEmail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001356s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0051s ]
+SQL: SELECT `email` FROM `eshop_shoper` WHERE `email` = '123454667@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000924s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000999s ]
+
+[ 2016-12-27T15:53:01+08:00 ] ::1 /eshop/index.php/Home/Shoper/doRegist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001384s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0906s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0051s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `eshop_shoper` WHERE `name` = 'shoper12' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `eshop_shoper` WHERE `email` = '123454667@qq.com' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [2] call_user_func_array() expects parameter 1 to be a valid callback, function 'require' not found or invalid function name D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1279 行.
+SQL: SELECT * FROM `eshop_shop` WHERE `name` = '红富士旗舰店1' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: server_qq D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: server_tel D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `eshop_shoper` (`trueName`,`carNum`,`sex`,`birthday`,`qq`,`name`,`password`,`email`,`tel`,`create_time`) VALUES ('王五','430521189410095672','保密','2016-03-08','1411387133','shoper12','0b9813196ed6ebbe453f90b67bb09ee9','123454667@qq.com','18945610292','1482825181') [ RunTime:0.0369s ]
+
+[ 2016-12-27T15:54:11+08:00 ] ::1 /eshop/index.php/Home/Shoper/doRegist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001378s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0897s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0045s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `eshop_shoper` WHERE `name` = 'shoper12' LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2016-12-27T15:54:33+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShoperName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000928s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001643s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0052s ]
+SQL: SELECT `id` FROM `eshop_shoper` WHERE `name` = 'shoper1' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000940s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001014s ]
+
+[ 2016-12-27T15:54:46+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShoperEmail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001435s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0048s ]
+SQL: SELECT `email` FROM `eshop_shoper` WHERE `email` = '123454337@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000991s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001065s ]
+
+[ 2016-12-27T15:55:20+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShopName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001198s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001755s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0057s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `name` = '红富士旗舰店3' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000992s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001065s ]
+
+[ 2016-12-27T15:55:23+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001516s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000823s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000909s ]
+
+[ 2016-12-27T15:55:28+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001781s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002666s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000799s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000884s ]
+
+[ 2016-12-27T15:55:30+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001363s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000830s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000907s ]
+
+[ 2016-12-27T15:55:32+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002187s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001529s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001654s ]
+
+[ 2016-12-27T15:55:32+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000846s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001390s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000833s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000908s ]
+
+[ 2016-12-27T15:55:40+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001380s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000829s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000906s ]
+
+[ 2016-12-27T15:55:40+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000968s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001619s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000837s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000914s ]
+
+[ 2016-12-27T15:55:42+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000853s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001421s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000841s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000918s ]
+
+[ 2016-12-27T15:55:43+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000865s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001418s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001112s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001212s ]
+
+[ 2016-12-27T15:55:44+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001376s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000829s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000912s ]
+
+[ 2016-12-27T15:55:46+08:00 ] ::1 /eshop/index.php/Home/Shoper/doRegist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000894s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001386s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.1171s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0118s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `eshop_shoper` WHERE `name` = 'shoper1' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `eshop_shoper` WHERE `email` = '123454337@qq.com' LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [2] call_user_func_array() expects parameter 1 to be a valid callback, function 'require' not found or invalid function name D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1279 行.
+SQL: SELECT * FROM `eshop_shop` WHERE `name` = '红富士旗舰店3' LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: server_qq D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: server_tel D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `eshop_shoper` (`trueName`,`carNum`,`sex`,`birthday`,`qq`,`name`,`password`,`email`,`tel`,`create_time`) VALUES ('赵六','430521439410095672','保密','2016-03-31','144267133','shoper1','77535d5579b816f9b2225e69c44a2bce','123454337@qq.com','18923410292','1482825346') [ RunTime:0.0422s ]
+SQL: INSERT INTO `eshop_shop` (`service_qq`,`name`,`createtime`,`modifytime`,`shoperId`) VALUES ('1234567','红富士旗舰店3','1482825346','1482825346','12') [ RunTime:0.0210s ]
+
+[ 2016-12-27T15:57:11+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShoperName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001379s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0047s ]
+SQL: SELECT `id` FROM `eshop_shoper` WHERE `name` = 'shoper3' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001021s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001106s ]
+
+[ 2016-12-27T15:57:22+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShoperEmail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001428s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0223s ]
+SQL: SELECT `email` FROM `eshop_shoper` WHERE `email` = '123487337@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001218s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001327s ]
+
+[ 2016-12-27T15:57:49+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkShopName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000840s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001386s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0049s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `name` = '红富士旗舰店4' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000979s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001055s ]
+
+[ 2016-12-27T15:58:07+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000866s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001446s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000863s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000954s ]
+
+[ 2016-12-27T15:58:10+08:00 ] ::1 /eshop/index.php/Home/Shoper/doRegist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000858s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001459s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0826s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0047s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `eshop_shoper` WHERE `name` = 'shoper3' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `eshop_shoper` WHERE `email` = '123487337@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [2] call_user_func_array() expects parameter 1 to be a valid callback, function 'require' not found or invalid function name D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1279 行.
+SQL: SELECT * FROM `eshop_shop` WHERE `name` = '红富士旗舰店4' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: server_qq D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: server_tel D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `eshop_shoper` (`trueName`,`carNum`,`sex`,`birthday`,`qq`,`name`,`password`,`email`,`tel`,`create_time`) VALUES ('小红','430521439410095672','保密','2016-03-27','144267133','shoper3','d30625a753ea9fa658bfbfcb363033c4','123487337@qq.com','18923414392','1482825490') [ RunTime:0.0523s ]
+SQL: INSERT INTO `eshop_shop` (`service_qq`,`name`,`createtime`,`modifytime`,`shoperId`) VALUES ('123456789','红富士旗舰店4','1482825490','1482825490','13') [ RunTime:0.1870s ]
+
+[ 2016-12-27T15:58:41+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001397s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000883s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000979s ]
+
+[ 2016-12-27T15:58:45+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000889s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001512s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000861s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000947s ]
+
+[ 2016-12-27T15:58:45+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001114s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001933s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000855s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000936s ]
+
+[ 2016-12-27T15:58:47+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002666s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001738s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001938s ]
+
+[ 2016-12-27T15:58:47+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002181s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001348s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001482s ]
+
+[ 2016-12-27T15:58:48+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000997s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001590s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001073s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001196s ]
+
+[ 2016-12-27T15:58:50+08:00 ] ::1 /eshop/index.php/Home/Shoper/doLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000849s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001392s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0737s ]
+SQL: SELECT * FROM `eshop_shoper` WHERE `name` = 'shoper3' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-12-27T15:58:52+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001005s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001688s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000891s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000999s ]
+
+[ 2016-12-27T15:59:08+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001375s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000831s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000906s ]
+
+[ 2016-12-27T15:59:09+08:00 ] ::1 /eshop/index.php/Home/Shoper/doLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001391s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0462s ]
+SQL: SELECT * FROM `eshop_shoper` WHERE `name` = 'shoper3' LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2016-12-27T16:00:58+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001867s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000967s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001064s ]
+
+[ 2016-12-27T16:01:11+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002739s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001651s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001812s ]
+
+[ 2016-12-27T16:01:15+08:00 ] ::1 /eshop/index.php/Home/Shoper/doLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000846s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001379s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0951s ]
+SQL: SELECT * FROM `eshop_shoper` WHERE `name` = 'shoper3' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-12-27T16:02:07+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000974s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001595s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000911s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001006s ]
+
+[ 2016-12-27T16:02:08+08:00 ] ::1 /eshop/index.php/Home/Shoper/doLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001137s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001986s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0284s ]
+SQL: SELECT * FROM `eshop_shoper` WHERE `name` = 'shoper3' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-12-27T16:02:14+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001301s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001465s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001643s ]
+
+[ 2016-12-27T16:07:19+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001008s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001566s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001076s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001209s ]
+
+[ 2016-12-27T16:07:29+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000884s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001506s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000892s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-27T16:07:30+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001398s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000832s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000919s ]
+
+[ 2016-12-27T16:07:32+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002423s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001131s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001243s ]
+
+[ 2016-12-27T16:07:32+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000909s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001681s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000849s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000947s ]
+
+[ 2016-12-27T16:07:33+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002745s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000934s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001033s ]
+
+[ 2016-12-27T16:07:35+08:00 ] ::1 /eshop/index.php/Home/Shoper/doLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001750s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0679s ]
+SQL: SELECT * FROM `eshop_shoper` WHERE `name` = 'shoper3' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] fopen(D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Org\Net/UTFWry.dat): failed to open stream: No such file or directory D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Org\Net\IpLocation.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `eshop_shoper_log` [ RunTime:0.0055s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `eshop_shoper_log` (`shoperId`,`action`,`ip`,`location`,`time`) VALUES ('13','登录','0.0.0.0',NULL,'1482826055') [ RunTime:0.0725s ]
+
+[ 2016-12-27T16:08:51+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000985s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001737s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000704s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000796s ]
+
+[ 2016-12-27T16:08:52+08:00 ] ::1 /eshop/index.php/Home/Shoper/doLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001167s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0565s ]
+SQL: SELECT * FROM `eshop_shoper` WHERE `name` = 'shoper3' LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2016-12-27T16:09:14+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002254s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001407s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001485s ]
+
+[ 2016-12-27T16:09:15+08:00 ] ::1 /eshop/index.php/Home/Shoper/doLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002155s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0650s ]
+SQL: SELECT * FROM `eshop_shoper` WHERE `name` = 'shoper3' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] fopen(D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Org\Net/UTFWry.dat): failed to open stream: No such file or directory D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Org\Net\IpLocation.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `eshop_shoper_log` [ RunTime:0.0055s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `eshop_shoper_log` (`shoperId`,`action`,`ip`,`location`,`time`) VALUES ('13','登录','0.0.0.0',NULL,'1482826155') [ RunTime:0.0502s ]
+
+[ 2016-12-27T16:09:54+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001442s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000941s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001044s ]
+
+[ 2016-12-27T16:09:56+08:00 ] ::1 /eshop/index.php/Home/Shoper/doLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001405s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0686s ]
+SQL: SELECT * FROM `eshop_shoper` WHERE `name` = 'shoper3' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-12-27T16:09:58+08:00 ] ::1 /eshop/index.php/Home/Shoper/doLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001367s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0847s ]
+SQL: SELECT * FROM `eshop_shoper` WHERE `name` = 'shoper3' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-12-27T16:09:59+08:00 ] ::1 /eshop/index.php/Home/Shoper/doLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001129s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001756s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0682s ]
+SQL: SELECT * FROM `eshop_shoper` WHERE `name` = 'shoper3' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-12-27T16:09:59+08:00 ] ::1 /eshop/index.php/Home/Shoper/doLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001364s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0914s ]
+SQL: SELECT * FROM `eshop_shoper` WHERE `name` = 'shoper3' LIMIT 1   [ RunTime:0.0012s ]
+
+[ 2016-12-27T16:10:00+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000889s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001461s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000898s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000982s ]
+
+[ 2016-12-27T16:29:36+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002636s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001083s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001174s ]
+
+[ 2016-12-27T16:29:37+08:00 ] ::1 /eshop/index.php/Home/Shoper/doLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001416s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0973s ]
+SQL: SELECT * FROM `eshop_shoper` WHERE `name` = 'shoper3' LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2016-12-27T16:30:18+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000781s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001327s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000766s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000876s ]
+
+[ 2016-12-27T16:30:19+08:00 ] ::1 /eshop/index.php/Home/Shoper/doLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001418s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0937s ]
+SQL: SELECT * FROM `eshop_shoper` WHERE `name` = 'shoper3' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: ip D:\wampserver\wamp\www\eshop\App\Home\Controller\ShoperController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `eshop_shoper_log` [ RunTime:0.0049s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`eshop`.`eshop_shoper_log`, CONSTRAINT `eshop_shoper_log_ibfk_1` FOREIGN KEY (`shoperId`) REFERENCES `eshop_shoper` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `eshop_shoper_log` (`action`,`location`) VALUES ('登录','本地')
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`eshop`.`eshop_shoper_log`, CONSTRAINT `eshop_shoper_log_ibfk_1` FOREIGN KEY (`shoperId`) REFERENCES `eshop_shoper` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `eshop_shoper_log` (`action`,`location`) VALUES ('登录','本地')
+
+[ 2016-12-27T16:30:31+08:00 ] ::1 /eshop/index.php/Home/Shoper/doLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004972s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006508s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.1033s ]
+SQL: SELECT * FROM `eshop_shoper` WHERE `name` = 'shoper3' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: ip D:\wampserver\wamp\www\eshop\App\Home\Controller\ShoperController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `eshop_shoper_log` [ RunTime:0.0055s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`eshop`.`eshop_shoper_log`, CONSTRAINT `eshop_shoper_log_ibfk_1` FOREIGN KEY (`shoperId`) REFERENCES `eshop_shoper` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `eshop_shoper_log` (`action`,`location`) VALUES ('登录','本地')
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`eshop`.`eshop_shoper_log`, CONSTRAINT `eshop_shoper_log_ibfk_1` FOREIGN KEY (`shoperId`) REFERENCES `eshop_shoper` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `eshop_shoper_log` (`action`,`location`) VALUES ('登录','本地')
+
+[ 2016-12-27T16:32:20+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000852s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001412s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000919s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001008s ]
+
+[ 2016-12-27T16:32:24+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000924s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001551s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000852s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000932s ]
+
+[ 2016-12-27T16:32:24+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000866s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001457s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000862s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000954s ]
+
+[ 2016-12-27T16:32:26+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000937s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001662s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000923s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001020s ]
+
+[ 2016-12-27T16:32:26+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000858s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001440s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000905s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001003s ]
+
+[ 2016-12-27T16:32:26+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000878s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001512s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000867s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000946s ]
+
+[ 2016-12-27T16:32:28+08:00 ] ::1 /eshop/index.php/Home/Shoper/doLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000884s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001470s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0961s ]
+SQL: SELECT * FROM `eshop_shoper` WHERE `name` = 'shoper3' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] fopen(D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Org\Net/UTFWry.dat): failed to open stream: No such file or directory D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Org\Net\IpLocation.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `eshop_shoper_log` [ RunTime:0.0052s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `eshop_shoper_log` (`shoperId`,`action`,`ip`,`location`,`time`) VALUES ('13','登录','0.0.0.0',NULL,'1482827548') [ RunTime:0.0616s ]
+
+[ 2016-12-27T17:07:20+08:00 ] ::1 /eshop/index.php/Home/UserCenter/ucenter_orders.html
+ERR: 非法操作:ucenter_orders
+
+[ 2016-12-27T17:07:30+08:00 ] ::1 /eshop/index.php/Home/UserCenter/userinfoEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001847s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0054s ]
+SQL: UPDATE `eshop_user` SET `nick`='',`trueName`='',`sex`='',`birthday`='',`carNum`='',`qq`='',`tel`='' WHERE `id` = 13 [ RunTime:0.0007s ]
+
+[ 2016-12-27T17:07:31+08:00 ] ::1 /eshop/index.php/Home/UserCenter/userinfoEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000773s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001296s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0050s ]
+SQL: UPDATE `eshop_user` SET `nick`='',`trueName`='',`sex`='',`birthday`='',`carNum`='',`qq`='',`tel`='' WHERE `id` = 13 [ RunTime:0.0006s ]
+
+[ 2016-12-27T17:07:33+08:00 ] ::1 /eshop/index.php/Home/UserCenter/userinfoEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000927s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001572s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0056s ]
+SQL: UPDATE `eshop_user` SET `nick`='',`trueName`='',`sex`='',`birthday`='',`carNum`='',`qq`='',`tel`='' WHERE `id` = 13 [ RunTime:0.0004s ]
+
+[ 2016-12-27T19:26:45+08:00 ] ::1 /eshop/index.php/Home/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001412s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000888s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000989s ]
+
+[ 2016-12-27T19:26:54+08:00 ] ::1 /eshop/index.php/Home/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003316s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002163s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002389s ]
+
+[ 2016-12-27T19:26:54+08:00 ] ::1 /eshop/index.php/Home/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002972s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003233s ]
+
+[ 2016-12-27T19:26:56+08:00 ] ::1 /eshop/index.php/Home/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002809s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004019s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004269s ]
+
+[ 2016-12-27T19:26:56+08:00 ] ::1 /eshop/index.php/Home/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003983s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003454s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003806s ]
+
+[ 2016-12-27T19:26:56+08:00 ] ::1 /eshop/index.php/Home/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007042s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002529s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002798s ]
+
+[ 2016-12-27T19:26:59+08:00 ] ::1 /eshop/index.php/Home/User/doLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000740s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001196s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.1028s ]
+SQL: SELECT * FROM `eshop_user` WHERE `name` = 'admin1' LIMIT 1   [ RunTime:0.0014s ]
+NOTIC: [2] fopen(D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Org\Net/UTFWry.dat): failed to open stream: No such file or directory D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Org\Net\IpLocation.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `eshop_user_log` [ RunTime:0.0575s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `eshop_user_log` (`userId`,`action`,`ip`,`location`,`time`) VALUES ('11','登录','0.0.0.0',NULL,'1482838019') [ RunTime:0.0451s ]
+
+[ 2016-12-27T19:34:58+08:00 ] ::1 /eshop/index.php/Home/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001397s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000827s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000906s ]
+
+[ 2016-12-27T19:35:01+08:00 ] ::1 /eshop/index.php/Home/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002286s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000872s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000959s ]
+
+[ 2016-12-27T19:35:02+08:00 ] ::1 /eshop/index.php/Home/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002638s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001634s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001805s ]
+
+[ 2016-12-27T19:35:04+08:00 ] ::1 /eshop/index.php/Home/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002154s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001326s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001453s ]
+
+[ 2016-12-27T19:35:04+08:00 ] ::1 /eshop/index.php/Home/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000839s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000935s ]
+
+[ 2016-12-27T19:35:06+08:00 ] ::1 /eshop/index.php/Home/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000914s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001511s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000841s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000923s ]
+
+[ 2016-12-27T19:35:17+08:00 ] ::1 /eshop/index.php/Home/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002362s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001496s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001642s ]
+
+[ 2016-12-27T19:35:17+08:00 ] ::1 /eshop/index.php/Home/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001367s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000811s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000888s ]
+
+[ 2016-12-27T19:35:18+08:00 ] ::1 /eshop/index.php/Home/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000903s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001469s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000827s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000909s ]
+
+[ 2016-12-27T19:35:19+08:00 ] ::1 /eshop/index.php/Home/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000889s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001400s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000868s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000951s ]
+
+[ 2016-12-27T19:35:20+08:00 ] ::1 /eshop/index.php/Home/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000821s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001378s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000812s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000887s ]
+
+[ 2016-12-27T19:35:23+08:00 ] ::1 /eshop/index.php/Home/User/doLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000919s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001445s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0846s ]
+SQL: SELECT * FROM `eshop_user` WHERE `name` = 'shoper3' LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2016-12-27T19:35:26+08:00 ] ::1 /eshop/index.php/Home/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001400s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000942s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001028s ]
+
+[ 2016-12-27T19:36:06+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001347s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000834s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000921s ]
+
+[ 2016-12-27T19:36:08+08:00 ] ::1 /eshop/index.php/Home/Shoper/doLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000895s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001549s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0850s ]
+SQL: SELECT * FROM `eshop_shoper` WHERE `name` = 'shoper3' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] fopen(D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Org\Net/UTFWry.dat): failed to open stream: No such file or directory D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Org\Net\IpLocation.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `eshop_shoper_log` [ RunTime:0.0051s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `eshop_shoper_log` (`shoperId`,`action`,`ip`,`location`,`time`) VALUES ('13','登录','0.0.0.0',NULL,'1482838568') [ RunTime:0.0626s ]
+
+[ 2016-12-27T19:36:51+08:00 ] ::1 /eshop/index.php/Home/User/ucenter_account.html
+ERR: 非法操作:ucenter_account
+
+[ 2016-12-27T19:43:47+08:00 ] ::1 /eshop/index.php/Home/User/ucenter_collection.html
+ERR: 非法操作:ucenter_collection
+
+[ 2016-12-27T19:49:10+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/shoper_login.html
+ERR: 非法操作:shoper_login
+
+[ 2016-12-27T20:00:59+08:00 ] ::1 /eshop/index.php/Home/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001401s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000763s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000841s ]
+
+[ 2016-12-27T20:01:05+08:00 ] ::1 /eshop/index.php/Home/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002037s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001339s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001534s ]
+
+[ 2016-12-27T20:01:06+08:00 ] ::1 /eshop/index.php/Home/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002068s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001195s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001321s ]
+
+[ 2016-12-27T20:01:08+08:00 ] ::1 /eshop/index.php/Home/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001363s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000755s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000839s ]
+
+[ 2016-12-27T20:01:09+08:00 ] ::1 /eshop/index.php/Home/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001283s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000759s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000835s ]
+
+[ 2016-12-27T20:01:09+08:00 ] ::1 /eshop/index.php/Home/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002168s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001215s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001356s ]
+
+[ 2016-12-27T20:01:11+08:00 ] ::1 /eshop/index.php/Home/User/doLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001359s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0982s ]
+SQL: SELECT * FROM `eshop_user` WHERE `name` = 'admin1' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] fopen(D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Org\Net/UTFWry.dat): failed to open stream: No such file or directory D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Org\Net\IpLocation.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `eshop_user_log` [ RunTime:0.0051s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `eshop_user_log` (`userId`,`action`,`ip`,`location`,`time`) VALUES ('11','登录','0.0.0.0',NULL,'1482840071') [ RunTime:0.0519s ]
+
+[ 2016-12-27T20:03:39+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001530s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000963s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001098s ]
+
+[ 2016-12-27T20:03:43+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001343s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000782s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000863s ]
+
+[ 2016-12-27T20:03:44+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002371s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001372s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001518s ]
+
+[ 2016-12-27T20:03:44+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001339s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000771s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000855s ]
+
+[ 2016-12-27T20:03:45+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001293s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000764s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000840s ]
+
+[ 2016-12-27T20:03:46+08:00 ] ::1 /eshop/index.php/Home/Shoper/doLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000973s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001559s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.1042s ]
+SQL: SELECT * FROM `eshop_shoper` WHERE `name` = 'shoper3' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] fopen(D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Org\Net/UTFWry.dat): failed to open stream: No such file or directory D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Org\Net\IpLocation.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `eshop_shoper_log` [ RunTime:0.0127s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `eshop_shoper_log` (`shoperId`,`action`,`ip`,`location`,`time`) VALUES ('13','登录','0.0.0.0',NULL,'1482840226') [ RunTime:0.0444s ]
+
+[ 2016-12-27T20:07:11+08:00 ] ::1 /eshop/index.php/Home/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001401s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000789s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000889s ]
+
+[ 2016-12-27T20:07:12+08:00 ] ::1 /eshop/index.php/Home/User/doLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001357s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0979s ]
+SQL: SELECT * FROM `eshop_user` WHERE `name` = 'admin1' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] fopen(D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Org\Net/UTFWry.dat): failed to open stream: No such file or directory D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Org\Net\IpLocation.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `eshop_user_log` [ RunTime:0.0123s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `eshop_user_log` (`userId`,`action`,`ip`,`location`,`time`) VALUES ('11','登录','0.0.0.0',NULL,'1482840432') [ RunTime:0.0475s ]
+
+[ 2016-12-27T20:08:35+08:00 ] ::1 /eshop/index.php/Home/User/index.html
+ERR: 非法操作:index
+
+[ 2016-12-27T20:12:15+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000918s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001636s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000740s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000820s ]
+
+[ 2016-12-27T20:12:15+08:00 ] ::1 /eshop/index.php/Home/Shoper/doLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000802s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001392s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0440s ]
+SQL: SELECT * FROM `eshop_shoper` WHERE `name` = 'shoper3' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] fopen(D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Org\Net/UTFWry.dat): failed to open stream: No such file or directory D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Org\Net\IpLocation.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `eshop_shoper_log` [ RunTime:0.0528s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `eshop_shoper_log` (`shoperId`,`action`,`ip`,`location`,`time`) VALUES ('13','登录','0.0.0.0',NULL,'1482840735') [ RunTime:0.0472s ]
+
+[ 2016-12-27T20:14:39+08:00 ] ::1 /eshop/index.php/Home/Shoper/__SELF__.html
+ERR: 非法操作:__SELF__
+
+[ 2016-12-27T20:27:01+08:00 ] ::1 /eshop/index.php/Home/Shoper/__SELF__.html
+ERR: 非法操作:__SELF__
+
+[ 2016-12-27T20:27:38+08:00 ] ::1 /eshop/index.php/Home/Shoper/__SELF__.html
+ERR: 非法操作:__SELF__
+
+[ 2016-12-27T20:29:18+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000758s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001307s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000788s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000869s ]
+
+[ 2016-12-27T20:29:19+08:00 ] ::1 /eshop/index.php/Home/Shoper/doLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001729s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0781s ]
+SQL: SELECT * FROM `eshop_shoper` WHERE `name` = 'shoper3' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] fopen(D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Org\Net/UTFWry.dat): failed to open stream: No such file or directory D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Org\Net\IpLocation.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `eshop_shoper_log` [ RunTime:0.0053s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `eshop_shoper_log` (`shoperId`,`action`,`ip`,`location`,`time`) VALUES ('13','登录','0.0.0.0',NULL,'1482841759') [ RunTime:0.0519s ]
+
+[ 2016-12-27T20:30:28+08:00 ] ::1 /eshop/index.php/Home/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000852s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001470s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000774s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000889s ]
+
+[ 2016-12-27T20:30:29+08:00 ] ::1 /eshop/index.php/Home/User/doLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000762s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001312s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.1031s ]
+SQL: SELECT * FROM `eshop_user` WHERE `name` = 'admin1' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] fopen(D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Org\Net/UTFWry.dat): failed to open stream: No such file or directory D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Org\Net\IpLocation.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `eshop_user_log` [ RunTime:0.0143s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `eshop_user_log` (`userId`,`action`,`ip`,`location`,`time`) VALUES ('11','登录','0.0.0.0',NULL,'1482841829') [ RunTime:0.0440s ]
+
+[ 2016-12-27T20:33:19+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002549s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001721s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001893s ]
+
+[ 2016-12-27T20:33:20+08:00 ] ::1 /eshop/index.php/Home/Shoper/doLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001344s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.1057s ]
+SQL: SELECT * FROM `eshop_shoper` WHERE `name` = 'shoper3' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] fopen(D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Org\Net/UTFWry.dat): failed to open stream: No such file or directory D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Org\Net\IpLocation.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `eshop_shoper_log` [ RunTime:0.0133s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `eshop_shoper_log` (`shoperId`,`action`,`ip`,`location`,`time`) VALUES ('13','登录','0.0.0.0',NULL,'1482842000') [ RunTime:0.0435s ]
+
+[ 2016-12-27T20:38:57+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000918s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001463s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001064s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001174s ]
+
+[ 2016-12-27T20:38:57+08:00 ] ::1 /eshop/index.php/Home/Shoper/doLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000825s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001387s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.1643s ]
+SQL: SELECT * FROM `eshop_shoper` WHERE `name` = 'shoper3' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] fopen(D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Org\Net/UTFWry.dat): failed to open stream: No such file or directory D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Org\Net\IpLocation.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `eshop_shoper_log` [ RunTime:0.0201s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `eshop_shoper_log` (`shoperId`,`action`,`ip`,`location`,`time`) VALUES ('13','登录','0.0.0.0',NULL,'1482842337') [ RunTime:0.0594s ]
+

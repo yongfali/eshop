@@ -1,0 +1,70 @@
+<!-- 商家中心左侧导航标签公共部分 -->
+
+<div class="scenter_left">
+  <h3>商品管理</h3>
+  <ul>
+    <a href="{:U('Home/ShopCart/index')}">
+    <li>商品分类</li>
+    </a> <a href="{:U('Home/Good/add')}">
+    <li>新增商品</li>
+    </a> <a href="{:U('Home/Good/audit')}">
+    <li>待审核商品</li>
+    </a> <a href="{:U('Home/Good/illegal')}">
+    <li>违规商品</li>
+    </a> <!-- <a href="#">
+    <li>评价管理</li>
+    </a>  --><a href="{:U('Home/Good/stock')}">
+    <li>库存预警</li>
+    </a> <a href="{:U('Home/Good/onsale')}">
+    <li>出售中的商品</li>
+    </a> <a href="{:U('Home/Good/store')}">
+    <li>仓库中的商品</li>
+    </a>
+  </ul>
+  <h3>交易管理</h3>
+  <ul>
+    <a href="{:U('Home/ShopOrders/waitPay')}">
+    <li>待付款订单</li>
+    </a> <a href="{:U('Home/ShopOrders/waitDelivery')}">
+    <li>待发货订单<span class="order-num">{$waitDeliveryNum}</span></li>
+    </a> <a href="{:U('Home/ShopOrders/delivered')}">
+    <li>已发货订单</li>
+    </a> <a href="{:U('Home/ShopOrders/finished')}">
+    <li>已收货订单</li>
+    </a> <a href="{:U('Home/ShopOrders/failure')}">
+    <li>取消/拒收订单</li>
+    </a> <a href="{:U('Home/ShopOrders/complaint')}">
+    <li>投诉订单</li>
+    </a>
+  </ul>
+  <h3>店铺管理</h3>
+  <ul>
+    <a href="{:U('Home/ShopManage/index')}">
+    <li>店铺信息</li>
+    </a> <a href="{:U('Home/ShopManage/info')}">
+    <li>信息发布</li>
+    <a href="{:U('Home/ShopManage/infoList')}">
+    <li>信息列表</li>
+    </a> 
+    </a> <a href="{:U('Home/ShopManage/setting')}">
+    <li>店铺设置</li>
+    </a>
+  </ul>
+  <h3>商家中心</h3>
+  <ul>
+    <a href="{:U('Home/ShoperCenter/info')}">
+    <li>商家信息</li>
+    </a>  
+    <a href="{:U('Home/ShoperCenter/messages')}">
+    <li>商家消息</li>
+    </a>
+    <a href="{:U('Home/ShoperCenter/log')}">
+    <li>操作记录</li>
+    </a> <a href="{:U('Home/ShoperCenter/modifyPwd')}">
+    <li>修改密码</li>
+    </a>
+    <a href="{:U('Home/ShoperCenter/security')}">
+    <li>安全设置</li>
+    </a>
+  </ul>
+</div>

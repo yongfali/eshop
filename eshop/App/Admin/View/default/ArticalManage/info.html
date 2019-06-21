@@ -1,0 +1,71 @@
+<extend name="Public:base"/>
+<block name="title"><title>微农后台管理系统-文章发表</title></block>
+<block name="css">
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/Admin/Css/ArticalManage/artical.css">
+</block>
+<block name="js">
+	<script src="__PUBLIC__/Common/ueditor/ueditor.config.js"></script>
+	<script src="__PUBLIC__/Common/ueditor/ueditor.all.min.js"></script>
+	<script src="__PUBLIC__/Common/ueditor/lang/zh-cn/zh-cn.js"></script>
+	<script src="__PUBLIC__/Admin/Js/ArticalManage/info.js"></script>
+</block>
+<block name="main">
+	<div class="now-position">
+		<span>文章发表</span>
+	</div>
+	<form autocomplete="off" id="articalAddForm">
+		<table class="artical-add-table">
+			<tbody>
+				<tr>
+					<td>
+						<label for="artical-title">
+							<span class="icon">*</span>文章标题：
+						</label>
+					</td>
+					<td>
+						<input type="text" name="title" id="artical-title" class="inputs" placeholder="请输入文章标题">
+					</td>
+				</tr>
+				<tr class="artical-add-item">
+					<td>
+						<span class="icon">*</span>文章类别：
+					</td>
+					<td style="padding-left:5px;">
+						<select name="type" id="cat1">  
+							<option value="0">--请选择--</option>
+							<option value="3">公告</option>
+							<option value="1">资讯</option>
+							<option value="2">优惠活动</option>
+						</select>
+						<!-- <label for="cat2"><span class="icon">*</span>文章类型</label>
+						<select name="cat2" id="cat2">
+							<option value="">--请选择--</option>
+						</select> -->
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="content">
+							文章内容：
+						</label>
+					</td>
+					<td style="padding-left:5px;">
+						<textarea id="content" name="content"
+						style="width: 720px; height: 250px;">
+						</textarea>
+		                <!--  显示 ueditor编辑器 --> 
+		                <script type="text/javascript">
+		                  var ue = UE.getEditor('content');
+		                </script>
+					</td>
+				</tr>
+				<tr class="artical-add-item artical-add-btn">
+					<td colspan="2">
+						<button type="submit" class="btn btn-info">发表</button>
+						<button type="reset" class="btn btn-danger">取消</button>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</form>
+</block>

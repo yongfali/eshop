@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>用户中心-已评价订单</title>
+<include file = "Public:common"/>
+<include file='Public:ucenterlink'/>
+<script src="__PUBLIC__/Home/Js/Order/order.js"></script>
+</head>
+<body>
+<include file = "Public:header"/>
+<div class="position_now">
+  <label><a href="{:U('Home/Index/index')}" target="_blankx">首页</a></label>
+  <span>&gt</span>
+  <label>已评价订单</label>
+</div>
+<div class="ucenter_wrapper"> 
+  <!-- 交易管理左侧导航开始 --> 
+  <include file = "Public:ucenternav"/> 
+  <!-- 交易管理左侧导航结束 --> 
+  <!-- 交易管理右侧内容显示开始 -->
+  <div class="ucenter_right">
+    <div class="ucenter_right_title"> <span>已评价订单</span> 
+    </div>
+    <div class="ucenter_right_orders">   
+      <!-- 待付款订单内容展示 -->
+      <div class="waitPay_order_list">
+        <div id="Orders_List_Contetn">
+          <table class="orders_table">
+            <thead>
+              <th width="43%">订单详情</th>
+              <th width="15%">商品评分</th>
+              <th width="15%">物流评分</th>
+              <th width="15%">服务评分</th>
+              <th width="12%">操作</th>
+            </thead>
+            <empty name="lists">
+              <tbody>
+                <tr style="line-height:36px;text-align:center; color:red;"><td colspan="6">暂没有已评价订单！！！</td></tr>
+              </tbody>
+              <else/>
+              <volist name="lists" id="item">
+                <tbody class="orders_items">
+                  <tr class="orders_head">
+                    <td colspan="6">
+                      <div class="order_time">
+                        <span>订单编号：{$item.ordernum}</span>&nbsp;&nbsp;&nbsp;&nbsp;
+                        <span>评价时间：{$item.confirmtime|date="Y-m-d  H：i：s",###}</span>&nbsp;
+                      </div>
+                      <div class="order_status">已评价</div>
+                    </td>
+                  </tr>
+                  <tr class="orders_info">
+                    <td class="line" style="padding:0px 5px;">
+                      <div class="good_img">
+                        <a href="{:U('Home/Index/goodsInfo',array('id'=>$item['goodid']))}" target="_blank">
+                          <img src="{$item.goodimg}">
+                        </a>
+                      </div>
+                      <div class="good_detail" style="max-width:245px;">
+                        <span>
+                          {$item.goodname}
+                        </span>
+                      </div>
+                      <div class="good_num">
+                        <span>&yen;{$item.goodprice}&times;{$item.goodnum}</span>
+                      </div>
+                    </td>
+                    <td class="line">
+                     <for start="1" end="$item.goodscore" step="2">
+                      <img src="__PUBLIC__/Home/Icon/star_gold.png"/> 
+                     </for>
+                    </td>
+                    <td class="line">
+                      <for start="1" end="$item.logisticsscore" step="2">
+                      <img src="__PUBLIC__/Home/Icon/star_gold.png"/> 
+                     </for>
+                    </td>
+                    <td class="line">
+                      <for start="1" end="$item.servicescore" step="2">
+                      <img src="__PUBLIC__/Home/Icon/star_gold.png"/> 
+                     </for>
+                    </td>
+                    <td class="orders_action">
+                      <a href="javascript:orderDel({$item.orderid})">删除</a>
+                      <a href="{:U('Home/UserOrders/orderDetail',array('orderId' => $item['orderid']))}">订单详情</a>
+                   </td>
+                 </tr>
+                 <tr class="order-appraise">
+                   <td colspan="5">
+                    <span>评价内容：</span>
+                    <span>{$item.contents}</span>
+                  </td>
+                 </tr>
+               </tbody>
+             </volist>
+            </empty>
+          </table>
+          <!-- 分页开始 -->
+          <div class="pages">{$page}</div>
+          <!-- 分页结束 --> 
+        </div>
+      </div>
+      <!-- 待付款订单内容展示 --> 
+    </div>
+  </div>
+  <!-- 交易管理右侧内容显示结束 --> 
+</div>
+<include file= "Public:footer" />
+</body>
+</html>

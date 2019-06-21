@@ -1,0 +1,1715 @@
+[ 2017-04-07T08:25:35+08:00 ] ::1 /eshop/index.php/Home/Good/illegal.html
+ERR: Cron:cron Runat 2017-04-07 08:25:35 Use 0.001120 s
+
+[ 2017-04-07T08:25:43+08:00 ] ::1 /eshop/index.php/Home/Good/onsale.html
+ERR: Cron:cron Runat 2017-04-07 08:25:43 Use 0.000567 s
+
+[ 2017-04-07T08:25:49+08:00 ] ::1 /eshop/index.php/Home/Good/store.html
+ERR: Cron:cron Runat 2017-04-07 08:25:49 Use 0.000584 s
+
+[ 2017-04-07T08:26:33+08:00 ] ::1 /eshop/index.php/Home/Good/onsale.html
+ERR: Cron:cron Runat 2017-04-07 08:26:33 Use 0.000476 s
+
+[ 2017-04-07T08:26:44+08:00 ] ::1 /eshop/index.php/Good/changeStatus.html
+ERR: Cron:cron Runat 2017-04-07 08:26:44 Use 0.000678 s
+
+[ 2017-04-07T08:26:45+08:00 ] ::1 /eshop/index.php/Good/changeStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001424s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.009209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011827s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `eshop_shop` WHERE `shoperId` = 13 AND `is_exam` = 1 AND `is_forbid` = 0 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_firstmenu` [ RunTime:0.0107s ]
+SQL: SELECT `id`,`name` FROM `eshop_shop_firstmenu` WHERE `shopId` = 3 AND `is_show` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_secondmenu` [ RunTime:0.0103s ]
+SQL: SELECT `pid`,`id`,`sname` FROM `eshop_shop_secondmenu` WHERE `pid` IN ('1','5') AND `is_show` = 1  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0112s ]
+SQL: UPDATE `eshop_good` SET `status`='0',`modify_recenet`='1491524804' WHERE ( id in (13) ) [ RunTime:0.4207s ]
+
+[ 2017-04-07T08:26:47+08:00 ] ::1 /eshop/index.php/Home/Good/onsale.html
+ERR: Cron:cron Runat 2017-04-07 08:26:47 Use 0.000603 s
+
+[ 2017-04-07T08:26:52+08:00 ] ::1 /eshop/index.php/Home/Good/store.html
+ERR: Cron:cron Runat 2017-04-07 08:26:52 Use 0.000666 s
+
+[ 2017-04-07T08:27:51+08:00 ] ::1 /eshop/index.php/Home/Good/stock.html
+ERR: Cron:cron Runat 2017-04-07 08:27:51 Use 0.001161 s
+
+[ 2017-04-07T08:27:55+08:00 ] ::1 /eshop/index.php/Home/Good/store.html
+ERR: Cron:cron Runat 2017-04-07 08:27:55 Use 0.000507 s
+
+[ 2017-04-07T08:37:37+08:00 ] ::1 /eshop/index.php/Home/Good/store.html
+ERR: Cron:cron Runat 2017-04-07 08:37:37 Use 0.000620 s
+
+[ 2017-04-07T08:37:55+08:00 ] ::1 /eshop/index.php/Home/Good/store.html
+ERR: Cron:cron Runat 2017-04-07 08:37:55 Use 0.000501 s
+
+[ 2017-04-07T08:38:07+08:00 ] ::1 /eshop/index.php/Home/Good/store.html
+ERR: Cron:cron Runat 2017-04-07 08:38:07 Use 0.000463 s
+
+[ 2017-04-07T08:38:41+08:00 ] ::1 /eshop/index.php/Good/changeStatus.html
+ERR: Cron:cron Runat 2017-04-07 08:38:41 Use 0.000490 s
+
+[ 2017-04-07T08:38:41+08:00 ] ::1 /eshop/index.php/Good/changeStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001189s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.007086s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009210s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `eshop_shop` WHERE `shoperId` = 13 AND `is_exam` = 1 AND `is_forbid` = 0 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_firstmenu` [ RunTime:0.0105s ]
+SQL: SELECT `id`,`name` FROM `eshop_shop_firstmenu` WHERE `shopId` = 3 AND `is_show` = 1  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_secondmenu` [ RunTime:0.0091s ]
+SQL: SELECT `pid`,`id`,`sname` FROM `eshop_shop_secondmenu` WHERE `pid` IN ('1','5') AND `is_show` = 1  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0081s ]
+
+[ 2017-04-07T08:41:59+08:00 ] ::1 /eshop/index.php/Home/Good/store.html
+ERR: Cron:cron Runat 2017-04-07 08:41:59 Use 0.000428 s
+
+[ 2017-04-07T08:42:05+08:00 ] ::1 /eshop/index.php/Good/changeStatus.html
+ERR: Cron:cron Runat 2017-04-07 08:42:05 Use 0.000540 s
+
+[ 2017-04-07T08:42:06+08:00 ] ::1 /eshop/index.php/Good/changeStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001258s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.007214s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009411s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `eshop_shop` WHERE `shoperId` = 13 AND `is_exam` = 1 AND `is_forbid` = 0 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_firstmenu` [ RunTime:0.0073s ]
+SQL: SELECT `id`,`name` FROM `eshop_shop_firstmenu` WHERE `shopId` = 3 AND `is_show` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_secondmenu` [ RunTime:0.0086s ]
+SQL: SELECT `pid`,`id`,`sname` FROM `eshop_shop_secondmenu` WHERE `pid` IN ('1','5') AND `is_show` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0071s ]
+NOTIC: [8] Undefined index: goodIds D:\wampserver\wamp\www\eshop\App\Home\Model\GoodModel.class.php 第 52 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wampserver\wamp\www\eshop\App\Home\Model\GoodModel.class.php 第 52 行.
+NOTIC: [8] Undefined variable: data D:\wampserver\wamp\www\eshop\App\Home\Model\GoodModel.class.php 第 57 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\wampserver\wamp\www\eshop\App\Home\Model\GoodModel.class.php 第 57 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : UPDATE `eshop_good` SET `status`='1',`modify_recenet`='1491525725' WHERE ( id in () )
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : UPDATE `eshop_good` SET `status`='1',`modify_recenet`='1491525725' WHERE ( id in () )
+
+[ 2017-04-07T08:42:45+08:00 ] ::1 /eshop/index.php/Good/changeStatus.html
+ERR: Cron:cron Runat 2017-04-07 08:42:45 Use 0.000482 s
+
+[ 2017-04-07T08:42:45+08:00 ] ::1 /eshop/index.php/Good/changeStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001374s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.006216s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009076s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0089s ]
+SQL: SELECT * FROM `eshop_shop` WHERE `shoperId` = 13 AND `is_exam` = 1 AND `is_forbid` = 0 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_firstmenu` [ RunTime:0.0084s ]
+SQL: SELECT `id`,`name` FROM `eshop_shop_firstmenu` WHERE `shopId` = 3 AND `is_show` = 1  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_secondmenu` [ RunTime:0.0075s ]
+SQL: SELECT `pid`,`id`,`sname` FROM `eshop_shop_secondmenu` WHERE `pid` IN ('1','5') AND `is_show` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0091s ]
+NOTIC: [8] Undefined index: goodIds D:\wampserver\wamp\www\eshop\App\Home\Model\GoodModel.class.php 第 52 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wampserver\wamp\www\eshop\App\Home\Model\GoodModel.class.php 第 52 行.
+NOTIC: [8] Undefined variable: data D:\wampserver\wamp\www\eshop\App\Home\Model\GoodModel.class.php 第 57 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\wampserver\wamp\www\eshop\App\Home\Model\GoodModel.class.php 第 57 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : UPDATE `eshop_good` SET `status`='1',`modify_recenet`='1491525765' WHERE ( id in () )
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : UPDATE `eshop_good` SET `status`='1',`modify_recenet`='1491525765' WHERE ( id in () )
+
+[ 2017-04-07T08:43:28+08:00 ] ::1 /eshop/index.php/Good/changeStatus.html
+ERR: Cron:cron Runat 2017-04-07 08:43:28 Use 0.000453 s
+
+[ 2017-04-07T08:43:28+08:00 ] ::1 /eshop/index.php/Good/changeStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001143s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.007756s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009874s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `eshop_shop` WHERE `shoperId` = 13 AND `is_exam` = 1 AND `is_forbid` = 0 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_firstmenu` [ RunTime:0.0081s ]
+SQL: SELECT `id`,`name` FROM `eshop_shop_firstmenu` WHERE `shopId` = 3 AND `is_show` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_secondmenu` [ RunTime:0.0081s ]
+SQL: SELECT `pid`,`id`,`sname` FROM `eshop_shop_secondmenu` WHERE `pid` IN ('1','5') AND `is_show` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0076s ]
+NOTIC: [8] Undefined index: goodIds D:\wampserver\wamp\www\eshop\App\Home\Model\GoodModel.class.php 第 52 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wampserver\wamp\www\eshop\App\Home\Model\GoodModel.class.php 第 52 行.
+NOTIC: [8] Undefined variable: data D:\wampserver\wamp\www\eshop\App\Home\Model\GoodModel.class.php 第 57 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\wampserver\wamp\www\eshop\App\Home\Model\GoodModel.class.php 第 57 行.
+
+[ 2017-04-07T08:43:53+08:00 ] ::1 /eshop/index.php/Good/changeStatus.html
+ERR: Cron:cron Runat 2017-04-07 08:43:53 Use 0.000478 s
+
+[ 2017-04-07T08:43:53+08:00 ] ::1 /eshop/index.php/Good/changeStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001191s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.006410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008608s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `eshop_shop` WHERE `shoperId` = 13 AND `is_exam` = 1 AND `is_forbid` = 0 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_firstmenu` [ RunTime:0.0088s ]
+SQL: SELECT `id`,`name` FROM `eshop_shop_firstmenu` WHERE `shopId` = 3 AND `is_show` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_secondmenu` [ RunTime:0.0079s ]
+SQL: SELECT `pid`,`id`,`sname` FROM `eshop_shop_secondmenu` WHERE `pid` IN ('1','5') AND `is_show` = 1  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0086s ]
+NOTIC: [8] Undefined index: goodIds D:\wampserver\wamp\www\eshop\App\Home\Model\GoodModel.class.php 第 52 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wampserver\wamp\www\eshop\App\Home\Model\GoodModel.class.php 第 52 行.
+NOTIC: [8] Undefined variable: data D:\wampserver\wamp\www\eshop\App\Home\Model\GoodModel.class.php 第 57 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\wampserver\wamp\www\eshop\App\Home\Model\GoodModel.class.php 第 57 行.
+
+[ 2017-04-07T08:44:15+08:00 ] ::1 /eshop/index.php/Good/changeStatus.html
+ERR: Cron:cron Runat 2017-04-07 08:44:15 Use 0.000475 s
+
+[ 2017-04-07T08:44:15+08:00 ] ::1 /eshop/index.php/Good/changeStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001207s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.006318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008464s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `eshop_shop` WHERE `shoperId` = 13 AND `is_exam` = 1 AND `is_forbid` = 0 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_firstmenu` [ RunTime:0.0075s ]
+SQL: SELECT `id`,`name` FROM `eshop_shop_firstmenu` WHERE `shopId` = 3 AND `is_show` = 1  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_secondmenu` [ RunTime:0.0080s ]
+SQL: SELECT `pid`,`id`,`sname` FROM `eshop_shop_secondmenu` WHERE `pid` IN ('1','5') AND `is_show` = 1  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0068s ]
+
+[ 2017-04-07T08:44:28+08:00 ] ::1 /eshop/index.php/Good/changeStatus.html
+ERR: Cron:cron Runat 2017-04-07 08:44:28 Use 0.000499 s
+
+[ 2017-04-07T08:44:28+08:00 ] ::1 /eshop/index.php/Good/changeStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001245s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.006392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008654s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `eshop_shop` WHERE `shoperId` = 13 AND `is_exam` = 1 AND `is_forbid` = 0 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_firstmenu` [ RunTime:0.0079s ]
+SQL: SELECT `id`,`name` FROM `eshop_shop_firstmenu` WHERE `shopId` = 3 AND `is_show` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_secondmenu` [ RunTime:0.0094s ]
+SQL: SELECT `pid`,`id`,`sname` FROM `eshop_shop_secondmenu` WHERE `pid` IN ('1','5') AND `is_show` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0082s ]
+SQL: UPDATE `eshop_good` SET `status`='1',`modify_recenet`='1491525868' WHERE ( id in (10) ) [ RunTime:0.0006s ]
+
+[ 2017-04-07T08:44:43+08:00 ] ::1 /eshop/index.php/Good/changeStatus.html
+ERR: Cron:cron Runat 2017-04-07 08:44:43 Use 0.000460 s
+
+[ 2017-04-07T08:44:43+08:00 ] ::1 /eshop/index.php/Good/changeStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001479s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.007598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010390s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `eshop_shop` WHERE `shoperId` = 13 AND `is_exam` = 1 AND `is_forbid` = 0 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_firstmenu` [ RunTime:0.0093s ]
+SQL: SELECT `id`,`name` FROM `eshop_shop_firstmenu` WHERE `shopId` = 3 AND `is_show` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_secondmenu` [ RunTime:0.0081s ]
+SQL: SELECT `pid`,`id`,`sname` FROM `eshop_shop_secondmenu` WHERE `pid` IN ('1','5') AND `is_show` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0084s ]
+SQL: UPDATE `eshop_good` SET `status`='1',`modify_recenet`='1491525883' WHERE ( id in (10) ) [ RunTime:0.0006s ]
+
+[ 2017-04-07T08:44:45+08:00 ] ::1 /eshop/index.php/Home/Good/store.html
+ERR: Cron:cron Runat 2017-04-07 08:44:45 Use 0.000412 s
+
+[ 2017-04-07T08:44:50+08:00 ] ::1 /eshop/index.php/Home/Good/onsale.html
+ERR: Cron:cron Runat 2017-04-07 08:44:50 Use 0.000529 s
+
+[ 2017-04-07T08:44:56+08:00 ] ::1 /eshop/index.php/Home/Good/store.html
+ERR: Cron:cron Runat 2017-04-07 08:44:56 Use 0.000566 s
+
+[ 2017-04-07T08:44:59+08:00 ] ::1 /eshop/index.php/Home/Good/audit.html
+ERR: Cron:cron Runat 2017-04-07 08:44:59 Use 0.000488 s
+
+[ 2017-04-07T08:45:56+08:00 ] ::1 /eshop/index.php/Home/Good/store.html
+ERR: Cron:cron Runat 2017-04-07 08:45:56 Use 0.000783 s
+
+[ 2017-04-07T08:47:24+08:00 ] ::1 /eshop/index.php/Home/Good/store.html
+ERR: Cron:cron Runat 2017-04-07 08:47:24 Use 0.000581 s
+
+[ 2017-04-07T08:47:28+08:00 ] ::1 /eshop/index.php/Home/Good/audit.html
+ERR: Cron:cron Runat 2017-04-07 08:47:28 Use 0.000577 s
+
+[ 2017-04-07T08:47:31+08:00 ] ::1 /eshop/index.php/Home/Good/illegal.html
+ERR: Cron:cron Runat 2017-04-07 08:47:31 Use 0.000575 s
+
+[ 2017-04-07T08:47:34+08:00 ] ::1 /eshop/index.php/Home/Good/onsale.html
+ERR: Cron:cron Runat 2017-04-07 08:47:34 Use 0.000527 s
+
+[ 2017-04-07T08:47:40+08:00 ] ::1 /eshop/index.php/Good/changeStatus.html
+ERR: Cron:cron Runat 2017-04-07 08:47:40 Use 0.000584 s
+
+[ 2017-04-07T08:47:40+08:00 ] ::1 /eshop/index.php/Good/changeStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001168s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.007012s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009138s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `eshop_shop` WHERE `shoperId` = 13 AND `is_exam` = 1 AND `is_forbid` = 0 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_firstmenu` [ RunTime:0.0068s ]
+SQL: SELECT `id`,`name` FROM `eshop_shop_firstmenu` WHERE `shopId` = 3 AND `is_show` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_secondmenu` [ RunTime:0.0069s ]
+SQL: SELECT `pid`,`id`,`sname` FROM `eshop_shop_secondmenu` WHERE `pid` IN ('1','5') AND `is_show` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0074s ]
+SQL: UPDATE `eshop_good` SET `status`='0',`modify_recenet`='1491526060' WHERE ( id in (15) ) [ RunTime:0.0006s ]
+
+[ 2017-04-07T08:47:42+08:00 ] ::1 /eshop/index.php/Home/Good/onsale.html
+ERR: Cron:cron Runat 2017-04-07 08:47:42 Use 0.000840 s
+
+[ 2017-04-07T08:47:45+08:00 ] ::1 /eshop/index.php/Home/Good/store.html
+ERR: Cron:cron Runat 2017-04-07 08:47:45 Use 0.000513 s
+
+[ 2017-04-07T08:47:52+08:00 ] ::1 /eshop/index.php/Good/changeStatus.html
+ERR: Cron:cron Runat 2017-04-07 08:47:52 Use 0.000531 s
+
+[ 2017-04-07T08:47:52+08:00 ] ::1 /eshop/index.php/Good/changeStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001250s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.007131s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009380s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `eshop_shop` WHERE `shoperId` = 13 AND `is_exam` = 1 AND `is_forbid` = 0 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_firstmenu` [ RunTime:0.0069s ]
+SQL: SELECT `id`,`name` FROM `eshop_shop_firstmenu` WHERE `shopId` = 3 AND `is_show` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_secondmenu` [ RunTime:0.0069s ]
+SQL: SELECT `pid`,`id`,`sname` FROM `eshop_shop_secondmenu` WHERE `pid` IN ('1','5') AND `is_show` = 1  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0069s ]
+SQL: UPDATE `eshop_good` SET `status`='1',`modify_recenet`='1491526072' WHERE ( id in (15) ) [ RunTime:0.0005s ]
+
+[ 2017-04-07T08:47:54+08:00 ] ::1 /eshop/index.php/Home/Good/store.html
+ERR: Cron:cron Runat 2017-04-07 08:47:54 Use 0.000799 s
+
+[ 2017-04-07T08:47:57+08:00 ] ::1 /eshop/index.php/Home/Good/onsale.html
+ERR: Cron:cron Runat 2017-04-07 08:47:57 Use 0.000589 s
+
+[ 2017-04-07T08:48:01+08:00 ] ::1 /eshop/index.php/Home/Good/onsale.html
+ERR: Cron:cron Runat 2017-04-07 08:48:01 Use 0.000464 s
+
+[ 2017-04-07T08:48:31+08:00 ] ::1 /eshop/index.php/Home/Good/onsale.html
+ERR: Cron:cron Runat 2017-04-07 08:48:31 Use 0.000585 s
+
+[ 2017-04-07T08:48:57+08:00 ] ::1 /eshop/index.php/Home/Good/onsale.html
+ERR: Cron:cron Runat 2017-04-07 08:48:57 Use 0.000585 s
+
+[ 2017-04-07T08:49:03+08:00 ] ::1 /eshop/index.php/Home/Good/onsale.html
+ERR: Cron:cron Runat 2017-04-07 08:49:03 Use 0.000531 s
+
+[ 2017-04-07T08:49:19+08:00 ] ::1 /eshop/index.php/Home/Good/store.html
+ERR: Cron:cron Runat 2017-04-07 08:49:19 Use 0.000586 s
+
+[ 2017-04-07T08:49:57+08:00 ] ::1 /eshop/index.php/Home/Good/add.html
+ERR: Cron:cron Runat 2017-04-07 08:49:57 Use 0.000597 s
+
+[ 2017-04-07T08:50:06+08:00 ] ::1 /eshop/index.php/Home/Good/add.html
+ERR: Cron:cron Runat 2017-04-07 08:50:06 Use 0.000615 s
+
+[ 2017-04-07T08:55:31+08:00 ] ::1 /eshop/index.php/Good/getWebCart.html
+ERR: Cron:cron Runat 2017-04-07 08:55:31 Use 0.000643 s
+
+[ 2017-04-07T08:55:31+08:00 ] ::1 /eshop/index.php/Good/getWebCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002119s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.008294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012304s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `eshop_shop` WHERE `shoperId` = 13 AND `is_exam` = 1 AND `is_forbid` = 0 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_firstmenu` [ RunTime:0.0079s ]
+SQL: SELECT `id`,`name` FROM `eshop_shop_firstmenu` WHERE `shopId` = 3 AND `is_show` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_secondmenu` [ RunTime:0.0081s ]
+SQL: SELECT `pid`,`id`,`sname` FROM `eshop_shop_secondmenu` WHERE `pid` IN ('1','5') AND `is_show` = 1  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `eshop_secondmenu` [ RunTime:0.0076s ]
+SQL: SELECT `id`,`name` FROM `eshop_secondmenu` WHERE `pid` = 1 AND `is_show` = 1  [ RunTime:0.0005s ]
+
+[ 2017-04-07T08:55:33+08:00 ] ::1 /eshop/index.php/Good/getWebCart.html
+ERR: Cron:cron Runat 2017-04-07 08:55:33 Use 0.000500 s
+
+[ 2017-04-07T08:55:33+08:00 ] ::1 /eshop/index.php/Good/getWebCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001275s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.008025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010591s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `eshop_shop` WHERE `shoperId` = 13 AND `is_exam` = 1 AND `is_forbid` = 0 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_firstmenu` [ RunTime:0.0070s ]
+SQL: SELECT `id`,`name` FROM `eshop_shop_firstmenu` WHERE `shopId` = 3 AND `is_show` = 1  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_secondmenu` [ RunTime:0.0073s ]
+SQL: SELECT `pid`,`id`,`sname` FROM `eshop_shop_secondmenu` WHERE `pid` IN ('1','5') AND `is_show` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `eshop_secondmenu` [ RunTime:0.0072s ]
+SQL: SELECT `id`,`name` FROM `eshop_secondmenu` WHERE `pid` = 2 AND `is_show` = 1  [ RunTime:0.0005s ]
+
+[ 2017-04-07T08:55:35+08:00 ] ::1 /eshop/index.php/Good/getWebCart.html
+ERR: Cron:cron Runat 2017-04-07 08:55:35 Use 0.000553 s
+
+[ 2017-04-07T08:55:35+08:00 ] ::1 /eshop/index.php/Good/getWebCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001311s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.006621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008945s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `eshop_shop` WHERE `shoperId` = 13 AND `is_exam` = 1 AND `is_forbid` = 0 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_firstmenu` [ RunTime:0.0116s ]
+SQL: SELECT `id`,`name` FROM `eshop_shop_firstmenu` WHERE `shopId` = 3 AND `is_show` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_secondmenu` [ RunTime:0.0071s ]
+SQL: SELECT `pid`,`id`,`sname` FROM `eshop_shop_secondmenu` WHERE `pid` IN ('1','5') AND `is_show` = 1  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `eshop_secondmenu` [ RunTime:0.0206s ]
+SQL: SELECT `id`,`name` FROM `eshop_secondmenu` WHERE `pid` = 3 AND `is_show` = 1  [ RunTime:0.0006s ]
+
+[ 2017-04-07T08:55:38+08:00 ] ::1 /eshop/index.php/Good/getWebCart.html
+ERR: Cron:cron Runat 2017-04-07 08:55:38 Use 0.000697 s
+
+[ 2017-04-07T08:55:38+08:00 ] ::1 /eshop/index.php/Good/getWebCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001227s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.011555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013836s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `eshop_shop` WHERE `shoperId` = 13 AND `is_exam` = 1 AND `is_forbid` = 0 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_firstmenu` [ RunTime:0.0101s ]
+SQL: SELECT `id`,`name` FROM `eshop_shop_firstmenu` WHERE `shopId` = 3 AND `is_show` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_secondmenu` [ RunTime:0.0086s ]
+SQL: SELECT `pid`,`id`,`sname` FROM `eshop_shop_secondmenu` WHERE `pid` IN ('1','5') AND `is_show` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `eshop_secondmenu` [ RunTime:0.0118s ]
+SQL: SELECT `id`,`name` FROM `eshop_secondmenu` WHERE `pid` = 4 AND `is_show` = 1  [ RunTime:0.0005s ]
+
+[ 2017-04-07T08:55:41+08:00 ] ::1 /eshop/index.php/Good/getWebCart.html
+ERR: Cron:cron Runat 2017-04-07 08:55:41 Use 0.000498 s
+
+[ 2017-04-07T08:55:41+08:00 ] ::1 /eshop/index.php/Good/getWebCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001258s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.006554s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008832s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `eshop_shop` WHERE `shoperId` = 13 AND `is_exam` = 1 AND `is_forbid` = 0 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_firstmenu` [ RunTime:0.0085s ]
+SQL: SELECT `id`,`name` FROM `eshop_shop_firstmenu` WHERE `shopId` = 3 AND `is_show` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_secondmenu` [ RunTime:0.0092s ]
+SQL: SELECT `pid`,`id`,`sname` FROM `eshop_shop_secondmenu` WHERE `pid` IN ('1','5') AND `is_show` = 1  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `eshop_secondmenu` [ RunTime:0.0081s ]
+SQL: SELECT `id`,`name` FROM `eshop_secondmenu` WHERE `pid` = 5 AND `is_show` = 1  [ RunTime:0.0005s ]
+
+[ 2017-04-07T08:55:45+08:00 ] ::1 /eshop/index.php/Good/getWebCart.html
+ERR: Cron:cron Runat 2017-04-07 08:55:45 Use 0.000554 s
+
+[ 2017-04-07T08:55:45+08:00 ] ::1 /eshop/index.php/Good/getWebCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001932s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.006698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009706s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0107s ]
+SQL: SELECT * FROM `eshop_shop` WHERE `shoperId` = 13 AND `is_exam` = 1 AND `is_forbid` = 0 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_firstmenu` [ RunTime:0.0074s ]
+SQL: SELECT `id`,`name` FROM `eshop_shop_firstmenu` WHERE `shopId` = 3 AND `is_show` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_secondmenu` [ RunTime:0.0069s ]
+SQL: SELECT `pid`,`id`,`sname` FROM `eshop_shop_secondmenu` WHERE `pid` IN ('1','5') AND `is_show` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `eshop_secondmenu` [ RunTime:0.0155s ]
+SQL: SELECT `id`,`name` FROM `eshop_secondmenu` WHERE `pid` = 6 AND `is_show` = 1  [ RunTime:0.0004s ]
+
+[ 2017-04-07T09:09:00+08:00 ] ::1 /eshop/index.php/Home/Good/add.html
+ERR: Cron:cron Runat 2017-04-07 09:09:00 Use 0.000587 s
+
+[ 2017-04-07T09:09:08+08:00 ] ::1 /eshop/index.php/Good/getWebCart.html
+ERR: Cron:cron Runat 2017-04-07 09:09:08 Use 0.000595 s
+
+[ 2017-04-07T09:09:08+08:00 ] ::1 /eshop/index.php/Good/getWebCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001388s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.007335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009739s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `eshop_shop` WHERE `shoperId` = 13 AND `is_exam` = 1 AND `is_forbid` = 0 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_firstmenu` [ RunTime:0.0071s ]
+SQL: SELECT `id`,`name` FROM `eshop_shop_firstmenu` WHERE `shopId` = 3 AND `is_show` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_secondmenu` [ RunTime:0.0072s ]
+SQL: SELECT `pid`,`id`,`sname` FROM `eshop_shop_secondmenu` WHERE `pid` IN ('1','5') AND `is_show` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `eshop_secondmenu` [ RunTime:0.0074s ]
+SQL: SELECT `id`,`name` FROM `eshop_secondmenu` WHERE `pid` = 1 AND `is_show` = 1  [ RunTime:0.0005s ]
+
+[ 2017-04-07T09:09:10+08:00 ] ::1 /eshop/index.php/Good/getWebCart.html
+ERR: Cron:cron Runat 2017-04-07 09:09:10 Use 0.000495 s
+
+[ 2017-04-07T09:09:10+08:00 ] ::1 /eshop/index.php/Good/getWebCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001677s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.008215s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010906s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `eshop_shop` WHERE `shoperId` = 13 AND `is_exam` = 1 AND `is_forbid` = 0 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_firstmenu` [ RunTime:0.0076s ]
+SQL: SELECT `id`,`name` FROM `eshop_shop_firstmenu` WHERE `shopId` = 3 AND `is_show` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_secondmenu` [ RunTime:0.0073s ]
+SQL: SELECT `pid`,`id`,`sname` FROM `eshop_shop_secondmenu` WHERE `pid` IN ('1','5') AND `is_show` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `eshop_thirdmenu` [ RunTime:0.0075s ]
+SQL: SELECT `id`,`name` FROM `eshop_thirdmenu` WHERE `pid` = 2 AND `is_show` = 1  [ RunTime:0.0005s ]
+
+[ 2017-04-07T09:19:02+08:00 ] ::1 /eshop/index.php/Home/Good/add.html
+ERR: Cron:cron Runat 2017-04-07 09:19:02 Use 0.000691 s
+
+[ 2017-04-07T09:19:06+08:00 ] ::1 /eshop/index.php/Good/getWebCart.html
+ERR: Cron:cron Runat 2017-04-07 09:19:06 Use 0.000536 s
+
+[ 2017-04-07T09:19:06+08:00 ] ::1 /eshop/index.php/Good/getWebCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001355s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.007178s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009734s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `eshop_shop` WHERE `shoperId` = 13 AND `is_exam` = 1 AND `is_forbid` = 0 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_firstmenu` [ RunTime:0.0073s ]
+SQL: SELECT `id`,`name` FROM `eshop_shop_firstmenu` WHERE `shopId` = 3 AND `is_show` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_secondmenu` [ RunTime:0.0072s ]
+SQL: SELECT `pid`,`id`,`sname` FROM `eshop_shop_secondmenu` WHERE `pid` IN ('1','5') AND `is_show` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `eshop_secondmenu` [ RunTime:0.0078s ]
+SQL: SELECT `id`,`name` FROM `eshop_secondmenu` WHERE `pid` = 9 AND `is_show` = 1  [ RunTime:0.0005s ]
+
+[ 2017-04-07T09:19:08+08:00 ] ::1 /eshop/index.php/Good/getWebCart.html
+ERR: Cron:cron Runat 2017-04-07 09:19:08 Use 0.000543 s
+
+[ 2017-04-07T09:19:08+08:00 ] ::1 /eshop/index.php/Good/getWebCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001206s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.008033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010257s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0236s ]
+SQL: SELECT * FROM `eshop_shop` WHERE `shoperId` = 13 AND `is_exam` = 1 AND `is_forbid` = 0 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_firstmenu` [ RunTime:0.0072s ]
+SQL: SELECT `id`,`name` FROM `eshop_shop_firstmenu` WHERE `shopId` = 3 AND `is_show` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_secondmenu` [ RunTime:0.0071s ]
+SQL: SELECT `pid`,`id`,`sname` FROM `eshop_shop_secondmenu` WHERE `pid` IN ('1','5') AND `is_show` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `eshop_thirdmenu` [ RunTime:0.0072s ]
+SQL: SELECT `id`,`name` FROM `eshop_thirdmenu` WHERE `pid` = 20 AND `is_show` = 1  [ RunTime:0.0005s ]
+
+[ 2017-04-07T09:19:11+08:00 ] ::1 /eshop/index.php/Good/getWebCart.html
+ERR: Cron:cron Runat 2017-04-07 09:19:11 Use 0.000463 s
+
+[ 2017-04-07T09:19:11+08:00 ] ::1 /eshop/index.php/Good/getWebCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001288s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.008271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010618s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `eshop_shop` WHERE `shoperId` = 13 AND `is_exam` = 1 AND `is_forbid` = 0 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_firstmenu` [ RunTime:0.0072s ]
+SQL: SELECT `id`,`name` FROM `eshop_shop_firstmenu` WHERE `shopId` = 3 AND `is_show` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_secondmenu` [ RunTime:0.0070s ]
+SQL: SELECT `pid`,`id`,`sname` FROM `eshop_shop_secondmenu` WHERE `pid` IN ('1','5') AND `is_show` = 1  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `eshop_thirdmenu` [ RunTime:0.0076s ]
+SQL: SELECT `id`,`name` FROM `eshop_thirdmenu` WHERE `pid` = 21 AND `is_show` = 1  [ RunTime:0.0004s ]
+
+[ 2017-04-07T09:19:44+08:00 ] ::1 /eshop/index.php/Home/Good/add.html
+ERR: Cron:cron Runat 2017-04-07 09:19:44 Use 0.000489 s
+
+[ 2017-04-07T09:19:47+08:00 ] ::1 /eshop/index.php/Good/getWebCart.html
+ERR: Cron:cron Runat 2017-04-07 09:19:47 Use 0.000660 s
+
+[ 2017-04-07T09:19:47+08:00 ] ::1 /eshop/index.php/Good/getWebCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001251s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.009758s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012123s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0106s ]
+SQL: SELECT * FROM `eshop_shop` WHERE `shoperId` = 13 AND `is_exam` = 1 AND `is_forbid` = 0 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_firstmenu` [ RunTime:0.0114s ]
+SQL: SELECT `id`,`name` FROM `eshop_shop_firstmenu` WHERE `shopId` = 3 AND `is_show` = 1  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_secondmenu` [ RunTime:0.0120s ]
+SQL: SELECT `pid`,`id`,`sname` FROM `eshop_shop_secondmenu` WHERE `pid` IN ('1','5') AND `is_show` = 1  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `eshop_secondmenu` [ RunTime:0.0097s ]
+SQL: SELECT `id`,`name` FROM `eshop_secondmenu` WHERE `pid` = 9 AND `is_show` = 1  [ RunTime:0.0005s ]
+
+[ 2017-04-07T09:19:48+08:00 ] ::1 /eshop/index.php/Good/getWebCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002285s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.005234s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009106s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0107s ]
+SQL: SELECT * FROM `eshop_shop` WHERE `shoperId` = 13 AND `is_exam` = 1 AND `is_forbid` = 0 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_firstmenu` [ RunTime:0.0087s ]
+SQL: SELECT `id`,`name` FROM `eshop_shop_firstmenu` WHERE `shopId` = 3 AND `is_show` = 1  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_secondmenu` [ RunTime:0.0082s ]
+SQL: SELECT `pid`,`id`,`sname` FROM `eshop_shop_secondmenu` WHERE `pid` IN ('1','5') AND `is_show` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `eshop_thirdmenu` [ RunTime:0.0085s ]
+SQL: SELECT `id`,`name` FROM `eshop_thirdmenu` WHERE `pid` = 21 AND `is_show` = 1  [ RunTime:0.0005s ]
+
+[ 2017-04-07T09:19:51+08:00 ] ::1 /eshop/index.php/Home/Good/add.html
+ERR: Cron:cron Runat 2017-04-07 09:19:51 Use 0.000494 s
+
+[ 2017-04-07T09:21:10+08:00 ] ::1 /eshop/index.php/Home/Good/add.html
+ERR: Cron:cron Runat 2017-04-07 09:21:10 Use 0.000663 s
+
+[ 2017-04-07T09:24:24+08:00 ] ::1 /eshop/index.php/Good/getWebCart.html
+ERR: Cron:cron Runat 2017-04-07 09:24:24 Use 0.000610 s
+
+[ 2017-04-07T09:24:24+08:00 ] ::1 /eshop/index.php/Good/getWebCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002739s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.026469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.031055s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0282s ]
+SQL: SELECT * FROM `eshop_shop` WHERE `shoperId` = 13 AND `is_exam` = 1 AND `is_forbid` = 0 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_firstmenu` [ RunTime:0.0123s ]
+SQL: SELECT `id`,`name` FROM `eshop_shop_firstmenu` WHERE `shopId` = 3 AND `is_show` = 1  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_secondmenu` [ RunTime:0.0095s ]
+SQL: SELECT `pid`,`id`,`sname` FROM `eshop_shop_secondmenu` WHERE `pid` IN ('1','5') AND `is_show` = 1  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `eshop_secondmenu` [ RunTime:0.0111s ]
+SQL: SELECT `id`,`name` FROM `eshop_secondmenu` WHERE `pid` = 3 AND `is_show` = 1  [ RunTime:0.0007s ]
+
+[ 2017-04-07T09:24:26+08:00 ] ::1 /eshop/index.php/Good/getWebCart.html
+ERR: Cron:cron Runat 2017-04-07 09:24:26 Use 0.000547 s
+
+[ 2017-04-07T09:24:26+08:00 ] ::1 /eshop/index.php/Good/getWebCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001313s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.006723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009067s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `eshop_shop` WHERE `shoperId` = 13 AND `is_exam` = 1 AND `is_forbid` = 0 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_firstmenu` [ RunTime:0.0080s ]
+SQL: SELECT `id`,`name` FROM `eshop_shop_firstmenu` WHERE `shopId` = 3 AND `is_show` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_secondmenu` [ RunTime:0.0082s ]
+SQL: SELECT `pid`,`id`,`sname` FROM `eshop_shop_secondmenu` WHERE `pid` IN ('1','5') AND `is_show` = 1  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `eshop_thirdmenu` [ RunTime:0.0077s ]
+SQL: SELECT `id`,`name` FROM `eshop_thirdmenu` WHERE `pid` = 7 AND `is_show` = 1  [ RunTime:0.0005s ]
+
+[ 2017-04-07T09:24:48+08:00 ] ::1 /eshop/index.php/Good/getShopCart.html
+ERR: Cron:cron Runat 2017-04-07 09:24:48 Use 0.000571 s
+
+[ 2017-04-07T09:24:48+08:00 ] ::1 /eshop/index.php/Good/getShopCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001603s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.010425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013489s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `eshop_shop` WHERE `shoperId` = 13 AND `is_exam` = 1 AND `is_forbid` = 0 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_firstmenu` [ RunTime:0.0084s ]
+SQL: SELECT `id`,`name` FROM `eshop_shop_firstmenu` WHERE `shopId` = 3 AND `is_show` = 1  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_secondmenu` [ RunTime:0.0110s ]
+SQL: SELECT `pid`,`id`,`sname` FROM `eshop_shop_secondmenu` WHERE `pid` IN ('1','5') AND `is_show` = 1  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_secondmenu` [ RunTime:0.0107s ]
+SQL: SELECT `id`,`sname` FROM `eshop_shop_secondmenu` WHERE `pid` = 1 AND `is_show` = 1  [ RunTime:0.0005s ]
+
+[ 2017-04-07T09:26:29+08:00 ] ::1 /eshop/index.php/Good/goodImg.html
+ERR: Cron:cron Runat 2017-04-07 09:26:29 Use 0.000548 s
+
+[ 2017-04-07T09:26:31+08:00 ] ::1 /eshop/index.php/Good/goodsSave.html
+ERR: Cron:cron Runat 2017-04-07 09:26:31 Use 0.000534 s
+
+[ 2017-04-07T09:26:32+08:00 ] ::1 /eshop/index.php/Good/goodsSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001310s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.007516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009820s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0254s ]
+SQL: SELECT * FROM `eshop_shop` WHERE `shoperId` = 13 AND `is_exam` = 1 AND `is_forbid` = 0 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_firstmenu` [ RunTime:0.0092s ]
+SQL: SELECT `id`,`name` FROM `eshop_shop_firstmenu` WHERE `shopId` = 3 AND `is_show` = 1  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_secondmenu` [ RunTime:0.0080s ]
+SQL: SELECT `pid`,`id`,`sname` FROM `eshop_shop_secondmenu` WHERE `pid` IN ('1','5') AND `is_show` = 1  [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined variable: x D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: y D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0073s ]
+SQL: SHOW COLUMNS FROM `eshop_goodnav` [ RunTime:0.0086s ]
+SQL: SHOW COLUMNS FROM `eshop_goodservice` [ RunTime:0.0103s ]
+SQL: SHOW COLUMNS FROM `eshop_goodinfo` [ RunTime:0.0067s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `eshop_good` WHERE `goodNumber` = '14828254901321438936' LIMIT 1   [ RunTime:0.0267s ]
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `eshop_good` (`marketPrice`,`shopPrice`,`stock`,`place`,`status`,`good_log`,`name`,`stock_warning`,`goodNumber`,`is_recomend`,`is_new`,`time`,`modify_recenet`) VALUES ('1.82','1.65','1234','湘西','1','Uploads/Shops/logo/2017-04-07/thumb_58e6eac7c1f94.jpg','新鲜土鸡蛋','12','14828254901321438936','1','1','1491528391','1491528391') [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `eshop_goodimg` [ RunTime:0.0127s ]
+SQL: INSERT INTO `eshop_goodnav` (`goodId`,`shopId`,`createtime`,`modify_time`,`w_fid`,`w_sid`,`w_tid`,`s_fid`,`s_sid`) VALUES ('16','3','1491528392','1491528392','3','7','10','1','1') [ RunTime:0.0525s ]
+SQL: INSERT INTO `eshop_goodservice` (`goodId`,`content`,`createtime`,`modify_time`) VALUES ('16','&lt;p&gt;土鸡蛋（英文名称：native egg）人们通常把在农家&lt;a target=&quot;_blank&quot; href=&quot;http://baike.baidu.com/item/%E8%87%AA%E7%84%B6%E7%8E%AF%E5%A2%83&quot;&gt;自然环境&lt;/a&gt;中的散养鸡所生的蛋称为&lt;a target=&quot;_blank&quot; href=&quot;http://baike.baidu.com/item/%E5%9C%9F%E9%B8%A1%E8%9B%8B&quot;&gt;土鸡蛋&lt;/a&gt;，或称为柴鸡蛋；&lt;a target=&quot;_blank&quot; href=&quot;http://baike.baidu.com/item/%E7%AC%A8%E9%B8%A1%E8%9B%8B&quot;&gt;笨鸡蛋&lt;/a&gt;。农业部关于鸡蛋的标准只有无公害鸡蛋标准、绿色鸡蛋标准和&lt;a target=&quot;_blank&quot; href=&quot;http://baike.baidu.com/item/%E6%9C%89%E6%9C%BA%E9%B8%A1%E8%9B%8B&quot;&gt;有机鸡蛋&lt;/a&gt;标准，并无确切的土鸡蛋标准 。其实，在普通老百姓的眼中的土鸡蛋就应该定义为：农民家散养，吃五谷杂粮且白天自由觅食，鸡不受外力因素自然成长，鸡放养过程中没有使用任何药物。&lt;/p&gt;','1491528392','1491528392') [ RunTime:0.0095s ]
+SQL: INSERT INTO `eshop_goodinfo` (`goodId`,`lableId`,`lableContent`) VALUES ('16','1','0.3/个'),('16','2','散装'),('16','3','土鸡蛋'),('16','4','2017-03-30'),('16','5','常温保存30天'),('16','6','常温'),('16','7','1'),('16','8','1'),('16','9','免邮') [ RunTime:0.0198s ]
+SQL: INSERT INTO `eshop_goodimg` (`goodId`,`img`,`thumb_img`,`createtime`) VALUES ('16','Uploads/Shops/goods/2017-04-07/58e6eac53c681.jpg','Uploads/Shops/goods/2017-04-07/thumb150_58e6eac53c681.jpg','1491528392') [ RunTime:0.2704s ]
+
+[ 2017-04-07T09:26:35+08:00 ] ::1 /eshop/index.php/Good/audit.html
+ERR: Cron:cron Runat 2017-04-07 09:26:35 Use 0.000422 s
+
+[ 2017-04-07T09:27:22+08:00 ] ::1 /eshop/index.php/Home/Good/info/id/16.html
+ERR: Cron:cron Runat 2017-04-07 09:27:22 Use 0.000503 s
+
+[ 2017-04-07T09:28:01+08:00 ] ::1 /eshop/index.php/Good/getShopCart.html
+ERR: Cron:cron Runat 2017-04-07 09:28:01 Use 0.000551 s
+
+[ 2017-04-07T09:28:01+08:00 ] ::1 /eshop/index.php/Good/getShopCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001223s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.007239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009445s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `eshop_shop` WHERE `shoperId` = 13 AND `is_exam` = 1 AND `is_forbid` = 0 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_firstmenu` [ RunTime:0.0068s ]
+SQL: SELECT `id`,`name` FROM `eshop_shop_firstmenu` WHERE `shopId` = 3 AND `is_show` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_secondmenu` [ RunTime:0.0075s ]
+SQL: SELECT `pid`,`id`,`sname` FROM `eshop_shop_secondmenu` WHERE `pid` IN ('1','5') AND `is_show` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_secondmenu` [ RunTime:0.0068s ]
+SQL: SELECT `id`,`sname` FROM `eshop_shop_secondmenu` WHERE `pid` = 1 AND `is_show` = 1  [ RunTime:0.0005s ]
+
+[ 2017-04-07T09:28:03+08:00 ] ::1 /eshop/index.php/Good/goodsSearch.html
+ERR: Cron:cron Runat 2017-04-07 09:28:03 Use 0.000967 s
+
+[ 2017-04-07T09:28:03+08:00 ] ::1 /eshop/index.php/Good/goodsSearch.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001269s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.007526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009796s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.1000s ]
+SQL: SELECT * FROM `eshop_shop` WHERE `shoperId` = 13 AND `is_exam` = 1 AND `is_forbid` = 0 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_firstmenu` [ RunTime:0.0132s ]
+SQL: SELECT `id`,`name` FROM `eshop_shop_firstmenu` WHERE `shopId` = 3 AND `is_show` = 1  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_secondmenu` [ RunTime:0.0123s ]
+SQL: SELECT `pid`,`id`,`sname` FROM `eshop_shop_secondmenu` WHERE `pid` IN ('1','5') AND `is_show` = 1  [ RunTime:0.0006s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0077s ]
+SQL: SELECT COUNT(*) AS tp_count FROM eshop_good g INNER JOIN eshop_goodnav as n on g.id = n.goodId  WHERE `s_fid` = 1 AND `s_sid` = 1 AND `is_forbid` = 0 AND `status` = 1 AND `shopId` = '3' AND `is_exam` = 0 LIMIT 1   [ RunTime:0.0211s ]
+SQL: SELECT eshop_good.* FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `s_fid` = 1 AND `s_sid` = 1 AND `is_forbid` = 0 AND `status` = 1 AND `shopId` = '3' AND `is_exam` = 0 ORDER BY time desc LIMIT 0,20   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000259s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019099s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019244s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000901s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000928s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002019s ]
+
+[ 2017-04-07T09:30:42+08:00 ] ::1 /eshop/index.php/Home/Good/audit.html
+ERR: Cron:cron Runat 2017-04-07 09:30:42 Use 0.000519 s
+
+[ 2017-04-07T09:31:00+08:00 ] ::1 /eshop/index.php/Home/Good/add.html
+ERR: Cron:cron Runat 2017-04-07 09:31:00 Use 0.000636 s
+
+[ 2017-04-07T09:32:28+08:00 ] ::1 /eshop/index.php/Home/Good/add.html
+ERR: Cron:cron Runat 2017-04-07 09:32:28 Use 0.000592 s
+
+[ 2017-04-07T09:33:51+08:00 ] ::1 /eshop/index.php/Home/Good/add.html
+ERR: Cron:cron Runat 2017-04-07 09:33:51 Use 0.000585 s
+
+[ 2017-04-07T09:34:29+08:00 ] ::1 /eshop/index.php/Good/getWebCart.html
+ERR: Cron:cron Runat 2017-04-07 09:34:29 Use 0.000556 s
+
+[ 2017-04-07T09:34:29+08:00 ] ::1 /eshop/index.php/Good/getWebCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001254s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.007297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009565s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `eshop_shop` WHERE `shoperId` = 13 AND `is_exam` = 1 AND `is_forbid` = 0 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_firstmenu` [ RunTime:0.0072s ]
+SQL: SELECT `id`,`name` FROM `eshop_shop_firstmenu` WHERE `shopId` = 3 AND `is_show` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_secondmenu` [ RunTime:0.0071s ]
+SQL: SELECT `pid`,`id`,`sname` FROM `eshop_shop_secondmenu` WHERE `pid` IN ('1','5') AND `is_show` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `eshop_secondmenu` [ RunTime:0.0067s ]
+SQL: SELECT `id`,`name` FROM `eshop_secondmenu` WHERE `pid` = 3 AND `is_show` = 1  [ RunTime:0.0005s ]
+
+[ 2017-04-07T09:34:37+08:00 ] ::1 /eshop/index.php/Good/getWebCart.html
+ERR: Cron:cron Runat 2017-04-07 09:34:37 Use 0.000463 s
+
+[ 2017-04-07T09:34:37+08:00 ] ::1 /eshop/index.php/Good/getWebCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001294s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.009044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011430s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `eshop_shop` WHERE `shoperId` = 13 AND `is_exam` = 1 AND `is_forbid` = 0 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_firstmenu` [ RunTime:0.0088s ]
+SQL: SELECT `id`,`name` FROM `eshop_shop_firstmenu` WHERE `shopId` = 3 AND `is_show` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_secondmenu` [ RunTime:0.0069s ]
+SQL: SELECT `pid`,`id`,`sname` FROM `eshop_shop_secondmenu` WHERE `pid` IN ('1','5') AND `is_show` = 1  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `eshop_thirdmenu` [ RunTime:0.0069s ]
+SQL: SELECT `id`,`name` FROM `eshop_thirdmenu` WHERE `pid` = 7 AND `is_show` = 1  [ RunTime:0.0005s ]
+
+[ 2017-04-07T09:35:57+08:00 ] ::1 /eshop/index.php/Good/goodImg.html
+ERR: Cron:cron Runat 2017-04-07 09:35:57 Use 0.000549 s
+
+[ 2017-04-07T09:35:58+08:00 ] ::1 /eshop/index.php/Good/goodsSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001346s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.039403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.041702s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `eshop_shop` WHERE `shoperId` = 13 AND `is_exam` = 1 AND `is_forbid` = 0 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_firstmenu` [ RunTime:0.0072s ]
+SQL: SELECT `id`,`name` FROM `eshop_shop_firstmenu` WHERE `shopId` = 3 AND `is_show` = 1  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_secondmenu` [ RunTime:0.0066s ]
+SQL: SELECT `pid`,`id`,`sname` FROM `eshop_shop_secondmenu` WHERE `pid` IN ('1','5') AND `is_show` = 1  [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined variable: x D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: y D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `eshop_goodnav` [ RunTime:0.0073s ]
+SQL: SHOW COLUMNS FROM `eshop_goodservice` [ RunTime:0.0069s ]
+SQL: SHOW COLUMNS FROM `eshop_goodinfo` [ RunTime:0.0075s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `eshop_good` WHERE `goodNumber` = '14828254901387957928' LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2017-04-07T09:37:16+08:00 ] ::1 /eshop/index.php/Good/goodsSave.html
+ERR: Cron:cron Runat 2017-04-07 09:37:16 Use 0.000554 s
+
+[ 2017-04-07T09:37:17+08:00 ] ::1 /eshop/index.php/Good/goodsSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001247s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.006515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008760s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `eshop_shop` WHERE `shoperId` = 13 AND `is_exam` = 1 AND `is_forbid` = 0 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_firstmenu` [ RunTime:0.0067s ]
+SQL: SELECT `id`,`name` FROM `eshop_shop_firstmenu` WHERE `shopId` = 3 AND `is_show` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_secondmenu` [ RunTime:0.0068s ]
+SQL: SELECT `pid`,`id`,`sname` FROM `eshop_shop_secondmenu` WHERE `pid` IN ('1','5') AND `is_show` = 1  [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined variable: x D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: y D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0076s ]
+SQL: SHOW COLUMNS FROM `eshop_goodnav` [ RunTime:0.0074s ]
+SQL: SHOW COLUMNS FROM `eshop_goodservice` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `eshop_goodinfo` [ RunTime:0.0067s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `eshop_good` WHERE `goodNumber` = '14828254901387957928' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `eshop_good` (`marketPrice`,`shopPrice`,`stock`,`place`,`status`,`good_log`,`name`,`stock_warning`,`goodNumber`,`is_hot`,`time`,`modify_recenet`) VALUES ('1.21','0.81','34','广西桂林','1','Uploads/Shops/logo/2017-04-07/thumb_58e6ed4c93a95.jpg','咸鸭蛋','12','14828254901387957928','1','1491529036','1491529036') [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `eshop_goodimg` [ RunTime:0.0074s ]
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`eshop`.`eshop_goodnav`, CONSTRAINT `eshop_goodnav_ibfk_4` FOREIGN KEY (`s_fid`) REFERENCES `eshop_shop_firstmenu` (`id`))
+ [ SQL语句 ] : INSERT INTO `eshop_goodnav` (`goodId`,`shopId`,`createtime`,`modify_time`,`w_fid`,`w_sid`) VALUES ('17','3','1491529036','1491529036','3','7')
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`eshop`.`eshop_goodnav`, CONSTRAINT `eshop_goodnav_ibfk_4` FOREIGN KEY (`s_fid`) REFERENCES `eshop_shop_firstmenu` (`id`))
+ [ SQL语句 ] : INSERT INTO `eshop_goodnav` (`goodId`,`shopId`,`createtime`,`modify_time`,`w_fid`,`w_sid`) VALUES ('17','3','1491529036','1491529036','3','7')
+
+[ 2017-04-07T09:37:22+08:00 ] ::1 /eshop/index.php/Good/goodsSave.html
+ERR: Cron:cron Runat 2017-04-07 09:37:22 Use 0.000554 s
+
+[ 2017-04-07T09:37:22+08:00 ] ::1 /eshop/index.php/Good/goodsSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001216s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.006409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008602s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `eshop_shop` WHERE `shoperId` = 13 AND `is_exam` = 1 AND `is_forbid` = 0 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_firstmenu` [ RunTime:0.0067s ]
+SQL: SELECT `id`,`name` FROM `eshop_shop_firstmenu` WHERE `shopId` = 3 AND `is_show` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_secondmenu` [ RunTime:0.0069s ]
+SQL: SELECT `pid`,`id`,`sname` FROM `eshop_shop_secondmenu` WHERE `pid` IN ('1','5') AND `is_show` = 1  [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined variable: x D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: y D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0068s ]
+SQL: SHOW COLUMNS FROM `eshop_goodnav` [ RunTime:0.0075s ]
+SQL: SHOW COLUMNS FROM `eshop_goodservice` [ RunTime:0.0072s ]
+SQL: SHOW COLUMNS FROM `eshop_goodinfo` [ RunTime:0.0072s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `eshop_good` WHERE `goodNumber` = '14828254901387957928' LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2017-04-07T09:38:19+08:00 ] ::1 /eshop/index.php/Home/Good/audit.html
+ERR: Cron:cron Runat 2017-04-07 09:38:19 Use 0.000582 s
+
+[ 2017-04-07T09:38:23+08:00 ] ::1 /eshop/index.php/Home/Good/audit.html
+ERR: Cron:cron Runat 2017-04-07 09:38:23 Use 0.000657 s
+
+[ 2017-04-07T09:39:50+08:00 ] ::1 /eshop/index.php/Home/Good/audit.html
+ERR: Cron:cron Runat 2017-04-07 09:39:50 Use 0.000541 s
+
+[ 2017-04-07T09:39:52+08:00 ] ::1 /eshop/index.php/Home/Good/add.html
+ERR: Cron:cron Runat 2017-04-07 09:39:52 Use 0.000527 s
+
+[ 2017-04-07T09:39:54+08:00 ] ::1 /eshop/index.php/Home/Good/audit.html
+ERR: Cron:cron Runat 2017-04-07 09:39:54 Use 0.000503 s
+
+[ 2017-04-07T09:40:01+08:00 ] ::1 /eshop/index.php/Home/Good/illegal.html
+ERR: Cron:cron Runat 2017-04-07 09:40:01 Use 0.000472 s
+
+[ 2017-04-07T09:40:03+08:00 ] ::1 /eshop/index.php/Home/Good/store.html
+ERR: Cron:cron Runat 2017-04-07 09:40:03 Use 0.000610 s
+
+[ 2017-04-07T09:40:05+08:00 ] ::1 /eshop/index.php/Home/Good/onsale.html
+ERR: Cron:cron Runat 2017-04-07 09:40:05 Use 0.000524 s
+
+[ 2017-04-07T09:40:07+08:00 ] ::1 /eshop/index.php/Home/Good/stock.html
+ERR: Cron:cron Runat 2017-04-07 09:40:07 Use 0.000543 s
+
+[ 2017-04-07T09:40:09+08:00 ] ::1 /eshop/index.php/Home/Good/illegal.html
+ERR: Cron:cron Runat 2017-04-07 09:40:09 Use 0.000583 s
+
+[ 2017-04-07T09:40:12+08:00 ] ::1 /eshop/index.php/Home/Good/audit.html
+ERR: Cron:cron Runat 2017-04-07 09:40:12 Use 0.000576 s
+
+[ 2017-04-07T09:41:07+08:00 ] ::1 /eshop/index.php/Home/Good/audit.html
+ERR: Cron:cron Runat 2017-04-07 09:41:07 Use 0.000580 s
+
+[ 2017-04-07T09:41:13+08:00 ] ::1 /eshop/index.php/Home/Good/info/id/16.html
+ERR: Cron:cron Runat 2017-04-07 09:41:13 Use 0.000689 s
+
+[ 2017-04-07T09:41:17+08:00 ] ::1 /eshop/index.php/Home/Good/info/id/17.html
+ERR: Cron:cron Runat 2017-04-07 09:41:17 Use 0.000617 s
+
+[ 2017-04-07T09:41:28+08:00 ] ::1 /eshop/index.php/Home/Good/info/id/16.html
+ERR: Cron:cron Runat 2017-04-07 09:41:28 Use 0.001420 s
+
+[ 2017-04-07T09:41:33+08:00 ] ::1 /eshop/index.php/Home/Good/audit.html
+ERR: Cron:cron Runat 2017-04-07 09:41:33 Use 0.000596 s
+
+[ 2017-04-07T09:43:46+08:00 ] ::1 /eshop/index.php/Home/Good/audit.html
+ERR: Cron:cron Runat 2017-04-07 09:43:46 Use 0.000506 s
+
+[ 2017-04-07T09:43:50+08:00 ] ::1 /eshop/index.php/Home/Good/edit/id/17/src/audit.html
+ERR: Cron:cron Runat 2017-04-07 09:43:50 Use 0.000578 s
+
+[ 2017-04-07T09:45:02+08:00 ] ::1 /eshop/index.php/Home/Good/edit/id/17/src/audit.html
+ERR: Cron:cron Runat 2017-04-07 09:45:02 Use 0.000853 s
+
+[ 2017-04-07T09:45:47+08:00 ] ::1 /eshop/index.php/Good/goodImg.html
+ERR: Cron:cron Runat 2017-04-07 09:45:47 Use 0.000332 s
+
+[ 2017-04-07T09:46:33+08:00 ] ::1 /eshop/index.php/Home/Good/edit/id/17/src/audit.html
+ERR: Cron:cron Runat 2017-04-07 09:46:33 Use 0.000346 s
+
+[ 2017-04-07T09:46:55+08:00 ] ::1 /eshop/index.php/Home/Good/edit/id/17/src/audit.html
+ERR: Cron:cron Runat 2017-04-07 09:46:55 Use 0.001024 s
+
+[ 2017-04-07T09:47:02+08:00 ] ::1 /eshop/index.php/Good/goodImg.html
+ERR: Cron:cron Runat 2017-04-07 09:47:02 Use 0.000433 s
+
+[ 2017-04-07T09:47:03+08:00 ] ::1 /eshop/index.php/Good/eidtSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000937s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.002783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004355s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `eshop_shop` WHERE `shoperId` = 13 AND `is_exam` = 1 AND `is_forbid` = 0 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_firstmenu` [ RunTime:0.0049s ]
+SQL: SELECT `id`,`name` FROM `eshop_shop_firstmenu` WHERE `shopId` = 3 AND `is_show` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_secondmenu` [ RunTime:0.0050s ]
+SQL: SELECT `pid`,`id`,`sname` FROM `eshop_shop_secondmenu` WHERE `pid` IN ('1','5') AND `is_show` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0053s ]
+SQL: SHOW COLUMNS FROM `eshop_goodnav` [ RunTime:0.0058s ]
+SQL: SHOW COLUMNS FROM `eshop_goodservice` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `eshop_goodinfo` [ RunTime:0.0048s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `eshop_good` SET `marketPrice`='1.21',`shopPrice`='0.81',`stock`='34',`place`='广西桂林',`status`='1',`name`='咸鸭蛋',`stock_warning`='12',`is_recomend`='0',`is_hot`='1',`is_new`='0',`time`='1491529623',`modify_recenet`='1491529623' WHERE `id` = 17 [ RunTime:0.0004s ]
+SQL: SET FOREIGN_KEY_CHECKS = 0 [ RunTime:0.0124s ]
+SQL: UPDATE `eshop_goodnav` SET `w_fid`='3',`w_sid`='7',`w_tid`='10',`s_fid`='5',`s_sid`='2',`modify_time`='1491529623' WHERE `goodId` = 17 [ RunTime:0.0004s ]
+SQL: SET FOREIGN_KEY_CHECKS = 1 [ RunTime:0.0002s ]
+SQL: UPDATE `eshop_goodservice` SET `content`='',`modify_time`='1491529623' WHERE `goodId` = 17 [ RunTime:0.0003s ]
+SQL: SELECT * FROM `eshop_goodinfo` WHERE `goodId` = 17 AND `lableId` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `eshop_goodinfo` (`lableContent`,`goodId`) VALUES ('','17') [ RunTime:0.0003s ]
+SQL: SELECT * FROM `eshop_goodinfo` WHERE `goodId` = 17 AND `lableId` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `eshop_goodinfo` (`lableContent`,`goodId`) VALUES ('','17') [ RunTime:0.0003s ]
+SQL: SELECT * FROM `eshop_goodinfo` WHERE `goodId` = 17 AND `lableId` = 3 LIMIT 1   [ RunTime:0.0005s ]
+SQL: INSERT INTO `eshop_goodinfo` (`lableContent`,`goodId`) VALUES ('','17') [ RunTime:0.0003s ]
+SQL: SELECT * FROM `eshop_goodinfo` WHERE `goodId` = 17 AND `lableId` = 4 LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `eshop_goodinfo` (`lableContent`,`goodId`) VALUES ('','17') [ RunTime:0.0003s ]
+SQL: SELECT * FROM `eshop_goodinfo` WHERE `goodId` = 17 AND `lableId` = 5 LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `eshop_goodinfo` (`lableContent`,`goodId`) VALUES ('','17') [ RunTime:0.0003s ]
+SQL: SELECT * FROM `eshop_goodinfo` WHERE `goodId` = 17 AND `lableId` = 6 LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `eshop_goodinfo` (`lableContent`,`goodId`) VALUES ('','17') [ RunTime:0.0003s ]
+SQL: SELECT * FROM `eshop_goodinfo` WHERE `goodId` = 17 AND `lableId` = 7 LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `eshop_goodinfo` (`lableContent`,`goodId`) VALUES ('0','17') [ RunTime:0.0003s ]
+SQL: SELECT * FROM `eshop_goodinfo` WHERE `goodId` = 17 AND `lableId` = 8 LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `eshop_goodinfo` (`lableContent`,`goodId`) VALUES ('0','17') [ RunTime:0.0003s ]
+SQL: SELECT * FROM `eshop_goodinfo` WHERE `goodId` = 17 AND `lableId` = 9 LIMIT 1   [ RunTime:0.0005s ]
+SQL: INSERT INTO `eshop_goodinfo` (`lableContent`,`goodId`) VALUES ('','17') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `eshop_goodimg` [ RunTime:0.0054s ]
+SQL: INSERT INTO `eshop_goodimg` (`goodId`,`img`,`thumb_img`,`createtime`) VALUES ('17','Uploads/Shops/goods/2017-04-07/58e6ef963c800.jpg','Uploads/Shops/goods/2017-04-07/thumb150_58e6ef963c800.jpg','1491529623') [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: imgURl D:\wampserver\wamp\www\eshop\App\Home\Controller\GoodController.class.php 第 272 行.
+NOTIC: [2] unlink(): Invalid argument D:\wampserver\wamp\www\eshop\App\Home\Controller\GoodController.class.php 第 272 行.
+NOTIC: [8] Undefined variable: imgURl D:\wampserver\wamp\www\eshop\App\Home\Controller\GoodController.class.php 第 293 行.
+NOTIC: [2] unlink(): Invalid argument D:\wampserver\wamp\www\eshop\App\Home\Controller\GoodController.class.php 第 293 行.
+
+[ 2017-04-07T09:47:17+08:00 ] ::1 /eshop/index.php/Good/eidtSave.html
+ERR: Cron:cron Runat 2017-04-07 09:47:17 Use 0.000345 s
+
+[ 2017-04-07T09:47:18+08:00 ] ::1 /eshop/index.php/Good/eidtSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001334s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.005919s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008190s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0112s ]
+SQL: SELECT * FROM `eshop_shop` WHERE `shoperId` = 13 AND `is_exam` = 1 AND `is_forbid` = 0 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_firstmenu` [ RunTime:0.0072s ]
+SQL: SELECT `id`,`name` FROM `eshop_shop_firstmenu` WHERE `shopId` = 3 AND `is_show` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_secondmenu` [ RunTime:0.0065s ]
+SQL: SELECT `pid`,`id`,`sname` FROM `eshop_shop_secondmenu` WHERE `pid` IN ('1','5') AND `is_show` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0079s ]
+SQL: SHOW COLUMNS FROM `eshop_goodnav` [ RunTime:0.0077s ]
+SQL: SHOW COLUMNS FROM `eshop_goodservice` [ RunTime:0.0063s ]
+SQL: SHOW COLUMNS FROM `eshop_goodinfo` [ RunTime:0.0065s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `eshop_good` SET `marketPrice`='1.21',`shopPrice`='0.81',`stock`='34',`place`='广西桂林',`status`='1',`name`='咸鸭蛋',`stock_warning`='12',`is_recomend`='0',`is_hot`='1',`is_new`='0',`time`='1491529637',`modify_recenet`='1491529637' WHERE `id` = 17 [ RunTime:0.0004s ]
+SQL: SET FOREIGN_KEY_CHECKS = 0 [ RunTime:0.0001s ]
+SQL: UPDATE `eshop_goodnav` SET `w_fid`='3',`w_sid`='7',`w_tid`='10',`s_fid`='5',`s_sid`='2',`modify_time`='1491529637' WHERE `goodId` = 17 [ RunTime:0.0002s ]
+SQL: SET FOREIGN_KEY_CHECKS = 1 [ RunTime:0.0001s ]
+SQL: UPDATE `eshop_goodservice` SET `content`='',`modify_time`='1491529637' WHERE `goodId` = 17 [ RunTime:0.0003s ]
+SQL: SELECT * FROM `eshop_goodinfo` WHERE `goodId` = 17 AND `lableId` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `eshop_goodinfo` (`lableContent`,`goodId`) VALUES ('','17') [ RunTime:0.0003s ]
+SQL: SELECT * FROM `eshop_goodinfo` WHERE `goodId` = 17 AND `lableId` = 2 LIMIT 1   [ RunTime:0.3296s ]
+SQL: INSERT INTO `eshop_goodinfo` (`lableContent`,`goodId`) VALUES ('','17') [ RunTime:0.0007s ]
+SQL: SELECT * FROM `eshop_goodinfo` WHERE `goodId` = 17 AND `lableId` = 3 LIMIT 1   [ RunTime:0.0009s ]
+SQL: INSERT INTO `eshop_goodinfo` (`lableContent`,`goodId`) VALUES ('','17') [ RunTime:0.0006s ]
+SQL: SELECT * FROM `eshop_goodinfo` WHERE `goodId` = 17 AND `lableId` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `eshop_goodinfo` (`lableContent`,`goodId`) VALUES ('','17') [ RunTime:0.0006s ]
+SQL: SELECT * FROM `eshop_goodinfo` WHERE `goodId` = 17 AND `lableId` = 5 LIMIT 1   [ RunTime:0.0009s ]
+SQL: INSERT INTO `eshop_goodinfo` (`lableContent`,`goodId`) VALUES ('','17') [ RunTime:0.0007s ]
+SQL: SELECT * FROM `eshop_goodinfo` WHERE `goodId` = 17 AND `lableId` = 6 LIMIT 1   [ RunTime:0.0009s ]
+SQL: INSERT INTO `eshop_goodinfo` (`lableContent`,`goodId`) VALUES ('','17') [ RunTime:0.0007s ]
+SQL: SELECT * FROM `eshop_goodinfo` WHERE `goodId` = 17 AND `lableId` = 7 LIMIT 1   [ RunTime:0.0009s ]
+SQL: INSERT INTO `eshop_goodinfo` (`lableContent`,`goodId`) VALUES ('0','17') [ RunTime:0.0006s ]
+SQL: SELECT * FROM `eshop_goodinfo` WHERE `goodId` = 17 AND `lableId` = 8 LIMIT 1   [ RunTime:0.0009s ]
+SQL: INSERT INTO `eshop_goodinfo` (`lableContent`,`goodId`) VALUES ('0','17') [ RunTime:0.0006s ]
+SQL: SELECT * FROM `eshop_goodinfo` WHERE `goodId` = 17 AND `lableId` = 9 LIMIT 1   [ RunTime:0.0008s ]
+SQL: INSERT INTO `eshop_goodinfo` (`lableContent`,`goodId`) VALUES ('','17') [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `eshop_goodimg` [ RunTime:0.0114s ]
+SQL: INSERT INTO `eshop_goodimg` (`goodId`,`img`,`thumb_img`,`createtime`) VALUES ('17','Uploads/Shops/goods/2017-04-07/58e6ef963c800.jpg','Uploads/Shops/goods/2017-04-07/thumb150_58e6ef963c800.jpg','1491529638') [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: imgURl D:\wampserver\wamp\www\eshop\App\Home\Controller\GoodController.class.php 第 272 行.
+NOTIC: [2] unlink(): Invalid argument D:\wampserver\wamp\www\eshop\App\Home\Controller\GoodController.class.php 第 272 行.
+NOTIC: [8] Undefined variable: imgURl D:\wampserver\wamp\www\eshop\App\Home\Controller\GoodController.class.php 第 293 行.
+NOTIC: [2] unlink(): Invalid argument D:\wampserver\wamp\www\eshop\App\Home\Controller\GoodController.class.php 第 293 行.
+
+[ 2017-04-07T09:49:51+08:00 ] ::1 /eshop/index.php/Good/eidtSave.html
+ERR: Cron:cron Runat 2017-04-07 09:49:51 Use 0.000306 s
+
+[ 2017-04-07T09:49:51+08:00 ] ::1 /eshop/index.php/Good/eidtSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000766s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.004921s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006328s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `eshop_shop` WHERE `shoperId` = 13 AND `is_exam` = 1 AND `is_forbid` = 0 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_firstmenu` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`name` FROM `eshop_shop_firstmenu` WHERE `shopId` = 3 AND `is_show` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_secondmenu` [ RunTime:0.0069s ]
+SQL: SELECT `pid`,`id`,`sname` FROM `eshop_shop_secondmenu` WHERE `pid` IN ('1','5') AND `is_show` = 1  [ RunTime:0.0004s ]
+
+[ 2017-04-07T09:50:16+08:00 ] ::1 /eshop/index.php/Good/eidtSave.html
+ERR: Cron:cron Runat 2017-04-07 09:50:16 Use 0.000413 s
+
+[ 2017-04-07T09:50:16+08:00 ] ::1 /eshop/index.php/Good/eidtSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000820s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.004743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006325s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `eshop_shop` WHERE `shoperId` = 13 AND `is_exam` = 1 AND `is_forbid` = 0 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_firstmenu` [ RunTime:0.0054s ]
+SQL: SELECT `id`,`name` FROM `eshop_shop_firstmenu` WHERE `shopId` = 3 AND `is_show` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_secondmenu` [ RunTime:0.0078s ]
+SQL: SELECT `pid`,`id`,`sname` FROM `eshop_shop_secondmenu` WHERE `pid` IN ('1','5') AND `is_show` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0078s ]
+SQL: SHOW COLUMNS FROM `eshop_goodnav` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `eshop_goodservice` [ RunTime:0.0069s ]
+SQL: SHOW COLUMNS FROM `eshop_goodinfo` [ RunTime:0.0062s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `eshop_good` SET `marketPrice`='1.21',`shopPrice`='0.81',`stock`='34',`place`='广西桂林',`status`='1',`name`='咸鸭蛋',`stock_warning`='12',`is_recomend`='0',`is_hot`='1',`is_new`='0',`time`='1491529816',`modify_recenet`='1491529816' WHERE `id` = 17 [ RunTime:0.0004s ]
+
+[ 2017-04-07T09:51:25+08:00 ] ::1 /eshop/index.php/Good/eidtSave.html
+ERR: Cron:cron Runat 2017-04-07 09:51:25 Use 0.000278 s
+
+[ 2017-04-07T09:51:25+08:00 ] ::1 /eshop/index.php/Good/eidtSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000835s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.004335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005818s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `eshop_shop` WHERE `shoperId` = 13 AND `is_exam` = 1 AND `is_forbid` = 0 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_firstmenu` [ RunTime:0.0051s ]
+SQL: SELECT `id`,`name` FROM `eshop_shop_firstmenu` WHERE `shopId` = 3 AND `is_show` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_secondmenu` [ RunTime:0.0071s ]
+SQL: SELECT `pid`,`id`,`sname` FROM `eshop_shop_secondmenu` WHERE `pid` IN ('1','5') AND `is_show` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `eshop_goodnav` [ RunTime:0.0052s ]
+SQL: SHOW COLUMNS FROM `eshop_goodservice` [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `eshop_goodinfo` [ RunTime:0.0057s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `eshop_good` SET `marketPrice`='1.21',`shopPrice`='0.81',`stock`='34',`place`='广西桂林',`status`='1',`name`='咸鸭蛋',`stock_warning`='12',`is_recomend`='0',`is_hot`='1',`is_new`='0',`time`='1491529885',`modify_recenet`='1491529885' WHERE `id` = 17 [ RunTime:0.0007s ]
+SQL: SET FOREIGN_KEY_CHECKS = 0 [ RunTime:0.0002s ]
+SQL: UPDATE `eshop_goodnav` SET `w_fid`='3',`w_sid`='7',`w_tid`='10',`s_fid`='5',`s_sid`='2',`modify_time`='1491529885' WHERE `goodId` = 17 [ RunTime:0.0005s ]
+SQL: SET FOREIGN_KEY_CHECKS = 1 [ RunTime:0.0001s ]
+
+[ 2017-04-07T09:52:00+08:00 ] ::1 /eshop/index.php/Good/eidtSave.html
+ERR: Cron:cron Runat 2017-04-07 09:52:00 Use 0.000295 s
+
+[ 2017-04-07T09:52:01+08:00 ] ::1 /eshop/index.php/Good/eidtSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000974s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.004923s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006569s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `eshop_shop` WHERE `shoperId` = 13 AND `is_exam` = 1 AND `is_forbid` = 0 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_firstmenu` [ RunTime:0.0075s ]
+SQL: SELECT `id`,`name` FROM `eshop_shop_firstmenu` WHERE `shopId` = 3 AND `is_show` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_secondmenu` [ RunTime:0.0058s ]
+SQL: SELECT `pid`,`id`,`sname` FROM `eshop_shop_secondmenu` WHERE `pid` IN ('1','5') AND `is_show` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0065s ]
+SQL: SHOW COLUMNS FROM `eshop_goodnav` [ RunTime:0.0135s ]
+SQL: SHOW COLUMNS FROM `eshop_goodservice` [ RunTime:0.0058s ]
+SQL: SHOW COLUMNS FROM `eshop_goodinfo` [ RunTime:0.0053s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `eshop_good` SET `marketPrice`='1.21',`shopPrice`='0.81',`stock`='34',`place`='广西桂林',`status`='1',`name`='咸鸭蛋',`stock_warning`='12',`is_recomend`='0',`is_hot`='1',`is_new`='0',`time`='1491529920',`modify_recenet`='1491529920' WHERE `id` = 17 [ RunTime:0.0006s ]
+SQL: SET FOREIGN_KEY_CHECKS = 0 [ RunTime:0.0002s ]
+SQL: UPDATE `eshop_goodnav` SET `w_fid`='3',`w_sid`='7',`w_tid`='10',`s_fid`='5',`s_sid`='2',`modify_time`='1491529920' WHERE `goodId` = 17 [ RunTime:0.0004s ]
+SQL: SET FOREIGN_KEY_CHECKS = 1 [ RunTime:0.0002s ]
+SQL: UPDATE `eshop_goodservice` SET `content`='',`modify_time`='1491529920' WHERE `goodId` = 17 [ RunTime:0.0004s ]
+SQL: SELECT * FROM `eshop_goodinfo` WHERE `goodId` = 17 AND `lableId` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: INSERT INTO `eshop_goodinfo` (`lableContent`,`goodId`) VALUES ('','17') [ RunTime:0.0004s ]
+SQL: SELECT * FROM `eshop_goodinfo` WHERE `goodId` = 17 AND `lableId` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `eshop_goodinfo` (`lableContent`,`goodId`) VALUES ('','17') [ RunTime:0.0003s ]
+SQL: SELECT * FROM `eshop_goodinfo` WHERE `goodId` = 17 AND `lableId` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `eshop_goodinfo` (`lableContent`,`goodId`) VALUES ('','17') [ RunTime:0.0002s ]
+SQL: SELECT * FROM `eshop_goodinfo` WHERE `goodId` = 17 AND `lableId` = 4 LIMIT 1   [ RunTime:0.6812s ]
+SQL: INSERT INTO `eshop_goodinfo` (`lableContent`,`goodId`) VALUES ('','17') [ RunTime:0.0004s ]
+SQL: SELECT * FROM `eshop_goodinfo` WHERE `goodId` = 17 AND `lableId` = 5 LIMIT 1   [ RunTime:0.0006s ]
+SQL: INSERT INTO `eshop_goodinfo` (`lableContent`,`goodId`) VALUES ('','17') [ RunTime:0.0004s ]
+SQL: SELECT * FROM `eshop_goodinfo` WHERE `goodId` = 17 AND `lableId` = 6 LIMIT 1   [ RunTime:0.0005s ]
+SQL: INSERT INTO `eshop_goodinfo` (`lableContent`,`goodId`) VALUES ('','17') [ RunTime:0.0003s ]
+SQL: SELECT * FROM `eshop_goodinfo` WHERE `goodId` = 17 AND `lableId` = 7 LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `eshop_goodinfo` (`lableContent`,`goodId`) VALUES ('0','17') [ RunTime:0.0003s ]
+SQL: SELECT * FROM `eshop_goodinfo` WHERE `goodId` = 17 AND `lableId` = 8 LIMIT 1   [ RunTime:0.0012s ]
+SQL: INSERT INTO `eshop_goodinfo` (`lableContent`,`goodId`) VALUES ('0','17') [ RunTime:0.0004s ]
+SQL: SELECT * FROM `eshop_goodinfo` WHERE `goodId` = 17 AND `lableId` = 9 LIMIT 1   [ RunTime:0.0005s ]
+SQL: INSERT INTO `eshop_goodinfo` (`lableContent`,`goodId`) VALUES ('','17') [ RunTime:0.0004s ]
+
+[ 2017-04-07T09:53:40+08:00 ] ::1 /eshop/index.php/Good/eidtSave.html
+ERR: Cron:cron Runat 2017-04-07 09:53:40 Use 0.000307 s
+
+[ 2017-04-07T09:53:40+08:00 ] ::1 /eshop/index.php/Good/eidtSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000956s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.005822s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007473s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `eshop_shop` WHERE `shoperId` = 13 AND `is_exam` = 1 AND `is_forbid` = 0 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_firstmenu` [ RunTime:0.0057s ]
+SQL: SELECT `id`,`name` FROM `eshop_shop_firstmenu` WHERE `shopId` = 3 AND `is_show` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_secondmenu` [ RunTime:0.0053s ]
+SQL: SELECT `pid`,`id`,`sname` FROM `eshop_shop_secondmenu` WHERE `pid` IN ('1','5') AND `is_show` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0055s ]
+SQL: SHOW COLUMNS FROM `eshop_goodnav` [ RunTime:0.0059s ]
+SQL: SHOW COLUMNS FROM `eshop_goodservice` [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `eshop_goodinfo` [ RunTime:0.0064s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `eshop_good` SET `marketPrice`='1.21',`shopPrice`='0.81',`stock`='34',`place`='广西桂林',`status`='1',`name`='咸鸭蛋',`stock_warning`='12',`is_recomend`='0',`is_hot`='1',`is_new`='0',`time`='1491530020',`modify_recenet`='1491530020' WHERE `id` = 17 [ RunTime:0.0004s ]
+SQL: SET FOREIGN_KEY_CHECKS = 0 [ RunTime:0.0001s ]
+SQL: UPDATE `eshop_goodnav` SET `w_fid`='3',`w_sid`='7',`w_tid`='10',`s_fid`='5',`s_sid`='2',`modify_time`='1491530020' WHERE `goodId` = 17 [ RunTime:0.0003s ]
+SQL: SET FOREIGN_KEY_CHECKS = 1 [ RunTime:0.0001s ]
+SQL: UPDATE `eshop_goodservice` SET `content`='',`modify_time`='1491530020' WHERE `goodId` = 17 [ RunTime:0.0003s ]
+SQL: SELECT * FROM `eshop_goodinfo` WHERE `goodId` = 17 AND `lableId` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `eshop_goodinfo` (`lableContent`,`goodId`) VALUES ('','17') [ RunTime:0.0003s ]
+SQL: SELECT * FROM `eshop_goodinfo` WHERE `goodId` = 17 AND `lableId` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `eshop_goodinfo` (`lableContent`,`goodId`) VALUES ('','17') [ RunTime:0.0002s ]
+SQL: SELECT * FROM `eshop_goodinfo` WHERE `goodId` = 17 AND `lableId` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `eshop_goodinfo` (`lableContent`,`goodId`) VALUES ('','17') [ RunTime:0.0002s ]
+SQL: SELECT * FROM `eshop_goodinfo` WHERE `goodId` = 17 AND `lableId` = 4 LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `eshop_goodinfo` (`lableContent`,`goodId`) VALUES ('','17') [ RunTime:0.0003s ]
+SQL: SELECT * FROM `eshop_goodinfo` WHERE `goodId` = 17 AND `lableId` = 5 LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `eshop_goodinfo` (`lableContent`,`goodId`) VALUES ('','17') [ RunTime:0.0002s ]
+SQL: SELECT * FROM `eshop_goodinfo` WHERE `goodId` = 17 AND `lableId` = 6 LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `eshop_goodinfo` (`lableContent`,`goodId`) VALUES ('','17') [ RunTime:0.0002s ]
+SQL: SELECT * FROM `eshop_goodinfo` WHERE `goodId` = 17 AND `lableId` = 7 LIMIT 1   [ RunTime:0.3585s ]
+SQL: INSERT INTO `eshop_goodinfo` (`lableContent`,`goodId`) VALUES ('0','17') [ RunTime:0.0004s ]
+SQL: SELECT * FROM `eshop_goodinfo` WHERE `goodId` = 17 AND `lableId` = 8 LIMIT 1   [ RunTime:0.0009s ]
+SQL: INSERT INTO `eshop_goodinfo` (`lableContent`,`goodId`) VALUES ('0','17') [ RunTime:0.0005s ]
+SQL: SELECT * FROM `eshop_goodinfo` WHERE `goodId` = 17 AND `lableId` = 9 LIMIT 1   [ RunTime:0.0006s ]
+SQL: INSERT INTO `eshop_goodinfo` (`lableContent`,`goodId`) VALUES ('','17') [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_goodimg` [ RunTime:0.0092s ]
+SQL: INSERT INTO `eshop_goodimg` (`goodId`,`img`,`thumb_img`,`createtime`) VALUES ('17','Uploads/Shops/goods/2017-04-07/58e6ef963c800.jpg','Uploads/Shops/goods/2017-04-07/thumb150_58e6ef963c800.jpg','1491530020') [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: logo D:\wampserver\wamp\www\eshop\App\Home\Controller\GoodController.class.php 第 261 行.
+NOTIC: [2] unlink(): Invalid argument D:\wampserver\wamp\www\eshop\App\Home\Controller\GoodController.class.php 第 261 行.
+NOTIC: [8] Undefined variable: logo D:\wampserver\wamp\www\eshop\App\Home\Controller\GoodController.class.php 第 283 行.
+NOTIC: [2] unlink(): Invalid argument D:\wampserver\wamp\www\eshop\App\Home\Controller\GoodController.class.php 第 283 行.
+
+[ 2017-04-07T09:54:04+08:00 ] ::1 /eshop/index.php/Home/Good/info/id/17.html
+ERR: Cron:cron Runat 2017-04-07 09:54:04 Use 0.000343 s
+
+[ 2017-04-07T09:54:56+08:00 ] ::1 /eshop/index.php/Home/Good/audit.html
+ERR: Cron:cron Runat 2017-04-07 09:54:56 Use 0.000433 s
+
+[ 2017-04-07T09:55:10+08:00 ] ::1 /eshop/index.php/Home/Good/edit/id/17/src/audit.html
+ERR: Cron:cron Runat 2017-04-07 09:55:10 Use 0.000384 s
+
+[ 2017-04-07T09:55:30+08:00 ] ::1 /eshop/index.php/Home/Good/edit/id/17/src/audit.html
+ERR: Cron:cron Runat 2017-04-07 09:55:30 Use 0.000382 s
+
+[ 2017-04-07T09:55:35+08:00 ] ::1 /eshop/index.php/Home/Shop/index.html
+ERR: Cron:cron Runat 2017-04-07 09:55:35 Use 0.001079 s
+
+[ 2017-04-07T09:56:19+08:00 ] ::1 /eshop/index.php/Home/Good/edit/id/17/src/audit.html
+ERR: Cron:cron Runat 2017-04-07 09:56:19 Use 0.000365 s
+
+[ 2017-04-07T09:56:21+08:00 ] ::1 /eshop/index.php/Home/Good/onsale.html
+ERR: Cron:cron Runat 2017-04-07 09:56:21 Use 0.000376 s
+
+[ 2017-04-07T09:56:53+08:00 ] ::1 /eshop/index.php/Home/Good/onsale.html
+ERR: Cron:cron Runat 2017-04-07 09:56:53 Use 0.000373 s
+
+[ 2017-04-07T09:57:01+08:00 ] ::1 /eshop/index.php/Home/Good/audit.html
+ERR: Cron:cron Runat 2017-04-07 09:57:01 Use 0.000355 s
+
+[ 2017-04-07T09:57:03+08:00 ] ::1 /eshop/index.php/Home/Good/store.html
+ERR: Cron:cron Runat 2017-04-07 09:57:03 Use 0.000410 s
+
+[ 2017-04-07T09:57:05+08:00 ] ::1 /eshop/index.php/Home/Good/onsale.html
+ERR: Cron:cron Runat 2017-04-07 09:57:05 Use 0.000470 s
+
+[ 2017-04-07T09:57:07+08:00 ] ::1 /eshop/index.php/Home/Good/stock.html
+ERR: Cron:cron Runat 2017-04-07 09:57:07 Use 0.000352 s
+
+[ 2017-04-07T09:57:10+08:00 ] ::1 /eshop/index.php/Home/Good/audit.html
+ERR: Cron:cron Runat 2017-04-07 09:57:10 Use 0.000370 s
+
+[ 2017-04-07T09:57:13+08:00 ] ::1 /eshop/index.php/Home/Good/onsale.html
+ERR: Cron:cron Runat 2017-04-07 09:57:13 Use 0.000409 s
+
+[ 2017-04-07T09:58:11+08:00 ] ::1 /eshop/index.php/Home/Shop/index.html
+ERR: Cron:cron Runat 2017-04-07 09:58:11 Use 0.000355 s
+
+[ 2017-04-07T09:59:14+08:00 ] ::1 /eshop/index.php/Home/Shop/goods_info.html
+ERR: Cron:cron Runat 2017-04-07 09:59:14 Use 0.000335 s
+
+[ 2017-04-07T09:59:14+08:00 ] ::1 /eshop/index.php/Home/Shop/goods_info.html
+ERR: 非法操作:goods_info
+
+[ 2017-04-07T09:59:38+08:00 ] ::1 /eshop/index.php/Home/Good/info/id/17.html
+ERR: Cron:cron Runat 2017-04-07 09:59:38 Use 0.000367 s
+
+[ 2017-04-07T09:59:42+08:00 ] ::1 /eshop/index.php/Home/Good/onsale.html
+ERR: Cron:cron Runat 2017-04-07 09:59:42 Use 0.000329 s
+
+[ 2017-04-07T09:59:47+08:00 ] ::1 /eshop/index.php/Home/Good/edit/id/15/src/audit.html
+ERR: Cron:cron Runat 2017-04-07 09:59:47 Use 0.000380 s
+
+[ 2017-04-07T10:00:16+08:00 ] ::1 /eshop/index.php/Home/Good/edit/id/15/src/audit.html
+ERR: Cron:cron Runat 2017-04-07 10:00:16 Use 0.000397 s
+
+[ 2017-04-07T10:03:17+08:00 ] ::1 /eshop/index.php/Home/Good/edit/id/15/src/audit.html
+ERR: Cron:cron Runat 2017-04-07 10:03:17 Use 0.000296 s
+
+[ 2017-04-07T10:04:04+08:00 ] ::1 /eshop/index.php/Home/Good/edit/id/15/src/audit.html
+ERR: Cron:cron Runat 2017-04-07 10:04:04 Use 0.000403 s
+
+[ 2017-04-07T10:05:53+08:00 ] ::1 /eshop/index.php/Home/Good/edit/id/15/src/audit.html
+ERR: Cron:cron Runat 2017-04-07 10:05:53 Use 0.000411 s
+
+[ 2017-04-07T10:06:21+08:00 ] ::1 /eshop/index.php/Home/Good/edit/id/15/src/audit.html
+ERR: Cron:cron Runat 2017-04-07 10:06:21 Use 0.000404 s
+
+[ 2017-04-07T10:06:45+08:00 ] ::1 /eshop/index.php/Home/Good/edit/id/15/src/audit.html
+ERR: Cron:cron Runat 2017-04-07 10:06:45 Use 0.000367 s
+
+[ 2017-04-07T10:07:54+08:00 ] ::1 /eshop/index.php/Home/Good/edit/id/15/src/audit.html
+ERR: Cron:cron Runat 2017-04-07 10:07:54 Use 0.000324 s
+
+[ 2017-04-07T10:08:14+08:00 ] ::1 /eshop/index.php/Home/Good/edit/id/15/src/audit.html
+ERR: Cron:cron Runat 2017-04-07 10:08:14 Use 0.000353 s
+
+[ 2017-04-07T10:08:27+08:00 ] ::1 /eshop/index.php/Good/eidtSave.html
+ERR: Cron:cron Runat 2017-04-07 10:08:27 Use 0.000321 s
+
+[ 2017-04-07T10:08:27+08:00 ] ::1 /eshop/index.php/Good/eidtSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000745s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.004797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006153s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `eshop_shop` WHERE `shoperId` = 13 AND `is_exam` = 1 AND `is_forbid` = 0 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_firstmenu` [ RunTime:0.0051s ]
+SQL: SELECT `id`,`name` FROM `eshop_shop_firstmenu` WHERE `shopId` = 3 AND `is_show` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_secondmenu` [ RunTime:0.0052s ]
+SQL: SELECT `pid`,`id`,`sname` FROM `eshop_shop_secondmenu` WHERE `pid` IN ('1','5') AND `is_show` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0049s ]
+SQL: SHOW COLUMNS FROM `eshop_goodnav` [ RunTime:0.0052s ]
+SQL: SHOW COLUMNS FROM `eshop_goodservice` [ RunTime:0.0051s ]
+SQL: SHOW COLUMNS FROM `eshop_goodinfo` [ RunTime:0.0047s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `eshop_good` SET `marketPrice`='3.40',`shopPrice`='2.81',`stock`='234',`place`='江苏',`status`='1',`name`='树懒果园6个精选大果1-2kg',`stock_warning`='23',`is_recomend`='1',`is_hot`='1',`is_new`='1',`time`='1491530907',`modify_recenet`='1491530907' WHERE `id` = 15 [ RunTime:0.0005s ]
+SQL: SET FOREIGN_KEY_CHECKS = 0 [ RunTime:0.0002s ]
+SQL: UPDATE `eshop_goodnav` SET `w_fid`='2',`w_sid`='3',`w_tid`='0',`s_fid`='5',`s_sid`='17',`modify_time`='1491530907' WHERE `goodId` = 15 [ RunTime:0.0003s ]
+SQL: SET FOREIGN_KEY_CHECKS = 1 [ RunTime:0.0001s ]
+SQL: UPDATE `eshop_goodservice` SET `content`='&lt;p&gt;水蜜桃很甜，可口，多吃对身体有好处。&lt;br/&gt;&lt;/p&gt;',`modify_time`='1491530907' WHERE `goodId` = 15 [ RunTime:0.0003s ]
+SQL: SELECT * FROM `eshop_goodinfo` WHERE `goodId` = 15 AND `lableId` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `eshop_goodinfo` SET `lableContent`='0.5斤一个1' WHERE `goodId` = 15 AND `lableId` = 1 [ RunTime:0.0003s ]
+SQL: SELECT * FROM `eshop_goodinfo` WHERE `goodId` = 15 AND `lableId` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `eshop_goodinfo` SET `lableContent`='袋装1' WHERE `goodId` = 15 AND `lableId` = 2 [ RunTime:0.0003s ]
+SQL: SELECT * FROM `eshop_goodinfo` WHERE `goodId` = 15 AND `lableId` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `eshop_goodinfo` SET `lableContent`='蜜桃1' WHERE `goodId` = 15 AND `lableId` = 3 [ RunTime:0.0005s ]
+SQL: SELECT * FROM `eshop_goodinfo` WHERE `goodId` = 15 AND `lableId` = 4 LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `eshop_goodinfo` SET `lableContent`='2017-03-04' WHERE `goodId` = 15 AND `lableId` = 4 [ RunTime:0.0005s ]
+SQL: SELECT * FROM `eshop_goodinfo` WHERE `goodId` = 15 AND `lableId` = 5 LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `eshop_goodinfo` SET `lableContent`='冷藏下60天' WHERE `goodId` = 15 AND `lableId` = 5 [ RunTime:0.0004s ]
+SQL: SELECT * FROM `eshop_goodinfo` WHERE `goodId` = 15 AND `lableId` = 6 LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `eshop_goodinfo` SET `lableContent`='冷藏1' WHERE `goodId` = 15 AND `lableId` = 6 [ RunTime:0.0004s ]
+SQL: SELECT * FROM `eshop_goodinfo` WHERE `goodId` = 15 AND `lableId` = 7 LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `eshop_goodinfo` SET `lableContent`='0' WHERE `goodId` = 15 AND `lableId` = 7 [ RunTime:0.0004s ]
+SQL: SELECT * FROM `eshop_goodinfo` WHERE `goodId` = 15 AND `lableId` = 8 LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `eshop_goodinfo` SET `lableContent`='1' WHERE `goodId` = 15 AND `lableId` = 8 [ RunTime:0.0004s ]
+SQL: SELECT * FROM `eshop_goodinfo` WHERE `goodId` = 15 AND `lableId` = 9 LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `eshop_goodinfo` SET `lableContent`='免邮1' WHERE `goodId` = 15 AND `lableId` = 9 [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: logo D:\wampserver\wamp\www\eshop\App\Home\Controller\GoodController.class.php 第 283 行.
+NOTIC: [2] unlink(): Invalid argument D:\wampserver\wamp\www\eshop\App\Home\Controller\GoodController.class.php 第 283 行.
+
+[ 2017-04-07T10:09:04+08:00 ] ::1 /eshop/index.php/Home/Good/edit/id/15/src/audit.html
+ERR: Cron:cron Runat 2017-04-07 10:09:04 Use 0.000331 s
+
+[ 2017-04-07T10:09:18+08:00 ] ::1 /eshop/index.php/Home/Good/info/id/17.html
+ERR: Cron:cron Runat 2017-04-07 10:09:18 Use 0.000271 s
+
+[ 2017-04-07T10:09:30+08:00 ] ::1 /eshop/index.php/Home/Shop/index.html
+ERR: Cron:cron Runat 2017-04-07 10:09:30 Use 0.000282 s
+
+[ 2017-04-07T10:10:37+08:00 ] ::1 /eshop/index.php/Home/Shop/index.html
+ERR: Cron:cron Runat 2017-04-07 10:10:37 Use 0.000396 s
+
+[ 2017-04-07T10:13:34+08:00 ] ::1 /eshop/index.php/Help/index.html
+ERR: Cron:cron Runat 2017-04-07 10:13:34 Use 0.000318 s
+
+[ 2017-04-07T10:13:39+08:00 ] ::1 /eshop/index.php/Help/index.html
+ERR: Cron:cron Runat 2017-04-07 10:13:39 Use 0.000420 s
+
+[ 2017-04-07T10:16:33+08:00 ] ::1 /eshop/index.php/Home/Shop/index.html
+ERR: Cron:cron Runat 2017-04-07 10:16:33 Use 0.000538 s
+
+[ 2017-04-07T10:17:47+08:00 ] ::1 /eshop/index.php/Home/Shop/index.html
+ERR: Cron:cron Runat 2017-04-07 10:17:47 Use 0.000295 s
+
+[ 2017-04-07T10:18:36+08:00 ] ::1 /eshop/index.php/Home/Shop/index.html
+ERR: Cron:cron Runat 2017-04-07 10:18:36 Use 0.000389 s
+
+[ 2017-04-07T10:23:29+08:00 ] ::1 /eshop/index.php/Home/Shop/index.html
+ERR: Cron:cron Runat 2017-04-07 10:23:29 Use 0.000363 s
+
+[ 2017-04-07T10:30:01+08:00 ] ::1 /eshop/index.php/Home/Good/edit/id/15/src/audit.html
+ERR: Cron:cron Runat 2017-04-07 10:30:01 Use 0.000267 s
+
+[ 2017-04-07T10:30:10+08:00 ] ::1 /eshop/index.php/Home/Shop/index.html
+ERR: Cron:cron Runat 2017-04-07 10:30:10 Use 0.000313 s
+
+[ 2017-04-07T10:31:13+08:00 ] ::1 /eshop/index.php/Home/Shop/index.html
+ERR: Cron:cron Runat 2017-04-07 10:31:13 Use 0.000488 s
+
+[ 2017-04-07T10:35:01+08:00 ] ::1 /eshop/index.php/Home/Shop/index.html
+ERR: Cron:cron Runat 2017-04-07 10:35:01 Use 0.000346 s
+
+[ 2017-04-07T10:35:12+08:00 ] ::1 /eshop/index.php/Home/Shop/index/id/3.html
+ERR: Cron:cron Runat 2017-04-07 10:35:12 Use 0.000331 s
+
+[ 2017-04-07T10:35:32+08:00 ] ::1 /eshop/index.php/Home/Shop/index/id/3.html
+ERR: Cron:cron Runat 2017-04-07 10:35:32 Use 0.000304 s
+
+[ 2017-04-07T10:35:37+08:00 ] ::1 /eshop/index.php/Home/Good/edit/id/15/src/audit.html
+ERR: Cron:cron Runat 2017-04-07 10:35:37 Use 0.000430 s
+
+[ 2017-04-07T10:35:42+08:00 ] ::1 /eshop/index.php/Home/Shop/index/id/3.html
+ERR: Cron:cron Runat 2017-04-07 10:35:42 Use 0.000459 s
+
+[ 2017-04-07T10:36:58+08:00 ] ::1 /eshop/index.php/Home/Shop/index/id/3.html
+ERR: Cron:cron Runat 2017-04-07 10:36:58 Use 0.000438 s
+
+[ 2017-04-07T10:37:01+08:00 ] ::1 /eshop/index.php/Home/Good/edit/id/15/src/audit.html
+ERR: Cron:cron Runat 2017-04-07 10:37:01 Use 0.000388 s
+
+[ 2017-04-07T10:37:05+08:00 ] ::1 /eshop/index.php/Home/Shop/index/shopId/3.html
+ERR: Cron:cron Runat 2017-04-07 10:37:05 Use 0.000293 s
+
+[ 2017-04-07T10:37:34+08:00 ] ::1 /eshop/index.php/Home/Shop/index/shopId/3.html
+ERR: Cron:cron Runat 2017-04-07 10:37:34 Use 0.000409 s
+
+[ 2017-04-07T10:37:53+08:00 ] ::1 /eshop/index.php/Home/Shop/index/shopId/3.html
+ERR: Cron:cron Runat 2017-04-07 10:37:53 Use 0.000462 s
+
+[ 2017-04-07T10:37:56+08:00 ] ::1 /eshop/index.php/Home/Shop/index/shopId/3.html
+ERR: Cron:cron Runat 2017-04-07 10:37:56 Use 0.000381 s
+
+[ 2017-04-07T10:38:14+08:00 ] ::1 /eshop/index.php/Home/Shop/index/shopId/3.html
+ERR: Cron:cron Runat 2017-04-07 10:38:14 Use 0.000366 s
+
+[ 2017-04-07T10:42:04+08:00 ] ::1 /eshop/index.php/Home/Shop/index/shopId/3.html
+ERR: Cron:cron Runat 2017-04-07 10:42:04 Use 0.000358 s
+
+[ 2017-04-07T10:42:24+08:00 ] ::1 /eshop/index.php/Home/Shop/index/shopId/3.html
+ERR: Cron:cron Runat 2017-04-07 10:42:24 Use 0.000423 s
+
+[ 2017-04-07T10:42:48+08:00 ] ::1 /eshop/index.php/Home/Shop/index/shopId/3.html
+ERR: Cron:cron Runat 2017-04-07 10:42:48 Use 0.000610 s
+
+[ 2017-04-07T10:43:02+08:00 ] ::1 /eshop/index.php/Home/Shop/index/shopId/3.html
+ERR: Cron:cron Runat 2017-04-07 10:43:02 Use 0.000352 s
+
+[ 2017-04-07T10:45:57+08:00 ] ::1 /eshop/index.php/Home/Shop/index/shopId/3.html
+ERR: Cron:cron Runat 2017-04-07 10:45:57 Use 0.000361 s
+
+[ 2017-04-07T10:51:27+08:00 ] ::1 /eshop/index.php/Home/ShopManage/index.html
+ERR: Cron:cron Runat 2017-04-07 10:51:27 Use 0.000378 s
+
+[ 2017-04-07T10:55:21+08:00 ] ::1 /eshop/index.php/Home/ShopManage/index.html
+ERR: Cron:cron Runat 2017-04-07 10:55:21 Use 0.000405 s
+
+[ 2017-04-07T10:55:25+08:00 ] ::1 /eshop/index.php/Home/ShopManage/index.html
+ERR: Cron:cron Runat 2017-04-07 10:55:25 Use 0.000364 s
+
+[ 2017-04-07T10:57:28+08:00 ] ::1 /eshop/index.php/Home/ShopManage/index.html
+ERR: Cron:cron Runat 2017-04-07 10:57:28 Use 0.000393 s
+
+[ 2017-04-07T10:57:55+08:00 ] ::1 /eshop/index.php/Home/Shop/index/shopId/3.html
+ERR: Cron:cron Runat 2017-04-07 10:57:55 Use 0.000505 s
+
+[ 2017-04-07T10:58:12+08:00 ] ::1 /eshop/index.php/Home/Shop/index/shopId/3.html
+ERR: Cron:cron Runat 2017-04-07 10:58:12 Use 0.000332 s
+
+[ 2017-04-07T11:00:32+08:00 ] ::1 /eshop/index.php/Home/ShopManage/index.html
+ERR: Cron:cron Runat 2017-04-07 11:00:32 Use 0.000383 s
+
+[ 2017-04-07T11:00:49+08:00 ] ::1 /eshop/index.php/Home/ShopManage/index.html
+ERR: Cron:cron Runat 2017-04-07 11:00:49 Use 0.000342 s
+
+[ 2017-04-07T11:00:56+08:00 ] ::1 /eshop/index.php/Home/Shop/index/shopId/3.html
+ERR: Cron:cron Runat 2017-04-07 11:00:56 Use 0.000470 s
+
+[ 2017-04-07T11:01:01+08:00 ] ::1 /eshop/index.php/Home/Shop/index/shopId/3.html
+ERR: Cron:cron Runat 2017-04-07 11:01:01 Use 0.000316 s
+
+[ 2017-04-07T11:01:58+08:00 ] ::1 /eshop/index.php/Home/Shop/index/shopId/3.html
+ERR: Cron:cron Runat 2017-04-07 11:01:58 Use 0.000407 s
+
+[ 2017-04-07T11:02:28+08:00 ] ::1 /eshop/index.php/Home/Shop/index/shopId/3.html
+ERR: Cron:cron Runat 2017-04-07 11:02:28 Use 0.000395 s
+
+[ 2017-04-07T11:02:30+08:00 ] ::1 /eshop/index.php/Home/ShopManage/index.html
+ERR: Cron:cron Runat 2017-04-07 11:02:30 Use 0.000464 s
+
+[ 2017-04-07T11:02:33+08:00 ] ::1 /eshop/index.php/Home/ShopManage/info.html
+ERR: Cron:cron Runat 2017-04-07 11:02:33 Use 0.000326 s
+
+[ 2017-04-07T11:11:12+08:00 ] ::1 /eshop/index.php/Home/Shop/index/shopId/3.html
+ERR: Cron:cron Runat 2017-04-07 11:11:12 Use 0.000412 s
+
+[ 2017-04-07T11:11:12+08:00 ] ::1 /eshop/index.php/Home/Shop/index/shopId/3.html
+ERR: Think\Model:jion方法不存在！
+
+[ 2017-04-07T11:11:23+08:00 ] ::1 /eshop/index.php/Home/Shop/index/shopId/3.html
+ERR: Cron:cron Runat 2017-04-07 11:11:23 Use 0.000295 s
+
+[ 2017-04-07T11:11:46+08:00 ] ::1 /eshop/index.php/Home/Shop/index/shopId/3.html
+ERR: Cron:cron Runat 2017-04-07 11:11:46 Use 0.000256 s
+
+[ 2017-04-07T11:16:54+08:00 ] ::1 /eshop/index.php/Home/Shop/index/shopId/3.html
+ERR: Cron:cron Runat 2017-04-07 11:16:54 Use 0.000344 s
+
+[ 2017-04-07T11:17:09+08:00 ] ::1 /eshop/index.php/Home/Shop/index/shopId/3.html
+ERR: Cron:cron Runat 2017-04-07 11:17:09 Use 0.000381 s
+
+[ 2017-04-07T11:21:09+08:00 ] ::1 /eshop/index.php/Home/Shop/index/shopId/3.html
+ERR: Cron:cron Runat 2017-04-07 11:21:09 Use 0.000377 s
+
+[ 2017-04-07T11:22:38+08:00 ] ::1 /eshop/index.php/Home/ShopManage/info.html
+ERR: Cron:cron Runat 2017-04-07 11:22:38 Use 0.000368 s
+
+[ 2017-04-07T11:24:20+08:00 ] ::1 /eshop/index.php/Home/Shop/index/moreList.html
+ERR: Cron:cron Runat 2017-04-07 11:24:20 Use 0.000383 s
+
+[ 2017-04-07T11:24:20+08:00 ] ::1 /eshop/index.php/Home/Shop/index/moreList.html
+ERR: 页面不存在！
+
+[ 2017-04-07T11:24:33+08:00 ] ::1 /eshop/index.php/Home/Shop/moreList.html
+ERR: Cron:cron Runat 2017-04-07 11:24:33 Use 0.000348 s
+
+[ 2017-04-07T11:24:33+08:00 ] ::1 /eshop/index.php/Home/Shop/moreList.html
+ERR: 页面不存在！
+
+[ 2017-04-07T11:25:25+08:00 ] ::1 /eshop/index.php/Home/Shop/index/moreList.html
+ERR: Cron:cron Runat 2017-04-07 11:25:25 Use 0.000482 s
+
+[ 2017-04-07T11:25:25+08:00 ] ::1 /eshop/index.php/Home/Shop/index/moreList.html
+ERR: 页面不存在！
+
+[ 2017-04-07T11:27:48+08:00 ] ::1 /eshop/index.php/Home/Shop/index/shopId/3.html
+ERR: Cron:cron Runat 2017-04-07 11:27:48 Use 0.000358 s
+
+[ 2017-04-07T11:28:25+08:00 ] ::1 /eshop/index.php/Home/Shop/index/shopId/3.html
+ERR: Cron:cron Runat 2017-04-07 11:28:25 Use 0.000359 s
+
+[ 2017-04-07T11:29:29+08:00 ] ::1 /eshop/index.php/Home/Shop/index/shopId/3.html
+ERR: Cron:cron Runat 2017-04-07 11:29:29 Use 0.000394 s
+
+[ 2017-04-07T11:29:34+08:00 ] ::1 /eshop/index.php/Shop/moreList/shopId/3.html
+ERR: Cron:cron Runat 2017-04-07 11:29:34 Use 0.000369 s
+
+[ 2017-04-07T11:29:43+08:00 ] ::1 /eshop/index.php/Shop/moreList/shopId/3.html
+ERR: Cron:cron Runat 2017-04-07 11:29:43 Use 0.000370 s
+
+[ 2017-04-07T11:29:48+08:00 ] ::1 /eshop/index.php/Shop/moreList/shopId/3.html
+ERR: Cron:cron Runat 2017-04-07 11:29:48 Use 0.000372 s
+
+[ 2017-04-07T11:30:20+08:00 ] ::1 /eshop/index.php/Shop/moreList/shopId/3.html
+ERR: Cron:cron Runat 2017-04-07 11:30:20 Use 0.000401 s
+
+[ 2017-04-07T11:30:23+08:00 ] ::1 /eshop/index.php/Home/Shop/index/shopId/3.html
+ERR: Cron:cron Runat 2017-04-07 11:30:23 Use 0.000415 s
+
+[ 2017-04-07T11:30:25+08:00 ] ::1 /eshop/index.php/Shop/moreList/shopId/3.html
+ERR: Cron:cron Runat 2017-04-07 11:30:25 Use 0.000370 s
+
+[ 2017-04-07T11:30:56+08:00 ] ::1 /eshop/index.php/Home/Index/index.html
+ERR: Cron:cron Runat 2017-04-07 11:30:56 Use 0.000393 s
+
+[ 2017-04-07T11:32:06+08:00 ] ::1 /eshop/index.php/Home/Index/index.html
+ERR: Cron:cron Runat 2017-04-07 11:32:06 Use 0.000354 s
+
+[ 2017-04-07T11:34:55+08:00 ] ::1 /eshop/index.php/Home/Shop/index/shopId/3.html
+ERR: Cron:cron Runat 2017-04-07 11:34:55 Use 0.000364 s
+
+[ 2017-04-07T19:03:32+08:00 ] ::1 /eshop/index.php/Home/Shop/index/shopId/3.html
+ERR: Cron:cron Runat 2017-04-07 19:03:32 Use 0.000387 s
+
+[ 2017-04-07T19:16:59+08:00 ] ::1 /eshop/index.php/Home/Index/index.html
+ERR: Cron:cron Runat 2017-04-07 19:16:59 Use 0.000447 s
+
+[ 2017-04-07T19:17:04+08:00 ] ::1 /eshop/index.php/Home/Index/moreGoods.html
+ERR: Cron:cron Runat 2017-04-07 19:17:04 Use 0.000527 s
+
+[ 2017-04-07T19:34:58+08:00 ] ::1 /eshop/index.php/Home/Index/goods_info.html
+ERR: Cron:cron Runat 2017-04-07 19:34:58 Use 0.000354 s
+
+[ 2017-04-07T19:34:58+08:00 ] ::1 /eshop/index.php/Home/Index/goods_info.html
+ERR: 非法操作:goods_info
+
+[ 2017-04-07T19:35:03+08:00 ] ::1 /eshop/index.php/Home/Good/store.html
+ERR: Cron:cron Runat 2017-04-07 19:35:03 Use 0.000338 s
+
+[ 2017-04-07T19:35:05+08:00 ] ::1 /eshop/index.php/Home/Good/onsale.html
+ERR: Cron:cron Runat 2017-04-07 19:35:05 Use 0.000400 s
+
+[ 2017-04-07T19:35:08+08:00 ] ::1 /eshop/index.php/Home/Good/info/id/15.html
+ERR: Cron:cron Runat 2017-04-07 19:35:08 Use 0.000343 s
+
+[ 2017-04-07T20:45:56+08:00 ] ::1 /eshop/index.php/Home/Good/onsale.html
+ERR: Cron:cron Runat 2017-04-07 20:45:56 Use 0.000569 s
+
+[ 2017-04-07T20:46:00+08:00 ] ::1 /eshop/index.php/Home/Good/onsale.html
+ERR: Cron:cron Runat 2017-04-07 20:46:00 Use 0.000463 s
+
+[ 2017-04-07T20:46:04+08:00 ] ::1 /eshop/index.php/Home/Good/info/id/15.html
+ERR: Cron:cron Runat 2017-04-07 20:46:04 Use 0.000579 s
+
+[ 2017-04-07T20:46:12+08:00 ] ::1 /eshop/index.php/Home/Good/info/id/17.html
+ERR: Cron:cron Runat 2017-04-07 20:46:12 Use 0.000302 s
+
+[ 2017-04-07T20:47:47+08:00 ] ::1 /eshop/index.php/Home/Good/info/id/17.html
+ERR: Cron:cron Runat 2017-04-07 20:47:47 Use 0.000387 s
+
+[ 2017-04-07T20:47:55+08:00 ] ::1 /eshop/index.php/Home/Good/info/id/15.html
+ERR: Cron:cron Runat 2017-04-07 20:47:55 Use 0.000915 s
+
+[ 2017-04-07T20:48:09+08:00 ] ::1 /eshop/index.php/Home/Good/info/id/15.html
+ERR: Cron:cron Runat 2017-04-07 20:48:09 Use 0.000340 s
+
+[ 2017-04-07T20:54:45+08:00 ] ::1 /eshop/index.php/Home/Good/info/id/15.html
+ERR: Cron:cron Runat 2017-04-07 20:54:45 Use 0.000301 s
+
+[ 2017-04-07T20:54:48+08:00 ] ::1 /eshop/index.php/Home/Good/info/id/15.html
+ERR: Cron:cron Runat 2017-04-07 20:54:48 Use 0.000296 s
+
+[ 2017-04-07T20:54:50+08:00 ] ::1 /eshop/index.php/Home/Good/info/id/15.html
+ERR: Cron:cron Runat 2017-04-07 20:54:50 Use 0.000306 s
+
+[ 2017-04-07T20:54:52+08:00 ] ::1 /eshop/index.php/Home/Good/info/id/17.html
+ERR: Cron:cron Runat 2017-04-07 20:54:52 Use 0.000540 s
+
+[ 2017-04-07T20:55:13+08:00 ] ::1 /eshop/index.php/Home/Good/info/id/17.html
+ERR: Cron:cron Runat 2017-04-07 20:55:13 Use 0.000770 s
+
+[ 2017-04-07T20:57:36+08:00 ] ::1 /eshop/index.php/Home/Good/info/id/15.html
+ERR: Cron:cron Runat 2017-04-07 20:57:36 Use 0.000350 s
+
+[ 2017-04-07T20:57:46+08:00 ] ::1 /eshop/index.php/Home/Good/info/id/15.html
+ERR: Cron:cron Runat 2017-04-07 20:57:46 Use 0.000397 s
+
+[ 2017-04-07T20:57:50+08:00 ] ::1 /eshop/index.php/Home/Good/onsale.html
+ERR: Cron:cron Runat 2017-04-07 20:57:50 Use 0.000372 s
+
+[ 2017-04-07T20:57:52+08:00 ] ::1 /eshop/index.php/Home/Good/info/id/10.html
+ERR: Cron:cron Runat 2017-04-07 20:57:52 Use 0.000300 s
+
+[ 2017-04-07T20:58:53+08:00 ] ::1 /eshop/index.php/Home/Good/info/id/10.html
+ERR: Cron:cron Runat 2017-04-07 20:58:53 Use 0.000386 s
+
+[ 2017-04-07T20:59:24+08:00 ] ::1 /eshop/index.php/Home/Good/info/id/10.html
+ERR: Cron:cron Runat 2017-04-07 20:59:24 Use 0.000613 s
+
+[ 2017-04-07T20:59:54+08:00 ] ::1 /eshop/index.php/Home/Good/info/id/10.html
+ERR: Cron:cron Runat 2017-04-07 20:59:54 Use 0.004479 s
+
+[ 2017-04-07T21:00:33+08:00 ] ::1 /eshop/index.php/Home/Good/info/id/10.html
+ERR: Cron:cron Runat 2017-04-07 21:00:33 Use 0.000320 s
+
+[ 2017-04-07T21:00:48+08:00 ] ::1 /eshop/index.php/Home/Good/info/id/10.html
+ERR: Cron:cron Runat 2017-04-07 21:00:48 Use 0.000403 s
+
+[ 2017-04-07T21:02:18+08:00 ] ::1 /eshop/index.php/Home/Good/info/id/10.html
+ERR: Cron:cron Runat 2017-04-07 21:02:18 Use 0.000424 s
+
+[ 2017-04-07T21:02:24+08:00 ] ::1 /eshop/index.php/Home/Good/info/id/10.html
+ERR: Cron:cron Runat 2017-04-07 21:02:24 Use 0.000357 s
+
+[ 2017-04-07T21:02:36+08:00 ] ::1 /eshop/index.php/Home/Good/info/id/10.html
+ERR: Cron:cron Runat 2017-04-07 21:02:36 Use 0.000442 s
+
+[ 2017-04-07T21:05:36+08:00 ] ::1 /eshop/index.php/Home/Good/onsale.html
+ERR: Cron:cron Runat 2017-04-07 21:05:36 Use 0.000367 s
+
+[ 2017-04-07T21:05:39+08:00 ] ::1 /eshop/index.php/Home/Good/info/id/13.html
+ERR: Cron:cron Runat 2017-04-07 21:05:39 Use 0.000440 s
+
+[ 2017-04-07T21:05:45+08:00 ] ::1 /eshop/index.php/Home/Good/info/id/10.html
+ERR: Cron:cron Runat 2017-04-07 21:05:45 Use 0.000494 s
+
+[ 2017-04-07T21:06:36+08:00 ] ::1 /eshop/index.php/Home/Good/info/id/10.html
+ERR: Cron:cron Runat 2017-04-07 21:06:36 Use 0.000929 s
+
+[ 2017-04-07T21:06:39+08:00 ] ::1 /eshop/index.php/Home/Good/onsale.html
+ERR: Cron:cron Runat 2017-04-07 21:06:39 Use 0.000353 s
+
+[ 2017-04-07T21:06:42+08:00 ] ::1 /eshop/index.php/Home/Good/info/id/16.html
+ERR: Cron:cron Runat 2017-04-07 21:06:42 Use 0.000471 s
+
+[ 2017-04-07T21:06:45+08:00 ] ::1 /eshop/index.php/Home/Good/info/id/10.html
+ERR: Cron:cron Runat 2017-04-07 21:06:45 Use 0.000354 s
+
+[ 2017-04-07T21:06:48+08:00 ] ::1 /eshop/index.php/Home/Good/info/id/13.html
+ERR: Cron:cron Runat 2017-04-07 21:06:48 Use 0.000295 s
+
+[ 2017-04-07T21:08:20+08:00 ] ::1 /eshop/index.php/Home/Good/info/id/16.html
+ERR: Cron:cron Runat 2017-04-07 21:08:20 Use 0.000416 s
+
+[ 2017-04-07T21:08:23+08:00 ] ::1 /eshop/index.php/Home/Good/onsale.html
+ERR: Cron:cron Runat 2017-04-07 21:08:23 Use 0.000405 s
+
+[ 2017-04-07T21:09:24+08:00 ] ::1 /eshop/index.php/Home/Good/onsale.html
+ERR: Cron:cron Runat 2017-04-07 21:09:24 Use 0.000390 s
+
+[ 2017-04-07T21:09:40+08:00 ] ::1 /eshop/index.php/Home/Good/onsale.html
+ERR: Cron:cron Runat 2017-04-07 21:09:40 Use 0.000288 s
+
+[ 2017-04-07T21:09:42+08:00 ] ::1 /eshop/index.php/Home/Good/info/id/16.html
+ERR: Cron:cron Runat 2017-04-07 21:09:42 Use 0.000536 s
+
+[ 2017-04-07T21:09:46+08:00 ] ::1 /eshop/index.php/Home/Good/info/id/13.html
+ERR: Cron:cron Runat 2017-04-07 21:09:46 Use 0.000809 s
+
+[ 2017-04-07T21:20:45+08:00 ] ::1 /eshop/index.php/Home/Good/onsale.html
+ERR: Cron:cron Runat 2017-04-07 21:20:45 Use 0.000619 s
+
+[ 2017-04-07T21:20:50+08:00 ] ::1 /eshop/index.php/Home/Good/info/id/10.html
+ERR: Cron:cron Runat 2017-04-07 21:20:50 Use 0.000467 s
+
+[ 2017-04-07T21:20:53+08:00 ] ::1 /eshop/index.php/Home/Good/info/id/14.html
+ERR: Cron:cron Runat 2017-04-07 21:20:53 Use 0.000338 s
+
+[ 2017-04-07T21:21:35+08:00 ] ::1 /eshop/index.php/Home/Good/info/id/10.html
+ERR: Cron:cron Runat 2017-04-07 21:21:35 Use 0.000324 s
+
+[ 2017-04-07T21:21:54+08:00 ] ::1 /eshop/index.php/Home/Good/info/id/10.html
+ERR: Cron:cron Runat 2017-04-07 21:21:54 Use 0.000499 s
+
+[ 2017-04-07T21:27:54+08:00 ] ::1 /eshop/index.php/Home/Good/onsale.html
+ERR: Cron:cron Runat 2017-04-07 21:27:54 Use 0.000823 s
+
+[ 2017-04-07T21:27:59+08:00 ] ::1 /eshop/index.php/Home/Good/info/id/15.html
+ERR: Cron:cron Runat 2017-04-07 21:27:59 Use 0.000377 s
+
+[ 2017-04-07T21:28:39+08:00 ] ::1 /eshop/index.php/Home/Good/onsale.html
+ERR: Cron:cron Runat 2017-04-07 21:28:39 Use 0.000302 s
+
+[ 2017-04-07T21:28:46+08:00 ] ::1 /eshop/index.php/Home/Good/onsale.html
+ERR: Cron:cron Runat 2017-04-07 21:28:46 Use 0.000393 s
+
+[ 2017-04-07T21:28:47+08:00 ] ::1 /eshop/index.php/Home/Good/info/id/15.html
+ERR: Cron:cron Runat 2017-04-07 21:28:47 Use 0.000307 s
+
+[ 2017-04-07T21:28:52+08:00 ] ::1 /eshop/index.php/Home/Good/info/id/17.html
+ERR: Cron:cron Runat 2017-04-07 21:28:52 Use 0.000328 s
+
+[ 2017-04-07T21:28:57+08:00 ] ::1 /eshop/index.php/Home/Good/info/id/10.html
+ERR: Cron:cron Runat 2017-04-07 21:28:57 Use 0.000307 s
+
+[ 2017-04-07T21:29:01+08:00 ] ::1 /eshop/index.php/Home/Good/info/id/15.html
+ERR: Cron:cron Runat 2017-04-07 21:29:01 Use 0.000378 s
+
+[ 2017-04-07T21:30:01+08:00 ] ::1 /eshop/index.php/Home/Good/info/id/10.html
+ERR: Cron:cron Runat 2017-04-07 21:30:01 Use 0.000442 s
+
+[ 2017-04-07T21:30:15+08:00 ] ::1 /eshop/index.php/Home/Good/info/id/10.html
+ERR: Cron:cron Runat 2017-04-07 21:30:15 Use 0.000457 s
+
+[ 2017-04-07T21:30:22+08:00 ] ::1 /eshop/index.php/Home/Good/onsale.html
+ERR: Cron:cron Runat 2017-04-07 21:30:22 Use 0.000399 s
+
+[ 2017-04-07T21:30:24+08:00 ] ::1 /eshop/index.php/Home/Good/info/id/16.html
+ERR: Cron:cron Runat 2017-04-07 21:30:24 Use 0.000294 s
+
+[ 2017-04-07T21:30:57+08:00 ] ::1 /eshop/index.php/Home/Good/info/id/16.html
+ERR: Cron:cron Runat 2017-04-07 21:30:57 Use 0.000355 s
+
+[ 2017-04-07T21:31:05+08:00 ] ::1 /eshop/index.php/Home/Good/onsale.html
+ERR: Cron:cron Runat 2017-04-07 21:31:05 Use 0.000387 s
+
+[ 2017-04-07T21:31:07+08:00 ] ::1 /eshop/index.php/Home/Good/info/id/16.html
+ERR: Cron:cron Runat 2017-04-07 21:31:07 Use 0.000597 s
+
+[ 2017-04-07T21:31:25+08:00 ] ::1 /eshop/index.php/Home/Shop/index/shopId/3.html
+ERR: Cron:cron Runat 2017-04-07 21:31:25 Use 0.000381 s
+
+[ 2017-04-07T21:31:48+08:00 ] ::1 /eshop/index.php/Home/Shop/index/shopId/3.html
+ERR: Cron:cron Runat 2017-04-07 21:31:48 Use 0.000479 s
+
+[ 2017-04-07T21:31:50+08:00 ] ::1 /eshop/index.php/Home/Good/onsale.html
+ERR: Cron:cron Runat 2017-04-07 21:31:50 Use 0.000366 s
+
+[ 2017-04-07T21:31:52+08:00 ] ::1 /eshop/index.php/Home/Good/info/id/17.html
+ERR: Cron:cron Runat 2017-04-07 21:31:52 Use 0.000298 s
+

@@ -1,0 +1,328 @@
+[ 2017-06-09T07:31:40+08:00 ] ::1 /eshop/index.php/Admin/Login/checkVerify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001282s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.003641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005946s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001327s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001476s ]
+
+[ 2017-06-09T07:31:41+08:00 ] ::1 /eshop/index.php/Admin/Login/doLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002227s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.006008s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010131s ]
+SQL: SHOW COLUMNS FROM `eshop_admin` [ RunTime:0.1667s ]
+SQL: SELECT * FROM `eshop_admin` WHERE `name` = 'admin' LIMIT 1   [ RunTime:0.0846s ]
+SQL: UPDATE `eshop_admin` SET `loginTime`='1496964701',`ip`='0.0.0.0' WHERE `id` = 1 [ RunTime:0.1148s ]
+
+[ 2017-06-09T07:34:36+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Think\Model:shopCount方法不存在！
+
+[ 2017-06-09T09:20:58+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/shopAuthoDo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000819s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.002252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003727s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000982s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001081s ]
+
+[ 2017-06-09T09:21:17+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/shopAuthoDo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000784s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.002009s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003420s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001176s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001261s ]
+
+[ 2017-06-09T09:21:26+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/shopAuthoDo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000908s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.002171s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003766s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000929s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001031s ]
+
+[ 2017-06-09T09:29:10+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/shoperDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.002508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003964s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000926s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001019s ]
+
+[ 2017-06-09T09:29:14+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/shoperDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000736s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.002226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003629s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000921s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001019s ]
+
+[ 2017-06-09T09:33:18+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/shopAuthoDo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000798s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.002346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003871s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000883s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000986s ]
+
+[ 2017-06-09T09:35:13+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/shopAuthoDo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000769s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.002472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003883s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000923s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001006s ]
+
+[ 2017-06-09T09:47:01+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/shopAuthoDo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000941s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.002203s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003923s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0046s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001091s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001234s ]
+
+[ 2017-06-09T09:55:15+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/shopAuthoDo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001393s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.006272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009059s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0078s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001529s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001737s ]
+
+[ 2017-06-09T09:55:29+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/shoperDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000775s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.002967s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004431s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `eshop_shop`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0073s ]
+NOTIC: [8] Undefined index: shoperId D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 161 行.
+SQL: SELECT * FROM `eshop_shoper` WHERE ( 1=1 AND id='' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: shoperId D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 161 行.
+SQL: SELECT * FROM `eshop_shoper` WHERE ( 1=1 AND id='' ) LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: shoperId D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 161 行.
+SQL: SELECT * FROM `eshop_shoper` WHERE ( 1=1 AND id='' ) LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001123s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001210s ]
+
+[ 2017-06-09T09:58:51+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/shoperDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000913s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.003309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004904s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `eshop_shop`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0078s ]
+ERR: 1054:Unknown column 'shoperId' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `eshop_shoper` WHERE ( 1=1 AND shoperId='2' ) LIMIT 1  
+ERR: 1054:Unknown column 'shoperId' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `eshop_shoper` WHERE ( 1=1 AND shoperId='2' ) LIMIT 1  
+
+[ 2017-06-09T09:59:12+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/shoperDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000830s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.002580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004158s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `eshop_shop`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0056s ]
+NOTIC: [8] Undefined index: shoperId D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 161 行.
+SQL: SELECT * FROM `eshop_shoper` WHERE ( 1=1 AND id='' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: shoperId D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 161 行.
+SQL: SELECT * FROM `eshop_shoper` WHERE ( 1=1 AND id='' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: shoperId D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 161 行.
+SQL: SELECT * FROM `eshop_shoper` WHERE ( 1=1 AND id='' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001022s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001132s ]
+
+[ 2017-06-09T10:10:40+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/shopAuthoDo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000812s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.002650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004194s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0058s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000964s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001053s ]
+
+[ 2017-06-09T10:15:41+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/shopAuthoDo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001354s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.002846s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004865s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0077s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000983s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001082s ]
+
+[ 2017-06-09T10:22:35+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/shoperDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000881s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.002828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004365s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `eshop_shop`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0061s ]
+NOTIC: [8] Undefined index: shoperId D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 161 行.
+SQL: SELECT * FROM `eshop_shoper` WHERE ( 1=1 AND id='' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: shoperId D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 161 行.
+SQL: SELECT * FROM `eshop_shoper` WHERE ( 1=1 AND id='' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: shoperId D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 161 行.
+SQL: SELECT * FROM `eshop_shoper` WHERE ( 1=1 AND id='' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001182s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001297s ]
+
+[ 2017-06-09T10:23:06+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/shoperDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001056s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.002460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004271s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `eshop_shop`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0068s ]
+NOTIC: [8] Undefined index: shoperId D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 161 行.
+SQL: SELECT * FROM `eshop_shoper` WHERE ( 1=1 AND id='' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: shoperId D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 161 行.
+SQL: SELECT * FROM `eshop_shoper` WHERE ( 1=1 AND id='' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: shoperId D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 161 行.
+SQL: SELECT * FROM `eshop_shoper` WHERE ( 1=1 AND id='' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001170s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001301s ]
+
+[ 2017-06-09T10:24:31+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/shoperDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001017s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.003523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005475s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `eshop_shop`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0062s ]
+NOTIC: [8] Undefined index: shoperId D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 161 行.
+SQL: SELECT * FROM `eshop_shoper` WHERE ( 1=1 AND id='' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: shoperId D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 161 行.
+SQL: SELECT * FROM `eshop_shoper` WHERE ( 1=1 AND id='' ) LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: shoperId D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 161 行.
+SQL: SELECT * FROM `eshop_shoper` WHERE ( 1=1 AND id='' ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001516s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001680s ]
+
+[ 2017-06-09T10:24:43+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/shoperDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000748s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.002746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004181s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `eshop_shop`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0141s ]
+NOTIC: [8] Undefined index: shoperId D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 161 行.
+SQL: SELECT * FROM `eshop_shoper` WHERE ( 1=1 AND id='' ) LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: shoperId D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 161 行.
+SQL: SELECT * FROM `eshop_shoper` WHERE ( 1=1 AND id='' ) LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: shoperId D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 161 行.
+SQL: SELECT * FROM `eshop_shoper` WHERE ( 1=1 AND id='' ) LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002754s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003058s ]
+
+[ 2017-06-09T10:26:18+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/shoperDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000938s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.002634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004295s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `eshop_shop`  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001082s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001199s ]
+
+[ 2017-06-09T10:26:36+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/shoperDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000842s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.003068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004624s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `eshop_shop`  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001631s ]
+
+[ 2017-06-09T10:26:55+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/shoperDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000927s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.002910s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004810s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `eshop_shop`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0057s ]
+NOTIC: [8] Undefined index: shoperId D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 161 行.
+SQL: SELECT * FROM `eshop_shoper` WHERE ( 1=1 AND id='' ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: shoperId D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 161 行.
+SQL: SELECT * FROM `eshop_shoper` WHERE ( 1=1 AND id='' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: shoperId D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 161 行.
+SQL: SELECT * FROM `eshop_shoper` WHERE ( 1=1 AND id='' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001559s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001737s ]
+
+[ 2017-06-09T10:27:22+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/shoperDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000844s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.003107s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004643s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `eshop_shop`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0072s ]
+ERR: 1054:Unknown column 'shoperId' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `eshop_shoper` WHERE ( 1=1 AND shoperId='2' ) LIMIT 1  
+ERR: 1054:Unknown column 'shoperId' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `eshop_shoper` WHERE ( 1=1 AND shoperId='2' ) LIMIT 1  
+
+[ 2017-06-09T10:29:55+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/shoperDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000904s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.002762s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004329s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0058s ]
+ERR: Think\Model:test方法不存在！
+
+[ 2017-06-09T10:30:50+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/shopAuthoDo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000798s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.002533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004051s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0060s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000959s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001067s ]
+
+[ 2017-06-09T10:44:44+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/shopAuthoDo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001814s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.004146s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007169s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0164s ]
+SQL: SELECT `shoperId` FROM `eshop_shop` WHERE `id` = 4  [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002344s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002583s ]
+

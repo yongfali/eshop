@@ -1,0 +1,94 @@
+<extend name="Public:base"/>
+<block name="title"><title>微农后台管理系统-待审核商品</title></block>
+<block name="css">
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/Admin/Css/GoodManage/good.css">
+</block>
+<block name="main">
+	<div class="now-position">
+		<span>待审核的商品</span>
+	</div>
+	<div class="head-wrapper">
+		<div class="head-search">
+			<!-- 头部检索框 -->
+			<form action=" " id="order_search">
+				<div class="artical-search">
+					<label for="cat1">商品分类</label>
+					<select name="cat1" id="cat1">  
+						<option value="0">--请选择--</option>
+						<option value="1">帮助中心</option>
+						<option value="2">商城资讯</option>
+					</select>
+					<label for="shopname">店铺名称</label>
+					<input type="text" name="shopname" id="shopname" class="inputs" placeholder="输入商户名进行查询">
+					<label for="goodname">商品名称</label>
+					<input type="text" name="goodname" id="goodname" class="inputs" placeholder="输入商品名进行查询">
+					<input type="button" value="查询"  class="btn btn-info" id="goods-search" />
+				</div>
+			</form>
+			<!-- 头部检索框 -->  
+		</div>
+		<div class="action-nav">
+			<a href="javascript:void(0);" onclick="goodAutho(1)">
+				<span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
+				批量审核
+			</a>
+		</div>
+	</div>
+	<div class="good-wrapper">
+		<table class="table table-bordered table-striped table-hover">
+			<thead>
+				<tr>
+					<th>
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" id="allchecked" autocomplete="off">全选
+							</label>
+						</div>
+					</th>
+					<th>商品的名称</th>
+					<th>商品编号</th>
+					<th>商品产地</th>
+					<th>店铺价格</th>
+					<th>所属店铺</th>
+					<th>商品状态</th>
+					<th>操作</th>
+				</tr>
+			</thead>
+			<empty name="goodList">
+				<tbody><tr><td colspan="8">暂无待审核的商品！</td></tr></tbody>
+				<else/>
+				<tbody>
+					<volist name="goodList" id="item">
+						<tr class="data-item">
+							<td>
+								<div class="checkbox">
+									<label>
+										<input type="checkbox" class="item-check" autocomplete="off" value="{$item.id}" >
+									</label>
+								</div>
+							</td>
+							<td>
+								<div class="good-info">
+									<img src="__ROOT__/{$item.good_log}">
+									<span>{$item.name}</span>
+								</div>
+							</td>
+							<td>{$item.goodnumber}</td>
+							<td>{$item.place}</td>
+							<td>{$item.shopprice}</td>
+							<td>{$item.shopname}</td>
+							<td>待审核</td>
+							<td>
+								<a class="btn-link" href="javascript:void(0);"onclick="goodAutho(0,{$item.id});">审核通过</a>
+								<a class="btn-link" href="{:U('Home/Index/goodsInfo',array('id'=>$item['id']))}" target="_blank">查看</a>
+							</td>
+						</tr>
+					</volist>
+				</tbody>
+			</empty>
+		</table>
+	</div>
+</block>
+<block name="js">
+	<script src="__PUBLIC__/Admin/Js/GoodManage/goodAutho.js"></script>
+</block>

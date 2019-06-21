@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>我的购物车</title>
+<include file = "Public:common"/>
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/Css/shopcart.css">
+<script src="__PUBLIC__/Home/Js/Cart/ShoppingCart.js"></script>
+<script type="text/javascript">
+  var userLogin = "{:U('Home/User/login')}"; 
+</script>
+</head>
+<body>
+<!-- header开始 --> 
+<include file ='Public:header' /> 
+<!-- header结束 --> 
+<!-- 购物车主体内容开始 -->
+<div class="shopcart_wrapper">
+  <div class="shopcart_nav">
+    <dl class="first doing">
+      <dt class="cart_num">1</dt>
+      <dd class="cart_text">我的购物车</dd>
+      <dd></dd>
+    </dl>
+    <dl class="second">
+      <dt class="cart_num1">2</dt>
+      <dd class="cart_text1">填写（确认）订单</dd>
+    </dl>
+    <dl class="third">
+      <dt class="cart_num1">3</dt>
+      <dd class="cart_text1">付款</dd>
+    </dl>
+  </div>
+  <!-- 导航标题结束 -->
+  <div class="cart_title">我的购物车<span>（
+    <empty name="cart">
+      0
+      <else/>
+      {:sizeof($cart)}
+    </empty>
+    件
+    ）</span></div>
+  <!-- 标题 -->
+  <empty name="cart">
+    <div class="cart-info-wrap">
+      <div class="cart-info-img">
+        <img src="__PUBLIC__/Home/Icon/empty-cart.png">
+      </div>
+      <div class="cart-info">
+        <span>您的购物车还是空的，<a href="{:U('Home/Index/index')}">赶紧去逛逛 ~ ~ ~</a></span>
+      </div>
+    </div>
+    <else/>
+    <div class="cart_content">
+        <table class="cart_lists">
+          <thead>
+            <tr>
+              <th class="t_head"><label for="allchecked">全选</label>
+                <input type="checkbox" id="allchecked" autocomplete="off"/></th>
+              <th class="t_head2">商品信息</th>
+              <th class="t_head">单价（元）</th>
+              <th class="t_head">数量</th>
+              <th class="t_head">小计（元）</th>
+              <th class="t_head">操作</th>
+            </tr>
+          </thead>
+          <tbody>
+            <volist name="cart" id="item">
+              <volist name="info" id="data">
+                <if condition="$item['goodid'] eq $data['goodid']">
+                  <tr class="shop_info">
+                    <td colspan="6"> 店铺：&nbsp;<a href="{:U('Home/Shop/index',array('shopId'=> $data['id']))}" target="_blank">{$data.shopname}</a> &nbsp;&nbsp;&nbsp;商家：&nbsp;<a href="{:U('Home/Shop/index',array('shopId'=> $data['id']))}" target="_blank">{$data.shopername}</a> <a href="tencent://message/?uin={$data.service_qq}&Site=qq&Menu=yes"s><img src="__PUBLIC__/Home/ShopImage/qq.gif"></a></td>
+                  </tr>
+                </if>
+              </volist>
+              <tr class="cart_tr">
+                <td class="items cart_td1">
+                  <input type="checkbox" class="goods_check" autocomplete="off"/>
+                  <input type="hidden" goodId="{$item['goodid']}" class="goodId"/>
+                </td>
+                <td class="items2 cart_td2">
+                  <a href="{:U('Home/Index/goodsInfo',array('id'=>$item['goodid']))}" target="_blank"><img src="__ROOT__/{$item.good_log}"/>
+                  </a>
+                  <span class="goodName">{$item.name}</span>
+                </td>
+                <td class="items cart_td3">{$item.shopprice}</td>
+                <td class="items cart_td4"><a href="javascript:void(0)" class="jian" onclick="changeCartNum(this,{$item.goodid},{$type},'jian')">-</a>
+                  <input class="goodnum" value="{$item.mount}" name="num[]" type="text" autocomplete="off">
+                  <a href="javascript:void(0)" class="jia" onclick="changeCartNum(this,{$item.goodid},{$type},'jia')">+</a></td>
+                <td class="items cart_td5">{:getCartItemPrice($item['goodid'],$cart)}</td>
+                <td class="items cart_td6">
+                  <a href="javascript:void(0)" onclick ="delCarts({$item.goodid},{$type})">删除</a>
+                </td>
+              </tr>
+            </volist>
+          </tbody>
+        </table>
+        <div class="sumMoney"> 
+          应付总金额（含运费）：&yen;&nbsp;
+          <span style="font-size:18px; margin-right:20px;">0.00</span>
+          <a href="javascript:void(0)" onclick="toSettlement({$type})">结算</a> 
+         <!-- <a href="{:U('settlement')}">结算</a>  -->
+        </div>
+    </div>
+  </empty>
+  
+  <!-- 购物车商品列表显示结束 --> 
+</div>
+<!-- 	购物车主体内容结束 --> 
+<include file='Public:footer'/>
+</body>
+</html>

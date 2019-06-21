@@ -1,0 +1,32 @@
+[ 2017-06-10T19:57:48+08:00 ] ::1 /eshop/index.php/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001302s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.006992s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009389s ]
+NOTIC: [8] Undefined index: good_cart D:\wampserver\wamp\www\eshop\App\Home\Common\function.php 第 282 行.
+NOTIC: [8] Undefined index: good_cart D:\wampserver\wamp\www\eshop\App\Home\Common\function.php 第 282 行.
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0813s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = null LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `eshop_footer_nav` [ RunTime:0.0155s ]
+SQL: SELECT f.id,f.name,n.id sid,n.name sname,n.content scontent FROM eshop_footer_nav f INNER JOIN eshop_footer_nav as n on f.id = n.pid   [ RunTime:0.0013s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002616s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002903s ]
+
+[ 2017-06-10T19:57:48+08:00 ] ::1 /eshop/index.php/Shoper/doLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001865s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.004742s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007931s ]
+NOTIC: [8] Undefined index: good_cart D:\wampserver\wamp\www\eshop\App\Home\Common\function.php 第 282 行.
+NOTIC: [8] Undefined index: good_cart D:\wampserver\wamp\www\eshop\App\Home\Common\function.php 第 282 行.
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0096s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = null LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `eshop_footer_nav` [ RunTime:0.0112s ]
+SQL: SELECT f.id,f.name,n.id sid,n.name sname,n.content scontent FROM eshop_footer_nav f INNER JOIN eshop_footer_nav as n on f.id = n.pid   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0102s ]
+SQL: SELECT * FROM `eshop_shoper` WHERE `name` = 'shoper3' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper_log` [ RunTime:0.0102s ]
+NOTIC: [2] fopen(D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Org\Net/UTFWry.dat): failed to open stream: No such file or directory D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Org\Net\IpLocation.class.php 第 54 行.
+SQL: INSERT INTO `eshop_shoper_log` (`shoperId`,`action`,`ip`,`location`,`time`) VALUES ('13','登录','0.0.0.0',NULL,'1497095868') [ RunTime:0.0677s ]
+

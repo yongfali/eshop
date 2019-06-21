@@ -1,0 +1,143 @@
+/*商家商品列表详细信息页样式*/
+/*中间内容开始*/
+.sContent_wrapper{
+	width: 1200px;
+	height: 600px;
+	margin: 20px auto;
+}
+/*左边导航和商家推荐列表*/
+.sContent_left{
+	width: 200px;
+	height: 600px;
+	float: left;
+}
+/*店铺商品导航*/
+.left_nav{
+	width: 100%;
+	min-height: 300px;
+}
+.left_nav h3{
+	height: 38px;
+	line-height: 36px;
+	text-align: center;
+	background: #3F7FCE;
+	color: #fff;
+}
+.left_nav_items a:hover{
+	text-decoration: none;
+}
+.left_nav_items li{
+	margin-bottom: 2px;
+}
+.nav_item,.items_content a{
+	width: 175px;
+	height: 36px;
+	line-height: 36px;
+	display: inline-block;
+}
+.nav_item{
+	padding-left: 25px;
+	background: #ccc;
+	font-weight: bold;
+}
+.left_nav_items p{
+	margin: 16px 5px 0px 0px;
+	float: right;
+	display: inline-block;
+	border-left: 8px solid transparent;
+	border-right: 8px solid transparent;
+}
+.items_show{
+	border-top: 8px solid #f60;
+}
+.items_hidden{
+	border-bottom: 8px solid #f60;
+}
+.items_content{
+	border: 1px solid #ccc;
+}
+.items_content a{
+	padding-left: 21px;
+}
+.items_content a:hover{
+	background: #eee;
+	border-left: 4px solid #f60;
+	overflow: hidden;
+}
+/*右边商品展示区*/
+.sContent_right{
+	width: 985px;
+	min-height: 600px;
+	float: right;
+	margin-left: 15px;
+}
+/*本店热销产品*/
+.right_hot_product{
+	height: 450px;
+	margin-bottom: 20px;
+}
+.hot_title,.category_nav{
+	height: 40px;
+	line-height: 40px;
+	background: #eee;
+	width: 96%;
+	margin-left: 13px;
+	border-radius: 5px;
+}
+.hot_title span{
+	width: 80px;
+	display: inline-block;
+	text-align: center;
+	font-size: 16px;
+}
+/*热销产品列表*/
+.shop_Product_show{
+	width: 100%;
+	height: 410px;
+	overflow: hidden;
+	margin-top: 10px;
+	border-radius: 10px;
+}
+
+/*对应类别商品循环展示*/
+.right_category_product{
+	max-height: 450px;
+}
+.shop_category_show{
+	width: 100%;
+}
+.category_nav{
+	margin-bottom: 10px;
+}
+.category_nav ul a{
+	float: left;
+	display: block;
+	width: 120px;	
+	text-align: center;
+	position: relative;
+}
+.nav_active{
+	background: #3F7FCE;
+	color: #fff;
+	border-radius: 5px;
+}
+.category_nav ul a span{
+	position: absolute;
+	left: 80px;
+	top: 16px;
+	width: 16px;
+	height: 16px;
+}
+.select_icon{
+	background: url("../../Icon/arrow-down1.png") 0px 0px no-repeat;
+}
+.select_icon_low
+{
+	background: url("../../Icon/arrow-down.png") 0px 0px no-repeat;
+}
+.select_icon_up{
+	background: url("../../Icon/arrow-up.png") 0px 0px no-repeat;
+}
+.select_icon,.select_icon_low,.select_icon_up{
+	background-size: 10px 10px;
+}

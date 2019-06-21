@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>操作记录</title>
+<include file = "Public:common"/>
+<include file='Public:ucenterlink'/>
+<script src="__PUBLIC__/Home/JS/User/log.js"></script>
+</head>
+<body>
+<!-- header开始 --> 
+<include file ='Public:header' /> 
+<!-- header结束 --> 
+<!-- 当前位置开始 -->
+<div class="position_now">
+  <label><a href="{:U('Home/Index/index')}">首页</a></label>
+  <span>&gt</span>
+  <label>个人中心</label>
+</div>
+<!-- 当前位置显示结束 --> 
+<!-- 主体内容开始 -->
+<div class="ucenter_wrapper"> 
+  <!-- 左边导航标签开始 --> 
+  <include file='Public:ucenternav'/> 
+  <!-- 左边导航标签结束 -->
+  <div class="ucenter_right">
+    <div class="ucenter_right_title"> <span>操作记录</span> </div>
+    <div class="ucenter_right_content">
+      <table class="ucenter_table">
+        <tbody>
+        <empty name="loglist">
+        <div class="nolog">还没有任何操作记录！！！</div>
+        <else />
+        <thead>
+          <tr class="header">
+            <th>序号</th>
+            <th>当前IP</th>
+            <th>当前地址</th>
+            <th>操作内容</th>
+            <th>操作时间</th>
+            <th>操作</th>
+          </tr>
+        </thead>
+        <volist name="loglist" id="data">
+          <tr class="logList">
+            <td><span>{$i}</span></td>
+            <td>{$data.ip}</td>
+            <td>{$data.location}</td>
+            <td>{$data.action}</td>
+            <td>{$data.time|date="Y-m-d H:i:m",###}</td>
+            <td><a href="javascript:delLog({$data.id});">删除</a> <span>|</span> <a href="{:U('modifyPwd')}">修改密码</a></td>
+          </tr>
+        </volist>
+          </empty>
+          </tbody>
+      </table>
+      <!-- 分页开始 -->
+      <div class="pages">{$page}</div>
+      <!-- 分页结束 --> 
+    </div>
+  </div>
+  <!-- 用户中心右侧内容显示结束 --> 
+</div>
+<!-- 主体内容结束 --> 
+<include file='Public:footer'/>
+</body>
+</html>

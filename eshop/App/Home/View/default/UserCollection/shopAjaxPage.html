@@ -1,0 +1,32 @@
+<!-- 收藏店铺ajax分页内容 -->
+<div class="collection-wraper">
+  <empty name="lists">
+    <div>暂没收藏！！！</div>
+    <else/>
+    <volist name="lists" id="item">
+      <div class="shoper_info">
+        <h3>{$item.name}</h3>
+        <div class="shoper_item">
+          <div class="shop_logo">
+            <empty name="$item.logo">
+              <img src="__PUBLIC__/Home/ShopImage/shop_logo.jpg">
+              <else/>
+              <img src="__ROOT__/{$item.logo}">
+            </empty>  
+          </div>
+          <div class="itemscore">商品评价：8分</div>
+          <div class="itemscore">服务评分：8.2分</div>
+          <div class="itemscore">物流评分：10分</div>
+          <div class="shop_footer"> 
+            <a href="{:U('Home/Shop/index',array('shopId'=>$item['id']))}" target="_blank">进店逛逛
+            </a> 
+            <a href="javascript:void(0);" onclick="cancle({$item.id},1,{$Think.session.uid})">取消关注</a> 
+          </div>
+        </div>
+      </div>
+    </volist>
+  </empty>
+</div>
+<!-- 分页开始 -->
+<div class="pages">{$page}</div>
+<!-- 分页结束 --> 

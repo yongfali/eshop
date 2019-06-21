@@ -1,0 +1,1443 @@
+[ 2017-05-29T07:36:23+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 07:36:23 Use 0.000732 s
+
+[ 2017-05-29T07:36:40+08:00 ] ::1 /eshop/index.php/Admin/Login/checkVerify
+ERR: Cron:cron Runat 2017-05-29 07:36:40 Use 0.000427 s
+
+[ 2017-05-29T07:36:40+08:00 ] ::1 /eshop/index.php/Admin/Login/checkVerify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001218s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.006121s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008309s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002044s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002315s ]
+
+[ 2017-05-29T07:36:44+08:00 ] ::1 /eshop/index.php/Admin/Login/checkVerify
+ERR: Cron:cron Runat 2017-05-29 07:36:44 Use 0.000926 s
+
+[ 2017-05-29T07:36:44+08:00 ] ::1 /eshop/index.php/Admin/Login/checkVerify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002330s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.011159s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015240s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003738s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004036s ]
+
+[ 2017-05-29T07:36:47+08:00 ] ::1 /eshop/index.php/Admin/Login/checkVerify
+ERR: Cron:cron Runat 2017-05-29 07:36:47 Use 0.000851 s
+
+[ 2017-05-29T07:36:47+08:00 ] ::1 /eshop/index.php/Admin/Login/checkVerify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002050s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.010339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014077s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001665s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001877s ]
+
+[ 2017-05-29T07:36:47+08:00 ] ::1 /eshop/index.php/Admin/Login/checkVerify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001362s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.003807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006289s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001472s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001643s ]
+
+[ 2017-05-29T07:36:48+08:00 ] ::1 /eshop/index.php/Admin/Login/checkVerify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002064s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.005930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009670s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002372s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002694s ]
+
+[ 2017-05-29T07:36:49+08:00 ] ::1 /eshop/index.php/Admin/Login/doLogin
+ERR: Cron:cron Runat 2017-05-29 07:36:49 Use 0.000525 s
+
+[ 2017-05-29T07:36:50+08:00 ] ::1 /eshop/index.php/Admin/Login/doLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001177s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.005417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007598s ]
+SQL: SHOW COLUMNS FROM `eshop_admin` [ RunTime:0.0141s ]
+SQL: SELECT * FROM `eshop_admin` WHERE `name` = 'admin' LIMIT 1   [ RunTime:0.0016s ]
+SQL: UPDATE `eshop_admin` SET `loginTime`='1496014609',`ip`='0.0.0.0' WHERE `id` = 1 [ RunTime:0.3287s ]
+
+[ 2017-05-29T07:36:51+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 07:36:51 Use 0.000913 s
+
+[ 2017-05-29T07:41:32+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 07:41:32 Use 0.000416 s
+
+[ 2017-05-29T07:41:35+08:00 ] ::1 /eshop/index.php/Admin/Index/loginout.html
+ERR: Cron:cron Runat 2017-05-29 07:41:35 Use 0.000639 s
+
+[ 2017-05-29T07:41:38+08:00 ] ::1 /eshop/index.php/Admin/Login/index.html
+ERR: Cron:cron Runat 2017-05-29 07:41:38 Use 0.000536 s
+
+[ 2017-05-29T07:41:44+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 07:41:44 Use 0.000531 s
+
+[ 2017-05-29T07:41:53+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 07:41:53 Use 0.001215 s
+
+[ 2017-05-29T07:42:05+08:00 ] ::1 /eshop/index.php/Admin/Login/checkVerify
+ERR: Cron:cron Runat 2017-05-29 07:42:05 Use 0.000463 s
+
+[ 2017-05-29T07:42:05+08:00 ] ::1 /eshop/index.php/Admin/Login/checkVerify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001839s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.018061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021037s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001287s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001454s ]
+
+[ 2017-05-29T07:42:06+08:00 ] ::1 /eshop/index.php/Admin/Login/doLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001236s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.008723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011202s ]
+SQL: SHOW COLUMNS FROM `eshop_admin` [ RunTime:0.0124s ]
+SQL: SELECT * FROM `eshop_admin` WHERE `name` = 'admin' LIMIT 1   [ RunTime:0.0006s ]
+SQL: UPDATE `eshop_admin` SET `loginTime`='1496014926',`ip`='0.0.0.0' WHERE `id` = 1 [ RunTime:0.0835s ]
+
+[ 2017-05-29T07:42:07+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 07:42:07 Use 0.000892 s
+
+[ 2017-05-29T07:43:34+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 07:43:34 Use 0.000531 s
+
+[ 2017-05-29T07:43:36+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 07:43:36 Use 0.000566 s
+
+[ 2017-05-29T07:44:53+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 07:44:53 Use 0.000573 s
+
+[ 2017-05-29T07:45:19+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 07:45:19 Use 0.000546 s
+
+[ 2017-05-29T07:49:08+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 07:49:08 Use 0.000669 s
+
+[ 2017-05-29T07:49:46+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 07:49:46 Use 0.000709 s
+
+[ 2017-05-29T07:50:21+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 07:50:21 Use 0.000709 s
+
+[ 2017-05-29T07:51:17+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 07:51:17 Use 0.000727 s
+
+[ 2017-05-29T07:52:42+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 07:52:42 Use 0.000466 s
+
+[ 2017-05-29T07:53:47+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 07:53:47 Use 0.000488 s
+
+[ 2017-05-29T07:54:55+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 07:54:55 Use 0.000733 s
+
+[ 2017-05-29T07:55:11+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 07:55:11 Use 0.000515 s
+
+[ 2017-05-29T07:55:22+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 07:55:22 Use 0.000524 s
+
+[ 2017-05-29T07:55:29+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 07:55:29 Use 0.000482 s
+
+[ 2017-05-29T07:55:48+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 07:55:48 Use 0.000470 s
+
+[ 2017-05-29T07:56:23+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 07:56:23 Use 0.000518 s
+
+[ 2017-05-29T07:56:41+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 07:56:41 Use 0.000501 s
+
+[ 2017-05-29T07:56:53+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 07:56:53 Use 0.000463 s
+
+[ 2017-05-29T07:57:01+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 07:57:01 Use 0.000505 s
+
+[ 2017-05-29T07:58:03+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 07:58:03 Use 0.000514 s
+
+[ 2017-05-29T07:58:25+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 07:58:25 Use 0.000577 s
+
+[ 2017-05-29T07:58:42+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 07:58:42 Use 0.000487 s
+
+[ 2017-05-29T07:58:52+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 07:58:52 Use 0.000579 s
+
+[ 2017-05-29T07:59:00+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 07:59:00 Use 0.000579 s
+
+[ 2017-05-29T08:01:14+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 08:01:14 Use 0.000429 s
+
+[ 2017-05-29T08:01:47+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 08:01:47 Use 0.000467 s
+
+[ 2017-05-29T08:03:39+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 08:03:39 Use 0.000536 s
+
+[ 2017-05-29T08:03:57+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 08:03:57 Use 0.000618 s
+
+[ 2017-05-29T08:04:45+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 08:04:45 Use 0.000539 s
+
+[ 2017-05-29T08:05:22+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 08:05:22 Use 0.000575 s
+
+[ 2017-05-29T08:05:30+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 08:05:30 Use 0.000492 s
+
+[ 2017-05-29T08:07:00+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 08:07:00 Use 0.000539 s
+
+[ 2017-05-29T08:07:52+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 08:07:52 Use 0.000471 s
+
+[ 2017-05-29T08:07:58+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 08:07:58 Use 0.000419 s
+
+[ 2017-05-29T08:09:21+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 08:09:21 Use 0.001139 s
+
+[ 2017-05-29T08:10:27+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 08:10:27 Use 0.000566 s
+
+[ 2017-05-29T08:11:16+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 08:11:16 Use 0.000457 s
+
+[ 2017-05-29T08:11:40+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 08:11:40 Use 0.000801 s
+
+[ 2017-05-29T08:12:04+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 08:12:04 Use 0.000505 s
+
+[ 2017-05-29T08:12:27+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 08:12:27 Use 0.000590 s
+
+[ 2017-05-29T08:12:41+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 08:12:41 Use 0.000527 s
+
+[ 2017-05-29T08:15:38+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 08:15:38 Use 0.000546 s
+
+[ 2017-05-29T08:15:46+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 08:15:46 Use 0.000621 s
+
+[ 2017-05-29T08:16:27+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 08:16:27 Use 0.000538 s
+
+[ 2017-05-29T08:16:41+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 08:16:41 Use 0.000531 s
+
+[ 2017-05-29T08:17:20+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 08:17:20 Use 0.000596 s
+
+[ 2017-05-29T08:17:30+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 08:17:30 Use 0.000469 s
+
+[ 2017-05-29T08:17:40+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 08:17:40 Use 0.000511 s
+
+[ 2017-05-29T08:17:49+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 08:17:49 Use 0.000707 s
+
+[ 2017-05-29T08:18:42+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 08:18:42 Use 0.000491 s
+
+[ 2017-05-29T08:18:57+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 08:18:57 Use 0.000650 s
+
+[ 2017-05-29T08:19:17+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 08:19:17 Use 0.000570 s
+
+[ 2017-05-29T08:19:29+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 08:19:29 Use 0.000570 s
+
+[ 2017-05-29T08:19:51+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 08:19:51 Use 0.000499 s
+
+[ 2017-05-29T08:20:25+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 08:20:25 Use 0.000864 s
+
+[ 2017-05-29T08:20:51+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 08:20:51 Use 0.000573 s
+
+[ 2017-05-29T08:24:38+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 08:24:38 Use 0.000532 s
+
+[ 2017-05-29T08:24:38+08:00 ] ::1 /eshop/index.php/Admin/Index/copy.html
+ERR: 非法操作:copy
+
+[ 2017-05-29T08:26:01+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 08:26:01 Use 0.000554 s
+
+[ 2017-05-29T08:26:24+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 08:26:24 Use 0.000447 s
+
+[ 2017-05-29T08:26:26+08:00 ] ::1 /eshop/index.php/Admin/Index/copy.html
+ERR: Cron:cron Runat 2017-05-29 08:26:26 Use 0.000844 s
+
+[ 2017-05-29T08:28:13+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 08:28:13 Use 0.000454 s
+
+[ 2017-05-29T08:28:13+08:00 ] ::1 /eshop/index.php/Admin/Index/copy.html
+ERR: 非法操作:copy
+
+[ 2017-05-29T08:28:21+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 08:28:21 Use 0.000509 s
+
+[ 2017-05-29T08:28:21+08:00 ] ::1 /eshop/index.php/Admin/Index/copy.html
+ERR: 非法操作:copy
+
+[ 2017-05-29T08:28:39+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 08:28:39 Use 0.000542 s
+
+[ 2017-05-29T08:29:10+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 08:29:10 Use 0.000535 s
+
+[ 2017-05-29T08:30:26+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 08:30:26 Use 0.000547 s
+
+[ 2017-05-29T08:30:37+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 08:30:37 Use 0.000539 s
+
+[ 2017-05-29T08:31:52+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 08:31:52 Use 0.000350 s
+
+[ 2017-05-29T08:31:56+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 08:31:56 Use 0.000335 s
+
+[ 2017-05-29T08:32:37+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 08:32:37 Use 0.000593 s
+
+[ 2017-05-29T08:32:54+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 08:32:54 Use 0.000329 s
+
+[ 2017-05-29T08:33:27+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 08:33:27 Use 0.000362 s
+
+[ 2017-05-29T08:33:29+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 08:33:29 Use 0.000422 s
+
+[ 2017-05-29T08:33:31+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 08:33:31 Use 0.000427 s
+
+[ 2017-05-29T08:34:05+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 08:34:05 Use 0.000384 s
+
+[ 2017-05-29T08:34:09+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 08:34:09 Use 0.000367 s
+
+[ 2017-05-29T08:34:18+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 08:34:18 Use 0.000362 s
+
+[ 2017-05-29T08:34:28+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 08:34:28 Use 0.000377 s
+
+[ 2017-05-29T08:34:40+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 08:34:40 Use 0.000383 s
+
+[ 2017-05-29T08:34:42+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 08:34:42 Use 0.000499 s
+
+[ 2017-05-29T08:36:18+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 08:36:18 Use 0.000358 s
+
+[ 2017-05-29T08:36:21+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 08:36:21 Use 0.000440 s
+
+[ 2017-05-29T08:36:37+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 08:36:37 Use 0.000439 s
+
+[ 2017-05-29T08:37:22+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 08:37:22 Use 0.000372 s
+
+[ 2017-05-29T08:37:57+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 08:37:57 Use 0.000357 s
+
+[ 2017-05-29T08:38:23+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 08:38:23 Use 0.000400 s
+
+[ 2017-05-29T08:38:53+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 08:38:53 Use 0.000420 s
+
+[ 2017-05-29T08:39:00+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 08:39:00 Use 0.000358 s
+
+[ 2017-05-29T08:39:24+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 08:39:24 Use 0.000343 s
+
+[ 2017-05-29T08:44:04+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 08:44:04 Use 0.000428 s
+
+[ 2017-05-29T08:44:08+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/Authentication.html
+ERR: Cron:cron Runat 2017-05-29 08:44:08 Use 0.000430 s
+
+[ 2017-05-29T08:44:34+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 08:44:34 Use 0.000391 s
+
+[ 2017-05-29T08:44:36+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/Authentication.html
+ERR: Cron:cron Runat 2017-05-29 08:44:36 Use 0.000305 s
+
+[ 2017-05-29T08:44:39+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/Authentication.html
+ERR: Cron:cron Runat 2017-05-29 08:44:39 Use 0.000367 s
+
+[ 2017-05-29T08:44:42+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/Authentication.html
+ERR: Cron:cron Runat 2017-05-29 08:44:42 Use 0.000370 s
+
+[ 2017-05-29T08:44:46+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/Authentication.html
+ERR: Cron:cron Runat 2017-05-29 08:44:46 Use 0.000375 s
+
+[ 2017-05-29T08:44:50+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/Authentication.html
+ERR: Cron:cron Runat 2017-05-29 08:44:50 Use 0.000365 s
+
+[ 2017-05-29T08:44:55+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/Authentication.html
+ERR: Cron:cron Runat 2017-05-29 08:44:55 Use 0.000309 s
+
+[ 2017-05-29T08:44:58+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/Authentication.html
+ERR: Cron:cron Runat 2017-05-29 08:44:58 Use 0.000311 s
+
+[ 2017-05-29T08:45:52+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/Authentication.html
+ERR: Cron:cron Runat 2017-05-29 08:45:52 Use 0.000362 s
+
+[ 2017-05-29T08:45:55+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/Authentication.html
+ERR: Cron:cron Runat 2017-05-29 08:45:55 Use 0.000298 s
+
+[ 2017-05-29T08:45:59+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/Authentication.html
+ERR: Cron:cron Runat 2017-05-29 08:45:59 Use 0.000393 s
+
+[ 2017-05-29T08:47:38+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/Authentication.html
+ERR: Cron:cron Runat 2017-05-29 08:47:38 Use 0.000369 s
+
+[ 2017-05-29T08:47:44+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 08:47:44 Use 0.000380 s
+
+[ 2017-05-29T08:47:49+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 08:47:49 Use 0.000365 s
+
+[ 2017-05-29T09:10:52+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 09:10:52 Use 0.000564 s
+
+[ 2017-05-29T09:11:38+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 09:11:38 Use 0.000354 s
+
+[ 2017-05-29T09:12:24+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 09:12:24 Use 0.000386 s
+
+[ 2017-05-29T09:12:48+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 09:12:48 Use 0.000372 s
+
+[ 2017-05-29T09:13:38+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 09:13:38 Use 0.000400 s
+
+[ 2017-05-29T09:13:47+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 09:13:47 Use 0.000404 s
+
+[ 2017-05-29T09:13:56+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 09:13:56 Use 0.000420 s
+
+[ 2017-05-29T09:15:39+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 09:15:39 Use 0.000573 s
+
+[ 2017-05-29T09:15:52+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 09:15:52 Use 0.000419 s
+
+[ 2017-05-29T09:16:04+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 09:16:04 Use 0.000430 s
+
+[ 2017-05-29T09:16:19+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 09:16:19 Use 0.000344 s
+
+[ 2017-05-29T09:16:55+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 09:16:55 Use 0.000351 s
+
+[ 2017-05-29T09:17:12+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 09:17:12 Use 0.000457 s
+
+[ 2017-05-29T09:18:12+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 09:18:12 Use 0.000365 s
+
+[ 2017-05-29T09:19:41+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 09:19:41 Use 0.000386 s
+
+[ 2017-05-29T09:20:05+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 09:20:05 Use 0.000349 s
+
+[ 2017-05-29T09:20:16+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 09:20:16 Use 0.000350 s
+
+[ 2017-05-29T09:20:31+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 09:20:31 Use 0.000477 s
+
+[ 2017-05-29T09:20:50+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 09:20:50 Use 0.000383 s
+
+[ 2017-05-29T09:21:15+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 09:21:15 Use 0.000397 s
+
+[ 2017-05-29T09:21:53+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 09:21:53 Use 0.000309 s
+
+[ 2017-05-29T09:22:29+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 09:22:29 Use 0.000439 s
+
+[ 2017-05-29T09:22:36+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 09:22:36 Use 0.000385 s
+
+[ 2017-05-29T09:23:24+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 09:23:24 Use 0.000304 s
+
+[ 2017-05-29T09:23:53+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 09:23:53 Use 0.000398 s
+
+[ 2017-05-29T09:24:02+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/Authentication.html
+ERR: Cron:cron Runat 2017-05-29 09:24:02 Use 0.000403 s
+
+[ 2017-05-29T09:25:13+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 09:25:13 Use 0.000338 s
+
+[ 2017-05-29T09:25:30+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 09:25:30 Use 0.000382 s
+
+[ 2017-05-29T09:26:05+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 09:26:05 Use 0.000340 s
+
+[ 2017-05-29T09:26:30+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 09:26:30 Use 0.000383 s
+
+[ 2017-05-29T09:26:45+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 09:26:45 Use 0.000358 s
+
+[ 2017-05-29T09:28:24+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 09:28:24 Use 0.000316 s
+
+[ 2017-05-29T09:31:02+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 09:31:02 Use 0.000396 s
+
+[ 2017-05-29T09:31:37+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 09:31:37 Use 0.000396 s
+
+[ 2017-05-29T09:32:07+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 09:32:07 Use 0.000337 s
+
+[ 2017-05-29T09:32:40+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 09:32:40 Use 0.000378 s
+
+[ 2017-05-29T09:35:08+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 09:35:08 Use 0.000384 s
+
+[ 2017-05-29T09:36:05+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 09:36:05 Use 0.000391 s
+
+[ 2017-05-29T09:37:00+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 09:37:00 Use 0.000290 s
+
+[ 2017-05-29T09:37:13+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 09:37:13 Use 0.000294 s
+
+[ 2017-05-29T09:37:44+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 09:37:44 Use 0.000340 s
+
+[ 2017-05-29T09:37:57+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 09:37:57 Use 0.000351 s
+
+[ 2017-05-29T09:38:14+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 09:38:14 Use 0.000400 s
+
+[ 2017-05-29T09:38:53+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 09:38:53 Use 0.000296 s
+
+[ 2017-05-29T09:39:04+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 09:39:04 Use 0.000338 s
+
+[ 2017-05-29T09:39:16+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 09:39:16 Use 0.000365 s
+
+[ 2017-05-29T09:39:25+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 09:39:25 Use 0.000356 s
+
+[ 2017-05-29T09:39:39+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 09:39:39 Use 0.000360 s
+
+[ 2017-05-29T09:39:47+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 09:39:47 Use 0.000413 s
+
+[ 2017-05-29T09:39:52+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 09:39:52 Use 0.000325 s
+
+[ 2017-05-29T09:40:49+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 09:40:49 Use 0.000386 s
+
+[ 2017-05-29T09:42:29+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 09:42:29 Use 0.000334 s
+
+[ 2017-05-29T09:42:55+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 09:42:55 Use 0.000284 s
+
+[ 2017-05-29T09:43:16+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 09:43:16 Use 0.000370 s
+
+[ 2017-05-29T09:43:39+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 09:43:39 Use 0.000468 s
+
+[ 2017-05-29T09:43:52+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 09:43:52 Use 0.000329 s
+
+[ 2017-05-29T09:45:11+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 09:45:11 Use 0.000287 s
+
+[ 2017-05-29T09:45:26+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 09:45:26 Use 0.000544 s
+
+[ 2017-05-29T09:45:41+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 09:45:41 Use 0.000579 s
+
+[ 2017-05-29T09:46:45+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 09:46:45 Use 0.000442 s
+
+[ 2017-05-29T09:47:06+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 09:47:06 Use 0.000431 s
+
+[ 2017-05-29T09:47:40+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 09:47:40 Use 0.000374 s
+
+[ 2017-05-29T09:48:41+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 09:48:41 Use 0.000374 s
+
+[ 2017-05-29T09:48:54+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 09:48:54 Use 0.000381 s
+
+[ 2017-05-29T09:49:31+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 09:49:31 Use 0.000336 s
+
+[ 2017-05-29T09:50:12+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 09:50:12 Use 0.000366 s
+
+[ 2017-05-29T09:50:15+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 09:50:15 Use 0.000458 s
+
+[ 2017-05-29T09:50:18+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 09:50:18 Use 0.000484 s
+
+[ 2017-05-29T09:50:20+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 09:50:20 Use 0.000412 s
+
+[ 2017-05-29T09:50:22+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 09:50:22 Use 0.000479 s
+
+[ 2017-05-29T09:52:28+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 09:52:28 Use 0.000363 s
+
+[ 2017-05-29T09:53:18+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 09:53:18 Use 0.000486 s
+
+[ 2017-05-29T09:53:47+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 09:53:47 Use 0.000370 s
+
+[ 2017-05-29T09:54:07+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 09:54:07 Use 0.000357 s
+
+[ 2017-05-29T09:55:16+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 09:55:16 Use 0.000371 s
+
+[ 2017-05-29T09:56:12+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 09:56:12 Use 0.000295 s
+
+[ 2017-05-29T09:56:21+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 09:56:21 Use 0.000260 s
+
+[ 2017-05-29T09:56:37+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 09:56:37 Use 0.000573 s
+
+[ 2017-05-29T09:56:51+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 09:56:51 Use 0.000384 s
+
+[ 2017-05-29T09:57:06+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 09:57:06 Use 0.000383 s
+
+[ 2017-05-29T09:57:16+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 09:57:16 Use 0.000361 s
+
+[ 2017-05-29T09:57:23+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 09:57:23 Use 0.000390 s
+
+[ 2017-05-29T09:57:48+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 09:57:48 Use 0.000393 s
+
+[ 2017-05-29T09:58:12+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 09:58:12 Use 0.000482 s
+
+[ 2017-05-29T09:58:27+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 09:58:27 Use 0.000328 s
+
+[ 2017-05-29T09:59:19+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 09:59:19 Use 0.000377 s
+
+[ 2017-05-29T09:59:28+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 09:59:28 Use 0.000373 s
+
+[ 2017-05-29T09:59:42+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 09:59:42 Use 0.000397 s
+
+[ 2017-05-29T09:59:49+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 09:59:49 Use 0.000378 s
+
+[ 2017-05-29T10:00:03+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:00:03 Use 0.000584 s
+
+[ 2017-05-29T10:00:11+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:00:11 Use 0.000362 s
+
+[ 2017-05-29T10:00:18+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:00:18 Use 0.000473 s
+
+[ 2017-05-29T10:02:44+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:02:44 Use 0.000315 s
+
+[ 2017-05-29T10:03:21+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:03:21 Use 0.000347 s
+
+[ 2017-05-29T10:03:30+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:03:30 Use 0.000289 s
+
+[ 2017-05-29T10:03:51+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:03:51 Use 0.000542 s
+
+[ 2017-05-29T10:03:57+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:03:57 Use 0.000341 s
+
+[ 2017-05-29T10:04:08+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:04:08 Use 0.000382 s
+
+[ 2017-05-29T10:04:44+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:04:44 Use 0.000377 s
+
+[ 2017-05-29T10:05:23+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:05:23 Use 0.000457 s
+
+[ 2017-05-29T10:05:37+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:05:37 Use 0.000423 s
+
+[ 2017-05-29T10:06:12+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:06:12 Use 0.000343 s
+
+[ 2017-05-29T10:06:15+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:06:15 Use 0.000364 s
+
+[ 2017-05-29T10:06:32+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:06:32 Use 0.000429 s
+
+[ 2017-05-29T10:06:45+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:06:45 Use 0.000349 s
+
+[ 2017-05-29T10:06:49+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:06:49 Use 0.000717 s
+
+[ 2017-05-29T10:06:57+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:06:57 Use 0.000389 s
+
+[ 2017-05-29T10:07:05+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:07:05 Use 0.000302 s
+
+[ 2017-05-29T10:07:26+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:07:26 Use 0.000342 s
+
+[ 2017-05-29T10:07:30+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:07:30 Use 0.000622 s
+
+[ 2017-05-29T10:07:49+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:07:49 Use 0.000370 s
+
+[ 2017-05-29T10:08:36+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:08:36 Use 0.000365 s
+
+[ 2017-05-29T10:09:30+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:09:30 Use 0.000363 s
+
+[ 2017-05-29T10:09:44+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:09:44 Use 0.000363 s
+
+[ 2017-05-29T10:10:12+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:10:12 Use 0.000410 s
+
+[ 2017-05-29T10:10:55+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:10:55 Use 0.000550 s
+
+[ 2017-05-29T10:12:05+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:12:05 Use 0.000389 s
+
+[ 2017-05-29T10:12:17+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:12:17 Use 0.000490 s
+
+[ 2017-05-29T10:12:40+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:12:40 Use 0.000382 s
+
+[ 2017-05-29T10:13:23+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:13:23 Use 0.000422 s
+
+[ 2017-05-29T10:13:53+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:13:53 Use 0.000396 s
+
+[ 2017-05-29T10:14:44+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:14:44 Use 0.000299 s
+
+[ 2017-05-29T10:15:44+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:15:44 Use 0.000401 s
+
+[ 2017-05-29T10:15:57+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:15:57 Use 0.000561 s
+
+[ 2017-05-29T10:16:02+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:16:02 Use 0.000367 s
+
+[ 2017-05-29T10:16:40+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:16:40 Use 0.000397 s
+
+[ 2017-05-29T10:17:11+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:17:11 Use 0.000422 s
+
+[ 2017-05-29T10:17:25+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:17:25 Use 0.000333 s
+
+[ 2017-05-29T10:17:44+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:17:44 Use 0.000408 s
+
+[ 2017-05-29T10:18:19+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:18:19 Use 0.000452 s
+
+[ 2017-05-29T10:18:42+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:18:42 Use 0.000343 s
+
+[ 2017-05-29T10:19:49+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:19:49 Use 0.000278 s
+
+[ 2017-05-29T10:20:58+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:20:58 Use 0.000360 s
+
+[ 2017-05-29T10:21:09+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:21:09 Use 0.000400 s
+
+[ 2017-05-29T10:21:58+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:21:58 Use 0.000386 s
+
+[ 2017-05-29T10:22:53+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:22:53 Use 0.000356 s
+
+[ 2017-05-29T10:24:49+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:24:49 Use 0.000349 s
+
+[ 2017-05-29T10:27:07+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:27:07 Use 0.000400 s
+
+[ 2017-05-29T10:28:11+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:28:11 Use 0.000369 s
+
+[ 2017-05-29T10:28:26+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:28:26 Use 0.000370 s
+
+[ 2017-05-29T10:29:03+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:29:03 Use 0.000313 s
+
+[ 2017-05-29T10:29:13+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:29:13 Use 0.000521 s
+
+[ 2017-05-29T10:29:35+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:29:35 Use 0.000277 s
+
+[ 2017-05-29T10:30:03+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:30:03 Use 0.000431 s
+
+[ 2017-05-29T10:30:28+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:30:28 Use 0.000381 s
+
+[ 2017-05-29T10:31:15+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:31:15 Use 0.000354 s
+
+[ 2017-05-29T10:31:33+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:31:33 Use 0.000375 s
+
+[ 2017-05-29T10:31:36+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:31:36 Use 0.000532 s
+
+[ 2017-05-29T10:31:40+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/Authentication.html
+ERR: Cron:cron Runat 2017-05-29 10:31:40 Use 0.000392 s
+
+[ 2017-05-29T10:32:57+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:32:57 Use 0.000373 s
+
+[ 2017-05-29T10:34:43+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:34:43 Use 0.000317 s
+
+[ 2017-05-29T10:34:52+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:34:52 Use 0.000352 s
+
+[ 2017-05-29T10:35:03+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:35:03 Use 0.000335 s
+
+[ 2017-05-29T10:35:18+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:35:18 Use 0.000371 s
+
+[ 2017-05-29T10:37:06+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:37:06 Use 0.000444 s
+
+[ 2017-05-29T10:37:31+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:37:31 Use 0.000334 s
+
+[ 2017-05-29T10:38:25+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:38:25 Use 0.000360 s
+
+[ 2017-05-29T10:38:43+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:38:43 Use 0.000358 s
+
+[ 2017-05-29T10:39:07+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:39:07 Use 0.000347 s
+
+[ 2017-05-29T10:39:23+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:39:23 Use 0.000354 s
+
+[ 2017-05-29T10:39:35+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:39:35 Use 0.000402 s
+
+[ 2017-05-29T10:39:45+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:39:45 Use 0.000387 s
+
+[ 2017-05-29T10:40:50+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:40:50 Use 0.000302 s
+
+[ 2017-05-29T10:41:10+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:41:10 Use 0.000330 s
+
+[ 2017-05-29T10:41:50+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:41:50 Use 0.000406 s
+
+[ 2017-05-29T10:43:34+08:00 ] ::1 /eshop/index.php/Admin/Index/loginout.html
+ERR: Cron:cron Runat 2017-05-29 10:43:34 Use 0.000395 s
+
+[ 2017-05-29T10:43:45+08:00 ] ::1 /eshop/index.php/Admin/Login/index.html
+ERR: Cron:cron Runat 2017-05-29 10:43:45 Use 0.000339 s
+
+[ 2017-05-29T10:43:47+08:00 ] ::1 /eshop/index.php/Admin/Login/index.html
+ERR: Cron:cron Runat 2017-05-29 10:43:47 Use 0.000362 s
+
+[ 2017-05-29T10:44:48+08:00 ] ::1 /eshop/index.php/Admin/Login/index.html
+ERR: Cron:cron Runat 2017-05-29 10:44:48 Use 0.000341 s
+
+[ 2017-05-29T10:45:16+08:00 ] ::1 /eshop/index.php/Admin/Login/index.html
+ERR: Cron:cron Runat 2017-05-29 10:45:16 Use 0.000381 s
+
+[ 2017-05-29T10:45:30+08:00 ] ::1 /eshop/index.php/Admin/Login/checkVerify
+ERR: Cron:cron Runat 2017-05-29 10:45:30 Use 0.000371 s
+
+[ 2017-05-29T10:45:30+08:00 ] ::1 /eshop/index.php/Admin/Login/checkVerify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000814s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.012834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014390s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000794s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000877s ]
+
+[ 2017-05-29T10:45:31+08:00 ] ::1 /eshop/index.php/Admin/Login/doLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000711s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.006123s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007507s ]
+SQL: SHOW COLUMNS FROM `eshop_admin` [ RunTime:0.0263s ]
+SQL: SELECT * FROM `eshop_admin` WHERE `name` = 'admin' LIMIT 1   [ RunTime:0.0011s ]
+SQL: UPDATE `eshop_admin` SET `loginTime`='1496025931',`ip`='0.0.0.0' WHERE `id` = 1 [ RunTime:0.0364s ]
+
+[ 2017-05-29T10:45:33+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:45:33 Use 0.000859 s
+
+[ 2017-05-29T10:46:36+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:46:36 Use 0.000402 s
+
+[ 2017-05-29T10:47:28+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:47:28 Use 0.000402 s
+
+[ 2017-05-29T10:48:04+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:48:04 Use 0.000367 s
+
+[ 2017-05-29T10:48:35+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:48:35 Use 0.000388 s
+
+[ 2017-05-29T10:49:13+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:49:13 Use 0.000330 s
+
+[ 2017-05-29T10:49:36+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:49:36 Use 0.000377 s
+
+[ 2017-05-29T10:49:48+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:49:48 Use 0.000531 s
+
+[ 2017-05-29T10:50:16+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:50:16 Use 0.000387 s
+
+[ 2017-05-29T10:50:41+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:50:41 Use 0.000345 s
+
+[ 2017-05-29T10:51:22+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:51:22 Use 0.000369 s
+
+[ 2017-05-29T10:51:41+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:51:41 Use 0.000363 s
+
+[ 2017-05-29T10:51:55+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:51:55 Use 0.000435 s
+
+[ 2017-05-29T10:52:04+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:52:04 Use 0.000400 s
+
+[ 2017-05-29T10:53:25+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:53:25 Use 0.000374 s
+
+[ 2017-05-29T10:54:00+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:54:00 Use 0.000290 s
+
+[ 2017-05-29T10:54:21+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:54:21 Use 0.000301 s
+
+[ 2017-05-29T10:55:13+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:55:13 Use 0.000373 s
+
+[ 2017-05-29T10:55:18+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:55:18 Use 0.000347 s
+
+[ 2017-05-29T10:56:05+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:56:05 Use 0.000386 s
+
+[ 2017-05-29T10:56:22+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:56:22 Use 0.000383 s
+
+[ 2017-05-29T10:57:17+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:57:17 Use 0.000430 s
+
+[ 2017-05-29T10:57:37+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:57:37 Use 0.000349 s
+
+[ 2017-05-29T10:57:48+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:57:48 Use 0.000357 s
+
+[ 2017-05-29T10:57:54+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:57:54 Use 0.000285 s
+
+[ 2017-05-29T10:58:13+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:58:13 Use 0.000405 s
+
+[ 2017-05-29T10:58:26+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:58:26 Use 0.000404 s
+
+[ 2017-05-29T10:58:34+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:58:34 Use 0.000392 s
+
+[ 2017-05-29T10:58:36+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:58:36 Use 0.000438 s
+
+[ 2017-05-29T10:58:39+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:58:39 Use 0.000383 s
+
+[ 2017-05-29T10:58:43+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:58:43 Use 0.000343 s
+
+[ 2017-05-29T10:58:46+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:58:46 Use 0.000413 s
+
+[ 2017-05-29T10:58:48+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:58:48 Use 0.000393 s
+
+[ 2017-05-29T10:58:52+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:58:52 Use 0.000526 s
+
+[ 2017-05-29T10:59:51+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:59:51 Use 0.000308 s
+
+[ 2017-05-29T10:59:53+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 10:59:53 Use 0.000396 s
+
+[ 2017-05-29T11:01:16+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 11:01:16 Use 0.000375 s
+
+[ 2017-05-29T11:01:52+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/Authentication.html
+ERR: Cron:cron Runat 2017-05-29 11:01:52 Use 0.000379 s
+
+[ 2017-05-29T11:01:54+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/Authentication.html
+ERR: Cron:cron Runat 2017-05-29 11:01:54 Use 0.000350 s
+
+[ 2017-05-29T11:04:16+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/Authentication.html
+ERR: Cron:cron Runat 2017-05-29 11:04:16 Use 0.000345 s
+
+[ 2017-05-29T11:06:21+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/Authentication.html
+ERR: Cron:cron Runat 2017-05-29 11:06:21 Use 0.000430 s
+
+[ 2017-05-29T11:07:50+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/Authentication.html
+ERR: Cron:cron Runat 2017-05-29 11:07:50 Use 0.000291 s
+
+[ 2017-05-29T11:07:58+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/Authentication.html
+ERR: Cron:cron Runat 2017-05-29 11:07:58 Use 0.000326 s
+
+[ 2017-05-29T11:08:09+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/Authentication.html
+ERR: Cron:cron Runat 2017-05-29 11:08:09 Use 0.000381 s
+
+[ 2017-05-29T11:08:11+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/Authentication.html
+ERR: Cron:cron Runat 2017-05-29 11:08:11 Use 0.000412 s
+
+[ 2017-05-29T11:08:16+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/Authentication.html
+ERR: Cron:cron Runat 2017-05-29 11:08:16 Use 0.000974 s
+
+[ 2017-05-29T11:09:22+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/Authentication.html
+ERR: Cron:cron Runat 2017-05-29 11:09:22 Use 0.000391 s
+
+[ 2017-05-29T11:09:26+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/Authentication.html
+ERR: Cron:cron Runat 2017-05-29 11:09:26 Use 0.000362 s
+
+[ 2017-05-29T11:09:45+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/Authentication.html
+ERR: Cron:cron Runat 2017-05-29 11:09:45 Use 0.000403 s
+
+[ 2017-05-29T11:10:44+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/Authentication.html
+ERR: Cron:cron Runat 2017-05-29 11:10:44 Use 0.000341 s
+
+[ 2017-05-29T11:10:44+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/Authentication.html
+ERR: 非法操作:Authentication
+
+[ 2017-05-29T11:10:48+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/Authentication.html
+ERR: Cron:cron Runat 2017-05-29 11:10:48 Use 0.000393 s
+
+[ 2017-05-29T11:10:48+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/Authentication.html
+ERR: 非法操作:Authentication
+
+[ 2017-05-29T11:11:04+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 11:11:04 Use 0.000407 s
+
+[ 2017-05-29T11:11:13+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/autho.html
+ERR: Cron:cron Runat 2017-05-29 11:11:13 Use 0.000451 s
+
+[ 2017-05-29T11:12:20+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/autho.html
+ERR: Cron:cron Runat 2017-05-29 11:12:20 Use 0.000338 s
+
+[ 2017-05-29T11:12:52+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/autho.html
+ERR: Cron:cron Runat 2017-05-29 11:12:52 Use 0.000337 s
+
+[ 2017-05-29T11:17:48+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/autho.html
+ERR: Cron:cron Runat 2017-05-29 11:17:48 Use 0.000348 s
+
+[ 2017-05-29T11:18:45+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/autho.html
+ERR: Cron:cron Runat 2017-05-29 11:18:45 Use 0.000384 s
+
+[ 2017-05-29T11:18:59+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/autho.html
+ERR: Cron:cron Runat 2017-05-29 11:18:59 Use 0.000365 s
+
+[ 2017-05-29T11:19:09+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/autho.html
+ERR: Cron:cron Runat 2017-05-29 11:19:09 Use 0.000573 s
+
+[ 2017-05-29T11:20:30+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/autho.html
+ERR: Cron:cron Runat 2017-05-29 11:20:30 Use 0.000359 s
+
+[ 2017-05-29T11:20:32+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/autho.html
+ERR: Cron:cron Runat 2017-05-29 11:20:32 Use 0.000362 s
+
+[ 2017-05-29T11:20:40+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/autho.html
+ERR: Cron:cron Runat 2017-05-29 11:20:40 Use 0.000644 s
+
+[ 2017-05-29T11:21:25+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/autho.html
+ERR: Cron:cron Runat 2017-05-29 11:21:25 Use 0.000387 s
+
+[ 2017-05-29T11:21:53+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/autho.html
+ERR: Cron:cron Runat 2017-05-29 11:21:53 Use 0.000296 s
+
+[ 2017-05-29T11:22:03+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/autho.html
+ERR: Cron:cron Runat 2017-05-29 11:22:03 Use 0.000273 s
+
+[ 2017-05-29T11:22:40+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/autho.html
+ERR: Cron:cron Runat 2017-05-29 11:22:40 Use 0.000308 s
+
+[ 2017-05-29T11:22:51+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/autho.html
+ERR: Cron:cron Runat 2017-05-29 11:22:51 Use 0.000370 s
+
+[ 2017-05-29T11:23:27+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/autho.html
+ERR: Cron:cron Runat 2017-05-29 11:23:27 Use 0.000355 s
+
+[ 2017-05-29T11:24:07+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/autho.html
+ERR: Cron:cron Runat 2017-05-29 11:24:07 Use 0.000355 s
+
+[ 2017-05-29T13:45:15+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/autho.html
+ERR: Cron:cron Runat 2017-05-29 13:45:15 Use 0.000713 s
+
+[ 2017-05-29T13:48:12+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 13:48:12 Use 0.000626 s
+
+[ 2017-05-29T14:06:16+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 14:06:16 Use 0.000482 s
+
+[ 2017-05-29T14:07:38+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 14:07:38 Use 0.000761 s
+
+[ 2017-05-29T14:07:40+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 14:07:40 Use 0.000568 s
+
+[ 2017-05-29T14:07:43+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/autho.html
+ERR: Cron:cron Runat 2017-05-29 14:07:43 Use 0.000549 s
+
+[ 2017-05-29T14:08:45+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/autho.html
+ERR: Cron:cron Runat 2017-05-29 14:08:45 Use 0.000595 s
+
+[ 2017-05-29T14:09:13+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/autho.html
+ERR: Cron:cron Runat 2017-05-29 14:09:13 Use 0.000513 s
+
+[ 2017-05-29T14:10:28+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/autho.html
+ERR: Cron:cron Runat 2017-05-29 14:10:28 Use 0.000585 s
+
+[ 2017-05-29T14:12:30+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/autho.html
+ERR: Cron:cron Runat 2017-05-29 14:12:30 Use 0.000505 s
+
+[ 2017-05-29T14:12:52+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/autho.html
+ERR: Cron:cron Runat 2017-05-29 14:12:52 Use 0.000553 s
+
+[ 2017-05-29T14:13:19+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 14:13:19 Use 0.000530 s
+
+[ 2017-05-29T14:13:26+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 14:13:26 Use 0.000551 s
+
+[ 2017-05-29T14:13:51+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-05-29 14:13:51 Use 0.000593 s
+
+[ 2017-05-29T14:13:54+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/autho.html
+ERR: Cron:cron Runat 2017-05-29 14:13:54 Use 0.000526 s
+
+[ 2017-05-29T14:15:06+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/autho.html
+ERR: Cron:cron Runat 2017-05-29 14:15:06 Use 0.000533 s
+
+[ 2017-05-29T14:16:12+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/autho.html
+ERR: Cron:cron Runat 2017-05-29 14:16:12 Use 0.000532 s
+
+[ 2017-05-29T14:17:06+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/autho.html
+ERR: Cron:cron Runat 2017-05-29 14:17:06 Use 0.000587 s
+
+[ 2017-05-29T14:17:56+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/autho.html
+ERR: Cron:cron Runat 2017-05-29 14:17:56 Use 0.000509 s
+
+[ 2017-05-29T14:18:12+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/autho.html
+ERR: Cron:cron Runat 2017-05-29 14:18:12 Use 0.000533 s
+
+[ 2017-05-29T14:18:27+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/autho.html
+ERR: Cron:cron Runat 2017-05-29 14:18:27 Use 0.000590 s
+
+[ 2017-05-29T14:18:59+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/autho.html
+ERR: Cron:cron Runat 2017-05-29 14:18:59 Use 0.000978 s
+
+[ 2017-05-29T14:19:07+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/autho.html
+ERR: Cron:cron Runat 2017-05-29 14:19:07 Use 0.000907 s
+
+[ 2017-05-29T14:20:49+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/autho.html
+ERR: Cron:cron Runat 2017-05-29 14:20:49 Use 0.000660 s
+
+[ 2017-05-29T14:20:52+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/autho.html
+ERR: Cron:cron Runat 2017-05-29 14:20:52 Use 0.000539 s
+
+[ 2017-05-29T14:21:29+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/autho.html
+ERR: Cron:cron Runat 2017-05-29 14:21:29 Use 0.000650 s
+
+[ 2017-05-29T14:22:09+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/autho.html
+ERR: Cron:cron Runat 2017-05-29 14:22:09 Use 0.000535 s
+
+[ 2017-05-29T14:22:59+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/autho.html
+ERR: Cron:cron Runat 2017-05-29 14:22:59 Use 0.000584 s
+
+[ 2017-05-29T14:23:10+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/autho.html
+ERR: Cron:cron Runat 2017-05-29 14:23:10 Use 0.000553 s
+
+[ 2017-05-29T14:23:12+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/autho.html
+ERR: Cron:cron Runat 2017-05-29 14:23:12 Use 0.000614 s
+
+[ 2017-05-29T14:23:16+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/autho.html
+ERR: Cron:cron Runat 2017-05-29 14:23:16 Use 0.000591 s
+
+[ 2017-05-29T14:23:38+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/autho.html
+ERR: Cron:cron Runat 2017-05-29 14:23:38 Use 0.000542 s
+
+[ 2017-05-29T14:25:12+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/autho.html
+ERR: Cron:cron Runat 2017-05-29 14:25:12 Use 0.000788 s
+
+[ 2017-05-29T14:25:50+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/autho.html
+ERR: Cron:cron Runat 2017-05-29 14:25:50 Use 0.000493 s
+
+[ 2017-05-29T14:26:30+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/autho.html
+ERR: Cron:cron Runat 2017-05-29 14:26:30 Use 0.000533 s
+
+[ 2017-05-29T14:27:15+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/autho.html
+ERR: Cron:cron Runat 2017-05-29 14:27:15 Use 0.000646 s
+
+[ 2017-05-29T14:28:27+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/autho.html
+ERR: Cron:cron Runat 2017-05-29 14:28:27 Use 0.000429 s
+
+[ 2017-05-29T14:29:16+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/autho.html
+ERR: Cron:cron Runat 2017-05-29 14:29:16 Use 0.000488 s
+
+[ 2017-05-29T14:33:41+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/autho.html
+ERR: Cron:cron Runat 2017-05-29 14:33:41 Use 0.000727 s
+
+[ 2017-05-29T14:33:50+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/autho.html
+ERR: Cron:cron Runat 2017-05-29 14:33:50 Use 0.000481 s
+
+[ 2017-05-29T14:34:12+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/autho.html
+ERR: Cron:cron Runat 2017-05-29 14:34:12 Use 0.000488 s
+
+[ 2017-05-29T14:34:29+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/autho.html
+ERR: Cron:cron Runat 2017-05-29 14:34:29 Use 0.000674 s
+
+[ 2017-05-29T14:35:18+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/autho.html
+ERR: Cron:cron Runat 2017-05-29 14:35:18 Use 0.000461 s
+
+[ 2017-05-29T14:35:28+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/autho.html
+ERR: Cron:cron Runat 2017-05-29 14:35:28 Use 0.000719 s
+
+[ 2017-05-29T14:35:50+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/autho.html
+ERR: Cron:cron Runat 2017-05-29 14:35:50 Use 0.000495 s
+
+[ 2017-05-29T14:36:03+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/autho.html
+ERR: Cron:cron Runat 2017-05-29 14:36:03 Use 0.000522 s
+
+[ 2017-05-29T14:36:40+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/autho.html
+ERR: Cron:cron Runat 2017-05-29 14:36:40 Use 0.000580 s
+
+[ 2017-05-29T14:36:55+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/autho.html
+ERR: Cron:cron Runat 2017-05-29 14:36:55 Use 0.000598 s
+
+[ 2017-05-29T14:40:30+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/autho.html
+ERR: Cron:cron Runat 2017-05-29 14:40:30 Use 0.000530 s
+
+[ 2017-05-29T14:41:49+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/autho.html
+ERR: Cron:cron Runat 2017-05-29 14:41:49 Use 0.000852 s
+
+[ 2017-05-29T14:41:51+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/autho.html
+ERR: Cron:cron Runat 2017-05-29 14:41:51 Use 0.000596 s
+
+[ 2017-05-29T14:42:01+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/autho.html
+ERR: Cron:cron Runat 2017-05-29 14:42:01 Use 0.000877 s
+
+[ 2017-05-29T14:42:11+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/autho.html
+ERR: Cron:cron Runat 2017-05-29 14:42:11 Use 0.000559 s
+
+[ 2017-05-29T14:44:33+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/autho.html
+ERR: Cron:cron Runat 2017-05-29 14:44:33 Use 0.000420 s
+
+[ 2017-05-29T14:46:08+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/autho.html
+ERR: Cron:cron Runat 2017-05-29 14:46:08 Use 0.000911 s
+
+[ 2017-05-29T14:46:39+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/autho.html
+ERR: Cron:cron Runat 2017-05-29 14:46:39 Use 0.000582 s
+
+[ 2017-05-29T14:47:57+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/autho.html
+ERR: Cron:cron Runat 2017-05-29 14:47:56 Use 0.000534 s
+
+[ 2017-05-29T14:48:10+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/autho.html
+ERR: Cron:cron Runat 2017-05-29 14:48:10 Use 0.000572 s
+
+[ 2017-05-29T14:48:23+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/autho.html
+ERR: Cron:cron Runat 2017-05-29 14:48:23 Use 0.000607 s
+
+[ 2017-05-29T14:48:32+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/autho.html
+ERR: Cron:cron Runat 2017-05-29 14:48:32 Use 0.000880 s
+
+[ 2017-05-29T14:50:40+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/autho.html
+ERR: Cron:cron Runat 2017-05-29 14:50:40 Use 0.000663 s
+
+[ 2017-05-29T14:51:13+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/autho.html
+ERR: Cron:cron Runat 2017-05-29 14:51:13 Use 0.000491 s
+
+[ 2017-05-29T19:47:06+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/autho.html
+ERR: Cron:cron Runat 2017-05-29 19:47:06 Use 0.000579 s
+
+[ 2017-05-29T19:47:26+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/autho.html
+ERR: Cron:cron Runat 2017-05-29 19:47:26 Use 0.000681 s
+
+[ 2017-05-29T19:47:35+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/autho.html
+ERR: Cron:cron Runat 2017-05-29 19:47:35 Use 0.000670 s
+
+[ 2017-05-29T19:47:37+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/autho.html
+ERR: Cron:cron Runat 2017-05-29 19:47:37 Use 0.000633 s
+
+[ 2017-05-29T19:48:00+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/autho.html
+ERR: Cron:cron Runat 2017-05-29 19:48:00 Use 0.000487 s
+
+[ 2017-05-29T19:52:27+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/autho.html
+ERR: Cron:cron Runat 2017-05-29 19:52:27 Use 0.000418 s
+
+[ 2017-05-29T19:52:42+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/autho.html
+ERR: Cron:cron Runat 2017-05-29 19:52:42 Use 0.000546 s
+
+[ 2017-05-29T19:53:59+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/autho.html
+ERR: Cron:cron Runat 2017-05-29 19:53:59 Use 0.000495 s
+
+[ 2017-05-29T19:54:02+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/autho.html
+ERR: Cron:cron Runat 2017-05-29 19:54:02 Use 0.000582 s
+
+[ 2017-05-29T19:54:04+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/autho.html
+ERR: Cron:cron Runat 2017-05-29 19:54:04 Use 0.000584 s
+
+[ 2017-05-29T19:54:49+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/autho.html
+ERR: Cron:cron Runat 2017-05-29 19:54:49 Use 0.000457 s
+
+[ 2017-05-29T19:54:54+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/autho.html
+ERR: Cron:cron Runat 2017-05-29 19:54:54 Use 0.000550 s
+
+[ 2017-05-29T19:55:19+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/autho.html
+ERR: Cron:cron Runat 2017-05-29 19:55:19 Use 0.000477 s
+
+[ 2017-05-29T19:55:24+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/autho.html
+ERR: Cron:cron Runat 2017-05-29 19:55:24 Use 0.000453 s
+
+[ 2017-05-29T19:57:26+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/autho.html
+ERR: Cron:cron Runat 2017-05-29 19:57:26 Use 0.000613 s
+
+[ 2017-05-29T19:57:28+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/autho.html
+ERR: Cron:cron Runat 2017-05-29 19:57:28 Use 0.000663 s
+
+[ 2017-05-29T19:59:52+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/autho.html
+ERR: Cron:cron Runat 2017-05-29 19:59:52 Use 0.000626 s
+
+[ 2017-05-29T20:00:24+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/autho.html
+ERR: Cron:cron Runat 2017-05-29 20:00:24 Use 0.000481 s
+
+[ 2017-05-29T20:02:00+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/autho.html
+ERR: Cron:cron Runat 2017-05-29 20:02:00 Use 0.000459 s
+
+[ 2017-05-29T20:04:25+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/autho.html
+ERR: Cron:cron Runat 2017-05-29 20:04:25 Use 0.000673 s
+
+[ 2017-05-29T20:04:36+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/autho.html
+ERR: Cron:cron Runat 2017-05-29 20:04:36 Use 0.001375 s
+
+[ 2017-05-29T20:05:53+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/autho.html
+ERR: Cron:cron Runat 2017-05-29 20:05:53 Use 0.000465 s
+
+[ 2017-05-29T20:06:09+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/autho.html
+ERR: Cron:cron Runat 2017-05-29 20:06:09 Use 0.000414 s
+
+[ 2017-05-29T20:06:22+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/autho.html
+ERR: Cron:cron Runat 2017-05-29 20:06:22 Use 0.000642 s
+
+[ 2017-05-29T20:06:38+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/autho.html
+ERR: Cron:cron Runat 2017-05-29 20:06:38 Use 0.000547 s
+
+[ 2017-05-29T20:08:50+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/autho.html
+ERR: Cron:cron Runat 2017-05-29 20:08:50 Use 0.000615 s
+
+[ 2017-05-29T20:13:31+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/autho.html
+ERR: Cron:cron Runat 2017-05-29 20:13:31 Use 0.000630 s
+

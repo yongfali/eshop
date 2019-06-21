@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>用户中心-订单详情</title>
+<include file = "Public:common"/>
+<include file='Public:ucenterlink'/>
+</head>
+<body>
+<include file = "Public:header"/>
+<div class="position_now">
+  <label><a href="{:U('Home/Index/index')}" target="_blankx">首页</a></label>
+  <span>&gt</span>
+  <label>订单详情</label>
+</div>
+<div class="ucenter_wrapper"> 
+  <!-- 交易管理左侧导航开始 --> 
+  <include file = "Public:ucenternav"/> 
+  <!-- 交易管理左侧导航结束 --> 
+  <!-- 交易管理右侧内容显示开始 -->
+  <div class="ucenter_right">
+    <div class="ucenter_right_title"> <span>订单详情</span> 
+    </div>
+    <div class="ucenter_right_content"> 
+      <!-- 订单详情展示 -->
+      <if condition="$orderInfo.is_cancel eq 1">
+        <div class="order-cancle">
+           <div class="titles">订单状态</div>
+           <div class="info">{$orderInfo.create_time|date="Y-m-d H：i：s",###}<span>&nbsp;&nbsp;下单成功</span>
+           </div>
+          <div class="info">{$orderInfo.canceltime|date="Y-m-d H：i：s",###}&nbsp;&nbsp;用户取消订单：
+            <span style="color:red;">
+              <switch name="orderInfo.canclereason">
+                <case value="1">下错单</case>
+                <case value="2">订单信息填写有误</case>
+                <case value="3">商家商品与图片描述不符</case>
+                <case value="4">我有更好的商品想买</case>
+                <default />其它原因
+              </switch>
+            </span>
+          </div>
+        </div>
+        <elseif condition="$orderInfo.is_reject eq 1"/>
+        <div class="order-cancle">
+           <div class="titles">订单状态</div>
+           <div class="info">{$orderInfo.create_time|date="Y-m-d H：i：s",###}<span>&nbsp;&nbsp;下单成功</span>
+           </div>
+           <div class="info">{$orderInfo.delivertime|date="Y-m-d H：i：s",###}<span>&nbsp;&nbsp;商家发货</span>
+           </div>
+          <div class="info">{$orderInfo.rejecttime|date="Y-m-d H：i：s",###}&nbsp;&nbsp;用户拒收订单：
+            <span style="color:red;">
+              <switch name="orderInfo.rejectreason">
+                <case value="1">商家没有按照约定时间发货</case>
+                <case value="2">商品在配送中损害了</case>
+                <case value="3">商品的质量不合格</case>
+                <default />其它原因
+              </switch>
+            </span>
+          </div>
+        </div>
+        <else/>
+        <div class="order-progress">
+          <div class="titles">订单状态</div>
+          <div class="icons">
+            <span class="icons-img"><img src="__PUBLIC__/Home/Icon/place-order-success.png"></span>
+            <span class="icons-line active">························&gt;</span>
+          </div>
+          <div class="icons">
+            <span class="icons-img">
+              <if condition="$orderInfo.is_deliver eq 1">
+                <img src="__PUBLIC__/Home/Icon/delivered.png">
+                <else/>
+                <img src="__PUBLIC__/Home/Icon/deliver.png">
+              </if>
+            </span>
+            <span class="icons-line <if condition="$orderInfo.is_deliver eq 1">active</if>">························&gt;</span>
+          </div>
+          <div class="icons">
+            <span class="icons-img">
+              <if condition="$orderInfo.is_confirm eq 1">
+                 <img src="__PUBLIC__/Home/Icon/good-received.png">
+                <else/>
+                 <img src="__PUBLIC__/Home/Icon/good-receive.png">
+              </if>
+            </span>
+            <span class="icons-line <if condition="
+            $orderInfo.is_confirm eq 1">active</if>">························&gt;</span>
+          </div>
+          <div class="icons">
+            <span class="icons-img">
+              <if condition="$orderInfo.is_recommend eq 1">
+               <img src="__PUBLIC__/Home/Icon/commented.png">
+               <else/>
+               <img src="__PUBLIC__/Home/Icon/comment.png">
+              </if>
+            </span>
+          </div>
+          <div class="icons-info">
+            <span class="active">下单成功{$orderInfo.create_time|date="Y-m-d  H:i:s",###}</span>
+            <if condition="$orderInfo.is_deliver eq 1">
+              <span class="active">
+                商家已发货{$orderInfo.delivertime|date="Y-m-d  H:i:s",###}
+              </span>
+              <else/>
+              <span>
+                等待发货
+              </span>
+            </if>
+            <if condition="$orderInfo.is_confirm eq 1">
+              <span class="active">
+                买家已收货{$orderInfo.confirmtime|date="Y-m-d  H:i:s",###}
+              </span>
+              <else/>
+              <span>
+                确认收货
+              </span>
+            </if>
+            <if condition="$orderInfo.is_recommend eq 1">
+              <span class="active">
+                评价完成{$orderInfo.delivertime|date="Y-m-d  H:i:s",###}
+              </span>
+              <else/>
+              <span>
+                等待评价
+              </span>
+            </if>
+          </div>
+        </div><!-- 订单进度条显示结束 -->
+      </if>
+      <div class="order-info">
+        <div  class="titles">订单信息</div>
+        <div>
+          <p><span>订单编号：</span>{$orderInfo.ordernum}</p>
+          <p><span>支付方式：</span>
+            <switch name="orderInfo.paytype">
+              <case value="2">微信</case>
+              <case value="3">银联</case>
+              <case value="4">其它支付</case>
+              <default />支付宝
+            </switch>
+          </p>
+          <p><span>配送方式：</span>京东配送</p>
+          <if condition="($orderInfo.is_deliver eq 1) OR ($orderInfo.is_confirmr eq 1)">
+            <p><span>快递公司：</span>{$orderInfo.expressname}</p>
+            <p><span>快递单号：</span>{$orderInfo.expressnumber}</p>
+            <p><span>购买意外险：</span>赠送运费险</p>
+            <p><span>保险单号：</span>10000032289</p>
+          </if>
+          <p><span>订单留言：</span>
+            <empty name="orderInfo.message">
+              无
+              <else/>
+              {$orderInfo.message}
+            </empty>
+          </p>
+        </div>
+      </div><!-- 订单信息显示结束 -->
+      <div class="buyer-info">
+        <div  class="titles">买家信息</div>
+        <p><span>买家姓名：</span>{$orderInfo.username}</p>
+        <p><span>联系方式：</span>{$orderInfo.usertel}</p>
+        <p><span>收货地址：</span>{$orderInfo.useraddr}</p>
+      </div><!-- 买家信息显示结束 -->
+      <div class="logistics">
+        <div  class="titles">物流信息</div>
+        <div>暂无物流信息！！！</div>
+      </div><!-- 物流信息显示结束 -->
+      <!-- 订单详情展示 --> 
+    </div>
+  </div>
+  <!-- 交易管理右侧内容显示结束 --> 
+</div>
+<include file= "Public:footer" />
+</body>
+</html>

@@ -1,0 +1,139 @@
+[ 2016-12-30T10:27:19+08:00 ] ::1 /eshop/index.php/Home/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001166s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001902s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001063s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001167s ]
+
+[ 2016-12-30T10:27:20+08:00 ] ::1 /eshop/index.php/Home/User/doLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001941s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0879s ]
+SQL: SELECT * FROM `eshop_user` WHERE `name` = 'admin1' LIMIT 1   [ RunTime:0.0011s ]
+NOTIC: [2] fopen(D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Org\Net/UTFWry.dat): failed to open stream: No such file or directory D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Org\Net\IpLocation.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `eshop_user_log` [ RunTime:0.0126s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `eshop_user_log` (`userId`,`action`,`ip`,`location`,`time`) VALUES ('11','登录','0.0.0.0',NULL,'1483064840') [ RunTime:0.0455s ]
+
+[ 2016-12-30T10:27:46+08:00 ] ::1 /eshop/index.php/Home/UserCenter/addressDefault.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001622s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0067s ]
+SQL: UPDATE `eshop_user_address` SET `is_first`='0',`modifytime`='1483064865' WHERE `userId` = 11 [ RunTime:0.0761s ]
+SQL: UPDATE `eshop_user_address` SET `is_first`='1',`modifytime`='1483064866' WHERE `id` = 2 [ RunTime:0.0214s ]
+
+[ 2016-12-30T10:27:57+08:00 ] ::1 /eshop/index.php/Home/UserCenter/doEditAddrShow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000885s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001448s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.1047s ]
+SQL: UPDATE `eshop_user_address` SET `is_first`='0',`modifytime`='1483064877' WHERE `userId` = 11 AND `is_first` = 1 [ RunTime:0.0442s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `eshop_user_address` SET `userId`='11',`userName`='张三',`location`='北京市|北京市市辖区|东城区',`streetInfo`='三好胡同删号',`postCode`='123456',`tel`='18904010296',`is_first`='1',`modifytime`='1483064877' WHERE `id` = 2 [ RunTime:0.0158s ]
+
+[ 2016-12-30T10:28:32+08:00 ] ::1 /eshop/index.php/Home/UserCenter/delLog.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001554s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002259s ]
+SQL: SHOW COLUMNS FROM `eshop_user_log` [ RunTime:0.0055s ]
+SQL: DELETE FROM `eshop_user_log` WHERE `id` = 42 [ RunTime:0.0722s ]
+
+[ 2016-12-30T10:28:36+08:00 ] ::1 /eshop/index.php/Home/UserCenter/delLog.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001319s ]
+SQL: SHOW COLUMNS FROM `eshop_user_log` [ RunTime:0.0057s ]
+SQL: DELETE FROM `eshop_user_log` WHERE `id` = 41 [ RunTime:0.0756s ]
+
+[ 2016-12-30T10:28:39+08:00 ] ::1 /eshop/index.php/Home/UserCenter/delLog.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000691s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001258s ]
+SQL: SHOW COLUMNS FROM `eshop_user_log` [ RunTime:0.0064s ]
+SQL: DELETE FROM `eshop_user_log` WHERE `id` = 40 [ RunTime:0.0805s ]
+
+[ 2016-12-30T10:28:44+08:00 ] ::1 /eshop/index.php/Home/UserCenter/delLog.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001271s ]
+SQL: SHOW COLUMNS FROM `eshop_user_log` [ RunTime:0.0064s ]
+SQL: DELETE FROM `eshop_user_log` WHERE `id` = 47 [ RunTime:0.0518s ]
+
+[ 2016-12-30T10:29:18+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002305s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001376s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001523s ]
+
+[ 2016-12-30T10:29:22+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002398s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001596s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001805s ]
+
+[ 2016-12-30T10:29:22+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000877s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001434s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000803s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000881s ]
+
+[ 2016-12-30T10:29:24+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002828s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001642s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001804s ]
+
+[ 2016-12-30T10:29:24+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002675s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001531s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001684s ]
+
+[ 2016-12-30T10:29:25+08:00 ] ::1 /eshop/index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001677s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000858s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000936s ]
+
+[ 2016-12-30T10:29:26+08:00 ] ::1 /eshop/index.php/Home/Shoper/doLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001619s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0905s ]
+SQL: SELECT * FROM `eshop_shoper` WHERE `name` = 'shoper3' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] fopen(D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Org\Net/UTFWry.dat): failed to open stream: No such file or directory D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Org\Net\IpLocation.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `eshop_shoper_log` [ RunTime:0.0135s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `eshop_shoper_log` (`shoperId`,`action`,`ip`,`location`,`time`) VALUES ('13','登录','0.0.0.0',NULL,'1483064966') [ RunTime:0.0412s ]
+
+[ 2016-12-30T14:39:52+08:00 ] ::1 /eshop/index.php/Home/Good/upload
+ERR: 非法操作:upload
+
+[ 2016-12-30T14:40:26+08:00 ] ::1 /eshop/index.php/Home/Good/upload
+ERR: 非法操作:upload
+
+[ 2016-12-30T16:46:06+08:00 ] ::1 /eshop/index.php/Home/ShopCart/shoper_regist.html
+ERR: 非法操作:shoper_regist
+
+[ 2016-12-30T22:33:52+08:00 ] ::1 /eshop/index.php/Home/Shop/goods_info.html
+ERR: 非法操作:goods_info
+

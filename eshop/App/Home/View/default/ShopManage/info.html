@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>店铺管理-信息发布</title>
+<!-- 公共链接 -->
+<include file = "Public:common"/>
+<include file = "Good:commonnav" />
+<!-- 公共链接 -->
+<script src="__PUBLIC__/Common/ueditor/ueditor.config.js"></script>
+<script src="__PUBLIC__/Common/ueditor/ueditor.all.min.js"></script>
+<script src="__PUBLIC__/Common/ueditor/lang/zh-cn/zh-cn.js"></script>
+<script src="__PUBLIC__/Home/Js/ShopManage/infoDeliver.js" ></script>
+</head>
+<body>
+<!-- header开始 --> 
+<include file = "Public:sheader"/>
+<!-- header结束 --> 
+<!-- 当前位置开始 -->
+<div class="position_now">
+  <label><a href="{:U('Home/Index/index')}">首页</a></label>
+  <span>&gt</span>
+  <label>信息发布</label>
+</div>
+<!-- 当前位置显示结束 --> 
+<!-- 主体内容开始 -->
+<div class="scenter_wrapper"> 
+  <!-- 左边导航标签开始 --> 
+  <include file='Public:scenternav'/> 
+  <!-- 左边导航标签结束 -->
+  <div class="scenter_right">
+   <div class="scenter_right_title"> <span>信息发布</span> </div>
+    <div class="scenter_right_content">
+      <form id="info-show" autocomplete="off">
+        <table class="info_table">
+          <tbody>
+            <tr>
+              <td class="saccount">商家账号：</td>
+              <td>
+                <div class="sNick">{$Think.session.uname}
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td class="itemsName">
+                <label for="info-title"><span class="icon">*</span>标题：</label>
+              </td>
+              <td><input type="text" name="title" id="title" class="inputs" placeholder="请输入标题"/></td>
+            </tr>
+            <tr>
+              <td class="itemsName">
+                <span class="icon">*</span>类型：
+              </td>
+              <td>
+                <select name="type">
+                  <option value="0">--请选择--</option>
+                  <option value="1">资讯</option>
+                  <option value="2">优惠活动</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td class="itemsName">
+               内容：
+              </td>
+              <td>
+                <textarea id="content" name="content"
+               style="width: 720px; height: 250px;">
+                </textarea>
+                <!--  显示 ueditor编辑器 --> 
+                <script type="text/javascript">
+                  var ue = UE.getEditor('content');
+                </script>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <div style="text-align:center;">
+         <input type="submit" value="发布" class="btn" style="margin-right:50px;"/>
+         <input type="reset" value="重置" class="btn"/>
+       </div>
+      </form>
+    </div>
+  </div>
+  <!-- 用户中心右侧内容显示结束 --> 
+</div>
+<!-- 主体内容结束 --> 
+<include file='Public:footer'/>
+</body>
+</html>

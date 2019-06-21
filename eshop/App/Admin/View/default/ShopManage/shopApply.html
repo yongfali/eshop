@@ -1,0 +1,69 @@
+<extend name="Public:base"/>
+<block name="title"><title>微农后台管理系统-开店申请</title></block>
+<block name="css">
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/Admin/Css/ShopManage/index.css">
+</block>
+<block name="main">
+	<div class="now-position">
+		<span>开店申请列表</span>
+	</div>
+	<div class="action-nav">
+		<a href="javascript:void(0);" onclick="shopAutho(1)">
+			<img src="__PUBLIC__/Admin/Icon/shop-apply.png">批量审核
+		</a>
+	</div>
+	<div class="shopApply-wrapper">
+		<table class="table table-bordered table-striped table-hover">
+			<thead>
+				<tr>
+					<th>
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" id="allchecked" autocomplete="off">全选
+							</label>
+						</div>
+					</th>
+					<th>店铺名称</th>
+					<th>店铺logo</th>
+					<th>店铺地址</th>
+					<th>申请人</th>
+					<th>申请时间</th>
+					<th>申请状态</th>
+					<th>操作</th>
+				</tr>
+			</thead>
+			<empty name="waitAuthoShop">
+				<tbody>
+					<tr><td colspan="8"><span>暂无待审的店铺！</span></td></tr>
+				</tbody>
+				<else/>
+				<tbody>
+					<volist name="waitAuthoShop" id="item">
+						<tr class="data-item">
+							<td>
+								<div class="checkbox">
+									<label>
+										<input type="checkbox" class="item-check" value="{$item.id}" autocomplete="off">
+									</label>
+								</div>
+							</td>
+							<td>{$item.name}</td>
+							<td style="padding:0px 10px;"><img src="<empty name="item.logo">__PUBLIC__/Home/Icon/no-img.png<else/>__ROOT__/{$item.logo}</empty>" style="width:40px;height:40px;"></td>
+							<td>{$item.address}</td>
+							<td>{$item.truename}</td>
+							<td>{$item.createtime|date="Y-m-d",###}</td>
+							<td>待审核</td>
+							<td>
+								<a class="btn-link" href="javascript:void(0);" onclick="shopAutho(0,{$item.id})">合格</a>
+								<a class="btn-link" href="javascript:void(0);" onclick="shopDel({$item.shoperid},{$item.id});">删除</a>
+							</td>
+						</tr>
+					</volist>
+				</tbody>
+			</empty>
+		</table>
+	</div>
+</block>
+<block name="js">
+	<script src="__PUBLIC__/Admin/Js/ShopManage/apply.js"></script>
+</block>

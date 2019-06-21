@@ -1,0 +1,140 @@
+<!-- 头部header开始 -->
+<div class="header">
+  <div class="header_wraper">
+    <div class="header_left"> 
+      <span>
+      <a href="javascript:void(0);" onclick="SetHome(this,'http://www.eshop.lyf94.com');">设为首页</a>
+    </span> 
+    <span>
+      <a href="javascript:void(0);" onclick="AddFavorite('微农电商网',location.href)">收藏本站</a>
+    </span>
+    <span>
+      <a href="<if condition="$Think.session.type eq 1">{:U('Home/ShoperCenter/messages')}<else/>{:U('Home/UserMsgManage/messages')}</if>" target="_blank">消息<span <if condition="$noReadMsgNum gt 0"> style="color:red;"</if> >（{$noReadMsgNum}）</span></a>
+    </span>    
+  </div>
+    <div class="header_right">
+      <ul>  
+        <li class="header_nav"><a href="{:U('Home/ShoperCenter/info')}">商户中心</a>
+          <ul>
+            <li><a href="{:U('Home/Shoper/regist')}">免费开店</a></li>
+            <li><a href="{:U('Home/Shoper/index')}">商家登录</a></li>
+          </ul>
+        </li>
+        <li class="header_nav"><a href="{:U('Home/UserCollection/goods')}">我的收藏</a>
+          <ul>
+            <li><a href="{:U('Home/UserCollection/goods')}">收藏的商品</a></li>
+            <li><a href="{:U('Home/UserCollection/shops')}">收藏的店铺</a></li>
+          </ul>
+        </li>
+        <li class="header_nav"><a href="{:U('Home/UserCenter/userinfo')}">我的账号</a>
+          <ul>
+            <li><a href="{:U('Home/UserCenter/security')}">个人中心</a></li>
+            <li><a href="{:U('Home/UserCenter/modifyPwd')}">修改密码</a></li>
+          </ul>
+        </li>
+        <li class="header_nav"><a href="{:U('Home/UserOrders/waitReceive')}">我的订单</a>
+          <ul>
+            <li><a href="{:U('Home/UserOrders/waitPay')}">待支付订单</a></li>
+            <li><a href="{:U('Home/UserOrders/waitReceive')}">待确认订单</a></li>
+            <li><a href="{:U('Home/UserOrders/waitAppraise')}">待评价订单</a></li>
+          </ul>
+        </li>
+      </ul>
+      <span class="header_nav">
+      <empty name="Think.session.uname"> 欢迎光临eshop商城，<a href="{:U('Home/User/login')}">登录</a>
+        <else />
+        欢迎<span style="color:red;font-size:16px;padding: 0px 8px;">{$Think.session.uname}</span>光临eshop商城，<a href="{:U('Home/User/loginout')}">退出</a> </empty>
+      </span> </div>
+  </div>
+</div>
+<div class="float_clear"></div>
+<!-- 头部header结束 -->
+<div class="content_header">
+  <div class="content_header_left"> <a href="{:U('Home/Index/index')}"><img src="__PUBLIC__/Home/Image/logo.jpg" alt="e_shop商城"></a> </div>
+  <div class="content_header_center">
+    <div class="search">
+      <form action=" " method="post">
+        <p>
+          <input type="text" name="words" id="keyWords" placeholder="输入您想要的商品" autocomplete="off"/>
+          <a href="javascript:void(0);" onclick="goodsSearch();" rel="{:U('Home/Search/index')}" id="goodSerch">
+            <span>搜索</span>
+          </a> 
+        </p>
+      </form>
+    </div>
+    <div class="hot_search"> 热门搜索： <a href="#">大蒜</a> <a href="#">黄瓜</a> <a href="#">西红柿</a> <a href="#">苹果</a> <a href="#">大蒜</a> </div>
+  </div>
+  <!-- 商城购物车展示 -->
+  <div class="good_cart" >
+    <div class="cart_icon">
+      <span class="cart-left"> 
+        <a href="{:U('ShoppingCart/index')}" target="_blank">我的购物车</a>
+      </span>
+      <span class="cart-num">
+        <empty name="cart">
+          0
+          <else/>
+          {:sizeof($cart)} 
+        </empty>
+      </span>
+      <span class="cart-right">
+        <img src="__PUBLIC__/Home/Icon/cart.png">
+      </span>
+    </div>
+    <div class="cart-content" style="display:none;">
+      <div class="title-name">
+        <strong style="color:#666">最新添加的商品</strong>
+      </div>
+      <empty name="cart">
+        <div>购物车空空如也...</div>
+        <else/>
+        <div class="cart-contetn-list">
+          <ul>
+            <volist name="cart" id="item">
+                <li>
+                  <div class="p-img">
+                    <a href="{:U('Home/Index/goodsInfo',array('id'=>$item['goodid']))}" target="_blank">
+                      <img src="__ROOT__/{$item.good_log}" alt="" width="50" height="50">
+                    </a>
+                  </div>      
+                  <div class="p-name">
+                    <a href="{:U('Home/Index/goodsInfo',array('id'=>$item['goodid']))}" target="_blank">{$item.name}
+                    </a>
+                  </div>      
+                  <div class="p-detail">          
+                    <span class="p-price">
+                      <strong>&yen;{$item.shopprice}&nbsp;</strong>×{$item.mount}
+                    </span>                   
+                    <br>
+                    <if condition ="$type eq 0 ">
+                      <a class="delete" href="javascript:void(0);" onclick="delCarts({$item['goodid']},0)">删除</a>
+                      <else/>
+                      <a class="delete" href="javascript:void(0);" onclick="delCarts({$item['goodid']},1)">删除</a>
+                    </if>          
+                  </div>  
+                </li>
+            </volist>
+          </ul>
+        </div>
+        <div class="cart-total">
+          <span>共{:sizeof($cart)}件商品，共计<strong>&yen;&nbsp;{:sprintf("%.2f",$totalPrice)}</strong></span>
+          <a href="{:U('ShoppingCart/index')}" target="_blank">去购物车</a>
+        </div>
+      </empty>
+    </div>
+  </div>
+  <!-- 商城购物车展示 -->
+</div>
+<!-- 热门搜索结束-->
+<div class="content_nav">
+  <div class="content_nav_left"> <span class="grid"><img src="__PUBLIC__/Home/Icon/grid.png" /></span> <span style="line-height:40px;">商品分类</span> <b></b> 
+  </div>
+  <div class="content_nav_right">
+    <ul>
+      <li><a href="{:U('Home/Index/index')}">首页</a></li>
+      <li><a href="{:U('Home/Index/index')}">批发</a></li>
+      <li><a href="{:U('Home/Index/index')}">零售</a></li>
+    </ul>
+  </div>
+</div>
+<!--商品导航条标签导航结束 -->

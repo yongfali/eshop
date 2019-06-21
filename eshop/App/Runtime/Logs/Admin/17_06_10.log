@@ -1,0 +1,864 @@
+[ 2017-06-10T08:32:36+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Cron:cron Runat 2017-06-10 08:32:36 Use 0.104583 s
+
+[ 2017-06-10T08:32:52+08:00 ] ::1 /eshop/index.php/Admin/Login/checkVerify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001265s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.003191s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005382s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001469s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001677s ]
+
+[ 2017-06-10T08:33:04+08:00 ] ::1 /eshop/index.php/Admin/Login/checkVerify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002274s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.006206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010174s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002448s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002735s ]
+
+[ 2017-06-10T08:33:05+08:00 ] ::1 /eshop/index.php/Admin/Login/checkVerify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002318s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.006154s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010325s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002442s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002711s ]
+
+[ 2017-06-10T08:33:05+08:00 ] ::1 /eshop/index.php/Admin/Login/checkVerify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002242s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.005511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009696s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002523s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002787s ]
+
+[ 2017-06-10T08:33:05+08:00 ] ::1 /eshop/index.php/Admin/Login/checkVerify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002348s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.005881s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009993s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002451s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002722s ]
+
+[ 2017-06-10T08:33:06+08:00 ] ::1 /eshop/index.php/Admin/Login/checkVerify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001398s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.003608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006149s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001657s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001876s ]
+
+[ 2017-06-10T08:33:12+08:00 ] ::1 /eshop/index.php/Admin/Login/checkVerify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001466s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.003949s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006518s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001552s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001725s ]
+
+[ 2017-06-10T08:33:12+08:00 ] ::1 /eshop/index.php/Admin/Login/checkVerify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002260s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.005844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009895s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002544s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002886s ]
+
+[ 2017-06-10T08:33:13+08:00 ] ::1 /eshop/index.php/Admin/Login/checkVerify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002142s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.006310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010285s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002491s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002765s ]
+
+[ 2017-06-10T08:33:13+08:00 ] ::1 /eshop/index.php/Admin/Login/checkVerify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001232s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.003044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005290s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001261s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001422s ]
+
+[ 2017-06-10T08:33:14+08:00 ] ::1 /eshop/index.php/Admin/Login/checkVerify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001802s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.005354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008367s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001865s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002098s ]
+
+[ 2017-06-10T08:33:16+08:00 ] ::1 /eshop/index.php/Admin/Login/doLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001423s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.003284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005729s ]
+SQL: SHOW COLUMNS FROM `eshop_admin` [ RunTime:0.1338s ]
+SQL: SELECT * FROM `eshop_admin` WHERE `name` = 'admin' LIMIT 1   [ RunTime:0.1742s ]
+SQL: UPDATE `eshop_admin` SET `loginTime`='1497054796',`ip`='0.0.0.0' WHERE `id` = 1 [ RunTime:0.0926s ]
+
+[ 2017-06-10T08:40:50+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/shopAuthoDo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001722s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.003496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006355s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0092s ]
+SQL: SELECT `shoperId` FROM `eshop_shop` WHERE `id` = 2  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001584s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001746s ]
+
+[ 2017-06-10T08:41:35+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/shopAuthoDo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001303s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.004296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006614s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0079s ]
+SQL: SELECT `shoperId` FROM `eshop_shop` WHERE `id` = 2  [ RunTime:0.0005s ]
+NOTIC: [8] Array to string conversion D:\wampserver\wamp\www\eshop\App\Admin\Model\ShopModel.class.php 第 41 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002153s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002375s ]
+
+[ 2017-06-10T08:41:47+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/shopAuthoDo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001253s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.003469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005882s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0089s ]
+SQL: SELECT `shoperId` FROM `eshop_shop` WHERE `id` = 2  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002554s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002811s ]
+
+[ 2017-06-10T08:41:53+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/shopAuthoDo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001176s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.003387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005571s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0088s ]
+SQL: SELECT `shoperId` FROM `eshop_shop` WHERE `id` IN ('2','4')  [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002253s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2017-06-10T08:42:26+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/shopAuthoDo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001563s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.003263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006345s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0063s ]
+SQL: SELECT `shoperId` FROM `eshop_shop` WHERE `id` IN ('2','4')  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001428s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001567s ]
+
+[ 2017-06-10T08:43:04+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/shopAuthoDo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002094s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.005024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008795s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0262s ]
+SQL: SELECT `shoperId` FROM `eshop_shop` WHERE `id` IN ('2','4')  [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant length - assumed 'length' D:\wampserver\wamp\www\eshop\App\Admin\Model\ShopModel.class.php 第 41 行.
+NOTIC: [8] Array to string conversion D:\wampserver\wamp\www\eshop\App\Admin\Model\ShopModel.class.php 第 41 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001783s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001958s ]
+
+[ 2017-06-10T08:43:22+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/shopAuthoDo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001168s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.003305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005509s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0848s ]
+SQL: SELECT `shoperId` FROM `eshop_shop` WHERE `id` IN ('2','4')  [ RunTime:0.0006s ]
+
+[ 2017-06-10T08:43:40+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/shopAuthoDo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001260s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.003202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005508s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0062s ]
+SQL: SELECT `shoperId` FROM `eshop_shop` WHERE `id` IN ('2','4')  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001598s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001734s ]
+
+[ 2017-06-10T08:43:40+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/shopAuthoDo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001448s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.004480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007336s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0073s ]
+SQL: SELECT `shoperId` FROM `eshop_shop` WHERE `id` IN ('2','4')  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001595s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001754s ]
+
+[ 2017-06-10T08:44:49+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/shopAuthoDo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001199s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.003214s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005476s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0079s ]
+SQL: SELECT `shoperId` FROM `eshop_shop` WHERE `id` IN ('2','4')  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001509s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001657s ]
+
+[ 2017-06-10T08:46:20+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/shopAuthoDo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002252s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.003451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006965s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0092s ]
+SQL: SELECT `shoperId` FROM `eshop_shop` WHERE `id` IN ('2','4')  [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002300s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002535s ]
+
+[ 2017-06-10T08:46:44+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/shopAuthoDo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001267s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.003661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005960s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0089s ]
+SQL: SELECT `shoperId` FROM `eshop_shop` WHERE `id` IN ('2','4')  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001430s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001566s ]
+
+[ 2017-06-10T08:47:32+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/shopAuthoDo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001477s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.003406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005905s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0100s ]
+SQL: SELECT `shoperId` FROM `eshop_shop` WHERE `id` IN ('2','4')  [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002237s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002483s ]
+
+[ 2017-06-10T08:48:17+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/shopAuthoDo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001249s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.003764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006008s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0083s ]
+SQL: SELECT `shoperId` FROM `eshop_shop` WHERE `id` IN ('2','4')  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001602s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001819s ]
+
+[ 2017-06-10T08:48:25+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/shopAuthoDo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001683s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.003161s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005869s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0078s ]
+SQL: SELECT `shoperId` FROM `eshop_shop` WHERE `id` IN ('2','4')  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001469s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001604s ]
+
+[ 2017-06-10T08:49:29+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/shopAuthoDo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001402s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.003496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005947s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0074s ]
+SQL: SELECT `shoperId` FROM `eshop_shop` WHERE `id` IN ('2','4')  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001825s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002005s ]
+
+[ 2017-06-10T08:59:39+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/shopAuthoDo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001241s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.003279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005575s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0081s ]
+SQL: SELECT `shoperId` FROM `eshop_shop` WHERE `id` = 2  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0065s ]
+SQL: UPDATE `eshop_shop` SET `is_exam`='1' WHERE `id` = 2 [ RunTime:0.0005s ]
+SQL: UPDATE `eshop_shoper` SET `is_examine`='1' WHERE `id` IN ('12') [ RunTime:0.0004s ]
+
+[ 2017-06-10T09:00:21+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/shopAuthoDo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001268s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.003900s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006126s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0085s ]
+SQL: SELECT `shoperId` FROM `eshop_shop` WHERE `id` IN ('4')  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0090s ]
+SQL: UPDATE `eshop_shop` SET `is_exam`='1' WHERE `id` IN ('4') [ RunTime:0.0006s ]
+SQL: UPDATE `eshop_shoper` SET `is_examine`='1' WHERE `id` IN ('14') [ RunTime:0.0004s ]
+
+[ 2017-06-10T09:05:24+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/shoperDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001324s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.003644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001433s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001577s ]
+
+[ 2017-06-10T09:05:52+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/shoperDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001282s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.004201s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006614s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001790s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001995s ]
+
+[ 2017-06-10T09:08:45+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/shoperDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001331s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.003618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006031s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0087s ]
+
+[ 2017-06-10T09:09:45+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/shoperDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001305s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.003219s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005657s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0081s ]
+SQL: SELECT `shoperId` FROM `eshop_shop` WHERE `id` = 14  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001830s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002014s ]
+
+[ 2017-06-10T09:10:11+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/shoperDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001141s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.003795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005937s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0079s ]
+SQL: SELECT `shoperId` FROM `eshop_shop` WHERE `id` = 14  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001575s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001729s ]
+
+[ 2017-06-10T09:10:29+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/shoperDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001234s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.003330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005612s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0079s ]
+SQL: SELECT `shoperId` FROM `eshop_shop` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001766s ]
+
+[ 2017-06-10T09:14:11+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/shoperDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001698s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.003756s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006505s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0082s ]
+
+[ 2017-06-10T09:14:37+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/shoperDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001416s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.003460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006059s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0085s ]
+
+[ 2017-06-10T09:15:11+08:00 ] ::1 /eshop/index.php/Admin/ShopManage/shoperDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001311s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.003223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005683s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0071s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001458s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001617s ]
+
+[ 2017-06-10T09:53:40+08:00 ] ::1 /eshop/index.php/Admin/GoodManage/autho.html
+ERR: 1054:Unknown column 's.w_fid' in 'field list'
+ [ SQL语句 ] : SELECT g.id,g.goodnumber,g.name,g.shopprice,g.count,g.good_log,s.name shopname,s.w_fid,s.w_sid,s.w_tid FROM eshop_good g INNER JOIN eshop_goodnav as n on g.id = n.goodId INNER JOIN eshop_shop as s on n.shopId = s.id  WHERE g.is_exam = 0 
+
+[ 2017-06-10T10:38:41+08:00 ] ::1 /eshop/index.php/Admin/GoodManage/goodAuthoDo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000824s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.002116s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003540s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0048s ]
+
+[ 2017-06-10T10:38:50+08:00 ] ::1 /eshop/index.php/Admin/GoodManage/goodAuthoDo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000840s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.002771s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004267s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0046s ]
+
+[ 2017-06-10T10:40:07+08:00 ] ::1 /eshop/index.php/Admin/GoodManage/goodAuthoDo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000766s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.002393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003784s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0049s ]
+
+[ 2017-06-10T10:42:35+08:00 ] ::1 /eshop/index.php/Admin/GoodManage/goodAuthoDo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000766s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.002526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003890s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0056s ]
+SQL: UPDATE `eshop_good` SET `is_exam`='1' WHERE `id` = '22' [ RunTime:0.0821s ]
+
+[ 2017-06-10T10:43:17+08:00 ] ::1 /eshop/index.php/Admin/GoodManage/goodAuthoDo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000771s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.002098s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003474s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0045s ]
+SQL: UPDATE `eshop_good` SET `is_exam`='1' WHERE `id` IN ('18','22') [ RunTime:0.1064s ]
+
+[ 2017-06-10T10:48:40+08:00 ] ::1 /eshop/index.php/Admin/GoodManage/goodDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000845s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.002183s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003654s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000881s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000972s ]
+
+[ 2017-06-10T11:02:20+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/index1.html
+ERR: 非法操作:index1
+
+[ 2017-06-10T17:20:04+08:00 ] ::1 /eshop/index.php/Admin/Login/checkVerify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001381s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.004057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006469s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001334s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001478s ]
+
+[ 2017-06-10T17:20:04+08:00 ] ::1 /eshop/index.php/Admin/Login/doLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001269s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.003941s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006277s ]
+SQL: SHOW COLUMNS FROM `eshop_admin` [ RunTime:0.0119s ]
+SQL: SELECT * FROM `eshop_admin` WHERE `name` = 'admin' LIMIT 1   [ RunTime:0.0012s ]
+SQL: UPDATE `eshop_admin` SET `loginTime`='1497086404',`ip`='0.0.0.0' WHERE `id` = 1 [ RunTime:0.0568s ]
+
+[ 2017-06-10T17:21:02+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/index1.html
+ERR: 非法操作:index1
+
+[ 2017-06-10T17:32:07+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/index.html
+ERR: Think\Model:infoListNum方法不存在！
+
+[ 2017-06-10T17:55:44+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/delInfos
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001066s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.003063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004861s ]
+ERR: 非法操作:delInfos
+
+[ 2017-06-10T17:56:30+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/infoDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001297s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.002918s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005133s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000882s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-06-10T17:58:33+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/infoDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000967s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.002782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004535s ]
+
+[ 2017-06-10T17:58:33+08:00 ] ::1 /eshop/index.php/Admin/Shoper/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001446s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.003201s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005500s ]
+ERR: 无法加载控制器:Shoper
+
+[ 2017-06-10T17:59:02+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/infoDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000824s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.002733s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004223s ]
+
+[ 2017-06-10T17:59:02+08:00 ] ::1 /eshop/index.php/Admin/Shoper/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000800s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.002875s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004318s ]
+ERR: 无法加载控制器:Shoper
+
+[ 2017-06-10T17:59:46+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/infoDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000887s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.003207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004828s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001161s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001265s ]
+
+[ 2017-06-10T18:01:06+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/infoDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000877s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.002885s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004469s ]
+
+[ 2017-06-10T18:01:06+08:00 ] ::1 /eshop/index.php/Admin/Shoper/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001285s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.005096s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007208s ]
+ERR: 无法加载控制器:Shoper
+
+[ 2017-06-10T18:01:41+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/infoDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000841s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.002878s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004428s ]
+SQL: SHOW COLUMNS FROM `eshop_information` [ RunTime:0.0058s ]
+SQL: UPDATE `eshop_information` SET `is_show`='0' WHERE `id` = 4 [ RunTime:0.0260s ]
+
+[ 2017-06-10T18:02:47+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/infoDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001531s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.004743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007514s ]
+SQL: SHOW COLUMNS FROM `eshop_information` [ RunTime:0.0107s ]
+SQL: UPDATE `eshop_information` SET `is_show`='0' WHERE `id` IN ('$item.id','$item.id') [ RunTime:0.0325s ]
+
+[ 2017-06-10T18:02:58+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/infoDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000905s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.003449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005068s ]
+SQL: SHOW COLUMNS FROM `eshop_information` [ RunTime:0.0058s ]
+SQL: UPDATE `eshop_information` SET `is_show`='0' WHERE `id` IN ('$item.id','$item.id') [ RunTime:0.0003s ]
+
+[ 2017-06-10T18:04:35+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/infoDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001030s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.002808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004674s ]
+SQL: SHOW COLUMNS FROM `eshop_information` [ RunTime:0.0056s ]
+SQL: UPDATE `eshop_information` SET `is_show`='0' WHERE `id` IN ('$item.id','$item.id') [ RunTime:0.0004s ]
+
+[ 2017-06-10T18:05:01+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/infoDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000936s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.002983s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004550s ]
+SQL: SHOW COLUMNS FROM `eshop_information` [ RunTime:0.0077s ]
+
+[ 2017-06-10T18:05:18+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/infoDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000888s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.003036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004804s ]
+SQL: SHOW COLUMNS FROM `eshop_information` [ RunTime:0.0065s ]
+
+[ 2017-06-10T18:05:48+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/infoDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000869s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.002553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004093s ]
+SQL: SHOW COLUMNS FROM `eshop_information` [ RunTime:0.0061s ]
+
+[ 2017-06-10T18:07:03+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/infoDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000796s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.002769s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004244s ]
+SQL: SHOW COLUMNS FROM `eshop_information` [ RunTime:0.0056s ]
+SQL: DELETE FROM `eshop_information` WHERE `id` = 4 [ RunTime:0.0695s ]
+
+[ 2017-06-10T18:07:16+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/infoDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000784s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.002542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004076s ]
+SQL: SHOW COLUMNS FROM `eshop_information` [ RunTime:0.0060s ]
+SQL: DELETE FROM `eshop_information` WHERE `id` IN ('5','6') [ RunTime:0.0004s ]
+
+[ 2017-06-10T18:14:25+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/index/p/2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.002633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004088s ]
+SQL: SHOW COLUMNS FROM `eshop_information` [ RunTime:0.0095s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_information` WHERE `is_show` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `eshop_information` WHERE `is_show` = 1 ORDER BY modify_time desc LIMIT 2,2   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000153s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000369s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022761s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022977s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001111s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001259s ]
+
+[ 2017-06-10T18:14:26+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/index/p/1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001107s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.002578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004380s ]
+SQL: SHOW COLUMNS FROM `eshop_information` [ RunTime:0.0075s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_information` WHERE `is_show` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `eshop_information` WHERE `is_show` = 1 ORDER BY modify_time desc LIMIT 0,2   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000237s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010302s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010395s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000817s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000887s ]
+
+[ 2017-06-10T18:14:27+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/index/p/2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000868s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.003501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005064s ]
+SQL: SHOW COLUMNS FROM `eshop_information` [ RunTime:0.0073s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_information` WHERE `is_show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `eshop_information` WHERE `is_show` = 1 ORDER BY modify_time desc LIMIT 2,2   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000201s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011504s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011595s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000696s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000774s ]
+
+[ 2017-06-10T18:14:29+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/index/p/1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000883s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.002837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004377s ]
+SQL: SHOW COLUMNS FROM `eshop_information` [ RunTime:0.0056s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_information` WHERE `is_show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `eshop_information` WHERE `is_show` = 1 ORDER BY modify_time desc LIMIT 0,2   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010628s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010744s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000599s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000666s ]
+
+[ 2017-06-10T18:14:29+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/index/p/2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000889s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.003187s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004794s ]
+SQL: SHOW COLUMNS FROM `eshop_information` [ RunTime:0.0063s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_information` WHERE `is_show` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `eshop_information` WHERE `is_show` = 1 ORDER BY modify_time desc LIMIT 2,2   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010460s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010557s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001064s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001138s ]
+
+[ 2017-06-10T18:14:30+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/index/p/1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000877s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.003235s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004799s ]
+SQL: SHOW COLUMNS FROM `eshop_information` [ RunTime:0.0062s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_information` WHERE `is_show` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `eshop_information` WHERE `is_show` = 1 ORDER BY modify_time desc LIMIT 0,2   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000139s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011966s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012065s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000658s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000729s ]
+
+[ 2017-06-10T18:14:31+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/index/p/2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.003076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004925s ]
+SQL: SHOW COLUMNS FROM `eshop_information` [ RunTime:0.0067s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_information` WHERE `is_show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `eshop_information` WHERE `is_show` = 1 ORDER BY modify_time desc LIMIT 2,2   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012458s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012567s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000613s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000680s ]
+
+[ 2017-06-10T18:14:32+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/index/p/1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000778s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.002536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004013s ]
+SQL: SHOW COLUMNS FROM `eshop_information` [ RunTime:0.0074s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_information` WHERE `is_show` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `eshop_information` WHERE `is_show` = 1 ORDER BY modify_time desc LIMIT 0,2   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010011s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010125s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000887s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000987s ]
+
+[ 2017-06-10T18:14:58+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/index/p/2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000862s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.002971s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004516s ]
+SQL: SHOW COLUMNS FROM `eshop_information` [ RunTime:0.0153s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_information` WHERE `is_show` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `eshop_information` WHERE `is_show` = 1 ORDER BY modify_time desc LIMIT 2,2   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000304s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021297s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021475s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001144s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001290s ]
+
+[ 2017-06-10T18:14:59+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/index/p/1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000853s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.003071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004638s ]
+SQL: SHOW COLUMNS FROM `eshop_information` [ RunTime:0.0056s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_information` WHERE `is_show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `eshop_information` WHERE `is_show` = 1 ORDER BY modify_time desc LIMIT 0,2   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000168s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000379s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021861s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022043s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001319s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001475s ]
+
+[ 2017-06-10T18:15:00+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/index/p/2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000891s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.002797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004374s ]
+SQL: SHOW COLUMNS FROM `eshop_information` [ RunTime:0.0086s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_information` WHERE `is_show` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `eshop_information` WHERE `is_show` = 1 ORDER BY modify_time desc LIMIT 2,2   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000179s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000440s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019008s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019210s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001118s ]
+
+[ 2017-06-10T18:15:01+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/index/p/1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000793s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.002770s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004249s ]
+SQL: SHOW COLUMNS FROM `eshop_information` [ RunTime:0.0073s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_information` WHERE `is_show` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `eshop_information` WHERE `is_show` = 1 ORDER BY modify_time desc LIMIT 0,2   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000293s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022532s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022803s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001784s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001968s ]
+
+[ 2017-06-10T18:15:02+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/index/p/2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000846s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.002811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004334s ]
+SQL: SHOW COLUMNS FROM `eshop_information` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_information` WHERE `is_show` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `eshop_information` WHERE `is_show` = 1 ORDER BY modify_time desc LIMIT 2,2   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009936s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010064s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000588s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000654s ]
+
+[ 2017-06-10T18:15:05+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/index/p/1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001299s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.003137s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005228s ]
+SQL: SHOW COLUMNS FROM `eshop_information` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_information` WHERE `is_show` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `eshop_information` WHERE `is_show` = 1 ORDER BY modify_time desc LIMIT 0,2   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011183s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011273s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000632s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000714s ]
+
+[ 2017-06-10T18:18:19+08:00 ] ::1 /eshop/index.php/Admin/ArticalManage/index1.html
+ERR: 非法操作:index1
+
+[ 2017-06-10T19:58:58+08:00 ] ::1 /eshop/index.php/Admin/GoodManage/goodAuthoDo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003590s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.007347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012735s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0166s ]
+SQL: UPDATE `eshop_good` SET `is_exam`='1' WHERE `id` = '22' [ RunTime:0.0938s ]
+

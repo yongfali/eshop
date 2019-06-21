@@ -1,0 +1,18 @@
+[ 2017-05-31T10:02:24+08:00 ] ::1 /eshop/index.php/Home/Index/index.html
+ERR: Cron:cron Runat 2017-05-31 10:02:24 Use 0.000437 s
+
+[ 2017-05-31T10:02:29+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/info.html
+ERR: Cron:cron Runat 2017-05-31 10:02:29 Use 0.000506 s
+
+[ 2017-05-31T10:02:33+08:00 ] ::1 /eshop/index.php/Home/ShopOrders/waitPay.html
+ERR: Cron:cron Runat 2017-05-31 10:02:33 Use 0.000370 s
+
+[ 2017-05-31T10:06:54+08:00 ] ::1 /eshop/Public/Admin/ArticalManage/artical.css
+ERR: 无法加载控制器:Public
+
+[ 2017-05-31T10:07:46+08:00 ] ::1 /eshop/index.php/Home/ShopOrders/waitPay.html
+ERR: Cron:cron Runat 2017-05-31 10:07:46 Use 0.000525 s
+
+[ 2017-05-31T10:07:53+08:00 ] ::1 /eshop/Public/Admin/ArticalManage/artical.css
+ERR: 无法加载控制器:Public
+

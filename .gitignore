@@ -1,0 +1,5 @@
+# ignore some file
+*.buildpath
+*.htaccess
+*.project
+

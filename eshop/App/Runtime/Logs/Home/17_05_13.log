@@ -1,0 +1,348 @@
+[ 2017-05-13T08:27:02+08:00 ] ::1 /eshop/index.php/Home/Shop/index/shopId/3.html
+ERR: Cron:cron Runat 2017-05-13 08:27:02 Use 0.000579 s
+
+[ 2017-05-13T08:27:40+08:00 ] ::1 /eshop/index.php/Home/Index/index.html
+ERR: Cron:cron Runat 2017-05-13 08:27:40 Use 0.000607 s
+
+[ 2017-05-13T08:38:31+08:00 ] ::1 /eshop/index.php/Home/Index/index.html
+ERR: Cron:cron Runat 2017-05-13 08:38:31 Use 0.000644 s
+
+[ 2017-05-13T08:38:43+08:00 ] ::1 /eshop/index.php/ShoppingCart/index.html
+ERR: Cron:cron Runat 2017-05-13 08:38:43 Use 0.000792 s
+
+[ 2017-05-13T08:39:23+08:00 ] ::1 /eshop/index.php/Home/User/login.html
+ERR: Cron:cron Runat 2017-05-13 08:39:23 Use 0.000583 s
+
+[ 2017-05-13T08:39:38+08:00 ] ::1 /eshop/index.php/User/checkVerify.html
+ERR: Cron:cron Runat 2017-05-13 08:39:38 Use 0.000460 s
+
+[ 2017-05-13T08:39:38+08:00 ] ::1 /eshop/index.php/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001238s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.006675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009241s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.1061s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = null LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002320s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002577s ]
+
+[ 2017-05-13T08:39:39+08:00 ] ::1 /eshop/index.php/User/doLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001184s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.003149s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005371s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0065s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = null LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0986s ]
+SQL: SELECT * FROM `eshop_user` WHERE `name` = 'admin' LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `eshop_user_log` [ RunTime:0.0602s ]
+NOTIC: [2] fopen(D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Org\Net/UTFWry.dat): failed to open stream: No such file or directory D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Org\Net\IpLocation.class.php 第 54 行.
+SQL: INSERT INTO `eshop_user_log` (`userId`,`action`,`ip`,`location`,`time`) VALUES ('20','登录','0.0.0.0',NULL,'1494635978') [ RunTime:0.1137s ]
+NOTIC: [8] Use of undefined constant data - assumed 'data' D:\wampserver\wamp\www\eshop\App\Home\Common\function.php 第 347 行.
+SQL: SHOW COLUMNS FROM `eshop_cart` [ RunTime:0.0443s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0106s ]
+SQL: SELECT `id`,`name`,`shopPrice`,`good_log`,`stock` FROM `eshop_good` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `eshop_cart` WHERE `goodId` = 15 AND `userId` = 20 LIMIT 1   [ RunTime:0.0009s ]
+SQL: INSERT INTO `eshop_cart` (`goodId`,`userId`,`mount`,`time`) VALUES ('15','20','1','1494635978') [ RunTime:0.0243s ]
+
+[ 2017-05-13T08:39:42+08:00 ] ::1 /eshop/index.php/Index/index.html
+ERR: Cron:cron Runat 2017-05-13 08:39:42 Use 0.000555 s
+
+[ 2017-05-13T08:39:46+08:00 ] ::1 /eshop/index.php/ShoppingCart/index.html
+ERR: Cron:cron Runat 2017-05-13 08:39:46 Use 0.000525 s
+
+[ 2017-05-13T08:39:50+08:00 ] ::1 /eshop/index.php/ShoppingCart/ischecked
+ERR: Cron:cron Runat 2017-05-13 08:39:50 Use 0.000586 s
+
+[ 2017-05-13T08:39:50+08:00 ] ::1 /eshop/index.php/ShoppingCart/ischecked
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001302s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.006403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008766s ]
+NOTIC: [2048] Declaration of Home\Controller\ShoppingCartController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\wampserver\wamp\www\eshop\App\Home\Controller\ShoppingCartController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `eshop_cart` [ RunTime:0.0060s ]
+SQL: SELECT `goodId`,`goodNumber`,`mount`,`name`,`shopPrice`,`good_log` FROM eshop_cart c INNER JOIN eshop_good as g on c.goodId = g.id  WHERE `userId` = '20' ORDER BY c.time desc  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0058s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = 20 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001484s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001625s ]
+
+[ 2017-05-13T08:40:05+08:00 ] ::1 /eshop/index.php/ShoppingCart/success
+ERR: Cron:cron Runat 2017-05-13 08:40:05 Use 0.000511 s
+
+[ 2017-05-13T08:40:06+08:00 ] ::1 /eshop/index.php/ShoppingCart/success
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001256s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.006587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008843s ]
+NOTIC: [2048] Declaration of Home\Controller\ShoppingCartController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\wampserver\wamp\www\eshop\App\Home\Controller\ShoppingCartController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `eshop_cart` [ RunTime:0.0059s ]
+SQL: SELECT `goodId`,`goodNumber`,`mount`,`name`,`shopPrice`,`good_log` FROM eshop_cart c INNER JOIN eshop_good as g on c.goodId = g.id  WHERE `userId` = '20' ORDER BY c.time desc  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0056s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = 20 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 1 for Home\Model\CartModel::getAllCarts(), called in D:\wampserver\wamp\www\eshop\App\Home\Controller\CommonController.class.php on line 43 and defined D:\wampserver\wamp\www\eshop\App\Home\Model\CartModel.class.php 第 90 行.
+NOTIC: [8] Undefined variable: where D:\wampserver\wamp\www\eshop\App\Home\Model\CartModel.class.php 第 94 行.
+SQL: SELECT `goodId`,`goodNumber`,`mount`,`name`,`shopPrice`,`good_log` FROM eshop_cart c INNER JOIN eshop_good as g on c.goodId = g.id  ORDER BY c.time desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `eshop_order` [ RunTime:0.0945s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_order` WHERE `userId` = 20 AND `is_complaint` = 0 AND `is_deliver` = 0 AND `is_cancel` = 0 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_order` WHERE `userId` = 20 AND `is_complaint` = 0 AND `is_deliver` = 1 AND `is_confirm` = 0 AND `is_reject` = 0 AND `is_recommend` = 0 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_order` WHERE `userId` = 20 AND `is_complaint` = 0 AND `is_confirm` = 1 AND `is_recommend` = 0 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = 20 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0104s ]
+SQL: SELECT `id`,`userId`,`username`,`location`,`streetinfo`,`postcode`,`tel`,`is_first` FROM `eshop_user_address` WHERE `id` = 14 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `eshop_order_goods` [ RunTime:0.0402s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0117s ]
+SQL: INSERT INTO `eshop_order` (`orderNum`,`shopId`,`userId`,`userName`,`userAddr`,`userTel`,`goodsMoney`,`totalMoney`,`payType`,`create_time`,`Message`) VALUES ('1494636005152096907433','3','20','李黎明','北京市北京市市辖区东城区铁西区','13437826498','2.81','2.81','2','1494636005',NULL) [ RunTime:0.0015s ]
+SQL: INSERT INTO `eshop_order_goods` (`orderId`,`goodId`,`goodNumber`,`goodNum`,`goodPrice`,`goodName`,`goodImg`) VALUES ('27','15','14828254901358206992','1','2.81','树懒果园6个精选大果1-2kg','/eshop/Uploads/Shops/logo/2017-03-13/thumb_58c630db33472.jpg') [ RunTime:0.0008s ]
+SQL: DELETE FROM `eshop_cart` WHERE `goodId` = '15' AND `userId` = 20 [ RunTime:0.0203s ]
+SQL: UPDATE `eshop_good` SET `stock`=stock-1 WHERE `id` = '15' [ RunTime:0.3482s ]
+SQL: SHOW COLUMNS FROM `eshop_order_logs` [ RunTime:0.0615s ]
+SQL: INSERT INTO `eshop_order_logs` (`logContent`,`orderId`,`orderStatus`,`logUserId`,`logType`,`time`) VALUES ('下单成功','27','1','20','0','1494636006') [ RunTime:0.0007s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' D:\wampserver\wamp\www\eshop\App\Home\Model\MessagesModel.class.php 第 22 行.
+SQL: INSERT INTO `eshop_messages` (`sendId`,`receiveId`,`receiveType`,`content`,`sendTime`) VALUES ('20','3','1','您有一笔新的订单[1494636005152096907433]待处理，请尽快处理！','1494636006') [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: orderPrices D:\wampserver\wamp\www\eshop\App\Home\Model\OrderModel.class.php 第 66 行.
+
+[ 2017-05-13T08:40:07+08:00 ] ::1 /eshop/index.php/ShoppingCart/payment.html
+ERR: Cron:cron Runat 2017-05-13 08:40:07 Use 0.000559 s
+
+[ 2017-05-13T08:40:57+08:00 ] ::1 /eshop/index.php/Home/UserOrders/waitPay.html
+ERR: Cron:cron Runat 2017-05-13 08:40:57 Use 0.000798 s
+
+[ 2017-05-13T08:41:03+08:00 ] ::1 /eshop/index.php/Home/UserOrders/waitPay.html
+ERR: Cron:cron Runat 2017-05-13 08:41:03 Use 0.000580 s
+
+[ 2017-05-13T08:41:15+08:00 ] ::1 /eshop/index.php/Home/UserOrders/orderToPay
+ERR: Cron:cron Runat 2017-05-13 08:41:15 Use 0.000666 s
+
+[ 2017-05-13T08:41:15+08:00 ] ::1 /eshop/index.php/Home/UserOrders/orderToPay
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001261s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.006355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008672s ]
+SQL: SHOW COLUMNS FROM `eshop_cart` [ RunTime:0.0469s ]
+NOTIC: [2] Missing argument 1 for Home\Model\CartModel::getAllCarts(), called in D:\wampserver\wamp\www\eshop\App\Home\Controller\CommonController.class.php on line 43 and defined D:\wampserver\wamp\www\eshop\App\Home\Model\CartModel.class.php 第 90 行.
+NOTIC: [8] Undefined variable: where D:\wampserver\wamp\www\eshop\App\Home\Model\CartModel.class.php 第 94 行.
+SQL: SELECT `goodId`,`goodNumber`,`mount`,`name`,`shopPrice`,`good_log` FROM eshop_cart c INNER JOIN eshop_good as g on c.goodId = g.id  ORDER BY c.time desc  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `eshop_order` [ RunTime:0.0121s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_order` WHERE `userId` = 20 AND `is_complaint` = 0 AND `is_deliver` = 0 AND `is_cancel` = 0 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_order` WHERE `userId` = 20 AND `is_complaint` = 0 AND `is_deliver` = 1 AND `is_confirm` = 0 AND `is_reject` = 0 AND `is_recommend` = 0 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_order` WHERE `userId` = 20 AND `is_complaint` = 0 AND `is_confirm` = 1 AND `is_recommend` = 0 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0110s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = 20 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `eshop_order` WHERE `id` = 27 LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2017-05-13T08:41:24+08:00 ] ::1 /eshop/index.php/Home/UserOrders/orderDetail/orderId/27.html
+ERR: Cron:cron Runat 2017-05-13 08:41:24 Use 0.000537 s
+
+[ 2017-05-13T08:42:07+08:00 ] ::1 /eshop/index.php/UserOrders/waitPay/p/2.html
+ERR: Cron:cron Runat 2017-05-13 08:42:07 Use 0.000512 s
+
+[ 2017-05-13T08:42:07+08:00 ] ::1 /eshop/index.php/UserOrders/waitPay/p/2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001235s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.006536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008740s ]
+SQL: SHOW COLUMNS FROM `eshop_cart` [ RunTime:0.0060s ]
+NOTIC: [2] Missing argument 1 for Home\Model\CartModel::getAllCarts(), called in D:\wampserver\wamp\www\eshop\App\Home\Controller\CommonController.class.php on line 43 and defined D:\wampserver\wamp\www\eshop\App\Home\Model\CartModel.class.php 第 90 行.
+NOTIC: [8] Undefined variable: where D:\wampserver\wamp\www\eshop\App\Home\Model\CartModel.class.php 第 94 行.
+SQL: SELECT `goodId`,`goodNumber`,`mount`,`name`,`shopPrice`,`good_log` FROM eshop_cart c INNER JOIN eshop_good as g on c.goodId = g.id  ORDER BY c.time desc  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `eshop_order` [ RunTime:0.0062s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_order` WHERE `userId` = 20 AND `is_complaint` = 0 AND `is_deliver` = 0 AND `is_cancel` = 0 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_order` WHERE `userId` = 20 AND `is_complaint` = 0 AND `is_deliver` = 1 AND `is_confirm` = 0 AND `is_reject` = 0 AND `is_recommend` = 0 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_order` WHERE `userId` = 20 AND `is_complaint` = 0 AND `is_confirm` = 1 AND `is_recommend` = 0 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0059s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = 20 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_order` WHERE `userId` = 20 AND `is_complaint` = 0 AND `is_pay` = 0 AND `is_cancel` = 0 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT o.*,g.*,s.name,s.service_qq FROM eshop_order o INNER JOIN eshop_order_goods as g on o.id = g.orderId INNER JOIN eshop_shop as s on o.shopId = s.id  WHERE `userId` = '20' AND `is_complaint` = 0 AND `is_pay` = 0 AND `is_cancel` = 0 ORDER BY o.create_time desc LIMIT 4,4   [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000264s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025863s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000899s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000899s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001982s ]
+
+[ 2017-05-13T08:42:07+08:00 ] ::1 /eshop/index.php/UserOrders/waitPay/p/2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001599s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.035150s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.038148s ]
+SQL: SHOW COLUMNS FROM `eshop_cart` [ RunTime:0.0065s ]
+NOTIC: [2] Missing argument 1 for Home\Model\CartModel::getAllCarts(), called in D:\wampserver\wamp\www\eshop\App\Home\Controller\CommonController.class.php on line 43 and defined D:\wampserver\wamp\www\eshop\App\Home\Model\CartModel.class.php 第 90 行.
+NOTIC: [8] Undefined variable: where D:\wampserver\wamp\www\eshop\App\Home\Model\CartModel.class.php 第 94 行.
+SQL: SELECT `goodId`,`goodNumber`,`mount`,`name`,`shopPrice`,`good_log` FROM eshop_cart c INNER JOIN eshop_good as g on c.goodId = g.id  ORDER BY c.time desc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `eshop_order` [ RunTime:0.0068s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_order` WHERE `userId` = 20 AND `is_complaint` = 0 AND `is_deliver` = 0 AND `is_cancel` = 0 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_order` WHERE `userId` = 20 AND `is_complaint` = 0 AND `is_deliver` = 1 AND `is_confirm` = 0 AND `is_reject` = 0 AND `is_recommend` = 0 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_order` WHERE `userId` = 20 AND `is_complaint` = 0 AND `is_confirm` = 1 AND `is_recommend` = 0 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0068s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = 20 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_order` WHERE `userId` = 20 AND `is_complaint` = 0 AND `is_pay` = 0 AND `is_cancel` = 0 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT o.*,g.*,s.name,s.service_qq FROM eshop_order o INNER JOIN eshop_order_goods as g on o.id = g.orderId INNER JOIN eshop_shop as s on o.shopId = s.id  WHERE `userId` = '20' AND `is_complaint` = 0 AND `is_pay` = 0 AND `is_cancel` = 0 ORDER BY o.create_time desc LIMIT 4,4   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000136s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000263s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027123s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027255s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001048s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000916s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002144s ]
+
+[ 2017-05-13T08:42:10+08:00 ] ::1 /eshop/index.php/Home/UserOrders/waitDelivery.html
+ERR: Cron:cron Runat 2017-05-13 08:42:10 Use 0.000661 s
+
+[ 2017-05-13T08:42:16+08:00 ] ::1 /eshop/index.php/Home/UserOrders/cancle?orderId=27
+ERR: Cron:cron Runat 2017-05-13 08:42:16 Use 0.004322 s
+
+[ 2017-05-13T08:42:31+08:00 ] ::1 /eshop/index.php/Home/UserOrders/waitReceive.html
+ERR: Cron:cron Runat 2017-05-13 08:42:31 Use 0.001294 s
+
+[ 2017-05-13T08:43:27+08:00 ] ::1 /eshop/index.php/Home/UserOrders/reject?orderId=4
+ERR: Cron:cron Runat 2017-05-13 08:43:27 Use 0.000512 s
+
+[ 2017-05-13T08:43:31+08:00 ] ::1 /eshop/index.php/Home/UserOrders/complaintDetail/orderId/4/goodId/15.html
+ERR: Cron:cron Runat 2017-05-13 08:43:31 Use 0.000620 s
+
+[ 2017-05-13T08:44:10+08:00 ] ::1 /eshop/index.php/Home/UserOrders/waitAppraise.html
+ERR: Cron:cron Runat 2017-05-13 08:44:10 Use 0.000570 s
+
+[ 2017-05-13T08:44:15+08:00 ] ::1 /eshop/index.php/Home/UserOrders/orderReceive
+ERR: Cron:cron Runat 2017-05-13 08:44:15 Use 0.000486 s
+
+[ 2017-05-13T08:44:15+08:00 ] ::1 /eshop/index.php/Home/UserOrders/orderReceive
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001454s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.007016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009450s ]
+SQL: SHOW COLUMNS FROM `eshop_cart` [ RunTime:0.0083s ]
+NOTIC: [2] Missing argument 1 for Home\Model\CartModel::getAllCarts(), called in D:\wampserver\wamp\www\eshop\App\Home\Controller\CommonController.class.php on line 43 and defined D:\wampserver\wamp\www\eshop\App\Home\Model\CartModel.class.php 第 90 行.
+NOTIC: [8] Undefined variable: where D:\wampserver\wamp\www\eshop\App\Home\Model\CartModel.class.php 第 94 行.
+SQL: SELECT `goodId`,`goodNumber`,`mount`,`name`,`shopPrice`,`good_log` FROM eshop_cart c INNER JOIN eshop_good as g on c.goodId = g.id  ORDER BY c.time desc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `eshop_order` [ RunTime:0.0076s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_order` WHERE `userId` = 20 AND `is_complaint` = 0 AND `is_deliver` = 0 AND `is_cancel` = 0 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_order` WHERE `userId` = 20 AND `is_complaint` = 0 AND `is_deliver` = 1 AND `is_confirm` = 0 AND `is_reject` = 0 AND `is_recommend` = 0 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_order` WHERE `userId` = 20 AND `is_complaint` = 0 AND `is_confirm` = 1 AND `is_recommend` = 0 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0074s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = 20 LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `eshop_order` SET `is_confirm`='1',`confirmTime`='1494636255' WHERE `id` = 4 [ RunTime:0.0783s ]
+SQL: SELECT * FROM `eshop_order` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0013s ]
+NOTIC: [8] Use of undefined constant 　　 - assumed '　　' D:\wampserver\wamp\www\eshop\App\Home\Model\MessagesModel.class.php 第 22 行.
+SQL: INSERT INTO `eshop_messages` (`sendId`,`receiveId`,`receiveType`,`content`,`sendTime`) VALUES ('20','3','1','订单[1493207286152084678642]用户已经确认收货！','1494636255') [ RunTime:0.0139s ]
+SQL: SHOW COLUMNS FROM `eshop_order_logs` [ RunTime:0.0128s ]
+SQL: INSERT INTO `eshop_order_logs` (`logContent`,`orderId`,`orderStatus`,`logUserId`,`logType`,`time`) VALUES ('用户已收货','4','3','20','0','1494636255') [ RunTime:0.0279s ]
+
+[ 2017-05-13T08:44:22+08:00 ] ::1 /eshop/index.php/UserOrders/orderAppraise/orderId/4/goodId/15.html
+ERR: Cron:cron Runat 2017-05-13 08:44:22 Use 0.000490 s
+
+[ 2017-05-13T08:45:38+08:00 ] ::1 /eshop/index.php/Home/UserOrders/waitAppraise.html
+ERR: Cron:cron Runat 2017-05-13 08:45:38 Use 0.000743 s
+
+[ 2017-05-13T08:45:44+08:00 ] ::1 /eshop/index.php/Home/UserOrders/orderDetail/orderId/4.html
+ERR: Cron:cron Runat 2017-05-13 08:45:44 Use 0.000533 s
+
+[ 2017-05-13T08:46:38+08:00 ] ::1 /eshop/index.php/Home/UserMsgManage/messages.html
+ERR: Cron:cron Runat 2017-05-13 08:46:38 Use 0.000569 s
+
+[ 2017-05-13T08:46:45+08:00 ] ::1 /eshop/index.php/Home/UserMsgManage/messages.html
+ERR: Cron:cron Runat 2017-05-13 08:46:45 Use 0.000556 s
+
+[ 2017-05-13T08:47:13+08:00 ] ::1 /eshop/index.php/UserMsgManage/messageDetail/msgId/38/status/new.html
+ERR: Cron:cron Runat 2017-05-13 08:47:13 Use 0.000592 s
+
+[ 2017-05-13T08:47:23+08:00 ] ::1 /eshop/index.php/Home/UserMsgManage/messages.html
+ERR: Cron:cron Runat 2017-05-13 08:47:23 Use 0.000487 s
+
+[ 2017-05-13T08:48:16+08:00 ] ::1 /eshop/index.php/UserMsgManage/messageDetail/msgId/50/status/new.html
+ERR: Cron:cron Runat 2017-05-13 08:48:16 Use 0.000653 s
+
+[ 2017-05-13T08:48:26+08:00 ] ::1 /eshop/index.php/UserMsgManage/messageDetail/msgId/50/status/new.html
+ERR: Cron:cron Runat 2017-05-13 08:48:26 Use 0.000524 s
+
+[ 2017-05-13T08:48:40+08:00 ] ::1 /eshop/index.php/Home/UserMsgManage/messages.html
+ERR: Cron:cron Runat 2017-05-13 08:48:40 Use 0.000613 s
+
+[ 2017-05-13T08:48:58+08:00 ] ::1 /eshop/index.php/Home/UserMsgManage/messages.html
+ERR: Cron:cron Runat 2017-05-13 08:48:58 Use 0.000761 s
+
+[ 2017-05-13T08:49:05+08:00 ] ::1 /eshop/index.php/Home/UserMsgManage/messages.html
+ERR: Cron:cron Runat 2017-05-13 08:49:05 Use 0.000565 s
+
+[ 2017-05-13T08:56:22+08:00 ] ::1 /eshop/index.php/ShoppingCart/index.html
+ERR: Cron:cron Runat 2017-05-13 08:56:22 Use 0.000765 s
+
+[ 2017-05-13T10:16:21+08:00 ] ::1 /eshop/index.php/Home/UserCenter/index.html
+ERR: Cron:cron Runat 2017-05-13 10:16:21 Use 0.000305 s
+
+[ 2017-05-13T10:16:26+08:00 ] ::1 /eshop/index.php/Home/UserCenter/delLog
+ERR: Cron:cron Runat 2017-05-13 10:16:26 Use 0.000339 s
+
+[ 2017-05-13T10:16:27+08:00 ] ::1 /eshop/index.php/Home/UserCenter/delLog
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000833s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.004697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006178s ]
+SQL: SHOW COLUMNS FROM `eshop_cart` [ RunTime:0.0049s ]
+NOTIC: [2] Missing argument 1 for Home\Model\CartModel::getAllCarts(), called in D:\wampserver\wamp\www\eshop\App\Home\Controller\CommonController.class.php on line 43 and defined D:\wampserver\wamp\www\eshop\App\Home\Model\CartModel.class.php 第 90 行.
+NOTIC: [8] Undefined variable: where D:\wampserver\wamp\www\eshop\App\Home\Model\CartModel.class.php 第 94 行.
+SQL: SELECT `goodId`,`goodNumber`,`mount`,`name`,`shopPrice`,`good_log` FROM eshop_cart c INNER JOIN eshop_good as g on c.goodId = g.id  ORDER BY c.time desc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_order` [ RunTime:0.0058s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_order` WHERE `userId` = 20 AND `is_complaint` = 0 AND `is_deliver` = 0 AND `is_cancel` = 0 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_order` WHERE `userId` = 20 AND `is_complaint` = 0 AND `is_deliver` = 1 AND `is_confirm` = 0 AND `is_reject` = 0 AND `is_recommend` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_order` WHERE `userId` = 20 AND `is_complaint` = 0 AND `is_confirm` = 1 AND `is_recommend` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0048s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = 20 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `eshop_user_log` [ RunTime:0.0053s ]
+SQL: DELETE FROM `eshop_user_log` WHERE `id` = 90 [ RunTime:0.1055s ]
+
+[ 2017-05-13T10:16:29+08:00 ] ::1 /eshop/index.php/Home/UserCenter/delLog
+ERR: Cron:cron Runat 2017-05-13 10:16:29 Use 0.000400 s
+
+[ 2017-05-13T10:16:29+08:00 ] ::1 /eshop/index.php/Home/UserCenter/delLog
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000752s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.004874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006377s ]
+SQL: SHOW COLUMNS FROM `eshop_cart` [ RunTime:0.0056s ]
+NOTIC: [2] Missing argument 1 for Home\Model\CartModel::getAllCarts(), called in D:\wampserver\wamp\www\eshop\App\Home\Controller\CommonController.class.php on line 43 and defined D:\wampserver\wamp\www\eshop\App\Home\Model\CartModel.class.php 第 90 行.
+NOTIC: [8] Undefined variable: where D:\wampserver\wamp\www\eshop\App\Home\Model\CartModel.class.php 第 94 行.
+SQL: SELECT `goodId`,`goodNumber`,`mount`,`name`,`shopPrice`,`good_log` FROM eshop_cart c INNER JOIN eshop_good as g on c.goodId = g.id  ORDER BY c.time desc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_order` [ RunTime:0.0059s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_order` WHERE `userId` = 20 AND `is_complaint` = 0 AND `is_deliver` = 0 AND `is_cancel` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_order` WHERE `userId` = 20 AND `is_complaint` = 0 AND `is_deliver` = 1 AND `is_confirm` = 0 AND `is_reject` = 0 AND `is_recommend` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_order` WHERE `userId` = 20 AND `is_complaint` = 0 AND `is_confirm` = 1 AND `is_recommend` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0056s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = 20 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_user_log` [ RunTime:0.0062s ]
+SQL: DELETE FROM `eshop_user_log` WHERE `id` = 88 [ RunTime:0.0605s ]
+
+[ 2017-05-13T10:16:31+08:00 ] ::1 /eshop/index.php/Home/UserCenter/delLog
+ERR: Cron:cron Runat 2017-05-13 10:16:31 Use 0.000311 s
+
+[ 2017-05-13T10:16:32+08:00 ] ::1 /eshop/index.php/Home/UserCenter/delLog
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000934s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.004688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006268s ]
+SQL: SHOW COLUMNS FROM `eshop_cart` [ RunTime:0.1503s ]
+NOTIC: [2] Missing argument 1 for Home\Model\CartModel::getAllCarts(), called in D:\wampserver\wamp\www\eshop\App\Home\Controller\CommonController.class.php on line 43 and defined D:\wampserver\wamp\www\eshop\App\Home\Model\CartModel.class.php 第 90 行.
+NOTIC: [8] Undefined variable: where D:\wampserver\wamp\www\eshop\App\Home\Model\CartModel.class.php 第 94 行.
+SQL: SELECT `goodId`,`goodNumber`,`mount`,`name`,`shopPrice`,`good_log` FROM eshop_cart c INNER JOIN eshop_good as g on c.goodId = g.id  ORDER BY c.time desc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_order` [ RunTime:0.0052s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_order` WHERE `userId` = 20 AND `is_complaint` = 0 AND `is_deliver` = 0 AND `is_cancel` = 0 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_order` WHERE `userId` = 20 AND `is_complaint` = 0 AND `is_deliver` = 1 AND `is_confirm` = 0 AND `is_reject` = 0 AND `is_recommend` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_order` WHERE `userId` = 20 AND `is_complaint` = 0 AND `is_confirm` = 1 AND `is_recommend` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0054s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = 20 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_user_log` [ RunTime:0.0055s ]
+SQL: DELETE FROM `eshop_user_log` WHERE `id` = 87 [ RunTime:0.0620s ]
+
+[ 2017-05-13T10:16:38+08:00 ] ::1 /eshop/index.php/Home/UserOrders/waitReceive.html
+ERR: Cron:cron Runat 2017-05-13 10:16:38 Use 0.000275 s
+

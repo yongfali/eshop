@@ -1,0 +1,75 @@
+/**商家和用户登录页面样式**/
+.position_now{
+	width: 1200px;
+	height: 35px;
+	line-height: 35px;
+	margin: 0 auto;
+}
+.login_conten{
+	width: 1200px;
+	margin: 0px auto;
+}
+.login_content_left{
+	float: left;
+}
+.login_content_left img{
+	width: 600px;
+	height: 400px;
+	overflow: hidden;
+}
+.login_content_right{
+	width: 400px;
+	padding: 30px 120px 20px 36px;
+	float: right;
+	border: 2px solid #dad7d7;
+	border-radius: 5px;
+}
+.login_user{
+	width: 100px;
+	height: 36px;
+	display: block;
+	font-size: 25px;
+	background: url(../Image/img_logintitle.png) no-repeat;
+}
+.tb{
+	margin-top:20px;
+}
+.tb tr{
+	height: 50px;
+}
+.tb tr td{
+	height: 35px;
+}
+.inputs{
+	margin-left: 15px;
+	padding-left: 10px;
+	width: 300px;
+	height: 36px;
+	border-radius: 6px;
+	border: 1px solid #bac4c3;
+}
+.verify input{
+	margin-left: 15px;
+	padding-left: 10px;
+	width: 180px;
+	height: 36px;
+	border-radius: 6px;
+	border: 1px solid #bac4c3;
+}
+.verify img{
+	width: 112px;
+	height: 38px;
+	vertical-align: middle;
+}
+.btn{
+	padding:0px;
+	margin-left:55px;
+	width: 100px;
+	text-align: center;
+	margin-right: 10px;
+}
+.other_login{
+	height: 30px;
+	margin-left: 60px;
+}
+

@@ -1,0 +1,58 @@
+<!-- 消息列表Ajax分页实现 -->
+<table class="infoList_table">
+	<thead>
+		<th width="6%"> 
+			<input type="checkbox" id="allchecked" />
+			<label for="allchecked">全选</label>
+		</th>
+		<th width="16%">标题</th>
+		<th width="8%">类型</th>
+		<th>内容简介</th>
+		<th width="10%">发布时间</th>
+		<th width="12%">操作</th>
+	</thead>
+	<tbody>
+		<empty name="infoList">
+			<tr>
+				<td colspan="6">
+					暂无数据！
+				</td>
+			</tr>
+			<else/>
+			<volist name="infoList" id="item">
+				<tr>
+					<td><input type="checkbox" id="check-{$i}" class="infoList_check" value="{$item.id}"/>
+					</td>
+					<td class="info_title">
+						<div>
+							<span>{$item.title}</span>
+						</div>
+					</td>
+					<td>
+						<if condition="$item.type eq 1">
+							<span>资讯</span>
+							<else/>
+							<span>优惠活动</span>
+						</if>
+					</td>
+					<td class="info_content">
+						<div style="text-align:left;">
+							<span>{$item.content|html_entity_decode|mb_substr=###,0,70,'utf-8'}....</span>
+						</div>
+					</td>
+					<td>
+						<span>{$item.publish_time|date="Y-m-d ",###}</span>
+					</td>
+					<td>
+						<a href="{:U('Home/Index/infoDetail',array('id' => $item['id'],'type' => $type))}" target='_blank' class="info_view" >查看</a>
+						<a href="javascript:delInfo(0,{$item.id})" class="info_del">删除</a> 
+						<a href="{:U('infoEdit',array('id' => $item['id']))}" class="info_edit">编辑</a>
+					</td>
+				</tr>
+			</volist>
+		</empty>
+	</tbody>
+</table>
+<!-- 分页开始 -->
+<div class="pages">{$page}</div>
+<!-- 分页结束 --> 

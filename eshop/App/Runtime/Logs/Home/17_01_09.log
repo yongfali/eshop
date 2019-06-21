@@ -1,0 +1,1454 @@
+[ 2017-01-09T11:44:17+08:00 ] ::1 /eshop/index.php/Good/getWebCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000846s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001404s ]
+
+[ 2017-01-09T11:44:22+08:00 ] ::1 /eshop/index.php/Good/getWebCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001400s ]
+
+[ 2017-01-09T11:44:31+08:00 ] ::1 /eshop/index.php/Good/getShopCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001459s ]
+
+[ 2017-01-09T11:45:39+08:00 ] ::1 /eshop/index.php/Good/getWebCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001417s ]
+SQL: SHOW COLUMNS FROM `eshop_secondmenu` [ RunTime:0.0062s ]
+SQL: SELECT `id`,`name` FROM `eshop_secondmenu` WHERE `pid` = 1 AND `is_show` = 1  [ RunTime:0.0005s ]
+
+[ 2017-01-09T11:45:41+08:00 ] ::1 /eshop/index.php/Good/getWebCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000921s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001542s ]
+SQL: SHOW COLUMNS FROM `eshop_thirdmenu` [ RunTime:0.0059s ]
+SQL: SELECT `id`,`name` FROM `eshop_thirdmenu` WHERE `pid` = 1 AND `is_show` = 1  [ RunTime:0.0005s ]
+
+[ 2017-01-09T11:45:45+08:00 ] ::1 /eshop/index.php/Good/getShopCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000870s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001422s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_secondmenu` [ RunTime:0.0048s ]
+SQL: SELECT `id`,`sname` FROM `eshop_shop_secondmenu` WHERE `pid` = 1 AND `is_show` = 1  [ RunTime:0.0005s ]
+
+[ 2017-01-09T11:45:58+08:00 ] ::1 /eshop/index.php/Good/goodsSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001598s ]
+
+[ 2017-01-09T12:53:17+08:00 ] ::1 /eshop/index.php/Good/goodsSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001165s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001972s ]
+
+[ 2017-01-09T12:53:32+08:00 ] ::1 /eshop/index.php/Good/goodsSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001430s ]
+
+[ 2017-01-09T12:56:21+08:00 ] ::1 /eshop/index.php/Good/goodsSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001164s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001805s ]
+
+[ 2017-01-09T12:56:51+08:00 ] ::1 /eshop/index.php/Good/goodsSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001642s ]
+
+[ 2017-01-09T12:58:24+08:00 ] ::1 /eshop/index.php/Good/goodsSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002050s ]
+
+[ 2017-01-09T12:58:58+08:00 ] ::1 /eshop/index.php/Good/goodsSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001436s ]
+
+[ 2017-01-09T13:01:43+08:00 ] ::1 /eshop/index.php/Good/goodsSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000875s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001449s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0063s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-01-09T13:20:28+08:00 ] ::1 /eshop/index.php/Good/goodsSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000893s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001516s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0058s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined variable: x D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: y D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0053s ]
+
+[ 2017-01-09T13:21:14+08:00 ] ::1 /eshop/index.php/Good/goodsSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001289s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0058s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined variable: x D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: y D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0072s ]
+SQL: SHOW COLUMNS FROM `eshop_goodnav` [ RunTime:0.0072s ]
+SQL: SHOW COLUMNS FROM `eshop_goodservice` [ RunTime:0.0071s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `eshop_good` WHERE `goodNumber` = '14828254901314411526' LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `eshop_good` (`good_log`,`marketPrice`,`shopPrice`,`stock`,`place`,`status`,`name`,`stock_warning`,`goodNumber`,`is_recomend`,`is_hot`,`time`,`modify_recenet`) VALUES ('./Uploads/Shops/2017-01-09/thumb_58731dca419b5.jpg','111','11','333','补差价','1','出生','11','14828254901314411526','1','1','1483939274','1483939274') [ RunTime:0.0219s ]
+SQL: INSERT INTO `eshop_goodnav` (`goodId`,`shopId`,`w_fid`,`w_sid`,`w_tid`,`s_fid`) VALUES ('4','3','1','1','1','1') [ RunTime:0.3372s ]
+SQL: INSERT INTO `eshop_goodservice` (`goodId`,`content`) VALUES ('3','') [ RunTime:0.0004s ]
+
+[ 2017-01-09T13:24:39+08:00 ] ::1 /eshop/index.php/Good/getWebCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001277s ]
+SQL: SHOW COLUMNS FROM `eshop_secondmenu` [ RunTime:0.0058s ]
+SQL: SELECT `id`,`name` FROM `eshop_secondmenu` WHERE `pid` = 2 AND `is_show` = 1  [ RunTime:0.0004s ]
+
+[ 2017-01-09T13:24:42+08:00 ] ::1 /eshop/index.php/Good/getWebCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001208s ]
+SQL: SHOW COLUMNS FROM `eshop_thirdmenu` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`name` FROM `eshop_thirdmenu` WHERE `pid` = 3 AND `is_show` = 1  [ RunTime:0.0004s ]
+
+[ 2017-01-09T13:24:49+08:00 ] ::1 /eshop/index.php/Good/getShopCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001222s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_secondmenu` [ RunTime:0.0049s ]
+SQL: SELECT `id`,`sname` FROM `eshop_shop_secondmenu` WHERE `pid` = 5 AND `is_show` = 1  [ RunTime:0.0005s ]
+
+[ 2017-01-09T13:25:19+08:00 ] ::1 /eshop/index.php/Good/goodsSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001217s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0050s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined variable: x D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: y D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0053s ]
+SQL: SHOW COLUMNS FROM `eshop_goodnav` [ RunTime:0.0054s ]
+SQL: SHOW COLUMNS FROM `eshop_goodservice` [ RunTime:0.0057s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `eshop_good` WHERE `goodNumber` = '14828254901368639319' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `eshop_good` (`good_log`,`marketPrice`,`shopPrice`,`stock`,`place`,`status`,`name`,`stock_warning`,`goodNumber`,`is_recomend`,`is_hot`,`is_new`,`time`,`modify_recenet`) VALUES ('./Uploads/Shops/2017-01-09/thumb_58731ebee5a2b.jpg','12','10','2342','湖南','1','橘子','11','14828254901368639319','1','1','1','1483939518','1483939518') [ RunTime:0.0004s ]
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`eshop`.`eshop_goodnav`, CONSTRAINT `eshop_goodnav_ibfk_4` FOREIGN KEY (`s_fid`) REFERENCES `eshop_shop_firstmenu` (`id`) ON DELETE NO ACTION ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `eshop_goodnav` (`goodId`,`shopId`,`w_fid`,`w_sid`,`w_tid`,`s_fid`) VALUES ('5','3','2','3','3','17')
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`eshop`.`eshop_goodnav`, CONSTRAINT `eshop_goodnav_ibfk_4` FOREIGN KEY (`s_fid`) REFERENCES `eshop_shop_firstmenu` (`id`) ON DELETE NO ACTION ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `eshop_goodnav` (`goodId`,`shopId`,`w_fid`,`w_sid`,`w_tid`,`s_fid`) VALUES ('5','3','2','3','3','17')
+
+[ 2017-01-09T13:25:42+08:00 ] ::1 /eshop/index.php/Good/goodsSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000771s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001450s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0054s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined variable: x D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: y D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `eshop_goodnav` [ RunTime:0.0055s ]
+SQL: SHOW COLUMNS FROM `eshop_goodservice` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `eshop_good` WHERE `goodNumber` = '14828254901368639319' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `eshop_good` (`good_log`,`marketPrice`,`shopPrice`,`stock`,`place`,`status`,`name`,`stock_warning`,`goodNumber`,`is_recomend`,`is_hot`,`is_new`,`time`,`modify_recenet`) VALUES ('./Uploads/Shops/2017-01-09/thumb_58731ed60a95b.jpg','12','10','2342','湖南','1','橘子','11','14828254901368639319','1','1','1','1483939542','1483939542') [ RunTime:0.0005s ]
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`eshop`.`eshop_goodnav`, CONSTRAINT `eshop_goodnav_ibfk_4` FOREIGN KEY (`s_fid`) REFERENCES `eshop_shop_firstmenu` (`id`) ON DELETE NO ACTION ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `eshop_goodnav` (`goodId`,`shopId`,`w_fid`,`w_sid`,`w_tid`,`s_fid`) VALUES ('6','3','2','3','3','17')
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`eshop`.`eshop_goodnav`, CONSTRAINT `eshop_goodnav_ibfk_4` FOREIGN KEY (`s_fid`) REFERENCES `eshop_shop_firstmenu` (`id`) ON DELETE NO ACTION ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `eshop_goodnav` (`goodId`,`shopId`,`w_fid`,`w_sid`,`w_tid`,`s_fid`) VALUES ('6','3','2','3','3','17')
+
+[ 2017-01-09T13:29:07+08:00 ] ::1 /eshop/index.php/Good/goodsSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001378s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0050s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined variable: x D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: y D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0052s ]
+SQL: SHOW COLUMNS FROM `eshop_goodnav` [ RunTime:0.0048s ]
+SQL: SHOW COLUMNS FROM `eshop_goodservice` [ RunTime:0.0059s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `eshop_good` WHERE `goodNumber` = '14828254901368639319' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `eshop_good` (`good_log`,`marketPrice`,`shopPrice`,`stock`,`place`,`status`,`name`,`stock_warning`,`goodNumber`,`is_recomend`,`is_hot`,`is_new`,`time`,`modify_recenet`) VALUES ('./Uploads/Shops/2017-01-09/thumb_58731fa3ce67f.jpg','12','10','2342','湖南','1','橘子','11','14828254901368639319','1','1','1','1483939747','1483939747') [ RunTime:0.0004s ]
+
+[ 2017-01-09T13:30:06+08:00 ] ::1 /eshop/index.php/Good/goodsSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001396s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0057s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined variable: x D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: y D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0052s ]
+SQL: SHOW COLUMNS FROM `eshop_goodnav` [ RunTime:0.0062s ]
+SQL: SHOW COLUMNS FROM `eshop_goodservice` [ RunTime:0.0063s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `eshop_good` WHERE `goodNumber` = '14828254901368639319' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `eshop_good` (`good_log`,`marketPrice`,`shopPrice`,`stock`,`place`,`status`,`name`,`stock_warning`,`goodNumber`,`is_recomend`,`is_hot`,`is_new`,`time`,`modify_recenet`) VALUES ('./Uploads/Shops/2017-01-09/thumb_58731fdd9acb4.jpg','12','10','2342','湖南','1','橘子','11','14828254901368639319','1','1','1','1483939805','1483939805') [ RunTime:0.0004s ]
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`eshop`.`eshop_goodnav`, CONSTRAINT `eshop_goodnav_ibfk_4` FOREIGN KEY (`s_fid`) REFERENCES `eshop_shop_firstmenu` (`id`) ON DELETE NO ACTION ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `eshop_goodnav` (`goodId`,`shopId`,`w_fid`,`w_sid`,`w_tid`,`s_fid`) VALUES ('8','3','2','3','3','17')
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`eshop`.`eshop_goodnav`, CONSTRAINT `eshop_goodnav_ibfk_4` FOREIGN KEY (`s_fid`) REFERENCES `eshop_shop_firstmenu` (`id`) ON DELETE NO ACTION ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `eshop_goodnav` (`goodId`,`shopId`,`w_fid`,`w_sid`,`w_tid`,`s_fid`) VALUES ('8','3','2','3','3','17')
+
+[ 2017-01-09T13:30:20+08:00 ] ::1 /eshop/index.php/Good/goodsSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001375s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0055s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined variable: x D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: y D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0053s ]
+SQL: SHOW COLUMNS FROM `eshop_goodnav` [ RunTime:0.0063s ]
+SQL: SHOW COLUMNS FROM `eshop_goodservice` [ RunTime:0.0054s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `eshop_good` WHERE `goodNumber` = '14828254901368639319' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `eshop_good` (`good_log`,`marketPrice`,`shopPrice`,`stock`,`place`,`status`,`name`,`stock_warning`,`goodNumber`,`is_recomend`,`is_hot`,`is_new`,`time`,`modify_recenet`) VALUES ('./Uploads/Shops/2017-01-09/thumb_58731fecdebd2.jpg','12','10','2342','湖南','1','橘子','11','14828254901368639319','1','1','1','1483939820','1483939820') [ RunTime:0.0004s ]
+SQL: INSERT INTO `eshop_goodservice` (`goodId`,`content`) VALUES ('3','&lt;p&gt;免运费，无条件退款&lt;br/&gt;&lt;/p&gt;') [ RunTime:0.0003s ]
+
+[ 2017-01-09T13:31:04+08:00 ] ::1 /eshop/index.php/Good/goodsSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001315s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0059s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined variable: x D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: y D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0063s ]
+SQL: SHOW COLUMNS FROM `eshop_goodnav` [ RunTime:0.0054s ]
+SQL: SHOW COLUMNS FROM `eshop_goodservice` [ RunTime:0.0055s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `eshop_good` WHERE `goodNumber` = '14828254901368639319' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `eshop_good` (`good_log`,`marketPrice`,`shopPrice`,`stock`,`place`,`status`,`name`,`stock_warning`,`goodNumber`,`is_recomend`,`is_hot`,`is_new`,`time`,`modify_recenet`) VALUES ('./Uploads/Shops/2017-01-09/thumb_5873201871ec4.jpg','12','10','2342','湖南','1','橘子','11','14828254901368639319','1','1','1','1483939864','1483939864') [ RunTime:0.0005s ]
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`eshop`.`eshop_goodnav`, CONSTRAINT `eshop_goodnav_ibfk_4` FOREIGN KEY (`s_fid`) REFERENCES `eshop_shop_firstmenu` (`id`) ON DELETE NO ACTION ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `eshop_goodnav` (`goodId`,`shopId`,`w_fid`,`w_sid`,`w_tid`,`s_fid`) VALUES ('10','3','2','3','3','17')
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`eshop`.`eshop_goodnav`, CONSTRAINT `eshop_goodnav_ibfk_4` FOREIGN KEY (`s_fid`) REFERENCES `eshop_shop_firstmenu` (`id`) ON DELETE NO ACTION ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `eshop_goodnav` (`goodId`,`shopId`,`w_fid`,`w_sid`,`w_tid`,`s_fid`) VALUES ('10','3','2','3','3','17')
+
+[ 2017-01-09T13:31:47+08:00 ] ::1 /eshop/index.php/Good/goodsSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001279s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0058s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined variable: x D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: y D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0051s ]
+SQL: SHOW COLUMNS FROM `eshop_goodnav` [ RunTime:0.0048s ]
+SQL: SHOW COLUMNS FROM `eshop_goodservice` [ RunTime:0.0055s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `eshop_good` WHERE `goodNumber` = '14828254901368639319' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `eshop_good` (`good_log`,`marketPrice`,`shopPrice`,`stock`,`place`,`status`,`name`,`stock_warning`,`goodNumber`,`is_recomend`,`is_hot`,`is_new`,`time`,`modify_recenet`) VALUES ('./Uploads/Shops/2017-01-09/thumb_5873204319d75.jpg','12','10','2342','湖南','1','橘子','11','14828254901368639319','1','1','1','1483939907','1483939907') [ RunTime:0.0004s ]
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`eshop`.`eshop_goodnav`, CONSTRAINT `eshop_goodnav_ibfk_4` FOREIGN KEY (`s_fid`) REFERENCES `eshop_shop_firstmenu` (`id`) ON DELETE NO ACTION ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `eshop_goodnav` (`goodId`,`shopId`,`w_fid`,`w_sid`,`w_tid`,`s_fid`) VALUES ('11','3','2','3','3','17')
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`eshop`.`eshop_goodnav`, CONSTRAINT `eshop_goodnav_ibfk_4` FOREIGN KEY (`s_fid`) REFERENCES `eshop_shop_firstmenu` (`id`) ON DELETE NO ACTION ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `eshop_goodnav` (`goodId`,`shopId`,`w_fid`,`w_sid`,`w_tid`,`s_fid`) VALUES ('11','3','2','3','3','17')
+
+[ 2017-01-09T13:32:47+08:00 ] ::1 /eshop/index.php/Good/goodsSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001286s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0058s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined variable: x D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: y D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0052s ]
+SQL: SHOW COLUMNS FROM `eshop_goodnav` [ RunTime:0.0066s ]
+SQL: SHOW COLUMNS FROM `eshop_goodservice` [ RunTime:0.0058s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `eshop_good` WHERE `goodNumber` = '14828254901368639319' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `eshop_good` (`good_log`,`marketPrice`,`shopPrice`,`stock`,`place`,`status`,`name`,`stock_warning`,`goodNumber`,`is_recomend`,`is_hot`,`is_new`,`time`,`modify_recenet`) VALUES ('./Uploads/Shops/2017-01-09/thumb_5873207fc4763.jpg','12','10','2342','湖南','1','橘子','11','14828254901368639319','1','1','1','1483939967','1483939967') [ RunTime:0.0005s ]
+
+[ 2017-01-09T13:34:24+08:00 ] ::1 /eshop/index.php/Good/goodsSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001271s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0073s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined variable: x D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: y D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0062s ]
+SQL: SHOW COLUMNS FROM `eshop_goodnav` [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `eshop_goodservice` [ RunTime:0.0059s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `eshop_good` WHERE `goodNumber` = '14828254901368639319' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `eshop_good` (`good_log`,`marketPrice`,`shopPrice`,`stock`,`place`,`status`,`name`,`stock_warning`,`goodNumber`,`is_recomend`,`is_hot`,`is_new`,`time`,`modify_recenet`) VALUES ('./Uploads/Shops/2017-01-09/thumb_587320dfead71.jpg','12','10','2342','湖南','1','橘子','11','14828254901368639319','1','1','1','1483940064','1483940064') [ RunTime:0.0004s ]
+
+[ 2017-01-09T13:35:02+08:00 ] ::1 /eshop/index.php/Good/goodsSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001277s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0062s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined variable: x D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: y D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `eshop_goodnav` [ RunTime:0.0071s ]
+SQL: SHOW COLUMNS FROM `eshop_goodservice` [ RunTime:0.0057s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `eshop_good` WHERE `goodNumber` = '14828254901368639319' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `eshop_good` (`good_log`,`marketPrice`,`shopPrice`,`stock`,`place`,`status`,`name`,`stock_warning`,`goodNumber`,`is_recomend`,`is_hot`,`is_new`,`time`,`modify_recenet`) VALUES ('./Uploads/Shops/2017-01-09/thumb_587321069d01c.jpg','12','10','2342','湖南','1','橘子','11','14828254901368639319','1','1','1','1483940102','1483940102') [ RunTime:0.0005s ]
+
+[ 2017-01-09T13:35:51+08:00 ] ::1 /eshop/index.php/Good/goodsSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001268s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0056s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined variable: x D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: y D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0048s ]
+SQL: SHOW COLUMNS FROM `eshop_goodnav` [ RunTime:0.0058s ]
+SQL: SHOW COLUMNS FROM `eshop_goodservice` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-01-09T13:36:13+08:00 ] ::1 /eshop/index.php/Good/goodsSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000763s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001373s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0055s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined variable: x D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: y D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0052s ]
+SQL: SHOW COLUMNS FROM `eshop_goodnav` [ RunTime:0.0048s ]
+SQL: SHOW COLUMNS FROM `eshop_goodservice` [ RunTime:0.0053s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-01-09T13:37:19+08:00 ] ::1 /eshop/index.php/Good/goodsSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000891s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001462s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0061s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined variable: x D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: y D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0056s ]
+SQL: SHOW COLUMNS FROM `eshop_goodnav` [ RunTime:0.0061s ]
+SQL: SHOW COLUMNS FROM `eshop_goodservice` [ RunTime:0.0051s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-01-09T13:37:22+08:00 ] ::1 /eshop/index.php/Good/goodsSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001243s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0052s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined variable: x D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: y D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0065s ]
+SQL: SHOW COLUMNS FROM `eshop_goodnav` [ RunTime:0.0047s ]
+SQL: SHOW COLUMNS FROM `eshop_goodservice` [ RunTime:0.0046s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-01-09T13:39:05+08:00 ] ::1 /eshop/index.php/Good/getWebCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001305s ]
+SQL: SHOW COLUMNS FROM `eshop_secondmenu` [ RunTime:0.0057s ]
+SQL: SELECT `id`,`name` FROM `eshop_secondmenu` WHERE `pid` = 2 AND `is_show` = 1  [ RunTime:0.0004s ]
+
+[ 2017-01-09T13:39:06+08:00 ] ::1 /eshop/index.php/Good/getWebCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001226s ]
+SQL: SHOW COLUMNS FROM `eshop_thirdmenu` [ RunTime:0.0053s ]
+SQL: SELECT `id`,`name` FROM `eshop_thirdmenu` WHERE `pid` = 3 AND `is_show` = 1  [ RunTime:0.0004s ]
+
+[ 2017-01-09T13:39:08+08:00 ] ::1 /eshop/index.php/Good/getShopCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000777s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001639s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_secondmenu` [ RunTime:0.0056s ]
+SQL: SELECT `id`,`sname` FROM `eshop_shop_secondmenu` WHERE `pid` = 1 AND `is_show` = 1  [ RunTime:0.0004s ]
+
+[ 2017-01-09T13:39:16+08:00 ] ::1 /eshop/index.php/Good/getShopCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001238s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_secondmenu` [ RunTime:0.0059s ]
+SQL: SELECT `id`,`sname` FROM `eshop_shop_secondmenu` WHERE `pid` = 5 AND `is_show` = 1  [ RunTime:0.0004s ]
+
+[ 2017-01-09T13:39:40+08:00 ] ::1 /eshop/index.php/Good/goodsSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000696s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001386s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0054s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined variable: x D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: y D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0071s ]
+SQL: SHOW COLUMNS FROM `eshop_goodnav` [ RunTime:0.0051s ]
+SQL: SHOW COLUMNS FROM `eshop_goodservice` [ RunTime:0.0062s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-01-09T13:40:07+08:00 ] ::1 /eshop/index.php/Good/goodsSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000763s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001333s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0051s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined variable: x D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: y D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0067s ]
+SQL: SHOW COLUMNS FROM `eshop_goodnav` [ RunTime:0.0051s ]
+SQL: SHOW COLUMNS FROM `eshop_goodservice` [ RunTime:0.0055s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `eshop_good` WHERE `goodNumber` = 2147483647 LIMIT 1   [ RunTime:0.0166s ]
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `eshop_good` (`good_log`,`marketPrice`,`shopPrice`,`stock`,`place`,`status`,`name`,`stock_warning`,`goodNumber`,`is_recomend`,`is_hot`,`time`,`modify_recenet`) VALUES ('0','11','10','342','0','1','0','111','2147483647','1','1','1483940407','1483940407') [ RunTime:0.0008s ]
+
+[ 2017-01-09T13:41:37+08:00 ] ::1 /eshop/index.php/Good/goodsSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000855s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001406s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0059s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined variable: x D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: y D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0063s ]
+SQL: SHOW COLUMNS FROM `eshop_goodnav` [ RunTime:0.0055s ]
+SQL: SHOW COLUMNS FROM `eshop_goodservice` [ RunTime:0.0064s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `eshop_good` WHERE `goodNumber` = 2147483647 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `eshop_good` (`good_log`,`marketPrice`,`shopPrice`,`stock`,`place`,`status`,`name`,`stock_warning`,`goodNumber`,`is_recomend`,`is_hot`,`time`,`modify_recenet`) VALUES ('0','11','10','342','0','1','0','111','2147483647','1','1','1483940496','1483940496') [ RunTime:0.0006s ]
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`eshop`.`eshop_goodnav`, CONSTRAINT `eshop_goodnav_ibfk_4` FOREIGN KEY (`s_fid`) REFERENCES `eshop_shop_firstmenu` (`id`) ON DELETE NO ACTION ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `eshop_goodnav` (`goodId`,`shopId`,`w_fid`,`w_sid`,`w_tid`,`s_fid`) VALUES ('16','3','2','3','3','17')
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`eshop`.`eshop_goodnav`, CONSTRAINT `eshop_goodnav_ibfk_4` FOREIGN KEY (`s_fid`) REFERENCES `eshop_shop_firstmenu` (`id`) ON DELETE NO ACTION ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `eshop_goodnav` (`goodId`,`shopId`,`w_fid`,`w_sid`,`w_tid`,`s_fid`) VALUES ('16','3','2','3','3','17')
+
+[ 2017-01-09T13:46:36+08:00 ] ::1 /eshop/index.php/Good/goodsSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000787s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001369s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0060s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined variable: x D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: y D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0065s ]
+SQL: SHOW COLUMNS FROM `eshop_goodnav` [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `eshop_goodservice` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `eshop_good` WHERE `goodNumber` = 2147483647 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `eshop_good` (`good_log`,`marketPrice`,`shopPrice`,`stock`,`place`,`status`,`name`,`stock_warning`,`goodNumber`,`is_recomend`,`is_hot`,`time`,`modify_recenet`) VALUES ('0','11','10','342','0','1','0','111','2147483647','1','1','1483940796','1483940796') [ RunTime:0.0003s ]
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`eshop`.`eshop_goodnav`, CONSTRAINT `eshop_goodnav_ibfk_4` FOREIGN KEY (`s_fid`) REFERENCES `eshop_shop_firstmenu` (`id`) ON DELETE NO ACTION ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `eshop_goodnav` (`goodId`,`shopId`,`w_fid`,`w_sid`,`w_tid`,`s_fid`,`createtime`) VALUES ('17','3','2','3','3','17','1483940796')
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`eshop`.`eshop_goodnav`, CONSTRAINT `eshop_goodnav_ibfk_4` FOREIGN KEY (`s_fid`) REFERENCES `eshop_shop_firstmenu` (`id`) ON DELETE NO ACTION ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `eshop_goodnav` (`goodId`,`shopId`,`w_fid`,`w_sid`,`w_tid`,`s_fid`,`createtime`) VALUES ('17','3','2','3','3','17','1483940796')
+
+[ 2017-01-09T13:48:47+08:00 ] ::1 /eshop/index.php/Good/goodsSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001403s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0309s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined variable: x D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: y D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `eshop_goodnav` [ RunTime:0.0052s ]
+SQL: SHOW COLUMNS FROM `eshop_goodservice` [ RunTime:0.0051s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `eshop_good` WHERE `goodNumber` = 2147483647 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `eshop_good` (`good_log`,`marketPrice`,`shopPrice`,`stock`,`place`,`status`,`name`,`stock_warning`,`goodNumber`,`is_recomend`,`is_hot`,`time`,`modify_recenet`) VALUES ('0','11','10','342','0','1','0','111','2147483647','1','1','1483940927','1483940927') [ RunTime:0.0004s ]
+
+[ 2017-01-09T13:50:24+08:00 ] ::1 /eshop/index.php/Good/goodsSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001336s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0048s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined variable: x D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: y D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0053s ]
+SQL: SHOW COLUMNS FROM `eshop_goodnav` [ RunTime:0.0063s ]
+SQL: SHOW COLUMNS FROM `eshop_goodservice` [ RunTime:0.0065s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `eshop_good` WHERE `goodNumber` = 2147483647 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `eshop_good` (`good_log`,`marketPrice`,`shopPrice`,`stock`,`place`,`status`,`name`,`stock_warning`,`goodNumber`,`is_recomend`,`is_hot`,`time`,`modify_recenet`) VALUES ('0','11','10','342','0','1','0','111','2147483647','1','1','1483941024','1483941024') [ RunTime:0.0007s ]
+
+[ 2017-01-09T13:53:51+08:00 ] ::1 /eshop/index.php/Good/getWebCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001398s ]
+SQL: SHOW COLUMNS FROM `eshop_secondmenu` [ RunTime:0.0049s ]
+SQL: SELECT `id`,`name` FROM `eshop_secondmenu` WHERE `pid` = 1 AND `is_show` = 1  [ RunTime:0.0004s ]
+
+[ 2017-01-09T13:53:53+08:00 ] ::1 /eshop/index.php/Good/getWebCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000896s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001539s ]
+SQL: SHOW COLUMNS FROM `eshop_thirdmenu` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`name` FROM `eshop_thirdmenu` WHERE `pid` = 1 AND `is_show` = 1  [ RunTime:0.0004s ]
+
+[ 2017-01-09T13:53:56+08:00 ] ::1 /eshop/index.php/Good/getShopCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001623s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_secondmenu` [ RunTime:0.0052s ]
+SQL: SELECT `id`,`sname` FROM `eshop_shop_secondmenu` WHERE `pid` = 1 AND `is_show` = 1  [ RunTime:0.0004s ]
+
+[ 2017-01-09T13:56:04+08:00 ] ::1 /eshop/index.php/Good/goodsSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001403s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0051s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined variable: x D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: y D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0755s ]
+SQL: SHOW COLUMNS FROM `eshop_goodnav` [ RunTime:0.0114s ]
+SQL: SHOW COLUMNS FROM `eshop_goodservice` [ RunTime:0.0127s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `eshop_good` WHERE `goodNumber` = 2147483647 LIMIT 1   [ RunTime:0.0012s ]
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `eshop_good` (`good_log`,`marketPrice`,`shopPrice`,`stock`,`place`,`status`,`name`,`stock_warning`,`goodNumber`,`is_recomend`,`is_new`,`time`,`modify_recenet`) VALUES ('0','11','1','2321','0','1','0','121','2147483647','1','1','1483941364','1483941364') [ RunTime:0.0010s ]
+
+[ 2017-01-09T13:56:42+08:00 ] ::1 /eshop/index.php/Good/goodsSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001306s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0050s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined variable: x D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: y D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0049s ]
+SQL: SHOW COLUMNS FROM `eshop_goodnav` [ RunTime:0.0056s ]
+SQL: SHOW COLUMNS FROM `eshop_goodservice` [ RunTime:0.0081s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `eshop_good` WHERE `goodNumber` = 2147483647 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `eshop_good` (`good_log`,`marketPrice`,`shopPrice`,`stock`,`place`,`status`,`name`,`stock_warning`,`goodNumber`,`is_recomend`,`is_new`,`time`,`modify_recenet`) VALUES ('0','11','1','2321','0','1','0','121','2147483647','1','1','1483941401','1483941401') [ RunTime:0.0004s ]
+SQL: INSERT INTO `eshop_goodnav` (`goodId`,`shopId`,`w_fid`,`w_sid`,`w_tid`,`s_fid`,`createtime`) VALUES ('21','3','1','1','1','1','1483941401') [ RunTime:0.0003s ]
+SQL: INSERT INTO `eshop_goodservice` (`goodId`,`content`,`createtime`) VALUES ('3','0','1483941401') [ RunTime:0.7352s ]
+
+[ 2017-01-09T13:58:50+08:00 ] ::1 /eshop/index.php/Good/goodsSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000864s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001407s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0049s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined variable: x D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: y D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `eshop_goodnav` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `eshop_goodservice` [ RunTime:0.0053s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `eshop_good` WHERE `goodNumber` = 2147483647 LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2017-01-09T13:59:46+08:00 ] ::1 /eshop/index.php/Good/goodsSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000740s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001284s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0051s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined variable: x D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: y D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0059s ]
+SQL: SHOW COLUMNS FROM `eshop_goodnav` [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `eshop_goodservice` [ RunTime:0.0055s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-01-09T14:01:20+08:00 ] ::1 /eshop/index.php/Good/goodsSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001284s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0055s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined variable: x D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: y D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `eshop_goodnav` [ RunTime:0.0065s ]
+SQL: SHOW COLUMNS FROM `eshop_goodservice` [ RunTime:0.0065s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-01-09T14:10:19+08:00 ] ::1 /eshop/index.php/Good/getWebCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000890s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001580s ]
+SQL: SHOW COLUMNS FROM `eshop_secondmenu` [ RunTime:0.0049s ]
+SQL: SELECT `id`,`name` FROM `eshop_secondmenu` WHERE `pid` = 1 AND `is_show` = 1  [ RunTime:0.0003s ]
+
+[ 2017-01-09T14:10:20+08:00 ] ::1 /eshop/index.php/Good/getWebCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001873s ]
+SQL: SHOW COLUMNS FROM `eshop_secondmenu` [ RunTime:0.0047s ]
+SQL: SELECT `id`,`name` FROM `eshop_secondmenu` WHERE `pid` = 2 AND `is_show` = 1  [ RunTime:0.0005s ]
+
+[ 2017-01-09T14:10:22+08:00 ] ::1 /eshop/index.php/Good/getWebCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000897s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001502s ]
+SQL: SHOW COLUMNS FROM `eshop_thirdmenu` [ RunTime:0.0051s ]
+SQL: SELECT `id`,`name` FROM `eshop_thirdmenu` WHERE `pid` = 3 AND `is_show` = 1  [ RunTime:0.0005s ]
+
+[ 2017-01-09T14:10:26+08:00 ] ::1 /eshop/index.php/Good/getShopCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000917s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001567s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_secondmenu` [ RunTime:0.0059s ]
+SQL: SELECT `id`,`sname` FROM `eshop_shop_secondmenu` WHERE `pid` = 5 AND `is_show` = 1  [ RunTime:0.0005s ]
+
+[ 2017-01-09T14:10:46+08:00 ] ::1 /eshop/index.php/Good/goodsSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000888s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001465s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0057s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined variable: x D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: y D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0065s ]
+SQL: SHOW COLUMNS FROM `eshop_goodnav` [ RunTime:0.0063s ]
+SQL: SHOW COLUMNS FROM `eshop_goodservice` [ RunTime:0.0068s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-01-09T14:12:00+08:00 ] ::1 /eshop/index.php/Good/goodsSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001444s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0051s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined variable: x D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: y D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `eshop_goodnav` [ RunTime:0.0354s ]
+SQL: SHOW COLUMNS FROM `eshop_goodservice` [ RunTime:0.0531s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-01-09T14:14:47+08:00 ] ::1 /eshop/index.php/Shoper/checkShoperName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000945s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001598s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0090s ]
+SQL: SELECT `id` FROM `eshop_shoper` WHERE `name` = 0 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001668s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001814s ]
+
+[ 2017-01-09T14:16:34+08:00 ] ::1 /eshop/index.php/Shoper/checkShoperName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001591s ]
+
+[ 2017-01-09T14:17:14+08:00 ] ::1 /eshop/index.php/Shoper/checkShoperName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000875s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001413s ]
+
+[ 2017-01-09T14:17:14+08:00 ] ::1 /eshop/index.php/Shoper/checkShoperName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001982s ]
+
+[ 2017-01-09T14:17:14+08:00 ] ::1 /eshop/index.php/Shoper/checkShoperName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001851s ]
+
+[ 2017-01-09T14:17:14+08:00 ] ::1 /eshop/index.php/Shoper/checkShoperName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001773s ]
+
+[ 2017-01-09T14:17:49+08:00 ] ::1 /eshop/index.php/Shoper/checkShoperName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000889s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001490s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0059s ]
+SQL: SELECT `id` FROM `eshop_shoper` WHERE `name` = 0 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-01-09T14:17:49+08:00 ] ::1 /eshop/index.php/Shoper/checkShoperName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001351s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0052s ]
+SQL: SELECT `id` FROM `eshop_shoper` WHERE `name` = 0 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-01-09T14:18:32+08:00 ] ::1 /eshop/index.php/Shoper/checkShoperName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000891s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001420s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0062s ]
+SQL: SELECT `id` FROM `eshop_shoper` WHERE `name` = 0 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-01-09T14:19:34+08:00 ] ::1 /eshop/index.php/Shoper/checkShoperName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000951s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001581s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0184s ]
+SQL: SELECT `id` FROM `eshop_shoper` WHERE `name` = 0 LIMIT 1   [ RunTime:0.0017s ]
+
+[ 2017-01-09T14:22:02+08:00 ] ::1 /eshop/index.php/Shoper/checkShoperName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004141s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `eshop_shoper` WHERE `name` = 0  [ RunTime:0.0005s ]
+
+[ 2017-01-09T14:22:15+08:00 ] ::1 /eshop/index.php/Shoper/checkShoperName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000908s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001477s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `eshop_shoper` WHERE `name` = 0  [ RunTime:0.0005s ]
+
+[ 2017-01-09T14:22:15+08:00 ] ::1 /eshop/index.php/Shoper/checkShoperName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000899s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001504s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `eshop_shoper` WHERE `name` = 0  [ RunTime:0.0004s ]
+
+[ 2017-01-09T14:22:15+08:00 ] ::1 /eshop/index.php/Shoper/checkShoperName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000890s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001473s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `eshop_shoper` WHERE `name` = 0  [ RunTime:0.0005s ]
+
+[ 2017-01-09T14:22:15+08:00 ] ::1 /eshop/index.php/Shoper/checkShoperName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000870s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001458s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `eshop_shoper` WHERE `name` = 0  [ RunTime:0.0005s ]
+
+[ 2017-01-09T14:23:00+08:00 ] ::1 /eshop/index.php/Shoper/checkShoperName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000907s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001626s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0056s ]
+SQL: SELECT `id` FROM `eshop_shoper` WHERE `name` = 0 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-01-09T14:24:32+08:00 ] ::1 /eshop/index.php/Shoper/checkShoperEmail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000876s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001439s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0051s ]
+SQL: SELECT `email` FROM `eshop_shoper` WHERE `email` = '12345@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001334s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001448s ]
+
+[ 2017-01-09T14:24:37+08:00 ] ::1 /eshop/index.php/Shoper/checkShoperEmail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000870s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001518s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0204s ]
+SQL: SELECT `email` FROM `eshop_shoper` WHERE `email` = '123454@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000985s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001075s ]
+
+[ 2017-01-09T14:24:37+08:00 ] ::1 /eshop/index.php/Shoper/checkShoperEmail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000820s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001424s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0051s ]
+SQL: SELECT `email` FROM `eshop_shoper` WHERE `email` = '1234544@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001320s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001433s ]
+
+[ 2017-01-09T14:24:38+08:00 ] ::1 /eshop/index.php/Shoper/checkShoperEmail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000769s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001319s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0056s ]
+SQL: SELECT `email` FROM `eshop_shoper` WHERE `email` = '12345444@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000978s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001069s ]
+
+[ 2017-01-09T14:24:38+08:00 ] ::1 /eshop/index.php/Shoper/checkShoperEmail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000810s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001349s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0055s ]
+SQL: SELECT `email` FROM `eshop_shoper` WHERE `email` = '123454444@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001018s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001114s ]
+
+[ 2017-01-09T14:24:38+08:00 ] ::1 /eshop/index.php/Shoper/checkShoperEmail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001198s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001996s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0071s ]
+SQL: SELECT `email` FROM `eshop_shoper` WHERE `email` = '1234544444@qq.com' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001402s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001545s ]
+
+[ 2017-01-09T14:25:33+08:00 ] ::1 /eshop/index.php/Shoper/checkShoperName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000870s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001441s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0058s ]
+SQL: SELECT `name` FROM `eshop_shoper` WHERE `name` = 0 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-01-09T14:26:09+08:00 ] ::1 /eshop/index.php/Shoper/checkShoperName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000833s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001398s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0052s ]
+SQL: SELECT `name` FROM `eshop_shoper` WHERE `name` = 0 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-01-09T14:26:09+08:00 ] ::1 /eshop/index.php/Shoper/checkShoperName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001934s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0059s ]
+SQL: SELECT `name` FROM `eshop_shoper` WHERE `name` = 0 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2017-01-09T14:27:11+08:00 ] ::1 /eshop/index.php/Shoper/checkShoperName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000852s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001401s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0059s ]
+SQL: SELECT `id` FROM `eshop_shoper` WHERE `name` = 0 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001097s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001189s ]
+
+[ 2017-01-09T14:27:11+08:00 ] ::1 /eshop/index.php/Shoper/checkShoperName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001592s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0065s ]
+SQL: SELECT `id` FROM `eshop_shoper` WHERE `name` = 0 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000985s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001075s ]
+
+[ 2017-01-09T14:27:11+08:00 ] ::1 /eshop/index.php/Shoper/checkShoperName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000810s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001328s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0059s ]
+SQL: SELECT `id` FROM `eshop_shoper` WHERE `name` = 0 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001345s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001463s ]
+
+[ 2017-01-09T14:27:22+08:00 ] ::1 /eshop/index.php/Shoper/checkShoperName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001380s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0058s ]
+SQL: SELECT `id` FROM `eshop_shoper` WHERE `name` = 0 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001329s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001443s ]
+
+[ 2017-01-09T14:27:27+08:00 ] ::1 /eshop/index.php/Shoper/checkShoperName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001381s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.1014s ]
+SQL: SELECT `id` FROM `eshop_shoper` WHERE `name` = 0 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000962s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001048s ]
+
+[ 2017-01-09T14:28:05+08:00 ] ::1 /eshop/index.php/Shoper/checkShoperName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001380s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0051s ]
+SQL: SELECT `name` FROM `eshop_shoper` WHERE `name` = 0 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000997s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001088s ]
+
+[ 2017-01-09T14:28:05+08:00 ] ::1 /eshop/index.php/Shoper/checkShoperName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001408s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0061s ]
+SQL: SELECT `name` FROM `eshop_shoper` WHERE `name` = 0 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001014s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001110s ]
+
+[ 2017-01-09T14:28:21+08:00 ] ::1 /eshop/index.php/Shoper/checkShoperName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001578s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0058s ]
+SQL: SELECT `id` FROM `eshop_shoper` WHERE `name` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `eshop_shoper` WHERE `name` = 0 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000958s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001047s ]
+
+[ 2017-01-09T14:28:50+08:00 ] ::1 /eshop/index.php/Shoper/checkShoperName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000846s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001391s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0061s ]
+SQL: SELECT `id` FROM `eshop_shoper` WHERE `name` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `eshop_shoper` WHERE `name` = 0 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000946s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001038s ]
+
+[ 2017-01-09T14:28:50+08:00 ] ::1 /eshop/index.php/Shoper/checkShoperName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001384s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0055s ]
+SQL: SELECT `id` FROM `eshop_shoper` WHERE `name` = 0 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `eshop_shoper` WHERE `name` = 0 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001308s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001453s ]
+
+[ 2017-01-09T14:29:42+08:00 ] ::1 /eshop/index.php/User/checkUserName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000934s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001509s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0054s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `name` = 0 LIMIT 1   [ RunTime:0.0535s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003433s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003697s ]
+
+[ 2017-01-09T14:34:43+08:00 ] ::1 /eshop/index.php/User/checkUserName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000835s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001353s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0050s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `name` = 0 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000913s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000988s ]
+
+[ 2017-01-09T14:36:10+08:00 ] ::1 /eshop/index.php/User/checkUserName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000804s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001367s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0060s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `name` = 0 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001106s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001206s ]
+
+[ 2017-01-09T14:40:01+08:00 ] ::1 /eshop/index.php/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001460s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001045s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001158s ]
+
+[ 2017-01-09T14:40:09+08:00 ] ::1 /eshop/index.php/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000820s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001371s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000805s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000883s ]
+
+[ 2017-01-09T14:40:10+08:00 ] ::1 /eshop/index.php/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002200s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000813s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000898s ]
+
+[ 2017-01-09T14:40:11+08:00 ] ::1 /eshop/index.php/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000884s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001489s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000813s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000907s ]
+
+[ 2017-01-09T14:40:11+08:00 ] ::1 /eshop/index.php/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001485s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000981s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001131s ]
+
+[ 2017-01-09T14:40:12+08:00 ] ::1 /eshop/index.php/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001349s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000807s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000884s ]
+
+[ 2017-01-09T14:40:23+08:00 ] ::1 /eshop/index.php/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000907s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001602s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000850s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000930s ]
+
+[ 2017-01-09T14:40:23+08:00 ] ::1 /eshop/index.php/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001373s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000918s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001011s ]
+
+[ 2017-01-09T14:40:25+08:00 ] ::1 /eshop/index.php/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004042s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001607s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001768s ]
+
+[ 2017-01-09T14:40:25+08:00 ] ::1 /eshop/index.php/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002594s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001765s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001930s ]
+
+[ 2017-01-09T14:40:25+08:00 ] ::1 /eshop/index.php/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001911s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002870s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001442s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001596s ]
+
+[ 2017-01-09T14:40:54+08:00 ] ::1 /eshop/index.php/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000891s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001473s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000835s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000918s ]
+
+[ 2017-01-09T14:40:57+08:00 ] ::1 /eshop/index.php/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001369s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000852s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000930s ]
+
+[ 2017-01-09T14:40:58+08:00 ] ::1 /eshop/index.php/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001101s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001794s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000816s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000898s ]
+
+[ 2017-01-09T14:41:01+08:00 ] ::1 /eshop/index.php/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001720s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000806s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000884s ]
+
+[ 2017-01-09T14:41:01+08:00 ] ::1 /eshop/index.php/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001356s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000932s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001021s ]
+
+[ 2017-01-09T14:41:02+08:00 ] ::1 /eshop/index.php/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001575s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002594s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001876s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002121s ]
+
+[ 2017-01-09T14:41:11+08:00 ] ::1 /eshop/index.php/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000801s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001335s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000958s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001074s ]
+
+[ 2017-01-09T14:41:12+08:00 ] ::1 /eshop/index.php/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001390s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000817s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000895s ]
+
+[ 2017-01-09T14:41:13+08:00 ] ::1 /eshop/index.php/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002463s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002729s ]
+
+[ 2017-01-09T14:41:14+08:00 ] ::1 /eshop/index.php/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001326s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001467s ]
+
+[ 2017-01-09T14:41:14+08:00 ] ::1 /eshop/index.php/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001362s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000815s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000893s ]
+
+[ 2017-01-09T14:41:31+08:00 ] ::1 /eshop/index.php/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001402s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000854s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000939s ]
+
+[ 2017-01-09T14:41:32+08:00 ] ::1 /eshop/index.php/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000821s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001392s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000980s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001066s ]
+
+[ 2017-01-09T14:41:40+08:00 ] ::1 /eshop/index.php/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001967s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000900s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001018s ]
+
+[ 2017-01-09T14:41:41+08:00 ] ::1 /eshop/index.php/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002450s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001497s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001653s ]
+
+[ 2017-01-09T14:41:42+08:00 ] ::1 /eshop/index.php/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001352s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000844s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000931s ]
+
+[ 2017-01-09T14:41:52+08:00 ] ::1 /eshop/index.php/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001429s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000859s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000948s ]
+
+[ 2017-01-09T14:41:53+08:00 ] ::1 /eshop/index.php/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002119s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000822s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000902s ]
+
+[ 2017-01-09T14:41:54+08:00 ] ::1 /eshop/index.php/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001367s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000810s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000888s ]
+
+[ 2017-01-09T14:41:55+08:00 ] ::1 /eshop/index.php/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001384s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000824s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000904s ]
+
+[ 2017-01-09T14:41:56+08:00 ] ::1 /eshop/index.php/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001361s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000819s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000902s ]
+
+[ 2017-01-09T14:52:01+08:00 ] ::1 /eshop1/index.php/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001327s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000755s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000838s ]
+
+[ 2017-01-09T14:52:07+08:00 ] ::1 /eshop1/index.php/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001161s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000730s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000807s ]
+
+[ 2017-01-09T14:52:09+08:00 ] ::1 /eshop1/index.php/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002218s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000748s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000844s ]
+
+[ 2017-01-09T14:52:10+08:00 ] ::1 /eshop1/index.php/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001866s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001178s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001310s ]
+
+[ 2017-01-09T14:52:11+08:00 ] ::1 /eshop1/index.php/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001180s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000924s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001009s ]
+
+[ 2017-01-09T14:52:11+08:00 ] ::1 /eshop1/index.php/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001961s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000826s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000929s ]
+
+[ 2017-01-09T14:52:17+08:00 ] ::1 /eshop1/index.php/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000945s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001807s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000727s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000808s ]
+
+[ 2017-01-09T14:52:17+08:00 ] ::1 /eshop1/index.php/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001215s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000716s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000808s ]
+
+[ 2017-01-09T14:52:19+08:00 ] ::1 /eshop1/index.php/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001191s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000827s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000961s ]
+
+[ 2017-01-09T14:52:21+08:00 ] ::1 /eshop1/index.php/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001213s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000765s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000848s ]
+
+[ 2017-01-09T14:52:22+08:00 ] ::1 /eshop1/index.php/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001276s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000811s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000934s ]
+
+[ 2017-01-09T14:52:38+08:00 ] ::1 /eshop1/index.php/Shoper/checkShoperName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001210s ]
+ERR: 1146:Table 'eshop.eshop1_shoper' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `eshop1_shoper`
+ERR: 1146:Table 'eshop.eshop1_shoper' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `eshop1_shoper`
+
+[ 2017-01-09T14:52:55+08:00 ] ::1 /eshop1/index.php/Shoper/checkShoperName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001197s ]
+ERR: 1146:Table 'eshop.eshop1_shoper' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `eshop1_shoper`
+ERR: 1146:Table 'eshop.eshop1_shoper' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `eshop1_shoper`
+
+[ 2017-01-09T14:58:21+08:00 ] ::1 /eshop/index.php/Home/ShopCart/index.html
+ERR: 1146:Table 'eshop.eshop1_shoper' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `eshop1_shoper`
+
+[ 2017-01-09T14:59:00+08:00 ] ::1 /eshop/index.php/Home/ShopCart/index.html
+ERR: 1146:Table 'eshop.eshop1_shoper' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `eshop1_shoper`
+
+[ 2017-01-09T14:59:55+08:00 ] ::1 /eshop/index.php/Shoper/checkShoperName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001147s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001792s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0049s ]
+SQL: SELECT `id` FROM `eshop_shoper` WHERE `name` = 0 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001441s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001537s ]
+
+[ 2017-01-09T14:59:56+08:00 ] ::1 /eshop/index.php/Shoper/checkShoperName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002067s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0046s ]
+SQL: SELECT `id` FROM `eshop_shoper` WHERE `name` = 0 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001668s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001748s ]
+
+[ 2017-01-09T14:59:56+08:00 ] ::1 /eshop/index.php/Shoper/checkShoperName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001156s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001814s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0049s ]
+SQL: SELECT `id` FROM `eshop_shoper` WHERE `name` = 0 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001486s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001602s ]
+
+[ 2017-01-09T14:59:57+08:00 ] ::1 /eshop/index.php/Shoper/checkShoperName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001163s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001851s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0056s ]
+SQL: SELECT `id` FROM `eshop_shoper` WHERE `name` = 0 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001302s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001376s ]
+
+[ 2017-01-09T14:59:57+08:00 ] ::1 /eshop/index.php/Shoper/checkShoperName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003571s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0048s ]
+SQL: SELECT `id` FROM `eshop_shoper` WHERE `name` = 0 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001349s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001432s ]
+
+[ 2017-01-09T15:01:31+08:00 ] ::1 /eshop/index.php/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000905s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001465s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000849s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000940s ]
+
+[ 2017-01-09T15:01:34+08:00 ] ::1 /eshop/index.php/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002220s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001353s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001491s ]
+
+[ 2017-01-09T15:01:35+08:00 ] ::1 /eshop/index.php/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002250s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001397s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001536s ]
+
+[ 2017-01-09T15:01:37+08:00 ] ::1 /eshop/index.php/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002670s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001736s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001914s ]
+
+[ 2017-01-09T15:01:37+08:00 ] ::1 /eshop/index.php/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002691s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001168s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001280s ]
+
+[ 2017-01-09T15:01:38+08:00 ] ::1 /eshop/index.php/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000980s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001525s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000863s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000946s ]
+

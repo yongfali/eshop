@@ -1,0 +1,508 @@
+[ 2017-03-11T10:20:17+08:00 ] ::1 /eshop/index.php/Good/getWebCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000856s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001453s ]
+SQL: SHOW COLUMNS FROM `eshop_secondmenu` [ RunTime:0.0048s ]
+SQL: SELECT `id`,`name` FROM `eshop_secondmenu` WHERE `pid` = 1 AND `is_show` = 1  [ RunTime:0.0006s ]
+
+[ 2017-03-11T10:20:22+08:00 ] ::1 /eshop/index.php/Good/getWebCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000843s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001486s ]
+SQL: SHOW COLUMNS FROM `eshop_secondmenu` [ RunTime:0.0066s ]
+SQL: SELECT `id`,`name` FROM `eshop_secondmenu` WHERE `pid` = 3 AND `is_show` = 1  [ RunTime:0.0003s ]
+
+[ 2017-03-11T10:22:45+08:00 ] ::1 /eshop/index.php/Good/getWebCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000804s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001378s ]
+SQL: SHOW COLUMNS FROM `eshop_secondmenu` [ RunTime:0.0052s ]
+SQL: SELECT `id`,`name` FROM `eshop_secondmenu` WHERE `pid` = 1 AND `is_show` = 1  [ RunTime:0.0005s ]
+
+[ 2017-03-11T10:23:03+08:00 ] ::1 /eshop/index.php/Good/getWebCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000822s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001466s ]
+SQL: SHOW COLUMNS FROM `eshop_secondmenu` [ RunTime:0.0074s ]
+SQL: SELECT `id`,`name` FROM `eshop_secondmenu` WHERE `pid` = 0 AND `is_show` = 1  [ RunTime:0.0003s ]
+
+[ 2017-03-11T10:29:46+08:00 ] ::1 /eshop/index.php/Home/Good/edit/id/14/src/audit.html
+ERR: 1052:Column 'lableId' in field list is ambiguous
+ [ SQL语句 ] : SELECT `lableId`,`name`,`lableContent` FROM eshop_goodinfo g INNER JOIN eshop_goodlable as a on g.lableId = a.lableId  WHERE `goodId` = '14' 
+
+[ 2017-03-11T10:40:55+08:00 ] ::1 /eshop/index.php/Home/Good/edit/id/4/src/audit.html
+ERR: 页面不存在！
+
+[ 2017-03-11T13:55:24+08:00 ] ::1 /eshop/index.php/Good/getWebCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000916s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001746s ]
+SQL: SHOW COLUMNS FROM `eshop_secondmenu` [ RunTime:0.0066s ]
+SQL: SELECT `id`,`name` FROM `eshop_secondmenu` WHERE `pid` = 2 AND `is_show` = 1  [ RunTime:0.0005s ]
+
+[ 2017-03-11T14:09:49+08:00 ] ::1 /eshop/index.php/Home/Good/edit/id/14/src/audit.html
+ERR: 1054:Unknown column 'name' in 'field list'
+ [ SQL语句 ] : SELECT `name` FROM eshop_goodnav n INNER JOIN eshop_shop_secondmenu as s_s on n.s_sid = s_s.id  WHERE `goodId` = '14' LIMIT 1  
+
+[ 2017-03-11T14:15:22+08:00 ] ::1 /eshop/index.php/Good/getWebCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000827s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001348s ]
+SQL: SHOW COLUMNS FROM `eshop_secondmenu` [ RunTime:0.0062s ]
+SQL: SELECT `id`,`name` FROM `eshop_secondmenu` WHERE `pid` = 1 AND `is_show` = 1  [ RunTime:0.0004s ]
+
+[ 2017-03-11T14:16:03+08:00 ] ::1 /eshop/index.php/Good/getWebCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001366s ]
+SQL: SHOW COLUMNS FROM `eshop_thirdmenu` [ RunTime:0.0068s ]
+SQL: SELECT `id`,`name` FROM `eshop_thirdmenu` WHERE `pid` = 1 AND `is_show` = 1  [ RunTime:0.0004s ]
+
+[ 2017-03-11T14:33:50+08:00 ] ::1 /eshop/index.php/Good/getWebCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000910s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001551s ]
+SQL: SHOW COLUMNS FROM `eshop_secondmenu` [ RunTime:0.0067s ]
+SQL: SELECT `id`,`name` FROM `eshop_secondmenu` WHERE `pid` = 4 AND `is_show` = 1  [ RunTime:0.0005s ]
+
+[ 2017-03-11T14:33:52+08:00 ] ::1 /eshop/index.php/Good/getWebCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001544s ]
+SQL: SHOW COLUMNS FROM `eshop_secondmenu` [ RunTime:0.0074s ]
+SQL: SELECT `id`,`name` FROM `eshop_secondmenu` WHERE `pid` = 1 AND `is_show` = 1  [ RunTime:0.0004s ]
+
+[ 2017-03-11T14:37:01+08:00 ] ::1 /eshop/index.php/Good/getWebCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000875s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001500s ]
+SQL: SHOW COLUMNS FROM `eshop_secondmenu` [ RunTime:0.0125s ]
+SQL: SELECT `id`,`name` FROM `eshop_secondmenu` WHERE `pid` = 2 AND `is_show` = 1  [ RunTime:0.0004s ]
+
+[ 2017-03-11T14:37:02+08:00 ] ::1 /eshop/index.php/Good/getWebCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000804s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001348s ]
+SQL: SHOW COLUMNS FROM `eshop_secondmenu` [ RunTime:0.0077s ]
+SQL: SELECT `id`,`name` FROM `eshop_secondmenu` WHERE `pid` = 1 AND `is_show` = 1  [ RunTime:0.0005s ]
+
+[ 2017-03-11T14:43:26+08:00 ] ::1 /eshop/index.php/Good/getWebCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000849s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001496s ]
+SQL: SHOW COLUMNS FROM `eshop_secondmenu` [ RunTime:0.0057s ]
+SQL: SELECT `id`,`name` FROM `eshop_secondmenu` WHERE `pid` = 2 AND `is_show` = 1  [ RunTime:0.0004s ]
+
+[ 2017-03-11T14:49:29+08:00 ] ::1 /eshop/index.php/Good/getWebCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000815s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001372s ]
+SQL: SHOW COLUMNS FROM `eshop_secondmenu` [ RunTime:0.0083s ]
+SQL: SELECT `id`,`name` FROM `eshop_secondmenu` WHERE `pid` = 2 AND `is_show` = 1  [ RunTime:0.0004s ]
+
+[ 2017-03-11T14:49:31+08:00 ] ::1 /eshop/index.php/Good/getWebCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000897s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001552s ]
+SQL: SHOW COLUMNS FROM `eshop_thirdmenu` [ RunTime:0.0054s ]
+SQL: SELECT `id`,`name` FROM `eshop_thirdmenu` WHERE `pid` = 3 AND `is_show` = 1  [ RunTime:0.0010s ]
+
+[ 2017-03-11T14:59:19+08:00 ] ::1 /eshop/index.php/Good/getWebCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001627s ]
+SQL: SHOW COLUMNS FROM `eshop_secondmenu` [ RunTime:0.0090s ]
+SQL: SELECT `id`,`name` FROM `eshop_secondmenu` WHERE `pid` = 2 AND `is_show` = 1  [ RunTime:0.0005s ]
+
+[ 2017-03-11T14:59:22+08:00 ] ::1 /eshop/index.php/Good/getWebCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001114s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001702s ]
+SQL: SHOW COLUMNS FROM `eshop_secondmenu` [ RunTime:0.0075s ]
+SQL: SELECT `id`,`name` FROM `eshop_secondmenu` WHERE `pid` = 1 AND `is_show` = 1  [ RunTime:0.0004s ]
+
+[ 2017-03-11T14:59:23+08:00 ] ::1 /eshop/index.php/Good/getWebCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001782s ]
+SQL: SHOW COLUMNS FROM `eshop_thirdmenu` [ RunTime:0.0075s ]
+SQL: SELECT `id`,`name` FROM `eshop_thirdmenu` WHERE `pid` = 1 AND `is_show` = 1  [ RunTime:0.0004s ]
+
+[ 2017-03-11T15:06:28+08:00 ] ::1 /eshop/index.php/Good/getWebCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000897s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001586s ]
+SQL: SHOW COLUMNS FROM `eshop_secondmenu` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`name` FROM `eshop_secondmenu` WHERE `pid` = 2 AND `is_show` = 1  [ RunTime:0.0005s ]
+
+[ 2017-03-11T15:10:21+08:00 ] ::1 /eshop/index.php/Good/getShopCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001216s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001837s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_secondmenu` [ RunTime:0.0071s ]
+SQL: SELECT `id`,`sname` FROM `eshop_shop_secondmenu` WHERE `pid` = 1 AND `is_show` = 1  [ RunTime:0.0005s ]
+
+[ 2017-03-11T18:48:54+08:00 ] ::1 /eshop/index.php/Good/getWebCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011155s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017911s ]
+SQL: SHOW COLUMNS FROM `eshop_secondmenu` [ RunTime:0.2005s ]
+SQL: SELECT `id`,`name` FROM `eshop_secondmenu` WHERE `pid` = 2 AND `is_show` = 1  [ RunTime:0.1182s ]
+
+[ 2017-03-11T18:49:05+08:00 ] ::1 /eshop/index.php/Good/getWebCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000916s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001542s ]
+SQL: SHOW COLUMNS FROM `eshop_secondmenu` [ RunTime:0.0067s ]
+SQL: SELECT `id`,`name` FROM `eshop_secondmenu` WHERE `pid` = 1 AND `is_show` = 1  [ RunTime:0.0005s ]
+
+[ 2017-03-11T19:02:20+08:00 ] ::1 /eshop/index.php/Good/goodImgDel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001961s ]
+NOTIC: [2] closedir() expects parameter 1 to be resource, string given D:\wampserver\wamp\www\eshop\App\Home\Common\function.php 第 57 行.
+NOTIC: [2] closedir() expects parameter 1 to be resource, string given D:\wampserver\wamp\www\eshop\App\Home\Common\function.php 第 57 行.
+NOTIC: [2] closedir() expects parameter 1 to be resource, string given D:\wampserver\wamp\www\eshop\App\Home\Common\function.php 第 57 行.
+NOTIC: [2] closedir() expects parameter 1 to be resource, string given D:\wampserver\wamp\www\eshop\App\Home\Common\function.php 第 57 行.
+
+[ 2017-03-11T19:27:08+08:00 ] ::1 /eshop/index.php/Good/goodsSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000816s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001446s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0064s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2017-03-11T19:27:34+08:00 ] ::1 /eshop/index.php/Good/eidtSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004105s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001121s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001279s ]
+
+[ 2017-03-11T19:27:53+08:00 ] ::1 /eshop/index.php/Good/eidtSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000753s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001391s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001268s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001419s ]
+
+[ 2017-03-11T19:28:53+08:00 ] ::1 /eshop/index.php/Good/eidtSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000897s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001745s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000961s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001076s ]
+
+[ 2017-03-11T19:31:00+08:00 ] ::1 /eshop/index.php/Good/eidtSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000858s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001463s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000920s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001020s ]
+
+[ 2017-03-11T19:36:24+08:00 ] ::1 /eshop/index.php/Good/goodImgDel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000922s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001505s ]
+NOTIC: [2] closedir() expects parameter 1 to be resource, string given D:\wampserver\wamp\www\eshop\App\Home\Common\function.php 第 57 行.
+NOTIC: [2] closedir() expects parameter 1 to be resource, string given D:\wampserver\wamp\www\eshop\App\Home\Common\function.php 第 57 行.
+NOTIC: [2] closedir() expects parameter 1 to be resource, string given D:\wampserver\wamp\www\eshop\App\Home\Common\function.php 第 57 行.
+NOTIC: [2] closedir() expects parameter 1 to be resource, string given D:\wampserver\wamp\www\eshop\App\Home\Common\function.php 第 57 行.
+
+[ 2017-03-11T19:49:26+08:00 ] ::1 /eshop/index.php/Good/getWebCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001377s ]
+SQL: SHOW COLUMNS FROM `eshop_secondmenu` [ RunTime:0.0063s ]
+SQL: SELECT `id`,`name` FROM `eshop_secondmenu` WHERE `pid` = 1 AND `is_show` = 1  [ RunTime:0.0004s ]
+
+[ 2017-03-11T19:49:32+08:00 ] ::1 /eshop/index.php/Good/getShopCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000876s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002003s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_secondmenu` [ RunTime:0.0055s ]
+SQL: SELECT `id`,`sname` FROM `eshop_shop_secondmenu` WHERE `pid` = 1 AND `is_show` = 1  [ RunTime:0.0005s ]
+
+[ 2017-03-11T19:49:38+08:00 ] ::1 /eshop/index.php/Good/getWebCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002722s ]
+SQL: SHOW COLUMNS FROM `eshop_secondmenu` [ RunTime:0.0056s ]
+SQL: SELECT `id`,`name` FROM `eshop_secondmenu` WHERE `pid` = 1 AND `is_show` = 1  [ RunTime:0.0004s ]
+
+[ 2017-03-11T19:51:08+08:00 ] ::1 /eshop/index.php/Good/getWebCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001583s ]
+SQL: SHOW COLUMNS FROM `eshop_secondmenu` [ RunTime:0.0064s ]
+SQL: SELECT `id`,`name` FROM `eshop_secondmenu` WHERE `pid` = 1 AND `is_show` = 1  [ RunTime:0.0004s ]
+
+[ 2017-03-11T19:51:20+08:00 ] ::1 /eshop/index.php/Good/getWebCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001354s ]
+SQL: SHOW COLUMNS FROM `eshop_secondmenu` [ RunTime:0.0903s ]
+SQL: SELECT `id`,`name` FROM `eshop_secondmenu` WHERE `pid` = 2 AND `is_show` = 1  [ RunTime:0.0011s ]
+
+[ 2017-03-11T19:56:15+08:00 ] ::1 /eshop/index.php/Good/goodImgDel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001811s ]
+NOTIC: [2] closedir() expects parameter 1 to be resource, string given D:\wampserver\wamp\www\eshop\App\Home\Common\function.php 第 57 行.
+NOTIC: [2] closedir() expects parameter 1 to be resource, string given D:\wampserver\wamp\www\eshop\App\Home\Common\function.php 第 57 行.
+NOTIC: [2] closedir() expects parameter 1 to be resource, string given D:\wampserver\wamp\www\eshop\App\Home\Common\function.php 第 57 行.
+NOTIC: [2] closedir() expects parameter 1 to be resource, string given D:\wampserver\wamp\www\eshop\App\Home\Common\function.php 第 57 行.
+
+[ 2017-03-11T19:56:17+08:00 ] ::1 /eshop/index.php/Good/goodImgDel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001492s ]
+NOTIC: [2] closedir() expects parameter 1 to be resource, string given D:\wampserver\wamp\www\eshop\App\Home\Common\function.php 第 57 行.
+NOTIC: [2] closedir() expects parameter 1 to be resource, string given D:\wampserver\wamp\www\eshop\App\Home\Common\function.php 第 57 行.
+NOTIC: [2] closedir() expects parameter 1 to be resource, string given D:\wampserver\wamp\www\eshop\App\Home\Common\function.php 第 57 行.
+NOTIC: [2] closedir() expects parameter 1 to be resource, string given D:\wampserver\wamp\www\eshop\App\Home\Common\function.php 第 57 行.
+
+[ 2017-03-11T20:01:14+08:00 ] ::1 /eshop/index.php/Good/eidtSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001656s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000836s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000921s ]
+
+[ 2017-03-11T20:01:23+08:00 ] ::1 /eshop/index.php/Good/eidtSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001291s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001456s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001680s ]
+
+[ 2017-03-11T20:04:05+08:00 ] ::1 /eshop/index.php/Good/goodImgDel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000892s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001392s ]
+NOTIC: [2] closedir() expects parameter 1 to be resource, string given D:\wampserver\wamp\www\eshop\App\Home\Common\function.php 第 57 行.
+NOTIC: [2] closedir() expects parameter 1 to be resource, string given D:\wampserver\wamp\www\eshop\App\Home\Common\function.php 第 57 行.
+NOTIC: [2] closedir() expects parameter 1 to be resource, string given D:\wampserver\wamp\www\eshop\App\Home\Common\function.php 第 57 行.
+NOTIC: [2] closedir() expects parameter 1 to be resource, string given D:\wampserver\wamp\www\eshop\App\Home\Common\function.php 第 57 行.
+
+[ 2017-03-11T20:04:07+08:00 ] ::1 /eshop/index.php/Good/goodImgDel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001899s ]
+NOTIC: [2] closedir() expects parameter 1 to be resource, string given D:\wampserver\wamp\www\eshop\App\Home\Common\function.php 第 57 行.
+NOTIC: [2] closedir() expects parameter 1 to be resource, string given D:\wampserver\wamp\www\eshop\App\Home\Common\function.php 第 57 行.
+NOTIC: [2] closedir() expects parameter 1 to be resource, string given D:\wampserver\wamp\www\eshop\App\Home\Common\function.php 第 57 行.
+NOTIC: [2] closedir() expects parameter 1 to be resource, string given D:\wampserver\wamp\www\eshop\App\Home\Common\function.php 第 57 行.
+
+[ 2017-03-11T20:04:30+08:00 ] ::1 /eshop/index.php/Good/goodImgDel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001586s ]
+NOTIC: [2] closedir() expects parameter 1 to be resource, string given D:\wampserver\wamp\www\eshop\App\Home\Common\function.php 第 57 行.
+NOTIC: [2] closedir() expects parameter 1 to be resource, string given D:\wampserver\wamp\www\eshop\App\Home\Common\function.php 第 57 行.
+NOTIC: [2] closedir() expects parameter 1 to be resource, string given D:\wampserver\wamp\www\eshop\App\Home\Common\function.php 第 57 行.
+NOTIC: [2] closedir() expects parameter 1 to be resource, string given D:\wampserver\wamp\www\eshop\App\Home\Common\function.php 第 57 行.
+
+[ 2017-03-11T20:15:27+08:00 ] ::1 /eshop/index.php/Good/eidtSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001172s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002066s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000934s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001071s ]
+
+[ 2017-03-11T20:16:30+08:00 ] ::1 /eshop/index.php/Good/eidtSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000778s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001387s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000895s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000996s ]
+
+[ 2017-03-11T20:18:10+08:00 ] ::1 /eshop/index.php/Good/eidtSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001117s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001712s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001021s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001164s ]
+
+[ 2017-03-11T20:19:14+08:00 ] ::1 /eshop/index.php/Good/eidtSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001904s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001477s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001664s ]
+
+[ 2017-03-11T20:19:41+08:00 ] ::1 /eshop/index.php/Good/eidtSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001808s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001054s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001232s ]
+
+[ 2017-03-11T20:19:59+08:00 ] ::1 /eshop/index.php/Good/goodImgDel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000878s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001458s ]
+NOTIC: [2] closedir() expects parameter 1 to be resource, string given D:\wampserver\wamp\www\eshop\App\Home\Common\function.php 第 57 行.
+NOTIC: [2] closedir() expects parameter 1 to be resource, string given D:\wampserver\wamp\www\eshop\App\Home\Common\function.php 第 57 行.
+NOTIC: [2] closedir() expects parameter 1 to be resource, string given D:\wampserver\wamp\www\eshop\App\Home\Common\function.php 第 57 行.
+NOTIC: [2] closedir() expects parameter 1 to be resource, string given D:\wampserver\wamp\www\eshop\App\Home\Common\function.php 第 57 行.
+
+[ 2017-03-11T20:23:46+08:00 ] ::1 /eshop/index.php/Good/eidtSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001537s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000928s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001047s ]
+
+[ 2017-03-11T20:25:04+08:00 ] ::1 /eshop/index.php/Good/eidtSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000801s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001536s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000968s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001120s ]
+
+[ 2017-03-11T20:25:13+08:00 ] ::1 /eshop/index.php/Good/eidtSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000981s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001760s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000828s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000912s ]
+
+[ 2017-03-11T20:32:30+08:00 ] ::1 /eshop/index.php/Good/goodImgDel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000822s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001470s ]
+NOTIC: [2] closedir() expects parameter 1 to be resource, string given D:\wampserver\wamp\www\eshop\App\Common\Common\function.php 第 98 行.
+NOTIC: [2] closedir() expects parameter 1 to be resource, string given D:\wampserver\wamp\www\eshop\App\Common\Common\function.php 第 98 行.
+NOTIC: [2] closedir() expects parameter 1 to be resource, string given D:\wampserver\wamp\www\eshop\App\Common\Common\function.php 第 98 行.
+NOTIC: [2] closedir() expects parameter 1 to be resource, string given D:\wampserver\wamp\www\eshop\App\Common\Common\function.php 第 98 行.
+
+[ 2017-03-11T20:32:32+08:00 ] ::1 /eshop/index.php/Good/goodImgDel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000910s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001701s ]
+NOTIC: [2] closedir() expects parameter 1 to be resource, string given D:\wampserver\wamp\www\eshop\App\Common\Common\function.php 第 98 行.
+NOTIC: [2] closedir() expects parameter 1 to be resource, string given D:\wampserver\wamp\www\eshop\App\Common\Common\function.php 第 98 行.
+NOTIC: [2] closedir() expects parameter 1 to be resource, string given D:\wampserver\wamp\www\eshop\App\Common\Common\function.php 第 98 行.
+NOTIC: [2] closedir() expects parameter 1 to be resource, string given D:\wampserver\wamp\www\eshop\App\Common\Common\function.php 第 98 行.
+
+[ 2017-03-11T20:49:20+08:00 ] ::1 /eshop/index.php/Good/eidtSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002926s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000758s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000845s ]
+
+[ 2017-03-11T20:50:53+08:00 ] ::1 /eshop/index.php/Good/eidtSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002392s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000865s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000983s ]
+
+[ 2017-03-11T20:54:36+08:00 ] ::1 /eshop/index.php/Good/eidtSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000932s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001632s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001191s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001302s ]
+
+[ 2017-03-11T20:57:23+08:00 ] ::1 /eshop/index.php/Good/eidtSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000737s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001337s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001523s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001679s ]
+
+[ 2017-03-11T20:59:44+08:00 ] ::1 /eshop/index.php/Good/eidtSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000773s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001292s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001569s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001725s ]
+
+[ 2017-03-11T21:02:31+08:00 ] ::1 /eshop/index.php/Good/eidtSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003723s ]
+NOTIC: [8] Undefined variable: imgURl D:\wampserver\wamp\www\eshop\App\Home\Controller\GoodController.class.php 第 228 行.
+NOTIC: [8] Undefined variable: imgURl D:\wampserver\wamp\www\eshop\App\Home\Controller\GoodController.class.php 第 231 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002258s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002410s ]
+
+[ 2017-03-11T21:04:49+08:00 ] ::1 /eshop/index.php/Good/eidtSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001764s ]
+NOTIC: [8] Undefined variable: imgURl D:\wampserver\wamp\www\eshop\App\Home\Controller\GoodController.class.php 第 232 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001155s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001282s ]
+
+[ 2017-03-11T21:10:03+08:00 ] ::1 /eshop/index.php/Good/eidtSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001933s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002779s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0084s ]
+ERR: Think\Model:getLogoURL方法不存在！
+
+[ 2017-03-11T21:10:58+08:00 ] ::1 /eshop/index.php/Good/eidtSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003295s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0074s ]
+ERR: Think\Model:getLogoURL方法不存在！
+
+[ 2017-03-11T21:11:53+08:00 ] ::1 /eshop/index.php/Good/eidtSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001200s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0088s ]
+ERR: 1054:Unknown column 'good_logo' in 'field list'
+ [ SQL语句 ] : SELECT `good_logo` FROM `eshop_good` LIMIT 1  
+ERR: 1054:Unknown column 'good_logo' in 'field list'
+ [ SQL语句 ] : SELECT `good_logo` FROM `eshop_good` LIMIT 1  
+
+[ 2017-03-11T21:12:11+08:00 ] ::1 /eshop/index.php/Good/eidtSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000899s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003178s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0087s ]
+SQL: SELECT `good_log` FROM `eshop_good` LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000935s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001031s ]
+
+[ 2017-03-11T21:12:56+08:00 ] ::1 /eshop/index.php/Good/eidtSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001911s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0078s ]
+SQL: SELECT `good_log` FROM `eshop_good` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000847s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000934s ]
+

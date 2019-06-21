@@ -1,0 +1,1190 @@
+[ 2017-03-07T09:59:04+08:00 ] ::1 /eshop/index.php/Home/Good/audit/user?p=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002177s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0069s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_firstmenu` [ RunTime:0.0060s ]
+SQL: SELECT `id`,`name` FROM `eshop_shop_firstmenu` WHERE `shopId` = 3 AND `is_show` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0063s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `shopId` = '3' AND `is_exam` = 0 AND `status` = 1 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT eshop_good.* FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `shopId` = '3' AND `is_exam` = 0 AND `status` = 1 AND `is_show` = 1 ORDER BY time desc LIMIT 1,1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000266s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000389s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031905s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032034s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000885s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001065s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002138s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001391s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001544s ]
+
+[ 2017-03-07T09:59:08+08:00 ] ::1 /eshop/index.php/Home/Good/audit/user?p=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002158s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0090s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_firstmenu` [ RunTime:0.0089s ]
+SQL: SELECT `id`,`name` FROM `eshop_shop_firstmenu` WHERE `shopId` = 3 AND `is_show` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0071s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `shopId` = '3' AND `is_exam` = 0 AND `status` = 1 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT eshop_good.* FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `shopId` = '3' AND `is_exam` = 0 AND `status` = 1 AND `is_show` = 1 ORDER BY time desc LIMIT 1,1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000274s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000397s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032347s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032476s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001539s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001884s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003988s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002341s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002576s ]
+
+[ 2017-03-07T09:59:09+08:00 ] ::1 /eshop/index.php/Home/Good/audit/user?p=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002128s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0620s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_firstmenu` [ RunTime:0.0108s ]
+SQL: SELECT `id`,`name` FROM `eshop_shop_firstmenu` WHERE `shopId` = 3 AND `is_show` = 1  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0117s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `shopId` = '3' AND `is_exam` = 0 AND `status` = 1 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT eshop_good.* FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `shopId` = '3' AND `is_exam` = 0 AND `status` = 1 AND `is_show` = 1 ORDER BY time desc LIMIT 1,1   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000311s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000457s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055814s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001056s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001120s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002388s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001438s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001577s ]
+
+[ 2017-03-07T09:59:10+08:00 ] ::1 /eshop/index.php/Home/Good/audit/user?p=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002171s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0066s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_firstmenu` [ RunTime:0.0067s ]
+SQL: SELECT `id`,`name` FROM `eshop_shop_firstmenu` WHERE `shopId` = 3 AND `is_show` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0057s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `shopId` = '3' AND `is_exam` = 0 AND `status` = 1 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT eshop_good.* FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `shopId` = '3' AND `is_exam` = 0 AND `status` = 1 AND `is_show` = 1 ORDER BY time desc LIMIT 1,1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000269s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000400s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032373s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032499s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000901s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000996s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002079s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001228s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001354s ]
+
+[ 2017-03-07T09:59:11+08:00 ] ::1 /eshop/index.php/Home/Good/audit/user?p=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002191s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0061s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_firstmenu` [ RunTime:0.0059s ]
+SQL: SELECT `id`,`name` FROM `eshop_shop_firstmenu` WHERE `shopId` = 3 AND `is_show` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0071s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `shopId` = '3' AND `is_exam` = 0 AND `status` = 1 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT eshop_good.* FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `shopId` = '3' AND `is_exam` = 0 AND `status` = 1 AND `is_show` = 1 ORDER BY time desc LIMIT 1,1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000278s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000410s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035408s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035552s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000797s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000880s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001856s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002576s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002780s ]
+
+[ 2017-03-07T09:59:17+08:00 ] ::1 /eshop/index.php/Home/Good/audit/user?p=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002176s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0072s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_firstmenu` [ RunTime:0.0055s ]
+SQL: SELECT `id`,`name` FROM `eshop_shop_firstmenu` WHERE `shopId` = 3 AND `is_show` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0061s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `shopId` = '3' AND `is_exam` = 0 AND `status` = 1 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT eshop_good.* FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `shopId` = '3' AND `is_exam` = 0 AND `status` = 1 AND `is_show` = 1 ORDER BY time desc LIMIT 1,1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000278s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000402s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033486s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033616s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000894s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000942s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002017s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001177s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001296s ]
+
+[ 2017-03-07T09:59:17+08:00 ] ::1 /eshop/index.php/Home/Good/audit/user?p=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001243s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002148s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0063s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_firstmenu` [ RunTime:0.0063s ]
+SQL: SELECT `id`,`name` FROM `eshop_shop_firstmenu` WHERE `shopId` = 3 AND `is_show` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0063s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `shopId` = '3' AND `is_exam` = 0 AND `status` = 1 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT eshop_good.* FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `shopId` = '3' AND `is_exam` = 0 AND `status` = 1 AND `is_show` = 1 ORDER BY time desc LIMIT 1,1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000268s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000410s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033415s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033544s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000949s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000968s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002121s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001199s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001322s ]
+
+[ 2017-03-07T10:00:00+08:00 ] ::1 /eshop/index.php/Home/Good/audit/user?p=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002306s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0069s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_firstmenu` [ RunTime:0.0062s ]
+SQL: SELECT `id`,`name` FROM `eshop_shop_firstmenu` WHERE `shopId` = 3 AND `is_show` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0085s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `shopId` = '3' AND `is_exam` = 0 AND `status` = 1 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT eshop_good.* FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `shopId` = '3' AND `is_exam` = 0 AND `status` = 1 AND `is_show` = 1 ORDER BY time desc LIMIT 1,1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000507s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000753s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048027s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048170s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001090s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001276s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002567s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001504s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001637s ]
+
+[ 2017-03-07T10:00:01+08:00 ] ::1 /eshop/index.php/Home/Good/audit/user?p=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002232s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0056s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_firstmenu` [ RunTime:0.0057s ]
+SQL: SELECT `id`,`name` FROM `eshop_shop_firstmenu` WHERE `shopId` = 3 AND `is_show` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0059s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `shopId` = '3' AND `is_exam` = 0 AND `status` = 1 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT eshop_good.* FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `shopId` = '3' AND `is_exam` = 0 AND `status` = 1 AND `is_show` = 1 ORDER BY time desc LIMIT 1,1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000550s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000791s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042799s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001756s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.002013s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004112s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002400s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002621s ]
+
+[ 2017-03-07T10:00:01+08:00 ] ::1 /eshop/index.php/Home/Good/audit/user?p=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002277s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0059s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_firstmenu` [ RunTime:0.0085s ]
+SQL: SELECT `id`,`name` FROM `eshop_shop_firstmenu` WHERE `shopId` = 3 AND `is_show` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0068s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `shopId` = '3' AND `is_exam` = 0 AND `status` = 1 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT eshop_good.* FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `shopId` = '3' AND `is_exam` = 0 AND `status` = 1 AND `is_show` = 1 ORDER BY time desc LIMIT 1,1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000284s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000416s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032844s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032975s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001139s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001171s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002509s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001452s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001576s ]
+
+[ 2017-03-07T10:00:01+08:00 ] ::1 /eshop/index.php/Home/Good/audit/user?p=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002289s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0055s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_firstmenu` [ RunTime:0.0061s ]
+SQL: SELECT `id`,`name` FROM `eshop_shop_firstmenu` WHERE `shopId` = 3 AND `is_show` = 1  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0069s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `shopId` = '3' AND `is_exam` = 0 AND `status` = 1 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT eshop_good.* FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `shopId` = '3' AND `is_exam` = 0 AND `status` = 1 AND `is_show` = 1 ORDER BY time desc LIMIT 1,1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000289s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000434s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033163s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033305s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000987s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001061s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002239s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001617s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001784s ]
+
+[ 2017-03-07T10:00:02+08:00 ] ::1 /eshop/index.php/Home/Good/audit/user?p=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002145s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0073s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_firstmenu` [ RunTime:0.0074s ]
+SQL: SELECT `id`,`name` FROM `eshop_shop_firstmenu` WHERE `shopId` = 3 AND `is_show` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0063s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `shopId` = '3' AND `is_exam` = 0 AND `status` = 1 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT eshop_good.* FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `shopId` = '3' AND `is_exam` = 0 AND `status` = 1 AND `is_show` = 1 ORDER BY time desc LIMIT 1,1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000282s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000416s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043951s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044099s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001015s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001146s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002348s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001371s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001490s ]
+
+[ 2017-03-07T10:00:03+08:00 ] ::1 /eshop/index.php/Home/Good/audit/user?p=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002326s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0063s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_firstmenu` [ RunTime:0.0054s ]
+SQL: SELECT `id`,`name` FROM `eshop_shop_firstmenu` WHERE `shopId` = 3 AND `is_show` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0058s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `shopId` = '3' AND `is_exam` = 0 AND `status` = 1 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT eshop_good.* FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `shopId` = '3' AND `is_exam` = 0 AND `status` = 1 AND `is_show` = 1 ORDER BY time desc LIMIT 1,1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000283s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000419s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034648s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034828s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001515s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001128s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002877s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001324s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001447s ]
+
+[ 2017-03-07T10:00:17+08:00 ] ::1 /eshop/index.php/Home/Good/audit/user?p=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002304s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0059s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_firstmenu` [ RunTime:0.0054s ]
+SQL: SELECT `id`,`name` FROM `eshop_shop_firstmenu` WHERE `shopId` = 3 AND `is_show` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0057s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `shopId` = '3' AND `is_exam` = 0 AND `status` = 1 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT eshop_good.* FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `shopId` = '3' AND `is_exam` = 0 AND `status` = 1 AND `is_show` = 1 ORDER BY time desc LIMIT 1,1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000499s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000750s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041083s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041280s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001801s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.002020s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004165s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002406s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002630s ]
+
+[ 2017-03-07T10:00:18+08:00 ] ::1 /eshop/index.php/Home/Good/audit/user?p=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002312s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0066s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_firstmenu` [ RunTime:0.0058s ]
+SQL: SELECT `id`,`name` FROM `eshop_shop_firstmenu` WHERE `shopId` = 3 AND `is_show` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0062s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `shopId` = '3' AND `is_exam` = 0 AND `status` = 1 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT eshop_good.* FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `shopId` = '3' AND `is_exam` = 0 AND `status` = 1 AND `is_show` = 1 ORDER BY time desc LIMIT 1,1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000278s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000411s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032843s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032978s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001104s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001157s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002457s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001384s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001507s ]
+
+[ 2017-03-07T10:00:18+08:00 ] ::1 /eshop/index.php/Home/Good/audit/user?p=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002377s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0060s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_firstmenu` [ RunTime:0.0057s ]
+SQL: SELECT `id`,`name` FROM `eshop_shop_firstmenu` WHERE `shopId` = 3 AND `is_show` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `shopId` = '3' AND `is_exam` = 0 AND `status` = 1 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT eshop_good.* FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `shopId` = '3' AND `is_exam` = 0 AND `status` = 1 AND `is_show` = 1 ORDER BY time desc LIMIT 1,1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000274s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000406s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033336s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001117s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001111s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002416s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001373s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001490s ]
+
+[ 2017-03-07T10:00:18+08:00 ] ::1 /eshop/index.php/Home/Good/audit/user?p=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002236s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0063s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_firstmenu` [ RunTime:0.0061s ]
+SQL: SELECT `id`,`name` FROM `eshop_shop_firstmenu` WHERE `shopId` = 3 AND `is_show` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0064s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `shopId` = '3' AND `is_exam` = 0 AND `status` = 1 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT eshop_good.* FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `shopId` = '3' AND `is_exam` = 0 AND `status` = 1 AND `is_show` = 1 ORDER BY time desc LIMIT 1,1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000299s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000434s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033129s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033262s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001060s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001152s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002397s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001314s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001442s ]
+
+[ 2017-03-07T10:00:19+08:00 ] ::1 /eshop/index.php/Home/Good/audit/user?p=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002288s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0088s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_firstmenu` [ RunTime:0.0121s ]
+SQL: SELECT `id`,`name` FROM `eshop_shop_firstmenu` WHERE `shopId` = 3 AND `is_show` = 1  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0121s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `shopId` = '3' AND `is_exam` = 0 AND `status` = 1 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT eshop_good.* FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `shopId` = '3' AND `is_exam` = 0 AND `status` = 1 AND `is_show` = 1 ORDER BY time desc LIMIT 1,1   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000327s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000483s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054046s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054256s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001185s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001264s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002665s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001573s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001711s ]
+
+[ 2017-03-07T10:00:19+08:00 ] ::1 /eshop/index.php/Home/Good/audit/user?p=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002293s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0064s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_firstmenu` [ RunTime:0.0065s ]
+SQL: SELECT `id`,`name` FROM `eshop_shop_firstmenu` WHERE `shopId` = 3 AND `is_show` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0068s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `shopId` = '3' AND `is_exam` = 0 AND `status` = 1 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT eshop_good.* FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `shopId` = '3' AND `is_exam` = 0 AND `status` = 1 AND `is_show` = 1 ORDER BY time desc LIMIT 1,1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000273s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000409s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033271s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033409s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001006s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001096s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002285s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001360s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001479s ]
+
+[ 2017-03-07T10:00:19+08:00 ] ::1 /eshop/index.php/Home/Good/audit/user?p=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002303s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0064s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_firstmenu` [ RunTime:0.0054s ]
+SQL: SELECT `id`,`name` FROM `eshop_shop_firstmenu` WHERE `shopId` = 3 AND `is_show` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0067s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `shopId` = '3' AND `is_exam` = 0 AND `status` = 1 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT eshop_good.* FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `shopId` = '3' AND `is_exam` = 0 AND `status` = 1 AND `is_show` = 1 ORDER BY time desc LIMIT 1,1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000272s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000405s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032858s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032994s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001045s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001136s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002366s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001364s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001483s ]
+
+[ 2017-03-07T10:00:20+08:00 ] ::1 /eshop/index.php/Home/Good/audit/user?p=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002306s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0068s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_firstmenu` [ RunTime:0.0063s ]
+SQL: SELECT `id`,`name` FROM `eshop_shop_firstmenu` WHERE `shopId` = 3 AND `is_show` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0077s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `shopId` = '3' AND `is_exam` = 0 AND `status` = 1 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT eshop_good.* FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `shopId` = '3' AND `is_exam` = 0 AND `status` = 1 AND `is_show` = 1 ORDER BY time desc LIMIT 1,1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000273s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000412s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034322s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034460s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001032s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001207s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002463s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001435s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001557s ]
+
+[ 2017-03-07T10:00:21+08:00 ] ::1 /eshop/index.php/Home/Good/audit/user?p=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002342s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0061s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_firstmenu` [ RunTime:0.0067s ]
+SQL: SELECT `id`,`name` FROM `eshop_shop_firstmenu` WHERE `shopId` = 3 AND `is_show` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0069s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `shopId` = '3' AND `is_exam` = 0 AND `status` = 1 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT eshop_good.* FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `shopId` = '3' AND `is_exam` = 0 AND `status` = 1 AND `is_show` = 1 ORDER BY time desc LIMIT 1,1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000283s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000432s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038205s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038358s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001097s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001076s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002375s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001669s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001834s ]
+
+[ 2017-03-07T10:00:37+08:00 ] ::1 /eshop/index.php/Home/Good/audit/user?p=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001311s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0044s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_firstmenu` [ RunTime:0.0042s ]
+SQL: SELECT `id`,`name` FROM `eshop_shop_firstmenu` WHERE `shopId` = 3 AND `is_show` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0037s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `shopId` = '3' AND `is_exam` = 0 AND `status` = 1 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT eshop_good.* FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `shopId` = '3' AND `is_exam` = 0 AND `status` = 1 AND `is_show` = 1 ORDER BY time desc LIMIT 1,1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000196s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000280s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021036s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021133s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000588s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000626s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001329s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000777s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000849s ]
+
+[ 2017-03-07T10:00:59+08:00 ] ::1 /eshop/index.php/Home/Good/audit/user?p=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001405s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0048s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_firstmenu` [ RunTime:0.0056s ]
+SQL: SELECT `id`,`name` FROM `eshop_shop_firstmenu` WHERE `shopId` = 3 AND `is_show` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0052s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `shopId` = '3' AND `is_exam` = 0 AND `status` = 1 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT eshop_good.* FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `shopId` = '3' AND `is_exam` = 0 AND `status` = 1 AND `is_show` = 1 ORDER BY time desc LIMIT 1,1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000227s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018839s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018932s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000608s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000638s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001351s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001006s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001086s ]
+
+[ 2017-03-07T10:01:00+08:00 ] ::1 /eshop/index.php/Home/Good/audit/user?p=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001402s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0041s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_firstmenu` [ RunTime:0.0061s ]
+SQL: SELECT `id`,`name` FROM `eshop_shop_firstmenu` WHERE `shopId` = 3 AND `is_show` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0044s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `shopId` = '3' AND `is_exam` = 0 AND `status` = 1 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT eshop_good.* FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `shopId` = '3' AND `is_exam` = 0 AND `status` = 1 AND `is_show` = 1 ORDER BY time desc LIMIT 1,1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000180s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000267s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019384s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019466s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000618s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000680s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001398s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000819s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000884s ]
+
+[ 2017-03-07T10:01:01+08:00 ] ::1 /eshop/index.php/Home/Good/audit/user?p=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001391s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0046s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_firstmenu` [ RunTime:0.0039s ]
+SQL: SELECT `id`,`name` FROM `eshop_shop_firstmenu` WHERE `shopId` = 3 AND `is_show` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0049s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `shopId` = '3' AND `is_exam` = 0 AND `status` = 1 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT eshop_good.* FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `shopId` = '3' AND `is_exam` = 0 AND `status` = 1 AND `is_show` = 1 ORDER BY time desc LIMIT 1,1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000228s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000339s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019797s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019887s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000706s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000732s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001541s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000816s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000893s ]
+
+[ 2017-03-07T10:01:01+08:00 ] ::1 /eshop/index.php/Home/Good/audit/user?p=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001363s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0048s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_firstmenu` [ RunTime:0.0045s ]
+SQL: SELECT `id`,`name` FROM `eshop_shop_firstmenu` WHERE `shopId` = 3 AND `is_show` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0043s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `shopId` = '3' AND `is_exam` = 0 AND `status` = 1 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT eshop_good.* FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `shopId` = '3' AND `is_exam` = 0 AND `status` = 1 AND `is_show` = 1 ORDER BY time desc LIMIT 1,1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000155s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000227s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018694s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018774s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000609s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000695s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001406s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000827s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000892s ]
+
+[ 2017-03-07T10:01:08+08:00 ] ::1 /eshop/index.php/Home/Good/audit/user?p=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000879s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001357s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0049s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_firstmenu` [ RunTime:0.0047s ]
+SQL: SELECT `id`,`name` FROM `eshop_shop_firstmenu` WHERE `shopId` = 3 AND `is_show` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0044s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `shopId` = '3' AND `is_exam` = 0 AND `status` = 1 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT eshop_good.* FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `shopId` = '3' AND `is_exam` = 0 AND `status` = 1 AND `is_show` = 1 ORDER BY time desc LIMIT 1,1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000156s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000253s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019469s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019583s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000657s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001317s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000838s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000905s ]
+
+[ 2017-03-07T10:01:08+08:00 ] ::1 /eshop/index.php/Home/Good/audit/user?p=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000868s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001468s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0047s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_firstmenu` [ RunTime:0.0047s ]
+SQL: SELECT `id`,`name` FROM `eshop_shop_firstmenu` WHERE `shopId` = 3 AND `is_show` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `shopId` = '3' AND `is_exam` = 0 AND `status` = 1 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT eshop_good.* FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `shopId` = '3' AND `is_exam` = 0 AND `status` = 1 AND `is_show` = 1 ORDER BY time desc LIMIT 1,1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000156s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000252s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019399s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019485s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000682s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000707s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001512s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000816s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000882s ]
+
+[ 2017-03-07T10:01:08+08:00 ] ::1 /eshop/index.php/Home/Good/audit/user?p=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000826s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001362s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0048s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_firstmenu` [ RunTime:0.0043s ]
+SQL: SELECT `id`,`name` FROM `eshop_shop_firstmenu` WHERE `shopId` = 3 AND `is_show` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `shopId` = '3' AND `is_exam` = 0 AND `status` = 1 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT eshop_good.* FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `shopId` = '3' AND `is_exam` = 0 AND `status` = 1 AND `is_show` = 1 ORDER BY time desc LIMIT 1,1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000154s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000227s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019269s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019358s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000636s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000674s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001413s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000797s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000863s ]
+
+[ 2017-03-07T10:01:08+08:00 ] ::1 /eshop/index.php/Home/Good/audit/user?p=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001419s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0042s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_firstmenu` [ RunTime:0.0037s ]
+SQL: SELECT `id`,`name` FROM `eshop_shop_firstmenu` WHERE `shopId` = 3 AND `is_show` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0039s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `shopId` = '3' AND `is_exam` = 0 AND `status` = 1 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT eshop_good.* FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `shopId` = '3' AND `is_exam` = 0 AND `status` = 1 AND `is_show` = 1 ORDER BY time desc LIMIT 1,1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000153s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000231s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019023s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019117s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000637s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000716s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001461s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000803s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000869s ]
+
+[ 2017-03-07T10:01:09+08:00 ] ::1 /eshop/index.php/Home/Good/audit/user?p=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001581s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0046s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_firstmenu` [ RunTime:0.0046s ]
+SQL: SELECT `id`,`name` FROM `eshop_shop_firstmenu` WHERE `shopId` = 3 AND `is_show` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0339s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `shopId` = '3' AND `is_exam` = 0 AND `status` = 1 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT eshop_good.* FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `shopId` = '3' AND `is_exam` = 0 AND `status` = 1 AND `is_show` = 1 ORDER BY time desc LIMIT 1,1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000226s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021308s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021419s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000705s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000809s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001672s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000982s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001065s ]
+
+[ 2017-03-07T10:02:10+08:00 ] ::1 /eshop/index.php/Home/Good/Good/audit?p=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000830s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001371s ]
+ERR: 非法操作:Good
+
+[ 2017-03-07T10:02:11+08:00 ] ::1 /eshop/index.php/Home/Good/Good/audit?p=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000863s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001423s ]
+ERR: 非法操作:Good
+
+[ 2017-03-07T10:02:12+08:00 ] ::1 /eshop/index.php/Home/Good/Good/audit?p=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001442s ]
+ERR: 非法操作:Good
+
+[ 2017-03-07T10:02:12+08:00 ] ::1 /eshop/index.php/Home/Good/Good/audit?p=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000990s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001636s ]
+ERR: 非法操作:Good
+
+[ 2017-03-07T10:02:13+08:00 ] ::1 /eshop/index.php/Home/Good/Good/audit?p=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001392s ]
+ERR: 非法操作:Good
+
+[ 2017-03-07T10:02:13+08:00 ] ::1 /eshop/index.php/Home/Good/Good/audit?p=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000856s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001413s ]
+ERR: 非法操作:Good
+
+[ 2017-03-07T10:02:13+08:00 ] ::1 /eshop/index.php/Home/Good/Good/audit?p=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001377s ]
+ERR: 非法操作:Good
+
+[ 2017-03-07T10:02:14+08:00 ] ::1 /eshop/index.php/Home/Good/Good/audit?p=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000852s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001394s ]
+ERR: 非法操作:Good
+
+[ 2017-03-07T10:02:14+08:00 ] ::1 /eshop/index.php/Home/Good/Good/audit?p=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000826s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001365s ]
+ERR: 非法操作:Good
+
+[ 2017-03-07T10:02:14+08:00 ] ::1 /eshop/index.php/Home/Good/Good/audit?p=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000909s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001501s ]
+ERR: 非法操作:Good
+
+[ 2017-03-07T10:02:14+08:00 ] ::1 /eshop/index.php/Home/Good/Good/audit?p=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000833s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001376s ]
+ERR: 非法操作:Good
+
+[ 2017-03-07T10:02:14+08:00 ] ::1 /eshop/index.php/Home/Good/Good/audit?p=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000933s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001585s ]
+ERR: 非法操作:Good
+
+[ 2017-03-07T10:02:15+08:00 ] ::1 /eshop/index.php/Home/Good/Good/audit?p=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000911s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001467s ]
+ERR: 非法操作:Good
+
+[ 2017-03-07T10:07:22+08:00 ] ::1 /eshop/index.php/Good/audit.html?p=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000868s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001422s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0048s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_firstmenu` [ RunTime:0.0051s ]
+SQL: SELECT `id`,`name` FROM `eshop_shop_firstmenu` WHERE `shopId` = 3 AND `is_show` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0044s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `shopId` = '3' AND `is_exam` = 0 AND `status` = 1 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT eshop_good.* FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `shopId` = '3' AND `is_exam` = 0 AND `status` = 1 AND `is_show` = 1 ORDER BY time desc LIMIT 1,1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000173s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000258s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019165s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019242s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000596s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000684s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001387s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000833s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000909s ]
+
+[ 2017-03-07T10:08:11+08:00 ] ::1 /eshop/index.php/Good/audit.html?p=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000905s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001475s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0045s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_firstmenu` [ RunTime:0.0058s ]
+SQL: SELECT `id`,`name` FROM `eshop_shop_firstmenu` WHERE `shopId` = 3 AND `is_show` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `shopId` = '3' AND `is_exam` = 0 AND `status` = 1 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT eshop_good.* FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `shopId` = '3' AND `is_exam` = 0 AND `status` = 1 AND `is_show` = 1 ORDER BY time desc LIMIT 1,1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000154s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000251s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019331s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019410s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000617s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000722s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001442s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000828s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000897s ]
+
+[ 2017-03-07T10:08:11+08:00 ] ::1 /eshop/index.php/Good/audit.html?p=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000906s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001506s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0043s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_firstmenu` [ RunTime:0.0058s ]
+SQL: SELECT `id`,`name` FROM `eshop_shop_firstmenu` WHERE `shopId` = 3 AND `is_show` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0039s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `shopId` = '3' AND `is_exam` = 0 AND `status` = 1 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT eshop_good.* FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `shopId` = '3' AND `is_exam` = 0 AND `status` = 1 AND `is_show` = 1 ORDER BY time desc LIMIT 1,1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000164s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000256s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018928s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019017s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000640s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000672s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001413s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000788s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000860s ]
+
+[ 2017-03-07T10:08:12+08:00 ] ::1 /eshop/index.php/Good/audit.html?p=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000875s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001414s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0043s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_firstmenu` [ RunTime:0.0047s ]
+SQL: SELECT `id`,`name` FROM `eshop_shop_firstmenu` WHERE `shopId` = 3 AND `is_show` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0043s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `shopId` = '3' AND `is_exam` = 0 AND `status` = 1 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT eshop_good.* FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `shopId` = '3' AND `is_exam` = 0 AND `status` = 1 AND `is_show` = 1 ORDER BY time desc LIMIT 1,1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000223s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018758s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018835s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000650s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000673s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001425s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000808s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000877s ]
+
+[ 2017-03-07T10:08:12+08:00 ] ::1 /eshop/index.php/Good/audit.html?p=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001386s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0045s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_firstmenu` [ RunTime:0.0043s ]
+SQL: SELECT `id`,`name` FROM `eshop_shop_firstmenu` WHERE `shopId` = 3 AND `is_show` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0046s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `shopId` = '3' AND `is_exam` = 0 AND `status` = 1 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT eshop_good.* FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `shopId` = '3' AND `is_exam` = 0 AND `status` = 1 AND `is_show` = 1 ORDER BY time desc LIMIT 1,1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000225s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019035s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019122s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000670s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001405s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000874s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000968s ]
+
+[ 2017-03-07T10:08:12+08:00 ] ::1 /eshop/index.php/Good/audit.html?p=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000989s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001536s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0051s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_firstmenu` [ RunTime:0.0038s ]
+SQL: SELECT `id`,`name` FROM `eshop_shop_firstmenu` WHERE `shopId` = 3 AND `is_show` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `shopId` = '3' AND `is_exam` = 0 AND `status` = 1 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT eshop_good.* FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `shopId` = '3' AND `is_exam` = 0 AND `status` = 1 AND `is_show` = 1 ORDER BY time desc LIMIT 1,1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000157s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000228s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019445s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019543s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000637s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000672s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001412s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000818s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000889s ]
+
+[ 2017-03-07T10:08:12+08:00 ] ::1 /eshop/index.php/Good/audit.html?p=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001598s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0039s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_firstmenu` [ RunTime:0.0044s ]
+SQL: SELECT `id`,`name` FROM `eshop_shop_firstmenu` WHERE `shopId` = 3 AND `is_show` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0048s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `shopId` = '3' AND `is_exam` = 0 AND `status` = 1 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT eshop_good.* FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `shopId` = '3' AND `is_exam` = 0 AND `status` = 1 AND `is_show` = 1 ORDER BY time desc LIMIT 1,1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000219s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018748s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018830s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000613s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000694s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001409s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000792s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000870s ]
+
+[ 2017-03-07T10:08:13+08:00 ] ::1 /eshop/index.php/Good/audit.html?p=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000892s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001501s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0043s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_firstmenu` [ RunTime:0.0043s ]
+SQL: SELECT `id`,`name` FROM `eshop_shop_firstmenu` WHERE `shopId` = 3 AND `is_show` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0054s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `shopId` = '3' AND `is_exam` = 0 AND `status` = 1 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT eshop_good.* FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `shopId` = '3' AND `is_exam` = 0 AND `status` = 1 AND `is_show` = 1 ORDER BY time desc LIMIT 1,1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000163s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000240s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020087s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020169s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000637s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000743s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001506s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000858s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000927s ]
+
+[ 2017-03-07T10:08:27+08:00 ] ::1 /eshop/index.php/Good/audit.html?p=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001434s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0051s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_firstmenu` [ RunTime:0.0048s ]
+SQL: SELECT `id`,`name` FROM `eshop_shop_firstmenu` WHERE `shopId` = 3 AND `is_show` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0045s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `shopId` = '3' AND `is_exam` = 0 AND `status` = 1 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT eshop_good.* FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `shopId` = '3' AND `is_exam` = 0 AND `status` = 1 AND `is_show` = 1 ORDER BY time desc LIMIT 1,1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000312s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000426s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022707s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022821s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000937s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000675s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001746s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000871s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000953s ]
+
+[ 2017-03-07T10:08:37+08:00 ] ::1 /eshop/index.php/Good/audit.html?p=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000869s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001411s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0041s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_firstmenu` [ RunTime:0.0041s ]
+SQL: SELECT `id`,`name` FROM `eshop_shop_firstmenu` WHERE `shopId` = 3 AND `is_show` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0044s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `shopId` = '3' AND `is_exam` = 0 AND `status` = 1 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT eshop_good.* FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `shopId` = '3' AND `is_exam` = 0 AND `status` = 1 AND `is_show` = 1 ORDER BY time desc LIMIT 1,1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000174s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000257s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022687s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022818s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000727s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000794s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001649s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001170s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001273s ]
+
+[ 2017-03-07T10:08:38+08:00 ] ::1 /eshop/index.php/Good/audit.html?p=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000864s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001432s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0042s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_firstmenu` [ RunTime:0.0045s ]
+SQL: SELECT `id`,`name` FROM `eshop_shop_firstmenu` WHERE `shopId` = 3 AND `is_show` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0041s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `shopId` = '3' AND `is_exam` = 0 AND `status` = 1 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT eshop_good.* FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `shopId` = '3' AND `is_exam` = 0 AND `status` = 1 AND `is_show` = 1 ORDER BY time desc LIMIT 1,1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000225s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000313s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022355s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022442s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000734s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000682s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001520s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000803s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000873s ]
+
+[ 2017-03-07T10:09:04+08:00 ] ::1 /eshop/index.php/Good/audit.html?p=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001343s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0048s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_firstmenu` [ RunTime:0.0048s ]
+SQL: SELECT `id`,`name` FROM `eshop_shop_firstmenu` WHERE `shopId` = 3 AND `is_show` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0042s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `shopId` = '3' AND `is_exam` = 0 AND `status` = 1 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT eshop_good.* FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `shopId` = '3' AND `is_exam` = 0 AND `status` = 1 AND `is_show` = 1 ORDER BY time desc LIMIT 1,1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000185s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000290s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021476s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021566s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000767s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000813s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001749s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001578s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001703s ]
+
+[ 2017-03-07T15:32:42+08:00 ] ::1 /eshop/U
+ERR: 无法加载控制器:U
+
+[ 2017-03-07T15:32:42+08:00 ] ::1 /eshop/U
+ERR: 无法加载控制器:U
+
+[ 2017-03-07T15:33:51+08:00 ] ::1 /eshop/U
+ERR: 无法加载控制器:U
+
+[ 2017-03-07T15:33:52+08:00 ] ::1 /eshop/U
+ERR: 无法加载控制器:U
+

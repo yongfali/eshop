@@ -1,0 +1,52 @@
+<!-- 商品收藏aJax分页内容 -->
+<empty name="lists">
+    <div>您还很懒，暂没有收藏的商品，请前往商城逛逛！！</div>
+    <else/>
+    <div class="collection-wraper">
+    	<ul class="p_list">
+    		<volist name="lists" id="item">
+    			<li>
+    				<div class="list-wrap">
+    					<div class="p_pics">
+    						<a href="{:U('Home/Index/goodsInfo',array('id'=>$item['goodid']))}" class="eshop_img"><img src="__ROOT__/{$item.good_log}"/>
+    						</a>
+    					</div>
+    					<div class="p_sales">
+    						<div class="p_price"> 
+    							<strong><em style="color:red;">￥</em><i style="color:red;">{$item.shopprice}</i></strong>
+    						</div>
+    						<div class="p_amounts"> 
+    							<strong>销量：<span>{$item.count}</span></strong>
+    						</div>
+    					</div>
+    					<div class="p_name"> 
+    						<a href="{:U('Home/Index/goodsInfo',array('id'=>$item['goodid']))}" target="_blank">{$item.goodname}
+    						</a> 
+    					</div>
+    					<div class="p_shop_info">
+    						<div class="p_shop_name">
+    							<span><a href="{:U('Home/Shop/index',array('shopId'=>$item['shopid']))}" target="_blank">{$item.shopname}</a></span>
+    						</div>
+    						<div class="p_good_place">
+    							<span style="color:#868686;">{$item.place}</span>
+    						</div>
+    					</div>
+    					<div class="p_operate">
+    						<a href="javascript:void(0)" onclick="cancle({$item.goodid},0,{$Think.session.uid})">
+    							<img src="__PUBLIC__/Home/Icon/good-collection-do.png">
+    							&nbsp;取消收藏
+    						</a>
+    						<a href="#" style="float:right;"> 
+    							<img src="__PUBLIC__/Home/Icon/add-cart.png">
+    							&nbsp;加入购物车
+    						</a>
+    					</div>
+    				</div>
+    			</li>
+    		</volist>
+    	</ul>
+    </div>
+</empty>
+<!-- 分页开始 -->
+<div class="pages">{$page}</div>
+<!-- 分页结束 --> 

@@ -1,0 +1,2713 @@
+[ 2016-12-22T10:31:03+08:00 ] ::1 /eshop/index.php/Home/User/ucenter_account.html
+ERR: 非法操作:ucenter_account
+
+[ 2016-12-22T10:58:33+08:00 ] ::1 /eshop/index.php/Home/User/checkUserName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001450s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0622s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `name` = 'test' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000853s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000937s ]
+
+[ 2016-12-22T10:58:35+08:00 ] ::1 /eshop/index.php/Home/User/checkUserName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000695s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001291s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0050s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `name` = 'testa' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000882s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000957s ]
+
+[ 2016-12-22T10:58:36+08:00 ] ::1 /eshop/index.php/Home/User/checkUserName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001245s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0040s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `name` = 'testaj' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000940s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001013s ]
+
+[ 2016-12-22T10:58:36+08:00 ] ::1 /eshop/index.php/Home/User/checkUserName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001179s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0039s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `name` = 'testaja' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000866s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000968s ]
+
+[ 2016-12-22T10:58:36+08:00 ] ::1 /eshop/index.php/Home/User/checkUserName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000889s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001551s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0043s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `name` = 'testajax' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001526s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001643s ]
+
+[ 2016-12-22T10:58:55+08:00 ] ::1 /eshop/index.php/Home/User/checkUserEmail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001374s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0041s ]
+SQL: SELECT `email` FROM `eshop_user` WHERE `email` = 'test1@q' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000888s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000969s ]
+
+[ 2016-12-22T10:58:55+08:00 ] ::1 /eshop/index.php/Home/User/checkUserEmail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001307s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0048s ]
+SQL: SELECT `email` FROM `eshop_user` WHERE `email` = 'test1@qq' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001157s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001264s ]
+
+[ 2016-12-22T10:58:56+08:00 ] ::1 /eshop/index.php/Home/User/checkUserEmail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001275s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0048s ]
+SQL: SELECT `email` FROM `eshop_user` WHERE `email` = 'test1@qq.c' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001090s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001191s ]
+
+[ 2016-12-22T10:58:56+08:00 ] ::1 /eshop/index.php/Home/User/checkUserEmail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001246s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0052s ]
+SQL: SELECT `email` FROM `eshop_user` WHERE `email` = 'test1@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001023s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001121s ]
+
+[ 2016-12-22T10:59:11+08:00 ] ::1 /eshop/index.php/Home/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001681s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000805s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000910s ]
+
+[ 2016-12-22T10:59:12+08:00 ] ::1 /eshop/index.php/Home/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000745s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001548s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000844s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000962s ]
+
+[ 2016-12-22T10:59:13+08:00 ] ::1 /eshop/index.php/Home/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002563s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001851s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002030s ]
+
+[ 2016-12-22T10:59:14+08:00 ] ::1 /eshop/index.php/Home/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001180s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000728s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000827s ]
+
+[ 2016-12-22T10:59:15+08:00 ] ::1 /eshop/index.php/Home/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001189s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000770s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000891s ]
+
+[ 2016-12-22T10:59:39+08:00 ] ::1 /eshop/index.php/Home/User/doRegist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000889s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001504s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0507s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0316s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `eshop_user` (`name`,`password`,`email`,`regist_time`) VALUES ('testajax','cc03e747a6afbbcbf8be7668acfebee5','test1@qq.com','1482375579') [ RunTime:0.0922s ]
+
+[ 2016-12-22T11:00:12+08:00 ] ::1 /eshop/index.php/Home/User/doRegist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001344s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0502s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0048s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1062:Duplicate entry 'testajax' for key 'name'
+ [ SQL语句 ] : INSERT INTO `eshop_user` (`name`,`password`,`email`,`regist_time`) VALUES ('testajax','cc03e747a6afbbcbf8be7668acfebee5','test1@qq.com','1482375612')
+ERR: 1062:Duplicate entry 'testajax' for key 'name'
+ [ SQL语句 ] : INSERT INTO `eshop_user` (`name`,`password`,`email`,`regist_time`) VALUES ('testajax','cc03e747a6afbbcbf8be7668acfebee5','test1@qq.com','1482375612')
+
+[ 2016-12-22T11:05:08+08:00 ] ::1 /eshop/index.php/Home/User/checkUserName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001453s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0112s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `name` = 'test' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000988s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001069s ]
+
+[ 2016-12-22T11:05:25+08:00 ] ::1 /eshop/index.php/Home/User/checkUserEmail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002040s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0040s ]
+SQL: SELECT `email` FROM `eshop_user` WHERE `email` = '123456@q' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000920s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001003s ]
+
+[ 2016-12-22T11:05:26+08:00 ] ::1 /eshop/index.php/Home/User/checkUserEmail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001274s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0044s ]
+SQL: SELECT `email` FROM `eshop_user` WHERE `email` = '123456@qq' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000945s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001047s ]
+
+[ 2016-12-22T11:05:27+08:00 ] ::1 /eshop/index.php/Home/User/checkUserEmail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000885s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001525s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0041s ]
+SQL: SELECT `email` FROM `eshop_user` WHERE `email` = '123456@qq.c' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001102s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001196s ]
+
+[ 2016-12-22T11:05:27+08:00 ] ::1 /eshop/index.php/Home/User/checkUserEmail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000949s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001524s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0635s ]
+SQL: SELECT `email` FROM `eshop_user` WHERE `email` = '123456@qq.com' LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003457s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003682s ]
+
+[ 2016-12-22T11:05:33+08:00 ] ::1 /eshop/index.php/Home/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002449s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001450s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001669s ]
+
+[ 2016-12-22T11:05:34+08:00 ] ::1 /eshop/index.php/Home/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001587s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000739s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000828s ]
+
+[ 2016-12-22T11:05:50+08:00 ] ::1 /eshop/index.php/Home/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001227s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000918s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001048s ]
+
+[ 2016-12-22T11:05:52+08:00 ] ::1 /eshop/index.php/Home/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001009s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001700s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001345s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001531s ]
+
+[ 2016-12-22T11:05:53+08:00 ] ::1 /eshop/index.php/Home/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001103s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001880s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000788s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000898s ]
+
+[ 2016-12-22T11:06:06+08:00 ] ::1 /eshop/index.php/Home/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001123s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001271s ]
+
+[ 2016-12-22T11:06:07+08:00 ] ::1 /eshop/index.php/Home/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001325s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000773s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000862s ]
+
+[ 2016-12-22T11:06:13+08:00 ] ::1 /eshop/index.php/Home/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001312s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000722s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000809s ]
+
+[ 2016-12-22T11:06:14+08:00 ] ::1 /eshop/index.php/Home/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001503s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000727s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000815s ]
+
+[ 2016-12-22T11:06:19+08:00 ] ::1 /eshop/index.php/Home/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002435s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001363s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001550s ]
+
+[ 2016-12-22T11:06:46+08:00 ] ::1 /eshop/index.php/Home/User/doRegist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000869s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001380s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0768s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0058s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `eshop_user` (`name`,`password`,`email`,`regist_time`) VALUES ('test','60474c9c10d7142b7508ce7a50acf414','123456@qq.com','1482376006') [ RunTime:0.0727s ]
+
+[ 2016-12-22T11:06:46+08:00 ] ::1 /eshop/index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001307s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000226s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011737s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011824s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000768s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000735s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000810s ]
+
+[ 2016-12-22T11:11:23+08:00 ] ::1 /eshop/index.php/Home/User/checkUserName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001324s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0046s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `name` = 'test' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001082s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001176s ]
+
+[ 2016-12-22T11:11:26+08:00 ] ::1 /eshop/index.php/Home/User/checkUserName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001276s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0041s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `name` = 'test1' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000925s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001010s ]
+
+[ 2016-12-22T11:11:33+08:00 ] ::1 /eshop/index.php/Home/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001419s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000719s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000802s ]
+
+[ 2016-12-22T11:11:33+08:00 ] ::1 /eshop/index.php/Home/User/checkUserEmail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001356s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0040s ]
+SQL: SELECT `email` FROM `eshop_user` WHERE `email` = '123456@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000948s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001036s ]
+
+[ 2016-12-22T11:11:37+08:00 ] ::1 /eshop/index.php/Home/User/checkUserEmail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000949s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001517s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0055s ]
+SQL: SELECT `email` FROM `eshop_user` WHERE `email` = '12345@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001145s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001252s ]
+
+[ 2016-12-22T11:11:38+08:00 ] ::1 /eshop/index.php/Home/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003430s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002006s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002263s ]
+
+[ 2016-12-22T11:11:38+08:00 ] ::1 /eshop/index.php/Home/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001257s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000724s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000811s ]
+
+[ 2016-12-22T11:11:40+08:00 ] ::1 /eshop/index.php/Home/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002542s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001150s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001292s ]
+
+[ 2016-12-22T11:11:41+08:00 ] ::1 /eshop/index.php/Home/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001336s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000760s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000849s ]
+
+[ 2016-12-22T11:11:41+08:00 ] ::1 /eshop/index.php/Home/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002099s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001226s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001387s ]
+
+[ 2016-12-22T11:11:44+08:00 ] ::1 /eshop/index.php/Home/User/doRegist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001257s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.1052s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0042s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `eshop_user` (`name`,`password`,`email`,`regist_time`) VALUES ('test1','cc03e747a6afbbcbf8be7668acfebee5','12345@qq.com','1482376304') [ RunTime:0.0519s ]
+
+[ 2016-12-22T11:11:44+08:00 ] ::1 /eshop/index.php/Home/User/Home/View/User/login.html
+ERR: 非法操作:Home
+
+[ 2016-12-22T11:13:06+08:00 ] ::1 /eshop/index.php/Home/User/Home/View/User/login.html
+ERR: 非法操作:Home
+
+[ 2016-12-22T11:13:14+08:00 ] ::1 /eshop/index.php/Home/User/checkUserName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001290s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0046s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `name` = 'test12' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000906s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000983s ]
+
+[ 2016-12-22T11:13:23+08:00 ] ::1 /eshop/index.php/Home/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001334s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001013s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001142s ]
+
+[ 2016-12-22T11:13:23+08:00 ] ::1 /eshop/index.php/Home/User/checkUserEmail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000940s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001670s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0046s ]
+SQL: SELECT `email` FROM `eshop_user` WHERE `email` = '12345@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000912s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000997s ]
+
+[ 2016-12-22T11:13:30+08:00 ] ::1 /eshop/index.php/Home/User/checkUserEmail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000827s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001411s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0042s ]
+SQL: SELECT `email` FROM `eshop_user` WHERE `email` = '1234556@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000987s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001072s ]
+
+[ 2016-12-22T11:13:31+08:00 ] ::1 /eshop/index.php/Home/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001274s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000726s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000808s ]
+
+[ 2016-12-22T11:13:33+08:00 ] ::1 /eshop/index.php/Home/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001256s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000844s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000948s ]
+
+[ 2016-12-22T11:13:35+08:00 ] ::1 /eshop/index.php/Home/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001122s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001917s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001178s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001322s ]
+
+[ 2016-12-22T11:13:35+08:00 ] ::1 /eshop/index.php/Home/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001449s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000738s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000843s ]
+
+[ 2016-12-22T11:13:36+08:00 ] ::1 /eshop/index.php/Home/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001409s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000789s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000880s ]
+
+[ 2016-12-22T11:13:40+08:00 ] ::1 /eshop/index.php/Home/User/doRegist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001305s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0896s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0041s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `eshop_user` (`name`,`password`,`email`,`regist_time`) VALUES ('test12','60474c9c10d7142b7508ce7a50acf414','1234556@qq.com','1482376420') [ RunTime:0.0483s ]
+
+[ 2016-12-22T11:13:40+08:00 ] ::1 /eshop/index.php/Home/User/Home/View/User/login.html
+ERR: 非法操作:Home
+
+[ 2016-12-22T11:16:04+08:00 ] ::1 /eshop/index.php/Home/User/Home/View/User/login.html
+ERR: 非法操作:Home
+
+[ 2016-12-22T11:16:10+08:00 ] ::1 /eshop/index.php/Home/User/checkUserName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000745s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001276s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0041s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `name` = 'test123' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001451s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001542s ]
+
+[ 2016-12-22T11:16:21+08:00 ] ::1 /eshop/index.php/Home/User/checkUserEmail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001822s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0043s ]
+SQL: SELECT `email` FROM `eshop_user` WHERE `email` = '1234546@qq.com' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000986s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001085s ]
+
+[ 2016-12-22T11:16:28+08:00 ] ::1 /eshop/index.php/Home/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000733s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001225s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000708s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000790s ]
+
+[ 2016-12-22T11:16:29+08:00 ] ::1 /eshop/index.php/Home/User/doRegist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000758s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001288s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0679s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0534s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `eshop_user` (`name`,`password`,`email`,`regist_time`) VALUES ('test123','cc03e747a6afbbcbf8be7668acfebee5','1234546@qq.com','1482376589') [ RunTime:0.0434s ]
+
+[ 2016-12-22T11:16:30+08:00 ] ::1 /eshop/index.php/Home/User/Home/View/User/login.html
+ERR: 非法操作:Home
+
+[ 2016-12-22T11:19:28+08:00 ] ::1 /eshop/index.php/Home/User/checkUserName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001401s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0043s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `name` = 'test1234' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001091s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001189s ]
+
+[ 2016-12-22T11:19:37+08:00 ] ::1 /eshop/index.php/Home/User/checkUserEmail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001375s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0045s ]
+SQL: SELECT `email` FROM `eshop_user` WHERE `email` = '12345467@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001131s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001273s ]
+
+[ 2016-12-22T11:19:44+08:00 ] ::1 /eshop/index.php/Home/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000756s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001308s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000776s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000867s ]
+
+[ 2016-12-22T11:19:45+08:00 ] ::1 /eshop/index.php/Home/User/doRegist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000744s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001270s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.1835s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0102s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `eshop_user` (`name`,`password`,`email`,`regist_time`) VALUES ('test1234','16d7a4fca7442dda3ad93c9a726597e4','12345467@qq.com','1482376785') [ RunTime:0.0563s ]
+
+[ 2016-12-22T11:28:58+08:00 ] ::1 /eshop/index.php/Home/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000729s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001244s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000815s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000927s ]
+
+[ 2016-12-22T11:28:59+08:00 ] ::1 /eshop/index.php/Home/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002337s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000966s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001091s ]
+
+[ 2016-12-22T11:28:59+08:00 ] ::1 /eshop/index.php/Home/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001394s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000750s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000838s ]
+
+[ 2016-12-22T11:28:59+08:00 ] ::1 /eshop/index.php/Home/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000768s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001312s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000744s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000830s ]
+
+[ 2016-12-22T11:28:59+08:00 ] ::1 /eshop/index.php/Home/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002277s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001368s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001539s ]
+
+[ 2016-12-22T11:29:03+08:00 ] ::1 /eshop/index.php/Home/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002307s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001349s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001520s ]
+
+[ 2016-12-22T11:29:04+08:00 ] ::1 /eshop/index.php/Home/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001292s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000745s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000831s ]
+
+[ 2016-12-22T11:29:06+08:00 ] ::1 /eshop/index.php/Home/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001175s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001957s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001175s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001321s ]
+
+[ 2016-12-22T11:29:06+08:00 ] ::1 /eshop/index.php/Home/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001280s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000812s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000911s ]
+
+[ 2016-12-22T11:29:07+08:00 ] ::1 /eshop/index.php/Home/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001299s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000767s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000862s ]
+
+[ 2016-12-22T11:52:21+08:00 ] ::1 /eshop/index.php/Home/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000820s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001399s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000754s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000841s ]
+
+[ 2016-12-22T11:52:24+08:00 ] ::1 /eshop/index.php/Home/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000758s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001301s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000740s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000829s ]
+
+[ 2016-12-22T11:52:24+08:00 ] ::1 /eshop/index.php/Home/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000742s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001270s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000834s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000941s ]
+
+[ 2016-12-22T11:53:59+08:00 ] ::1 /eshop/index.php/Home/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000729s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001281s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001024s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001161s ]
+
+[ 2016-12-22T11:54:10+08:00 ] ::1 /eshop/index.php/Home/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001350s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000741s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000827s ]
+
+[ 2016-12-22T11:54:10+08:00 ] ::1 /eshop/index.php/Home/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001180s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001716s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001905s ]
+
+[ 2016-12-22T11:54:14+08:00 ] ::1 /eshop/index.php/Home/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000793s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001331s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000787s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000891s ]
+
+[ 2016-12-22T11:54:14+08:00 ] ::1 /eshop/index.php/Home/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001309s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000742s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000831s ]
+
+[ 2016-12-22T11:54:15+08:00 ] ::1 /eshop/index.php/Home/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001351s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000745s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000832s ]
+
+[ 2016-12-22T11:54:20+08:00 ] ::1 /eshop/index.php/Home/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000752s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001292s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000737s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000823s ]
+
+[ 2016-12-22T11:54:21+08:00 ] ::1 /eshop/index.php/Home/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002308s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001344s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001515s ]
+
+[ 2016-12-22T11:54:22+08:00 ] ::1 /eshop/index.php/Home/User/doLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001449s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0801s ]
+SQL: SELECT * FROM `eshop_user` WHERE `name` = 'admin1' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] fopen(D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Org\Net/UTFWry.dat): failed to open stream: No such file or directory D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Org\Net\IpLocation.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `eshop_user_log` [ RunTime:0.0120s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `eshop_user_log` (`userId`,`action`,`ip`,`location`,`time`) VALUES ('11','登录','0.0.0.0',NULL,'1482378862') [ RunTime:0.0684s ]
+
+[ 2016-12-22T12:26:18+08:00 ] ::1 /eshop/index.php/Home/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002015s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000773s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000913s ]
+
+[ 2016-12-22T12:26:19+08:00 ] ::1 /eshop/index.php/Home/User/doLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001481s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0111s ]
+SQL: SELECT * FROM `eshop_user` WHERE `name` = 'admin1' LIMIT 1   [ RunTime:0.0012s ]
+NOTIC: [2] fopen(D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Org\Net/UTFWry.dat): failed to open stream: No such file or directory D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Org\Net\IpLocation.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `eshop_user_log` [ RunTime:0.0045s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `eshop_user_log` (`userId`,`action`,`ip`,`location`,`time`) VALUES ('11','登录','0.0.0.0',NULL,'1482380779') [ RunTime:0.0752s ]
+
+[ 2016-12-22T12:39:24+08:00 ] ::1 /eshop/index.php/Home/UserCenter/checkuNickname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001406s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0051s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `nick` = '大漠雄鹰1' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000930s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001006s ]
+
+[ 2016-12-22T13:07:16+08:00 ] ::1 /eshop/index.php/Home/UserCenter/addressadd.html
+ERR: 页面不存在！
+
+[ 2016-12-22T13:08:43+08:00 ] ::1 /eshop/index.php/Home/UserCenter/addressadd.html
+ERR: 页面不存在！
+
+[ 2016-12-22T13:09:19+08:00 ] ::1 /eshop/index.php/Home/UserCenter/addressadd.html
+ERR: 页面不存在！
+
+[ 2016-12-22T13:11:08+08:00 ] ::1 /eshop/index.php/Home/UserCenter/addressadd.html
+ERR: 页面不存在！
+
+[ 2016-12-22T13:11:11+08:00 ] ::1 /eshop/index.php/Home/UserCenter/addressadd.html
+ERR: 页面不存在！
+
+[ 2016-12-22T13:15:59+08:00 ] ::1 /eshop/index.php/Home/UserCenter/shoper_login.html
+ERR: 非法操作:shoper_login
+
+[ 2016-12-22T13:57:02+08:00 ] ::1 /eshop/index.php/Home/UserCenter/delLog.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001290s ]
+SQL: SHOW COLUMNS FROM `eshop_user_log` [ RunTime:0.0090s ]
+SQL: DELETE FROM `eshop_user_log` WHERE `id` = 0 [ RunTime:0.0343s ]
+
+[ 2016-12-22T13:57:14+08:00 ] ::1 /eshop/index.php/Home/UserCenter/delLog.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001554s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002630s ]
+SQL: SHOW COLUMNS FROM `eshop_user_log` [ RunTime:0.0046s ]
+SQL: DELETE FROM `eshop_user_log` WHERE `id` = 0 [ RunTime:0.0003s ]
+
+[ 2016-12-22T14:02:28+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001004s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001647s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010878s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011038s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000784s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000868s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001769s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001946s ]
+
+[ 2016-12-22T14:02:56+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002777s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000225s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009695s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009792s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000628s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000691s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000843s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000924s ]
+
+[ 2016-12-22T14:03:47+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001893s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000797s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000903s ]
+
+[ 2016-12-22T14:15:43+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000881s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001533s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0079s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0074s ]
+SQL: SELECT `userName`,`location`,`streetInfo`,`postCode`,`tel`,`is_first` FROM `eshop_user_address` WHERE `id` = 0 AND `is_show` = 1  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000191s ]
+NOTIC: [8] Undefined variable: data D:\wampserver\wamp\www\eshop\App\Runtime\Cache\Home\24322b3c782909d2a2ba523ded7e7a07.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009566s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009653s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000643s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000720s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000858s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000944s ]
+
+[ 2016-12-22T14:16:40+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003274s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0072s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0054s ]
+SQL: SELECT `userName`,`location`,`streetInfo`,`postCode`,`tel`,`is_first` FROM `eshop_user_address` WHERE `id` = 0 AND `is_show` = 1  [ RunTime:0.0004s ]
+
+[ 2016-12-22T14:17:21+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001149s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001909s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0352s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0063s ]
+SQL: SELECT `userName`,`location`,`streetInfo`,`postCode`,`tel`,`is_first` FROM `eshop_user_address` WHERE `id` = 0 AND `is_show` = 1  [ RunTime:0.0003s ]
+
+[ 2016-12-22T14:18:00+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002137s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0059s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0081s ]
+SQL: SELECT `userName`,`location`,`streetInfo`,`postCode`,`tel`,`is_first` FROM `eshop_user_address` WHERE `id` = 0 AND `is_show` = 1  [ RunTime:0.0004s ]
+
+[ 2016-12-22T14:18:55+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002053s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0096s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `eshop_user_address` WHERE `id` = 0 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2016-12-22T14:19:38+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001485s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0056s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `eshop_user_address` WHERE `id` = 0 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2016-12-22T14:20:18+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001768s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003127s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0061s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `eshop_user_address` WHERE `id` = 0 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-12-22T14:21:17+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002522s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0053s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `eshop_user_address` WHERE `id` = 11 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-12-22T14:21:48+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002405s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0054s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0082s ]
+SQL: SELECT `userName`,`location`,`streetInfo`,`postCode`,`tel`,`is_first` FROM `eshop_user_address` WHERE `id` = 11 AND `is_show` = 1  [ RunTime:0.0004s ]
+
+[ 2016-12-22T14:23:32+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002215s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004861s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0062s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0073s ]
+SQL: SELECT `userName`,`location`,`streetInfo`,`postCode`,`tel`,`is_first` FROM `eshop_user_address` WHERE `id` = 11 AND `is_show` = 1  [ RunTime:0.0004s ]
+
+[ 2016-12-22T14:24:13+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002948s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004265s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0084s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0053s ]
+SQL: SELECT `id`,`userName`,`location`,`streetInfo`,`postCode`,`tel`,`is_first` FROM `eshop_user_address` WHERE `id` = 11 AND `is_show` = 1  [ RunTime:0.0004s ]
+
+[ 2016-12-22T14:29:06+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005609s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0053s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0073s ]
+SQL: SELECT `id`,`userName`,`location`,`streetInfo`,`postCode`,`tel`,`is_first` FROM `eshop_user_address` WHERE `id` = 11 AND `is_show` = 1  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000266s ]
+NOTIC: [8] Undefined index: username D:\wampserver\wamp\www\eshop\App\Runtime\Cache\Home\24322b3c782909d2a2ba523ded7e7a07.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015497s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015641s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001014s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001112s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000867s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000950s ]
+
+[ 2016-12-22T14:30:51+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000870s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001539s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0076s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0047s ]
+SQL: SELECT `id`,`userName`,`location`,`streetInfo`,`postCode`,`tel`,`is_first` FROM `eshop_user_address` WHERE `id` = 11 AND `is_show` = 1  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000168s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000387s ]
+NOTIC: [8] Undefined index: username D:\wampserver\wamp\www\eshop\App\Runtime\Cache\Home\24322b3c782909d2a2ba523ded7e7a07.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012213s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012315s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000624s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000694s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000890s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2016-12-22T14:30:56+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002544s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0083s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0065s ]
+SQL: SELECT `id`,`userName`,`location`,`streetInfo`,`postCode`,`tel`,`is_first` FROM `eshop_user_address` WHERE `id` = 1 AND `is_show` = 1  [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000182s ]
+NOTIC: [8] Undefined index: username D:\wampserver\wamp\www\eshop\App\Runtime\Cache\Home\24322b3c782909d2a2ba523ded7e7a07.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016109s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000694s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000764s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000875s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000958s ]
+
+[ 2016-12-22T14:31:01+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000881s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001667s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0074s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0092s ]
+SQL: SELECT `id`,`userName`,`location`,`streetInfo`,`postCode`,`tel`,`is_first` FROM `eshop_user_address` WHERE `id` = 2 AND `is_show` = 1  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000171s ]
+NOTIC: [8] Undefined index: username D:\wampserver\wamp\www\eshop\App\Runtime\Cache\Home\24322b3c782909d2a2ba523ded7e7a07.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013119s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013209s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000642s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000714s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000845s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000930s ]
+
+[ 2016-12-22T14:31:04+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002460s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0089s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0058s ]
+SQL: SELECT `id`,`userName`,`location`,`streetInfo`,`postCode`,`tel`,`is_first` FROM `eshop_user_address` WHERE `id` = 8 AND `is_show` = 1  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000274s ]
+NOTIC: [8] Undefined index: username D:\wampserver\wamp\www\eshop\App\Runtime\Cache\Home\24322b3c782909d2a2ba523ded7e7a07.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014855s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014964s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000654s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000728s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000919s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001010s ]
+
+[ 2016-12-22T14:31:09+08:00 ] ::1 /eshop/index.php/Home/UserCenter/addressDefault.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001432s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0044s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0048s ]
+SQL: UPDATE `eshop_user_address` SET `is_first`='0',`modifytime`='1482388268' WHERE `userId` = 11 [ RunTime:0.0753s ]
+SQL: UPDATE `eshop_user_address` SET `is_first`='1',`modifytime`='1482388269' WHERE `id` = 1 [ RunTime:0.0211s ]
+
+[ 2016-12-22T14:31:12+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002770s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0096s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0086s ]
+SQL: SELECT `id`,`userName`,`location`,`streetInfo`,`postCode`,`tel`,`is_first` FROM `eshop_user_address` WHERE `id` = 8 AND `is_show` = 1  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000173s ]
+NOTIC: [8] Undefined index: username D:\wampserver\wamp\www\eshop\App\Runtime\Cache\Home\24322b3c782909d2a2ba523ded7e7a07.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009517s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009605s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000636s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000711s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000979s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001089s ]
+
+[ 2016-12-22T14:31:35+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003297s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0054s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0070s ]
+SQL: SELECT `id`,`userName`,`location`,`streetInfo`,`postCode`,`tel`,`is_first` FROM `eshop_user_address` WHERE `id` = 8 AND `is_show` = 1  [ RunTime:0.0003s ]
+ERR: 模板不存在:./App/Home/View/default/UserCenter/editAddrShow.html
+
+[ 2016-12-22T14:33:03+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001360s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0062s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0096s ]
+SQL: SELECT `id`,`userName`,`location`,`streetInfo`,`postCode`,`tel`,`is_first` FROM `eshop_user_address` WHERE `id` = 2 AND `is_show` = 1  [ RunTime:0.0005s ]
+ERR: 模板不存在:./App/Home/View/default/UserCenter/editAddrShow.html
+
+[ 2016-12-22T14:41:07+08:00 ] ::1 /eshop/index.php/Home/UserCenter/addressDefault.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000975s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001675s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0046s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0074s ]
+SQL: UPDATE `eshop_user_address` SET `is_first`='0',`modifytime`='1482388867' WHERE `userId` = 11 [ RunTime:0.0836s ]
+SQL: UPDATE `eshop_user_address` SET `is_first`='1',`modifytime`='1482388867' WHERE `id` = 2 [ RunTime:0.0294s ]
+
+[ 2016-12-22T14:41:11+08:00 ] ::1 /eshop/index.php/Home/UserCenter/addressDefault.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003098s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0053s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0072s ]
+SQL: UPDATE `eshop_user_address` SET `is_first`='0',`modifytime`='1482388871' WHERE `userId` = 11 [ RunTime:0.0807s ]
+SQL: UPDATE `eshop_user_address` SET `is_first`='1',`modifytime`='1482388871' WHERE `id` = 2 [ RunTime:0.0224s ]
+
+[ 2016-12-22T14:41:52+08:00 ] ::1 /eshop/index.php/Home/UserCenter/addressDefault.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000965s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001577s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0044s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0073s ]
+SQL: UPDATE `eshop_user_address` SET `is_first`='0',`modifytime`='1482388912' WHERE `userId` = 11 [ RunTime:0.0954s ]
+SQL: UPDATE `eshop_user_address` SET `is_first`='1',`modifytime`='1482388912' WHERE `id` = 1 [ RunTime:0.0424s ]
+
+[ 2016-12-22T14:41:57+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002188s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003663s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0081s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0096s ]
+SQL: SELECT `id`,`userName`,`location`,`streetInfo`,`postCode`,`tel`,`is_first` FROM `eshop_user_address` WHERE `id` = 2 AND `is_show` = 1  [ RunTime:0.0004s ]
+ERR: 模板不存在:./App/Home/View/default/UserCenter/editAddrShow.html
+
+[ 2016-12-22T14:46:01+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002419s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0118s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0082s ]
+SQL: SELECT `id`,`userName`,`location`,`streetInfo`,`postCode`,`tel`,`is_first` FROM `eshop_user_address` WHERE `id` = 2 AND `is_show` = 1  [ RunTime:0.0004s ]
+ERR: 模板不存在:./App/Home/View/default/UserCenter/editAddrShow.html
+
+[ 2016-12-22T14:47:36+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002234s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005529s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0084s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0089s ]
+SQL: SELECT `id`,`userName`,`location`,`streetInfo`,`postCode`,`tel`,`is_first` FROM `eshop_user_address` WHERE `id` = 8 AND `is_show` = 1  [ RunTime:0.0005s ]
+ERR: 模板不存在:./App/Home/View/default/UserCenter/editAddrShow.html
+
+[ 2016-12-22T15:28:56+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002020s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0079s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0070s ]
+SQL: SELECT `id`,`userName`,`location`,`streetInfo`,`postCode`,`tel`,`is_first` FROM `eshop_user_address` WHERE `id` = 8 AND `is_show` = 1  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000165s ]
+NOTIC: [8] Undefined index: username D:\wampserver\wamp\www\eshop\App\Runtime\Cache\Home\24322b3c782909d2a2ba523ded7e7a07.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015824s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015938s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000616s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000694s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001014s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001315s ]
+
+[ 2016-12-22T15:29:10+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003207s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0048s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0070s ]
+SQL: SELECT `id`,`userName`,`location`,`streetInfo`,`postCode`,`tel`,`is_first` FROM `eshop_user_address` WHERE `id` = 8 AND `is_show` = 1  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000176s ]
+NOTIC: [8] Undefined index: username D:\wampserver\wamp\www\eshop\App\Runtime\Cache\Home\24322b3c782909d2a2ba523ded7e7a07.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011950s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012034s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000741s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000842s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001126s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001235s ]
+
+[ 2016-12-22T15:30:21+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000843s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001366s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0054s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0075s ]
+SQL: SELECT `id`,`userName`,`location`,`streetInfo`,`postCode`,`tel`,`is_first` FROM `eshop_user_address` WHERE `id` = 8 AND `is_show` = 1  [ RunTime:0.0010s ]
+ERR: 模板不存在:./App/Home/View/default/UserCenter/addressmodify.html.html
+
+[ 2016-12-22T15:31:03+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000917s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001661s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0053s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0077s ]
+SQL: SELECT `id`,`userName`,`location`,`streetInfo`,`postCode`,`tel`,`is_first` FROM `eshop_user_address` WHERE `id` = 8 AND `is_show` = 1  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000226s ]
+NOTIC: [8] Undefined index: username D:\wampserver\wamp\www\eshop\App\Runtime\Cache\Home\24322b3c782909d2a2ba523ded7e7a07.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009960s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010069s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000525s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000911s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001024s ]
+
+[ 2016-12-22T15:31:56+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000890s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001517s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0052s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0081s ]
+SQL: SELECT `id`,`userName`,`location`,`streetInfo`,`postCode`,`tel`,`is_first` FROM `eshop_user_address` WHERE `id` = 8 AND `is_show` = 1  [ RunTime:0.0004s ]
+
+[ 2016-12-22T15:33:09+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000899s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001433s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0220s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0085s ]
+SQL: SELECT `id`,`userName`,`location`,`streetInfo`,`postCode`,`tel`,`is_first` FROM `eshop_user_address` WHERE `id` = 8 AND `is_show` = 1  [ RunTime:0.0004s ]
+
+[ 2016-12-22T15:33:53+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002703s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0069s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `eshop_user_address` WHERE `id` = 8 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2016-12-22T15:34:38+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002339s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0062s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `eshop_user_address` WHERE `id` = 8 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000180s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014057s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014179s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000547s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000619s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000793s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000869s ]
+
+[ 2016-12-22T15:35:58+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001366s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0046s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `eshop_user_address` WHERE `id` = 2 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008776s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008869s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000643s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000720s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000935s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001048s ]
+
+[ 2016-12-22T15:35:59+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000810s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001345s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0046s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `eshop_user_address` WHERE `id` = 2 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008687s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008776s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000716s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000791s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000838s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000912s ]
+
+[ 2016-12-22T15:37:14+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001367s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0046s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `eshop_user_address` WHERE `id` = 2 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+ERR: 模板不存在:./App/Home/View/default/UserCenter/editAddrShow.html
+
+[ 2016-12-22T15:37:36+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000816s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001357s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0045s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `eshop_user_address` WHERE `id` = 2 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+ERR: 模板不存在:./App/Home/View/default/UserCenter/editAddrShow.html
+
+[ 2016-12-22T15:37:38+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000815s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001358s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0045s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `eshop_user_address` WHERE `id` = 2 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0003s ]
+ERR: 模板不存在:./App/Home/View/default/UserCenter/editAddrShow.html
+
+[ 2016-12-22T15:37:55+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001364s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0053s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `eshop_user_address` WHERE `id` = 2 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008534s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008615s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000599s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000663s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000806s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000875s ]
+
+[ 2016-12-22T15:37:58+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001328s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0048s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `eshop_user_address` WHERE `id` = 8 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000168s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009280s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000568s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000631s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000800s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000867s ]
+
+[ 2016-12-22T15:37:59+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001381s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0047s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `eshop_user_address` WHERE `id` = 2 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008747s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008826s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000570s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000633s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000802s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000870s ]
+
+[ 2016-12-22T15:39:29+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001382s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0046s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `eshop_user_address` WHERE `id` = 2 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008524s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008604s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000573s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000636s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000802s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000871s ]
+
+[ 2016-12-22T15:39:38+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001429s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0049s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `eshop_user_address` WHERE `id` = 2 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009210s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009330s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000728s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000848s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000932s ]
+
+[ 2016-12-22T15:39:43+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001332s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0044s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `eshop_user_address` WHERE `id` = 8 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008670s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008747s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000591s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000653s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000794s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000864s ]
+
+[ 2016-12-22T15:39:43+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001319s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0046s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `eshop_user_address` WHERE `id` = 8 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008494s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008571s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000618s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000816s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000888s ]
+
+[ 2016-12-22T15:39:43+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001389s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0047s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `eshop_user_address` WHERE `id` = 8 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008662s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008743s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000575s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000639s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000804s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000871s ]
+
+[ 2016-12-22T15:39:52+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000888s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001418s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0046s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `eshop_user_address` WHERE `id` = 8 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008701s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008781s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000660s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000805s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000874s ]
+
+[ 2016-12-22T15:39:57+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001284s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0044s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `eshop_user_address` WHERE `id` = 11 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009647s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009745s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000735s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000813s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000901s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000989s ]
+
+[ 2016-12-22T15:40:05+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001358s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0051s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `eshop_user_address` WHERE `id` = 8 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008619s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008702s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000596s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000661s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000820s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000890s ]
+
+[ 2016-12-22T15:40:07+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000816s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001347s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0044s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `eshop_user_address` WHERE `id` = 11 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008380s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008459s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000580s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000642s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000788s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000855s ]
+
+[ 2016-12-22T15:40:09+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001548s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0055s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `eshop_user_address` WHERE `id` = 1 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009127s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009222s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000693s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000775s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000866s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000952s ]
+
+[ 2016-12-22T15:40:14+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001314s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0044s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `eshop_user_address` WHERE `id` = 1 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008476s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008565s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000734s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000793s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000872s ]
+
+[ 2016-12-22T15:40:19+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000810s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001360s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0058s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `eshop_user_address` WHERE `id` = 2 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009661s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009745s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000596s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000660s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000805s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000871s ]
+
+[ 2016-12-22T15:41:12+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002611s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0053s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `eshop_user_address` WHERE `id` = 2 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000237s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015140s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015265s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000763s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000859s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000903s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000991s ]
+
+[ 2016-12-22T15:41:55+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002178s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0089s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `eshop_user_address` WHERE `id` = 1 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013782s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013893s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000670s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000750s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000940s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001033s ]
+
+[ 2016-12-22T15:41:55+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+ERR: 页面不存在！
+
+[ 2016-12-22T15:42:30+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+ERR: 页面不存在！
+
+[ 2016-12-22T15:42:30+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003254s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0076s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `eshop_user_address` WHERE `id` = 2 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000204s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000349s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012853s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012955s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000724s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000846s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000925s ]
+
+[ 2016-12-22T15:44:01+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001408s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0054s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `eshop_user_address` WHERE `id` = 2 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012368s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012613s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000772s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000858s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001014s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001108s ]
+
+[ 2016-12-22T15:44:01+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+ERR: 页面不存在！
+
+[ 2016-12-22T15:44:01+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+ERR: 页面不存在！
+
+[ 2016-12-22T15:44:24+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002064s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0053s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `eshop_user_address` WHERE `id` = 2 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012483s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012577s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000923s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001032s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001476s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001605s ]
+
+[ 2016-12-22T15:44:53+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002123s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0062s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `eshop_user_address` WHERE `id` = 2 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011876s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012012s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000701s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000891s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001004s ]
+
+[ 2016-12-22T15:45:05+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001317s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `eshop_user_address` WHERE `id` = 2 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000176s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011763s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011903s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000712s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000784s ]
+
+[ 2016-12-22T15:45:32+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000820s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001360s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0101s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `eshop_user_address` WHERE `id` = 8 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011276s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011369s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000617s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000689s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000827s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000906s ]
+
+[ 2016-12-22T15:48:38+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001305s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0084s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `eshop_user_address` WHERE `id` = 2 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000180s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014438s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014560s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000626s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000771s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000853s ]
+
+[ 2016-12-22T15:57:18+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001393s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0217s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `eshop_user_address` WHERE `id` = 8 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000182s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009854s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009949s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000577s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000647s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000806s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000880s ]
+
+[ 2016-12-22T15:57:46+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001125s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001722s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0051s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `eshop_user_address` WHERE `id` = 1 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000186s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010329s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010456s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000677s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000759s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000885s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000970s ]
+
+[ 2016-12-22T16:04:57+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001104s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001676s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0056s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `eshop_user_address` WHERE `id` = 1 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009992s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010087s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000607s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000679s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000806s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000881s ]
+
+[ 2016-12-22T16:06:07+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002770s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0053s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `eshop_user_address` WHERE `id` = 1 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000184s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014942s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015069s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000651s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000730s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000870s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000954s ]
+
+[ 2016-12-22T16:07:13+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002526s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `eshop_user_address` WHERE `id` = 1 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012878s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000646s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000729s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000860s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000943s ]
+
+[ 2016-12-22T16:07:13+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+ERR: 页面不存在！
+
+[ 2016-12-22T16:09:04+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000865s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001543s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0048s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0093s ]
+SQL: SELECT * FROM `eshop_user_address` WHERE `id` = 1 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009828s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009957s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001554s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001735s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001130s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001227s ]
+
+[ 2016-12-22T16:10:31+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002153s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003371s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0054s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `eshop_user_address` WHERE `id` = 1 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001028s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001120s ]
+
+[ 2016-12-22T16:11:47+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+ERR: 页面不存在！
+
+[ 2016-12-22T16:14:47+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001528s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0045s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `eshop_user_address` WHERE `id` = 1 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008867s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008985s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000619s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000760s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000827s ]
+
+[ 2016-12-22T16:14:53+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000826s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001386s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0049s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `eshop_user_address` WHERE `id` = 1 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009611s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009698s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000618s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000694s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001431s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001617s ]
+
+[ 2016-12-22T16:15:48+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000961s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001537s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0049s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `eshop_user_address` WHERE `id` = 8 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000180s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010413s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010525s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000835s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000936s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000991s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001081s ]
+
+[ 2016-12-22T16:15:52+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001432s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `eshop_user_address` WHERE `id` = 11 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000205s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009024s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009102s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000702s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001128s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001240s ]
+
+[ 2016-12-22T16:15:58+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000888s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001426s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0048s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `eshop_user_address` WHERE `id` = 2 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009811s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009900s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000677s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000750s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000858s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000926s ]
+
+[ 2016-12-22T16:16:20+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000889s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001460s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0055s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `eshop_user_address` WHERE `id` = 11 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000253s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000367s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011836s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011936s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000658s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000733s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000884s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000966s ]
+
+[ 2016-12-22T16:16:23+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000907s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001451s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `eshop_user_address` WHERE `id` = 8 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000247s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011659s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011756s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000799s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000882s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000972s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001063s ]
+
+[ 2016-12-22T18:41:03+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+ERR: 页面不存在！
+
+[ 2016-12-22T19:19:50+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000962s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001539s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0058s ]
+NOTIC: [2] Missing argument 1 for Home\Model\UserAddressModel::getAddrById(), called in D:\wampserver\wamp\www\eshop\App\Home\Controller\UserCenterController.class.php on line 240 and defined D:\wampserver\wamp\www\eshop\App\Home\Model\UserAddressModel.class.php 第 51 行.
+NOTIC: [8] Undefined variable: id D:\wampserver\wamp\www\eshop\App\Home\Model\UserAddressModel.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `eshop_user_address` WHERE `id` = null AND `is_show` = 1 LIMIT 1   [ RunTime:0.0522s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000226s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000464s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035164s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035489s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002716s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003197s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002608s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002837s ]
+
+[ 2016-12-22T19:19:56+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000919s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001486s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0051s ]
+NOTIC: [2] Missing argument 1 for Home\Model\UserAddressModel::getAddrById(), called in D:\wampserver\wamp\www\eshop\App\Home\Controller\UserCenterController.class.php on line 240 and defined D:\wampserver\wamp\www\eshop\App\Home\Model\UserAddressModel.class.php 第 51 行.
+NOTIC: [8] Undefined variable: id D:\wampserver\wamp\www\eshop\App\Home\Model\UserAddressModel.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `eshop_user_address` WHERE `id` = null AND `is_show` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009472s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009566s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001146s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001235s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000924s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000995s ]
+
+[ 2016-12-22T19:21:43+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002408s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0102s ]
+NOTIC: [2] Missing argument 1 for Home\Model\UserAddressModel::getAddrById(), called in D:\wampserver\wamp\www\eshop\App\Home\Controller\UserCenterController.class.php on line 240 and defined D:\wampserver\wamp\www\eshop\App\Home\Model\UserAddressModel.class.php 第 51 行.
+NOTIC: [8] Undefined variable: id D:\wampserver\wamp\www\eshop\App\Home\Model\UserAddressModel.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `eshop_user_address` WHERE `id` = null AND `is_show` = 1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000135s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000409s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021553s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021819s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001304s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001474s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001502s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001680s ]
+
+[ 2016-12-22T19:22:48+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000903s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001453s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0081s ]
+NOTIC: [2] Missing argument 1 for Home\Model\UserAddressModel::getAddrById(), called in D:\wampserver\wamp\www\eshop\App\Home\Controller\UserCenterController.class.php on line 240 and defined D:\wampserver\wamp\www\eshop\App\Home\Model\UserAddressModel.class.php 第 51 行.
+NOTIC: [8] Undefined variable: id D:\wampserver\wamp\www\eshop\App\Home\Model\UserAddressModel.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `eshop_user_address` WHERE `id` = null AND `is_show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000171s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013537s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013664s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000777s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000858s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001063s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001170s ]
+
+[ 2016-12-22T19:23:24+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002251s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0099s ]
+NOTIC: [2] Missing argument 1 for Home\Model\UserAddressModel::getAddrById(), called in D:\wampserver\wamp\www\eshop\App\Home\Controller\UserCenterController.class.php on line 240 and defined D:\wampserver\wamp\www\eshop\App\Home\Model\UserAddressModel.class.php 第 51 行.
+NOTIC: [8] Undefined variable: id D:\wampserver\wamp\www\eshop\App\Home\Model\UserAddressModel.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `eshop_user_address` WHERE `id` = null AND `is_show` = 1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000289s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014195s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014377s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000949s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001034s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000938s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001017s ]
+
+[ 2016-12-22T19:25:42+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005025s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0062s ]
+NOTIC: [2] Missing argument 1 for Home\Model\UserAddressModel::getAddrById(), called in D:\wampserver\wamp\www\eshop\App\Home\Controller\UserCenterController.class.php on line 240 and defined D:\wampserver\wamp\www\eshop\App\Home\Model\UserAddressModel.class.php 第 51 行.
+NOTIC: [8] Undefined variable: id D:\wampserver\wamp\www\eshop\App\Home\Model\UserAddressModel.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `eshop_user_address` WHERE `id` = null AND `is_show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-12-22T19:26:10+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001234s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002081s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0067s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `eshop_user_address` WHERE `id` = 8 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2016-12-22T19:26:29+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001998s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003131s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0102s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `eshop_user_address` WHERE `id` = 11 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2016-12-22T19:27:09+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002411s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0073s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0089s ]
+SQL: SELECT * FROM `eshop_user_address` WHERE `id` = 11 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000189s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000491s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014757s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014921s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000758s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000841s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000978s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001085s ]
+
+[ 2016-12-22T19:28:13+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002432s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0079s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0108s ]
+SQL: SELECT * FROM `eshop_user_address` WHERE `id` = 11 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000184s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000414s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015860s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015987s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000668s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000742s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001034s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001132s ]
+
+[ 2016-12-22T19:28:13+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+ERR: 页面不存在！
+
+[ 2016-12-22T19:28:39+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001173s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001984s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0079s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `eshop_user_address` WHERE `id` = 11 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000362s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014011s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014144s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000826s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000945s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000873s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000960s ]
+
+[ 2016-12-22T19:46:13+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002600s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0074s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0104s ]
+SQL: SELECT * FROM `eshop_user_address` WHERE `id` = 11 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000198s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000391s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017383s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017584s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001081s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001226s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001207s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001330s ]
+
+[ 2016-12-22T19:46:58+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001194s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0075s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `eshop_user_address` WHERE `id` = 8 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000165s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016319s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016451s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000693s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000994s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001114s ]
+
+[ 2016-12-22T19:50:57+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002368s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0067s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `eshop_user_address` WHERE `id` = 8 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000183s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014387s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014515s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000931s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001062s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001185s ]
+
+[ 2016-12-22T19:57:27+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002446s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0071s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `eshop_user_address` WHERE `id` = 8 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000254s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000405s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015298s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015426s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000789s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000869s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000955s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001043s ]
+
+[ 2016-12-22T19:58:20+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002418s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `eshop_user_address` WHERE `id` = 2 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000267s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013674s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013823s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001126s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001265s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001318s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001459s ]
+
+[ 2016-12-22T20:05:30+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001870s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003003s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0074s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `eshop_user_address` WHERE `id` = 2 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000201s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014044s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014185s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001153s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001292s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001430s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001569s ]
+
+[ 2016-12-22T20:10:44+08:00 ] ::1 /eshop/index.php/Home/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001302s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000820s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000912s ]
+
+[ 2016-12-22T20:10:45+08:00 ] ::1 /eshop/index.php/Home/User/doLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001246s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `eshop_user` WHERE `name` = 'admin1' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] fopen(D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Org\Net/UTFWry.dat): failed to open stream: No such file or directory D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Org\Net\IpLocation.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `eshop_user_log` [ RunTime:0.0056s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `eshop_user_log` (`userId`,`action`,`ip`,`location`,`time`) VALUES ('11','登录','0.0.0.0',NULL,'1482408645') [ RunTime:0.0974s ]
+
+[ 2016-12-22T20:13:40+08:00 ] ::1 /eshop/index.php/Home/Index/goods_info.html
+ERR: 非法操作:goods_info
+
+[ 2016-12-22T20:47:35+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001807s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0096s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `eshop_user_address` WHERE `id` = 1 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000215s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016180s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016312s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000770s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001676s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001808s ]
+
+[ 2016-12-22T20:47:40+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+ERR: 页面不存在！
+
+[ 2016-12-22T20:47:40+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002115s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0085s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `eshop_user_address` WHERE `id` = 1 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012945s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013062s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000725s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000798s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000811s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000888s ]
+
+[ 2016-12-22T20:48:08+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001559s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0085s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0107s ]
+SQL: SELECT * FROM `eshop_user_address` WHERE `id` = 1 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000305s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015139s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015249s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000574s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000832s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000934s ]
+
+[ 2016-12-22T20:48:26+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001883s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0073s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `eshop_user_address` WHERE `id` = 1 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000167s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013429s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013591s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001056s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001193s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001084s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001195s ]
+
+[ 2016-12-22T20:49:43+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001927s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0097s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `eshop_user_address` WHERE `id` = 1 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000249s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014870s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014977s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000548s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000620s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000991s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001110s ]
+
+[ 2016-12-22T20:54:19+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002310s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0096s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0111s ]
+SQL: SELECT * FROM `eshop_user_address` WHERE `id` = 11 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000171s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017622s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017748s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000508s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001284s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001427s ]
+
+[ 2016-12-22T20:54:45+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002196s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0071s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `eshop_user_address` WHERE `id` = 11 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000278s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016648s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016791s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000916s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001041s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001870s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002003s ]
+
+[ 2016-12-22T20:55:57+08:00 ] ::1 /eshop/index.php/Home/UserCenter/%7Bjavascript:;%7D
+ERR: 非法操作:{javascript:;}
+
+[ 2016-12-22T20:56:10+08:00 ] ::1 /eshop/index.php/Home/UserCenter/%7Bjavascript:;%7D
+ERR: 非法操作:{javascript:;}
+
+[ 2016-12-22T20:58:34+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000920s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001840s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0147s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `eshop_user_address` WHERE `id` = 11 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011376s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011502s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000556s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000651s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001424s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001573s ]
+
+[ 2016-12-22T20:58:47+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002432s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0053s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `eshop_user_address` WHERE `id` = 11 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000168s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000342s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014129s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014249s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000717s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000795s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000803s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000886s ]
+
+[ 2016-12-22T21:02:17+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html11
+ERR: 非法操作:editAddrShow.html11
+
+[ 2016-12-22T21:11:43+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html/8
+ERR: 非法操作:editAddrShow.html
+
+[ 2016-12-22T21:12:21+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html/8
+ERR: 非法操作:editAddrShow.html
+
+[ 2016-12-22T21:19:44+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html?id=8
+ERR: 页面不存在！
+
+[ 2016-12-22T21:20:07+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html?id=8
+ERR: 页面不存在！
+
+[ 2016-12-22T21:21:56+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html?id=8
+ERR: 页面不存在！
+
+[ 2016-12-22T21:49:57+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html?id=1
+ERR: 页面不存在！
+
+[ 2016-12-22T21:50:55+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html?id=1
+ERR: 页面不存在！
+
+[ 2016-12-22T21:52:34+08:00 ] ::1 /eshop/index.php/Home/UserCenter/addressDefault.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000898s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001503s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0049s ]
+SQL: UPDATE `eshop_user_address` SET `is_first`='0',`modifytime`='1482414754' WHERE `userId` = 11 [ RunTime:0.0615s ]
+SQL: UPDATE `eshop_user_address` SET `is_first`='1',`modifytime`='1482414754' WHERE `id` = 2 [ RunTime:0.0213s ]
+
+[ 2016-12-22T21:52:42+08:00 ] ::1 /eshop/index.php/Home/UserCenter/addressDefault.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000901s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001476s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0054s ]
+SQL: SHOW COLUMNS FROM `eshop_user_address` [ RunTime:0.0061s ]
+SQL: UPDATE `eshop_user_address` SET `is_first`='0',`modifytime`='1482414761' WHERE `userId` = 11 [ RunTime:0.1534s ]
+SQL: UPDATE `eshop_user_address` SET `is_first`='1',`modifytime`='1482414761' WHERE `id` = 1 [ RunTime:0.0576s ]
+
+[ 2016-12-22T21:54:11+08:00 ] ::1 /eshop/index.php/Home/UserCenter/editAddrShow.html?id=2
+ERR: 页面不存在！
+

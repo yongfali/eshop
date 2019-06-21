@@ -1,0 +1,148 @@
+[ 2017-01-22T09:39:07+08:00 ] ::1 /eshop/index.php/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001393s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000771s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000856s ]
+
+[ 2017-01-22T09:39:31+08:00 ] ::1 /eshop/index.php/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000802s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001440s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000895s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000979s ]
+
+[ 2017-01-22T09:39:31+08:00 ] ::1 /eshop/index.php/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002348s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001452s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001615s ]
+
+[ 2017-01-22T09:39:33+08:00 ] ::1 /eshop/index.php/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001396s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000990s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001110s ]
+
+[ 2017-01-22T09:39:33+08:00 ] ::1 /eshop/index.php/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001196s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002116s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001277s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001442s ]
+
+[ 2017-01-22T09:39:34+08:00 ] ::1 /eshop/index.php/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002364s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001643s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001810s ]
+
+[ 2017-01-22T09:39:37+08:00 ] ::1 /eshop/index.php/Shoper/doLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000907s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001502s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.2680s ]
+SQL: SELECT * FROM `eshop_shoper` WHERE `name` = 'shoper3' LIMIT 1   [ RunTime:0.0746s ]
+NOTIC: [2] fopen(D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Org\Net/UTFWry.dat): failed to open stream: No such file or directory D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Org\Net\IpLocation.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `eshop_shoper_log` [ RunTime:0.0131s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `eshop_shoper_log` (`shoperId`,`action`,`ip`,`location`,`time`) VALUES ('13','登录','0.0.0.0',NULL,'1485049177') [ RunTime:0.2363s ]
+
+[ 2017-01-22T09:39:51+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-22T09:39:55+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-22T09:40:09+08:00 ] ::1 /eshop/index.php/Good/getShopCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001285s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_secondmenu` [ RunTime:0.0075s ]
+SQL: SELECT `id`,`sname` FROM `eshop_shop_secondmenu` WHERE `pid` = 1 AND `is_show` = 1  [ RunTime:0.0006s ]
+
+[ 2017-01-22T09:41:03+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-22T09:41:18+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-22T09:49:21+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-22T09:49:24+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-22T09:49:26+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-22T09:49:36+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-22T09:51:08+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-22T09:51:11+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-22T09:53:58+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-22T09:57:22+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-22T09:57:24+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-22T09:57:30+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-22T09:57:32+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-22T09:57:46+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-22T09:57:47+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-22T10:06:38+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-22T10:06:40+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-22T10:07:32+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-22T10:07:34+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-22T10:13:44+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-22T10:13:52+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-22T10:23:32+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-22T10:23:34+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-22T10:23:36+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-22T10:23:38+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+

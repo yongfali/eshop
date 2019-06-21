@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>忘记密码</title>
+<include file = "Public:common"/>
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/Css/ForgetPass/forgetPass.css">
+<script src="__PUBLIC__/Home/Js/ForgetPass/forgetPass.js"></script>
+<script type="text/javascript">
+	var checkVerify = "{:U('checkVerify')}";
+	var checkAccount = "{:U('checkAccount')}";
+	var findPwd = "{:U('findPwd')}";
+	var forgetPass2 = "{:U('foregtPwd')}";
+	var forgetPass4 = "{:U('finish')}";
+</script>
+</head>
+<body>
+<include file='Public:header'/>
+<div class="forgetPwd_wrap">
+	<div id="stepflex" class="stepflex">
+		<dl class="first doing">
+			<dt class="s-num">1</dt>
+			<dd class="s-text">填写账户名</dd>
+			<dd></dd>
+		</dl>
+		<dl class="first doing">
+			<dt class="s-num">2</dt>
+			<dd class="s-text">验证身份</dd>
+		</dl>
+		<dl class="first doing">
+			<dt class="s-num">3</dt>
+			<dd class="s-text">重置密码</dd>
+		</dl>
+		<dl class="last">
+			<dt class="s-num1">4</dt>
+			<dd class="s-text">完成</dd>
+		</dl>
+	</div>
+	<div class="forget-pwd">
+		<form  id="forgetPwdForm3" autocomplete="off">
+			<input type="hidden" id="step" name="step" class="ipt" value="3" autocomplete="off">
+			<input type="hidden" id="utype" name="utype" value="{$info['utype']}">
+			<table class="forgetPwd-table">
+				<tbody>
+					<tr>
+						<td class="info">新密码：</td>
+						<td>
+							<input class="inputs" type="password"  name="newPwd" id="newPwd" placeholder="请输入新密码" autocomplete="off">
+						</td>
+					</tr>
+					<tr>
+						<td class="info">确认密码：</td>
+						<td>
+							<input class="inputs" type="password" name="repwd" id="repwd" placeholder="再次确认密码" autocomplete="off">
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2" style="padding-left:130px;">
+							<input class="next-btn" type="submit"value="提交" >
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</form>
+	</div>
+</div>
+<include file = "Public:footer" />
+</body>
+</html>

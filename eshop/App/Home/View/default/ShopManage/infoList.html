@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>店铺管理-消息列表</title>
+<include file = "Public:common"/>
+<include file = "Good:commonnav" />
+<script src="__PUBLIC__/Home/Js/ShopManage/infoDeliver.js"></script>
+</head>
+<body>
+<include file = "Public:sheader"/>
+<div class="position_now">
+  <label><a href="index.html">首页</a></label>
+  <span>&gt</span>
+  <label>消息列表</label>
+</div>
+<div class="scenter_wrapper"> 
+  <!-- 消息列表左侧导航开始 --> 
+  <include file = "Public:scenternav"/> 
+  <!-- 消息列表左侧导航结束 --> 
+  <!-- 消息列表右侧内容显示开始 -->
+  <div class="scenter_right">
+    <div class="scenter_right_title"> <span>消息列表</span> </div>
+    <div class="scenter_right_content"> 
+      <!-- 头部检索框 -->
+      <form action="#" id="Info_Search">
+        <div class="info_list_search">
+          <label for="type">消息分类：</label>
+          <select name="type" id="type">
+            <option value="0">--请选择--</option>
+            <option value="1">资讯</option>
+            <option value="2">优惠活动</option>
+          </select>
+          <label for="title"> 消息标题：</label>
+          <input type="text" name="title" id="title" class="inputs" placeholder="输入标题进行查询">
+          <input type="button" value="查询"  class="btn" id="info_select"/>
+        </div>
+      </form>
+      <!-- 头部检索框 --> 
+      <!-- 消息列表内容展示 -->
+      <div class="info_list">
+        <div class="action_menu"> 
+          <a href="javascript:delInfo(1);"class="s-del"><span>删除</span></a> 
+        </div>
+        <div id="infoList">
+          <table class="infoList_table">
+            <thead>
+              <th width="6%"> 
+                <input type="checkbox" id="allchecked" />
+                <label for="allchecked">全选</label>
+              </th>
+              <th width="16%">标题</th>
+              <th width="8%">类型</th>
+              <th>内容简介</th>
+              <th width="10%">发布时间</th>
+              <th width="12%">操作</th>
+            </thead>
+            <tbody>
+              <empty name="infoList">
+                <tr>
+                  <td colspan="6">
+                    暂无数据！
+                  </td>
+                </tr>
+                <else/>
+                <volist name="infoList" id="item">
+                  <tr>
+                    <td><input type="checkbox" id="check-{$i}" class="infoList_check" value="{$item.id}"/>
+                    </td>
+                    <td class="info_title">
+                      <div>
+                        <span>{$item.title}</span>
+                      </div>
+                    </td>
+                    <td>
+                      <if condition="$item.type eq 1">
+                        <span>资讯</span>
+                        <else/>
+                        <span>优惠活动</span>
+                      </if>
+                    </td>
+                    <td class="info_content">
+                      <div style="text-align:left;">
+                        <span>{$item.content|html_entity_decode|mb_substr=###,0,70,'utf-8'}....</span>
+                      </div>
+                    </td>
+                    <td>
+                      <span>{$item.publish_time|date="Y-m-d ",###}</span>
+                    </td>
+                    <td>
+                      <a href="{:U('Home/Index/infoDetail',array('id' => $item['id'],'type' => $type))}" target='_blank' class="info_view" >查看</a>
+                      <a href="javascript:delInfo(0,{$item.id})" class="info_del">删除</a> 
+                      <a href="{:U('infoEdit',array('id' => $item['id']))}" class="info_edit">编辑</a>
+                    </td>
+                  </tr>
+                </volist>
+              </empty>
+            </tbody>
+          </table>
+            <!-- 分页开始 -->
+            <div class="pages">{$page}</div>
+            <!-- 分页结束 --> 
+        </div>
+      </div>
+      <!-- 消息列表内容展示 --> 
+    </div>
+  </div>
+  <!-- 消息列表右侧内容显示结束 --> 
+</div>
+<include file= "Public:footer" />
+</body>
+</html>

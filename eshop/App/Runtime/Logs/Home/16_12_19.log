@@ -1,0 +1,1097 @@
+[ 2016-12-19T10:13:33+08:00 ] ::1 /eshop/index.php/Home/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001150s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001766s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000973s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001063s ]
+
+[ 2016-12-19T10:13:40+08:00 ] ::1 /eshop/index.php/Home/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000949s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001600s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001050s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001165s ]
+
+[ 2016-12-19T10:13:40+08:00 ] ::1 /eshop/index.php/Home/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001735s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000937s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001043s ]
+
+[ 2016-12-19T12:52:36+08:00 ] ::1 /eshop/index.php/Home/UserCenter/userinfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001676s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000205s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013874s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013958s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000761s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000909s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000978s ]
+
+[ 2016-12-19T12:52:37+08:00 ] ::1 /eshop/index.php/Home/UserCenter/userinfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001620s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000217s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013582s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013662s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000698s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000762s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000928s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-19T12:52:41+08:00 ] ::1 /eshop/index.php/Home/UserCenter/userinfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000963s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001623s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000227s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014690s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014772s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000671s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000754s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000948s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001017s ]
+
+[ 2016-12-19T12:52:42+08:00 ] ::1 /eshop/index.php/Home/UserCenter/userinfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001926s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000203s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014632s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014721s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000733s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000798s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000915s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000984s ]
+
+[ 2016-12-19T12:52:42+08:00 ] ::1 /eshop/index.php/Home/UserCenter/userinfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000913s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001604s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000202s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013498s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013584s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000697s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000762s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000931s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-12-19T12:52:42+08:00 ] ::1 /eshop/index.php/Home/UserCenter/userinfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000978s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001664s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000192s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000335s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013903s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013990s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000689s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000754s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001215s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001310s ]
+
+[ 2016-12-19T14:11:44+08:00 ] ::1 /eshop/index.php/Home/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000924s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001599s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001397s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001572s ]
+
+[ 2016-12-19T14:20:13+08:00 ] ::1 /eshop/index.php/Home/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002438s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001451s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001602s ]
+
+[ 2016-12-19T14:42:07+08:00 ] ::1 /eshop/index.php/Home/UserCenter/checkuNickname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000997s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001666s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0066s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `nick` = '大漠雄鹰' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001104s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001182s ]
+
+[ 2016-12-19T14:42:59+08:00 ] ::1 /eshop/index.php/Home/UserCenter/checkuNickname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000923s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001530s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0072s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `nick` = '大漠雄鹰' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001343s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001449s ]
+
+[ 2016-12-19T14:52:04+08:00 ] ::1 /eshop/index.php/Home/UserCenter/checkuNickname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000944s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001573s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0058s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `nick` = '大漠雄鹰1' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001051s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001128s ]
+
+[ 2016-12-19T15:17:25+08:00 ] ::1 /eshop/index.php/Home/UserCenter/checkuNickname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000942s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001638s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0118s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `nick` = '大漠雄鹰1' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001466s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001590s ]
+
+[ 2016-12-19T15:19:02+08:00 ] ::1 /eshop/index.php/Home/UserCenter/checkuNickname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002389s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0095s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `nick` = '大漠雄鹰1' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001505s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001634s ]
+
+[ 2016-12-19T15:20:12+08:00 ] ::1 /eshop/index.php/Home/UserCenter/checkuNickname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002482s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0408s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `nick` = '大漠雄鹰1' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001471s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001594s ]
+
+[ 2016-12-19T15:21:38+08:00 ] ::1 /eshop/index.php/Home/UserCenter/checkuNickname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001964s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.1101s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `nick` = '大漠雄鹰1' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001306s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001393s ]
+
+[ 2016-12-19T15:24:01+08:00 ] ::1 /eshop/index.php/Home/UserCenter/checkuNickname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002808s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0805s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `nick` = '大漠雄鹰1' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001235s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001324s ]
+
+[ 2016-12-19T15:24:25+08:00 ] ::1 /eshop/index.php/Home/UserCenter/checkuNickname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001821s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0919s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `nick` = '大漠雄鹰1' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001161s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001249s ]
+
+[ 2016-12-19T15:25:03+08:00 ] ::1 /eshop/index.php/Home/UserCenter/checkuNickname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001984s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0785s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `nick` = '大漠雄鹰1' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001134s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001220s ]
+
+[ 2016-12-19T15:25:08+08:00 ] ::1 /eshop/index.php/Home/UserCenter/checkuNickname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001704s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0083s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `nick` = '大漠雄鹰2' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001586s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001714s ]
+
+[ 2016-12-19T15:25:32+08:00 ] ::1 /eshop/index.php/Home/UserCenter/checkuNickname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000959s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001592s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0070s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `nick` = '大漠雄鹰' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001138s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001227s ]
+
+[ 2016-12-19T15:25:44+08:00 ] ::1 /eshop/index.php/Home/UserCenter/checkuNickname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002148s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0086s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `nick` = '大漠雄鹰' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001295s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001466s ]
+
+[ 2016-12-19T15:25:55+08:00 ] ::1 /eshop/index.php/Home/UserCenter/checkuNickname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000949s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001603s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0059s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `nick` = '大漠雄鹰' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001136s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001215s ]
+
+[ 2016-12-19T15:28:11+08:00 ] ::1 /eshop/index.php/Home/UserCenter/checkuNickname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000940s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001584s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0070s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `nick` = '大漠雄鹰' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001471s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001584s ]
+
+[ 2016-12-19T15:28:50+08:00 ] ::1 /eshop/index.php/Home/UserCenter/checkuNickname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000943s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001616s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0104s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `nick` = '大漠雄鹰' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001072s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001152s ]
+
+[ 2016-12-19T15:29:20+08:00 ] ::1 /eshop/index.php/Home/UserCenter/checkuNickname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001684s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0095s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `nick` = '大漠雄鹰1' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001105s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001187s ]
+
+[ 2016-12-19T15:29:46+08:00 ] ::1 /eshop/index.php/Home/UserCenter/userinfoEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000984s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001657s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000938s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001017s ]
+
+[ 2016-12-19T15:30:18+08:00 ] ::1 /eshop/index.php/Home/UserCenter/checkuNickname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001858s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0735s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `nick` = '大漠雄鹰1' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001826s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002061s ]
+
+[ 2016-12-19T15:30:34+08:00 ] ::1 /eshop/index.php/Home/UserCenter/userinfoEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001156s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002100s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001060s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001169s ]
+
+[ 2016-12-19T15:30:46+08:00 ] ::1 /eshop/index.php/Home/UserCenter/userinfoEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001086s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001781s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001046s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001238s ]
+
+[ 2016-12-19T15:31:20+08:00 ] ::1 /eshop/index.php/Home/UserCenter/userinfoEdit
+ERR: 页面不存在！
+
+[ 2016-12-19T15:32:43+08:00 ] ::1 /eshop/index.php/Home/UserCenter/checkuNickname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000952s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001582s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0585s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `nick` = '大漠雄鹰1' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001441s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001544s ]
+
+[ 2016-12-19T15:32:44+08:00 ] ::1 /eshop/index.php/Home/UserCenter/userinfoEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001810s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002759s ]
+
+[ 2016-12-19T15:34:18+08:00 ] ::1 /eshop/index.php/Home/UserCenter/checkuNickname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001830s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0584s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `nick` = '大漠雄鹰1' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001167s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001250s ]
+
+[ 2016-12-19T15:34:20+08:00 ] ::1 /eshop/index.php/Home/UserCenter/userinfoEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001767s ]
+
+[ 2016-12-19T15:34:48+08:00 ] ::1 /eshop/index.php/Home/UserCenter/checkuNickname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001952s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0335s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `nick` = '大漠雄鹰1' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002344s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002561s ]
+
+[ 2016-12-19T15:34:50+08:00 ] ::1 /eshop/index.php/Home/UserCenter/userinfoEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001734s ]
+
+[ 2016-12-19T15:34:54+08:00 ] ::1 /eshop/index.php/Home/UserCenter/userinfoEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001799s ]
+
+[ 2016-12-19T15:41:44+08:00 ] ::1 /eshop/index.php/Home/UserCenter/checkuNickname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000985s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001628s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0113s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `nick` = '大漠雄鹰1' LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001192s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001291s ]
+
+[ 2016-12-19T15:51:31+08:00 ] ::1 /eshop/index.php/Home/UserCenter/userinfoEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001103s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001831s ]
+
+[ 2016-12-19T15:53:46+08:00 ] ::1 /eshop/index.php/Home/UserCenter/checkuNickname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002211s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0862s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `nick` = '大漠雄鹰1' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001129s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001209s ]
+
+[ 2016-12-19T15:53:48+08:00 ] ::1 /eshop/index.php/Home/UserCenter/userinfoEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000956s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001644s ]
+
+[ 2016-12-19T18:50:06+08:00 ] ::1 /eshop/index.php/Home/UserCenter/checkuNickname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000923s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001584s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0086s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `nick` = '大漠雄鹰1' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001251s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001406s ]
+
+[ 2016-12-19T18:50:08+08:00 ] ::1 /eshop/index.php/Home/UserCenter/checkuNickname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001355s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0081s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `nick` = '大漠雄鹰' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000897s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000979s ]
+
+[ 2016-12-19T18:50:19+08:00 ] ::1 /eshop/index.php/Home/UserCenter/checkuNickname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001337s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0095s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `nick` = '大漠雄鹰' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000812s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000886s ]
+
+[ 2016-12-19T18:50:21+08:00 ] ::1 /eshop/index.php/Home/UserCenter/checkuNickname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001349s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0077s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `nick` = '大漠雄鹰1' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000901s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001005s ]
+
+[ 2016-12-19T18:50:26+08:00 ] ::1 /eshop/index.php/Home/UserCenter/userinfoEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000739s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001397s ]
+
+[ 2016-12-19T18:50:48+08:00 ] ::1 /eshop/index.php/Home/UserCenter/checkuNickname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000729s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001407s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.1690s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `nick` = '大漠雄鹰1' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000952s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001044s ]
+
+[ 2016-12-19T18:50:50+08:00 ] ::1 /eshop/index.php/Home/UserCenter/userinfoEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000744s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001401s ]
+
+[ 2016-12-19T18:54:43+08:00 ] ::1 /eshop/index.php/Home/UserCenter/checkuNickname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001012s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001703s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0798s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `nick` = '大漠雄鹰1' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001018s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001113s ]
+
+[ 2016-12-19T18:54:45+08:00 ] ::1 /eshop/index.php/Home/UserCenter/userinfoEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000760s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001474s ]
+
+[ 2016-12-19T19:16:00+08:00 ] ::1 /eshop/index.php/Home/UserCenter/checkuNickname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002197s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0113s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `nick` = '大漠雄鹰1' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001141s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001232s ]
+
+[ 2016-12-19T19:16:02+08:00 ] ::1 /eshop/index.php/Home/UserCenter/userinfoEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002133s ]
+NOTIC: [8] Undefined variable: id D:\wampserver\wamp\www\eshop\App\Home\Controller\UserCenterController.class.php 第 67 行.
+
+[ 2016-12-19T19:18:02+08:00 ] ::1 /eshop/index.php/Home/UserCenter/checkuNickname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001765s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0646s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `nick` = '大漠雄鹰1' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001261s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001346s ]
+
+[ 2016-12-19T19:18:03+08:00 ] ::1 /eshop/index.php/Home/UserCenter/userinfoEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002094s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0070s ]
+SQL: UPDATE `eshop_user` SET `nick`='大漠雄鹰1',`trueName`='李永发',`sex`='男',`birthday`='430521199410095672',`qq`='1411387108',`tel`='18904010296' WHERE `id` = 11 [ RunTime:0.0747s ]
+
+[ 2016-12-19T19:18:15+08:00 ] ::1 /eshop/index.php/Home/UserCenter/checkuNickname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000920s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001608s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0724s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `nick` = '大漠雄鹰1' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001280s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001410s ]
+
+[ 2016-12-19T19:20:12+08:00 ] ::1 /eshop/index.php/Home/UserCenter/checkuNickname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000944s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001593s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0083s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `nick` = '大漠雄鹰2' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001102s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001181s ]
+
+[ 2016-12-19T19:20:13+08:00 ] ::1 /eshop/index.php/Home/UserCenter/userinfoEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000881s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001548s ]
+NOTIC: [8] Use of undefined constant expression - assumed 'expression' D:\wampserver\wamp\www\eshop\App\Home\Controller\UserCenterController.class.php 第 65 行.
+
+[ 2016-12-19T19:22:36+08:00 ] ::1 /eshop/index.php/Home/UserCenter/userinfoEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000892s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001545s ]
+
+[ 2016-12-19T19:23:09+08:00 ] ::1 /eshop/index.php/Home/UserCenter/checkuNickname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001561s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0768s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `nick` = '大漠雄鹰2' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001034s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001112s ]
+
+[ 2016-12-19T19:23:09+08:00 ] ::1 /eshop/index.php/Home/UserCenter/userinfoEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001775s ]
+
+[ 2016-12-19T19:23:54+08:00 ] ::1 /eshop/index.php/Home/UserCenter/checkuNickname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001485s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0945s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `nick` = '大漠雄鹰2' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001111s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001210s ]
+
+[ 2016-12-19T19:23:54+08:00 ] ::1 /eshop/index.php/Home/UserCenter/userinfoEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000876s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001503s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0061s ]
+SQL: UPDATE `eshop_user` SET `nick`='大漠雄鹰2',`trueName`='李永发',`sex`='男',`birthday`='2016-11-29',`carNum`='430521199410095672',`qq`='1411387108',`tel`='18904010296' WHERE `id` = 11 [ RunTime:0.0438s ]
+
+[ 2016-12-19T19:24:04+08:00 ] ::1 /eshop/index.php/Home/UserCenter/checkuNickname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002145s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0827s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `nick` = '大漠雄鹰2' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000943s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001027s ]
+
+[ 2016-12-19T19:25:36+08:00 ] ::1 /eshop/index.php/Home/UserCenter/checkuNickname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002332s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0080s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `nick` = '大漠雄鹰' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001681s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001772s ]
+
+[ 2016-12-19T19:25:39+08:00 ] ::1 /eshop/index.php/Home/UserCenter/userinfoEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003714s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0758s ]
+SQL: UPDATE `eshop_user` SET `nick`='大漠雄鹰',`trueName`='李永发',`sex`='男',`birthday`='2016-11-29',`carNum`='430521199410095672',`qq`='1411387108',`tel`='18904010296' WHERE `id` = 11 [ RunTime:0.0502s ]
+
+[ 2016-12-19T19:26:01+08:00 ] ::1 /eshop/index.php/Home/UserCenter/checkuNickname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002650s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0878s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `nick` = '大漠雄鹰' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001378s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001500s ]
+
+[ 2016-12-19T19:26:11+08:00 ] ::1 /eshop/index.php/Home/UserCenter/checkuNickname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000852s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001476s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0075s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `nick` = '大漠雄鹰1' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001034s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001117s ]
+
+[ 2016-12-19T19:26:11+08:00 ] ::1 /eshop/index.php/Home/UserCenter/userinfoEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000869s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001520s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0729s ]
+SQL: UPDATE `eshop_user` SET `nick`='大漠雄鹰1',`trueName`='李永发',`sex`='男',`birthday`='2016-11-29',`carNum`='430521199410095672',`qq`='1411387108',`tel`='18904010296' WHERE `id` = 11 [ RunTime:0.0326s ]
+
+[ 2016-12-19T19:26:20+08:00 ] ::1 /eshop/index.php/Home/UserCenter/checkuNickname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000893s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001580s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0087s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `nick` = '大漠雄鹰1' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001425s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001557s ]
+
+[ 2016-12-19T19:26:23+08:00 ] ::1 /eshop/index.php/Home/UserCenter/checkuNickname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000881s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001607s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0074s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `nick` = '大漠雄鹰' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001359s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001456s ]
+
+[ 2016-12-19T19:26:24+08:00 ] ::1 /eshop/index.php/Home/UserCenter/userinfoEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001487s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0716s ]
+SQL: UPDATE `eshop_user` SET `nick`='大漠雄鹰',`trueName`='李永发',`sex`='男',`birthday`='2016-11-29',`carNum`='430521199410095672',`qq`='1411387108',`tel`='18904010296' WHERE `id` = 11 [ RunTime:0.1105s ]
+
+[ 2016-12-19T20:04:06+08:00 ] ::1 /eshop/index.php/Home/UserCenter/checkuNickname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001007s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001729s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0084s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `nick` = '大漠雄鹰' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001121s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001201s ]
+
+[ 2016-12-19T20:12:18+08:00 ] ::1 /eshop/index.php/Home/UserCenter/checkuNickname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001559s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0075s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `nick` = '大漠雄鹰1' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001208s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001301s ]
+
+[ 2016-12-19T20:12:21+08:00 ] ::1 /eshop/index.php/Home/UserCenter/userinfoEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000997s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001634s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0802s ]
+SQL: UPDATE `eshop_user` SET `nick`='大漠雄鹰1',`trueName`='李永发',`sex`='男',`birthday`='2016-11-29',`carNum`='430521199410095672',`qq`='1411387108',`tel`='18904010296' WHERE `id` = 11 [ RunTime:0.0539s ]
+
+[ 2016-12-19T20:13:08+08:00 ] ::1 /eshop/index.php/Home/UserCenter/checkuNickname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000925s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001569s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0093s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `nick` = '大漠雄鹰' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001835s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001967s ]
+
+[ 2016-12-19T20:13:09+08:00 ] ::1 /eshop/index.php/Home/UserCenter/userinfoEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000870s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001429s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0073s ]
+SQL: UPDATE `eshop_user` SET `nick`='大漠雄鹰',`trueName`='李永发',`sex`='男',`birthday`='2016-11-29',`carNum`='430521199410095672',`qq`='1411387108',`tel`='18904010296' WHERE `id` = 11 [ RunTime:0.0444s ]
+
+[ 2016-12-19T20:14:10+08:00 ] ::1 /eshop/index.php/Home/UserCenter/checkuNickname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000901s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001529s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0088s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `nick` = '大漠雄鹰1' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001066s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001162s ]
+
+[ 2016-12-19T20:14:10+08:00 ] ::1 /eshop/index.php/Home/UserCenter/userinfoEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000906s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001599s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0217s ]
+SQL: UPDATE `eshop_user` SET `nick`='大漠雄鹰1',`trueName`='李永发',`sex`='男',`birthday`='2016-11-29',`carNum`='430521199410095672',`qq`='1411387108',`tel`='18904010296' WHERE `id` = 11 [ RunTime:0.0479s ]
+
+[ 2016-12-19T20:14:54+08:00 ] ::1 /eshop/index.php/Home/UserCenter/checkuNickname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000937s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001551s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0079s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `nick` = '大漠雄鹰' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001310s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001398s ]
+
+[ 2016-12-19T20:14:55+08:00 ] ::1 /eshop/index.php/Home/UserCenter/userinfoEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001868s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.1241s ]
+SQL: UPDATE `eshop_user` SET `nick`='大漠雄鹰',`trueName`='李永发',`sex`='男',`birthday`='2016-11-29',`carNum`='430521199410095672',`qq`='1411387108',`tel`='18904010296' WHERE `id` = 11 [ RunTime:0.0444s ]
+
+[ 2016-12-19T20:16:19+08:00 ] ::1 /eshop/index.php/Home/UserCenter/checkuNickname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000920s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001538s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0072s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `nick` = '大漠雄鹰1' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001444s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001565s ]
+
+[ 2016-12-19T20:16:19+08:00 ] ::1 /eshop/index.php/Home/UserCenter/userinfoEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000942s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001549s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0079s ]
+SQL: UPDATE `eshop_user` SET `nick`='大漠雄鹰1',`trueName`='李永发',`sex`='男',`birthday`='2016-11-29',`carNum`='430521199410095672',`qq`='1411387108',`tel`='18904010296' WHERE `id` = 11 [ RunTime:0.0478s ]
+NOTIC: [2] fopen(D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Org\Net/UTFWry.dat): failed to open stream: No such file or directory D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Org\Net\IpLocation.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `eshop_user_log` [ RunTime:0.0072s ]
+SQL: INSERT INTO `eshop_user_log` (`userId`,`action`,`ip`,`location`,`time`) VALUES ('11','修改个人信息','0.0.0.0',NULL,'1482149779') [ RunTime:0.0421s ]
+
+[ 2016-12-19T20:18:02+08:00 ] ::1 /eshop/index.php/Home/UserCenter/checkuNickname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001728s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0982s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `nick` = '大漠雄鹰1' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001143s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001238s ]
+
+[ 2016-12-19T20:18:06+08:00 ] ::1 /eshop/index.php/Home/UserCenter/checkuNickname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000921s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001509s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0084s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `nick` = '大漠雄鹰' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001439s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001545s ]
+
+[ 2016-12-19T20:18:08+08:00 ] ::1 /eshop/index.php/Home/UserCenter/userinfoEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000944s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001546s ]
+
+[ 2016-12-19T20:18:09+08:00 ] ::1 /eshop/index.php/Home/UserCenter/userinfoEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000931s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001555s ]
+
+[ 2016-12-19T20:18:10+08:00 ] ::1 /eshop/index.php/Home/UserCenter/userinfoEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000926s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001542s ]
+
+[ 2016-12-19T20:18:10+08:00 ] ::1 /eshop/index.php/Home/UserCenter/userinfoEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000920s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001510s ]
+
+[ 2016-12-19T20:18:10+08:00 ] ::1 /eshop/index.php/Home/UserCenter/userinfoEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001550s ]
+
+[ 2016-12-19T20:18:33+08:00 ] ::1 /eshop/index.php/Home/UserCenter/userinfoEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002108s ]
+
+[ 2016-12-19T20:18:42+08:00 ] ::1 /eshop/index.php/Home/UserCenter/checkuNickname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000969s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001602s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0716s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `nick` = '大漠雄鹰' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001133s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001220s ]
+
+[ 2016-12-19T20:18:43+08:00 ] ::1 /eshop/index.php/Home/UserCenter/userinfoEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000875s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001406s ]
+
+[ 2016-12-19T20:19:23+08:00 ] ::1 /eshop/index.php/Home/UserCenter/checkuNickname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002507s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.1002s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `nick` = '大漠雄鹰' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001431s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001540s ]
+
+[ 2016-12-19T20:19:24+08:00 ] ::1 /eshop/index.php/Home/UserCenter/userinfoEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000956s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001560s ]
+
+[ 2016-12-19T20:21:39+08:00 ] ::1 /eshop/index.php/Home/UserCenter/checkuNickname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001760s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0987s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `nick` = '大漠雄鹰' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001113s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001203s ]
+
+[ 2016-12-19T20:21:40+08:00 ] ::1 /eshop/index.php/Home/UserCenter/userinfoEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000957s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001607s ]
+
+[ 2016-12-19T20:22:18+08:00 ] ::1 /eshop/index.php/Home/UserCenter/checkuNickname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001083s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001977s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0757s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `nick` = '大漠雄鹰' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001128s ]
+
+[ 2016-12-19T20:22:18+08:00 ] ::1 /eshop/index.php/Home/UserCenter/userinfoEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001665s ]
+
+[ 2016-12-19T20:22:34+08:00 ] ::1 /eshop/index.php/Home/UserCenter/userinfoEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000940s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001634s ]
+
+[ 2016-12-19T20:23:45+08:00 ] ::1 /eshop/index.php/Home/UserCenter/userinfoEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000958s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001632s ]
+
+[ 2016-12-19T20:25:22+08:00 ] ::1 /eshop/index.php/Home/UserCenter/checkuNickname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002231s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0398s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `nick` = '大漠雄鹰' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001065s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001163s ]
+
+[ 2016-12-19T20:25:23+08:00 ] ::1 /eshop/index.php/Home/UserCenter/userinfoEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001710s ]
+
+[ 2016-12-19T20:37:48+08:00 ] ::1 /eshop/index.php/Home/UserCenter/checkuNickname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001765s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0072s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `nick` = '大漠雄鹰' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001259s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001355s ]
+
+[ 2016-12-19T20:37:50+08:00 ] ::1 /eshop/index.php/Home/UserCenter/checkuNickname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000947s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001595s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0067s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `nick` = '大漠雄鹰1' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001160s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001242s ]
+
+[ 2016-12-19T20:48:55+08:00 ] ::1 /eshop/index.php/Home/UserCenter/checkuNickname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003573s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0059s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `nick` = '大漠雄鹰1' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001147s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001230s ]
+
+[ 2016-12-19T20:49:08+08:00 ] ::1 /eshop/index.php/Home/UserCenter/checkuNickname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000910s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001593s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0067s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `nick` = '大漠雄鹰' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001311s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001419s ]
+
+[ 2016-12-19T20:49:17+08:00 ] ::1 /eshop/index.php/Home/UserCenter/userinfoEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000981s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001659s ]
+
+[ 2016-12-19T20:49:41+08:00 ] ::1 /eshop/index.php/Home/UserCenter/checkuNickname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002194s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003417s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0706s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `nick` = '大漠雄鹰' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001376s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001469s ]
+
+[ 2016-12-19T20:49:41+08:00 ] ::1 /eshop/index.php/Home/UserCenter/userinfoEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000945s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001574s ]
+
+[ 2016-12-19T20:50:22+08:00 ] ::1 /eshop/index.php/Home/UserCenter/checkuNickname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002987s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0695s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `nick` = '大漠雄鹰' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001295s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001442s ]
+
+[ 2016-12-19T20:50:22+08:00 ] ::1 /eshop/index.php/Home/UserCenter/userinfoEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001762s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003074s ]
+
+[ 2016-12-19T20:50:53+08:00 ] ::1 /eshop/index.php/Home/UserCenter/checkuNickname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000941s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001599s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0611s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `nick` = '大漠雄鹰' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001263s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001364s ]
+
+[ 2016-12-19T20:50:53+08:00 ] ::1 /eshop/index.php/Home/UserCenter/userinfoEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000863s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001475s ]
+
+[ 2016-12-19T20:53:38+08:00 ] ::1 /eshop/index.php/Home/UserCenter/checkuNickname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003384s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0357s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `nick` = '大漠雄鹰' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001314s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001434s ]
+
+[ 2016-12-19T20:53:38+08:00 ] ::1 /eshop/index.php/Home/UserCenter/userinfoEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000864s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001484s ]
+
+[ 2016-12-19T20:57:45+08:00 ] ::1 /eshop/index.php/Home/UserCenter/checkuNickname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000938s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001616s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0751s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `nick` = '大漠雄鹰' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001272s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001395s ]
+
+[ 2016-12-19T20:57:45+08:00 ] ::1 /eshop/index.php/Home/UserCenter/userinfoEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001466s ]
+
+[ 2016-12-19T20:58:24+08:00 ] ::1 /eshop/index.php/Home/UserCenter/userinfoEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001773s ]
+
+[ 2016-12-19T20:59:05+08:00 ] ::1 /eshop/index.php/Home/UserCenter/checkuNickname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002388s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0938s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `nick` = '大漠雄鹰' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001590s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001745s ]
+
+[ 2016-12-19T20:59:05+08:00 ] ::1 /eshop/index.php/Home/UserCenter/userinfoEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000943s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001679s ]
+
+[ 2016-12-19T20:59:31+08:00 ] ::1 /eshop/index.php/Home/UserCenter/checkuNickname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001165s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001983s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0755s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `nick` = '大漠雄鹰' LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001243s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001356s ]
+
+[ 2016-12-19T20:59:31+08:00 ] ::1 /eshop/index.php/Home/UserCenter/userinfoEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000943s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001641s ]
+
+[ 2016-12-19T21:01:27+08:00 ] ::1 /eshop/index.php/Home/UserCenter/checkuNickname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000924s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001749s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0685s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `nick` = '大漠雄鹰' LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001277s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001374s ]
+
+[ 2016-12-19T21:01:27+08:00 ] ::1 /eshop/index.php/Home/UserCenter/userinfoEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001094s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001937s ]
+
+[ 2016-12-19T21:13:46+08:00 ] ::1 /eshop/index.php/Home/UserCenter/checkuNickname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001782s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0079s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `nick` = '大漠雄鹰1' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001125s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001207s ]
+
+[ 2016-12-19T21:14:00+08:00 ] ::1 /eshop/index.php/Home/UserCenter/ucenter_orders.html
+ERR: 非法操作:ucenter_orders
+

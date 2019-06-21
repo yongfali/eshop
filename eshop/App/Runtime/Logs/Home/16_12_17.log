@@ -1,0 +1,42 @@
+[ 2016-12-17T10:25:51+08:00 ] ::1 /eshop/index.php
+ERR: XML标签语法错误
+
+[ 2016-12-17T11:25:44+08:00 ] ::1 /eshop/index.php/Home/User/1.html
+ERR: 非法操作:1
+
+[ 2016-12-17T11:29:23+08:00 ] ::1 /eshop/index.php/Home/UserCenter/index.html
+ERR: 模板不存在:./App/Home/View/default/UserCenter/index.html
+
+[ 2016-12-17T11:30:47+08:00 ] ::1 /eshop/index.php/Home/UserCenter/common/css/common.css
+ERR: 非法操作:common
+
+[ 2016-12-17T11:30:47+08:00 ] ::1 /eshop/index.php/Home/UserCenter/css/center.css
+ERR: 非法操作:css
+
+[ 2016-12-17T11:30:47+08:00 ] ::1 /eshop/index.php/Home/UserCenter/css/ucenter.css
+ERR: 非法操作:css
+
+[ 2016-12-17T11:30:47+08:00 ] ::1 /eshop/index.php/Home/UserCenter/common/js/import.js
+ERR: 非法操作:common
+
+[ 2016-12-17T11:41:26+08:00 ] ::1 /eshop/index.php/Home/UserCenter/ucenter_orders.html
+ERR: 非法操作:ucenter_orders
+
+[ 2016-12-17T11:45:34+08:00 ] ::1 /eshop/index.php/Home/UserCenter/ucenter_account.html
+ERR: 非法操作:ucenter_account
+
+[ 2016-12-17T11:45:34+08:00 ] ::1 /eshop/index.php/Home/UserCenter/ucenter_account.html
+ERR: 非法操作:ucenter_account
+
+[ 2016-12-17T11:46:30+08:00 ] ::1 /eshop/index.php/Home/UserCenter/ucenter_collection.html
+ERR: 非法操作:ucenter_collection
+
+[ 2016-12-17T11:46:43+08:00 ] ::1 /eshop/index.php/Home/UserCenter/shoper_login.html
+ERR: 非法操作:shoper_login
+
+[ 2016-12-17T11:47:48+08:00 ] ::1 /eshop/index.php/Home/Index/lists.html
+ERR: 非法操作:lists
+
+[ 2016-12-17T11:50:43+08:00 ] ::1 /eshop/index.php/Home/Index/more_info.html
+ERR: 非法操作:more_info
+

@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>商家注册</title>
+<include file = "Public:common"/>
+<link rel="stylesheet" type="text/css"
+  href="__PUBLIC__/Home/Css/regist.css" />
+<script src="__PUBLIC__/Home/Js/scrollable.js"></script>
+<script src="__PUBLIC__/Home/Js/shoperRegist.js"></script>
+<script >
+  var checkShoperName = "{:U('checkShoperName')}";
+  var checkShoperEmail = "{:U('checkShoperEmail')}";
+  var checkShopName = "{:U('checkShopName')}";
+  var checkVerify = "{:U('checkVerify')}";
+  var shoperLoginIndex = "{:U('index')}";
+  var doShoperRegist = "{:U('doRegist')}";
+</script>
+</head>
+<body>
+<include file = "Public:header" />
+<div class="position_now">
+  <label><a href="index.html">首页</a></label>
+  <span>&gt</span>
+  <label>商家注册</label>
+</div>
+<div id='reg-wrap'>
+  <form action="" method='post' id="shop_regist">
+    <div id="wizard">
+      <ul id="status">
+        <li class="active"><strong>1.</strong>创建账户</li>
+        <li><strong>2.</strong>商家基本信息</li>
+        <li><strong>3.</strong>店铺基本信息</li>
+        <li><strong>4.</strong>完成</li>
+      </ul>
+      <div class="items">
+        <div class="page" id="page1">
+          <h3>创建一个账户<br/>
+            <em>请填写您的注册账户信息，用于登录。</em></h3>
+          <p>
+            <label><span>*</span>商户名：</label>
+            <input type="text" class="input" id="s_account" name="s_account" />
+          </p>
+          <p>
+            <label><span>*</span>密码：</label>
+            <input type="password" class="input" id="s_pwd" name="s_pwd" />
+          </p>
+          <p>
+            <label><span>*</span>确认密码：</label>
+            <input type="password" class="input" id="s_pwded" name="s_pwded" />
+          </p>
+          <p>
+            <label><span>*</span>E-mail：</label>
+            <input type="email" class="input" id="s_email" name="s_email" />
+          </p>
+          <div class="btn_nav">
+            <input type="button" class="next" value="下一步" id="ee" />
+          </div>
+        </div>
+        <div class="page">
+          <h3>填写商家基本信息<br/>
+            <em><span style="color:red">*</span>选项为必填项，信息越完善越有利于通过审核</em></h3>
+          <p>
+            <label><span>*</span>真实姓名：</label>
+            <input type="text" class="input" name="trueName" id="trueName" />
+          </p>
+          <p>
+            <label><span>*</span>身份证号：</label>
+            <input type="text" class="input" name="carNum" />
+          </p>
+          <p>
+            <label>性别：</label>
+            <input type="radio"  name="sex" value="男" />
+            <span class="sex">男</span>
+            <input type="radio"  name="sex" value="女" />
+            <span class="sex">女</span>
+            <input type="radio"  name="sex" value="保密" checked="checked" />
+            <span class="sex">保密</span> </p>
+          <p>
+            <label>出生日期：</label>
+            <input class="Wdate input" type="text" onClick="WdatePicker()" name="birthday" id="birtd">
+          </p>
+          <p>
+            <label>QQ：</label>
+            <input type="text" class="input" name="qq" />
+          </p>
+          <p>
+            <label><span>*</span>手机号码：</label>
+            <input type="text" class="input" name="mobile" />
+          </p>
+          <div class="btn_nav">
+            <input type="button" class="prev" style="float:left" value="上一步" />
+            <input type="button" class="next right" value="下一步" />
+          </div>
+        </div>
+        <div class="page">
+          <h3>填写店铺基本信息<br/>
+            <em>先给您的店铺取一个响亮的名字，后期还可完善基本信息</em></h3>
+          <p>
+            <label><span>*</span>店铺名：</label>
+            <input type="text" class="input" name="shopname" id="shopname" />
+          </p>
+          <p>
+            <label>服务QQ：</label>
+            <input type="text" class="input" name="service_qq" />
+          </p>
+          <p>
+            <label>服务热线：</label>
+            <input type="text" class="input" name="service_tel" />
+          </p>
+          <div class="btn_nav">
+            <input type="button" class="prev" style="float:left" value="上一步" />
+            <input type="button" class="next right" value="下一步" />
+          </div>
+        </div>
+        <div class="page">
+          <h3>完成注册<br/>
+            <em>点击确定完成注册。</em></h3>
+          <h4>eshop欢迎您前来注册！</h4>
+          <p>若确认信息无误后，同意用户注册协议然后请点击“注册”按钮完成注册。</p>
+          <p>
+            <label for="verify">验证码：</label>
+            <input type="text" name='verify'  id='verify'
+          class='input'/>
+            <img src="{:U('verify')}" width='137px' height='38px' id='s_verufyImg' /> </p>
+          <p class="sprotocol">
+            <input type="checkbox" id="protocol" name="protocol" class="R_protocol" value="1" />
+            <span>我已阅读并同意</span> <a href="javascript:;" id="protocolInfo" onClick="show();"><span>《商家注册协议》</span></a> <a href="{:U('index')}"><span class="">已有账号？点击登录</span></a> </p>
+          <div class="btn_nav">
+            <input type="button" class="prev" style="float:left" value="上一步" />
+            <input type="submit" class="next right" value="注册" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+<include file = "Public:footer" />
+</body>
+</html>

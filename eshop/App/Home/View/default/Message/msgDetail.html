@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>
+  <if condition="$Think.session.type eq 1">
+    商户中心-商家消息
+    <else/>
+    用户中心-用户消息
+  </if>
+</title>
+<include file = "Public:common"/>
+<if condition="$Think.session.type eq 1">
+ <include file = "Good:commonnav" />
+ <else/>
+ <include file='Public:ucenterlink'/>
+</if>
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/Css/Message/message.css">
+</head>
+<body>
+  <if condition="$Think.session.type eq 1">
+   <include file = "Public:sheader"/>
+   <else/>
+   <include file = "Public:header"/>
+ </if>
+<div class="position_now">
+  <label><a href="index.html">首页</a></label>
+  <span>&gt</span>
+  <label>详细内容</label>
+</div>
+<div class="<if condition="$Think.session.type eq 1">scenter_wrapper<else/>ucenter_wrapper</if>"> 
+  <!-- 左侧导航开始 --> 
+  <if condition="$Think.session.type eq 1">
+    <include file = "Public:scenternav"/> 
+    <else/>
+    <include file = "Public:ucenternav"/> 
+  </if>
+  <!-- 左侧导航结束 --> 
+  <!-- 右侧内容显示开始 -->
+  <div class="<if condition="$Think.session.type eq 1">scenter_right<else/>ucenter_right</if>">
+    <div class="<if condition="$Think.session.type eq 1">scenter_right_title<else/>ucenter_right_title</if>"> <span>详细内容</span> </div>
+    <div class="msg-detail">
+    	<span>{$msgInfo.content}</span>
+      <span style="display:block;">发送时间：{$msgInfo.sendtime|date="Y-m-d H：m",###}</span>
+    </div>
+  </div>
+  <!-- 右侧内容显示结束 --> 
+</div>
+<include file= "Public:footer" />
+</body>
+</html>

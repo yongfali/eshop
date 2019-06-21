@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>待发货订单</title>
+<include file = "Public:common"/>
+<include file = "Good:commonnav" />
+<script src="__PUBLIC__/Home/Js/Order/order.js"></script>
+</head>
+<body>
+<include file = "Public:sheader"/>
+<div class="position_now">
+  <label><a href="{:U('Home/Index/index')}" target="_blankx">首页</a></label>
+  <span>&gt</span>
+  <label>待发货订单</label>
+</div>
+<div class="scenter_wrapper"> 
+  <!-- 交易管理左侧导航开始 --> 
+  <include file = "Public:scenternav"/> 
+  <!-- 交易管理左侧导航结束 --> 
+  <!-- 交易管理右侧内容显示开始 -->
+  <div class="scenter_right">
+    <div class="scenter_right_title"> <span>待发货订单</span> 
+    </div>
+    <div class="scenter_right_content"> 
+      <!-- 头部检索框 -->
+      <form action=" " id="order_search">
+        <div class="auth_good_search">
+          <label for="cat1">支付方式：</label>
+          <select name="cat1" id="cat1">
+            <option value="0">--请选择--</option>
+            <option value="1">支付宝支付</option>
+            <option value="2">微信支付</option>
+            <option value="3">银联支付</option>
+            <option value="4">其它方式支付</option>
+          </select>
+          <label for="orderNum">订单编号：</label>
+          <input type="text" name="orderNum" id="orderNum" class="inputs" placeholder="输入订单编号进行查询" autocomplete="off">
+          <input type="button" value="查询"  class="btn" id="order_select" types="waitDelivery"/>
+        </div>
+      </form>
+      <!-- 头部检索框 -->  
+      <!-- 待付款订单内容展示 -->
+      <div class="waitPay_order_list">
+        <div id="Orders_List_Contetn">
+          <table class="orders_table">
+            <thead>
+              <th width="53%">订单详情</th>
+              <th width="10%">支付方式</th>
+              <th width="10%">配送方式</th>
+              <th width="17%">总金额</th>
+              <th width="10%">操作</th>
+            </thead>
+            <empty name="lists">
+              <tbody>
+                <tr style="line-height:36px;text-align:center; color:red;"><td colspan="6">暂没有待发货订单！！！</td></tr>
+              </tbody>
+              <else/>
+              <volist name="lists" id="item">
+                <tbody class="orders_items">
+                  <tr class="orders_head">
+                    <td colspan="6">
+                      <div class="order_time">
+                        <span>订单编号：{$item.ordernum}</span>&nbsp;&nbsp;&nbsp;&nbsp;
+                        <span>下单时间：{$item.create_time|date="Y-m-d  H：i：s",###}</span>
+                      </div>
+                      <div class="order_status">等待发货</div>
+                    </td>
+                  </tr>
+                  <tr class="orders_info">
+                    <td class="line" style="padding:0px 5px;">
+                      <div class="good_img">
+                        <a href="{:U('Home/Index/goodsInfo',array('id'=>$item['goodid']))}" target="_blank">
+                          <img src="{$item.goodimg}">
+                        </a>
+                      </div>
+                      <div class="good_detail">
+                        <span>
+                         {$item.goodname}
+                        </span>
+                      </div>
+                      <div class="good_num">
+                        <span>&yen;{$item.goodprice}&times;{$item.goodnum}</span>
+                      </div>
+                    </td>
+                    <td class="line">
+                      <if condition="$item.paytype eq 1">
+                        <span>支付宝</span>
+                        <elseif condition ="$item.paytype eq 2"/>
+                        <span>微信</span>
+                        <elseif condition ="$item.paytype eq 3"/>
+                        <span>银联</span>
+                        <else/>
+                        <span>其它支付方式</span>
+                      </if>
+                    </td>
+                    <td class="line"><span>京东配送</span></td>
+                    <td class="line">
+                      <div class="money_item">
+                        商品金额：&yen;{$item.goodsmoney}
+                      </div>
+                      <div class="money_item">运费：&yen;{$item.delivermoney}</div>
+                      <div class="money_item">实付金额：<span style="color:red;">&yen;{$item.totalmoney}</span></div>
+                    </td>
+                    <td class="orders_action">
+                      <a href="javascript:void(0)" onclick="orderDeliver({$item['orderid']})">发货</a>
+                      <a href="{:U('Home/ShopOrders/orderDetail',array('orderId' => $item['orderid']))}">订单详情</a>
+                    </td>
+                  </tr>
+                </tbody>
+              </volist>
+            </empty>
+          </table>
+          <!-- 分页开始 -->
+          <div class="pages">{$page}</div>
+          <!-- 分页结束 --> 
+        </div>
+      </div>
+      <!-- 待付款订单内容展示 --> 
+    </div>
+  </div>
+  <!-- 交易管理右侧内容显示结束 --> 
+</div>
+<include file= "Public:footer" />
+</body>
+</html>

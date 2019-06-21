@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>用户中心-订单评价</title>
+<include file = "Public:common"/>
+<include file='Public:ucenterlink'/>
+<script src="__PUBLIC__/Home/Js/Order/appraise.js"></script>
+<script type="text/javascript">
+	var appraiseDo = "{:U('orderAppraiseDo')}";
+    var orderAppraised = "{:U('appraised')}";
+</script>
+</head>
+<body>
+<include file = "Public:header"/>
+<div class="position_now">
+  <label><a href="{:U('Home/Index/index')}" target="_blankx">首页</a></label>
+  <span>&gt</span>
+  <label>订单评价</label>
+</div>
+<div class="ucenter_wrapper"> 
+  <!-- 交易管理左侧导航开始 --> 
+  <include file = "Public:ucenternav"/> 
+  <!-- 交易管理左侧导航结束 --> 
+  <!-- 交易管理右侧内容显示开始 -->
+  <div class="ucenter_right">
+    <div class="ucenter_right_title"> <span>订单评价</span> 
+    </div>
+    <div class="ucenter_right_content"> 
+    	<div class="appraise-wrapper">
+    		<div class="appraise-wrapper-left">
+    			<div class="order-img">
+    				<h3>商品图片</h3>
+    				<a href="{:U('Home/Index/goodsInfo',array('id'=>$orderInfo['goodid']))}" target="_blank"><img src="{$orderInfo.goodimg}"style="width:120px;height:120px;"></a>
+    			</div>
+    			<div class="order-infos">
+    				<h3>订单基本信息</h3>
+    				<span>订单号：{$orderInfo.ordernum}</span>
+    				<span>订单金额：{$orderInfo.totalmoney}</span>
+    				<span>商家：{$orderInfo.name}</span>
+    				<span>下单时间：{$orderInfo.create_time|date='Y-m-d H:i:s',###}</span>
+    				<span>收货时间：{$orderInfo.confirmtime|date='Y-m-d H:i:s',###}</span>
+    			</div>
+    		</div>
+    		<div class="appraise-wrapper-right">
+    			<form action=" " method="post" id="appraiseForm">
+    				<div class="stars" value="0" id="goodScore"> 
+    					<label><span class="a-item">*</span>商品评价：</label> 
+    					<img src="__PUBLIC__/Home/Icon/star_gray.png"/> 
+    					<img src="__PUBLIC__/Home/Icon/star_gray.png"/> 
+    					<img src="__PUBLIC__/Home/Icon/star_gray.png"/> 
+    					<img src="__PUBLIC__/Home/Icon/star_gray.png"/> 
+    					<img src="__PUBLIC__/Home/Icon/star_gray.png"/> 
+    				</div> 
+    				<div class="stars" value="0" id="logisticsScore"> 
+    					<label><span class="a-item">*</span>物流评价：</label> 
+    					<img src="__PUBLIC__/Home/Icon/star_gray.png"/> 
+    					<img src="__PUBLIC__/Home/Icon/star_gray.png"/> 
+    					<img src="__PUBLIC__/Home/Icon/star_gray.png"/> 
+    					<img src="__PUBLIC__/Home/Icon/star_gray.png"/> 
+    					<img src="__PUBLIC__/Home/Icon/star_gray.png"/> 
+    				</div> 
+    				<div class="stars" value="0" id="serviceScore"> 
+    					<label><span class="a-item">*</span>客服评价：</label> 
+    					<img src="__PUBLIC__/Home/Icon/star_gray.png"/> 
+    					<img src="__PUBLIC__/Home/Icon/star_gray.png"/> 
+    					<img src="__PUBLIC__/Home/Icon/star_gray.png"/> 
+    					<img src="__PUBLIC__/Home/Icon/star_gray.png"/> 
+    					<img src="__PUBLIC__/Home/Icon/star_gray.png"/> 
+    				</div>
+    				<div class="appraise-content">
+    					<label ><span class="a-item">*</span>内容：</label> 
+    					<textarea id="contents"class="inputs" placeholder="评价内容为必填项，且评价内容不少于6且不能大于150个字！" autocomplete="off"></textarea>
+    				</div>
+    				<div>
+    					<input type="button" value="评论" class="btn" style="margin-top:30px;" id="appraiseSubmit"/>
+    					<input type="hidden" name="orderId" value="{$orderInfo.orderid}" id="orderId"/>
+    					<input type="hidden" name="goodId" value="{$orderInfo.goodid}" id="goodId"/>
+    					<input type="hidden" name="shopId" value="{$orderInfo.shopid}" id="shopId"/>
+    					<span style="color:red;">（暂不支持发表图片，后期我们会完善的，敬请期待！！！）</span>
+    				</div>
+    			</form>
+    		</div>
+    	</div>
+    </div>
+  </div>
+  <!-- 交易管理右侧内容显示结束 --> 
+</div>
+<include file= "Public:footer" />
+</body>
+</html>

@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>忘记密码</title>
+<include file = "Public:common"/>
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/Css/ForgetPass/forgetPass.css">
+<script src="__PUBLIC__/Home/Js/ForgetPass/forgetPass.js"></script>
+<script type="text/javascript">
+	var checkVerify = "{:U('checkVerify')}";
+	var checkAccount = "{:U('checkAccount')}";
+	var findPwd = "{:U('findPwd')}";
+	var forgetPass2 = "{:U('foregtPwd')}";
+	var forgetPass3 = "{:U('resetPwd')}";
+</script>
+</head>
+<body>
+<include file='Public:header'/>
+<div class="forgetPwd_wrap">
+	<div id="stepflex" class="stepflex">
+		<dl class="first doing">
+			<dt class="s-num">1</dt>
+			<dd class="s-text">填写账户名</dd>
+			<dd></dd>
+		</dl>
+		<dl class="first doing">
+			<dt class="s-num">2</dt>
+			<dd class="s-text">验证身份</dd>
+		</dl>
+		<dl class="normal">
+			<dt class="s-num1">3</dt>
+			<dd class="s-text">重置密码</dd>
+		</dl>
+		<dl class="last">
+			<dt class="s-num1">4</dt>
+			<dd class="s-text">完成</dd>
+		</dl>
+	</div>
+	<div class="forget-pwd">
+		<form  id="forgetPwdForm2" autocomplete="off" method="post">
+			<input type="hidden" id="step" name="step" value="2" autocomplete="off">
+			<input type="hidden" id="utype" name="utype" value="{$info['utype']}">
+			<table class="forgetPwd-table">
+				<tbody>
+					<tr>
+						<td class="infos">请选择找回方式</td>
+						<td>
+							<select class="forget-select" name="type" id="find-type">
+								<option value="email">邮箱</option>
+								<option value="phone">手机</option>
+							</select>
+						</td>
+					</tr>
+					<tr style="height:24px;">
+						<td class="infos">身份：</td>
+						<td>
+							<span>
+								<switch name="info.utype">
+									<case value="shoper">商家</case>
+									<default />会员
+								</switch>
+							</span>
+						</td>
+					</tr>
+					<tr style="height:24px;">
+						<td class="infos">账号：</td>
+						<td>
+							<span>{$info.name}</span>
+						</td>
+					</tr>
+					<tr class="phone-verify" style=" display:none;height:24px;">
+						<td class="infos">
+							您当前的手机号为：
+						</td>
+						<td>
+							{:hiddenMessage($info['tel'])}
+						</td>
+					</tr>
+					<tr class="phone-verify" style="text-align:center; display:none;">
+						<td colspan="2">
+							<span style="color:red;">&nbsp;&nbsp;暂不支持手机找回密码，请选择邮箱找回！！！</span>
+						</td>
+					</tr>
+					<tr class="email-verify" style="height:24px;">
+						<td class="infos">
+							您当前的邮箱号为：
+						</td>
+						<td>{:hiddenMessage($info['email'])}</td>
+					</tr>
+					<tr class="email-verify">
+						<td class="infos">验证码：</td>
+						<td>
+							<input type="text" name="emailVerifyCode" id="emailVerifyCode" class="inputs" style="width:100px;"/>
+							<input id="sendCode" type="button" value="获取验证码" class="next-btn" style="width: 130px;height:36px;" onclick="getCode()"/>
+						</td>
+					</tr>
+					<tr style="text-align:center;">
+						<td colspan="2">
+							<input type="submit" class="next-btn" value="下一步"/>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</form>
+	</div>
+</div>
+<include file = "Public:footer" />
+</body>
+</html>

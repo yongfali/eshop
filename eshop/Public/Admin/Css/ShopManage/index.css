@@ -1,0 +1,81 @@
+/*店铺管理下页面样式*/
+/*店铺认证页面样式*/
+.add-item{
+	height: 38px;
+}
+.add-item a{
+	display: inline-block;
+	line-height: 38px;
+	float: right;
+	margin-right: 20px;
+}
+.autho-wrapper{
+	clear: both;
+	padding: 0px 15px;
+}
+/*新增认证页面样式*/
+.autho-add-wrapper{
+	padding: 20px;
+}
+.autho-add-wrapper .autho-add-item,
+.autho-add-wrapper .autho-add-item2
+{
+	height: 50px;
+	line-height: 50px
+}
+.autho-add-item .inputs{
+	width: 200px;
+}
+.autho-add-item span,
+.autho-add-item1 span
+{
+	width: 80px;
+	text-align: right;
+}
+.autho-add-item1{
+	height: 80px;
+}
+.btn-upload{
+	margin-left: 6px;
+}
+.autho-add-item1 span{
+	display: block;
+	float: left;
+	height: 80px;
+	line-height: 80px;
+}
+#preview{
+	width: 310px;
+	float: left;
+	height: 80px;
+	padding: 10px;
+}
+#preview img{
+	width: 60px;
+	height: 60px;
+	vertical-align: middle;
+}
+.autho-add-wrapper .autho-add-item2{
+	text-align: right;
+}
+.autho-add-item2 .mybtn{
+	margin-right: 10px;
+}
+/*店铺申请列表样式*/
+.action-nav{
+	height: 40px;
+	width: 120px;
+	margin-bottom: 5px;
+	position: relative;
+}
+.action-nav a{
+	display: block;
+	margin-left: 15px;
+	position: absolute;
+	bottom: 0px;
+}
+.action-nav a img{
+	max-width: 20px;
+	max-height: 20px;
+	vertical-align: middle;
+}

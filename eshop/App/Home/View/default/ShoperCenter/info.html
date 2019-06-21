@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>商家中心-商家信息</title>
+<!-- 公共链接 -->
+<include file = "Public:common"/>
+<include file = "Good:commonnav" />
+<!-- 公共链接 -->
+</head>
+<body>
+<!-- header开始 --> 
+<include file = "Public:sheader"/>
+<!-- header结束 --> 
+<!-- 当前位置开始 -->
+<div class="position_now">
+  <label><a href="{:U('Home/Index/index')}">首页</a></label>
+  <span>&gt</span>
+  <label>商家信息</label>
+</div>
+<!-- 当前位置显示结束 --> 
+<!-- 主体内容开始 -->
+<div class="scenter_wrapper"> 
+  <!-- 左边导航标签开始 --> 
+  <include file='Public:scenternav'/> 
+  <!-- 左边导航标签结束 -->
+  <div class="scenter_right">
+    <div class="scenter_right_title"> <span>商家信息</span> </div>
+    <div class="scenter_right_content">
+      <!-- 商家基本信息展示 -->
+        <table class="shopInfo_table">
+          <tbody>
+            <tr>
+              <td class="saccount">商家账号：</td>
+              <td>
+                <div class="sNick">{$Think.session.uname}
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td class="itemsName">
+                商家序列号：
+              </td>
+              <td><span class="content">{:get_number($info['id'])}</span></td>
+            </tr>
+            <tr>
+              <td class="itemsName">真实姓名：</td>
+              <td><span class="content">{$info.truename}</span></td>
+            </tr>
+            <tr>
+              <td class="itemsName">商家性别：</td>
+              <td><span class="content">{$info.sex}</span></td>
+            </tr>
+            <tr>
+              <td class="itemsName">身份证号：</td>
+              <td><span class="content">{$info.carnum}</span></td>
+            </tr>
+            <tr>
+              <td class="itemsName">个人头像：</td>
+              <td>
+                <empty name="info.face">
+                  <img src="__PUBLIC__/Home/Icon/no-img.png">
+                  <else/>
+                  <img src="__ROOT__/{$info.face}">
+                </empty>
+              </td>
+            </tr>
+            <tr>
+              <td class="itemsName">个人QQ：</td>
+              <td><span class="content">{$info.qq}</span></td>
+            </tr>
+            <tr>
+              <td class="itemsName">联系方式：</td>
+              <td><span class="content">{$info.tel}</span></td>
+            </tr>
+            <tr>
+              <td class="itemsName">商家状态：</td>
+              <td><span class="content">审核通过</span></td>
+            </tr>
+            <tr>
+              <td colspan="2" style="text-align:center;">
+                <span style="color:#f60;">（注：商家基本信息修改需要联系&nbsp;&nbsp;<a href="#">网站管理员</a>&nbsp;&nbsp;进行审核方可开放权限进行修改！）</span>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      <!-- 商家基本信息展示 -->
+    </div>
+  </div>
+  <!-- 用户中心右侧内容显示结束 --> 
+</div>
+<!-- 主体内容结束 --> 
+<include file='Public:footer'/>
+</body>
+</html>

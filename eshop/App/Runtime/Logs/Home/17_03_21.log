@@ -1,0 +1,253 @@
+[ 2017-03-21T09:56:54+08:00 ] ::1 /eshop/index.php/UserCenter/userinfoEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002218s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0070s ]
+
+[ 2017-03-21T09:59:17+08:00 ] ::1 /eshop/index.php/UserCenter/checkuNickname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002129s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0063s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `nick` = '大漠雄鹰' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001717s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001856s ]
+
+[ 2017-03-21T10:00:16+08:00 ] ::1 /eshop/index.php/UserCenter/userinfoEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002267s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0063s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SELECT `photo` FROM `eshop_user` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2017-03-21T10:14:39+08:00 ] ::1 /eshop/index.php/UserCenter/checkuNickname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002429s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0069s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `nick` = '大漠雄鹰' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001935s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002103s ]
+
+[ 2017-03-21T10:15:46+08:00 ] ::1 /eshop/index.php/UserCenter/userinfoEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002519s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0085s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SELECT `photo` FROM `eshop_user` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `eshop_user` SET `nick`='大漠雄鹰',`trueName`='李永发',`sex`='男',`birthday`='2002-03-14',`carNum`='430521199410095672',`qq`='1411345463',`tel`='18904010296',`photo`='Uploads/Users/2017-03-21/thumb_58d08cd2095d4.jpg' WHERE `id` = 20 [ RunTime:0.0671s ]
+NOTIC: [8] Undefined variable: msg D:\wampserver\wamp\www\eshop\App\Home\Controller\UserCenterController.class.php 第 68 行.
+
+[ 2017-03-21T10:16:31+08:00 ] ::1 /eshop/index.php/UserCenter/userinfoEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002293s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0068s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SELECT `photo` FROM `eshop_user` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `eshop_user` SET `nick`='大漠雄鹰',`trueName`='李永发',`sex`='男',`birthday`='2002-03-14',`carNum`='430521199410095672',`qq`='1411345463',`tel`='18904010296',`photo`='Uploads/Users/2017-03-21/thumb_58d08cff26d89.jpg' WHERE `id` = 20 [ RunTime:0.0343s ]
+
+[ 2017-03-21T10:22:56+08:00 ] ::1 /eshop/index.php/UserCenter/checkuNickname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002339s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0087s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `nick` = '大漠雄鹰' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001511s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001637s ]
+
+[ 2017-03-21T10:37:33+08:00 ] ::1 /eshop/index.php/UserCenter/checkuNickname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002335s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0080s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `nick` = '大漠雄鹰' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001573s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001699s ]
+
+[ 2017-03-21T10:38:14+08:00 ] ::1 /eshop/index.php/UserCenter/checkuNickname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002354s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0058s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `nick` = '大漠雄鹰' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001648s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001806s ]
+
+[ 2017-03-21T11:36:11+08:00 ] ::1 /eshop/index.php/UserCenter/checkuNickname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002822s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0082s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `nick` = '大漠雄鹰' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001840s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001984s ]
+
+[ 2017-03-21T12:58:11+08:00 ] ::1 /eshop/index.php/UserCenter/checkuNickname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001421s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0045s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `nick` = '大漠雄鹰' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001021s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001096s ]
+
+[ 2017-03-21T13:01:32+08:00 ] ::1 /eshop/index.php/UserCenter/doModifyPwd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001522s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0048s ]
+SQL: UPDATE `eshop_user` SET `password`='1844156d4166d94387f1a4ad031ca5fa' WHERE `id` = 20 [ RunTime:0.0916s ]
+SQL: SHOW COLUMNS FROM `eshop_user_log` [ RunTime:0.0121s ]
+NOTIC: [2] fopen(D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Org\Net/UTFWry.dat): failed to open stream: No such file or directory D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Org\Net\IpLocation.class.php 第 54 行.
+SQL: INSERT INTO `eshop_user_log` (`userId`,`action`,`ip`,`location`,`time`) VALUES ('20','修改密码','0.0.0.0',NULL,'1490072492') [ RunTime:0.0482s ]
+
+[ 2017-03-21T13:01:51+08:00 ] ::1 /eshop/index.php/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000856s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001442s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000833s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000936s ]
+
+[ 2017-03-21T13:01:51+08:00 ] ::1 /eshop/index.php/User/doLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001086s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001647s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0214s ]
+SQL: SELECT * FROM `eshop_user` WHERE `name` = 'admin' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `eshop_user_log` [ RunTime:0.0553s ]
+NOTIC: [2] fopen(D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Org\Net/UTFWry.dat): failed to open stream: No such file or directory D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Org\Net\IpLocation.class.php 第 54 行.
+SQL: INSERT INTO `eshop_user_log` (`userId`,`action`,`ip`,`location`,`time`) VALUES ('20','登录','0.0.0.0',NULL,'1490072511') [ RunTime:0.0356s ]
+
+[ 2017-03-21T13:05:48+08:00 ] ::1 /eshop/index.php/Home/Index/goods_info.html
+ERR: 非法操作:goods_info
+
+[ 2017-03-21T13:07:08+08:00 ] ::1 /eshop/index.php/ShoppingCart/shoporders.html
+ERR: 非法操作:shoporders
+
+[ 2017-03-21T13:08:07+08:00 ] ::1 /eshop/index.php/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001123s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001638s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000866s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000939s ]
+
+[ 2017-03-21T13:08:08+08:00 ] ::1 /eshop/index.php/Shoper/doLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000893s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001516s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0656s ]
+SQL: SELECT * FROM `eshop_shoper` WHERE `name` = 'shoper3' LIMIT 1   [ RunTime:0.0015s ]
+NOTIC: [2] fopen(D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Org\Net/UTFWry.dat): failed to open stream: No such file or directory D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Org\Net\IpLocation.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `eshop_shoper_log` [ RunTime:0.0125s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `eshop_shoper_log` (`shoperId`,`action`,`ip`,`location`,`time`) VALUES ('13','登录','0.0.0.0',NULL,'1490072888') [ RunTime:0.0454s ]
+
+[ 2017-03-21T13:23:37+08:00 ] ::1 /eshop/index.php/ShoppingCart/shoporders.html
+ERR: 非法操作:shoporders
+
+[ 2017-03-21T14:03:24+08:00 ] ::1 /eshop/index.php/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000928s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001561s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000857s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000937s ]
+
+[ 2017-03-21T14:03:25+08:00 ] ::1 /eshop/index.php/User/doLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001651s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0591s ]
+SQL: SELECT * FROM `eshop_user` WHERE `name` = 'admin' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `eshop_user_log` [ RunTime:0.0116s ]
+NOTIC: [2] fopen(D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Org\Net/UTFWry.dat): failed to open stream: No such file or directory D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Org\Net\IpLocation.class.php 第 54 行.
+SQL: INSERT INTO `eshop_user_log` (`userId`,`action`,`ip`,`location`,`time`) VALUES ('20','登录','0.0.0.0',NULL,'1490076205') [ RunTime:0.0321s ]
+
+[ 2017-03-21T14:05:06+08:00 ] ::1 /eshop/index.php/UserCenter/checkuNickname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000940s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001623s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0042s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `nick` = '大漠雄鹰' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001036s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001110s ]
+
+[ 2017-03-21T14:06:53+08:00 ] ::1 /eshop/index.php/UserCenter/userinfoEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001413s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0046s ]
+SQL: UPDATE `eshop_user` SET `nick`='大漠雄鹰',`trueName`='李永发',`sex`='男',`birthday`='2002-03-14',`carNum`='430521199410095672',`qq`='1411345463',`tel`='18904010296' WHERE `id` = 20 [ RunTime:0.0682s ]
+
+[ 2017-03-21T14:06:59+08:00 ] ::1 /eshop/index.php/UserCenter/userinfoEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000910s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001449s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0046s ]
+SQL: UPDATE `eshop_user` SET `nick`='大漠雄鹰',`trueName`='李永发',`sex`='男',`birthday`='2002-03-14',`carNum`='430521199410095672',`qq`='1411345463',`tel`='18904010296' WHERE `id` = 20 [ RunTime:0.0694s ]
+
+[ 2017-03-21T14:07:11+08:00 ] ::1 /eshop/index.php/UserCenter/userinfoEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000898s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001480s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0053s ]
+SQL: UPDATE `eshop_user` SET `nick`='大漠雄鹰',`trueName`='李永发',`sex`='男',`birthday`='2002-03-14',`carNum`='430521199410095672',`qq`='1411345463',`tel`='18904010296' WHERE `id` = 20 [ RunTime:0.1395s ]
+
+[ 2017-03-21T14:07:59+08:00 ] ::1 /eshop/index.php/UserCenter/userinfoEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001620s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0055s ]
+SQL: UPDATE `eshop_user` SET `nick`='大漠雄鹰',`trueName`='李永发',`sex`='男',`birthday`='2002-03-14',`carNum`='430521199410095672',`qq`='1411345463',`tel`='18904010296' WHERE `id` = 20 [ RunTime:0.0784s ]
+
+[ 2017-03-21T14:08:34+08:00 ] ::1 /eshop/index.php/UserCenter/userinfoEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000893s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001458s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0046s ]
+SQL: UPDATE `eshop_user` SET `nick`='大漠雄鹰',`trueName`='李永发',`sex`='男',`birthday`='2002-03-14',`carNum`='430521199410095672',`qq`='1411345463',`tel`='18904010296' WHERE `id` = 20 [ RunTime:0.0647s ]
+
+[ 2017-03-21T14:10:34+08:00 ] ::1 /eshop/index.php/UserCenter/userinfoEdit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000863s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001496s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0052s ]
+SQL: UPDATE `eshop_user` SET `nick`='大漠雄鹰',`trueName`='李永发',`sex`='男',`birthday`='2002-03-14',`carNum`='430521199410095672',`qq`='1411345463',`tel`='18904010296',`modify_time`='1490076634' WHERE `id` = 20 [ RunTime:0.0954s ]
+
+[ 2017-03-21T14:12:55+08:00 ] ::1 /eshop/index.php/UserCenter/checkuNickname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000960s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001563s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0079s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `nick` = '大漠雄鹰' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001111s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001202s ]
+
+[ 2017-03-21T14:16:26+08:00 ] ::1 /eshop/index.php/UserCenter/checkuNickname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000896s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001447s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0053s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `nick` = '大漠雄鹰' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001104s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001194s ]
+
+[ 2017-03-21T14:31:14+08:00 ] ::1 /eshop/index.php/UserCenter/ucenter_orders.html
+ERR: 非法操作:ucenter_orders
+

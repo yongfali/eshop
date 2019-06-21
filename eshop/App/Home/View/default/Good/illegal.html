@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>违规商品</title>
+<include file = "Public:common"/>
+<include file = "Good:commonnav" />
+<script src="__PUBLIC__/Home/Js/goodAudit.js"></script>
+<script type="text/javascript">
+   var goodDel = "{:U('goodDel')}";
+</script>
+</head>
+<body>
+<include file = "Public:sheader"/>
+<div class="position_now">
+  <label><a href="index.html">首页</a></label>
+  <span>&gt</span>
+  <label>违规商品</label>
+</div>
+<div class="scenter_wrapper"> 
+  <!-- 商户中心左侧导航开始 --> 
+  <include file = "Public:scenternav"/> 
+  <!-- 商户中心左侧导航结束 --> 
+  <!-- 商户中心右侧内容显示开始 -->
+  <div class="scenter_right">
+    <div class="scenter_right_title"> <span>违规商品</span> 
+    </div>
+    <div class="scenter_right_content"> 
+      <!-- 头部检索框 -->
+      <form action="{:U('goodsSearch')}" id="Good_Search">
+        <div class="auth_good_search">
+          <label for="cat1">商品分类：</label>
+          <select name="cat1" id="cat1" onchange="getShopCart(this)" action="{:U('getShopCart')}">
+            <option value="0">--请选择--</option>
+            <volist name="list1" id="data">
+              <option value="{$data.id}">{$data.name}</option>
+            </volist>
+          </select>
+          <select name="cat2" id="cat2">
+            <option value="0">--请选择--</option>
+          </select>
+          <label for="goodsName"> 商品名称：</label>
+          <input type="text" name="goodsName" id="goodsName" class="inputs" placeholder="输入商品名进行查询">
+          <input type="button" value="查询"  class="btn" id="goods_select" types="illegal"/>
+        </div>
+      </form>
+      <!-- 头部检索框 -->  
+      <!-- 违规商品内容展示 -->
+      <div class="illegal_good_list">
+        <div class="action_menu"> <a href="javascript:delGoods(1);"class="s-del"><span>删除</span></a> 
+        </div>
+        <div id="Good_List_Contetn">
+          <table class="auth_good_table">
+            <thead>
+              <th>
+                <input type="checkbox" id="allchecked"/>
+                <label for="allchecked">全选</label>
+              </th>
+              <th>商品信息</th>
+              <th>商品编号</th>
+              <th>违规原因</th>
+              <th>违规时间</th>
+              <th>操作</th>
+            </thead>
+            <tbody>
+                <empty name="list">
+                  <tr>
+                    <td colspan="11">没有相关数据！！！</td>
+                  </tr>
+                  <else/>
+                  <volist name="list" id="item">
+                    <tr>
+                      <td><input type="checkbox" id="check-{$i}" class="goods_check" value="{$item.id}"/></td>
+                      <td class="good_info"><div class="good_info_wrapper"> <a href="{:U('Home/Index/goodsInfo',array('id' => $item['id']))}" target="_blank"> <img src="__ROOT__/{$item.good_log}" style="width:45px;height:45px;"> </a> <span>{$item.name}</span> </div></td>
+                      <td>
+                        <span>{$item.goodnumber}</span></td>
+                      <td><span style="color:red;">
+                        <empty name="$item.ilegal_reason">
+                          违规缘由暂不清楚！！！
+                        </else>
+                        {$item.ilegal_reason}
+                        </empty>
+                      </span>
+                    </td>
+                      <td><span>{$item.modify_recenet|date="y-m-d H:i",###}</span></td>
+                      <td>
+                        <a href="{:U('Home/Index/goodsInfo',array('id' => $item['id']))}" target='_blank' class="good_view" >查看</a>
+                        <a href="javascript:delGoods(0,{$item.id})" class="good_del">删除</a> 
+                      </td>
+                    </tr>
+                  </volist>
+                </empty>
+            </tbody>
+          </table>
+          <!-- 分页开始 -->
+          <div class="pages">{$page}</div>
+          <!-- 分页结束 --> 
+        </div>
+      </div>
+      <!-- 违规商品内容展示 --> 
+    </div>
+  </div>
+  <!-- 商户中心右侧内容显示结束 --> 
+</div>
+<include file= "Public:footer" />
+</body>
+</html>

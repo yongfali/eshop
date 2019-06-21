@@ -1,0 +1,62 @@
+<!-- 尾部开始 -->
+<div class="float_clear"></div>
+<div class="footer">
+  <div class="footer_top">
+    <ul>
+      <li>
+        <div class="footer_top_icon"><img src="__PUBLIC__/Home/Image/footer_img01.png"></div>
+        <div class="footer_top_text">
+          <h3>安全无公害</h3>
+          <span>放心购买</span></div>
+      </li>
+      <li>
+        <div class="footer_top_icon"><img src="__PUBLIC__/Home/Image/footer_img01.png"></div>
+        <div class="footer_top_text">
+          <h3>安全无公害</h3>
+          <span>放心购买</span></div>
+      </li>
+      <li>
+        <div class="footer_top_icon"><img src="__PUBLIC__/Home/Image/footer_img01.png"></div>
+        <div class="footer_top_text">
+          <h3>安全无公害</h3>
+          <span>放心购买</span></div>
+      </li>
+      <li>
+        <div class="footer_top_icon"><img src="__PUBLIC__/Home/Image/footer_img01.png"></div>
+        <div class="footer_top_text">
+          <h3>安全无公害</h3>
+          <span>放心购买</span></div>
+      </li>
+      <li>
+        <div class="footer_top_icon"><img src="__PUBLIC__/Home/Image/footer_img01.png"></div>
+        <div class="footer_top_text">
+          <h3>安全无公害</h3>
+          <span>放心购买</span></div>
+      </li>
+      <li>
+        <div class="footer_top_icon"><img src="__PUBLIC__/Home/Image/footer_img01.png"></div>
+        <div class="footer_top_text">
+          <h3>安全无公害</h3>
+          <span>放心购买</span></div>
+      </li>
+    </ul>
+  </div>
+  <!--底部图标结束 -->
+  <notempty name="footerMenu">
+  <div class="footer_nav">
+    <volist name="footerMenu" id="item">
+    <div class="footer_nav_list">
+      <h3>{$item.name}</h3>
+      <ul class="help">
+        <volist name="item.child" id="data">
+        <li><a href="{:U('Home/Help/index',array('id' => $data[0]))}" target="_blank">{$data[1]}</a></li>
+        </volist>
+      </ul> 
+    </div>
+  </volist>
+  </div>
+</notempty>
+  <div class="copyright"> Copyright&copy;eshop商城&nbsp;&nbsp;2016-<php> echo date('Y',time()); </php> &nbsp;&nbsp;网址：<a href="{:U('Home/Index/index')}">http://www.eshop.lyf94.com</a>&nbsp;&nbsp;客服热线：<span>8888888</span> </div>
+  <!--底部菜单导航结束 --> 
+</div>
+<!-- 尾部结束

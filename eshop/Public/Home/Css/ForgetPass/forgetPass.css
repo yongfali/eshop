@@ -1,0 +1,108 @@
+/*密码找回样式*/
+.forgetPwd_wrap{
+	width: 1200px;
+	margin: 0 auto;
+}
+.stepflex{
+	float:right;
+	border-top: 5px solid #ccc;
+	text-align: center;
+	width: 640px;
+	margin: 60px 0px;
+}
+.stepflex dl{
+	border-top: 5px solid #ccc;
+	float: left;
+	position: relative;
+	top: -5px;
+	width: 160px;
+}
+dl.doing{
+	border-top-color: #f60;
+}
+.doing .s-num{
+	background-position: -23px 0;
+}
+.s-num,.s-num1{
+	color: #fff;
+	font-weight: 700;
+	height: 23px;
+	line-height: 23px;
+	margin: -15px auto 0;
+	position: relative;
+	width: 23px;
+	border-radius:25px;
+}
+.s-num{
+	background: #f60;
+}
+.s-num1{
+	background: #ccc;
+}
+.s-text{
+	line-height:30px;
+}
+.forget-pwd{
+	clear: both;
+	width: 750px;
+	margin:50px auto 50px;
+	padding:25px 0px 20px 0px;
+	border:1px solid #bac4c3;
+	border-radius:6px;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+.forgetPwd-table{
+	width: 100%;
+	padding:0px 60px;
+}
+.forgetPwd-table tr{
+	height: 60px;
+}
+.forgetPwd-table .inputs{
+	margin-left: 15px;
+	padding-left: 10px;
+	width: 280px;
+	height: 36px;
+	border-radius: 6px;
+	border: 1px solid #bac4c3;
+}
+.forgetPwd-table .info{
+	min-width: 60px;
+	text-align: right;
+}
+.forgetPwd-table .infos{
+	width: 250px;
+	text-align: right;
+}
+.forgetPwd-table .next-btn{
+	outline: none;
+	background: #eb5f43;
+	color: #fff;
+	border: 1px solid #d33110;
+	border-radius: 3px;
+	cursor: pointer;
+	width: 88px;
+	height:32px;
+}
+.forgetPwd-table .next-btn:hover{
+	background: #e61717;
+}
+#verifyImg{
+	width: 112px;
+	height: 38px;
+	vertical-align: middle;
+}
+/*密码找回第二步样式*/
+.forgetPwd-table .forget-select{
+	appearance: none;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	width: 120px;
+	height: 32px;
+	margin-right: 6px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	box-shadow: 1px 1px 1px #f0f0f0 inset;
+	background: url("../../Icon/arrow.png") no-repeat scroll right center transparent;
+	margin-left: 16px;
+}

@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>用户登录</title>
+<include file = "Public:common"/>
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/Css/login.css">
+<script src="__PUBLIC__/Home/Js/User/userLogin.js"></script>
+<script type="text/javascript">
+  var checkVerify = "{:U('checkVerify')}";
+  var doUserLogin = "{:U('doLogin')}";
+  var index = "{:U('Index/index')}";
+</script>
+</head>
+<body>
+<include file='Public:header'/>
+<div class="position_now">
+  <label><a href="{:U('Home/Index/index')}">首页</a></label>
+  <span>&gt</span>
+  <label>用户登录</label>
+</div>
+<div class="login_conten">
+  <div class="login_content_left"> <img src="__PUBLIC__/Home/Image/login_left.jpg"> </div>
+  <div class="login_content_right">
+    <form  method="post" id="userlogin">
+      <span class="login_user">用户登录</span>
+      <table class="tb">
+        <tbody>
+          <tr>
+            <td><img src="__PUBLIC__/Home/Image/login_img.png"></td>
+            <td><input class="inputs" type="text" name="account" id="account " placeholder="用户名/邮箱/手机号" ></td>
+          </tr>
+          <tr>
+            <td><img src="__PUBLIC__/Home/Image/login_pwd.png"></td>
+            <td><input class="inputs" type="password" name="pwd" id="pwd" placeholder="请输入密码" /></td>
+          </tr>
+          <tr>
+            <td><img src="__PUBLIC__/Home/Image/login_verify.png"></td>
+            <td><div class="verify">
+                <input type="text" name="verify1" id="verify1" placeholder="请输入右侧验证码">
+                <img src="{:U('verify')}" id="verify-img" onclick = "changeVerify()"/> </div></td>
+          </tr>
+          <tr>
+            <td colspan="2" style="padding-left:48px;"><input type="checkbox" name="auto" id="auto" checked="checked" value="1">
+              <label>&nbsp;&nbsp;自动登录&nbsp;&nbsp;</label>
+              <label>看不清？&nbsp;<a href="javascript:changeVerify();" >换一张</a></label></td>
+          </tr>
+          <tr>
+            <td colspan="2"><input type="submit" class=" inputs btn" id="login_btn" value="登录">
+              <label><a href="{:U('Home/ForgetPwd/index',array('type' => 'user'))}">忘记密码 ?</a></label>
+              <span>&nbsp;|&nbsp;</span>
+              <label><a href="{:U('regist')}">免费注册</a></label></td>
+          </tr>
+        </tbody>
+      </table>
+    </form>
+    <div class="other_login"> <span>您还可以使用以下方式进行登录：</span> <a href="{:U('Home/Login/login?type=qq')}" title="QQ"><img src="__PUBLIC__/Home/Image/qq.png"></a> <a href="#" title="新浪"><img src="__PUBLIC__/Home/Image/sina.png"></a> <a href="#" title="淘宝"><img src="__PUBLIC__/Home/Image/taobao.png"></a> </div>
+  </div>
+</div>
+<include file = "Public:footer" />
+</body>
+</html>

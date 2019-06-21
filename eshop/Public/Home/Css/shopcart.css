@@ -1,0 +1,174 @@
+/*我的购物车*/
+.shopcart_wrapper{
+	width: 1200px;
+	height: 600px;
+	margin: 0 auto;
+}
+/*头部导航条*/
+.shopcart_nav{
+	float: right;
+	border-top: 5px solid #ccc;
+	text-align: center;
+	/*width: 1200px;*/
+	width: 480px;
+	margin: 60px 0px 0px 0px;
+}	
+.shopcart_nav dl{
+	border-top: 5px solid #ccc;
+    float: left;
+    position: relative;
+    top: -5px;
+    width: 160px;
+   /* width: 240px;*/
+}
+.cart_num{
+	background: #f60;
+}
+.cart_num1{
+	background: #ccc;
+}
+.cart_num,.cart_num1{
+	font-weight: bold;
+	height: 23px;
+	line-height: 23px;
+	margin: -15px auto 0;
+	width: 23px;
+	border-radius: 25px;
+	color: #fff;	
+}
+.cart_text{
+	line-height: 30px;
+	color: #f60;
+}
+.shopcart_nav dl.doing{
+	border-top-color: #f60;
+}
+/*购物车标题*/
+.cart_title{
+	clear: both;
+	height: 36px;
+	line-height: 36px;
+	font-size: 18px;
+	border-bottom: 2px solid #f60;
+}
+.cart_title span{
+	display: inline-block;
+	margin-left: 5px;
+	color: red;
+}
+.cart-info-wrap{
+	width: 50%;
+	height: 260px;
+	padding: 20px 300px;
+}
+.cart-info-img{
+	margin-right: 50px;
+}
+.cart-info-img,.cart-info{
+	float: left;
+	height: 260px;
+}
+.cart-info-img img{
+	max-height: 200px;
+	max-width: 200px;
+	padding: 30px 0px;
+}
+.cart-info span{
+	display: inline-block;
+	line-height: 260px;
+	font-size: 18px;
+	color: #ccc;
+}
+.cart-info span a{
+	font-size: 18px;
+	color: #ed7474;
+}
+.cart-info  a:hover{
+	color: red;
+	text-decoration: none;
+}
+.cart_lists{
+	width: 100%;
+	margin-top: 6px;
+	//border-collapse:collapse;/*消除td之间默认的边距*/
+}
+.cart_lists thead {
+	height: 36px;
+	line-height: 36px;
+	background: #00ffed;
+}
+.cart_lists .t_head{
+	width: 120px;
+}
+.shop_info td{
+	padding-left: 18px;
+	height: 38px;
+	vertical-align: bottom;
+}
+.items{
+	text-align: center;
+}
+.items2 a img{
+	max-width:80px;
+	max-height:80px;
+	vertical-align: middle;
+}
+.items2 span{
+	display: block;
+	width: 490px;
+	height: 90px;
+	float: right;
+	padding: 5px;
+	overflow: hidden;
+}
+.cart_lists .goodnum{
+	width: 52px;
+	text-align: center;
+}
+.cart_tr{
+	height: 120px;
+	margin-bottom: 10px;
+	border-bottom: 2px solid #ffd2d2;
+}
+.jia, .jian {
+    background: #eeeeee;
+    cursor: pointer;
+    height: 26px;
+    line-height: 26px;
+    padding: 0px 8px;
+    border: 1px solid #ddd;
+}
+.items a:hover{
+	text-decoration: none;
+}
+tbody tr:nth-child(n)
+{
+	background:#eef9f1;
+}
+tbody tr:nth-child(2n)
+{
+	background:#f4fee3;
+}
+.sumMoney{
+	height: 60px;
+	float: right;
+	margin-top: 15px;
+}
+.sumMoney span{
+	color: #f60;
+}
+.sumMoney a{
+	display: inline-block;
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	background: #f60;
+	color: #fff;
+	border-radius: 5px;
+	font-size: 16px;
+}
+.sumMoney a:hover{
+	text-decoration: none;
+	background: #ff3600;
+}

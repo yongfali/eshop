@@ -1,0 +1,236 @@
+[ 2017-01-01T10:17:25+08:00 ] 127.0.0.1 /index.php/Home/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.095289s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002905s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003256s ]
+
+[ 2017-01-01T10:17:28+08:00 ] 127.0.0.1 /index.php/Home/Shoper/doLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003345s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.2514s ]
+SQL: SELECT * FROM `eshop_shoper` WHERE `name` = 'shoper3' LIMIT 1   [ RunTime:0.0647s ]
+NOTIC: [2] fopen(D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Org\Net/UTFWry.dat): failed to open stream: No such file or directory D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Org\Net\IpLocation.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `eshop_shoper_log` [ RunTime:0.0675s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `eshop_shoper_log` (`shoperId`,`action`,`ip`,`location`,`time`) VALUES ('13','登录','127.0.0.1',NULL,'1483237047') [ RunTime:0.0897s ]
+
+[ 2017-01-01T10:29:43+08:00 ] 127.0.0.1 /index.php/Home/ShopCart/index.html
+ERR: Think\Model:getShopById方法不存在！
+
+[ 2017-01-01T13:12:33+08:00 ] 127.0.0.1 /index.php/Home/ShopCart/index.html
+ERR: 1146:Table 'eshop.eshop_shope_first_menu' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `eshop_shope_first_menu`
+
+[ 2017-01-01T13:12:48+08:00 ] 127.0.0.1 /index.php/Home/ShopCart/index.html
+ERR: 1146:Table 'eshop.eshop_shope_first_menu' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `eshop_shope_first_menu`
+
+[ 2017-01-01T13:13:28+08:00 ] 127.0.0.1 /index.php/Home/ShopCart/index.html
+ERR: 1146:Table 'eshop.eshop_shope_first_menu' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `eshop_shope_first_menu`
+
+[ 2017-01-01T13:13:59+08:00 ] 127.0.0.1 /index.php/Home/ShopCart/index.html
+ERR: 1146:Table 'eshop.eshop_shope_first_menu' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `eshop_shope_first_menu`
+
+[ 2017-01-01T13:14:02+08:00 ] 127.0.0.1 /index.php/Home/ShopCart/index.html
+ERR: 1146:Table 'eshop.eshop_shope_first_menu' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `eshop_shope_first_menu`
+
+[ 2017-01-01T13:14:03+08:00 ] 127.0.0.1 /index.php/Home/ShopCart/index.html
+ERR: 1146:Table 'eshop.eshop_shope_first_menu' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `eshop_shope_first_menu`
+
+[ 2017-01-01T13:14:13+08:00 ] 127.0.0.1 /index.php/Home/ShopCart/index.html
+ERR: 1146:Table 'eshop.eshop_shope_first_menu' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `eshop_shope_first_menu`
+
+[ 2017-01-01T13:14:14+08:00 ] 127.0.0.1 /index.php/Home/ShopCart/index.html
+ERR: 1146:Table 'eshop.eshop_shope_first_menu' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `eshop_shope_first_menu`
+
+[ 2017-01-01T13:14:15+08:00 ] 127.0.0.1 /index.php/Home/ShopCart/index.html
+ERR: 1146:Table 'eshop.eshop_shope_first_menu' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `eshop_shope_first_menu`
+
+[ 2017-01-01T13:15:23+08:00 ] 127.0.0.1 /index.php/Home/ShopCart/index.html
+ERR: 1146:Table 'eshop.eshop_shope_first_menu' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `eshop_shope_first_menu`
+
+[ 2017-01-01T13:30:19+08:00 ] 127.0.0.1 /index.php/Home/ShopCart/index.html
+ERR: 1054:Unknown column '$shoperId' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `eshop_shop_first_menu` INNER JOIN eshop_shop_second_menu on eshop_shop_first__menu.id = eshop_shop_second_menu.pid  WHERE ( shopId=$shoperId ) 
+
+[ 2017-01-01T13:30:36+08:00 ] 127.0.0.1 /index.php/Home/ShopCart/index.html
+ERR: 1054:Unknown column 'eshop_shop_first__menu.id' in 'on clause'
+ [ SQL语句 ] : SELECT * FROM `eshop_shop_first_menu` INNER JOIN eshop_shop_second_menu on eshop_shop_first__menu.id = eshop_shop_second_menu.pid  WHERE ( shopId=3 ) 
+
+[ 2017-01-01T13:34:39+08:00 ] 127.0.0.1 /index.php/Home/ShopCart/index.html
+ERR: 1051:Unknown table 'eshop_shop_first__menu'
+ [ SQL语句 ] : SELECT eshop_shop_first__menu.*,eshop_shop_second_menu.* FROM `eshop_shop_first_menu` INNER JOIN eshop_shop_second_menu on eshop_shop_first__menu.id = eshop_shop_second_menu.pid  WHERE ( shopId=3 ) 
+
+[ 2017-01-01T13:35:17+08:00 ] 127.0.0.1 /index.php/Home/ShopCart/index.html
+ERR: 1051:Unknown table 'eshop_shop_first__menu'
+ [ SQL语句 ] : SELECT eshop_shop_first__menu.*,eshop_shop_second_menu.* FROM `eshop_shop_first_menu` left JOIN eshop_shop_second_menu on eshop_shop_first__menu.id = eshop_shop_second_menu.pid  WHERE ( shopId=3 ) 
+
+[ 2017-01-01T13:36:28+08:00 ] 127.0.0.1 /index.php/Home/ShopCart/index.html
+ERR: 1146:Table 'eshop.eshop_shop_first_menu' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `eshop_shop_first_menu`
+
+[ 2017-01-01T13:37:40+08:00 ] 127.0.0.1 /index.php/Home/ShopCart/index.html
+ERR: 1146:Table 'eshop.eshop_shop_first_menu' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `eshop_shop_first_menu`
+
+[ 2017-01-01T13:37:59+08:00 ] 127.0.0.1 /index.php/Home/ShopCart/index.html
+ERR: 1146:Table 'eshop.eshop_shop_first_menu' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `eshop_shop_first_menu`
+
+[ 2017-01-01T13:38:01+08:00 ] 127.0.0.1 /index.php/Home/ShopCart/index.html
+ERR: 1146:Table 'eshop.eshop_shop_first_menu' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `eshop_shop_first_menu`
+
+[ 2017-01-01T13:38:10+08:00 ] 127.0.0.1 /index.php/Home/ShopCart/index.html
+ERR: Think\Model:getShopFirstMenu方法不存在！
+
+[ 2017-01-01T13:38:11+08:00 ] 127.0.0.1 /index.php/Home/ShopCart/index.html
+ERR: Think\Model:getShopFirstMenu方法不存在！
+
+[ 2017-01-01T13:38:34+08:00 ] 127.0.0.1 /index.php/Home/ShopCart/index.html
+ERR: Think\Model:getShopFirstMenu方法不存在！
+
+[ 2017-01-01T13:38:35+08:00 ] 127.0.0.1 /index.php/Home/ShopCart/index.html
+ERR: Think\Model:getShopFirstMenu方法不存在！
+
+[ 2017-01-01T13:38:36+08:00 ] 127.0.0.1 /index.php/Home/ShopCart/index.html
+ERR: Think\Model:getShopFirstMenu方法不存在！
+
+[ 2017-01-01T13:38:37+08:00 ] 127.0.0.1 /index.php/Home/ShopCart/index.html
+ERR: Think\Model:getShopFirstMenu方法不存在！
+
+[ 2017-01-01T13:39:29+08:00 ] 127.0.0.1 /index.php/Home/ShopCart/index.html
+ERR: Think\Model:getShopFirstMenu方法不存在！
+
+[ 2017-01-01T13:40:38+08:00 ] 127.0.0.1 /index.php/Home/ShopCart/index.html
+ERR: Think\Model:getShopFirstMenu方法不存在！
+
+[ 2017-01-01T13:40:39+08:00 ] 127.0.0.1 /index.php/Home/ShopCart/index.html
+ERR: Think\Model:getShopFirstMenu方法不存在！
+
+[ 2017-01-01T13:40:40+08:00 ] 127.0.0.1 /index.php/Home/ShopCart/index.html
+ERR: Think\Model:getShopFirstMenu方法不存在！
+
+[ 2017-01-01T13:40:41+08:00 ] 127.0.0.1 /index.php/Home/ShopCart/index.html
+ERR: Think\Model:getShopFirstMenu方法不存在！
+
+[ 2017-01-01T13:40:42+08:00 ] 127.0.0.1 /index.php/Home/ShopCart/index.html
+ERR: Think\Model:getShopFirstMenu方法不存在！
+
+[ 2017-01-01T13:40:43+08:00 ] 127.0.0.1 /index.php/Home/ShopCart/index.html
+ERR: Think\Model:getShopFirstMenu方法不存在！
+
+[ 2017-01-01T13:40:44+08:00 ] 127.0.0.1 /index.php/Home/ShopCart/index.html
+ERR: Think\Model:getShopFirstMenu方法不存在！
+
+[ 2017-01-01T13:41:16+08:00 ] 127.0.0.1 /index.php/Home/ShopCart/index.html
+ERR: Think\Model:getShopFirstMenu方法不存在！
+
+[ 2017-01-01T13:41:17+08:00 ] 127.0.0.1 /index.php/Home/ShopCart/index.html
+ERR: Think\Model:getShopFirstMenu方法不存在！
+
+[ 2017-01-01T13:41:18+08:00 ] 127.0.0.1 /index.php/Home/ShopCart/index.html
+ERR: Think\Model:getShopFirstMenu方法不存在！
+
+[ 2017-01-01T13:41:19+08:00 ] 127.0.0.1 /index.php/Home/ShopCart/index.html
+ERR: Think\Model:getShopFirstMenu方法不存在！
+
+[ 2017-01-01T13:41:53+08:00 ] 127.0.0.1 /index.php/Home/ShopCart/index.html
+ERR: Think\Model:getShopFirstMenu方法不存在！
+
+[ 2017-01-01T13:41:54+08:00 ] 127.0.0.1 /index.php/Home/ShopCart/index.html
+ERR: Think\Model:getShopFirstMenu方法不存在！
+
+[ 2017-01-01T13:41:55+08:00 ] 127.0.0.1 /index.php/Home/ShopCart/index.html
+ERR: Think\Model:getShopFirstMenu方法不存在！
+
+[ 2017-01-01T13:41:56+08:00 ] 127.0.0.1 /index.php/Home/ShopCart/index.html
+ERR: Think\Model:getShopFirstMenu方法不存在！
+
+[ 2017-01-01T13:42:21+08:00 ] 127.0.0.1 /index.php/Home/ShopCart/index.html
+ERR: Think\Model:getShopFirstMenu方法不存在！
+
+[ 2017-01-01T13:43:19+08:00 ] 127.0.0.1 /index.php/Home/ShopCart/index.html
+ERR: Think\Model:getShopFirstMenu方法不存在！
+
+[ 2017-01-01T13:44:57+08:00 ] 127.0.0.1 /index.php/Home/ShopCart/index.html
+ERR: Think\Model:getShopFirstMenu方法不存在！
+
+[ 2017-01-01T13:44:58+08:00 ] 127.0.0.1 /index.php/Home/ShopCart/index.html
+ERR: Think\Model:getShopFirstMenu方法不存在！
+
+[ 2017-01-01T13:45:00+08:00 ] 127.0.0.1 /index.php/Home/ShopCart/index.html
+ERR: Think\Model:getShopFirstMenu方法不存在！
+
+[ 2017-01-01T13:45:01+08:00 ] 127.0.0.1 /index.php/Home/ShopCart/index.html
+ERR: Think\Model:getShopFirstMenu方法不存在！
+
+[ 2017-01-01T13:46:33+08:00 ] 127.0.0.1 /index.php/Home/ShopCart/index.html
+ERR: Think\Model:test方法不存在！
+
+[ 2017-01-01T13:46:35+08:00 ] 127.0.0.1 /index.php/Home/ShopCart/index.html
+ERR: Think\Model:test方法不存在！
+
+[ 2017-01-01T13:47:44+08:00 ] 127.0.0.1 /index.php/Home/ShopCart/index.html
+ERR: Think\Model:getShopFirstMenu方法不存在！
+
+[ 2017-01-01T13:47:45+08:00 ] 127.0.0.1 /index.php/Home/ShopCart/index.html
+ERR: Think\Model:getShopFirstMenu方法不存在！
+
+[ 2017-01-01T13:48:21+08:00 ] 127.0.0.1 /index.php/Home/ShopCart/index.html
+ERR: Think\Model:getMenu方法不存在！
+
+[ 2017-01-01T13:48:23+08:00 ] 127.0.0.1 /index.php/Home/ShopCart/index.html
+ERR: Think\Model:getMenu方法不存在！
+
+[ 2017-01-01T13:49:06+08:00 ] 127.0.0.1 /index.php/Home/ShopCart/index.html
+ERR: Think\Model:getShopFirstMenu方法不存在！
+
+[ 2017-01-01T13:49:07+08:00 ] 127.0.0.1 /index.php/Home/ShopCart/index.html
+ERR: Think\Model:getShopFirstMenu方法不存在！
+
+[ 2017-01-01T13:49:08+08:00 ] 127.0.0.1 /index.php/Home/ShopCart/index.html
+ERR: Think\Model:getShopFirstMenu方法不存在！
+
+[ 2017-01-01T13:49:29+08:00 ] 127.0.0.1 /index.php/Home/ShopCart/index.html
+ERR: Think\Model:test方法不存在！
+
+[ 2017-01-01T13:49:30+08:00 ] 127.0.0.1 /index.php/Home/ShopCart/index.html
+ERR: Think\Model:test方法不存在！
+
+[ 2017-01-01T13:50:38+08:00 ] 127.0.0.1 /index.php/Home/ShopCart/index.html
+ERR: 1146:Table 'eshop.eshop_shopsecondmenu' doesn't exist
+ [ SQL语句 ] : SELECT eshop_shopfirst_menu.*,eshop_shopsecondmenu.* FROM `eshop_shop_firstmenu` left JOIN eshop_shopsecondmenu on eshop_shopfirstmenu.id = eshop_shopsecondmenu.pid  WHERE ( shopId=3 ) 
+
+[ 2017-01-01T13:59:25+08:00 ] 127.0.0.1 /index.php/Home/ShopCart/index.html
+ERR: 1054:Unknown column 'eshop_shop_firstmenu.fname' in 'group statement'
+ [ SQL语句 ] : SELECT eshop_shop_firstmenu.name as fname,eshop_shop_secondmenu.name as sname FROM `eshop_shop_firstmenu` left JOIN eshop_shop_secondmenu on eshop_shop_firstmenu.id = eshop_shop_secondmenu.pid  WHERE ( shopId=3 ) GROUP BY eshop_shop_firstmenu.fname 
+
+[ 2017-01-01T15:54:27+08:00 ] ::1 /eshop/index.php/Home/ShopCart/index.html
+ERR: Think\Model:getFields方法不存在！
+
+[ 2017-01-01T16:24:25+08:00 ] ::1 /eshop/index.php/Home/ShopCart/index.html
+ERR: 1054:Unknown column 'name' in 'field list'
+ [ SQL语句 ] : SELECT `id`,`pid`,`name` FROM `eshop_shop_secondmenu` WHERE `pid` IN ('1','2') AND `is_show` = 1 
+
+[ 2017-01-01T20:48:51+08:00 ] ::1 /eshop/index.php/Home/User/ucenter_collection.html
+ERR: 非法操作:ucenter_collection
+
+[ 2017-01-01T20:49:13+08:00 ] ::1 /eshop/index.php/Home/Shop/goods_info.html
+ERR: 非法操作:goods_info
+
+[ 2017-01-01T20:50:06+08:00 ] ::1 /eshop/index.php/Home/Shop/shoper_regist.html
+ERR: 非法操作:shoper_regist
+

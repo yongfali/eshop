@@ -1,0 +1,42 @@
+/*确认发货页面样式*/
+.logistics_wrap{
+	padding: 10px 20px;
+}
+.logistics_wrap .item{
+	height: 44px;
+	line-height: 44px;
+}
+.item>input{
+    width: 200px;
+    height: 22px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px #f0f0f0 inset;
+    margin: 3px;
+    padding: 5px;
+}
+#expressCompany{
+	appearance: none;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	width: 120px;
+	height: 32px;
+	margin-right: 6px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	box-shadow: 1px 1px 1px #f0f0f0 inset;
+	background: url("../../Icon/arrow.png") no-repeat scroll right center transparent;
+	padding-right: 15px;
+}
+.confirmDeliver{
+	width: 80px;
+	height: 34px;
+	background: #32a9ea;
+	color: #fff;
+	border: 1px solid #32a9ea;
+	border-radius: 3px;
+	margin: 20px auto;
+}
+.confirmDeliver:hover{
+	background: #0289fc;
+}

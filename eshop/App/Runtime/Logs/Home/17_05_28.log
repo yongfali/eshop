@@ -1,0 +1,219 @@
+[ 2017-05-28T08:31:52+08:00 ] ::1 /eshop/index.php/Home/Shop/index/shopId/3.html
+ERR: Cron:cron Runat 2017-05-28 08:31:52 Use 0.002641 s
+
+[ 2017-05-28T08:32:04+08:00 ] ::1 /eshop/index.php/Home/Index/index.html
+ERR: Cron:cron Runat 2017-05-28 08:32:04 Use 0.000514 s
+
+[ 2017-05-28T08:32:27+08:00 ] ::1 /eshop/Public/Common/fonts/glyphicons-halflings-regular.woff2
+ERR: 无法加载控制器:Public
+
+[ 2017-05-28T08:32:27+08:00 ] ::1 /eshop/Public/Common/fonts/glyphicons-halflings-regular.woff
+ERR: Cron:cron Runat 2017-05-28 08:32:27 Use 0.000403 s
+
+[ 2017-05-28T08:32:27+08:00 ] ::1 /eshop/Public/Common/fonts/glyphicons-halflings-regular.woff
+ERR: 无法加载控制器:Public
+
+[ 2017-05-28T08:32:27+08:00 ] ::1 /eshop/Public/Common/fonts/glyphicons-halflings-regular.ttf
+ERR: 无法加载控制器:Public
+
+[ 2017-05-28T09:00:47+08:00 ] ::1 /eshop/Public/Common/fonts/glyphicons-halflings-regular.woff2
+ERR: 无法加载控制器:Public
+
+[ 2017-05-28T09:00:47+08:00 ] ::1 /eshop/Public/Common/fonts/glyphicons-halflings-regular.woff
+ERR: 无法加载控制器:Public
+
+[ 2017-05-28T09:00:48+08:00 ] ::1 /eshop/Public/Common/fonts/glyphicons-halflings-regular.ttf
+ERR: 无法加载控制器:Public
+
+[ 2017-05-28T09:15:15+08:00 ] ::1 /eshop/Public/Common/bootstrap/css/bootstrap.min.css.map
+ERR: Cron:cron Runat 2017-05-28 09:15:15 Use 0.000337 s
+
+[ 2017-05-28T09:15:15+08:00 ] ::1 /eshop/Public/Common/bootstrap/css/bootstrap.min.css.map
+ERR: 无法加载控制器:Public
+
+[ 2017-05-28T09:15:44+08:00 ] ::1 /eshop/Public/Common/bootstrap/css/bootstrap.min.css.map
+ERR: 无法加载控制器:Public
+
+[ 2017-05-28T09:15:50+08:00 ] ::1 /eshop/Public/Common/bootstrap/css/bootstrap.min.css.map
+ERR: 无法加载控制器:Public
+
+[ 2017-05-28T09:19:14+08:00 ] ::1 /eshop/Public/Common/bootstrap/css/bootstrap.min.css.map
+ERR: 无法加载控制器:Public
+
+[ 2017-05-28T09:19:23+08:00 ] ::1 /eshop/Public/Common/bootstrap/css/bootstrap.min.css.map
+ERR: 无法加载控制器:Public
+
+[ 2017-05-28T09:19:35+08:00 ] ::1 /eshop/Public/Common/bootstrap/css/bootstrap.min.css.map
+ERR: 无法加载控制器:Public
+
+[ 2017-05-28T09:20:07+08:00 ] ::1 /eshop/Public/Common/bootstrap/css/bootstrap.min.css.map
+ERR: 无法加载控制器:Public
+
+[ 2017-05-28T09:20:19+08:00 ] ::1 /eshop/Public/Common/bootstrap/css/bootstrap.min.css.map
+ERR: 无法加载控制器:Public
+
+[ 2017-05-28T09:20:42+08:00 ] ::1 /eshop/Public/Common/bootstrap/css/bootstrap.min.css.map
+ERR: 无法加载控制器:Public
+
+[ 2017-05-28T09:30:53+08:00 ] ::1 /eshop/Public/Common/bootstrap/css/bootstrap.min.css.map
+ERR: 无法加载控制器:Public
+
+[ 2017-05-28T09:31:20+08:00 ] ::1 /eshop/Public/Common/bootstrap/css/bootstrap.min.css.map
+ERR: 无法加载控制器:Public
+
+[ 2017-05-28T09:31:35+08:00 ] ::1 /eshop/Public/Common/bootstrap/css/bootstrap.min.css.map
+ERR: 无法加载控制器:Public
+
+[ 2017-05-28T09:31:49+08:00 ] ::1 /eshop/Public/Common/bootstrap/css/bootstrap.min.css.map
+ERR: 无法加载控制器:Public
+
+[ 2017-05-28T09:31:55+08:00 ] ::1 /eshop/Public/Common/bootstrap/css/bootstrap.min.css.map
+ERR: 无法加载控制器:Public
+
+[ 2017-05-28T09:32:28+08:00 ] ::1 /eshop/Public/Common/bootstrap/css/bootstrap.min.css.map
+ERR: 无法加载控制器:Public
+
+[ 2017-05-28T09:32:39+08:00 ] ::1 /eshop/Public/Common/bootstrap/css/bootstrap.min.css.map
+ERR: 无法加载控制器:Public
+
+[ 2017-05-28T09:32:59+08:00 ] ::1 /eshop/Public/Common/bootstrap/css/bootstrap.min.css.map
+ERR: 无法加载控制器:Public
+
+[ 2017-05-28T09:33:22+08:00 ] ::1 /eshop/Public/Common/bootstrap/css/bootstrap.min.css.map
+ERR: 无法加载控制器:Public
+
+[ 2017-05-28T09:33:47+08:00 ] ::1 /eshop/Public/Common/bootstrap/css/bootstrap.min.css.map
+ERR: Cron:cron Runat 2017-05-28 09:33:47 Use 0.000321 s
+
+[ 2017-05-28T09:33:47+08:00 ] ::1 /eshop/Public/Common/bootstrap/css/bootstrap.min.css.map
+ERR: 无法加载控制器:Public
+
+[ 2017-05-28T09:38:20+08:00 ] ::1 /eshop/Public/Common/bootstrap/css/bootstrap.min.css.map
+ERR: 无法加载控制器:Public
+
+[ 2017-05-28T09:40:21+08:00 ] ::1 /eshop/Public/Common/bootstrap/css/bootstrap.min.css.map
+ERR: Cron:cron Runat 2017-05-28 09:40:21 Use 0.000405 s
+
+[ 2017-05-28T09:40:21+08:00 ] ::1 /eshop/Public/Common/bootstrap/css/bootstrap.min.css.map
+ERR: 无法加载控制器:Public
+
+[ 2017-05-28T09:42:03+08:00 ] ::1 /eshop/Public/Common/bootstrap/css/bootstrap.min.css.map
+ERR: Cron:cron Runat 2017-05-28 09:42:03 Use 0.000323 s
+
+[ 2017-05-28T09:42:03+08:00 ] ::1 /eshop/Public/Common/bootstrap/css/bootstrap.min.css.map
+ERR: 无法加载控制器:Public
+
+[ 2017-05-28T09:42:07+08:00 ] ::1 /eshop/Public/Common/bootstrap/css/bootstrap.min.css.map
+ERR: 无法加载控制器:Public
+
+[ 2017-05-28T09:42:29+08:00 ] ::1 /eshop/Public/Common/bootstrap/css/bootstrap.min.css.map
+ERR: 无法加载控制器:Public
+
+[ 2017-05-28T09:43:09+08:00 ] ::1 /eshop/Public/Common/bootstrap/css/bootstrap.min.css.map
+ERR: Cron:cron Runat 2017-05-28 09:43:09 Use 0.000298 s
+
+[ 2017-05-28T09:43:09+08:00 ] ::1 /eshop/Public/Common/bootstrap/css/bootstrap.min.css.map
+ERR: 无法加载控制器:Public
+
+[ 2017-05-28T09:43:37+08:00 ] ::1 /eshop/Public/Common/bootstrap/css/bootstrap.min.css.map
+ERR: 无法加载控制器:Public
+
+[ 2017-05-28T09:44:48+08:00 ] ::1 /eshop/Public/Common/bootstrap/css/bootstrap.min.css.map
+ERR: 无法加载控制器:Public
+
+[ 2017-05-28T09:45:09+08:00 ] ::1 /eshop/Public/Common/bootstrap/css/bootstrap.min.css.map
+ERR: 无法加载控制器:Public
+
+[ 2017-05-28T09:46:49+08:00 ] ::1 /eshop/Public/Common/bootstrap/css/bootstrap.min.css.map
+ERR: Cron:cron Runat 2017-05-28 09:46:49 Use 0.000267 s
+
+[ 2017-05-28T09:46:49+08:00 ] ::1 /eshop/Public/Common/bootstrap/css/bootstrap.min.css.map
+ERR: 无法加载控制器:Public
+
+[ 2017-05-28T09:46:57+08:00 ] ::1 /eshop/Public/Common/bootstrap/css/bootstrap.min.css.map
+ERR: 无法加载控制器:Public
+
+[ 2017-05-28T09:47:08+08:00 ] ::1 /eshop/Public/Common/bootstrap/css/bootstrap.min.css.map
+ERR: 无法加载控制器:Public
+
+[ 2017-05-28T09:47:31+08:00 ] ::1 /eshop/Public/Common/bootstrap/css/bootstrap.min.css.map
+ERR: Cron:cron Runat 2017-05-28 09:47:31 Use 0.000279 s
+
+[ 2017-05-28T09:47:31+08:00 ] ::1 /eshop/Public/Common/bootstrap/css/bootstrap.min.css.map
+ERR: 无法加载控制器:Public
+
+[ 2017-05-28T09:48:55+08:00 ] ::1 /eshop/Public/Common/bootstrap/css/bootstrap.min.css.map
+ERR: Cron:cron Runat 2017-05-28 09:48:55 Use 0.000387 s
+
+[ 2017-05-28T09:48:55+08:00 ] ::1 /eshop/Public/Common/bootstrap/css/bootstrap.min.css.map
+ERR: 无法加载控制器:Public
+
+[ 2017-05-28T09:48:59+08:00 ] ::1 /eshop/Public/Common/bootstrap/css/bootstrap.min.css.map
+ERR: Cron:cron Runat 2017-05-28 09:48:59 Use 0.000438 s
+
+[ 2017-05-28T09:48:59+08:00 ] ::1 /eshop/Public/Common/bootstrap/css/bootstrap.min.css.map
+ERR: 无法加载控制器:Public
+
+[ 2017-05-28T09:49:32+08:00 ] ::1 /eshop/Public/Common/bootstrap/css/bootstrap.min.css.map
+ERR: 无法加载控制器:Public
+
+[ 2017-05-28T09:49:59+08:00 ] ::1 /eshop/Public/Common/bootstrap/css/bootstrap.min.css.map
+ERR: 无法加载控制器:Public
+
+[ 2017-05-28T09:50:15+08:00 ] ::1 /eshop/Public/Common/bootstrap/css/bootstrap.min.css.map
+ERR: 无法加载控制器:Public
+
+[ 2017-05-28T09:50:35+08:00 ] ::1 /eshop/Public/Common/bootstrap/css/bootstrap.min.css.map
+ERR: Cron:cron Runat 2017-05-28 09:50:35 Use 0.000320 s
+
+[ 2017-05-28T09:50:35+08:00 ] ::1 /eshop/Public/Common/bootstrap/css/bootstrap.min.css.map
+ERR: 无法加载控制器:Public
+
+[ 2017-05-28T09:51:02+08:00 ] ::1 /eshop/Public/Common/bootstrap/css/bootstrap.min.css.map
+ERR: 无法加载控制器:Public
+
+[ 2017-05-28T09:52:29+08:00 ] ::1 /eshop/Public/Common/bootstrap/css/bootstrap.min.css.map
+ERR: 无法加载控制器:Public
+
+[ 2017-05-28T09:55:17+08:00 ] ::1 /eshop/Public/Common/bootstrap/css/bootstrap.min.css.map
+ERR: 无法加载控制器:Public
+
+[ 2017-05-28T10:03:43+08:00 ] ::1 /eshop/Public/Common/bootstrap/css/bootstrap.min.css.map
+ERR: Cron:cron Runat 2017-05-28 10:03:43 Use 0.000331 s
+
+[ 2017-05-28T10:03:43+08:00 ] ::1 /eshop/Public/Common/bootstrap/css/bootstrap.min.css.map
+ERR: 无法加载控制器:Public
+
+[ 2017-05-28T10:04:13+08:00 ] ::1 /eshop/Public/Common/bootstrap/css/bootstrap.min.css.map
+ERR: 无法加载控制器:Public
+
+[ 2017-05-28T10:04:31+08:00 ] ::1 /eshop/Public/Common/bootstrap/css/bootstrap.min.css.map
+ERR: 无法加载控制器:Public
+
+[ 2017-05-28T10:04:48+08:00 ] ::1 /eshop/Public/Common/bootstrap/css/bootstrap.min.css.map
+ERR: 无法加载控制器:Public
+
+[ 2017-05-28T10:09:57+08:00 ] ::1 /eshop/Public/Common/bootstrap/css/bootstrap.min.css.map
+ERR: 无法加载控制器:Public
+
+[ 2017-05-28T10:24:46+08:00 ] ::1 /eshop/index.php/Home/Shop/index/shopId/3.html
+ERR: Cron:cron Runat 2017-05-28 10:24:46 Use 0.000281 s
+
+[ 2017-05-28T10:24:48+08:00 ] ::1 /eshop/index.php/Home/Index/index.html
+ERR: Cron:cron Runat 2017-05-28 10:24:48 Use 0.000369 s
+
+[ 2017-05-28T10:24:56+08:00 ] ::1 /eshop/index.php/Home/Index/index.html
+ERR: Cron:cron Runat 2017-05-28 10:24:56 Use 0.000387 s
+
+[ 2017-05-28T10:26:51+08:00 ] ::1 /eshop/index.php/Home/Shop/index/shopId/3.html
+ERR: Cron:cron Runat 2017-05-28 10:26:51 Use 0.000430 s
+
+[ 2017-05-28T10:26:53+08:00 ] ::1 /eshop/index.php/Home/Shoper/index.html
+ERR: Cron:cron Runat 2017-05-28 10:26:53 Use 0.000489 s
+
+[ 2017-05-28T10:59:42+08:00 ] ::1 /eshop/index.php/Shoper/verify.html?0.9557921735464574
+ERR: Cron:cron Runat 2017-05-28 10:59:42 Use 0.000393 s
+
+[ 2017-05-28T19:23:02+08:00 ] ::1 /eshop/index.php/Home/Index/index.html
+ERR: Cron:cron Runat 2017-05-28 19:23:02 Use 0.000363 s
+

@@ -1,0 +1,561 @@
+[ 2017-03-25T09:21:01+08:00 ] ::1 /eshop/index.php/Home/Good/audit.html
+ERR: Cron:cron Runat 2017-03-25 09:21:01 Use 0.000327 s
+
+[ 2017-03-25T09:21:07+08:00 ] ::1 /eshop/index.php/Home/ShopManage/index.html
+ERR: Cron:cron Runat 2017-03-25 09:21:07 Use 0.000361 s
+
+[ 2017-03-25T09:25:46+08:00 ] ::1 /eshop/index.php/Home/ShopManage/index.html
+ERR: Cron:cron Runat 2017-03-25 09:25:46 Use 0.000338 s
+
+[ 2017-03-25T09:30:21+08:00 ] ::1 /eshop/index.php/Home/ShopManage/index.html
+ERR: Cron:cron Runat 2017-03-25 09:30:21 Use 0.000362 s
+
+[ 2017-03-25T09:30:37+08:00 ] ::1 /eshop/index.php/Home/ShopManage/index.html
+ERR: Cron:cron Runat 2017-03-25 09:30:37 Use 0.000262 s
+
+[ 2017-03-25T09:31:25+08:00 ] ::1 /eshop/index.php/Home/ShopManage/index.html
+ERR: Cron:cron Runat 2017-03-25 09:31:25 Use 0.000279 s
+
+[ 2017-03-25T09:32:44+08:00 ] ::1 /eshop/index.php/Home/ShopManage/index.html
+ERR: Cron:cron Runat 2017-03-25 09:32:44 Use 0.000287 s
+
+[ 2017-03-25T09:32:59+08:00 ] ::1 /eshop/index.php/Home/ShopManage/index.html
+ERR: Cron:cron Runat 2017-03-25 09:32:59 Use 0.000311 s
+
+[ 2017-03-25T09:33:19+08:00 ] ::1 /eshop/index.php/Home/ShopManage/index.html
+ERR: Cron:cron Runat 2017-03-25 09:33:19 Use 0.000315 s
+
+[ 2017-03-25T09:34:39+08:00 ] ::1 /eshop/index.php/Home/ShopManage/index.html
+ERR: Cron:cron Runat 2017-03-25 09:34:39 Use 0.000360 s
+
+[ 2017-03-25T09:36:20+08:00 ] ::1 /eshop/index.php/Home/ShopManage/index.html
+ERR: Cron:cron Runat 2017-03-25 09:36:20 Use 0.000321 s
+
+[ 2017-03-25T09:36:38+08:00 ] ::1 /eshop/index.php/Home/ShopManage/index.html
+ERR: Cron:cron Runat 2017-03-25 09:36:38 Use 0.000300 s
+
+[ 2017-03-25T09:38:33+08:00 ] ::1 /eshop/index.php/Home/ShopManage/index.html
+ERR: Cron:cron Runat 2017-03-25 09:38:33 Use 0.000422 s
+
+[ 2017-03-25T09:39:15+08:00 ] ::1 /eshop/index.php/Home/ShopManage/index.html
+ERR: Cron:cron Runat 2017-03-25 09:39:15 Use 0.000337 s
+
+[ 2017-03-25T09:39:41+08:00 ] ::1 /eshop/index.php/Home/ShopManage/index.html
+ERR: Cron:cron Runat 2017-03-25 09:39:41 Use 0.000351 s
+
+[ 2017-03-25T09:40:04+08:00 ] ::1 /eshop/index.php/Home/ShopManage/index.html
+ERR: Cron:cron Runat 2017-03-25 09:40:04 Use 0.000325 s
+
+[ 2017-03-25T09:40:16+08:00 ] ::1 /eshop/index.php/Home/ShopManage/index.html
+ERR: Cron:cron Runat 2017-03-25 09:40:16 Use 0.000362 s
+
+[ 2017-03-25T09:40:19+08:00 ] ::1 /eshop/index.php/Home/ShopManage/index.html?shopName=&photo=&photo=&shopqq=&shopTel=&shopAddr=&serverTime=
+ERR: Cron:cron Runat 2017-03-25 09:40:19 Use 0.000371 s
+
+[ 2017-03-25T09:40:38+08:00 ] ::1 /eshop/index.php/Home/ShopManage/index.html?shopName=&photo=&photo=&shopqq=&shopTel=&shopAddr=&serverTime=
+ERR: Cron:cron Runat 2017-03-25 09:40:38 Use 0.000393 s
+
+[ 2017-03-25T09:41:29+08:00 ] ::1 /eshop/index.php/Home/ShopManage/index.html?shopName=&photo=&photo=&shopqq=&shopTel=&shopAddr=&serverTime=
+ERR: Cron:cron Runat 2017-03-25 09:41:29 Use 0.000299 s
+
+[ 2017-03-25T09:44:04+08:00 ] ::1 /eshop/index.php/Home/ShopManage/index.html?shopName=&photo=&photo=&shopqq=&shopTel=&shopAddr=&serverTime=
+ERR: Cron:cron Runat 2017-03-25 09:44:04 Use 0.000348 s
+
+[ 2017-03-25T09:44:32+08:00 ] ::1 /eshop/index.php/Home/ShopManage/index.html?shopName=&photo=&photo=&shopqq=&shopTel=&shopAddr=&serverTime=
+ERR: Cron:cron Runat 2017-03-25 09:44:32 Use 0.000334 s
+
+[ 2017-03-25T09:45:30+08:00 ] ::1 /eshop/index.php/Home/ShopManage/index.html?shopName=&photo=&photo=&shopqq=&shopTel=&shopAddr=&serverTime=
+ERR: Cron:cron Runat 2017-03-25 09:45:30 Use 0.000422 s
+
+[ 2017-03-25T09:45:42+08:00 ] ::1 /eshop/index.php/Home/ShopManage/index.html?shopName=&photo=&photo=&shopqq=&shopTel=&shopAddr=&serverTime=
+ERR: Cron:cron Runat 2017-03-25 09:45:42 Use 0.000322 s
+
+[ 2017-03-25T09:46:33+08:00 ] ::1 /eshop/index.php/Home/ShopManage/index.html?shopName=&photo=&photo=&shopqq=&shopTel=&shopAddr=&serverTime=
+ERR: Cron:cron Runat 2017-03-25 09:46:33 Use 0.000339 s
+
+[ 2017-03-25T09:46:36+08:00 ] ::1 /eshop/index.php/Home/ShopManage/index.html
+ERR: Cron:cron Runat 2017-03-25 09:46:36 Use 0.000460 s
+
+[ 2017-03-25T09:48:01+08:00 ] ::1 /eshop/index.php/Home/ShopManage/index.html
+ERR: Cron:cron Runat 2017-03-25 09:48:01 Use 0.000316 s
+
+[ 2017-03-25T09:48:25+08:00 ] ::1 /eshop/index.php/Home/ShopManage/index.html
+ERR: Cron:cron Runat 2017-03-25 09:48:25 Use 0.000392 s
+
+[ 2017-03-25T09:48:27+08:00 ] ::1 /eshop/index.php/Home/ShopManage/info.html
+ERR: Cron:cron Runat 2017-03-25 09:48:27 Use 0.000370 s
+
+[ 2017-03-25T09:49:14+08:00 ] ::1 /eshop/index.php/Home/ShopManage/index.html
+ERR: Cron:cron Runat 2017-03-25 09:49:14 Use 0.000322 s
+
+[ 2017-03-25T09:50:00+08:00 ] ::1 /eshop/index.php/Home/ShopManage/index.html
+ERR: Cron:cron Runat 2017-03-25 09:50:00 Use 0.000365 s
+
+[ 2017-03-25T09:50:02+08:00 ] ::1 /eshop/index.php/Home/ShopManage/info.html
+ERR: Cron:cron Runat 2017-03-25 09:50:02 Use 0.000339 s
+
+[ 2017-03-25T09:50:22+08:00 ] ::1 /eshop/index.php/Home/ShopManage/info.html
+ERR: Cron:cron Runat 2017-03-25 09:50:22 Use 0.000390 s
+
+[ 2017-03-25T09:50:42+08:00 ] ::1 /eshop/index.php/Home/ShopManage/info.html
+ERR: Cron:cron Runat 2017-03-25 09:50:42 Use 0.000338 s
+
+[ 2017-03-25T09:56:04+08:00 ] ::1 /eshop/index.php/Home/ShopManage/info.html
+ERR: Cron:cron Runat 2017-03-25 09:56:04 Use 0.000359 s
+
+[ 2017-03-25T09:56:40+08:00 ] ::1 /eshop/index.php/Home/ShopManage/info.html
+ERR: Cron:cron Runat 2017-03-25 09:56:40 Use 0.000356 s
+
+[ 2017-03-25T09:57:06+08:00 ] ::1 /eshop/index.php/Home/ShopManage/info.html
+ERR: Cron:cron Runat 2017-03-25 09:57:06 Use 0.000360 s
+
+[ 2017-03-25T09:59:15+08:00 ] ::1 /eshop/index.php/Home/ShopManage/info.html
+ERR: Cron:cron Runat 2017-03-25 09:59:15 Use 0.000344 s
+
+[ 2017-03-25T10:00:14+08:00 ] ::1 /eshop/index.php/Home/ShopManage/info.html
+ERR: Cron:cron Runat 2017-03-25 10:00:14 Use 0.000377 s
+
+[ 2017-03-25T10:00:26+08:00 ] ::1 /eshop/index.php/Home/ShopManage/info.html
+ERR: Cron:cron Runat 2017-03-25 10:00:26 Use 0.000394 s
+
+[ 2017-03-25T10:00:49+08:00 ] ::1 /eshop/index.php/Home/ShopManage/info.html
+ERR: Cron:cron Runat 2017-03-25 10:00:49 Use 0.000363 s
+
+[ 2017-03-25T10:00:52+08:00 ] ::1 /eshop/index.php/Home/ShopManage/info.html
+ERR: Cron:cron Runat 2017-03-25 10:00:52 Use 0.000347 s
+
+[ 2017-03-25T10:01:02+08:00 ] ::1 /eshop/index.php/Home/ShopManage/info.html
+ERR: Cron:cron Runat 2017-03-25 10:01:02 Use 0.000557 s
+
+[ 2017-03-25T10:01:11+08:00 ] ::1 /eshop/index.php/Home/ShopManage/info.html
+ERR: Cron:cron Runat 2017-03-25 10:01:11 Use 0.000313 s
+
+[ 2017-03-25T10:01:21+08:00 ] ::1 /eshop/index.php/Home/ShopManage/info.html
+ERR: Cron:cron Runat 2017-03-25 10:01:21 Use 0.000358 s
+
+[ 2017-03-25T10:04:08+08:00 ] ::1 /eshop/index.php/Home/ShopManage/info.html
+ERR: Cron:cron Runat 2017-03-25 10:04:08 Use 0.000420 s
+
+[ 2017-03-25T10:04:51+08:00 ] ::1 /eshop/index.php/Home/ShopManage/info.html
+ERR: Cron:cron Runat 2017-03-25 10:04:51 Use 0.000402 s
+
+[ 2017-03-25T10:05:09+08:00 ] ::1 /eshop/index.php/Home/Good/add.html
+ERR: Cron:cron Runat 2017-03-25 10:05:09 Use 0.000296 s
+
+[ 2017-03-25T10:09:47+08:00 ] ::1 /eshop/index.php/Home/Good/add.html
+ERR: Cron:cron Runat 2017-03-25 10:09:47 Use 0.000301 s
+
+[ 2017-03-25T10:10:03+08:00 ] ::1 /eshop/index.php/Home/ShopManage/info.html
+ERR: Cron:cron Runat 2017-03-25 10:10:03 Use 0.000294 s
+
+[ 2017-03-25T10:10:32+08:00 ] ::1 /eshop/index.php/Home/Good/add.html
+ERR: Cron:cron Runat 2017-03-25 10:10:32 Use 0.000310 s
+
+[ 2017-03-25T10:11:27+08:00 ] ::1 /eshop/index.php/Home/ShopManage/info.html
+ERR: Cron:cron Runat 2017-03-25 10:11:27 Use 0.000317 s
+
+[ 2017-03-25T10:11:49+08:00 ] ::1 /eshop/index.php/Home/ShopManage/info.html
+ERR: Cron:cron Runat 2017-03-25 10:11:49 Use 0.000335 s
+
+[ 2017-03-25T10:12:14+08:00 ] ::1 /eshop/index.php/Home/ShopManage/info.html
+ERR: Cron:cron Runat 2017-03-25 10:12:14 Use 0.000484 s
+
+[ 2017-03-25T10:12:40+08:00 ] ::1 /eshop/index.php/Home/ShopManage/info.html
+ERR: Cron:cron Runat 2017-03-25 10:12:40 Use 0.000386 s
+
+[ 2017-03-25T10:12:58+08:00 ] ::1 /eshop/index.php/Home/ShopManage/info.html
+ERR: Cron:cron Runat 2017-03-25 10:12:58 Use 0.000361 s
+
+[ 2017-03-25T10:14:02+08:00 ] ::1 /eshop/index.php/Home/ShopManage/info.html
+ERR: Cron:cron Runat 2017-03-25 10:14:02 Use 0.000370 s
+
+[ 2017-03-25T10:14:34+08:00 ] ::1 /eshop/index.php/Home/ShopManage/index.html
+ERR: Cron:cron Runat 2017-03-25 10:14:34 Use 0.000308 s
+
+[ 2017-03-25T10:15:05+08:00 ] ::1 /eshop/index.php/Home/ShopManage/index.html
+ERR: Cron:cron Runat 2017-03-25 10:15:05 Use 0.000372 s
+
+[ 2017-03-25T10:15:43+08:00 ] ::1 /eshop/index.php/Home/ShopManage/index.html
+ERR: Cron:cron Runat 2017-03-25 10:15:43 Use 0.000368 s
+
+[ 2017-03-25T10:15:51+08:00 ] ::1 /eshop/index.php/Home/ShopManage/info.html
+ERR: Cron:cron Runat 2017-03-25 10:15:51 Use 0.000347 s
+
+[ 2017-03-25T10:16:07+08:00 ] ::1 /eshop/index.php/Home/ShopManage/info.html
+ERR: Cron:cron Runat 2017-03-25 10:16:07 Use 0.000378 s
+
+[ 2017-03-25T10:17:33+08:00 ] ::1 /eshop/index.php/Home/ShopManage/info.html
+ERR: Cron:cron Runat 2017-03-25 10:17:33 Use 0.000370 s
+
+[ 2017-03-25T10:17:59+08:00 ] ::1 /eshop/index.php/Home/ShopManage/info.html
+ERR: Cron:cron Runat 2017-03-25 10:17:59 Use 0.000382 s
+
+[ 2017-03-25T10:19:18+08:00 ] ::1 /eshop/index.php/Home/ShopManage/info.html
+ERR: Cron:cron Runat 2017-03-25 10:19:18 Use 0.000362 s
+
+[ 2017-03-25T10:20:27+08:00 ] ::1 /eshop/index.php/Home/ShopManage/info.html
+ERR: Cron:cron Runat 2017-03-25 10:20:27 Use 0.000416 s
+
+[ 2017-03-25T10:20:50+08:00 ] ::1 /eshop/index.php/Home/ShopManage/info.html
+ERR: Cron:cron Runat 2017-03-25 10:20:50 Use 0.000322 s
+
+[ 2017-03-25T10:21:15+08:00 ] ::1 /eshop/index.php/Home/ShopManage/info.html
+ERR: Cron:cron Runat 2017-03-25 10:21:15 Use 0.000445 s
+
+[ 2017-03-25T10:21:51+08:00 ] ::1 /eshop/index.php/Home/ShopManage/info.html
+ERR: Cron:cron Runat 2017-03-25 10:21:51 Use 0.000522 s
+
+[ 2017-03-25T10:22:29+08:00 ] ::1 /eshop/index.php/Home/ShopManage/info.html
+ERR: Cron:cron Runat 2017-03-25 10:22:29 Use 0.000366 s
+
+[ 2017-03-25T10:22:49+08:00 ] ::1 /eshop/index.php/Home/ShopManage/index.html
+ERR: Cron:cron Runat 2017-03-25 10:22:49 Use 0.000447 s
+
+[ 2017-03-25T10:22:53+08:00 ] ::1 /eshop/index.php/Home/ShopManage/info.html
+ERR: Cron:cron Runat 2017-03-25 10:22:53 Use 0.000465 s
+
+[ 2017-03-25T10:23:19+08:00 ] ::1 /eshop/index.php/Home/ShopManage/info.html
+ERR: Cron:cron Runat 2017-03-25 10:23:19 Use 0.000427 s
+
+[ 2017-03-25T10:24:27+08:00 ] ::1 /eshop/index.php/Home/Good/add.html
+ERR: Cron:cron Runat 2017-03-25 10:24:27 Use 0.000363 s
+
+[ 2017-03-25T10:24:39+08:00 ] ::1 /eshop/index.php/Home/ShopManage/info.html
+ERR: Cron:cron Runat 2017-03-25 10:24:39 Use 0.000295 s
+
+[ 2017-03-25T10:24:52+08:00 ] ::1 /eshop/index.php/Home/ShopManage/info.html
+ERR: Cron:cron Runat 2017-03-25 10:24:52 Use 0.000430 s
+
+[ 2017-03-25T10:26:27+08:00 ] ::1 /eshop/index.php/Home/ShopManage/info.html
+ERR: Cron:cron Runat 2017-03-25 10:26:27 Use 0.000334 s
+
+[ 2017-03-25T10:27:18+08:00 ] ::1 /eshop/index.php/Home/ShopManage/info.html
+ERR: Cron:cron Runat 2017-03-25 10:27:18 Use 0.000384 s
+
+[ 2017-03-25T10:27:36+08:00 ] ::1 /eshop/index.php/Home/ShopManage/info.html
+ERR: Cron:cron Runat 2017-03-25 10:27:36 Use 0.000390 s
+
+[ 2017-03-25T10:28:27+08:00 ] ::1 /eshop/index.php/Home/ShopManage/info.html
+ERR: Cron:cron Runat 2017-03-25 10:28:27 Use 0.000304 s
+
+[ 2017-03-25T10:28:42+08:00 ] ::1 /eshop/index.php/Home/ShopManage/info.html
+ERR: Cron:cron Runat 2017-03-25 10:28:42 Use 0.000313 s
+
+[ 2017-03-25T10:29:04+08:00 ] ::1 /eshop/index.php/Home/ShopManage/info.html
+ERR: Cron:cron Runat 2017-03-25 10:29:04 Use 0.000299 s
+
+[ 2017-03-25T10:29:11+08:00 ] ::1 /eshop/index.php/Home/ShopManage/info.html
+ERR: Cron:cron Runat 2017-03-25 10:29:11 Use 0.000350 s
+
+[ 2017-03-25T10:30:05+08:00 ] ::1 /eshop/index.php/Home/ShopManage/info.html
+ERR: Cron:cron Runat 2017-03-25 10:30:05 Use 0.000322 s
+
+[ 2017-03-25T10:30:23+08:00 ] ::1 /eshop/index.php/Home/ShopManage/info.html
+ERR: Cron:cron Runat 2017-03-25 10:30:23 Use 0.000476 s
+
+[ 2017-03-25T10:30:43+08:00 ] ::1 /eshop/index.php/Home/ShopManage/info.html
+ERR: Cron:cron Runat 2017-03-25 10:30:43 Use 0.000306 s
+
+[ 2017-03-25T10:31:29+08:00 ] ::1 /eshop/index.php/Home/ShopManage/info.html
+ERR: Cron:cron Runat 2017-03-25 10:31:29 Use 0.000397 s
+
+[ 2017-03-25T10:31:37+08:00 ] ::1 /eshop/index.php/Home/ShopManage/info.html
+ERR: Cron:cron Runat 2017-03-25 10:31:37 Use 0.000361 s
+
+[ 2017-03-25T10:32:13+08:00 ] ::1 /eshop/index.php/Home/ShopManage/info.html
+ERR: Cron:cron Runat 2017-03-25 10:32:13 Use 0.000363 s
+
+[ 2017-03-25T10:32:21+08:00 ] ::1 /eshop/index.php/Home/ShopManage/info.html
+ERR: Cron:cron Runat 2017-03-25 10:32:21 Use 0.000382 s
+
+[ 2017-03-25T10:32:28+08:00 ] ::1 /eshop/index.php/Home/ShopManage/info.html
+ERR: Cron:cron Runat 2017-03-25 10:32:28 Use 0.000316 s
+
+[ 2017-03-25T10:33:12+08:00 ] ::1 /eshop/index.php/Home/ShopManage/info.html
+ERR: Cron:cron Runat 2017-03-25 10:33:12 Use 0.000679 s
+
+[ 2017-03-25T10:34:23+08:00 ] ::1 /eshop/index.php/Home/ShopManage/info.html
+ERR: Cron:cron Runat 2017-03-25 10:34:23 Use 0.000392 s
+
+[ 2017-03-25T10:34:50+08:00 ] ::1 /eshop/index.php/Home/ShopManage/info.html
+ERR: Cron:cron Runat 2017-03-25 10:34:50 Use 0.000467 s
+
+[ 2017-03-25T10:35:04+08:00 ] ::1 /eshop/index.php/Home/ShopManage/info.html
+ERR: Cron:cron Runat 2017-03-25 10:35:04 Use 0.000390 s
+
+[ 2017-03-25T10:35:17+08:00 ] ::1 /eshop/index.php/Home/ShopManage/info.html
+ERR: Cron:cron Runat 2017-03-25 10:35:17 Use 0.000362 s
+
+[ 2017-03-25T10:35:19+08:00 ] ::1 /eshop/index.php/Home/Good/add.html
+ERR: Cron:cron Runat 2017-03-25 10:35:19 Use 0.000764 s
+
+[ 2017-03-25T10:36:24+08:00 ] ::1 /eshop/index.php/Home/Good/add.html
+ERR: Cron:cron Runat 2017-03-25 10:36:24 Use 0.000367 s
+
+[ 2017-03-25T10:36:30+08:00 ] ::1 /eshop/index.php/Home/ShopManage/info.html
+ERR: Cron:cron Runat 2017-03-25 10:36:30 Use 0.000383 s
+
+[ 2017-03-25T10:37:00+08:00 ] ::1 /eshop/index.php/Home/ShopManage/info.html
+ERR: Cron:cron Runat 2017-03-25 10:37:00 Use 0.000315 s
+
+[ 2017-03-25T10:37:08+08:00 ] ::1 /eshop/index.php/Home/ShopManage/info.html
+ERR: Cron:cron Runat 2017-03-25 10:37:08 Use 0.000371 s
+
+[ 2017-03-25T10:37:25+08:00 ] ::1 /eshop/index.php/Home/ShopManage/info.html
+ERR: Cron:cron Runat 2017-03-25 10:37:25 Use 0.000326 s
+
+[ 2017-03-25T10:37:55+08:00 ] ::1 /eshop/index.php/Home/ShopManage/info.html
+ERR: Cron:cron Runat 2017-03-25 10:37:55 Use 0.000396 s
+
+[ 2017-03-25T10:38:05+08:00 ] ::1 /eshop/index.php/Home/Good/add.html
+ERR: Cron:cron Runat 2017-03-25 10:38:05 Use 0.000441 s
+
+[ 2017-03-25T10:38:16+08:00 ] ::1 /eshop/index.php/Home/ShopManage/info.html
+ERR: Cron:cron Runat 2017-03-25 10:38:16 Use 0.000318 s
+
+[ 2017-03-25T10:38:46+08:00 ] ::1 /eshop/index.php/Home/ShopManage/info.html
+ERR: Cron:cron Runat 2017-03-25 10:38:46 Use 0.000349 s
+
+[ 2017-03-25T10:39:08+08:00 ] ::1 /eshop/index.php/Home/ShopManage/info.html
+ERR: Cron:cron Runat 2017-03-25 10:39:08 Use 0.000302 s
+
+[ 2017-03-25T10:39:43+08:00 ] ::1 /eshop/index.php/Home/ShopManage/info.html
+ERR: Cron:cron Runat 2017-03-25 10:39:43 Use 0.000366 s
+
+[ 2017-03-25T10:40:18+08:00 ] ::1 /eshop/index.php/Home/ShopManage/info.html
+ERR: Cron:cron Runat 2017-03-25 10:40:18 Use 0.000557 s
+
+[ 2017-03-25T10:41:04+08:00 ] ::1 /eshop/index.php/Home/ShopManage/info.html?info-title=&title-type=0&info-content=
+ERR: Cron:cron Runat 2017-03-25 10:41:04 Use 0.000303 s
+
+[ 2017-03-25T10:41:44+08:00 ] ::1 /eshop/index.php/Home/ShopManage/info.html?info-title=&title-type=0&info-content=
+ERR: Cron:cron Runat 2017-03-25 10:41:44 Use 0.000314 s
+
+[ 2017-03-25T10:41:54+08:00 ] ::1 /eshop/index.php/Home/ShopManage/info.html?info-title=&title-type=0&info-content=
+ERR: Cron:cron Runat 2017-03-25 10:41:54 Use 0.000461 s
+
+[ 2017-03-25T10:42:58+08:00 ] ::1 /eshop/index.php/Home/ShopManage/info.html?info-title=&title-type=0&info-content=
+ERR: Cron:cron Runat 2017-03-25 10:42:58 Use 0.000449 s
+
+[ 2017-03-25T10:43:17+08:00 ] ::1 /eshop/index.php/Home/ShopManage/info.html?info-title=&title-type=0&info-content=
+ERR: Cron:cron Runat 2017-03-25 10:43:17 Use 0.000367 s
+
+[ 2017-03-25T10:43:39+08:00 ] ::1 /eshop/index.php/Home/ShopManage/info.html?info-title=&title-type=0&info-content=
+ERR: Cron:cron Runat 2017-03-25 10:43:39 Use 0.000384 s
+
+[ 2017-03-25T10:54:13+08:00 ] ::1 /eshop/index.php/Home/ShopManage/index.html
+ERR: Cron:cron Runat 2017-03-25 10:54:13 Use 0.000791 s
+
+[ 2017-03-25T10:54:15+08:00 ] ::1 /eshop/index.php/Home/ShopManage/info.html
+ERR: Cron:cron Runat 2017-03-25 10:54:15 Use 0.000432 s
+
+[ 2017-03-25T10:59:05+08:00 ] ::1 /eshop/index.php/Home/ShopManage/index.html
+ERR: Cron:cron Runat 2017-03-25 10:59:05 Use 0.000442 s
+
+[ 2017-03-25T10:59:15+08:00 ] ::1 /eshop/index.php/Home/ShopManage/index.html
+ERR: Cron:cron Runat 2017-03-25 10:59:15 Use 0.000367 s
+
+[ 2017-03-25T11:01:20+08:00 ] ::1 /eshop/index.php/Home/Index/index.html
+ERR: Cron:cron Runat 2017-03-25 11:01:20 Use 0.000420 s
+
+[ 2017-03-25T11:02:05+08:00 ] ::1 /eshop/index.php/Home/ShopManage/index.html
+ERR: Cron:cron Runat 2017-03-25 11:02:05 Use 0.000373 s
+
+[ 2017-03-25T11:04:52+08:00 ] ::1 /eshop/index.php/Home/ShopManage/index.html
+ERR: Cron:cron Runat 2017-03-25 11:04:52 Use 0.000319 s
+
+[ 2017-03-25T11:04:54+08:00 ] ::1 /eshop/index.php/Home/ShopManage/setting.html
+ERR: Cron:cron Runat 2017-03-25 11:04:54 Use 0.000321 s
+
+[ 2017-03-25T11:07:08+08:00 ] ::1 /eshop/index.php/Home/ShopManage/setting.html
+ERR: Cron:cron Runat 2017-03-25 11:07:08 Use 0.000390 s
+
+[ 2017-03-25T11:07:47+08:00 ] ::1 /eshop/index.php/Home/ShopManage/setting.html
+ERR: Cron:cron Runat 2017-03-25 11:07:47 Use 0.001104 s
+
+[ 2017-03-25T11:08:07+08:00 ] ::1 /eshop/index.php/Home/ShopManage/setting.html
+ERR: Cron:cron Runat 2017-03-25 11:08:07 Use 0.000351 s
+
+[ 2017-03-25T11:08:46+08:00 ] ::1 /eshop/index.php/Home/ShopManage/setting.html
+ERR: Cron:cron Runat 2017-03-25 11:08:46 Use 0.000374 s
+
+[ 2017-03-25T11:09:11+08:00 ] ::1 /eshop/index.php/Home/ShopManage/setting.html
+ERR: Cron:cron Runat 2017-03-25 11:09:11 Use 0.001227 s
+
+[ 2017-03-25T11:10:15+08:00 ] ::1 /eshop/index.php/Home/ShopManage/setting.html
+ERR: Cron:cron Runat 2017-03-25 11:10:15 Use 0.000372 s
+
+[ 2017-03-25T11:10:22+08:00 ] ::1 /eshop/index.php/Home/ShopManage/setting.html
+ERR: Cron:cron Runat 2017-03-25 11:10:22 Use 0.000362 s
+
+[ 2017-03-25T11:10:50+08:00 ] ::1 /eshop/index.php/Home/ShopManage/setting.html
+ERR: Cron:cron Runat 2017-03-25 11:10:50 Use 0.000474 s
+
+[ 2017-03-25T11:16:06+08:00 ] ::1 /eshop/index.php/Home/ShopManage/setting.html
+ERR: Cron:cron Runat 2017-03-25 11:16:06 Use 0.000417 s
+
+[ 2017-03-25T11:17:55+08:00 ] ::1 /eshop/index.php/Home/ShopManage/setting.html
+ERR: Cron:cron Runat 2017-03-25 11:17:55 Use 0.000541 s
+
+[ 2017-03-25T11:19:31+08:00 ] ::1 /eshop/index.php/Home/ShopManage/setting.html
+ERR: Cron:cron Runat 2017-03-25 11:19:31 Use 0.000405 s
+
+[ 2017-03-25T11:21:54+08:00 ] ::1 /eshop/index.php/Home/Good/add.html
+ERR: Cron:cron Runat 2017-03-25 11:21:54 Use 0.000448 s
+
+[ 2017-03-25T11:21:59+08:00 ] ::1 /eshop/index.php/Home/Good/audit.html
+ERR: Cron:cron Runat 2017-03-25 11:21:59 Use 0.000377 s
+
+[ 2017-03-25T11:22:01+08:00 ] ::1 /eshop/index.php/Home/Good/edit/id/14/src/audit.html
+ERR: Cron:cron Runat 2017-03-25 11:22:01 Use 0.000429 s
+
+[ 2017-03-25T11:22:25+08:00 ] ::1 /eshop/index.php/Home/ShopManage/setting.html
+ERR: Cron:cron Runat 2017-03-25 11:22:25 Use 0.000516 s
+
+[ 2017-03-25T11:22:51+08:00 ] ::1 /eshop/index.php/Home/ShopManage/setting.html
+ERR: Cron:cron Runat 2017-03-25 11:22:51 Use 0.000292 s
+
+[ 2017-03-25T11:22:54+08:00 ] ::1 /eshop/index.php/Home/ShopManage/setting.html
+ERR: Cron:cron Runat 2017-03-25 11:22:54 Use 0.000298 s
+
+[ 2017-03-25T11:23:19+08:00 ] ::1 /eshop/index.php/Home/ShopManage/setting.html
+ERR: Cron:cron Runat 2017-03-25 11:23:19 Use 0.000477 s
+
+[ 2017-03-25T11:24:12+08:00 ] ::1 /eshop/index.php/Home/ShopManage/setting.html
+ERR: Cron:cron Runat 2017-03-25 11:24:12 Use 0.000340 s
+
+[ 2017-03-25T11:25:14+08:00 ] ::1 /eshop/index.php/Home/ShopManage/setting.html
+ERR: Cron:cron Runat 2017-03-25 11:25:14 Use 0.000292 s
+
+[ 2017-03-25T11:25:25+08:00 ] ::1 /eshop/index.php/Home/ShopManage/setting.html
+ERR: Cron:cron Runat 2017-03-25 11:25:25 Use 0.000365 s
+
+[ 2017-03-25T11:27:10+08:00 ] ::1 /eshop/index.php/Home/ShopManage/setting.html
+ERR: Cron:cron Runat 2017-03-25 11:27:10 Use 0.000364 s
+
+[ 2017-03-25T11:29:19+08:00 ] ::1 /eshop/index.php/Home/ShopManage/setting.html
+ERR: Cron:cron Runat 2017-03-25 11:29:19 Use 0.000287 s
+
+[ 2017-03-25T11:29:57+08:00 ] ::1 /eshop/index.php/Home/ShopManage/setting.html
+ERR: Cron:cron Runat 2017-03-25 11:29:57 Use 0.000306 s
+
+[ 2017-03-25T11:30:18+08:00 ] ::1 /eshop/index.php/Home/ShopManage/setting.html
+ERR: Cron:cron Runat 2017-03-25 11:30:18 Use 0.000394 s
+
+[ 2017-03-25T11:30:49+08:00 ] ::1 /eshop/index.php/Home/ShopManage/setting.html
+ERR: Cron:cron Runat 2017-03-25 11:30:49 Use 0.000293 s
+
+[ 2017-03-25T11:31:51+08:00 ] ::1 /eshop/index.php/Home/ShopManage/setting.html
+ERR: Cron:cron Runat 2017-03-25 11:31:51 Use 0.000456 s
+
+[ 2017-03-25T11:32:06+08:00 ] ::1 /eshop/index.php/Home/ShopManage/setting.html
+ERR: Cron:cron Runat 2017-03-25 11:32:06 Use 0.000343 s
+
+[ 2017-03-25T11:32:51+08:00 ] ::1 /eshop/index.php/Home/ShopManage/setting.html
+ERR: Cron:cron Runat 2017-03-25 11:32:51 Use 0.000388 s
+
+[ 2017-03-25T11:33:09+08:00 ] ::1 /eshop/index.php/Home/ShopManage/setting.html
+ERR: Cron:cron Runat 2017-03-25 11:33:09 Use 0.000363 s
+
+[ 2017-03-25T11:33:22+08:00 ] ::1 /eshop/index.php/Home/ShopManage/setting.html
+ERR: Cron:cron Runat 2017-03-25 11:33:22 Use 0.000289 s
+
+[ 2017-03-25T11:33:52+08:00 ] ::1 /eshop/index.php/Home/ShopManage/setting.html
+ERR: Cron:cron Runat 2017-03-25 11:33:52 Use 0.001150 s
+
+[ 2017-03-25T11:34:06+08:00 ] ::1 /eshop/index.php/Home/ShopManage/setting.html
+ERR: Cron:cron Runat 2017-03-25 11:34:06 Use 0.000382 s
+
+[ 2017-03-25T11:34:19+08:00 ] ::1 /eshop/index.php/Home/ShopManage/setting.html
+ERR: Cron:cron Runat 2017-03-25 11:34:19 Use 0.000528 s
+
+[ 2017-03-25T11:34:33+08:00 ] ::1 /eshop/index.php/Home/ShopManage/setting.html
+ERR: Cron:cron Runat 2017-03-25 11:34:33 Use 0.000326 s
+
+[ 2017-03-25T11:35:08+08:00 ] ::1 /eshop/index.php/Home/ShopManage/setting.html
+ERR: Cron:cron Runat 2017-03-25 11:35:08 Use 0.000409 s
+
+[ 2017-03-25T11:35:30+08:00 ] ::1 /eshop/index.php/Home/ShopManage/setting.html
+ERR: Cron:cron Runat 2017-03-25 11:35:30 Use 0.000434 s
+
+[ 2017-03-25T11:35:50+08:00 ] ::1 /eshop/index.php/Home/ShopManage/setting.html
+ERR: Cron:cron Runat 2017-03-25 11:35:50 Use 0.000339 s
+
+[ 2017-03-25T11:36:47+08:00 ] ::1 /eshop/index.php/Home/ShopManage/setting.html
+ERR: Cron:cron Runat 2017-03-25 11:36:47 Use 0.000304 s
+
+[ 2017-03-25T11:38:27+08:00 ] ::1 /eshop/index.php/Home/ShopManage/setting.html
+ERR: Cron:cron Runat 2017-03-25 11:38:27 Use 0.000410 s
+
+[ 2017-03-25T11:38:38+08:00 ] ::1 /eshop/index.php/Home/ShopManage/setting.html
+ERR: Cron:cron Runat 2017-03-25 11:38:38 Use 0.000297 s
+
+[ 2017-03-25T11:38:44+08:00 ] ::1 /eshop/index.php/Home/ShopManage/setting.html
+ERR: Cron:cron Runat 2017-03-25 11:38:44 Use 0.000457 s
+
+[ 2017-03-25T11:39:13+08:00 ] ::1 /eshop/index.php/Home/ShopManage/setting.html
+ERR: Cron:cron Runat 2017-03-25 11:39:13 Use 0.000497 s
+
+[ 2017-03-25T11:39:27+08:00 ] ::1 /eshop/index.php/Home/ShopManage/setting.html
+ERR: Cron:cron Runat 2017-03-25 11:39:27 Use 0.000308 s
+
+[ 2017-03-25T11:40:08+08:00 ] ::1 /eshop/index.php/Home/ShopManage/setting.html
+ERR: Cron:cron Runat 2017-03-25 11:40:08 Use 0.000408 s
+
+[ 2017-03-25T11:40:18+08:00 ] ::1 /eshop/index.php/Home/ShopManage/setting.html
+ERR: Cron:cron Runat 2017-03-25 11:40:18 Use 0.000362 s
+
+[ 2017-03-25T11:40:46+08:00 ] ::1 /eshop/index.php/Home/ShopManage/setting.html
+ERR: Cron:cron Runat 2017-03-25 11:40:46 Use 0.000310 s
+
+[ 2017-03-25T11:40:56+08:00 ] ::1 /eshop/index.php/Home/ShopManage/setting.html
+ERR: Cron:cron Runat 2017-03-25 11:40:56 Use 0.000503 s
+
+[ 2017-03-25T11:41:05+08:00 ] ::1 /eshop/index.php/Home/ShopManage/setting.html
+ERR: Cron:cron Runat 2017-03-25 11:41:05 Use 0.000324 s
+
+[ 2017-03-25T11:41:10+08:00 ] ::1 /eshop/index.php/Home/ShopManage/setting.html
+ERR: Cron:cron Runat 2017-03-25 11:41:10 Use 0.000480 s
+
+[ 2017-03-25T11:41:47+08:00 ] ::1 /eshop/index.php/Home/ShopManage/setting.html
+ERR: Cron:cron Runat 2017-03-25 11:41:47 Use 0.000357 s
+
+[ 2017-03-25T11:41:51+08:00 ] ::1 /eshop/index.php/Home/ShopManage/setting.html
+ERR: Cron:cron Runat 2017-03-25 11:41:51 Use 0.000421 s
+
+[ 2017-03-25T11:42:32+08:00 ] ::1 /eshop/index.php/Home/ShopManage/setting.html
+ERR: Cron:cron Runat 2017-03-25 11:42:32 Use 0.000563 s
+
+[ 2017-03-25T11:42:35+08:00 ] ::1 /eshop/index.php/Home/ShopManage/setting.html
+ERR: Cron:cron Runat 2017-03-25 11:42:35 Use 0.000337 s
+
+[ 2017-03-25T11:42:42+08:00 ] ::1 /eshop/index.php/Home/ShopManage/setting.html
+ERR: Cron:cron Runat 2017-03-25 11:42:42 Use 0.000336 s
+
+[ 2017-03-25T11:43:01+08:00 ] ::1 /eshop/index.php/Home/ShopManage/index.html
+ERR: Cron:cron Runat 2017-03-25 11:43:01 Use 0.000293 s
+
+[ 2017-03-25T11:43:09+08:00 ] ::1 /eshop/index.php/Home/ShopManage/info.html
+ERR: Cron:cron Runat 2017-03-25 11:43:09 Use 0.000334 s
+
+[ 2017-03-25T11:43:16+08:00 ] ::1 /eshop/index.php/Home/ShopManage/setting.html
+ERR: Cron:cron Runat 2017-03-25 11:43:16 Use 0.000347 s
+
+[ 2017-03-25T11:48:12+08:00 ] ::1 /eshop/index.php/Home/ShopManage/info.html
+ERR: Cron:cron Runat 2017-03-25 11:48:12 Use 0.000430 s
+
+[ 2017-03-25T11:48:21+08:00 ] ::1 /eshop/index.php/Home/ShopManage/setting.html
+ERR: Cron:cron Runat 2017-03-25 11:48:21 Use 0.000359 s
+
+[ 2017-03-25T11:48:26+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/log.html
+ERR: Cron:cron Runat 2017-03-25 11:48:26 Use 0.000362 s
+
+[ 2017-03-25T11:48:29+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/modifyPwd.html
+ERR: Cron:cron Runat 2017-03-25 11:48:29 Use 0.000398 s
+
+[ 2017-03-25T11:48:38+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/modifyPwd.html
+ERR: Cron:cron Runat 2017-03-25 11:48:38 Use 0.000499 s
+
+[ 2017-03-25T11:54:55+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/modifyPwd.html
+ERR: Cron:cron Runat 2017-03-25 11:54:55 Use 0.000351 s
+

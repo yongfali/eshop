@@ -1,0 +1,141 @@
+[ 2017-02-19T19:45:58+08:00 ] ::1 /eshop/index.php/Good/goodImgDel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001182s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001891s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002573s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002748s ]
+
+[ 2017-02-19T19:49:13+08:00 ] ::1 /eshop/index.php/Good/goodImgDel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001003s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001535s ]
+NOTIC: [2] unlink() expects parameter 1 to be a valid path, array given D:\wampserver\wamp\www\eshop\App\Home\Controller\GoodController.class.php 第 166 行.
+
+[ 2017-02-19T19:50:29+08:00 ] ::1 /eshop/index.php/Good/goodImgDel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001332s ]
+NOTIC: [2] unlink() expects parameter 1 to be a valid path, array given D:\wampserver\wamp\www\eshop\App\Home\Controller\GoodController.class.php 第 166 行.
+
+[ 2017-02-19T19:52:58+08:00 ] ::1 /eshop/index.php/Good/goodImgDel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002279s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001209s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001354s ]
+
+[ 2017-02-19T19:55:43+08:00 ] ::1 /eshop/index.php/Good/goodImgDel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001150s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001904s ]
+NOTIC: [2] unlink() expects parameter 1 to be a valid path, array given D:\wampserver\wamp\www\eshop\App\Home\Controller\GoodController.class.php 第 166 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001570s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001726s ]
+
+[ 2017-02-19T19:57:04+08:00 ] ::1 /eshop/index.php/Good/goodImgDel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001378s ]
+NOTIC: [2] unlink(): Invalid argument D:\wampserver\wamp\www\eshop\App\Home\Controller\GoodController.class.php 第 167 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002494s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002653s ]
+
+[ 2017-02-19T19:57:53+08:00 ] ::1 /eshop/index.php/Good/goodImgDel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001270s ]
+NOTIC: [2] unlink(): Invalid argument D:\wampserver\wamp\www\eshop\App\Home\Controller\GoodController.class.php 第 168 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001376s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001513s ]
+
+[ 2017-02-19T19:59:09+08:00 ] ::1 /eshop/index.php/Good/goodImgDel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000774s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001313s ]
+NOTIC: [2] unlink() expects parameter 1 to be a valid path, array given D:\wampserver\wamp\www\eshop\App\Home\Controller\GoodController.class.php 第 168 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000897s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001006s ]
+
+[ 2017-02-19T20:00:12+08:00 ] ::1 /eshop/index.php/Good/goodImgDel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001158s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001785s ]
+
+[ 2017-02-19T20:00:37+08:00 ] ::1 /eshop/index.php/Good/goodImgDel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001696s ]
+NOTIC: [8] Array to string conversion D:\wampserver\wamp\www\eshop\App\Home\Controller\GoodController.class.php 第 167 行.
+NOTIC: [2] unlink(/eshop/Array): No such file or directory D:\wampserver\wamp\www\eshop\App\Home\Controller\GoodController.class.php 第 169 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000885s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000998s ]
+
+[ 2017-02-19T20:01:35+08:00 ] ::1 /eshop/index.php/Good/goodImgDel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001125s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001900s ]
+NOTIC: [8] Undefined offset: 0 D:\wampserver\wamp\www\eshop\App\Home\Controller\GoodController.class.php 第 167 行.
+NOTIC: [2] unlink(/eshop/): No such file or directory D:\wampserver\wamp\www\eshop\App\Home\Controller\GoodController.class.php 第 169 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000784s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000872s ]
+
+[ 2017-02-19T20:02:24+08:00 ] ::1 /eshop/index.php/Good/goodImgDel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001181s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001936s ]
+NOTIC: [8] Undefined variable: url D:\wampserver\wamp\www\eshop\App\Home\Controller\GoodController.class.php 第 168 行.
+NOTIC: [8] Undefined variable: url D:\wampserver\wamp\www\eshop\App\Home\Controller\GoodController.class.php 第 169 行.
+NOTIC: [2] unlink(): Invalid argument D:\wampserver\wamp\www\eshop\App\Home\Controller\GoodController.class.php 第 169 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000773s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000852s ]
+
+[ 2017-02-19T20:03:21+08:00 ] ::1 /eshop/index.php/Good/goodImgDel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001158s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001873s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001253s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001377s ]
+
+[ 2017-02-19T20:04:12+08:00 ] ::1 /eshop/index.php/Good/goodImgDel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001187s ]
+NOTIC: [2] unlink(Uploads/Shops/2017-02-19/58a986d33d7fc.jpg): No such file or directory D:\wampserver\wamp\www\eshop\App\Home\Controller\GoodController.class.php 第 166 行.
+
+[ 2017-02-19T20:04:19+08:00 ] ::1 /eshop/index.php/Good/goodImgDel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001851s ]
+
+[ 2017-02-19T20:15:38+08:00 ] ::1 /eshop/Public/Common/Uploadify/uploadify.css
+ERR: 无法加载控制器:Public
+
+[ 2017-02-19T20:15:38+08:00 ] ::1 /eshop/Public/Common/Uploadify/jquery.uploadify.min.js
+ERR: 无法加载控制器:Public
+
+[ 2017-02-19T20:15:38+08:00 ] ::1 /eshop/Public/Common/Uploadify/uploadify.css
+ERR: 无法加载控制器:Public
+
+[ 2017-02-19T20:15:38+08:00 ] ::1 /eshop/Public/Common/Uploadify/jquery.uploadify.min.js
+ERR: 无法加载控制器:Public
+
+[ 2017-02-19T20:38:26+08:00 ] ::1 /eshop/index.php/Good/goodImgDel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000742s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001277s ]
+
+[ 2017-02-19T20:38:28+08:00 ] ::1 /eshop/index.php/Good/goodImgDel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001762s ]
+

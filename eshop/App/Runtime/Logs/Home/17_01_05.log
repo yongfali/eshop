@@ -1,0 +1,989 @@
+[ 2017-01-05T12:42:00+08:00 ] ::1 /eshop/index.php/Good/getWebCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001028s ]
+SQL: SHOW COLUMNS FROM `eshop_secondmenu` [ RunTime:0.0060s ]
+SQL: SELECT `id`,`name` FROM `eshop_secondmenu` WHERE `pid` = 2 AND `is_show` = 1  [ RunTime:0.0006s ]
+
+[ 2017-01-05T12:42:01+08:00 ] ::1 /eshop/index.php/Good/getWebCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001079s ]
+SQL: SHOW COLUMNS FROM `eshop_thirdmenu` [ RunTime:0.0056s ]
+SQL: SELECT `id`,`name` FROM `eshop_thirdmenu` WHERE `pid` = 3 AND `is_show` = 1  [ RunTime:0.0006s ]
+
+[ 2017-01-05T12:42:03+08:00 ] ::1 /eshop/index.php/Good/getShopCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001077s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_secondmenu` [ RunTime:0.0039s ]
+SQL: SELECT `id`,`sname` FROM `eshop_shop_secondmenu` WHERE `pid` = 1 AND `is_show` = 1  [ RunTime:0.0004s ]
+
+[ 2017-01-05T12:42:31+08:00 ] ::1 /eshop/index.php/Good/goodsSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001882s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000769s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000863s ]
+
+[ 2017-01-05T12:46:45+08:00 ] ::1 /eshop/index.php/Good/getWebCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001211s ]
+SQL: SHOW COLUMNS FROM `eshop_secondmenu` [ RunTime:0.0052s ]
+SQL: SELECT `id`,`name` FROM `eshop_secondmenu` WHERE `pid` = 3 AND `is_show` = 1  [ RunTime:0.0005s ]
+
+[ 2017-01-05T12:46:46+08:00 ] ::1 /eshop/index.php/Good/getWebCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001012s ]
+SQL: SHOW COLUMNS FROM `eshop_thirdmenu` [ RunTime:0.0045s ]
+SQL: SELECT `id`,`name` FROM `eshop_thirdmenu` WHERE `pid` = 5 AND `is_show` = 1  [ RunTime:0.0004s ]
+
+[ 2017-01-05T12:46:48+08:00 ] ::1 /eshop/index.php/Good/getWebCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001056s ]
+SQL: SHOW COLUMNS FROM `eshop_secondmenu` [ RunTime:0.0044s ]
+SQL: SELECT `id`,`name` FROM `eshop_secondmenu` WHERE `pid` = 1 AND `is_show` = 1  [ RunTime:0.0004s ]
+
+[ 2017-01-05T12:46:50+08:00 ] ::1 /eshop/index.php/Good/getWebCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001040s ]
+SQL: SHOW COLUMNS FROM `eshop_thirdmenu` [ RunTime:0.0042s ]
+SQL: SELECT `id`,`name` FROM `eshop_thirdmenu` WHERE `pid` = 1 AND `is_show` = 1  [ RunTime:0.0003s ]
+
+[ 2017-01-05T12:46:53+08:00 ] ::1 /eshop/index.php/Good/getShopCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000935s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001467s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_secondmenu` [ RunTime:0.0045s ]
+SQL: SELECT `id`,`sname` FROM `eshop_shop_secondmenu` WHERE `pid` = 1 AND `is_show` = 1  [ RunTime:0.0003s ]
+
+[ 2017-01-05T12:47:08+08:00 ] ::1 /eshop/index.php/Good/goodsSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001752s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000762s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000854s ]
+
+[ 2017-01-05T12:48:53+08:00 ] ::1 /eshop/index.php/Good/goodsSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001072s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001132s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001266s ]
+
+[ 2017-01-05T12:49:02+08:00 ] ::1 /eshop/index.php/Good/goodsSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000830s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000938s ]
+
+[ 2017-01-05T13:18:45+08:00 ] ::1 /eshop/index.php/Good/goodsSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001222s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001916s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002229s ]
+
+[ 2017-01-05T13:18:53+08:00 ] ::1 /eshop/index.php/Good/goodsSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001318s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000636s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000717s ]
+
+[ 2017-01-05T13:19:32+08:00 ] ::1 /eshop/index.php/Good/goodsSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000931s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000565s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000640s ]
+
+[ 2017-01-05T13:22:05+08:00 ] ::1 /eshop/index.php/Good/goodsSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000998s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001582s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000709s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000828s ]
+
+[ 2017-01-05T13:24:18+08:00 ] ::1 /eshop/index.php/Good/goodsSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000998s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000663s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000780s ]
+
+[ 2017-01-05T13:25:55+08:00 ] ::1 /eshop/index.php/Good/goodsSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001084s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001018s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001143s ]
+
+[ 2017-01-05T13:28:30+08:00 ] ::1 /eshop/index.php/Good/goodsSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003118s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004912s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003588s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003995s ]
+
+[ 2017-01-05T13:29:41+08:00 ] ::1 /eshop/index.php/Good/goodsSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001255s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000589s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000698s ]
+
+[ 2017-01-05T13:45:52+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T13:51:40+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T13:55:45+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T13:56:53+08:00 ] ::1 /eshop/index.php/Good/goodsSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001037s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001103s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001280s ]
+
+[ 2017-01-05T13:57:20+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T13:58:50+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T13:59:49+08:00 ] ::1 /eshop/index.php/Good/goodsSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001035s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001060s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001215s ]
+
+[ 2017-01-05T14:00:43+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T14:01:11+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T14:01:47+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T14:03:10+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T14:04:29+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T14:07:36+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T14:10:03+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T14:10:10+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T14:13:09+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T14:14:54+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T14:16:45+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T14:19:29+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T14:21:55+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T14:22:07+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T14:22:24+08:00 ] ::1 /eshop/index.php/Home/Good/uploadify.swf?preventswfcaching=1483597344257
+ERR: 非法操作:uploadify.swf
+
+[ 2017-01-05T14:24:19+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T14:26:20+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T14:27:20+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T14:29:15+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T14:29:48+08:00 ] ::1 /eshop/index.php/Home/Good/uploadify.swf?preventswfcaching=1483597788063
+ERR: 非法操作:uploadify.swf
+
+[ 2017-01-05T14:30:02+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T14:30:24+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T14:30:34+08:00 ] ::1 /eshop/index.php/Home/Good/uploadify.swf?preventswfcaching=1483597834495
+ERR: 非法操作:uploadify.swf
+
+[ 2017-01-05T14:30:54+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T14:31:02+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T14:31:05+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T14:31:43+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T14:35:21+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T14:35:45+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T14:36:39+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T14:37:14+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T14:37:21+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T14:37:30+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T14:37:46+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T14:39:23+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T14:39:51+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T14:40:07+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T14:40:36+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T14:41:02+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T14:42:38+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T14:43:45+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T14:51:51+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T14:52:21+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T14:52:40+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T14:55:16+08:00 ] ::1 /eshop/index.php/Home/Good/__PUBLIC__/Common/Uploadify/uploadify.swf?preventswfcaching=1483599315728
+ERR: 非法操作:__PUBLIC__
+
+[ 2017-01-05T15:12:08+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T15:12:20+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T15:13:02+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T15:18:22+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T15:18:49+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T15:22:34+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T15:23:11+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T15:25:46+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T15:26:28+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T15:27:40+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T15:28:06+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T15:28:36+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T15:29:31+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T15:30:36+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T15:33:54+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T15:34:17+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T15:35:06+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T15:35:12+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T15:35:41+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T15:36:07+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T15:37:03+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T15:37:45+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T15:39:38+08:00 ] ::1 /eshop/index.php/Good/goodsSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001194s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001065s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001205s ]
+
+[ 2017-01-05T15:40:43+08:00 ] ::1 /eshop/index.php/Good/goodsSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001096s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000672s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000765s ]
+
+[ 2017-01-05T15:43:53+08:00 ] ::1 /eshop/index.php/Good/goodsSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001064s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000762s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000858s ]
+
+[ 2017-01-05T15:45:31+08:00 ] ::1 /eshop/index.php/Good/goodsSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000912s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001372s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000703s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000827s ]
+
+[ 2017-01-05T15:47:09+08:00 ] ::1 /eshop/index.php/Good/goodsSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000729s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001081s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000659s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000742s ]
+
+[ 2017-01-05T15:48:11+08:00 ] ::1 /eshop/index.php/Good/goodsSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000695s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001041s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000964s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001141s ]
+
+[ 2017-01-05T15:48:32+08:00 ] ::1 /eshop/index.php/Good/goodsSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001092s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000916s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001070s ]
+
+[ 2017-01-05T15:49:59+08:00 ] ::1 /eshop/index.php/Good/goodsSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001064s ]
+NOTIC: [8] Undefined index: file D:\wampserver\wamp\www\eshop\App\Home\Controller\GoodController.class.php 第 41 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000868s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000984s ]
+
+[ 2017-01-05T15:50:45+08:00 ] ::1 /eshop/index.php/Good/goodsSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001032s ]
+NOTIC: [8] Undefined index: photo D:\wampserver\wamp\www\eshop\App\Home\Controller\GoodController.class.php 第 41 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000682s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000772s ]
+
+[ 2017-01-05T15:50:58+08:00 ] ::1 /eshop/index.php/Good/goodsSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001134s ]
+NOTIC: [8] Undefined index: photo D:\wampserver\wamp\www\eshop\App\Home\Controller\GoodController.class.php 第 41 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000834s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000967s ]
+
+[ 2017-01-05T15:51:35+08:00 ] ::1 /eshop/index.php/Good/goodsSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000877s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001229s ]
+NOTIC: [8] Undefined index: photo D:\wampserver\wamp\www\eshop\App\Home\Controller\GoodController.class.php 第 41 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000665s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000742s ]
+
+[ 2017-01-05T15:53:09+08:00 ] ::1 /eshop/index.php/Good/goodsSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002288s ]
+NOTIC: [8] Undefined index: photo D:\wampserver\wamp\www\eshop\App\Home\Controller\GoodController.class.php 第 41 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000743s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000833s ]
+
+[ 2017-01-05T15:57:36+08:00 ] ::1 /eshop/index.php/Good/goodsSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000733s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001164s ]
+NOTIC: [8] Undefined index: photo D:\wampserver\wamp\www\eshop\App\Home\Controller\GoodController.class.php 第 41 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000677s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000779s ]
+
+[ 2017-01-05T15:58:19+08:00 ] ::1 /eshop/index.php/Good/goodsSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001049s ]
+NOTIC: [8] Undefined index: photo D:\wampserver\wamp\www\eshop\App\Home\Controller\GoodController.class.php 第 41 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000735s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000817s ]
+
+[ 2017-01-05T16:01:22+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T16:02:31+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T16:03:25+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T16:03:58+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T16:04:35+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T16:04:53+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T16:05:06+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T16:07:15+08:00 ] ::1 /eshop/index.php/Good/goodsSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001043s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000915s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001084s ]
+
+[ 2017-01-05T16:07:17+08:00 ] ::1 /eshop/index.php/Good/goodsSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001342s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000622s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000729s ]
+
+[ 2017-01-05T16:07:20+08:00 ] ::1 /eshop/index.php/Good/goodsSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000971s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000595s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000692s ]
+
+[ 2017-01-05T16:07:23+08:00 ] ::1 /eshop/index.php/Good/goodsSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000926s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000534s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000612s ]
+
+[ 2017-01-05T16:07:23+08:00 ] ::1 /eshop/index.php/Good/goodsSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000874s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000630s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000720s ]
+
+[ 2017-01-05T16:07:23+08:00 ] ::1 /eshop/index.php/Good/goodsSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000957s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000795s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000943s ]
+
+[ 2017-01-05T16:07:24+08:00 ] ::1 /eshop/index.php/Good/goodsSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000810s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000907s ]
+
+[ 2017-01-05T16:07:24+08:00 ] ::1 /eshop/index.php/Good/goodsSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001155s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000691s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000801s ]
+
+[ 2017-01-05T16:10:01+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T16:19:45+08:00 ] ::1 /eshop/index.php/Good/getWebCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000763s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001472s ]
+SQL: SHOW COLUMNS FROM `eshop_secondmenu` [ RunTime:0.0058s ]
+SQL: SELECT `id`,`name` FROM `eshop_secondmenu` WHERE `pid` = 3 AND `is_show` = 1  [ RunTime:0.0006s ]
+
+[ 2017-01-05T16:19:47+08:00 ] ::1 /eshop/index.php/Good/getShopCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000776s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001384s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_secondmenu` [ RunTime:0.0045s ]
+SQL: SELECT `id`,`sname` FROM `eshop_shop_secondmenu` WHERE `pid` = 5 AND `is_show` = 1  [ RunTime:0.0004s ]
+
+[ 2017-01-05T16:19:48+08:00 ] ::1 /eshop/index.php/Good/getWebCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001275s ]
+SQL: SHOW COLUMNS FROM `eshop_thirdmenu` [ RunTime:0.0053s ]
+SQL: SELECT `id`,`name` FROM `eshop_thirdmenu` WHERE `pid` = 6 AND `is_show` = 1  [ RunTime:0.0005s ]
+
+[ 2017-01-05T16:20:10+08:00 ] ::1 /eshop/index.php/Good/goodsSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000919s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002054s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000599s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000714s ]
+
+[ 2017-01-05T16:39:28+08:00 ] ::1 /eshop/index.php/Good/getWebCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001081s ]
+SQL: SHOW COLUMNS FROM `eshop_secondmenu` [ RunTime:0.0045s ]
+SQL: SELECT `id`,`name` FROM `eshop_secondmenu` WHERE `pid` = 4 AND `is_show` = 1  [ RunTime:0.0011s ]
+
+[ 2017-01-05T16:39:29+08:00 ] ::1 /eshop/index.php/Good/getWebCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000823s ]
+SQL: SHOW COLUMNS FROM `eshop_thirdmenu` [ RunTime:0.0057s ]
+SQL: SELECT `id`,`name` FROM `eshop_thirdmenu` WHERE `pid` = 8 AND `is_show` = 1  [ RunTime:0.0004s ]
+
+[ 2017-01-05T16:39:32+08:00 ] ::1 /eshop/index.php/Good/getShopCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000762s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_secondmenu` [ RunTime:0.0041s ]
+SQL: SELECT `id`,`sname` FROM `eshop_shop_secondmenu` WHERE `pid` = 1 AND `is_show` = 1  [ RunTime:0.0005s ]
+
+[ 2017-01-05T16:40:50+08:00 ] ::1 /eshop/index.php/Good/getWebCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000825s ]
+SQL: SHOW COLUMNS FROM `eshop_secondmenu` [ RunTime:0.0052s ]
+SQL: SELECT `id`,`name` FROM `eshop_secondmenu` WHERE `pid` = 2 AND `is_show` = 1  [ RunTime:0.0006s ]
+
+[ 2017-01-05T16:40:51+08:00 ] ::1 /eshop/index.php/Good/getWebCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001055s ]
+SQL: SHOW COLUMNS FROM `eshop_thirdmenu` [ RunTime:0.0063s ]
+SQL: SELECT `id`,`name` FROM `eshop_thirdmenu` WHERE `pid` = 4 AND `is_show` = 1  [ RunTime:0.0003s ]
+
+[ 2017-01-05T16:40:52+08:00 ] ::1 /eshop/index.php/Good/getShopCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000942s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_secondmenu` [ RunTime:0.0049s ]
+SQL: SELECT `id`,`sname` FROM `eshop_shop_secondmenu` WHERE `pid` = 1 AND `is_show` = 1  [ RunTime:0.0004s ]
+
+[ 2017-01-05T16:41:06+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T16:41:30+08:00 ] ::1 /eshop/index.php/Good/getWebCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000987s ]
+SQL: SHOW COLUMNS FROM `eshop_secondmenu` [ RunTime:0.0039s ]
+SQL: SELECT `id`,`name` FROM `eshop_secondmenu` WHERE `pid` = 2 AND `is_show` = 1  [ RunTime:0.0004s ]
+
+[ 2017-01-05T16:41:31+08:00 ] ::1 /eshop/index.php/Good/getShopCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001716s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_secondmenu` [ RunTime:0.0041s ]
+SQL: SELECT `id`,`sname` FROM `eshop_shop_secondmenu` WHERE `pid` = 1 AND `is_show` = 1  [ RunTime:0.0003s ]
+
+[ 2017-01-05T16:41:32+08:00 ] ::1 /eshop/index.php/Good/getWebCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000783s ]
+SQL: SHOW COLUMNS FROM `eshop_thirdmenu` [ RunTime:0.0052s ]
+SQL: SELECT `id`,`name` FROM `eshop_thirdmenu` WHERE `pid` = 3 AND `is_show` = 1  [ RunTime:0.0006s ]
+
+[ 2017-01-05T16:43:16+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T17:03:34+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T17:04:02+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T17:05:20+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T17:05:37+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T17:06:04+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T17:08:43+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T17:10:39+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T17:12:51+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T17:14:20+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T17:16:14+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T17:20:43+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T17:23:33+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T17:23:58+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T17:25:45+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T17:26:06+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T17:28:59+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T17:29:33+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T17:31:21+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T17:31:45+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T17:32:07+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T17:32:20+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T17:32:28+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T17:35:37+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T17:36:11+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T17:37:09+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T17:37:25+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T17:37:39+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T17:38:10+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T17:38:40+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T17:39:48+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T17:39:56+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T17:46:55+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T17:47:00+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T17:47:36+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T17:48:04+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T18:22:23+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T18:23:44+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T18:23:46+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T18:26:10+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T18:35:10+08:00 ] ::1 /eshop/index.php/Home/Good/
+ERR: 非法操作:index
+
+[ 2017-01-05T19:06:19+08:00 ] ::1 /eshop/index.php/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000954s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000632s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000730s ]
+
+[ 2017-01-05T19:06:19+08:00 ] ::1 /eshop/index.php/User/doLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000828s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `eshop_user` WHERE `name` = 'admin1' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] fopen(D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Org\Net/UTFWry.dat): failed to open stream: No such file or directory D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Org\Net\IpLocation.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `eshop_user_log` [ RunTime:0.0053s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `eshop_user_log` (`userId`,`action`,`ip`,`location`,`time`) VALUES ('11','登录','0.0.0.0',NULL,'1483614379') [ RunTime:0.0993s ]
+
+[ 2017-01-05T20:30:46+08:00 ] ::1 /eshop/index.php/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000879s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001510s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000868s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000993s ]
+
+[ 2017-01-05T20:30:46+08:00 ] ::1 /eshop/index.php/Shoper/doLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001283s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0314s ]
+SQL: SELECT * FROM `eshop_shoper` WHERE `name` = 'shoper3' LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [2] fopen(D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Org\Net/UTFWry.dat): failed to open stream: No such file or directory D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Org\Net\IpLocation.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `eshop_shoper_log` [ RunTime:0.0092s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `eshop_shoper_log` (`shoperId`,`action`,`ip`,`location`,`time`) VALUES ('13','登录','0.0.0.0',NULL,'1483619446') [ RunTime:0.0780s ]
+
+[ 2017-01-05T20:32:05+08:00 ] ::1 /eshop/index.php/Good/getWebCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000753s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002080s ]
+SQL: SHOW COLUMNS FROM `eshop_secondmenu` [ RunTime:0.0075s ]
+SQL: SELECT `id`,`name` FROM `eshop_secondmenu` WHERE `pid` = 8 AND `is_show` = 1  [ RunTime:0.0006s ]
+
+[ 2017-01-05T20:32:08+08:00 ] ::1 /eshop/index.php/Good/getWebCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001200s ]
+SQL: SHOW COLUMNS FROM `eshop_secondmenu` [ RunTime:0.0055s ]
+SQL: SELECT `id`,`name` FROM `eshop_secondmenu` WHERE `pid` = 2 AND `is_show` = 1  [ RunTime:0.0007s ]
+
+[ 2017-01-05T20:32:10+08:00 ] ::1 /eshop/index.php/Good/getWebCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000964s ]
+SQL: SHOW COLUMNS FROM `eshop_thirdmenu` [ RunTime:0.0051s ]
+SQL: SELECT `id`,`name` FROM `eshop_thirdmenu` WHERE `pid` = 3 AND `is_show` = 1  [ RunTime:0.0005s ]
+
+[ 2017-01-05T20:32:13+08:00 ] ::1 /eshop/index.php/Good/getShopCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001162s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_secondmenu` [ RunTime:0.0054s ]
+SQL: SELECT `id`,`sname` FROM `eshop_shop_secondmenu` WHERE `pid` = 1 AND `is_show` = 1  [ RunTime:0.0004s ]
+
+[ 2017-01-05T20:39:24+08:00 ] ::1 /eshop/index.php/Good/getWebCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001254s ]
+SQL: SHOW COLUMNS FROM `eshop_secondmenu` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`name` FROM `eshop_secondmenu` WHERE `pid` = 2 AND `is_show` = 1  [ RunTime:0.0005s ]
+
+[ 2017-01-05T20:39:25+08:00 ] ::1 /eshop/index.php/Good/getShopCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001134s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_secondmenu` [ RunTime:0.0035s ]
+SQL: SELECT `id`,`sname` FROM `eshop_shop_secondmenu` WHERE `pid` = 1 AND `is_show` = 1  [ RunTime:0.0003s ]
+
+[ 2017-01-05T21:03:06+08:00 ] ::1 /eshop/index.php/Good/getWebCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000909s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001699s ]
+SQL: SHOW COLUMNS FROM `eshop_secondmenu` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`name` FROM `eshop_secondmenu` WHERE `pid` = 2 AND `is_show` = 1  [ RunTime:0.0006s ]
+
+[ 2017-01-05T21:03:07+08:00 ] ::1 /eshop/index.php/Good/getWebCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `eshop_thirdmenu` [ RunTime:0.0056s ]
+SQL: SELECT `id`,`name` FROM `eshop_thirdmenu` WHERE `pid` = 3 AND `is_show` = 1  [ RunTime:0.0007s ]
+
+[ 2017-01-05T21:03:08+08:00 ] ::1 /eshop/index.php/Good/getShopCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001741s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_secondmenu` [ RunTime:0.0042s ]
+SQL: SELECT `id`,`sname` FROM `eshop_shop_secondmenu` WHERE `pid` = 1 AND `is_show` = 1  [ RunTime:0.0009s ]
+
+[ 2017-01-05T21:14:25+08:00 ] ::1 /eshop/index.php/Good/goodsSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000941s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001498s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000602s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000685s ]
+
+[ 2017-01-05T21:15:39+08:00 ] ::1 /eshop/index.php/Good/goodsSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001034s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000599s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000688s ]
+
+[ 2017-01-05T21:18:37+08:00 ] ::1 /eshop/index.php/Good/goodsSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000862s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000569s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000652s ]
+
+[ 2017-01-05T21:20:54+08:00 ] ::1 /eshop/index.php/Good/goodsSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000842s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000649s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000736s ]
+
+[ 2017-01-05T21:22:10+08:00 ] ::1 /eshop/index.php/Good/goodsSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001222s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000790s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000917s ]
+
+[ 2017-01-05T21:50:29+08:00 ] ::1 /eshop/index.php/Good/goodsSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002205s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000614s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000707s ]
+
+[ 2017-01-05T21:50:34+08:00 ] ::1 /eshop/index.php/Good/goodsSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000862s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000654s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000745s ]
+
+[ 2017-01-05T22:04:59+08:00 ] ::1 /eshop/index.php/Good/getWebCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000940s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001582s ]
+SQL: SHOW COLUMNS FROM `eshop_secondmenu` [ RunTime:0.0048s ]
+SQL: SELECT `id`,`name` FROM `eshop_secondmenu` WHERE `pid` = 3 AND `is_show` = 1  [ RunTime:0.0006s ]
+
+[ 2017-01-05T22:05:03+08:00 ] ::1 /eshop/index.php/Good/getShopCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000898s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001807s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_secondmenu` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`sname` FROM `eshop_shop_secondmenu` WHERE `pid` = 1 AND `is_show` = 1  [ RunTime:0.0006s ]
+
+[ 2017-01-05T22:05:04+08:00 ] ::1 /eshop/index.php/Good/getWebCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001011s ]
+SQL: SHOW COLUMNS FROM `eshop_thirdmenu` [ RunTime:0.0061s ]
+SQL: SELECT `id`,`name` FROM `eshop_thirdmenu` WHERE `pid` = 5 AND `is_show` = 1  [ RunTime:0.0004s ]
+

@@ -1,0 +1,57 @@
+<table class="orders_table">
+  <thead>
+    <th width="16%">订单编号</th>
+    <th width="12%">投诉者</th>
+    <th width="30%">投诉类型</th>
+    <th width="16%">投诉时间</th>
+    <th width="14%">投诉状态</th>
+    <th width="12%">操作</th>
+  </thead>
+  <tbody class="complaint_items">
+    <empty name="lists">
+      <tr>
+        <td colspan="6" style="color:red;">暂没有投诉订单！！！</td>
+      </tr>
+      <else/>
+      <volist name="lists" id="item">
+        <tr>
+          <td style="padding:0px 5px;"><span>{$item.ordernum} </span></td>
+          <td><span>{$item.username}</span></td>
+          <td class="reason">
+            <span >
+              <switch name="item.complaintype">
+                <case value="1">卖家存在欺诈行为</case>
+                <case value="2">未按约定时间发货</case>
+                <case value="3">未按成交价格进行交易</case>
+                <case value="4">虚假销售</case>
+                <default />其它
+              </switch>
+              商品与图片描述不符！！！ 
+            </span>
+          </td>
+          <td><span>{$item.time|date="Y-m-d H:i:s",###}</span></td>
+          <td>
+            <span>
+              <if condition="$item.is_cancle eq 1">
+                用户已取消投诉！
+                <elseif condition="$item.is_deal eq 0"/>
+                系统未受理！
+                <elseif  condition="($item.is_deal eq 1) AND ($item.is_complete eq 0)"/>
+                正在处理中...
+                <else/>
+                已处理
+              </if>
+            </span>
+          </td>
+          <td class="orders_action">
+            <a href="{:U('Home/ShopOrders/complaintDetail')}">详情</a>
+            <a href="tencent://message/?uin={$item.uqq}&Site=qq&Menu=yes">联系买家</a>
+          </td>
+        </tr>
+      </volist>
+    </empty>
+  </tbody>
+</table>
+<!-- 分页开始 -->
+<div class="pages">{$page}</div>
+<!-- 分页结束 --> 

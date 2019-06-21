@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>待审核商品</title>
+<include file = "Public:common"/>
+<include file = "Good:commonnav"/>
+<script src="__PUBLIC__/Home/Js/goodAudit.js"></script>
+<script type="text/javascript">
+   var changeStatus = "{:U('changeStatus')}";
+   var changePros = "{:U('changePro')}";
+   var goodDel = "{:U('goodDel')}";
+</script>
+</head>
+<body>
+<include file = "Public:sheader"/>
+<div class="position_now">
+  <label><a href="index.html">首页</a></label>
+  <span>&gt</span>
+  <label>待审核商品</label>
+</div>
+<div class="scenter_wrapper"> 
+  <!-- 商户中心左侧导航开始 --> 
+  <include file = "Public:scenternav"/> 
+  <!-- 商户中心左侧导航结束 --> 
+  <!-- 商户中心右侧内容显示开始 -->
+  <div class="scenter_right">
+    <div class="scenter_right_title"> <span>待审核商品</span> </div>
+    <div class="scenter_right_content"> 
+      <!-- 头部检索框 -->
+      <form action="{:U('goodsSearch')}" id="Good_Search">
+        <div class="auth_good_search">
+          <label for="cat1">商品分类：</label>
+          <select name="cat1" id="cat1" onchange="getShopCart(this)" action="{:U('getShopCart')}">
+            <option value="0">--请选择--</option>
+            <volist name="list1" id="data">
+              <option value="{$data.id}">{$data.name}</option>
+            </volist>
+          </select>
+          <select name="cat2" id="cat2">
+            <option value="0">--请选择--</option>
+          </select>
+          <label for="goodsName"> 商品名称：</label>
+          <input type="text" name="goodsName" id="goodsName" class="inputs" placeholder="输入商品名进行查询">
+          <input type="button" value="查询"  class="btn" id="goods_select" types="audit"/>
+        </div>
+      </form>
+      <!-- 头部检索框 --> 
+      <!-- 未审核商品内容展示 -->
+      <div class="auth_good_list">
+        <div class="action_menu"> 
+          <a href="javascript:offShelf(0);"class="s-sale"><span>下架</span></a> 
+          <a href="javascript:changePro('is_recomend');"class="s-rec"><span>推荐</span></a> 
+          <a href="javascript:changePro('is_new');"class="s-new"><span>新品</span></a> 
+          <a href="javascript:changePro('is_hot');"class="s-hot"><span>热销</span></a> 
+          <a href="javascript:delGoods(1);"class="s-del"><span>删除</span></a> 
+          <a href="{:U('Home/Good/add')}"class="s-add"><span>新增</span></a> 
+        </div>
+        <div id="Good_List_Contetn">
+          <table class="auth_good_table">
+            <thead>
+              <th> 
+                <input type="checkbox" id="allchecked" />
+                <label for="allchecked">全选</label>
+              </th>
+              <th>商品名称</th>
+              <th>商品编号</th>
+              <th>价格</th>
+              <th>库存</th>
+              <th>销量</th>
+              <th>推荐</th>
+              <th>新品</th>
+              <th>热销</th>
+              <th>产地</th>
+              <th>操作</th>
+            </thead>
+            <tbody>
+            <empty name="list">
+              <tr>
+                <td colspan="11">没有相关数据！！！</td>
+              </tr>
+              <else/>
+              <volist name="list" id="item">
+                <tr>
+                  <td><input type="checkbox" id="check-{$i}" class="goods_check" value="{$item.id}"/></td>
+                  <td class="good_info"><div class="good_info_wrapper"> <a href="{:U('Home/Index/goodsInfo',array('id' => $item['id']))}" target="_blank"> <img src="__ROOT__/{$item.good_log}" style="width:45px;height:45px;"> </a> <span>{$item.name}</span> </div></td>
+                  <td><span>{$item.goodnumber}</span></td>
+                  <td><span style="color:red;">{$item.shopprice}</span></td>
+                  <td><span>{$item.stock}</span></td>
+                  <td><span>0</span></td>
+                  <td class="icon_show"><if condition = "$item.is_recomend eq 1"> <img src="__PUBLIC__/Home/Icon/check_mark.png" >
+                    <else/>
+                    <img src="__PUBLIC__/Home/Icon/x.png" > </if>
+                  </td>
+                  <td class="icon_show"><if condition = "$item.is_new eq 1"> <img src="__PUBLIC__/Home/Icon/check_mark.png" >
+                    <else/>
+                    <img src="__PUBLIC__/Home/Icon/x.png" > </if>
+                  </td>
+                  <td class="icon_show"><if condition = "$item.is_hot eq 1"> <img src="__PUBLIC__/Home/Icon/check_mark.png">
+                    <else/>
+                    <img src="__PUBLIC__/Home/Icon/x.png" > </if>
+                  </td>
+                  <td><span>{$item.place}</span></td>
+                  <td>
+                    <a href="{:U('Home/Index/goodsInfo',array('id' => $item['id']))}" target='_blank' class="good_view" >查看</a>
+                    <a href="javascript:delGoods(0,{$item.id})" class="good_del">删除</a> 
+                    <a href="{:U('Home/Good/edit',array('id' => $item['id'],'src' => 'audit'))}" class="good_edit">编辑</a>
+                  </td>
+                </tr>
+              </volist>
+            </empty>
+            </tbody>
+          </table>
+            <!-- 分页开始 -->
+            <div class="pages">{$page}</div>
+            <!-- 分页结束 --> 
+        </div>
+      </div>
+      <!-- 未审核商品内容展示 --> 
+    </div>
+  </div>
+  <!-- 商户中心右侧内容显示结束 --> 
+</div>
+<include file= "Public:footer" />
+</body>
+</html>

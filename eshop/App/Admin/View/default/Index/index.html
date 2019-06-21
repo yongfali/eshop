@@ -1,0 +1,87 @@
+<extend name="Public:base"/>
+<block name="title"><title>微农后台管理系统-首页</title></block>
+<block name="css">
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/Admin/Css/Index/index.css">
+</block>
+<block name="main">
+	<div class="now-position">
+		<span>首页</span>
+	</div>
+	<div class="login-log">
+		<p>您好，{$Think.session.adminName}，欢迎使用微农后台管理系统。 您上次登录的时间是 {$Think.session.lastLoginTime|date='Y-m-d H:m:i',###} ，IP 是 {$Think.session.lastLoginIp}</p>
+	</div>
+	<div class="info-table">
+		<table class="table table-bordered table-hover">
+			<caption><span style="display: inline-block;
+				color: #0081ff;font-size: 16px;">&gt;&gt;</span>今日统计</caption>
+			<tbody>
+				<tr>
+					<td class="col-md-3">新增会员：</td>
+					<td class="col-md-3"><if condition="$todayUserNum eq 0"> 0 <else/>{$todayUserNum}</if></td>
+					<td class="col-md-3">新增商家：</td>
+					<td class="col-md-3"><if condition="$todayShoperNum eq 0"> 0 <else/>{$todayShoperNum}</if></td>
+				</tr>
+				<tr>
+					<td>待审核商家：</td>
+					<td><if condition="$waitAuthoShop eq 0"> 0 <else/>{$waitAuthoShop}</if></td>
+					<td>新增投诉：</td>
+					<td><if condition="$todaycomplaintOrder eq 0"> 0 <else/>{$todaycomplaintOrder}</if></td>
+				</tr>
+				<tr>
+					<td>上架商品：</td>
+					<td><if condition="$todayGoodNum eq 0"> 0 <else/>{$todayGoodNum}</if>（总待审核：<if condition="$waitAuthoGood eq 0"> 0 <else/>{$waitAuthoGood}</if>）</td>
+					<td>新增订单：</td>
+					<td><if condition="$todayOrderNum eq 0"> 0 <else/>{$todayOrderNum}</if></td>
+				</tr>
+			</tbody>
+		</table>
+		<table class="table table-bordered table-hover">
+			<caption><span style="display: inline-block;
+				color: #0081ff;font-size: 16px;">&gt;&gt;</span>商城统计</caption>
+			<tbody>
+				<tr>
+					<td class="col-md-3">会员总数：</td>
+					<td class="col-md-3"><if condition="$userNum eq 0"> 0 <else/>{$userNum}</if></td>
+					<td class="col-md-3">商家总数：</td>
+					<td class="col-md-3"><if condition="$shoperNum eq 0"> 0 <else/>{$shoperNum}</if></td>
+				</tr>
+				<tr>
+					<td>上架商品总数：</td>
+					<td><if condition="$goodNum eq 0"> 0 <else/>{$goodNum}</if></td>
+					<td>订单总数：</td>
+					<td><if condition="$orderNum eq 0"> 0 <else/>{$orderNum}</if></td>
+				</tr>
+				<tr>
+					<td>评价总数：</td>
+					<td><if condition="$commentNum eq 0"> 0 <else/>{$commentNum}</if></td>
+					<td>投诉总数：</td>
+					<td><if condition="$complaintOrder eq 0"> 0 <else/>{$complaintOrder}</if></td>
+				</tr>
+			</tbody>
+		</table>
+		<table class="table table-bordered table-hover">
+			<caption><span style="display: inline-block;
+				color: #0081ff;font-size: 16px;">&gt;&gt;</span>系统信息</caption>
+			<tbody>
+				<tr>
+					<td class="col-md-3">软件版本号：</td>
+					<td class="col-md-3">1.1.0</td>
+					<td class="col-md-3">授权类型：</td>
+					<td class="col-md-3">未授权</td>
+				</tr>
+				<tr>
+					<td>服务器操作系统：</td>
+					<td>{$Think.const.PHP_OS}</td>
+					<td>WEB服务器：</td>
+					<td>Windows</td>
+				</tr>
+				<tr>
+					<td>PHP版本：</td>
+					<td>{$Think.const.PHP_VERSION}</td>
+					<td>MYSQL版本：</td>
+					<td>{:mysql_get_server_info()}</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</block>

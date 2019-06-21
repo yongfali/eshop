@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>商品分类</title>
+<include file = "Public:common"/>
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Common/Css/scommon.css">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/Css/scenter.css">
+<script src="__PUBLIC__/Home/Js/shoperCenter.js"></script>
+<script type="text/javascript">
+  var delCartItem = "{:U('delCart')}";
+  var editCart = "{:U('editCart')}";
+</script>
+</head>
+<body>
+<include file = "Public:sheader"/>
+<div class="position_now">
+  <label><a href="index.html">首页</a></label>
+  <span>&gt</span>
+  <label>商品分类</label>
+</div>
+<div class="scenter_wrapper"> 
+  <!-- 商户中心左侧导航开始 --> 
+  <include file = "Public:scenternav"/> 
+  <!-- 商户中心左侧导航结束 --> 
+  <!-- 商户中心右侧内容显示开始 -->
+  <div class="scenter_right">
+    <div class="scenter_right_title"> <span>商品分类</span> </div>
+    <div class="title">
+      <ul>
+        <li>分类名称</li>
+        <li>操作</li>
+      </ul>
+    </div>
+    <div class="scenter_right_content">
+      <form action="{:U('saveMenu')}" method="post" id="goodCart">
+        <table class="scart_table">
+          <volist name="list" id="data" key="i">
+            <tbody>
+              <tr class="first">
+                <td class="items"><span class="icon removeicon"></span>
+                  <input class="inputs" type="text" value="{$data.name}" name="fname{$i}" dataid="{$data.id}" onchange="javascript:editCartName(this,0)"/></td>
+                <td class="action"><a href="javascript:;" class="addSecondMenu">新增</a> <a href="javascript:;" onclick="delCart({$data.id},0)">删除</a></td>
+              </tr>
+              <if condition="$data.childNum gt 0">
+                <volist name="data.child" id="item" key="j">
+                  <tr class="second">
+                    <td class="items"><input  class="inputs secondMenu" value="{$item.sname}" type="text" name="sname{$i}_{$j}" dataid="{$item.id}" onchange="javascript:editCartName(this,1)"></td>
+                    <td class="action"><a href="javascript:;" class="del" title="删除" onclick="delCart({$item.id},1)">删除</a></td>
+                  </tr>
+                </volist>
+              </if>
+            </tbody>
+          </volist>
+        </table>
+        <div class="btns">
+          <input type="button" value="保存" style="display:none" id="formSubmit" onclick="saveCart()"/>
+          <input type="button" value="新增" id="addFirstMenu"/>
+        </div>
+      </form>
+    </div>
+  </div>
+  <!-- 商户中心右侧内容显示结束 --> 
+</div>
+<include file= "Public:footer" />
+</body>
+</html>

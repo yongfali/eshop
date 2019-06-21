@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>发货快递信息填写</title>
+</head>
+<include file = "Public:common"/>
+<include file = "Good:commonnav" />
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/Css/Order/order.css">
+<script src="__PUBLIC__/Home/Js/Order/order.js"></script>
+<body>
+	<div class="logistics_wrap">
+		<form action=" " method="post" id="express">
+			<div class="item">
+				<label>快递公司：</label>
+				<select name="companySelect" id="expressCompany">
+					<option value="0">--请选择--</option>
+					<volist name="expressList" id="item"> 
+						<option value="{$item.id}">{$item.name}</option>
+					</volist>
+				</select>
+			</div>
+			<div class="item">
+				<label>快递单号：</label>
+				<input type="text" name="expressNumber"/>
+			</div>
+			<input type="hidden" value="{$orderId}" id="orderId" name="orderid"/>
+			<input type="submit" value="确认发货" class="confirmDeliver" />
+		</form>
+	</div>
+</body>
+</html>

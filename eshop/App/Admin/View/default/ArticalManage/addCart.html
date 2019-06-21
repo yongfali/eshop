@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>新增二级子分类</title>
+	<!-- 公共链接 -->
+	<include file = "Public:common"/>
+	<!-- 公共链接 -->
+</head>
+<style type="text/css">
+	.cart-wrapper{
+		padding: 15px;
+	}
+	.cart-wrapper .inputs{
+		width: 160px;
+	}
+	.add-item{
+		height: 50px;
+		line-height: 50px;
+	}
+</style>
+<body>
+	<div class="cart-wrapper">
+		<form id="addCartForm">
+			<div class="add-item">
+				<label>分类名称：</label>
+				<input type="text" class="inputs">
+			</div>
+			<div class="add-item" style="padding-left: 80px;">
+				<input class="btn btn-info" type="submit" value="提交">
+				<input class="btn btn-default" type="reset" value="取消">
+			</div>
+		</form>
+	</div>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>用户注册</title>
+<include file = "Public:common"/>
+<link rel="stylesheet" type="text/css"
+	href="__PUBLIC__/Home/Css/regist.css" />
+<script src="__PUBLIC__/Home/Js/User/userRegist.js"></script>
+<script type="text/javascript">
+    var checkUserName = "{:U('checkUserName')}";
+    var checkUserEmail = "{:U('checkUserEmail')}";
+    var checkVerify = "{:U('checkVerify')}";
+    var doRegist = "{:U('doRegist')}";
+    var userLoginIndex = "{:U('login')}";
+</script>
+</head>
+<body>
+<include file='Public:header'/>
+<div class="position_now">
+  <label><a href="{:U('Index/index')}">首页</a></label>
+  <span>&gt</span>
+  <label>用户注册</label>
+</div>
+<div id='reg-wrap'>
+  <form action="" method='post' name='register' id="register">
+    <fieldset>
+      <legend>用户注册</legend>
+      <p>
+        <label for="account">用户名：</label>
+        <input type="text" name='account' id='account' class='input' placeholder='请填写用户名'/>
+      </p>
+      <p>
+        <label for="pwd">密码：</label>
+        <input type="password" name='pwd' id='pwd' class='input' placeholder='请填写密码'/>
+      </p>
+      <p>
+        <label for="pwded">确认密码：</label>
+        <input type="password" name='pwded' class='input' placeholder='再次输入密码' />
+      </p>
+      <p>
+        <label for="uemail">邮箱：</label>
+        <input type="email"  name='uemail' id='uemail' class='input' placeholder='123456@qq.com'/>
+      </p>
+      <p>
+        <label for="verify">验证码：</label>
+        <input type="text" name='verify'  id='verify'
+          class='input'/>
+        <img src="{:U('verify')}" width='137px' height='38px' id='verify-img' /> </p>
+      <p class="protocol">
+        <input type="checkbox" id="protocol" name="protocol" class="R_protocol" value="1" />
+        <span>我已阅读并同意</span> <a href="javascript:;" id="protocolInfo1" onClick="show1();"><span>《用户注册协议》</span></a> <a href="{:U('login')}"><span class="">已有账号？点击登录</span></a> </p>
+      <p class='run'>
+        <input type="submit" value='马上注册' id='regis'/>
+      </p>
+    </fieldset>
+  </form>
+</div>
+<include file='Public:footer' />
+</body>
+</html>

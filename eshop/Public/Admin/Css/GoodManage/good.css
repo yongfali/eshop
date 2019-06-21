@@ -1,0 +1,57 @@
+/*商品管理下页面样式*/
+.head-wrapper{
+	height: 90px;
+	padding-left: 25px;
+}
+.head-wrapper .head-search{
+	height: 60px;
+	line-height: 60px;
+}
+.artical-search label{
+	margin: 0px 5px 0px 10px;
+}
+.head-wrapper .action-nav{
+	height: 30px;
+	line-height: 30px;
+}
+.action-nav a{
+	display: inline-block;
+	margin-right: 10px;
+}
+#cat1
+{
+	appearance: none;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	width: 120px;
+	height: 32px;
+	margin-right: 6px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	box-shadow: 1px 1px 1px #f0f0f0 inset;
+	background: url("../../Icon/arrow.png") no-repeat scroll right center transparent;
+	padding-right: 15px;
+}
+.head-wrapper .inputs{
+	width: 200px;
+	height: 34px;
+}
+/*上架商品页面样式*/
+.data-item{
+	height: 80px;
+	line-height: 80px;
+}
+.good-info{
+	width: 100%;
+	overflow: hidden;
+}
+.good-info img{
+	max-width: 60px;
+	max-height: 60px;
+}
+.good-info span{
+	display: inline-block;
+}
+.good-wrapper table tr td{
+	line-height: 60px;
+}

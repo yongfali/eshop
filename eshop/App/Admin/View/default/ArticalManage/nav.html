@@ -1,0 +1,62 @@
+<extend name="Public:base"/>
+<block name="title"><title>微农后台管理系统-文章发表</title></block>
+<block name="css">
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/Admin/Css/ArticalManage/artical.css">
+</block>
+<block name="js">
+	<script src="__PUBLIC__/Admin/Js/ArticalManage/addCart.js"></script>
+</block>
+<block name="main">
+	<div class="now-position">
+		<span>文章分类</span>
+	</div>
+	<div class="add-cart">
+		<a class="glyphicon glyphicon-plus" href="javascript:void(0);" id="add-autho">新增</a>
+	</div>
+	<div class="right-content-wrapper">
+		<table class="table table-bordered table-striped table-hover">
+			<thead>
+				<tr>
+					<th>序号</th>
+					<th>分类名称</th>
+					<th>类型</th>
+					<th>发布者身份</th>
+					<th>发布时间</th>
+					<th>最近一次修改</th>
+					<th>子菜单数目</th>
+					<th>操作</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class="data-item">
+					<td>1</td>
+					<td>帮助中心</td>
+					<td>系统底部菜单</td>
+					<td>系统管理员</td>
+					<td>2017-05-21</td>
+					<td>2017-05-25</td>
+					<td>3</td>
+					<td>
+						<a class="btn-link add-child-cart" href="javascript:void(0);">新增子分类</a>
+						<a class="btn-link" href="#">修改</a>
+						<!-- <a class="btn-link" href="#">删除</a> -->
+					</td>
+				</tr>
+				<tr class="data-item">
+					<td>2</td>
+					<td>商城资讯</td>
+					<td>系统底部菜单</td>
+					<td>系统管理员</td>
+					<td>2017-06-21</td>
+					<td>2017-06-25</td>
+					<td>2</td>
+					<td>
+						<a class="btn-link add-child-cart" href="javascript:void(0);">新增子分类</a>
+						<a class="btn-link" href="#">修改</a>
+						<a class="btn-link" href="#">删除</a>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</block>

@@ -1,0 +1,71 @@
+<extend name="Public:base"/>
+<block name="title"><title>微农后台管理系统-帮助列表编辑</title></block>
+<block name="css">
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/Admin/Css/ArticalManage/artical.css">
+</block>
+<block name="js">
+	<script src="__PUBLIC__/Common/ueditor/ueditor.config.js"></script>
+	<script src="__PUBLIC__/Common/ueditor/ueditor.all.min.js"></script>
+	<script src="__PUBLIC__/Common/ueditor/lang/zh-cn/zh-cn.js"></script>
+	<script src="__PUBLIC__/Admin/Js/ArticalManage/info.js"></script>
+	<script type="text/javascript">
+		var toURL = "{:U('helpList')}";
+	</script>
+</block>
+<block name="main">
+	<div class="now-position">
+		<span>帮助列表编辑</span>
+	</div>
+	<form autocomplete="off" id="helpEditForm" rel="{:U('helpItemSave')}">
+		<table class="artical-add-table">
+			<tbody>
+				<tr class="artical-add-item">
+					<td>
+						<span class="icon">*</span>文章分类：
+					</td>
+					<td style="padding-left:5px;">
+						<select name="pid" id="cat1">
+							<option value="0">--请选择--</option>
+							<volist name="info" id="item">
+								<option value="{$item.id}"<if condition="$item['id'] eq $content['pid']">selected="selected"</if> >{$item.name}</option>
+							</volist>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="artical-title">
+							<span class="icon">*</span>文章标题：
+						</label>
+					</td>
+					<td>
+						<input type="text" name="title" id="artical-title" class="inputs" value="{$content.name}" placeholder="请输入文章标题">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="content">
+							<span class="icon">*</span>文章内容：
+						</label>
+					</td>
+					<td style="padding-left:5px;">
+						<textarea id="content" name="content" 
+						style="width: 720px; height: 250px;">{$content.content}
+						</textarea>
+		                <!--  显示 ueditor编辑器 --> 
+		                <script type="text/javascript">
+		                  var ue = UE.getEditor('content');
+		                </script>
+					</td>
+				</tr>
+				<tr class="artical-add-item artical-add-btn">
+					<td colspan="2">
+						<button type="submit" class="btn btn-info">保存</button>
+						<button type="reset" class="btn btn-danger">取消</button>
+						<input type="hidden" name="navId" value="{$content.id}" />
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</form>
+</block>

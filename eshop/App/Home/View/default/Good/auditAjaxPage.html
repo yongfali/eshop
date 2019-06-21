@@ -1,0 +1,56 @@
+<!-- 待审核/出售中/仓库中商品列表ajax分页 -->
+<table class="auth_good_table">
+  <thead>
+    <th> 
+      <input type="checkbox" id="allchecked" />
+      <label for="allchecked">全选</label>
+    </th>
+    <th>商品名称</th>
+    <th>商品编号</th>
+    <th>价格</th>
+    <th>库存</th>
+    <th>销量</th>
+    <th>推荐</th>
+    <th>新品</th>
+    <th>热销</th>
+    <th>产地</th>
+    <th>操作</th>
+  </thead>
+  <tbody>
+    <empty name="list">
+      <tr>
+        <td colspan="11">没有相关数据！！！</td>
+      </tr>
+      <else/>
+      <volist name="list" id="item">
+        <tr>
+          <td><input type="checkbox" id="check-{$i}" class="goods_check" value="{$item.id}"/></td>
+          <td class="good_info"><div class="good_info_wrapper"> <a href="{:U('Home/Index/goodsInfo',array('id' => $item['id']))}" target="_blank"> <img src="__ROOT__/{$item.good_log}" style="width:45px;height:45px;"> </a> <span>{$item.name}</span> </div></td>
+          <td><span>{$item.goodnumber}</span></td>
+          <td><span style="color:red;">{$item.shopprice}</span></td>
+          <td><span>{$item.stock}</span></td>
+          <td><span>0</span></td>
+          <td class="icon_show"><if condition = "$item.is_recomend eq 1"> <img src="__PUBLIC__/Home/Icon/check_mark.png" >
+            <else/>
+            <img src="__PUBLIC__/Home/Icon/x.png" > </if>
+          </td>
+          <td class="icon_show"><if condition = "$item.is_new eq 1"> <img src="__PUBLIC__/Home/Icon/check_mark.png" >
+            <else/>
+            <img src="__PUBLIC__/Home/Icon/x.png" > </if>
+          </td>
+          <td class="icon_show"><if condition = "$item.is_hot eq 1"> <img src="__PUBLIC__/Home/Icon/check_mark.png">
+            <else/>
+            <img src="__PUBLIC__/Home/Icon/x.png" > </if>
+          </td>
+          <td><span>{$item.place}</span></td>
+          <td>
+            <a href="{:U('Home/Index/goodsInfo',array('id' => $item['id']))}" target='_blank' class="good_view" >查看</a>
+            <a href="javascript:delGoods(0,{$item.id})" class="good_del">删除</a> <a href="{:U('Home/Good/edit',array('id' => $item['id'],'src' => 'audit'))}" class="good_edit">编辑</a></td>
+          </tr>
+        </volist>
+    </empty>
+  </tbody>
+</table>
+  <!-- 分页开始 -->
+  <div class="pages">{$page}</div>
+  <!-- 分页结束 --> 

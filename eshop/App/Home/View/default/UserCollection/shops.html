@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>收藏的店铺</title>
+<include file = "Public:common"/>
+<include file='Public:ucenterlink'/>
+<script src="__PUBLIC__/Home/Js/common.js"></script>
+</head>
+<body>
+<!-- header开始 --> 
+<include file ='Public:header' /> 
+<!-- header结束 --> 
+<!-- 当前位置开始 -->
+<div class="position_now">
+  <label><a href="{:U('Home/Index/index')}">首页</a></label>
+  <span>&gt</span>
+  <label>收藏的店铺</label>
+</div>
+<!-- 当前位置显示结束 --> 
+<!-- 主体内容开始 -->
+<div class="ucenter_wrapper"> 
+  <!-- 左边导航标签开始 --> 
+  <include file='Public:ucenternav'/> 
+  <!-- 左边导航标签结束 -->
+  <!-- 我的收藏右侧内容显示开始 --> 
+  <div class="ucenter_right">
+    <div class="ucenter_right_title"> 
+      <span>收藏的店铺</span> 
+    </div>
+    <div class="ucenter_right_content">
+      <div class="collection-wraper">
+        <empty name="lists">
+          <div>暂没收藏！！！</div>
+          <else/>
+          <volist name="lists" id="item">
+            <div class="shoper_info">
+              <h3>{$item.name}</h3>
+              <div class="shoper_item">
+                <div class="shop_logo">
+                  <empty name="$item.logo">
+                    <img src="__PUBLIC__/Home/ShopImage/shop_logo.jpg">
+                    <else/>
+                    <img src="__ROOT__/{$item.logo}">
+                  </empty>  
+                </div>
+                <div class="itemscore">商品评分：{:getShopScoreById($item['id'])}分</div>
+                <div class="itemscore">服务评分：{:getShopScoreById($item['id'],2)}分</div>
+                <div class="itemscore">物流评分：{:getShopScoreById($item['id'],3)}分</div>
+                <div class="shop_footer"> 
+                  <a href="{:U('Home/Shop/index',array('shopId'=>$item['id']))}" target="_blank">进店逛逛
+                  </a> 
+                  <a href="javascript:void(0);" onclick="cancle({$item.id},1,{$Think.session.uid})">取消关注</a> 
+                </div>
+              </div>
+            </div>
+          </volist>
+        </empty>
+      </div>
+      <!-- 分页开始 -->
+      <div class="pages">{$page}</div>
+      <!-- 分页结束 --> 
+    </div>
+  </div>
+  <!-- 我的收藏右侧内容显示结束 --> 
+</div>
+<!-- 主体内容结束 --> 
+<include file='Public:footer'/>
+</body>
+</html>

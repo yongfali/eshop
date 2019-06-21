@@ -1,0 +1,27 @@
+[ 2017-06-08T13:45:58+08:00 ] ::1 /eshop/index.php/Admin/Login/checkVerify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.002335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003789s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001688s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001862s ]
+
+[ 2017-06-08T13:45:59+08:00 ] ::1 /eshop/index.php/Admin/Login/doLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000773s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.002005s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003502s ]
+SQL: SHOW COLUMNS FROM `eshop_admin` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `eshop_admin` WHERE `name` = 'admin' LIMIT 1   [ RunTime:0.0134s ]
+SQL: UPDATE `eshop_admin` SET `loginTime`='1496900759',`ip`='0.0.0.0' WHERE `id` = 1 [ RunTime:0.2887s ]
+
+[ 2017-06-08T14:46:44+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Think\Model:userCount方法不存在！
+
+[ 2017-06-08T14:47:49+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Think\Model:userCount方法不存在！
+
+[ 2017-06-08T14:47:52+08:00 ] ::1 /eshop/index.php/Admin/Index/index.html
+ERR: Think\Model:userCount方法不存在！
+

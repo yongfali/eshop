@@ -1,0 +1,1456 @@
+[ 2017-03-04T09:20:47+08:00 ] ::1 /eshop/index.php/Good/changeStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001205s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002220s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001322s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001477s ]
+
+[ 2017-03-04T09:22:45+08:00 ] ::1 /eshop/index.php/Good/changeStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002455s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001314s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001452s ]
+
+[ 2017-03-04T09:32:10+08:00 ] ::1 /eshop/index.php/Good/changeStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002406s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001348s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001498s ]
+
+[ 2017-03-04T09:32:13+08:00 ] ::1 /eshop/index.php/Good/changeStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002307s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001378s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001533s ]
+
+[ 2017-03-04T09:51:14+08:00 ] ::1 /eshop/index.php/Good/changeStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000957s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001601s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0043s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001239s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001390s ]
+
+[ 2017-03-04T09:52:12+08:00 ] ::1 /eshop/index.php/Good/changeStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000959s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001665s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0049s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001365s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001475s ]
+
+[ 2017-03-04T09:52:52+08:00 ] ::1 /eshop/index.php/Good/changeStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000946s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001664s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0045s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000982s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001070s ]
+
+[ 2017-03-04T09:53:20+08:00 ] ::1 /eshop/index.php/Good/changeStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001007s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001710s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0045s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001293s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001447s ]
+
+[ 2017-03-04T09:53:47+08:00 ] ::1 /eshop/index.php/Good/changeStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000911s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001596s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0041s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001384s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001531s ]
+
+[ 2017-03-04T09:54:12+08:00 ] ::1 /eshop/index.php/Good/changeStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001950s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0043s ]
+NOTIC: [8] Use of undefined constant length - assumed 'length' D:\wampserver\wamp\www\eshop\App\Home\Model\GoodModel.class.php 第 50 行.
+NOTIC: [8] Array to string conversion D:\wampserver\wamp\www\eshop\App\Home\Model\GoodModel.class.php 第 50 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000888s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000963s ]
+
+[ 2017-03-04T09:55:45+08:00 ] ::1 /eshop/index.php/Good/changeStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002115s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003298s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0054s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000953s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001057s ]
+
+[ 2017-03-04T09:56:00+08:00 ] ::1 /eshop/index.php/Good/changeStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000997s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001850s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0063s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001092s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001201s ]
+
+[ 2017-03-04T09:56:22+08:00 ] ::1 /eshop/index.php/Good/changeStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000866s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001550s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0042s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001044s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001179s ]
+
+[ 2017-03-04T09:58:21+08:00 ] ::1 /eshop/index.php/Good/changeStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001360s ]
+
+[ 2017-03-04T09:58:36+08:00 ] ::1 /eshop/index.php/Good/changeStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001520s ]
+
+[ 2017-03-04T09:58:48+08:00 ] ::1 /eshop/index.php/Good/changeStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000865s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001485s ]
+
+[ 2017-03-04T09:59:57+08:00 ] ::1 /eshop/index.php/Good/changeStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001182s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001821s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0046s ]
+NOTIC: [8] Use of undefined constant goodIds - assumed 'goodIds' D:\wampserver\wamp\www\eshop\App\Home\Model\GoodModel.class.php 第 52 行.
+NOTIC: [8] Undefined variable: variable D:\wampserver\wamp\www\eshop\App\Home\Model\GoodModel.class.php 第 53 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wampserver\wamp\www\eshop\App\Home\Model\GoodModel.class.php 第 53 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001164s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001267s ]
+
+[ 2017-03-04T10:00:18+08:00 ] ::1 /eshop/index.php/Good/changeStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000931s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001578s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0047s ]
+NOTIC: [8] Undefined variable: variable D:\wampserver\wamp\www\eshop\App\Home\Model\GoodModel.class.php 第 53 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wampserver\wamp\www\eshop\App\Home\Model\GoodModel.class.php 第 53 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001602s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001757s ]
+
+[ 2017-03-04T10:03:00+08:00 ] ::1 /eshop/index.php/Good/changeStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000781s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001312s ]
+
+[ 2017-03-04T10:03:18+08:00 ] ::1 /eshop/index.php/Good/changeStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001396s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0046s ]
+NOTIC: [2] Illegal offset type D:\wampserver\wamp\www\eshop\App\Home\Model\GoodModel.class.php 第 55 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000999s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001098s ]
+
+[ 2017-03-04T10:03:40+08:00 ] ::1 /eshop/index.php/Good/changeStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002843s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0040s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000963s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001055s ]
+
+[ 2017-03-04T10:05:24+08:00 ] ::1 /eshop/index.php/Good/changeStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001210s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001803s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0041s ]
+NOTIC: [8] Undefined offset: 0 D:\wampserver\wamp\www\eshop\App\Home\Model\GoodModel.class.php 第 53 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wampserver\wamp\www\eshop\App\Home\Model\GoodModel.class.php 第 53 行.
+NOTIC: [8] Undefined variable: data D:\wampserver\wamp\www\eshop\App\Home\Model\GoodModel.class.php 第 58 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001099s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001206s ]
+
+[ 2017-03-04T10:05:37+08:00 ] ::1 /eshop/index.php/Good/changeStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000892s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001660s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0046s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000971s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001078s ]
+
+[ 2017-03-04T10:06:03+08:00 ] ::1 /eshop/index.php/Good/changeStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000877s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001481s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0051s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001231s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001384s ]
+
+[ 2017-03-04T10:07:48+08:00 ] ::1 /eshop/index.php/Good/changeStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001128s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001835s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0551s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000937s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001018s ]
+
+[ 2017-03-04T10:08:01+08:00 ] ::1 /eshop/index.php/Good/changeStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001351s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0041s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000973s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001083s ]
+
+[ 2017-03-04T10:08:17+08:00 ] ::1 /eshop/index.php/Good/changeStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000815s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001475s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0044s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001085s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001191s ]
+
+[ 2017-03-04T10:09:09+08:00 ] ::1 /eshop/index.php/Good/changeStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001616s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0063s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000938s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001024s ]
+
+[ 2017-03-04T10:09:35+08:00 ] ::1 /eshop/index.php/Good/changeStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000886s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001461s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0048s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001240s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001383s ]
+
+[ 2017-03-04T10:10:43+08:00 ] ::1 /eshop/index.php/Good/changeStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000830s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001561s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0052s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000932s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001024s ]
+
+[ 2017-03-04T10:10:55+08:00 ] ::1 /eshop/index.php/Good/changeStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002652s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0052s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000893s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000991s ]
+
+[ 2017-03-04T10:11:32+08:00 ] ::1 /eshop/index.php/Good/changeStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000840s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001462s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0051s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001398s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001524s ]
+
+[ 2017-03-04T10:12:37+08:00 ] ::1 /eshop/index.php/Good/changeStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000896s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001645s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0046s ]
+NOTIC: [8] Use of undefined constant length - assumed 'length' D:\wampserver\wamp\www\eshop\App\Home\Model\GoodModel.class.php 第 56 行.
+NOTIC: [8] Array to string conversion D:\wampserver\wamp\www\eshop\App\Home\Model\GoodModel.class.php 第 56 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001387s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001527s ]
+
+[ 2017-03-04T10:12:46+08:00 ] ::1 /eshop/index.php/Good/changeStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000929s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001469s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0860s ]
+
+[ 2017-03-04T10:13:53+08:00 ] ::1 /eshop/index.php/Good/changeStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001685s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0044s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001409s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001574s ]
+
+[ 2017-03-04T10:14:13+08:00 ] ::1 /eshop/index.php/Good/changeStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001486s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0062s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001370s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001515s ]
+
+[ 2017-03-04T10:14:55+08:00 ] ::1 /eshop/index.php/Good/changeStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002144s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0042s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001287s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001432s ]
+
+[ 2017-03-04T10:15:08+08:00 ] ::1 /eshop/index.php/Good/changeStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000925s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001507s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0065s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000943s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001043s ]
+
+[ 2017-03-04T10:16:39+08:00 ] ::1 /eshop/index.php/Good/changeStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001564s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0054s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001454s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001685s ]
+
+[ 2017-03-04T10:25:44+08:00 ] ::1 /eshop/index.php/Good/changeStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000994s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001875s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0062s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000915s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001008s ]
+
+[ 2017-03-04T10:26:17+08:00 ] ::1 /eshop/index.php/Good/changeStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000988s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001558s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0052s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000905s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000988s ]
+
+[ 2017-03-04T10:53:46+08:00 ] ::1 /eshop/index.php/Good/changeStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000823s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001701s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0258s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000948s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001078s ]
+
+[ 2017-03-04T11:12:17+08:00 ] ::1 /eshop/index.php/Good/changeStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000936s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001566s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0072s ]
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\wampserver\wamp\www\eshop\App\Home\Model\GoodModel.class.php 第 57 行.
+NOTIC: [8] Undefined index: i D:\wampserver\wamp\www\eshop\App\Home\Model\GoodModel.class.php 第 57 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\wampserver\wamp\www\eshop\App\Home\Model\GoodModel.class.php 第 57 行.
+NOTIC: [8] Undefined index: i D:\wampserver\wamp\www\eshop\App\Home\Model\GoodModel.class.php 第 57 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000956s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001029s ]
+
+[ 2017-03-04T11:12:33+08:00 ] ::1 /eshop/index.php/Good/changeStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001946s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0065s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000918s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001035s ]
+
+[ 2017-03-04T11:13:17+08:00 ] ::1 /eshop/index.php/Good/changeStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001522s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0415s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000886s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000964s ]
+
+[ 2017-03-04T11:13:32+08:00 ] ::1 /eshop/index.php/Good/changeStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001091s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001733s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0057s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001038s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001137s ]
+
+[ 2017-03-04T11:14:09+08:00 ] ::1 /eshop/index.php/Good/changeStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000822s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001393s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0061s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000907s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000995s ]
+
+[ 2017-03-04T11:20:05+08:00 ] ::1 /eshop/index.php/Good/changeStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000942s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001640s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0061s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001366s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001476s ]
+
+[ 2017-03-04T11:20:54+08:00 ] ::1 /eshop/index.php/Good/changeStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000803s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001367s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0055s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001201s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001331s ]
+
+[ 2017-03-04T11:21:06+08:00 ] ::1 /eshop/index.php/Good/changeStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002176s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0051s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000990s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001106s ]
+
+[ 2017-03-04T11:21:22+08:00 ] ::1 /eshop/index.php/Good/changeStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001525s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0337s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001080s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001199s ]
+
+[ 2017-03-04T11:21:42+08:00 ] ::1 /eshop/index.php/Good/changeStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000903s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001703s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0053s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001102s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001223s ]
+
+[ 2017-03-04T11:22:34+08:00 ] ::1 /eshop/index.php/Good/changeStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001157s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0060s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001079s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001190s ]
+
+[ 2017-03-04T11:23:04+08:00 ] ::1 /eshop/index.php/Good/changeStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001297s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0047s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000930s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001019s ]
+
+[ 2017-03-04T11:25:04+08:00 ] ::1 /eshop/index.php/Good/changeStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000737s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001300s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0052s ]
+NOTIC: [8] Undefined variable: where D:\wampserver\wamp\www\eshop\App\Home\Model\GoodModel.class.php 第 64 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001026s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001119s ]
+
+[ 2017-03-04T11:25:14+08:00 ] ::1 /eshop/index.php/Good/changeStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001218s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0048s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001059s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001160s ]
+
+[ 2017-03-04T11:27:40+08:00 ] ::1 /eshop/index.php/Good/changeStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001243s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0065s ]
+NOTIC: [8] Array to string conversion D:\wampserver\wamp\www\eshop\App\Home\Model\GoodModel.class.php 第 62 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'implode(',', Array)  )' at line 1
+ [ SQL语句 ] : UPDATE `eshop_good` SET `status`='0' WHERE ( id in implode(',', Array)  )
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'implode(',', Array)  )' at line 1
+ [ SQL语句 ] : UPDATE `eshop_good` SET `status`='0' WHERE ( id in implode(',', Array)  )
+
+[ 2017-03-04T11:28:23+08:00 ] ::1 /eshop/index.php/Good/changeStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001374s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0059s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '13,12  )' at line 1
+ [ SQL语句 ] : UPDATE `eshop_good` SET `status`='0' WHERE ( id in 13,12  )
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '13,12  )' at line 1
+ [ SQL语句 ] : UPDATE `eshop_good` SET `status`='0' WHERE ( id in 13,12  )
+
+[ 2017-03-04T11:29:12+08:00 ] ::1 /eshop/index.php/Good/changeStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001462s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0065s ]
+SQL: UPDATE `eshop_good` SET `status`='0' WHERE ( id in (13,12) ) [ RunTime:0.0326s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000995s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001091s ]
+
+[ 2017-03-04T11:53:17+08:00 ] ::1 /eshop/index.php/Good/changeStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001417s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.2423s ]
+SQL: UPDATE `eshop_good` SET `status`='0' WHERE ( id in (13,12) ) [ RunTime:0.0012s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001846s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002077s ]
+
+[ 2017-03-04T11:55:11+08:00 ] ::1 /eshop/index.php/Good/changeStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000906s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001512s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0052s ]
+SQL: UPDATE `eshop_good` SET `status`='0' WHERE ( id in (13,12) ) [ RunTime:0.0008s ]
+
+[ 2017-03-04T11:57:18+08:00 ] ::1 /eshop/index.php/Good/changeStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001405s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0049s ]
+SQL: UPDATE `eshop_good` SET `status`='0' WHERE ( id in (12) ) [ RunTime:0.0004s ]
+
+[ 2017-03-04T11:58:14+08:00 ] ::1 /eshop/index.php/Good/changeStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000927s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001620s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0050s ]
+SQL: UPDATE `eshop_good` SET `status`='0' WHERE ( id in (12) ) [ RunTime:0.0005s ]
+
+[ 2017-03-04T11:59:34+08:00 ] ::1 /eshop/index.php/Good/changeStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000992s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001619s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0053s ]
+SQL: UPDATE `eshop_good` SET `status`='0' WHERE ( id in (12) ) [ RunTime:0.0004s ]
+
+[ 2017-03-04T12:00:21+08:00 ] ::1 /eshop/index.php/Good/changeStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000923s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001510s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0051s ]
+SQL: UPDATE `eshop_good` SET `status`='0' WHERE ( id in (12) ) [ RunTime:0.0004s ]
+
+[ 2017-03-04T14:51:01+08:00 ] ::1 /eshop/index.php/Good/changePro.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004104s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005990s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003475s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003851s ]
+
+[ 2017-03-04T14:51:42+08:00 ] ::1 /eshop/index.php/Good/changePro.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001717s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001019s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001162s ]
+
+[ 2017-03-04T14:52:06+08:00 ] ::1 /eshop/index.php/Good/changePro.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000921s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001639s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001102s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001269s ]
+
+[ 2017-03-04T14:59:27+08:00 ] ::1 /eshop/index.php/Good/changePro.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002965s ]
+
+[ 2017-03-04T14:59:51+08:00 ] ::1 /eshop/index.php/Good/changePro.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000907s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001513s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0062s ]
+NOTIC: [2] is_array() expects exactly 1 parameter, 2 given D:\wampserver\wamp\www\eshop\App\Home\Model\GoodModel.class.php 第 77 行.
+
+[ 2017-03-04T15:00:23+08:00 ] ::1 /eshop/index.php/Good/changePro.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001626s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0058s ]
+
+[ 2017-03-04T15:00:37+08:00 ] ::1 /eshop/index.php/Good/changePro.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000929s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001510s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0061s ]
+
+[ 2017-03-04T15:01:58+08:00 ] ::1 /eshop/index.php/Good/changePro.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002608s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0064s ]
+
+[ 2017-03-04T15:04:19+08:00 ] ::1 /eshop/index.php/Good/changePro.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001868s ]
+
+[ 2017-03-04T15:04:30+08:00 ] ::1 /eshop/index.php/Good/changePro.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002169s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004414s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0063s ]
+
+[ 2017-03-04T15:08:54+08:00 ] ::1 /eshop/index.php/Good/changePro.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001455s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0051s ]
+SQL: UPDATE `eshop_good` SET `is_hot`='1' WHERE ( id in (13) ) [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001256s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001416s ]
+
+[ 2017-03-04T15:09:30+08:00 ] ::1 /eshop/index.php/Good/changePro.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000990s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001630s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0086s ]
+SQL: UPDATE `eshop_good` SET `is_recomend`='1' WHERE ( id in (13) ) [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000885s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000983s ]
+
+[ 2017-03-04T15:12:59+08:00 ] ::1 /eshop/index.php/Good/changePro.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000931s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001488s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0056s ]
+SQL: UPDATE `eshop_good` SET `is_new`='1' WHERE ( id in (13) ) [ RunTime:0.0004s ]
+
+[ 2017-03-04T15:13:09+08:00 ] ::1 /eshop/index.php/Good/changePro.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000988s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001615s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0055s ]
+SQL: UPDATE `eshop_good` SET `is_recomend`='1' WHERE ( id in (13) ) [ RunTime:0.0004s ]
+
+[ 2017-03-04T15:13:15+08:00 ] ::1 /eshop/index.php/Good/changePro.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001623s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0053s ]
+SQL: UPDATE `eshop_good` SET `is_new`='1' WHERE ( id in (13) ) [ RunTime:0.0004s ]
+
+[ 2017-03-04T15:13:17+08:00 ] ::1 /eshop/index.php/Good/changePro.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002305s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0179s ]
+SQL: UPDATE `eshop_good` SET `is_new`='1' WHERE ( id in (13) ) [ RunTime:0.0005s ]
+
+[ 2017-03-04T15:13:26+08:00 ] ::1 /eshop/index.php/Good/changePro.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000996s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001542s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0060s ]
+SQL: UPDATE `eshop_good` SET `is_new`='1' WHERE ( id in (13) ) [ RunTime:0.0004s ]
+
+[ 2017-03-04T15:13:29+08:00 ] ::1 /eshop/index.php/Good/changePro.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002009s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0067s ]
+SQL: UPDATE `eshop_good` SET `is_hot`='1' WHERE ( id in (13) ) [ RunTime:0.0004s ]
+
+[ 2017-03-04T15:15:03+08:00 ] ::1 /eshop/index.php/Good/changePro.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000978s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001604s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0070s ]
+SQL: UPDATE `eshop_good` SET `is_new`='1' WHERE ( id in (13) ) [ RunTime:0.0011s ]
+
+[ 2017-03-04T15:15:04+08:00 ] ::1 /eshop/index.php/Good/changePro.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000918s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001870s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0057s ]
+SQL: UPDATE `eshop_good` SET `is_recomend`='1' WHERE ( id in (13) ) [ RunTime:0.0005s ]
+
+[ 2017-03-04T15:15:06+08:00 ] ::1 /eshop/index.php/Good/changePro.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000917s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001603s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0064s ]
+SQL: UPDATE `eshop_good` SET `is_new`='1' WHERE ( id in (13) ) [ RunTime:0.0004s ]
+
+[ 2017-03-04T15:15:07+08:00 ] ::1 /eshop/index.php/Good/changePro.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000936s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001565s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0056s ]
+SQL: UPDATE `eshop_good` SET `is_hot`='1' WHERE ( id in (13) ) [ RunTime:0.0005s ]
+
+[ 2017-03-04T15:16:26+08:00 ] ::1 /eshop/index.php/Good/changePro.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001369s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0054s ]
+SQL: UPDATE `eshop_good` SET `is_new`='1' WHERE ( id in (13) ) [ RunTime:0.0004s ]
+
+[ 2017-03-04T15:18:14+08:00 ] ::1 /eshop/index.php/Good/changePro.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000820s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001466s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0063s ]
+SQL: UPDATE `eshop_good` SET `is_new`='1' WHERE ( id in (13) ) [ RunTime:0.0005s ]
+
+[ 2017-03-04T15:18:20+08:00 ] ::1 /eshop/index.php/Good/changePro.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000793s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001320s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0054s ]
+SQL: UPDATE `eshop_good` SET `is_new`='1' WHERE ( id in (13) ) [ RunTime:0.0004s ]
+
+[ 2017-03-04T15:18:21+08:00 ] ::1 /eshop/index.php/Good/changePro.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001373s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0059s ]
+SQL: UPDATE `eshop_good` SET `is_new`='1' WHERE ( id in (13) ) [ RunTime:0.0004s ]
+
+[ 2017-03-04T15:18:22+08:00 ] ::1 /eshop/index.php/Good/changePro.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001429s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0055s ]
+SQL: UPDATE `eshop_good` SET `is_new`='1' WHERE ( id in (13) ) [ RunTime:0.0004s ]
+
+[ 2017-03-04T15:18:23+08:00 ] ::1 /eshop/index.php/Good/changePro.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000895s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001543s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0087s ]
+SQL: UPDATE `eshop_good` SET `is_new`='1' WHERE ( id in (13) ) [ RunTime:0.0004s ]
+
+[ 2017-03-04T15:18:24+08:00 ] ::1 /eshop/index.php/Good/changePro.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001381s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0055s ]
+SQL: UPDATE `eshop_good` SET `is_new`='1' WHERE ( id in (13) ) [ RunTime:0.0003s ]
+
+[ 2017-03-04T15:18:25+08:00 ] ::1 /eshop/index.php/Good/changePro.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000878s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001402s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0973s ]
+SQL: UPDATE `eshop_good` SET `is_new`='1' WHERE ( id in (13) ) [ RunTime:0.0004s ]
+
+[ 2017-03-04T15:18:26+08:00 ] ::1 /eshop/index.php/Good/changePro.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000870s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001460s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0055s ]
+SQL: UPDATE `eshop_good` SET `is_new`='1' WHERE ( id in (13) ) [ RunTime:0.0004s ]
+
+[ 2017-03-04T15:18:29+08:00 ] ::1 /eshop/index.php/Good/changePro.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000823s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001437s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0224s ]
+SQL: UPDATE `eshop_good` SET `is_hot`='1' WHERE ( id in (13) ) [ RunTime:0.0003s ]
+
+[ 2017-03-04T15:31:52+08:00 ] ::1 /eshop/index.php/Good/changePro.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001182s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001898s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0091s ]
+SQL: UPDATE `eshop_good` SET `is_new`='1' WHERE ( id in (13) ) [ RunTime:0.0005s ]
+
+[ 2017-03-04T15:31:55+08:00 ] ::1 /eshop/index.php/Good/changePro.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001407s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0049s ]
+SQL: UPDATE `eshop_good` SET `is_new`='1' WHERE ( id in (13) ) [ RunTime:0.0004s ]
+
+[ 2017-03-04T15:31:55+08:00 ] ::1 /eshop/index.php/Good/changePro.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001763s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0051s ]
+SQL: UPDATE `eshop_good` SET `is_new`='1' WHERE ( id in (13) ) [ RunTime:0.0003s ]
+
+[ 2017-03-04T15:31:56+08:00 ] ::1 /eshop/index.php/Good/changePro.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000803s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001358s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0062s ]
+SQL: UPDATE `eshop_good` SET `is_new`='1' WHERE ( id in (13) ) [ RunTime:0.0003s ]
+
+[ 2017-03-04T15:31:56+08:00 ] ::1 /eshop/index.php/Good/changePro.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000877s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001576s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0059s ]
+SQL: UPDATE `eshop_good` SET `is_new`='1' WHERE ( id in (13) ) [ RunTime:0.0004s ]
+
+[ 2017-03-04T15:32:07+08:00 ] ::1 /eshop/index.php/Good/changePro.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001705s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0057s ]
+SQL: UPDATE `eshop_good` SET `is_new`='1' WHERE ( id in (13) ) [ RunTime:0.0004s ]
+
+[ 2017-03-04T15:32:56+08:00 ] ::1 /eshop/index.php/Good/changePro.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001430s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0048s ]
+SQL: UPDATE `eshop_good` SET `is_new`='1' WHERE ( id in (13) ) [ RunTime:0.0004s ]
+
+[ 2017-03-04T15:33:57+08:00 ] ::1 /eshop/index.php/Good/changePro.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001355s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0064s ]
+SQL: UPDATE `eshop_good` SET `is_new`='1' WHERE ( id in (13) ) [ RunTime:0.0004s ]
+
+[ 2017-03-04T15:36:45+08:00 ] ::1 /eshop/index.php/Good/changePro.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000873s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001465s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0218s ]
+SQL: UPDATE `eshop_good` SET `is_recomend`='1' WHERE ( id in (13) ) [ RunTime:0.0006s ]
+
+[ 2017-03-04T15:37:39+08:00 ] ::1 /eshop/index.php/Good/changePro.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000877s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001504s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0056s ]
+SQL: UPDATE `eshop_good` SET `is_new`='1' WHERE ( id in (13,12) ) [ RunTime:0.0004s ]
+
+[ 2017-03-04T15:37:51+08:00 ] ::1 /eshop/index.php/Good/changePro.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001291s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0057s ]
+SQL: UPDATE `eshop_good` SET `is_new`='1' WHERE ( id in (13,12) ) [ RunTime:0.0004s ]
+
+[ 2017-03-04T15:38:04+08:00 ] ::1 /eshop/index.php/Good/changePro.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000849s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001474s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0053s ]
+SQL: UPDATE `eshop_good` SET `is_recomend`='1' WHERE ( id in (13,12) ) [ RunTime:0.0004s ]
+
+[ 2017-03-04T15:38:12+08:00 ] ::1 /eshop/index.php/Good/changePro.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000878s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001871s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0047s ]
+SQL: UPDATE `eshop_good` SET `is_hot`='1' WHERE ( id in (13,12) ) [ RunTime:0.0004s ]
+
+[ 2017-03-04T15:39:16+08:00 ] ::1 /eshop/index.php/Good/changePro.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000872s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001425s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0065s ]
+SQL: UPDATE `eshop_good` SET `is_hot`='1' WHERE ( id in (13) ) [ RunTime:0.0003s ]
+
+[ 2017-03-04T15:39:33+08:00 ] ::1 /eshop/index.php/Good/changePro.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000894s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001480s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0051s ]
+SQL: UPDATE `eshop_good` SET `is_hot`='1' WHERE ( id in (13) ) [ RunTime:0.0005s ]
+
+[ 2017-03-04T15:40:49+08:00 ] ::1 /eshop/index.php/Good/changePro.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000840s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001360s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0055s ]
+SQL: UPDATE `eshop_good` SET `is_hot`='1' WHERE ( id in (13) ) [ RunTime:0.0004s ]
+
+[ 2017-03-04T15:44:41+08:00 ] ::1 /eshop/index.php/Good/changePro.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000810s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001400s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0091s ]
+SQL: UPDATE `eshop_good` SET `is_new`='1' WHERE ( id in (12) ) [ RunTime:0.0006s ]
+
+[ 2017-03-04T15:45:20+08:00 ] ::1 /eshop/index.php/Good/changePro.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001389s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0055s ]
+SQL: UPDATE `eshop_good` SET `is_new`='1' WHERE ( id in (12) ) [ RunTime:0.0004s ]
+
+[ 2017-03-04T15:45:25+08:00 ] ::1 /eshop/index.php/Good/changePro.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000815s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001384s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0081s ]
+SQL: UPDATE `eshop_good` SET `is_new`='1' WHERE ( id in (12) ) [ RunTime:0.0005s ]
+
+[ 2017-03-04T15:45:34+08:00 ] ::1 /eshop/index.php/Good/changePro.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001990s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0095s ]
+SQL: UPDATE `eshop_good` SET `is_new`='1' WHERE ( id in (12) ) [ RunTime:0.0008s ]
+
+[ 2017-03-04T15:45:36+08:00 ] ::1 /eshop/index.php/Good/changePro.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001898s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0065s ]
+SQL: UPDATE `eshop_good` SET `is_new`='1' WHERE ( id in (12) ) [ RunTime:0.0004s ]
+
+[ 2017-03-04T15:45:37+08:00 ] ::1 /eshop/index.php/Good/changePro.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001393s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0335s ]
+SQL: UPDATE `eshop_good` SET `is_new`='1' WHERE ( id in (12) ) [ RunTime:0.0005s ]
+
+[ 2017-03-04T15:45:39+08:00 ] ::1 /eshop/index.php/Good/changePro.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001461s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0049s ]
+SQL: UPDATE `eshop_good` SET `is_new`='1' WHERE ( id in (12) ) [ RunTime:0.0003s ]
+
+[ 2017-03-04T15:47:38+08:00 ] ::1 /eshop/index.php/Good/changePro.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001395s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0057s ]
+SQL: UPDATE `eshop_good` SET `is_recomend`='1',`modify_recenet`='1488613658' WHERE ( id in (12) ) [ RunTime:0.0005s ]
+
+[ 2017-03-04T16:02:43+08:00 ] ::1 /eshop/index.php/Good/changePro.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001438s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0055s ]
+SQL: UPDATE `eshop_good` SET `is_new`='1',`modify_recenet`='1488614563' WHERE ( id in (12) ) [ RunTime:0.0005s ]
+
+[ 2017-03-04T16:02:53+08:00 ] ::1 /eshop/index.php/Good/changePro.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000858s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001404s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0051s ]
+SQL: UPDATE `eshop_good` SET `is_new`='1',`modify_recenet`='1488614573' WHERE ( id in (12) ) [ RunTime:0.0004s ]
+
+[ 2017-03-04T16:03:00+08:00 ] ::1 /eshop/index.php/Good/changePro.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000904s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001430s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0059s ]
+SQL: UPDATE `eshop_good` SET `is_new`='1',`modify_recenet`='1488614580' WHERE ( id in (12) ) [ RunTime:0.0004s ]
+
+[ 2017-03-04T16:03:10+08:00 ] ::1 /eshop/index.php/Good/changePro.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001434s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0052s ]
+SQL: UPDATE `eshop_good` SET `is_recomend`='1',`modify_recenet`='1488614590' WHERE ( id in (12) ) [ RunTime:0.0005s ]
+
+[ 2017-03-04T16:03:26+08:00 ] ::1 /eshop/index.php/Good/changePro.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001352s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0055s ]
+SQL: UPDATE `eshop_good` SET `is_recomend`='1',`modify_recenet`='1488614606' WHERE ( id in (12) ) [ RunTime:0.0004s ]
+
+[ 2017-03-04T16:29:00+08:00 ] ::1 /eshop/index.php/Good/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000917s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001535s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000832s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000910s ]
+
+[ 2017-03-04T16:29:07+08:00 ] ::1 /eshop/index.php/Good/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000909s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001536s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000886s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000968s ]
+
+[ 2017-03-04T16:29:39+08:00 ] ::1 /eshop/index.php/Good/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002349s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001101s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001242s ]
+
+[ 2017-03-04T16:29:53+08:00 ] ::1 /eshop/index.php/Good/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001182s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001907s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001743s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001916s ]
+
+[ 2017-03-04T16:31:13+08:00 ] ::1 /eshop/index.php/Good/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000985s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001506s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000936s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001033s ]
+
+[ 2017-03-04T16:31:23+08:00 ] ::1 /eshop/index.php/Good/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001446s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001189s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001348s ]
+
+[ 2017-03-04T19:22:27+08:00 ] ::1 /eshop/index.php/Good/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002149s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001355s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001538s ]
+
+[ 2017-03-04T19:58:34+08:00 ] ::1 /eshop/index.php/Home/Good/ilegal.html
+ERR: 非法操作:ilegal
+
+[ 2017-03-04T20:04:05+08:00 ] ::1 /eshop/index.php/Home/Good/ilegal.html
+ERR: 非法操作:ilegal
+
+[ 2017-03-04T20:04:23+08:00 ] ::1 /eshop/index.php/Home/Good/iegal.html
+ERR: 非法操作:iegal
+
+[ 2017-03-04T20:05:01+08:00 ] ::1 /eshop/index.php/Home/Good/iegal.html
+ERR: 非法操作:iegal
+
+[ 2017-03-04T20:06:18+08:00 ] ::1 /eshop/index.php/Home/Good/iegal.html
+ERR: 非法操作:iegal
+
+[ 2017-03-04T20:06:34+08:00 ] ::1 /eshop/index.php/Home/Good/iegal.html
+ERR: 非法操作:iegal
+
+[ 2017-03-04T20:07:26+08:00 ] ::1 /eshop/index.php/Home/Good/iegal.html
+ERR: 非法操作:iegal
+
+[ 2017-03-04T20:07:57+08:00 ] ::1 /eshop/index.php/Home/Good/iegal.html
+ERR: 非法操作:iegal
+
+[ 2017-03-04T20:08:32+08:00 ] ::1 /eshop/index.php/Home/Good/iegal.html
+ERR: 非法操作:iegal
+
+[ 2017-03-04T20:08:38+08:00 ] ::1 /eshop/index.php/Home/Good/iegal.html
+ERR: 非法操作:iegal
+
+[ 2017-03-04T20:09:20+08:00 ] ::1 /eshop/index.php/Home/Good/iegal.html
+ERR: 非法操作:iegal
+
+[ 2017-03-04T20:09:22+08:00 ] ::1 /eshop/index.php/Home/Good/iegal.html
+ERR: 非法操作:iegal
+
+[ 2017-03-04T20:09:23+08:00 ] ::1 /eshop/index.php/Home/Good/iegal.html
+ERR: 非法操作:iegal
+
+[ 2017-03-04T20:09:24+08:00 ] ::1 /eshop/index.php/Home/Good/iegal.html
+ERR: 非法操作:iegal
+
+[ 2017-03-04T20:09:25+08:00 ] ::1 /eshop/index.php/Home/Good/iegal.html
+ERR: 非法操作:iegal
+
+[ 2017-03-04T20:09:26+08:00 ] ::1 /eshop/index.php/Home/Good/iegal.html
+ERR: 非法操作:iegal
+
+[ 2017-03-04T20:09:28+08:00 ] ::1 /eshop/index.php/Home/Good/iegal.html
+ERR: 非法操作:iegal
+
+[ 2017-03-04T20:09:29+08:00 ] ::1 /eshop/index.php/Home/Good/iegal.html
+ERR: 非法操作:iegal
+
+[ 2017-03-04T20:09:30+08:00 ] ::1 /eshop/index.php/Home/Good/iegal.html
+ERR: 非法操作:iegal
+
+[ 2017-03-04T20:09:31+08:00 ] ::1 /eshop/index.php/Home/Good/iegal.html
+ERR: 非法操作:iegal
+
+[ 2017-03-04T20:09:32+08:00 ] ::1 /eshop/index.php/Home/Good/iegal.html
+ERR: 非法操作:iegal
+
+[ 2017-03-04T20:09:34+08:00 ] ::1 /eshop/index.php/Home/Good/iegal.html
+ERR: 非法操作:iegal
+
+[ 2017-03-04T20:09:35+08:00 ] ::1 /eshop/index.php/Home/Good/iegal.html
+ERR: 非法操作:iegal
+
+[ 2017-03-04T20:09:36+08:00 ] ::1 /eshop/index.php/Home/Good/iegal.html
+ERR: 非法操作:iegal
+
+[ 2017-03-04T20:09:37+08:00 ] ::1 /eshop/index.php/Home/Good/iegal.html
+ERR: 非法操作:iegal
+
+[ 2017-03-04T20:09:38+08:00 ] ::1 /eshop/index.php/Home/Good/iegal.html
+ERR: 非法操作:iegal
+
+[ 2017-03-04T20:09:39+08:00 ] ::1 /eshop/index.php/Home/Good/iegal.html
+ERR: 非法操作:iegal
+
+[ 2017-03-04T20:09:41+08:00 ] ::1 /eshop/index.php/Home/Good/iegal.html
+ERR: 非法操作:iegal
+
+[ 2017-03-04T20:09:42+08:00 ] ::1 /eshop/index.php/Home/Good/iegal.html
+ERR: 非法操作:iegal
+
+[ 2017-03-04T20:09:43+08:00 ] ::1 /eshop/index.php/Home/Good/iegal.html
+ERR: 非法操作:iegal
+
+[ 2017-03-04T20:09:44+08:00 ] ::1 /eshop/index.php/Home/Good/iegal.html
+ERR: 非法操作:iegal
+
+[ 2017-03-04T20:10:00+08:00 ] ::1 /eshop/index.php/Home/Good/iegal.html
+ERR: 非法操作:iegal
+
+[ 2017-03-04T20:10:05+08:00 ] ::1 /eshop/index.php/Home/Good/ilegal.html
+ERR: 非法操作:ilegal
+
+[ 2017-03-04T20:12:18+08:00 ] ::1 /eshop/index.php/Good/getShopCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000843s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001444s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_secondmenu` [ RunTime:0.0138s ]
+SQL: SELECT `id`,`sname` FROM `eshop_shop_secondmenu` WHERE `pid` = 1 AND `is_show` = 1  [ RunTime:0.0175s ]
+
+[ 2017-03-04T20:56:27+08:00 ] ::1 /eshop/index.php/Good/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001395s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000819s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000904s ]
+
+[ 2017-03-04T20:56:49+08:00 ] ::1 /eshop/index.php/Good/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000946s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001959s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000864s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000965s ]
+
+[ 2017-03-04T20:57:53+08:00 ] ::1 /eshop/index.php/Good/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001366s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000760s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000844s ]
+
+[ 2017-03-04T20:59:30+08:00 ] ::1 /eshop/index.php/Good/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001705s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0085s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000954s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001052s ]
+
+[ 2017-03-04T20:59:40+08:00 ] ::1 /eshop/index.php/Good/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000905s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001445s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0050s ]
+NOTIC: [2] implode(): Invalid arguments passed D:\wampserver\wamp\www\eshop\App\Home\Model\GoodModel.class.php 第 106 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001281s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001405s ]
+
+[ 2017-03-04T21:00:32+08:00 ] ::1 /eshop/index.php/Good/getShopCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000846s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001407s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_secondmenu` [ RunTime:0.0054s ]
+SQL: SELECT `id`,`sname` FROM `eshop_shop_secondmenu` WHERE `pid` = 1 AND `is_show` = 1  [ RunTime:0.0004s ]
+
+[ 2017-03-04T21:00:43+08:00 ] ::1 /eshop/index.php/Good/getShopCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000906s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001743s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_secondmenu` [ RunTime:0.0239s ]
+SQL: SELECT `id`,`sname` FROM `eshop_shop_secondmenu` WHERE `pid` = 1 AND `is_show` = 1  [ RunTime:0.0005s ]
+
+[ 2017-03-04T21:01:17+08:00 ] ::1 /eshop/index.php/Good/getWebCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000733s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001315s ]
+SQL: SHOW COLUMNS FROM `eshop_secondmenu` [ RunTime:0.0175s ]
+SQL: SELECT `id`,`name` FROM `eshop_secondmenu` WHERE `pid` = 1 AND `is_show` = 1  [ RunTime:0.0237s ]
+
+[ 2017-03-04T21:01:19+08:00 ] ::1 /eshop/index.php/Good/getWebCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001367s ]
+SQL: SHOW COLUMNS FROM `eshop_thirdmenu` [ RunTime:0.0077s ]
+SQL: SELECT `id`,`name` FROM `eshop_thirdmenu` WHERE `pid` = 1 AND `is_show` = 1  [ RunTime:0.0534s ]
+
+[ 2017-03-04T21:03:18+08:00 ] ::1 /eshop/index.php/Home/Index/goods_info.html
+ERR: 非法操作:goods_info
+
+[ 2017-03-04T21:03:23+08:00 ] ::1 /eshop/index.php/Home/Index/lists.html
+ERR: 非法操作:lists
+
+[ 2017-03-04T21:03:42+08:00 ] ::1 /eshop/index.php/Home/Index/more_info.html
+ERR: 非法操作:more_info
+
+[ 2017-03-04T21:05:24+08:00 ] ::1 /eshop/index.php/Good/goodImgDel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001328s ]
+
+[ 2017-03-04T21:05:26+08:00 ] ::1 /eshop/index.php/Good/goodImgDel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001993s ]
+
+[ 2017-03-04T21:06:20+08:00 ] ::1 /eshop/index.php/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000852s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001400s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000881s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000983s ]
+
+[ 2017-03-04T21:06:37+08:00 ] ::1 /eshop/index.php/User/doLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002138s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0346s ]
+SQL: SELECT * FROM `eshop_user` WHERE `name` = 'test' LIMIT 1   [ RunTime:0.0280s ]
+
+[ 2017-03-04T21:06:47+08:00 ] ::1 /eshop/index.php/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005900s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010491s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002215s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002476s ]
+
+[ 2017-03-04T21:08:00+08:00 ] ::1 /eshop/index.php/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001412s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000858s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000954s ]
+
+[ 2017-03-04T21:08:03+08:00 ] ::1 /eshop/index.php/Shoper/doLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000912s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001538s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0806s ]
+SQL: SELECT * FROM `eshop_shoper` WHERE `name` = 'shoper3' LIMIT 1   [ RunTime:0.0013s ]
+NOTIC: [2] fopen(D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Org\Net/UTFWry.dat): failed to open stream: No such file or directory D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Org\Net\IpLocation.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `eshop_shoper_log` [ RunTime:0.0172s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `eshop_shoper_log` (`shoperId`,`action`,`ip`,`location`,`time`) VALUES ('13','登录','0.0.0.0',NULL,'1488632883') [ RunTime:0.0775s ]
+
+[ 2017-03-04T21:14:43+08:00 ] ::1 /eshop/index.php/ShopCart/editCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000915s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001559s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_secondmenu` [ RunTime:0.0055s ]
+SQL: UPDATE `eshop_shop_secondmenu` SET `sname`='红富士苹果3',`modify_time`='1488633283' WHERE `id` = 13 [ RunTime:0.0782s ]
+
+[ 2017-03-04T21:14:51+08:00 ] ::1 /eshop/index.php/ShopCart/editCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001459s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_secondmenu` [ RunTime:0.0059s ]
+SQL: UPDATE `eshop_shop_secondmenu` SET `sname`='青苹果4',`modify_time`='1488633291' WHERE `id` = 17 [ RunTime:0.0556s ]
+
+[ 2017-03-04T21:16:53+08:00 ] ::1 /eshop/index.php/Good/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000897s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001752s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0596s ]
+NOTIC: [2] implode(): Invalid arguments passed D:\wampserver\wamp\www\eshop\App\Home\Model\GoodModel.class.php 第 106 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001811s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-03-04T21:17:23+08:00 ] ::1 /eshop/index.php/Good/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001075s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001652s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0057s ]
+NOTIC: [2] implode(): Invalid arguments passed D:\wampserver\wamp\www\eshop\App\Home\Model\GoodModel.class.php 第 106 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001047s ]
+
+[ 2017-03-04T21:18:09+08:00 ] ::1 /eshop/index.php/Good/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000894s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001462s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0073s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000967s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001054s ]
+
+[ 2017-03-04T21:20:04+08:00 ] ::1 /eshop/index.php/Good/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000864s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001379s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0255s ]
+NOTIC: [2] implode(): Invalid arguments passed D:\wampserver\wamp\www\eshop\App\Home\Model\GoodModel.class.php 第 106 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000980s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001070s ]
+
+[ 2017-03-04T21:20:44+08:00 ] ::1 /eshop/index.php/Good/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000955s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001548s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0052s ]
+NOTIC: [2] implode(): Invalid arguments passed D:\wampserver\wamp\www\eshop\App\Home\Model\GoodModel.class.php 第 106 行.
+NOTIC: [8] Use of undefined constant length - assumed 'length' D:\wampserver\wamp\www\eshop\App\Home\Model\GoodModel.class.php 第 107 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000929s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001008s ]
+
+[ 2017-03-04T21:22:48+08:00 ] ::1 /eshop/index.php/Good/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000866s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001424s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0078s ]
+NOTIC: [2] implode(): Invalid arguments passed D:\wampserver\wamp\www\eshop\App\Home\Model\GoodModel.class.php 第 107 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001561s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001721s ]
+
+[ 2017-03-04T21:24:42+08:00 ] ::1 /eshop/index.php/Good/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002053s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0084s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000994s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001089s ]
+
+[ 2017-03-04T21:25:02+08:00 ] ::1 /eshop/index.php/Good/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000823s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001421s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0052s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000979s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001063s ]
+
+[ 2017-03-04T21:25:09+08:00 ] ::1 /eshop/index.php/Good/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001099s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001727s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0067s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000994s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001099s ]
+
+[ 2017-03-04T21:25:24+08:00 ] ::1 /eshop/index.php/Good/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001428s ]
+
+[ 2017-03-04T21:25:37+08:00 ] ::1 /eshop/index.php/Good/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000826s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001366s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0053s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001149s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001264s ]
+
+[ 2017-03-04T21:25:55+08:00 ] ::1 /eshop/index.php/Good/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000928s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001537s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0063s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001582s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001742s ]
+
+[ 2017-03-04T21:29:45+08:00 ] ::1 /eshop/index.php/ShopCart/saveMenu.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010240s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0156s ]
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\wampserver\wamp\www\eshop\App\Home\Controller\ShopCartController.class.php 第 81 行.
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_firstmenu` [ RunTime:0.0109s ]
+SQL: INSERT INTO `eshop_shop_firstmenu` (`shopId`,`name`,`create_time`) VALUES ('3','sda','1488634185') [ RunTime:0.0863s ]
+
+[ 2017-03-04T21:29:57+08:00 ] ::1 /eshop/index.php/ShopCart/saveMenu.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002921s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_secondmenu` [ RunTime:0.0054s ]
+SQL: INSERT INTO `eshop_shop_secondmenu` (`sname`,`pid`,`create_time`) VALUES ('csa','6','1488634197') [ RunTime:0.0958s ]
+
+[ 2017-03-04T21:30:23+08:00 ] ::1 /eshop/index.php/ShopCart/delCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000952s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001498s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_firstmenu` [ RunTime:0.0051s ]
+SQL: DELETE FROM `eshop_shop_firstmenu` WHERE `id` = 6 [ RunTime:0.1066s ]
+
+[ 2017-03-04T21:38:17+08:00 ] ::1 /eshop/index.php/Good/goodImgDel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000830s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001396s ]
+
+[ 2017-03-04T21:55:54+08:00 ] ::1 /eshop/index.php/Good/goodImgDel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002315s ]
+

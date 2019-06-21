@@ -1,0 +1,242 @@
+[ 2017-01-15T14:28:33+08:00 ] ::1 /eshop/index.php/ShopCart/shoper_regist.html
+ERR: 非法操作:shoper_regist
+
+[ 2017-01-15T14:42:29+08:00 ] ::1 /eshop/index.php/Good/getShopCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001425s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_secondmenu` [ RunTime:0.0061s ]
+SQL: SELECT `id`,`sname` FROM `eshop_shop_secondmenu` WHERE `pid` = 1 AND `is_show` = 1  [ RunTime:0.0005s ]
+
+[ 2017-01-15T15:37:34+08:00 ] ::1 /eshop/index.php/Good/getWebCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000876s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001481s ]
+SQL: SHOW COLUMNS FROM `eshop_secondmenu` [ RunTime:0.0056s ]
+SQL: SELECT `id`,`name` FROM `eshop_secondmenu` WHERE `pid` = 1 AND `is_show` = 1  [ RunTime:0.0005s ]
+
+[ 2017-01-15T15:37:36+08:00 ] ::1 /eshop/index.php/Good/getWebCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001421s ]
+SQL: SHOW COLUMNS FROM `eshop_secondmenu` [ RunTime:0.0066s ]
+SQL: SELECT `id`,`name` FROM `eshop_secondmenu` WHERE `pid` = 2 AND `is_show` = 1  [ RunTime:0.0004s ]
+
+[ 2017-01-15T15:37:37+08:00 ] ::1 /eshop/index.php/Good/getWebCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001396s ]
+SQL: SHOW COLUMNS FROM `eshop_thirdmenu` [ RunTime:0.0049s ]
+SQL: SELECT `id`,`name` FROM `eshop_thirdmenu` WHERE `pid` = 3 AND `is_show` = 1  [ RunTime:0.0005s ]
+
+[ 2017-01-15T15:37:41+08:00 ] ::1 /eshop/index.php/Good/getShopCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000901s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001481s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_secondmenu` [ RunTime:0.0068s ]
+SQL: SELECT `id`,`sname` FROM `eshop_shop_secondmenu` WHERE `pid` = 5 AND `is_show` = 1  [ RunTime:0.0004s ]
+
+[ 2017-01-15T15:38:04+08:00 ] ::1 /eshop/index.php/Good/goodsSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000940s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001544s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0052s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined variable: x D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: y D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0078s ]
+SQL: SHOW COLUMNS FROM `eshop_goodnav` [ RunTime:0.0087s ]
+SQL: SHOW COLUMNS FROM `eshop_goodservice` [ RunTime:0.0122s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `eshop_good` WHERE `goodNumber` = '14828254901318899865' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `eshop_good` (`good_log`,`marketPrice`,`shopPrice`,`stock`,`place`,`status`,`name`,`stock_warning`,`goodNumber`,`is_recomend`,`is_new`,`time`,`modify_recenet`) VALUES ('Uploads/Shops/2017-01-15/thumb_587b26db53ce8.jpg','2.34','2.00','123','湖南','1','正宗进口鸭梨','12','14828254901318899865','1','1','1484465883','1484465883') [ RunTime:0.0481s ]
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`eshop`.`eshop_goodnav`, CONSTRAINT `eshop_goodnav_ibfk_4` FOREIGN KEY (`s_fid`) REFERENCES `eshop_shop_firstmenu` (`id`) ON DELETE NO ACTION ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `eshop_goodnav` (`goodId`,`shopId`,`w_fid`,`w_sid`,`w_tid`,`s_fid`,`createtime`) VALUES ('5','3','2','3','4','13','1484465883')
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`eshop`.`eshop_goodnav`, CONSTRAINT `eshop_goodnav_ibfk_4` FOREIGN KEY (`s_fid`) REFERENCES `eshop_shop_firstmenu` (`id`) ON DELETE NO ACTION ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `eshop_goodnav` (`goodId`,`shopId`,`w_fid`,`w_sid`,`w_tid`,`s_fid`,`createtime`) VALUES ('5','3','2','3','4','13','1484465883')
+
+[ 2017-01-15T15:38:36+08:00 ] ::1 /eshop/index.php/Good/goodsSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001302s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0069s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined variable: x D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: y D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0054s ]
+SQL: SHOW COLUMNS FROM `eshop_goodnav` [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `eshop_goodservice` [ RunTime:0.0063s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `eshop_good` WHERE `goodNumber` = '14828254901318899865' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `eshop_good` (`good_log`,`marketPrice`,`shopPrice`,`stock`,`place`,`status`,`name`,`stock_warning`,`goodNumber`,`is_recomend`,`is_new`,`time`,`modify_recenet`) VALUES ('Uploads/Shops/2017-01-15/thumb_587b26fcdd004.jpg','2.34','2.00','123','湖南','1','正宗进口鸭梨','12','14828254901318899865','1','1','1484465916','1484465916') [ RunTime:0.0005s ]
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`eshop`.`eshop_goodnav`, CONSTRAINT `eshop_goodnav_ibfk_4` FOREIGN KEY (`s_fid`) REFERENCES `eshop_shop_firstmenu` (`id`) ON DELETE NO ACTION ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `eshop_goodnav` (`goodId`,`shopId`,`w_fid`,`w_sid`,`w_tid`,`s_fid`,`createtime`) VALUES ('6','3','2','3','4','13','1484465916')
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`eshop`.`eshop_goodnav`, CONSTRAINT `eshop_goodnav_ibfk_4` FOREIGN KEY (`s_fid`) REFERENCES `eshop_shop_firstmenu` (`id`) ON DELETE NO ACTION ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `eshop_goodnav` (`goodId`,`shopId`,`w_fid`,`w_sid`,`w_tid`,`s_fid`,`createtime`) VALUES ('6','3','2','3','4','13','1484465916')
+
+[ 2017-01-15T15:51:58+08:00 ] ::1 /eshop/index.php/Good/getWebCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001101s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001763s ]
+SQL: SHOW COLUMNS FROM `eshop_secondmenu` [ RunTime:0.0075s ]
+SQL: SELECT `id`,`name` FROM `eshop_secondmenu` WHERE `pid` = 2 AND `is_show` = 1  [ RunTime:0.0004s ]
+
+[ 2017-01-15T15:51:59+08:00 ] ::1 /eshop/index.php/Good/getWebCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002176s ]
+SQL: SHOW COLUMNS FROM `eshop_thirdmenu` [ RunTime:0.0081s ]
+SQL: SELECT `id`,`name` FROM `eshop_thirdmenu` WHERE `pid` = 4 AND `is_show` = 1  [ RunTime:0.0004s ]
+
+[ 2017-01-15T15:52:01+08:00 ] ::1 /eshop/index.php/Good/getWebCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003245s ]
+SQL: SHOW COLUMNS FROM `eshop_thirdmenu` [ RunTime:0.0069s ]
+SQL: SELECT `id`,`name` FROM `eshop_thirdmenu` WHERE `pid` = 3 AND `is_show` = 1  [ RunTime:0.0004s ]
+
+[ 2017-01-15T15:52:10+08:00 ] ::1 /eshop/index.php/Good/getShopCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001003s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001680s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_secondmenu` [ RunTime:0.0061s ]
+SQL: SELECT `id`,`sname` FROM `eshop_shop_secondmenu` WHERE `pid` = 5 AND `is_show` = 1  [ RunTime:0.0004s ]
+
+[ 2017-01-15T15:52:23+08:00 ] ::1 /eshop/index.php/Good/goodsSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001895s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0060s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined variable: x D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: y D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0062s ]
+SQL: SHOW COLUMNS FROM `eshop_goodnav` [ RunTime:0.0054s ]
+SQL: SHOW COLUMNS FROM `eshop_goodservice` [ RunTime:0.0066s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `eshop_good` WHERE `goodNumber` = '14828254901386361321' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `eshop_good` (`good_log`,`marketPrice`,`shopPrice`,`stock`,`place`,`status`,`name`,`stock_warning`,`goodNumber`,`is_recomend`,`is_new`,`time`,`modify_recenet`) VALUES ('Uploads/Shops/2017-01-15/thumb_587b2a374f2ac.jpg','12.23','6.87','342','湖南','1','正宗鸭梨','12','14828254901386361321','1','1','1484466743','1484466743') [ RunTime:0.0004s ]
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`eshop`.`eshop_goodnav`, CONSTRAINT `eshop_goodnav_ibfk_4` FOREIGN KEY (`s_fid`) REFERENCES `eshop_shop_firstmenu` (`id`) ON DELETE NO ACTION)
+ [ SQL语句 ] : INSERT INTO `eshop_goodnav` (`goodId`,`shopId`,`w_fid`,`w_sid`,`w_tid`,`s_fid`,`createtime`) VALUES ('7','3','2','3','4','13','1484466743')
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`eshop`.`eshop_goodnav`, CONSTRAINT `eshop_goodnav_ibfk_4` FOREIGN KEY (`s_fid`) REFERENCES `eshop_shop_firstmenu` (`id`) ON DELETE NO ACTION)
+ [ SQL语句 ] : INSERT INTO `eshop_goodnav` (`goodId`,`shopId`,`w_fid`,`w_sid`,`w_tid`,`s_fid`,`createtime`) VALUES ('7','3','2','3','4','13','1484466743')
+
+[ 2017-01-15T15:54:16+08:00 ] ::1 /eshop/index.php/Good/goodsSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001216s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001818s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0056s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined variable: x D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: y D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0062s ]
+SQL: SHOW COLUMNS FROM `eshop_goodnav` [ RunTime:0.0118s ]
+SQL: SHOW COLUMNS FROM `eshop_goodservice` [ RunTime:0.0143s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `eshop_good` WHERE `goodNumber` = '14828254901386361321' LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `eshop_good` (`good_log`,`marketPrice`,`shopPrice`,`stock`,`place`,`status`,`name`,`stock_warning`,`goodNumber`,`is_recomend`,`is_new`,`time`,`modify_recenet`) VALUES ('Uploads/Shops/2017-01-15/thumb_587b2aa87c1ab.jpg','12.23','6.87','342','湖南','1','正宗鸭梨','12','14828254901386361321','1','1','1484466856','1484466856') [ RunTime:0.0009s ]
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`eshop`.`eshop_goodnav`, CONSTRAINT `eshop_goodnav_ibfk_4` FOREIGN KEY (`s_fid`) REFERENCES `eshop_shop_firstmenu` (`id`))
+ [ SQL语句 ] : INSERT INTO `eshop_goodnav` (`goodId`,`shopId`,`w_fid`,`w_sid`,`w_tid`,`s_fid`,`createtime`) VALUES ('8','3','2','3','4','13','1484466856')
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`eshop`.`eshop_goodnav`, CONSTRAINT `eshop_goodnav_ibfk_4` FOREIGN KEY (`s_fid`) REFERENCES `eshop_shop_firstmenu` (`id`))
+ [ SQL语句 ] : INSERT INTO `eshop_goodnav` (`goodId`,`shopId`,`w_fid`,`w_sid`,`w_tid`,`s_fid`,`createtime`) VALUES ('8','3','2','3','4','13','1484466856')
+
+[ 2017-01-15T16:00:50+08:00 ] ::1 /eshop/index.php/Good/getWebCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000835s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001446s ]
+SQL: SHOW COLUMNS FROM `eshop_secondmenu` [ RunTime:0.0061s ]
+SQL: SELECT `id`,`name` FROM `eshop_secondmenu` WHERE `pid` = 2 AND `is_show` = 1  [ RunTime:0.0005s ]
+
+[ 2017-01-15T16:00:51+08:00 ] ::1 /eshop/index.php/Good/getWebCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002987s ]
+SQL: SHOW COLUMNS FROM `eshop_thirdmenu` [ RunTime:0.0068s ]
+SQL: SELECT `id`,`name` FROM `eshop_thirdmenu` WHERE `pid` = 3 AND `is_show` = 1  [ RunTime:0.0006s ]
+
+[ 2017-01-15T16:00:58+08:00 ] ::1 /eshop/index.php/Good/getShopCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000982s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001622s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_secondmenu` [ RunTime:0.0082s ]
+SQL: SELECT `id`,`sname` FROM `eshop_shop_secondmenu` WHERE `pid` = 1 AND `is_show` = 1  [ RunTime:0.0005s ]
+
+[ 2017-01-15T16:01:18+08:00 ] ::1 /eshop/index.php/Good/goodsSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001433s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0057s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined variable: x D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: y D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0055s ]
+SQL: SHOW COLUMNS FROM `eshop_goodnav` [ RunTime:0.0058s ]
+SQL: SHOW COLUMNS FROM `eshop_goodservice` [ RunTime:0.0069s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `eshop_good` WHERE `goodNumber` = '14828254901341481594' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `eshop_good` (`good_log`,`marketPrice`,`shopPrice`,`stock`,`place`,`status`,`name`,`stock_warning`,`goodNumber`,`is_hot`,`is_new`,`time`,`modify_recenet`) VALUES ('Uploads/Shops/2017-01-15/thumb_587b2c4e8db4f.jpg','13.45','3.34','3252','湖南','1','亚会猝死哈','23','14828254901341481594','1','1','1484467278','1484467278') [ RunTime:0.0004s ]
+SQL: INSERT INTO `eshop_goodnav` (`goodId`,`shopId`,`w_fid`,`w_sid`,`w_tid`,`s_fid`,`createtime`) VALUES ('9','3','2','3','4','1','1484467278') [ RunTime:0.3242s ]
+SQL: INSERT INTO `eshop_goodservice` (`goodId`,`content`,`createtime`) VALUES ('9','&lt;p&gt;VB苏杭vhsuihvudshvsb胡vshvisbb&lt;br/&gt;&lt;/p&gt;','1484467278') [ RunTime:0.0004s ]
+
+[ 2017-01-15T16:04:26+08:00 ] ::1 /eshop/index.php/Good/getWebCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000845s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001471s ]
+SQL: SHOW COLUMNS FROM `eshop_secondmenu` [ RunTime:0.0059s ]
+SQL: SELECT `id`,`name` FROM `eshop_secondmenu` WHERE `pid` = 1 AND `is_show` = 1  [ RunTime:0.0005s ]
+
+[ 2017-01-15T16:04:27+08:00 ] ::1 /eshop/index.php/Good/getWebCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000962s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001723s ]
+SQL: SHOW COLUMNS FROM `eshop_thirdmenu` [ RunTime:0.0614s ]
+SQL: SELECT `id`,`name` FROM `eshop_thirdmenu` WHERE `pid` = 1 AND `is_show` = 1  [ RunTime:0.0004s ]
+
+[ 2017-01-15T16:04:29+08:00 ] ::1 /eshop/index.php/Good/getShopCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001006s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001579s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_secondmenu` [ RunTime:0.0074s ]
+SQL: SELECT `id`,`sname` FROM `eshop_shop_secondmenu` WHERE `pid` = 5 AND `is_show` = 1  [ RunTime:0.0007s ]
+
+[ 2017-01-15T16:04:41+08:00 ] ::1 /eshop/index.php/Good/goodsSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000898s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001498s ]
+
+[ 2017-01-15T16:06:58+08:00 ] ::1 /eshop/index.php/Good/goodsSave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000970s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001610s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0079s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined variable: x D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: y D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0083s ]
+SQL: SHOW COLUMNS FROM `eshop_goodnav` [ RunTime:0.0077s ]
+SQL: SHOW COLUMNS FROM `eshop_goodservice` [ RunTime:0.0061s ]
+NOTIC: [8] Undefined index: validate D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `eshop_good` WHERE `goodNumber` = '14828254901325292459' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: auto D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `eshop_good` (`good_log`,`marketPrice`,`shopPrice`,`stock`,`place`,`status`,`name`,`stock_warning`,`goodNumber`,`is_recomend`,`is_hot`,`time`,`modify_recenet`) VALUES ('Uploads/Shops/2017-01-15/thumb_587b2da17b9f5.jpg','12','1','11','的的','1','步履多索','1','14828254901325292459','1','1','1484467617','1484467617') [ RunTime:0.0004s ]
+SQL: INSERT INTO `eshop_goodnav` (`goodId`,`shopId`,`w_fid`,`w_sid`,`w_tid`,`s_fid`,`s_sid`,`createtime`) VALUES ('10','3','1','1','1','5','13','1484467617') [ RunTime:0.0003s ]
+SQL: INSERT INTO `eshop_goodservice` (`goodId`,`content`,`createtime`) VALUES ('10','','1484467617') [ RunTime:0.7806s ]
+
+[ 2017-01-15T16:10:33+08:00 ] ::1 /eshop/index.php/Good/getShopCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001151s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001855s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_secondmenu` [ RunTime:0.0070s ]
+SQL: SELECT `id`,`sname` FROM `eshop_shop_secondmenu` WHERE `pid` = 1 AND `is_show` = 1  [ RunTime:0.0004s ]
+

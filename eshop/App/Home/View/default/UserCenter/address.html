@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>地址管理</title>
+<!-- 公共链接 -->
+<include file = "Public:common"/>
+<include file='Public:ucenterlink'/>
+<!-- 公共链接 -->
+<script src="__PUBLIC__/Home/Js/User/addrManage.js"></script>
+</head>
+<body>
+<!-- header开始 --> 
+<include file ='Public:header' /> 
+<!-- header结束 --> 
+<!-- 当前位置开始 -->
+<div class="position_now">
+  <label><a href="{:U('Home/Index/index')}">首页</a></label>
+  <span>&gt</span>
+  <label>地址管理</label>
+</div>
+<!-- 当前位置显示结束 --> 
+<!-- 主体内容开始 -->
+<div class="ucenter_wrapper"> 
+  <!-- 左边导航标签开始 --> 
+  <include file='Public:ucenternav'/> 
+  <!-- 左边导航标签结束 -->
+  <div class="ucenter_right">
+    <div class="ucenter_right_title"> <span>地址管理</span> </div>
+    <div class="ucenter_right_content">
+      <div class="uaccout">
+        <label>登录账号：</label>
+        <span>{$Think.session.uname}</span><span style="font-size:15px;color:#3F11F8;">（您已经拥有了<strong style="color:red">{$num}</strong>个地址最多可以添加5个地址）</span> </div>
+      <volist name="list" id="data">
+        <table class="uaddress_table">
+          <tbody>
+            <tr>
+              <td>收货人基本信息</td>
+              <td><if condition="$data.is_first eq 1"> <span style="color:red">默认地址</span> </if>
+                <a href="javascript:delAddr({$data.id});" class="addr_del" id="addr_del" > <img src="__PUBLIC__/Home/Icon/delete1.png" /> </a></td>
+            </tr>
+            <tr>
+              <td class="addr-title">姓名：</td>
+              <td>{$data.username}</td>
+            </tr>
+            <tr>
+              <td class="addr-title">邮编：</td>
+              <td>{$data.postcode}</td>
+            </tr>
+            <tr>
+              <td class="addr-title">所在地区：</td>
+              <td>{:formatAddr($data['location'],0)}</td>
+            </tr>
+            <tr>
+              <td class="addr-title">地址：</td>
+              <td>{$data.streetinfo}</td>
+            </tr>
+            <tr>
+              <td class="addr-title">联系电话：</td>
+              <td>{$data.tel}</td>
+            </tr>
+            <tr>
+              <td class="addr_edit" colspan="2"><a href="javascript:;" class="modifyAddr" value="{$data.id}" >编辑</a>
+                <if condition="$data.is_first neq 1"> <a href="javascript:setDefaultAddr({$data.id});">设为默认</a> </if></td>
+            </tr>
+          </tbody>
+        </table>
+      </volist>
+      <div class="add_addr_btn">
+        <if condition="$num elt 4 ">
+          <input type="button"  value="新增收货地址" id="addressEdit"/>
+        </if>
+      </div>
+    </div>
+  </div>
+  <!-- 用户中心右侧内容显示结束 --> 
+</div>
+<!-- 主体内容结束 --> 
+<include file='Public:footer'/>
+</body>
+</html>

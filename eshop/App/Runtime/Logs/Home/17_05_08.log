@@ -1,0 +1,104 @@
+[ 2017-05-08T08:12:35+08:00 ] ::1 /eshop/index.php/Home/Shop/index/shopId/3.html
+ERR: Cron:cron Runat 2017-05-08 08:12:35 Use 0.000816 s
+
+[ 2017-05-08T08:12:44+08:00 ] ::1 /eshop/index.php/Home/Index/index.html
+ERR: Cron:cron Runat 2017-05-08 08:12:44 Use 0.000732 s
+
+[ 2017-05-08T08:12:47+08:00 ] ::1 /eshop/index.php/Home/UserCenter/userinfo.html
+ERR: Cron:cron Runat 2017-05-08 08:12:47 Use 0.000574 s
+
+[ 2017-05-08T08:13:02+08:00 ] ::1 /eshop/index.php/User/verify.html?0.8615802809501149
+ERR: Cron:cron Runat 2017-05-08 08:13:02 Use 0.000431 s
+
+[ 2017-05-08T08:13:08+08:00 ] ::1 /eshop/index.php/User/checkVerify.html
+ERR: Cron:cron Runat 2017-05-08 08:13:08 Use 0.000536 s
+
+[ 2017-05-08T08:13:08+08:00 ] ::1 /eshop/index.php/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001319s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.018367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020749s ]
+NOTIC: [8] Undefined index: good_cart D:\wampserver\wamp\www\eshop\App\Home\Common\function.php 第 279 行.
+NOTIC: [8] Undefined index: good_cart D:\wampserver\wamp\www\eshop\App\Home\Common\function.php 第 279 行.
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0130s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = null LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002802s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003228s ]
+
+[ 2017-05-08T08:13:09+08:00 ] ::1 /eshop/index.php/User/doLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001245s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.009649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012123s ]
+NOTIC: [8] Undefined index: good_cart D:\wampserver\wamp\www\eshop\App\Home\Common\function.php 第 279 行.
+NOTIC: [8] Undefined index: good_cart D:\wampserver\wamp\www\eshop\App\Home\Common\function.php 第 279 行.
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0140s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = null LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0251s ]
+SQL: SELECT * FROM `eshop_user` WHERE `name` = 'admin' LIMIT 1   [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `eshop_user_log` [ RunTime:0.0834s ]
+NOTIC: [2] fopen(D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Org\Net/UTFWry.dat): failed to open stream: No such file or directory D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Org\Net\IpLocation.class.php 第 54 行.
+SQL: INSERT INTO `eshop_user_log` (`userId`,`action`,`ip`,`location`,`time`) VALUES ('20','登录','0.0.0.0',NULL,'1494202388') [ RunTime:0.2899s ]
+NOTIC: [8] Undefined index: good_cart D:\wampserver\wamp\www\eshop\App\Home\Common\function.php 第 279 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' D:\wampserver\wamp\www\eshop\App\Home\Common\function.php 第 347 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wampserver\wamp\www\eshop\App\Home\Common\function.php 第 351 行.
+
+[ 2017-05-08T08:13:12+08:00 ] ::1 /eshop/index.php/Index/index.html
+ERR: Cron:cron Runat 2017-05-08 08:13:12 Use 0.001010 s
+
+[ 2017-05-08T08:13:15+08:00 ] ::1 /eshop/index.php/Home/UserCenter/userinfo.html
+ERR: Cron:cron Runat 2017-05-08 08:13:15 Use 0.000585 s
+
+[ 2017-05-08T09:05:17+08:00 ] ::1 /eshop/index.php/Home/Shoper/index.html
+ERR: Cron:cron Runat 2017-05-08 09:05:17 Use 0.000407 s
+
+[ 2017-05-08T09:05:35+08:00 ] ::1 /eshop/index.php/Shoper/checkVerify.html
+ERR: Cron:cron Runat 2017-05-08 09:05:35 Use 0.000584 s
+
+[ 2017-05-08T09:05:35+08:00 ] ::1 /eshop/index.php/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000785s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.015596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017019s ]
+NOTIC: [8] Undefined index: good_cart D:\wampserver\wamp\www\eshop\App\Home\Common\function.php 第 279 行.
+NOTIC: [8] Undefined index: good_cart D:\wampserver\wamp\www\eshop\App\Home\Common\function.php 第 279 行.
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0791s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = null LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002288s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002533s ]
+
+[ 2017-05-08T09:05:35+08:00 ] ::1 /eshop/index.php/Shoper/doLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000701s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.007113s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008432s ]
+NOTIC: [8] Undefined index: good_cart D:\wampserver\wamp\www\eshop\App\Home\Common\function.php 第 279 行.
+NOTIC: [8] Undefined index: good_cart D:\wampserver\wamp\www\eshop\App\Home\Common\function.php 第 279 行.
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0093s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0115s ]
+SQL: SELECT * FROM `eshop_shoper` WHERE `name` = 'shoper3' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper_log` [ RunTime:0.0236s ]
+NOTIC: [2] fopen(D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Org\Net/UTFWry.dat): failed to open stream: No such file or directory D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Org\Net\IpLocation.class.php 第 54 行.
+SQL: INSERT INTO `eshop_shoper_log` (`shoperId`,`action`,`ip`,`location`,`time`) VALUES ('13','登录','0.0.0.0',NULL,'1494205535') [ RunTime:0.0709s ]
+
+[ 2017-05-08T09:05:38+08:00 ] ::1 /eshop/index.php/Home/ShopCart/index.html
+ERR: Cron:cron Runat 2017-05-08 09:05:38 Use 0.000378 s
+
+[ 2017-05-08T10:18:57+08:00 ] ::1 /eshop/index.php/Home/ShopOrders/finished.html
+ERR: Cron:cron Runat 2017-05-08 10:18:57 Use 0.000363 s
+
+[ 2017-05-08T10:18:59+08:00 ] ::1 /eshop/index.php/Home/Good/stock.html
+ERR: Cron:cron Runat 2017-05-08 10:18:59 Use 0.000418 s
+
+[ 2017-05-08T10:19:01+08:00 ] ::1 /eshop/index.php/Home/ShopOrders/waitDelivery.html
+ERR: Cron:cron Runat 2017-05-08 10:19:01 Use 0.000426 s
+
+[ 2017-05-08T10:21:05+08:00 ] ::1 /eshop/index.php/Home/ShopOrders/complaint.html
+ERR: Cron:cron Runat 2017-05-08 10:21:05 Use 0.000372 s
+
+[ 2017-05-08T10:44:51+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/security.html
+ERR: Cron:cron Runat 2017-05-08 10:44:51 Use 0.000368 s
+

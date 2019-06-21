@@ -1,0 +1,117 @@
+[ 2017-05-27T11:00:00+08:00 ] ::1 /eshop/index.php/Home/Shop/index/shopId/3.html
+ERR: Cron:cron Runat 2017-05-27 11:00:00 Use 0.000567 s
+
+[ 2017-05-27T11:00:05+08:00 ] ::1 /eshop/index.php/Home/Index/index.html
+ERR: Cron:cron Runat 2017-05-27 11:00:05 Use 0.000534 s
+
+[ 2017-05-27T11:00:14+08:00 ] ::1 /eshop/index.php/AdminIndex/index.html
+ERR: Cron:cron Runat 2017-05-27 11:00:14 Use 0.000362 s
+
+[ 2017-05-27T11:00:14+08:00 ] ::1 /eshop/index.php/AdminIndex/index.html
+ERR: 无法加载控制器:AdminIndex
+
+[ 2017-05-27T11:01:38+08:00 ] ::1 /eshop/index.php/AdminIndex/index.html
+ERR: Cron:cron Runat 2017-05-27 11:01:38 Use 0.000362 s
+
+[ 2017-05-27T11:01:38+08:00 ] ::1 /eshop/index.php/AdminIndex/index.html
+ERR: 无法加载控制器:AdminIndex
+
+[ 2017-05-27T11:01:47+08:00 ] ::1 /eshop/index.php/AdminIndex/index.html
+ERR: Cron:cron Runat 2017-05-27 11:01:47 Use 0.000345 s
+
+[ 2017-05-27T11:01:47+08:00 ] ::1 /eshop/index.php/AdminIndex/index.html
+ERR: 无法加载控制器:AdminIndex
+
+[ 2017-05-27T11:04:14+08:00 ] ::1 /eshop/Public/Common/Css/bootstrap.min.css.map
+ERR: Cron:cron Runat 2017-05-27 11:04:14 Use 0.000345 s
+
+[ 2017-05-27T11:04:14+08:00 ] ::1 /eshop/Public/Common/Css/bootstrap.min.css.map
+ERR: 无法加载控制器:Public
+
+[ 2017-05-27T11:04:51+08:00 ] ::1 /eshop/Public/Common/Css/bootstrap.min.css.map
+ERR: 无法加载控制器:Public
+
+[ 2017-05-27T11:17:16+08:00 ] ::1 /eshop/Public/Common/Css/bootstrap.min.css.map
+ERR: 无法加载控制器:Public
+
+[ 2017-05-27T11:18:16+08:00 ] ::1 /eshop/Public/Common/Css/bootstrap.min.css.map
+ERR: 无法加载控制器:Public
+
+[ 2017-05-27T11:18:41+08:00 ] ::1 /eshop/Public/Common/Css/bootstrap.min.css.map
+ERR: 无法加载控制器:Public
+
+[ 2017-05-27T11:18:50+08:00 ] ::1 /eshop/Public/Common/Css/bootstrap.min.css.map
+ERR: 无法加载控制器:Public
+
+[ 2017-05-27T11:19:07+08:00 ] ::1 /eshop/Public/Common/Css/bootstrap.min.css.map
+ERR: 无法加载控制器:Public
+
+[ 2017-05-27T11:20:03+08:00 ] ::1 /eshop/Public/Common/Css/bootstrap.min.css.map
+ERR: 无法加载控制器:Public
+
+[ 2017-05-27T11:20:33+08:00 ] ::1 /eshop/Public/Common/Css/bootstrap.min.css.map
+ERR: 无法加载控制器:Public
+
+[ 2017-05-27T11:20:44+08:00 ] ::1 /eshop/Public/Common/Css/bootstrap.min.css.map
+ERR: 无法加载控制器:Public
+
+[ 2017-05-27T11:20:50+08:00 ] ::1 /eshop/Public/Common/Css/bootstrap.min.css.map
+ERR: 无法加载控制器:Public
+
+[ 2017-05-27T11:21:26+08:00 ] ::1 /eshop/Public/Common/Css/bootstrap.min.css.map
+ERR: 无法加载控制器:Public
+
+[ 2017-05-27T11:21:33+08:00 ] ::1 /eshop/Public/Common/Css/bootstrap.min.css.map
+ERR: 无法加载控制器:Public
+
+[ 2017-05-27T11:23:46+08:00 ] ::1 /eshop/Public/Common/fonts/glyphicons-halflings-regular.woff2
+ERR: 无法加载控制器:Public
+
+[ 2017-05-27T11:23:46+08:00 ] ::1 /eshop/Public/Common/fonts/glyphicons-halflings-regular.woff
+ERR: 无法加载控制器:Public
+
+[ 2017-05-27T11:23:46+08:00 ] ::1 /eshop/Public/Common/fonts/glyphicons-halflings-regular.ttf
+ERR: 无法加载控制器:Public
+
+[ 2017-05-27T11:23:47+08:00 ] ::1 /eshop/Public/Common/Css/bootstrap.min.css.map
+ERR: 无法加载控制器:Public
+
+[ 2017-05-27T11:28:18+08:00 ] ::1 /eshop/Public/Common/fonts/glyphicons-halflings-regular.woff2
+ERR: Cron:cron Runat 2017-05-27 11:28:18 Use 0.000352 s
+
+[ 2017-05-27T11:28:18+08:00 ] ::1 /eshop/Public/Common/fonts/glyphicons-halflings-regular.woff2
+ERR: 无法加载控制器:Public
+
+[ 2017-05-27T11:28:18+08:00 ] ::1 /eshop/Public/Common/fonts/glyphicons-halflings-regular.woff
+ERR: 无法加载控制器:Public
+
+[ 2017-05-27T11:28:18+08:00 ] ::1 /eshop/Public/Common/fonts/glyphicons-halflings-regular.ttf
+ERR: 无法加载控制器:Public
+
+[ 2017-05-27T11:28:19+08:00 ] ::1 /eshop/Public/Common/Css/bootstrap.min.css.map
+ERR: 无法加载控制器:Public
+
+[ 2017-05-27T11:32:25+08:00 ] ::1 /eshop/index.php/Home/Shop/index/shopId/3.html
+ERR: Cron:cron Runat 2017-05-27 11:32:25 Use 0.000324 s
+
+[ 2017-05-27T11:32:27+08:00 ] ::1 /eshop/index.php/Home/Index/index.html
+ERR: Cron:cron Runat 2017-05-27 11:32:27 Use 0.000349 s
+
+[ 2017-05-27T11:32:39+08:00 ] ::1 /eshop/Public/Common/fonts/glyphicons-halflings-regular.woff2
+ERR: 无法加载控制器:Public
+
+[ 2017-05-27T11:32:39+08:00 ] ::1 /eshop/Public/Common/fonts/glyphicons-halflings-regular.woff
+ERR: 无法加载控制器:Public
+
+[ 2017-05-27T11:32:39+08:00 ] ::1 /eshop/Public/Common/fonts/glyphicons-halflings-regular.ttf
+ERR: 无法加载控制器:Public
+
+[ 2017-05-27T11:41:09+08:00 ] ::1 /eshop/Public/Common/fonts/glyphicons-halflings-regular.woff2
+ERR: 无法加载控制器:Public
+
+[ 2017-05-27T11:41:10+08:00 ] ::1 /eshop/Public/Common/fonts/glyphicons-halflings-regular.woff
+ERR: 无法加载控制器:Public
+
+[ 2017-05-27T11:41:10+08:00 ] ::1 /eshop/Public/Common/fonts/glyphicons-halflings-regular.ttf
+ERR: 无法加载控制器:Public
+

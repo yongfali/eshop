@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>店铺管理-店铺设置</title>
+<!-- 公共链接 -->
+<include file = "Public:common"/>
+<include file = "Good:commonnav" />
+<!-- 公共链接 -->
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Common/webuploader/webuploader.css">
+<script src="__PUBLIC__/Common/webuploader/webuploader.min.js"></script>
+<script src="__PUBLIC__/Home/Js/ShopManage/shopSetting.js"></script>
+<script type="text/javascript">
+  var sid = '{:session_id()}';
+</script>
+</head>
+<body>
+<!-- header开始 --> 
+<include file = "Public:sheader"/>
+<!-- header结束 --> 
+<!-- 当前位置开始 -->
+<div class="position_now">
+  <label><a href="{:U('Home/Index/index')}">首页</a></label>
+  <span>&gt</span>
+  <label>店铺设置</label>
+</div>
+<!-- 当前位置显示结束 --> 
+<!-- 主体内容开始 -->
+<div class="scenter_wrapper"> 
+  <!-- 左边导航标签开始 --> 
+  <include file='Public:scenternav'/> 
+  <!-- 左边导航标签结束 -->
+  <div class="scenter_right">
+   <div class="scenter_right_title"> <span>店铺设置</span> </div>
+      <div class="scenter_right_content">
+      <form id="adsImgForm">
+        <table class="setting_table">
+          <tr>
+            <td style="width:70px;text-align:right;">滚动广告：</td>
+            <td style="width:820px;height:auto;">
+            <div class="uploader-list-container">
+              <div class="queueList">
+                <div id="dndArea" class="placeholder <notempty name='adsList'>element-invisible</notempty>" >
+                  <div id="filePicker-2"></div>
+                  <p>或将照片拖到这里，单次最多可选5张，每张图片的大小不要超过5M（图片格式包含jpe,jpeg,phg,gif）</p>
+                </div>
+                <ul class="filelist">
+                  <volist name="adsList" id="item">
+                    <li class="state-complete">
+                      <p class="title"></p>
+                      <p class="imgWrap">
+                        <img src="__ROOT__/{$item.imgurl}">
+                      </p>
+                      <span class="success1"></span>
+                      <span class="delImg">
+                        <a href="javascript:;" onclick="delAdsImg(this,1)" value="{$item.id}">删除</a>
+                      </span>
+                    </li>
+                  </volist>
+                </ul>
+              </div>
+              <div class="statusBar" style="<empty name='adsList'>display:none;</empty>">
+                <div class="progress"> <span class="text">0%</span> <span class="percentage"></span> </div>
+                <div class="info"></div>
+                <div class="btns">
+                  <div id="filePicker2"></div>
+                  <div class="uploadBtn">开始上传</div>
+                </div>
+              </div>
+            </div>
+            <div style="margin:0 auto;text-align:center;">
+              <input type="button" value="保存" class="btn" style="margin-right:150px;" id="adsSave"/>
+              <input type="reset" value="重置" class="btn"/>
+            </div>
+            </td>
+          </tr>
+        </table>
+      </form> 
+      </div>
+  </div>
+  <!-- 用户中心右侧内容显示结束 --> 
+</div>
+<!-- 主体内容结束 --> 
+<include file='Public:footer'/>
+</body>
+</html>

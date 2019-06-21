@@ -1,0 +1,61 @@
+<table class="table table-bordered table-striped table-hover">
+	<thead>
+		<tr>
+			<th>
+				<div class="checkbox">
+					<label>
+						<input type="checkbox" id="allchecked" autocomplete="off">全选
+					</label>
+				</div>
+			</th>
+			<th>标题</th>
+			<th>分类</th>
+			<th>发布者</th>
+			<th>发布者身份</th>
+			<th>发布时间</th>
+			<th>最近一次修改</th>
+			<th>操作</th>
+		</tr>
+	</thead>
+	<empty name="infoList">
+		<tbody><tr><td colspan="8">暂无消息！！！</td></tr></tbody>
+		<else/>
+		<volist name="infoList" id="item">
+			<tbody>
+				<tr class="data-item">
+					<td>
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" class="item-check" value="{$item.id}" autocomplete="off">
+							</label>
+						</div>
+					</td>
+					<td>{$item.title}</td>
+					<td>    
+						<switch name="item.type">
+							<case value="1">资讯</case>
+							<case value="2">优惠活动</case>
+							<default />公告
+						</switch>
+					</td>
+					<td>{$item.publishername}</td>
+					<td>
+						<switch name="item.publishtype">
+							<case value="1">商家</case>
+							<default />管理员
+						</switch>
+					</td>
+					<td>{$item.publish_time|date="Y-m-d",###}</td>
+					<td>{$item.modify_time|date="Y-m-d",###}</td>
+					<td>
+						<a class="btn-link" href="javascript:void(0);">修改</a>
+						<a class="btn-link" href="javascript:void(0);" onclick="delInfo(0,{$item.id})">删除</a>
+					</td>
+				</tr>
+			</tbody>
+		</volist>
+	</empty>
+</table>
+<!-- 分页开始 -->
+<div class="pages">{$page}</div>
+<!-- 分页结束 --> 

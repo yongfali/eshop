@@ -1,0 +1,68 @@
+/*公告详细信息显示样式*/
+.note_wrapper{
+	width: 1200px;
+	margin: 0 auto;
+}
+/*左侧导航标签 */
+.moreInfo_wrapper_left{
+	float: left;
+	width: 190px;
+	min-height: 150px;
+}
+.moreInfo_wrapper_left h3{
+	height: 36px;
+	line-height: 36px;
+	text-align: center;
+	font-size: 16px;
+	color: white;
+	background: #f60;
+}
+.moreInfo_menu{
+	border: 1px solid #dedede;
+}
+.moreInfo_menu a{
+	height: 32px;
+}
+.moreInfo_menu a li{
+	width: 164px;
+	line-height: 32px;
+	padding: 2px 0;
+	padding-left: 20px;
+}
+.moreInfo_menu a li:hover{
+	background: #ccc;
+	border-left: 4px solid red;
+}
+.menu_active{
+	color: #f60;
+}
+/*公告消息详细内容样式*/
+.noteInfo{
+	min-height: 600px;
+	float: left;
+	width: 898px;
+	margin-left: 10px;
+	padding: 10px 50px;
+	border:1px solid #ccc;
+	border-radius: 5px;
+	background: #fcfcfc;
+}
+.noteInfo h2,.noteInfo h3,.noteInfo h4{
+	text-align: center;
+	color: #666;
+}
+.noteInfo h2{
+	line-height: 32px;
+	font-size: 20px;
+}
+.noteInfo h3{
+	line-height: 28px;
+}
+.noteInfo h4{
+	line-height: 24px;
+}
+.noteInfo p{
+	text-indent: 2em;
+	margin: 20px 0px;
+	font-size: 15px;
+}

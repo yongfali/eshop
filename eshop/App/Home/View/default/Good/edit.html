@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>商品编辑-商家中心</title>
+<include file = "Public:common"/>
+<include file = "Good:commonnav" />
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Common/webuploader/webuploader.css">
+<script src="__PUBLIC__/Common/ueditor/ueditor.config.js"></script>
+<script src="__PUBLIC__/Common/ueditor/ueditor.all.min.js"></script>
+<script src="__PUBLIC__/Common/ueditor/lang/zh-cn/zh-cn.js"></script>
+<script src="__PUBLIC__/Common/webuploader/webuploader.min.js"></script>
+<script src="__PUBLIC__/Home/Js/goodAdd.js"></script>
+<script type="text/javascript">
+  var getCart = "{:U('getWebCart')}";
+  var goodImg = "{:U('goodImg')}";
+  var delImgItem = "{:U('goodImgDel')}";
+  var sid = '{:session_id()}';
+</script>
+</head>
+<body>
+<include file = "Public:sheader"/>
+<div class="position_now">
+  <label><a href="index.html">首页</a></label>
+  <span>&gt</span>
+  <label>商品分类</label>
+</div>
+<div class="scenter_wrapper"> 
+  <!-- 商户中心左侧导航开始 --> 
+  <include file = "Public:scenternav"/> 
+  <!-- 商户中心左侧导航结束 --> 
+  <!-- 商户中心右侧内容显示开始 -->
+  <div class="scenter_right">
+    <div class="scenter_right_title">
+      <ul class="good_nav">
+        <a href="javascript:;" class="active" rel="nav1">商品信息 </a> <a href="javascript:;" rel="nav2">商品属性</a> <a href="javascript:;" rel="nav3">商品图册</a>
+      </ul>
+    </div>
+    <form id="goodEdit" autocomplete="off" rel="{:U('eidtSave')}">
+      <!-- 商品信息 -->
+      <div class="scenter_right_content" id="nav1" >
+        <table class="goodAdd_table">
+          <tbody>
+            <tr>
+              <td class="saccount">商家账号：</td>
+              <td><div class="sNick">{$Think.session.uname}</div></td>
+            </tr>
+            <tr>
+              <td class="itemsName"><span class="icon">*</span>商品名称：</td>
+              <td><input type="text" class="inputs" name="goodsName" value="{$goodInfo.name}"/></td>
+              <td rowspan="6" valign="top">
+                <div id="preview" class="good_photo">
+                  <img id="imghead" border="0" src="__ROOT__/{$goodInfo.good_log}">
+                </div>
+                <div class="good_photo">
+                  <input type="button" name="good_logoUploader" value="更换商品Logo" onclick="$('#previewImg').click();"/>
+                  <input type="file" name= "photo" onchange="previewImage(this)" style="display: none;" id="previewImg" accept="image/*">
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td class="itemsName"><span class="icon">*</span>市场价格：</td>
+              <td><input type="text" class="inputs" name="marketPrice" value="{$goodInfo.marketprice}"/></td>
+            </tr>
+            <tr>
+              <td class="itemsName"><span class="icon">*</span>店铺价格：</td>
+              <td><input type="text" class="inputs" name="shopPrice" value="{$goodInfo.shopprice}"/></td>
+            </tr>
+            <tr>
+              <td class="itemsName"><span class="icon">*</span>商品库存：</td>
+              <td><input type="text" class="inputs" name="stock" value="{$goodInfo.stock}" id="stock"/></td>
+            </tr>
+            <tr>
+              <td class="itemsName">预警库存：</td>
+              <td><input type="text" class="inputs" name="warnStock" value="{$goodInfo.stock_warning}"/></td>
+            </tr>
+            <tr>
+              <td class="itemsName"><span class="icon">*</span>商品产地：</td>
+              <td><input type="text" class="inputs" name="place" value="{$goodInfo.place}"/></td>
+            </tr>
+            <tr>
+              <td class="itemsName"><span class="icon">*</span>商品状态：</td>
+              <td class="attrSelect"><input type="radio"  name="status" value="1" <if condition='$goodInfo.status eq 1'> checked="checked"</if> />
+                <span>上架</span>
+                <input type="radio"  name="goodStatus" value="0" <if condition='$goodInfo.status eq 0'> checked="checked"</if>/>
+                <span>下架</span></td>
+            </tr>
+            <tr>
+              <td class="itemsName">商品属性：</td>
+              <td class="attrSelect">
+              	<input type="checkbox"  name="recomend" value="1" id="recomend"<if condition='$goodInfo.is_recomend eq 1'> checked="checked"</if> />
+              	<span>推荐</span>
+              	<input type="checkbox"  name="hot" value="1" <if condition='$goodInfo.is_hot eq 1'> checked="checked"</if> />
+              	<span>热销</span>
+              	<input type="checkbox"  name="newgood" value="1" <if condition='$goodInfo.is_new eq 1'> checked="checked"</if>/>
+              	<span>新品</span>
+              </td>
+            </tr>
+            <tr>
+              <td class="itemsName"><span class="icon">*</span>商城分类：</td>
+              <td class="attrSelect" width="500px"><select name="wfirst" id="wfirst" onchange="getNextCart('wSecond',this,0)">
+                  <option value="0">--请选择--</option>
+                  <volist name="list" id="data">
+                    <option value="{$data.id}" <if condition="$navName['w_fid'][0]['name'] eq $data.name ">selected="selected"</if> >{$data.name}</option>
+                  </volist>
+                </select>
+                <select name="wSecond" id="wSecond" onchange="getNextCart('wThird',this,1)">
+                  <empty name="navName['w_sid'][0]['name']">
+                    <option value="0">--请选择--</option>
+                    <else />
+                    <option value="{$navName['w_sid'][0]['w_sid']}">{$navName['w_sid'][0]['name']}</option>
+                  </empty>
+                </select>
+                <select name="wThird" id="wThird">
+                  <empty name="navName['w_tid'][0]['name']">
+                    <option value="0">--请选择--</option>
+                    <else />
+                    <option value="{$navName['w_tid'][0]['w_tid']}">{$navName['w_tid'][0]['name']}</option>
+                  </empty>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td class="itemsName"><span class="icon">*</span>店铺分类：</td>
+              <td class="attrSelect">
+                <select name="sfirst" onchange="getShopCart(this)" action="{:U('getShopCart')}" id="sfirst">
+                  <option value="0">--请选择--</option>
+                  <volist name="list1" id = "item">
+                    <option value="{$item.id}" 
+                   <if condition="$navName['s_fid'][0]['name'] eq $item.name ">selected="selected"</if> >{$item.name}</option>
+                  </volist>
+                </select>
+                <select name="sSecond" id="sSecond">
+                  <empty name="navName['s_sid'][0]['sname']">
+                    <option value="">--请选择--</option>
+                    <else />
+                    <option value="{$navName['s_sid'][0]['s_sid']}">{$navName['s_sid'][0]['sname']}</option>
+                  </empty>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td class="itemsName">商品服务：</td>
+              <td colspan="2">
+                <textarea id="good_service" name="service_content"
+                style="width: 720px; height: 250px;">
+                {$goodService.content}
+              </textarea>
+              <!--  显示 ueditor编辑器 --> 
+              <script type="text/javascript">
+              var ue = UE.getEditor('good_service');
+              </script>
+            </td>
+            </tr>
+          </tbody>
+        </table>
+        <input type="hidden" name="goodId" value="{$goodInfo.id}"/>
+        <input type="submit" value="保存" class="btn" style="margin-left:150px"/>
+        <input type="reset" value="重置" class="btn"/>
+      </div>
+      <!-- 商品信息 --> 
+      <!-- 商品属性 -->
+      <div class="scenter_right_content" id="nav2" style="display:none" >
+        <table class="goodAdd_table">
+          <tbody>
+            <tr>
+              <td class="saccount">商家账号：</td>
+              <td><div class="sNick">{$Think.session.uname} </div></td>
+            </tr>
+            <volist name="goodLable" id="item" empty="该商品咱没属性">
+              <if condition="$item.name eq '是否合格' ">
+               <tr>
+                <td class="itemsName1">{$item.name}：</td>
+                <td class="attrSelect"><input type="radio"  name="pro[{$item.lableid}]" value="1" <if condition="$item.lablecontent eq 1">checked="checked"</if>/>
+                  <span>是</span>
+                  <input type="radio"  name="pro[{$item.lableid}]" value="0"<if condition="$item.lablecontent eq 0">checked="checked"</if>/>
+                  <span>否</span></td>
+                </tr>
+                <elseif condition="$item.name eq '是否绿色食品'"/>
+                <tr>
+                  <td class="itemsName1">{$item.name}：</td>
+                  <td class="attrSelect"><input type="radio"  name="pro[{$item.lableid}]" value="1" <if condition="$item.lablecontent eq 1">checked="checked"</if>/>
+                    <span>是</span>
+                    <input type="radio"  name="pro[{$item.lableid}]" value="0"<if condition="$item.lablecontent eq 0">checked="checked"</if>/>
+                    <span>否</span></td>
+                  </tr>
+                  <else/>
+                  <tr>
+                    <td class="itemsName1">
+                      <switch name="item.name">
+                        <case value="净含量|出产日期|保质期"> <span class="icon">*</span></case>
+                        <default/>
+                      </switch>
+                      {$item.name}：
+                    </td>
+                    <td><input type="text" class="inputs" name="pro[{$item.lableid}]" value="{$item.lablecontent}"/></td>
+                  </tr>
+                </if>
+            </volist>
+          </tbody>
+        </table>
+        <input type="submit" value="保存" class="btn" style="margin-left:150px"/>
+         <input type="reset" value="重置" class="btn"/>
+      </div>
+      <!-- 商品属性 --> 
+      <!-- 商品图册 -->
+      <div class="scenter_right_content" id="nav3" style="display:none" > 
+      	<div class="uploader-list-container">
+      		<div class="queueList">
+      			<div id="dndArea" class="placeholder <notempty name='goodImgs'>element-invisible</notempty>" >
+      				<div id="filePicker-2"></div>
+      				<p>或将照片拖到这里，单次最多可选10张，每张图片的大小不要超过5M（图片格式包含jpe,jpeg,phg,gif）</p>
+      			</div>
+      			<ul class="filelist">
+      				<volist name="goodImgs" id="item">
+      					<li class="state-complete">
+      						<p class="title"></p>
+      						<p class="imgWrap">
+      							<img src="__ROOT__/{$item.img}">
+      						</p>
+      						<span class="success1"></span>
+      						<span class="delImg">
+      							<a href="javascript:;" onclick="delImg(this,1)" value="{$item.id}">删除</a>
+      						</span>
+      					</li>
+      				</volist>
+      			</ul>
+      		</div>
+      		<div class="statusBar" style="<empty name='goodImgs'>display:none;</empty>">
+      			<div class="progress"> <span class="text">0%</span> <span class="percentage"></span> </div>
+      			<div class="info"></div>
+      			<div class="btns">
+      				<div id="filePicker2"></div>
+      				<div class="uploadBtn">开始上传</div>
+      			</div>
+      		</div>
+      	</div>
+      	<div style="margin:0 auto;text-align:center;s">
+      		<input type="submit" value="保存" class="btn"/>
+         <input type="reset" value="重置" class="btn"/>
+      	</div>
+      </div>
+      <!-- 商品图册 -->
+    </form>
+  </div>
+  <!-- 商户中心右侧内容显示结束 --> 
+</div>
+<include file= "Public:footer" />
+</body>
+</html>

@@ -1,0 +1,2257 @@
+[ 2017-05-22T07:52:21+08:00 ] ::1 /eshop/index.php/Home/Shop/index/shopId/3.html
+ERR: Cron:cron Runat 2017-05-22 07:52:21 Use 0.021857 s
+
+[ 2017-05-22T07:52:38+08:00 ] ::1 /eshop/index.php/Home/Shop/index/shopId/3.html
+ERR: Cron:cron Runat 2017-05-22 07:52:38 Use 0.000563 s
+
+[ 2017-05-22T07:52:47+08:00 ] ::1 /eshop/index.php/Home/Shoper/index.html
+ERR: Cron:cron Runat 2017-05-22 07:52:47 Use 0.001797 s
+
+[ 2017-05-22T07:52:53+08:00 ] ::1 /eshop/index.php/Home/Index/index.html
+ERR: Cron:cron Runat 2017-05-22 07:52:53 Use 0.000451 s
+
+[ 2017-05-22T07:52:56+08:00 ] ::1 /eshop/index.php/Home/User/login.html
+ERR: Cron:cron Runat 2017-05-22 07:52:56 Use 0.000500 s
+
+[ 2017-05-22T07:52:59+08:00 ] ::1 /eshop/index.php/Home/ForgetPwd/index/type/user.html
+ERR: Cron:cron Runat 2017-05-22 07:52:59 Use 0.000401 s
+
+[ 2017-05-22T07:53:05+08:00 ] ::1 /eshop/index.php/ForgetPwd/checkAccount.html
+ERR: Cron:cron Runat 2017-05-22 07:53:05 Use 0.000615 s
+
+[ 2017-05-22T07:53:05+08:00 ] ::1 /eshop/index.php/ForgetPwd/checkAccount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001439s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.006841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009379s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0062s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = null LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0381s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `name` = 'admin' OR `email` = 'admin' OR `tel` = 'admin' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001277s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001423s ]
+
+[ 2017-05-22T07:53:16+08:00 ] ::1 /eshop/index.php/ForgetPwd/checkVerify.html
+ERR: Cron:cron Runat 2017-05-22 07:53:16 Use 0.000490 s
+
+[ 2017-05-22T07:53:16+08:00 ] ::1 /eshop/index.php/ForgetPwd/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001188s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.005494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007757s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0054s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = null LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001232s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001389s ]
+
+[ 2017-05-22T07:53:16+08:00 ] ::1 /eshop/index.php/ForgetPwd/findPwd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001064s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.002799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004824s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0059s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = null LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0055s ]
+SQL: SELECT `id`,`name`,`email`,`tel`,`bind_email`,`bind_tel` FROM `eshop_user` WHERE `name` = 'admin' OR `email` = 'admin' OR `tel` = 'admin' LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2017-05-22T07:56:01+08:00 ] ::1 /eshop/index.php/ForgetPwd/foregtPwd.html
+ERR: Cron:cron Runat 2017-05-22 07:56:01 Use 0.000446 s
+
+[ 2017-05-22T07:56:10+08:00 ] ::1 /eshop/index.php/ForgetPwd/foregtPwd.html
+ERR: Cron:cron Runat 2017-05-22 07:56:10 Use 0.000627 s
+
+[ 2017-05-22T07:58:37+08:00 ] ::1 /eshop/index.php/ForgetPwd/foregtPwd.html
+ERR: Cron:cron Runat 2017-05-22 07:58:37 Use 0.000658 s
+
+[ 2017-05-22T08:12:47+08:00 ] ::1 /eshop/index.php/ForgetPwd/foregtPwd.html
+ERR: Cron:cron Runat 2017-05-22 08:12:47 Use 0.000492 s
+
+[ 2017-05-22T08:16:25+08:00 ] ::1 /eshop/index.php/ForgetPwd/foregtPwd.html
+ERR: Cron:cron Runat 2017-05-22 08:16:25 Use 0.000496 s
+
+[ 2017-05-22T08:17:30+08:00 ] ::1 /eshop/index.php/ForgetPwd/foregtPwd.html
+ERR: Cron:cron Runat 2017-05-22 08:17:30 Use 0.000510 s
+
+[ 2017-05-22T08:18:13+08:00 ] ::1 /eshop/index.php/ForgetPwd/foregtPwd.html
+ERR: Cron:cron Runat 2017-05-22 08:18:13 Use 0.000442 s
+
+[ 2017-05-22T08:19:01+08:00 ] ::1 /eshop/index.php/ForgetPwd/foregtPwd.html
+ERR: Cron:cron Runat 2017-05-22 08:19:01 Use 0.000468 s
+
+[ 2017-05-22T08:21:17+08:00 ] ::1 /eshop/index.php/ForgetPwd/foregtPwd.html
+ERR: Cron:cron Runat 2017-05-22 08:21:17 Use 0.000677 s
+
+[ 2017-05-22T08:21:33+08:00 ] ::1 /eshop/index.php/ForgetPwd/foregtPwd.html
+ERR: Cron:cron Runat 2017-05-22 08:21:33 Use 0.000538 s
+
+[ 2017-05-22T08:22:28+08:00 ] ::1 /eshop/index.php/ForgetPwd/foregtPwd.html
+ERR: Cron:cron Runat 2017-05-22 08:22:28 Use 0.000458 s
+
+[ 2017-05-22T08:22:42+08:00 ] ::1 /eshop/index.php/ForgetPwd/foregtPwd.html
+ERR: Cron:cron Runat 2017-05-22 08:22:42 Use 0.000881 s
+
+[ 2017-05-22T08:25:47+08:00 ] ::1 /eshop/index.php/ForgetPwd/foregtPwd.html
+ERR: Cron:cron Runat 2017-05-22 08:25:47 Use 0.000668 s
+
+[ 2017-05-22T08:27:05+08:00 ] ::1 /eshop/index.php/ForgetPwd/foregtPwd.html
+ERR: Cron:cron Runat 2017-05-22 08:27:05 Use 0.000555 s
+
+[ 2017-05-22T08:28:31+08:00 ] ::1 /eshop/index.php/ForgetPwd/foregtPwd.html
+ERR: Cron:cron Runat 2017-05-22 08:28:31 Use 0.000519 s
+
+[ 2017-05-22T08:28:33+08:00 ] ::1 /eshop/index.php/ForgetPwd/foregtPwd.html
+ERR: Cron:cron Runat 2017-05-22 08:28:33 Use 0.000539 s
+
+[ 2017-05-22T08:29:09+08:00 ] ::1 /eshop/index.php/ForgetPwd/foregtPwd.html
+ERR: Cron:cron Runat 2017-05-22 08:29:09 Use 0.000558 s
+
+[ 2017-05-22T08:29:14+08:00 ] ::1 /eshop/index.php/ForgetPwd/foregtPwd.html
+ERR: Cron:cron Runat 2017-05-22 08:29:14 Use 0.000777 s
+
+[ 2017-05-22T08:29:39+08:00 ] ::1 /eshop/index.php/ForgetPwd/foregtPwd.html
+ERR: Cron:cron Runat 2017-05-22 08:29:39 Use 0.000563 s
+
+[ 2017-05-22T08:29:52+08:00 ] ::1 /eshop/index.php/ForgetPwd/foregtPwd.html
+ERR: Cron:cron Runat 2017-05-22 08:29:52 Use 0.000546 s
+
+[ 2017-05-22T08:30:10+08:00 ] ::1 /eshop/index.php/ForgetPwd/foregtPwd.html
+ERR: Cron:cron Runat 2017-05-22 08:30:10 Use 0.000519 s
+
+[ 2017-05-22T08:30:10+08:00 ] ::1 /eshop/index.php/ForgetPwd/foregtPwd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001297s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.017504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019791s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0108s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = null LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000229s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000359s ]
+NOTIC: [8] Undefined index: type D:\wampserver\wamp\www\eshop\App\Runtime\Cache\Home\e9a0296eacf019696fe974bcd3f1a1ee.php 第 44 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035345s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035478s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000938s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000929s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001125s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001244s ]
+
+[ 2017-05-22T08:31:48+08:00 ] ::1 /eshop/index.php/ForgetPwd/foregtPwd.html
+ERR: Cron:cron Runat 2017-05-22 08:31:48 Use 0.000521 s
+
+[ 2017-05-22T08:36:54+08:00 ] ::1 /eshop/index.php/ForgetPwd/foregtPwd.html
+ERR: Cron:cron Runat 2017-05-22 08:36:54 Use 0.000356 s
+
+[ 2017-05-22T08:39:05+08:00 ] ::1 /eshop/index.php/ForgetPwd/foregtPwd.html
+ERR: Cron:cron Runat 2017-05-22 08:39:05 Use 0.000301 s
+
+[ 2017-05-22T08:39:12+08:00 ] ::1 /eshop/index.php/ForgetPwd/sendCodeByEmail
+ERR: Cron:cron Runat 2017-05-22 08:39:12 Use 0.000260 s
+
+[ 2017-05-22T08:39:12+08:00 ] ::1 /eshop/index.php/ForgetPwd/sendCodeByEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000799s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.011808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013216s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0077s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = null LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001049s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001159s ]
+
+[ 2017-05-22T08:44:34+08:00 ] ::1 /eshop/index.php/ForgetPwd/foregtPwd.html
+ERR: Cron:cron Runat 2017-05-22 08:44:34 Use 0.000521 s
+
+[ 2017-05-22T08:44:42+08:00 ] ::1 /eshop/index.php/ForgetPwd/foregtPwd.html
+ERR: Cron:cron Runat 2017-05-22 08:44:42 Use 0.000291 s
+
+[ 2017-05-22T08:45:11+08:00 ] ::1 /eshop/index.php/ForgetPwd/foregtPwd.html
+ERR: Cron:cron Runat 2017-05-22 08:45:11 Use 0.000261 s
+
+[ 2017-05-22T08:45:14+08:00 ] ::1 /eshop/index.php/ForgetPwd/foregtPwd.html
+ERR: Cron:cron Runat 2017-05-22 08:45:14 Use 0.000325 s
+
+[ 2017-05-22T08:45:17+08:00 ] ::1 /eshop/index.php/ForgetPwd/verify/id/3.html
+ERR: Cron:cron Runat 2017-05-22 08:45:17 Use 0.000405 s
+
+[ 2017-05-22T08:45:19+08:00 ] ::1 /eshop/index.php/Home/ForgetPwd/index/type/user.html
+ERR: Cron:cron Runat 2017-05-22 08:45:19 Use 0.000421 s
+
+[ 2017-05-22T08:45:24+08:00 ] ::1 /eshop/index.php/Home/ForgetPwd/index/type/user.html
+ERR: Cron:cron Runat 2017-05-22 08:45:24 Use 0.000377 s
+
+[ 2017-05-22T08:45:33+08:00 ] ::1 /eshop/index.php/Home/ForgetPwd/index/type/user.html
+ERR: Cron:cron Runat 2017-05-22 08:45:33 Use 0.000408 s
+
+[ 2017-05-22T08:46:38+08:00 ] ::1 /eshop/index.php/ForgetPwd/checkAccount.html
+ERR: Cron:cron Runat 2017-05-22 08:46:38 Use 0.000601 s
+
+[ 2017-05-22T08:46:38+08:00 ] ::1 /eshop/index.php/ForgetPwd/checkAccount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000784s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.014616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015995s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0096s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0096s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `name` = 's' OR `email` = 's' OR `tel` = 's' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001270s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001420s ]
+
+[ 2017-05-22T08:46:38+08:00 ] ::1 /eshop/index.php/ForgetPwd/checkAccount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000737s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.007103s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008477s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0087s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0095s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `name` = 'sho' OR `email` = 'sho' OR `tel` = 'sho' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000864s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000944s ]
+
+[ 2017-05-22T08:46:41+08:00 ] ::1 /eshop/index.php/ForgetPwd/checkAccount.html
+ERR: Cron:cron Runat 2017-05-22 08:46:41 Use 0.000388 s
+
+[ 2017-05-22T08:46:41+08:00 ] ::1 /eshop/index.php/ForgetPwd/checkAccount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000818s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.012403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013880s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0089s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0089s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `name` = 'sh' OR `email` = 'sh' OR `tel` = 'sh' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000954s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001047s ]
+
+[ 2017-05-22T08:46:41+08:00 ] ::1 /eshop/index.php/ForgetPwd/checkAccount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000844s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.006517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008078s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0086s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0095s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `name` = 's' OR `email` = 's' OR `tel` = 's' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000939s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001024s ]
+
+[ 2017-05-22T08:46:43+08:00 ] ::1 /eshop/index.php/ForgetPwd/checkAccount.html
+ERR: Cron:cron Runat 2017-05-22 08:46:43 Use 0.000344 s
+
+[ 2017-05-22T08:46:43+08:00 ] ::1 /eshop/index.php/ForgetPwd/checkAccount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000800s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.012343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013882s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0093s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0093s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `name` = 'a' OR `email` = 'a' OR `tel` = 'a' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000910s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000992s ]
+
+[ 2017-05-22T08:46:43+08:00 ] ::1 /eshop/index.php/ForgetPwd/checkAccount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000726s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.006879s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008207s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0095s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0093s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `name` = 'ad' OR `email` = 'ad' OR `tel` = 'ad' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000915s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000995s ]
+
+[ 2017-05-22T08:46:44+08:00 ] ::1 /eshop/index.php/ForgetPwd/checkAccount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000704s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.008301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009729s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0108s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0137s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `name` = 'admi' OR `email` = 'admi' OR `tel` = 'admi' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000909s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000992s ]
+
+[ 2017-05-22T08:46:44+08:00 ] ::1 /eshop/index.php/ForgetPwd/checkAccount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000705s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.006849s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008237s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0099s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0091s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `name` = 'admin' OR `email` = 'admin' OR `tel` = 'admin' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001109s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001243s ]
+
+[ 2017-05-22T08:46:47+08:00 ] ::1 /eshop/index.php/ForgetPwd/checkVerify.html
+ERR: Cron:cron Runat 2017-05-22 08:46:47 Use 0.000426 s
+
+[ 2017-05-22T08:46:47+08:00 ] ::1 /eshop/index.php/ForgetPwd/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000734s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.012934s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014287s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = null LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000797s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000883s ]
+
+[ 2017-05-22T08:46:48+08:00 ] ::1 /eshop/index.php/ForgetPwd/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000716s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.006141s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007541s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0094s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = null LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000772s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-05-22T08:46:49+08:00 ] ::1 /eshop/index.php/ForgetPwd/checkVerify.html
+ERR: Cron:cron Runat 2017-05-22 08:46:49 Use 0.000331 s
+
+[ 2017-05-22T08:46:49+08:00 ] ::1 /eshop/index.php/ForgetPwd/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000776s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.012267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013736s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0093s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = null LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000775s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000853s ]
+
+[ 2017-05-22T08:46:50+08:00 ] ::1 /eshop/index.php/ForgetPwd/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000685s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.008054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009391s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0092s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = null LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000743s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000823s ]
+
+[ 2017-05-22T08:46:50+08:00 ] ::1 /eshop/index.php/ForgetPwd/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001347s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.010042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012482s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0140s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = null LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001375s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001548s ]
+
+[ 2017-05-22T08:46:56+08:00 ] ::1 /eshop/index.php/ForgetPwd/checkVerify.html
+ERR: Cron:cron Runat 2017-05-22 08:46:56 Use 0.000376 s
+
+[ 2017-05-22T08:46:56+08:00 ] ::1 /eshop/index.php/ForgetPwd/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000742s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.013085s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014472s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = null LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000811s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000908s ]
+
+[ 2017-05-22T08:46:57+08:00 ] ::1 /eshop/index.php/ForgetPwd/findPwd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000716s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.006606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007950s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0291s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0096s ]
+SQL: SELECT `id`,`name`,`email`,`tel`,`bind_email`,`bind_tel` FROM `eshop_user` WHERE `name` = 'admin' OR `email` = 'admin' OR `tel` = 'admin' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-05-22T08:46:58+08:00 ] ::1 /eshop/index.php/ForgetPwd/foregtPwd.html
+ERR: Cron:cron Runat 2017-05-22 08:46:58 Use 0.000457 s
+
+[ 2017-05-22T08:47:40+08:00 ] ::1 /eshop/index.php/ForgetPwd/foregtPwd.html
+ERR: Cron:cron Runat 2017-05-22 08:47:40 Use 0.000433 s
+
+[ 2017-05-22T08:47:44+08:00 ] ::1 /eshop/index.php/ForgetPwd/foregtPwd.html
+ERR: Cron:cron Runat 2017-05-22 08:47:44 Use 0.000311 s
+
+[ 2017-05-22T08:49:00+08:00 ] ::1 /eshop/index.php/ForgetPwd/foregtPwd.html
+ERR: Cron:cron Runat 2017-05-22 08:49:00 Use 0.000684 s
+
+[ 2017-05-22T08:49:06+08:00 ] ::1 /eshop/index.php/ForgetPwd/verify/id/3.html
+ERR: Cron:cron Runat 2017-05-22 08:49:06 Use 0.000282 s
+
+[ 2017-05-22T08:49:08+08:00 ] ::1 /eshop/index.php/Home/ForgetPwd/index/type/user.html
+ERR: Cron:cron Runat 2017-05-22 08:49:08 Use 0.000315 s
+
+[ 2017-05-22T08:49:11+08:00 ] ::1 /eshop/index.php/Home/ForgetPwd/index/type/user.html
+ERR: Cron:cron Runat 2017-05-22 08:49:11 Use 0.000376 s
+
+[ 2017-05-22T08:50:17+08:00 ] ::1 /eshop/index.php/Home/ForgetPwd/index/type/user.html
+ERR: Cron:cron Runat 2017-05-22 08:50:17 Use 0.000258 s
+
+[ 2017-05-22T08:50:24+08:00 ] ::1 /eshop/index.php/ForgetPwd/checkAccount.html
+ERR: Cron:cron Runat 2017-05-22 08:50:24 Use 0.000370 s
+
+[ 2017-05-22T08:50:24+08:00 ] ::1 /eshop/index.php/ForgetPwd/checkAccount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000809s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.012084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013501s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0090s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `name` = 'a' OR `email` = 'a' OR `tel` = 'a' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000862s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000957s ]
+
+[ 2017-05-22T08:50:24+08:00 ] ::1 /eshop/index.php/ForgetPwd/checkAccount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000697s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.006602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007954s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0097s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0099s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `name` = 'ad' OR `email` = 'ad' OR `tel` = 'ad' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000987s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001065s ]
+
+[ 2017-05-22T08:50:24+08:00 ] ::1 /eshop/index.php/ForgetPwd/checkAccount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000729s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.006811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008187s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0088s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0090s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `name` = 'admi' OR `email` = 'admi' OR `tel` = 'admi' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000888s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000972s ]
+
+[ 2017-05-22T08:50:24+08:00 ] ::1 /eshop/index.php/ForgetPwd/checkAccount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000742s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.005905s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007287s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0084s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0091s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `name` = 'admin' OR `email` = 'admin' OR `tel` = 'admin' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000885s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000958s ]
+
+[ 2017-05-22T08:50:27+08:00 ] ::1 /eshop/index.php/ForgetPwd/checkVerify.html
+ERR: Cron:cron Runat 2017-05-22 08:50:27 Use 0.000348 s
+
+[ 2017-05-22T08:50:27+08:00 ] ::1 /eshop/index.php/ForgetPwd/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000722s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.012699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014023s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0088s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = null LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000772s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000887s ]
+
+[ 2017-05-22T08:50:27+08:00 ] ::1 /eshop/index.php/ForgetPwd/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000999s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.006132s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007979s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0085s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = null LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001091s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001189s ]
+
+[ 2017-05-22T08:50:29+08:00 ] ::1 /eshop/index.php/ForgetPwd/checkVerify.html
+ERR: Cron:cron Runat 2017-05-22 08:50:29 Use 0.000389 s
+
+[ 2017-05-22T08:50:29+08:00 ] ::1 /eshop/index.php/ForgetPwd/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000788s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.011805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013227s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0097s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = null LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000831s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000933s ]
+
+[ 2017-05-22T08:50:29+08:00 ] ::1 /eshop/index.php/ForgetPwd/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001375s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.008489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010912s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0092s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = null LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000800s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000921s ]
+
+[ 2017-05-22T08:50:29+08:00 ] ::1 /eshop/index.php/ForgetPwd/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001433s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.010354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012984s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0157s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = null LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001405s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001569s ]
+
+[ 2017-05-22T08:50:31+08:00 ] ::1 /eshop/index.php/ForgetPwd/findPwd.html
+ERR: Cron:cron Runat 2017-05-22 08:50:31 Use 0.000376 s
+
+[ 2017-05-22T08:50:31+08:00 ] ::1 /eshop/index.php/ForgetPwd/findPwd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000796s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.016094s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017549s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0095s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0097s ]
+SQL: SELECT `id`,`name`,`email`,`tel`,`bind_email`,`bind_tel` FROM `eshop_user` WHERE `name` = 'admin' OR `email` = 'admin' OR `tel` = 'admin' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-05-22T08:50:33+08:00 ] ::1 /eshop/index.php/ForgetPwd/foregtPwd.html
+ERR: Cron:cron Runat 2017-05-22 08:50:33 Use 0.000273 s
+
+[ 2017-05-22T08:50:45+08:00 ] ::1 /eshop/index.php/ForgetPwd/sendCodeByEmail
+ERR: Cron:cron Runat 2017-05-22 08:50:45 Use 0.000292 s
+
+[ 2017-05-22T08:50:45+08:00 ] ::1 /eshop/index.php/ForgetPwd/sendCodeByEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000807s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.013446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014861s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0104s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = null LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001339s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001486s ]
+
+[ 2017-05-22T08:52:36+08:00 ] ::1 /eshop/index.php/ForgetPwd/sendCodeByEmail
+ERR: Cron:cron Runat 2017-05-22 08:52:36 Use 0.000386 s
+
+[ 2017-05-22T08:52:36+08:00 ] ::1 /eshop/index.php/ForgetPwd/sendCodeByEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000787s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.012426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013853s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0095s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = null LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000856s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000952s ]
+
+[ 2017-05-22T09:00:05+08:00 ] ::1 /eshop/index.php/ForgetPwd/foregtPwd.html
+ERR: Cron:cron Runat 2017-05-22 09:00:05 Use 0.000417 s
+
+[ 2017-05-22T09:00:11+08:00 ] ::1 /eshop/index.php/ForgetPwd/sendCodeByEmail
+ERR: Cron:cron Runat 2017-05-22 09:00:11 Use 0.000374 s
+
+[ 2017-05-22T09:00:12+08:00 ] ::1 /eshop/index.php/ForgetPwd/sendCodeByEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000783s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.013544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015011s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.1060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = null LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-05-22T09:00:13+08:00 ] ::1 /eshop/index.php/ForgetPwd/foregtPwd.html
+ERR: Cron:cron Runat 2017-05-22 09:00:13 Use 0.000290 s
+
+[ 2017-05-22T09:00:43+08:00 ] ::1 /eshop/index.php/ForgetPwd/foregtPwd.html
+ERR: Cron:cron Runat 2017-05-22 09:00:43 Use 0.000309 s
+
+[ 2017-05-22T09:06:50+08:00 ] ::1 /eshop/index.php/ForgetPwd/resetPwd.html
+ERR: Cron:cron Runat 2017-05-22 09:06:50 Use 0.000284 s
+
+[ 2017-05-22T09:06:58+08:00 ] ::1 /eshop/index.php/ForgetPwd/resetPwd.html
+ERR: Cron:cron Runat 2017-05-22 09:06:58 Use 0.000329 s
+
+[ 2017-05-22T09:07:14+08:00 ] ::1 /eshop/index.php/ForgetPwd/resetPwd.html
+ERR: Cron:cron Runat 2017-05-22 09:07:14 Use 0.000339 s
+
+[ 2017-05-22T09:10:58+08:00 ] ::1 /eshop/index.php/ForgetPwd/resetPwd.html
+ERR: Cron:cron Runat 2017-05-22 09:10:58 Use 0.000296 s
+
+[ 2017-05-22T10:17:51+08:00 ] ::1 /eshop/index.php/ForgetPwd/resetPwd.html
+ERR: Cron:cron Runat 2017-05-22 10:17:51 Use 0.000298 s
+
+[ 2017-05-22T10:18:42+08:00 ] ::1 /eshop/index.php/ForgetPwd/resetPwd.html
+ERR: Cron:cron Runat 2017-05-22 10:18:42 Use 0.000295 s
+
+[ 2017-05-22T10:19:19+08:00 ] ::1 /eshop/index.php/ForgetPwd/resetPwd.html
+ERR: Cron:cron Runat 2017-05-22 10:19:19 Use 0.000399 s
+
+[ 2017-05-22T10:19:44+08:00 ] ::1 /eshop/index.php/ForgetPwd/resetPwd.html
+ERR: Cron:cron Runat 2017-05-22 10:19:44 Use 0.000293 s
+
+[ 2017-05-22T10:19:47+08:00 ] ::1 /eshop/index.php/ForgetPwd/resetPwd.html
+ERR: Cron:cron Runat 2017-05-22 10:19:47 Use 0.000282 s
+
+[ 2017-05-22T10:20:05+08:00 ] ::1 /eshop/index.php/ForgetPwd/resetPwd.html
+ERR: Cron:cron Runat 2017-05-22 10:20:05 Use 0.000284 s
+
+[ 2017-05-22T10:20:58+08:00 ] ::1 /eshop/index.php/ForgetPwd/resetPwd.html
+ERR: Cron:cron Runat 2017-05-22 10:20:58 Use 0.001917 s
+
+[ 2017-05-22T10:21:18+08:00 ] ::1 /eshop/index.php/ForgetPwd/resetPwd.html
+ERR: Cron:cron Runat 2017-05-22 10:21:18 Use 0.000904 s
+
+[ 2017-05-22T10:22:03+08:00 ] ::1 /eshop/index.php/ForgetPwd/resetPwd.html
+ERR: Cron:cron Runat 2017-05-22 10:22:03 Use 0.000341 s
+
+[ 2017-05-22T10:22:29+08:00 ] ::1 /eshop/index.php/ForgetPwd/resetPwd.html
+ERR: Cron:cron Runat 2017-05-22 10:22:29 Use 0.000365 s
+
+[ 2017-05-22T10:23:02+08:00 ] ::1 /eshop/index.php/ForgetPwd/verify/id/3.html
+ERR: Cron:cron Runat 2017-05-22 10:23:02 Use 0.000394 s
+
+[ 2017-05-22T10:23:18+08:00 ] ::1 /eshop/index.php/ForgetPwd/checkAccount.html
+ERR: Cron:cron Runat 2017-05-22 10:23:18 Use 0.000273 s
+
+[ 2017-05-22T10:23:19+08:00 ] ::1 /eshop/index.php/ForgetPwd/checkAccount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000767s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.015645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017200s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0105s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0115s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `name` = 'admin' OR `email` = 'admin' OR `tel` = 'admin' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001131s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001240s ]
+
+[ 2017-05-22T10:23:22+08:00 ] ::1 /eshop/index.php/ForgetPwd/verify/id/3.html?0.70494578672935
+ERR: Cron:cron Runat 2017-05-22 10:23:22 Use 0.000389 s
+
+[ 2017-05-22T10:23:25+08:00 ] ::1 /eshop/index.php/ForgetPwd/checkVerify.html
+ERR: Cron:cron Runat 2017-05-22 10:23:25 Use 0.000263 s
+
+[ 2017-05-22T10:23:25+08:00 ] ::1 /eshop/index.php/ForgetPwd/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000788s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.013700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015381s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0113s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = null LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001003s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001111s ]
+
+[ 2017-05-22T10:23:26+08:00 ] ::1 /eshop/index.php/ForgetPwd/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000818s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.007588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009227s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0095s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = null LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000928s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001035s ]
+
+[ 2017-05-22T10:23:27+08:00 ] ::1 /eshop/index.php/ForgetPwd/checkVerify.html
+ERR: Cron:cron Runat 2017-05-22 10:23:27 Use 0.000265 s
+
+[ 2017-05-22T10:23:27+08:00 ] ::1 /eshop/index.php/ForgetPwd/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000787s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.014125s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015721s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0701s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = null LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000885s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001010s ]
+
+[ 2017-05-22T10:23:28+08:00 ] ::1 /eshop/index.php/ForgetPwd/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000802s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.007067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008578s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0088s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = null LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001185s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001345s ]
+
+[ 2017-05-22T10:23:29+08:00 ] ::1 /eshop/index.php/ForgetPwd/findPwd.html
+ERR: Cron:cron Runat 2017-05-22 10:23:29 Use 0.000289 s
+
+[ 2017-05-22T10:23:29+08:00 ] ::1 /eshop/index.php/ForgetPwd/findPwd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000847s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.015721s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017419s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0103s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0108s ]
+SQL: SELECT `id`,`name`,`email`,`tel`,`bind_email`,`bind_tel` FROM `eshop_user` WHERE `name` = 'admin' OR `email` = 'admin' OR `tel` = 'admin' LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2017-05-22T10:23:55+08:00 ] ::1 /eshop/index.php/ForgetPwd/foregtPwd.html
+ERR: Cron:cron Runat 2017-05-22 10:23:55 Use 0.000357 s
+
+[ 2017-05-22T10:24:09+08:00 ] ::1 /eshop/index.php/ForgetPwd/resetPwd.html
+ERR: Cron:cron Runat 2017-05-22 10:24:09 Use 0.000386 s
+
+[ 2017-05-22T10:25:32+08:00 ] ::1 /eshop/index.php/Home/User/login.html
+ERR: Cron:cron Runat 2017-05-22 10:25:32 Use 0.000292 s
+
+[ 2017-05-22T10:25:39+08:00 ] ::1 /eshop/index.php/User/regist.html
+ERR: Cron:cron Runat 2017-05-22 10:25:39 Use 0.000572 s
+
+[ 2017-05-22T10:25:41+08:00 ] ::1 /eshop/index.php/User/verify.html
+ERR: Cron:cron Runat 2017-05-22 10:25:41 Use 0.001045 s
+
+[ 2017-05-22T10:25:56+08:00 ] ::1 /eshop/index.php/User/verify.html
+ERR: Cron:cron Runat 2017-05-22 10:25:56 Use 0.000532 s
+
+[ 2017-05-22T10:26:59+08:00 ] ::1 /eshop/index.php/ForgetPwd/resetPwd.html
+ERR: Cron:cron Runat 2017-05-22 10:26:59 Use 0.000327 s
+
+[ 2017-05-22T10:27:06+08:00 ] ::1 /eshop/index.php/ForgetPwd/resetPwd.html
+ERR: Cron:cron Runat 2017-05-22 10:27:06 Use 0.000351 s
+
+[ 2017-05-22T10:27:43+08:00 ] ::1 /eshop/index.php/ForgetPwd/resetPwd.html
+ERR: Cron:cron Runat 2017-05-22 10:27:43 Use 0.000330 s
+
+[ 2017-05-22T10:28:58+08:00 ] ::1 /eshop/index.php/Home/Shop/index/shopId/3.html
+ERR: Cron:cron Runat 2017-05-22 10:28:58 Use 0.000392 s
+
+[ 2017-05-22T10:29:01+08:00 ] ::1 /eshop/index.php/Home/Shoper/index.html
+ERR: Cron:cron Runat 2017-05-22 10:29:01 Use 0.000422 s
+
+[ 2017-05-22T10:29:04+08:00 ] ::1 /eshop/index.php/Home/User/login.html
+ERR: Cron:cron Runat 2017-05-22 10:29:04 Use 0.000317 s
+
+[ 2017-05-22T10:29:07+08:00 ] ::1 /eshop/index.php/Home/ForgetPwd/index/type/user.html
+ERR: Cron:cron Runat 2017-05-22 10:29:07 Use 0.000380 s
+
+[ 2017-05-22T10:29:10+08:00 ] ::1 /eshop/index.php/ForgetPwd/verify/id/3.html
+ERR: Cron:cron Runat 2017-05-22 10:29:10 Use 0.000282 s
+
+[ 2017-05-22T10:29:12+08:00 ] ::1 /eshop/index.php/ForgetPwd/checkAccount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000746s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.006967s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008417s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0099s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0762s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `name` = 'admin' OR `email` = 'admin' OR `tel` = 'admin' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000879s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000952s ]
+
+[ 2017-05-22T10:29:20+08:00 ] ::1 /eshop/index.php/ForgetPwd/checkVerify.html
+ERR: Cron:cron Runat 2017-05-22 10:29:20 Use 0.000449 s
+
+[ 2017-05-22T10:29:20+08:00 ] ::1 /eshop/index.php/ForgetPwd/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000739s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.013667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015107s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0104s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = null LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000936s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001039s ]
+
+[ 2017-05-22T10:29:31+08:00 ] ::1 /eshop/index.php/ForgetPwd/verify/id/3.html?0.499706697909052
+ERR: Cron:cron Runat 2017-05-22 10:29:31 Use 0.000353 s
+
+[ 2017-05-22T10:29:33+08:00 ] ::1 /eshop/index.php/ForgetPwd/checkVerify.html
+ERR: Cron:cron Runat 2017-05-22 10:29:33 Use 0.000383 s
+
+[ 2017-05-22T10:29:33+08:00 ] ::1 /eshop/index.php/ForgetPwd/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000793s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.015657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017201s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0105s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = null LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000896s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000984s ]
+
+[ 2017-05-22T10:29:33+08:00 ] ::1 /eshop/index.php/ForgetPwd/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000839s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.006811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008435s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0097s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = null LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000772s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000865s ]
+
+[ 2017-05-22T10:29:35+08:00 ] ::1 /eshop/index.php/ForgetPwd/checkVerify.html
+ERR: Cron:cron Runat 2017-05-22 10:29:35 Use 0.000402 s
+
+[ 2017-05-22T10:29:35+08:00 ] ::1 /eshop/index.php/ForgetPwd/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000759s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.013274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014754s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0102s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = null LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000788s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000898s ]
+
+[ 2017-05-22T10:29:35+08:00 ] ::1 /eshop/index.php/ForgetPwd/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000704s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.006066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007441s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = null LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000799s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000880s ]
+
+[ 2017-05-22T10:29:35+08:00 ] ::1 /eshop/index.php/ForgetPwd/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000834s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.006611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008216s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0105s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = null LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000850s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000945s ]
+
+[ 2017-05-22T10:29:37+08:00 ] ::1 /eshop/index.php/ForgetPwd/findPwd.html
+ERR: Cron:cron Runat 2017-05-22 10:29:37 Use 0.000414 s
+
+[ 2017-05-22T10:29:37+08:00 ] ::1 /eshop/index.php/ForgetPwd/findPwd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000818s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.012605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014192s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0093s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0102s ]
+SQL: SELECT `id`,`name`,`email`,`tel`,`bind_email`,`bind_tel` FROM `eshop_user` WHERE `name` = 'admin' OR `email` = 'admin' OR `tel` = 'admin' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-05-22T10:30:44+08:00 ] ::1 /eshop/index.php/ForgetPwd/foregtPwd.html
+ERR: Cron:cron Runat 2017-05-22 10:30:44 Use 0.000345 s
+
+[ 2017-05-22T10:30:48+08:00 ] ::1 /eshop/index.php/ForgetPwd/resetPwd.html
+ERR: Cron:cron Runat 2017-05-22 10:30:48 Use 0.000482 s
+
+[ 2017-05-22T10:31:15+08:00 ] ::1 /eshop/index.php/ForgetPwd/resetPwd.html
+ERR: Cron:cron Runat 2017-05-22 10:31:15 Use 0.000343 s
+
+[ 2017-05-22T10:31:38+08:00 ] ::1 /eshop/index.php/ForgetPwd/resetPwd.html
+ERR: Cron:cron Runat 2017-05-22 10:31:38 Use 0.000912 s
+
+[ 2017-05-22T10:31:56+08:00 ] ::1 /eshop/index.php/ForgetPwd/resetPwd.html
+ERR: Cron:cron Runat 2017-05-22 10:31:56 Use 0.000389 s
+
+[ 2017-05-22T10:32:09+08:00 ] ::1 /eshop/index.php/ForgetPwd/resetPwd.html
+ERR: Cron:cron Runat 2017-05-22 10:32:09 Use 0.000368 s
+
+[ 2017-05-22T10:33:52+08:00 ] ::1 /eshop/index.php/ForgetPwd/resetPwd.html
+ERR: Cron:cron Runat 2017-05-22 10:33:52 Use 0.000316 s
+
+[ 2017-05-22T10:35:00+08:00 ] ::1 /eshop/index.php/ForgetPwd/resetPwd.html
+ERR: Cron:cron Runat 2017-05-22 10:35:00 Use 0.000427 s
+
+[ 2017-05-22T10:35:49+08:00 ] ::1 /eshop/index.php/ForgetPwd/resetPwd.html
+ERR: Cron:cron Runat 2017-05-22 10:35:49 Use 0.001100 s
+
+[ 2017-05-22T10:38:34+08:00 ] ::1 /eshop/index.php/ForgetPwd/resetPwd.html
+ERR: Cron:cron Runat 2017-05-22 10:38:34 Use 0.000285 s
+
+[ 2017-05-22T10:40:37+08:00 ] ::1 /eshop/index.php/ForgetPwd/resetPwd.html
+ERR: Cron:cron Runat 2017-05-22 10:40:37 Use 0.000435 s
+
+[ 2017-05-22T10:41:03+08:00 ] ::1 /eshop/index.php/ForgetPwd/sendCodeByEmail
+ERR: Cron:cron Runat 2017-05-22 10:41:03 Use 0.000347 s
+
+[ 2017-05-22T10:41:04+08:00 ] ::1 /eshop/index.php/ForgetPwd/sendCodeByEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000844s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.013493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015000s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0091s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = null LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-05-22T10:41:38+08:00 ] ::1 /eshop/index.php/ForgetPwd/foregtPwd.html
+ERR: Cron:cron Runat 2017-05-22 10:41:38 Use 0.000266 s
+
+[ 2017-05-22T10:55:51+08:00 ] ::1 /eshop/index.php/ForgetPwd/foregtPwd.html
+ERR: Cron:cron Runat 2017-05-22 10:55:51 Use 0.000518 s
+
+[ 2017-05-22T10:56:10+08:00 ] ::1 /eshop/index.php/ForgetPwd/checkEmailVerifyCode
+ERR: Cron:cron Runat 2017-05-22 10:56:10 Use 0.000379 s
+
+[ 2017-05-22T10:56:10+08:00 ] ::1 /eshop/index.php/ForgetPwd/checkEmailVerifyCode
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000766s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.013517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014912s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0110s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = null LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000936s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001030s ]
+
+[ 2017-05-22T10:56:19+08:00 ] ::1 /eshop/index.php/ForgetPwd/findPwd.html
+ERR: Cron:cron Runat 2017-05-22 10:56:19 Use 0.000382 s
+
+[ 2017-05-22T10:56:19+08:00 ] ::1 /eshop/index.php/ForgetPwd/findPwd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000708s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.013252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014646s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0476s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = null LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-05-22T10:59:40+08:00 ] ::1 /eshop/index.php/ForgetPwd/foregtPwd.html
+ERR: Cron:cron Runat 2017-05-22 10:59:40 Use 0.000402 s
+
+[ 2017-05-22T11:00:02+08:00 ] ::1 /eshop/index.php/ForgetPwd/foregtPwd.html
+ERR: Cron:cron Runat 2017-05-22 11:00:02 Use 0.000587 s
+
+[ 2017-05-22T11:00:29+08:00 ] ::1 /eshop/index.php/ForgetPwd/foregtPwd.html
+ERR: Cron:cron Runat 2017-05-22 11:00:29 Use 0.000475 s
+
+[ 2017-05-22T11:02:44+08:00 ] ::1 /eshop/index.php/ForgetPwd/checkEmailVerifyCode
+ERR: Cron:cron Runat 2017-05-22 11:02:44 Use 0.000322 s
+
+[ 2017-05-22T11:02:44+08:00 ] ::1 /eshop/index.php/ForgetPwd/checkEmailVerifyCode
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000909s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.013633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015314s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0108s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = null LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000916s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001015s ]
+
+[ 2017-05-22T11:02:55+08:00 ] ::1 /eshop/index.php/ForgetPwd/checkEmailVerifyCode
+ERR: Cron:cron Runat 2017-05-22 11:02:55 Use 0.000787 s
+
+[ 2017-05-22T11:02:55+08:00 ] ::1 /eshop/index.php/ForgetPwd/checkEmailVerifyCode
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000725s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.013884s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015333s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0094s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = null LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001151s ]
+
+[ 2017-05-22T11:03:26+08:00 ] ::1 /eshop/index.php/ForgetPwd/findPwd.html
+ERR: Cron:cron Runat 2017-05-22 11:03:26 Use 0.000301 s
+
+[ 2017-05-22T11:03:26+08:00 ] ::1 /eshop/index.php/ForgetPwd/findPwd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000653s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.013517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014785s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0123s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = null LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-05-22T11:09:21+08:00 ] ::1 /eshop/index.php/ForgetPwd/foregtPwd.html
+ERR: Cron:cron Runat 2017-05-22 11:09:21 Use 0.000275 s
+
+[ 2017-05-22T11:09:36+08:00 ] ::1 /eshop/index.php/ForgetPwd/checkEmailVerifyCode
+ERR: Cron:cron Runat 2017-05-22 11:09:36 Use 0.000376 s
+
+[ 2017-05-22T11:09:36+08:00 ] ::1 /eshop/index.php/ForgetPwd/checkEmailVerifyCode
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000807s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.014780s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016256s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0127s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = null LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001124s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001245s ]
+
+[ 2017-05-22T11:09:36+08:00 ] ::1 /eshop/index.php/ForgetPwd/findPwd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001041s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.006470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008232s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0114s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = null LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-05-22T11:10:32+08:00 ] ::1 /eshop/index.php/ForgetPwd/findPwd.html
+ERR: Cron:cron Runat 2017-05-22 11:10:32 Use 0.000408 s
+
+[ 2017-05-22T11:10:32+08:00 ] ::1 /eshop/index.php/ForgetPwd/findPwd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000760s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.016156s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017582s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0112s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = null LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2017-05-22T11:10:35+08:00 ] ::1 /eshop/index.php/ForgetPwd/foregtPwd.html
+ERR: Cron:cron Runat 2017-05-22 11:10:35 Use 0.001792 s
+
+[ 2017-05-22T11:10:41+08:00 ] ::1 /eshop/index.php/ForgetPwd/foregtPwd.html
+ERR: Cron:cron Runat 2017-05-22 11:10:41 Use 0.000455 s
+
+[ 2017-05-22T11:10:46+08:00 ] ::1 /eshop/index.php/ForgetPwd/verify/id/3.html
+ERR: Cron:cron Runat 2017-05-22 11:10:46 Use 0.000479 s
+
+[ 2017-05-22T11:10:51+08:00 ] ::1 /eshop/index.php/ForgetPwd/checkAccount.html
+ERR: Cron:cron Runat 2017-05-22 11:10:51 Use 0.000260 s
+
+[ 2017-05-22T11:10:51+08:00 ] ::1 /eshop/index.php/ForgetPwd/checkAccount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000834s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.014700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016203s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0105s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0124s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `name` = 'admin' OR `email` = 'admin' OR `tel` = 'admin' LIMIT 1   [ RunTime:0.0013s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001333s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001479s ]
+
+[ 2017-05-22T11:11:00+08:00 ] ::1 /eshop/index.php/ForgetPwd/checkVerify.html
+ERR: Cron:cron Runat 2017-05-22 11:11:00 Use 0.000403 s
+
+[ 2017-05-22T11:11:00+08:00 ] ::1 /eshop/index.php/ForgetPwd/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000860s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.013823s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015426s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0133s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = null LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001296s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001883s ]
+
+[ 2017-05-22T11:11:01+08:00 ] ::1 /eshop/index.php/ForgetPwd/findPwd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000833s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.008445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010004s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0128s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0118s ]
+SQL: SELECT `id`,`name`,`email`,`tel`,`bind_email`,`bind_tel` FROM `eshop_user` WHERE `name` = 'admin' OR `email` = 'admin' OR `tel` = 'admin' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-05-22T11:11:02+08:00 ] ::1 /eshop/index.php/ForgetPwd/foregtPwd.html
+ERR: Cron:cron Runat 2017-05-22 11:11:02 Use 0.000326 s
+
+[ 2017-05-22T11:11:05+08:00 ] ::1 /eshop/index.php/ForgetPwd/sendCodeByEmail
+ERR: Cron:cron Runat 2017-05-22 11:11:05 Use 0.000370 s
+
+[ 2017-05-22T11:11:05+08:00 ] ::1 /eshop/index.php/ForgetPwd/sendCodeByEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000773s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.013042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014580s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0109s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = null LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-05-22T11:11:19+08:00 ] ::1 /eshop/index.php/ForgetPwd/checkEmailVerifyCode
+ERR: Cron:cron Runat 2017-05-22 11:11:19 Use 0.000398 s
+
+[ 2017-05-22T11:11:19+08:00 ] ::1 /eshop/index.php/ForgetPwd/checkEmailVerifyCode
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000813s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.014324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015813s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0349s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = null LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001483s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001612s ]
+
+[ 2017-05-22T11:11:20+08:00 ] ::1 /eshop/index.php/ForgetPwd/findPwd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000767s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.009679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011254s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0101s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = null LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-05-22T11:11:42+08:00 ] ::1 /eshop/index.php/ForgetPwd/checkEmailVerifyCode
+ERR: Cron:cron Runat 2017-05-22 11:11:42 Use 0.000447 s
+
+[ 2017-05-22T11:11:42+08:00 ] ::1 /eshop/index.php/ForgetPwd/checkEmailVerifyCode
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000706s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.013934s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015248s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0101s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = null LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002788s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002925s ]
+
+[ 2017-05-22T11:11:42+08:00 ] ::1 /eshop/index.php/ForgetPwd/findPwd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002133s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.007337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010615s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0110s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = null LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-05-22T11:12:03+08:00 ] ::1 /eshop/index.php/ForgetPwd/foregtPwd.html
+ERR: Cron:cron Runat 2017-05-22 11:12:03 Use 0.000509 s
+
+[ 2017-05-22T11:12:10+08:00 ] ::1 /eshop/index.php/ForgetPwd/checkEmailVerifyCode
+ERR: Cron:cron Runat 2017-05-22 11:12:10 Use 0.000287 s
+
+[ 2017-05-22T11:12:10+08:00 ] ::1 /eshop/index.php/ForgetPwd/checkEmailVerifyCode
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000845s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.014647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016260s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0116s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = null LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000965s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001064s ]
+
+[ 2017-05-22T11:12:10+08:00 ] ::1 /eshop/index.php/ForgetPwd/findPwd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000813s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.007686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009308s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0108s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = null LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-05-22T11:12:41+08:00 ] ::1 /eshop/index.php/ForgetPwd/findPwd.html
+ERR: Cron:cron Runat 2017-05-22 11:12:41 Use 0.000356 s
+
+[ 2017-05-22T11:12:41+08:00 ] ::1 /eshop/index.php/ForgetPwd/findPwd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000960s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.015036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016643s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0112s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = null LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-05-22T11:13:04+08:00 ] ::1 /eshop/index.php/ForgetPwd/findPwd.html
+ERR: Cron:cron Runat 2017-05-22 11:13:04 Use 0.000342 s
+
+[ 2017-05-22T11:13:04+08:00 ] ::1 /eshop/index.php/ForgetPwd/findPwd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000778s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.014021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015464s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0143s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = null LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-05-22T11:13:33+08:00 ] ::1 /eshop/index.php/ForgetPwd/findPwd.html
+ERR: Cron:cron Runat 2017-05-22 11:13:33 Use 0.000266 s
+
+[ 2017-05-22T11:13:33+08:00 ] ::1 /eshop/index.php/ForgetPwd/findPwd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000980s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.018754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020567s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0201s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = null LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-05-22T11:13:52+08:00 ] ::1 /eshop/index.php/ForgetPwd/findPwd.html
+ERR: Cron:cron Runat 2017-05-22 11:13:52 Use 0.000330 s
+
+[ 2017-05-22T11:13:52+08:00 ] ::1 /eshop/index.php/ForgetPwd/findPwd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000829s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.015408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016880s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0134s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = null LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-05-22T11:15:57+08:00 ] ::1 /eshop/index.php/ForgetPwd/resetPwd.html
+ERR: Cron:cron Runat 2017-05-22 11:15:57 Use 0.000301 s
+
+[ 2017-05-22T11:16:08+08:00 ] ::1 /eshop/index.php/ForgetPwd/resetPwd.html
+ERR: Cron:cron Runat 2017-05-22 11:16:08 Use 0.000744 s
+
+[ 2017-05-22T11:17:56+08:00 ] ::1 /eshop/index.php/ForgetPwd/resetPwd.html
+ERR: Cron:cron Runat 2017-05-22 11:17:56 Use 0.000445 s
+
+[ 2017-05-22T11:18:08+08:00 ] ::1 /eshop/index.php/ForgetPwd/resetPwd.html
+ERR: Cron:cron Runat 2017-05-22 11:18:08 Use 0.000339 s
+
+[ 2017-05-22T11:19:34+08:00 ] ::1 /eshop/index.php/ForgetPwd/resetPwd.html
+ERR: Cron:cron Runat 2017-05-22 11:19:34 Use 0.000369 s
+
+[ 2017-05-22T11:26:00+08:00 ] ::1 /eshop/index.php/ForgetPwd/resetPwd.html
+ERR: Cron:cron Runat 2017-05-22 11:26:00 Use 0.000565 s
+
+[ 2017-05-22T11:26:03+08:00 ] ::1 /eshop/index.php/ForgetPwd/resetPwd.html?step=3&utype=user&newPwd=&repwd=
+ERR: Cron:cron Runat 2017-05-22 11:26:03 Use 0.001199 s
+
+[ 2017-05-22T11:26:22+08:00 ] ::1 /eshop/index.php/ForgetPwd/resetPwd.html?step=3&utype=user&newPwd=&repwd=
+ERR: Cron:cron Runat 2017-05-22 11:26:22 Use 0.000320 s
+
+[ 2017-05-22T11:27:07+08:00 ] ::1 /eshop/index.php/ForgetPwd/resetPwd.html?step=3&utype=user&newPwd=&repwd=
+ERR: Cron:cron Runat 2017-05-22 11:27:07 Use 0.000500 s
+
+[ 2017-05-22T11:27:27+08:00 ] ::1 /eshop/index.php/ForgetPwd/resetPwdDo
+ERR: Cron:cron Runat 2017-05-22 11:27:27 Use 0.000459 s
+
+[ 2017-05-22T11:27:27+08:00 ] ::1 /eshop/index.php/ForgetPwd/resetPwdDo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000775s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.013895s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015349s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0169s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = null LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001491s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001652s ]
+
+[ 2017-05-22T11:27:56+08:00 ] ::1 /eshop/index.php/ForgetPwd/resetPwdDo
+ERR: Cron:cron Runat 2017-05-22 11:27:56 Use 0.000288 s
+
+[ 2017-05-22T11:27:56+08:00 ] ::1 /eshop/index.php/ForgetPwd/resetPwdDo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000779s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.014436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015907s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0098s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = null LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000901s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000995s ]
+
+[ 2017-05-22T11:39:21+08:00 ] ::1 /eshop/index.php/ForgetPwd/resetPwd.html?step=3&utype=user&newPwd=&repwd=
+ERR: Cron:cron Runat 2017-05-22 11:39:21 Use 0.000322 s
+
+[ 2017-05-22T11:39:44+08:00 ] ::1 /eshop/index.php/ForgetPwd/resetPwdDo
+ERR: Cron:cron Runat 2017-05-22 11:39:44 Use 0.000396 s
+
+[ 2017-05-22T11:39:44+08:00 ] ::1 /eshop/index.php/ForgetPwd/resetPwdDo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000930s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.015124s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016840s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0316s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = null LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-05-22T11:40:00+08:00 ] ::1 /eshop/index.php/ForgetPwd/resetPwdDo
+ERR: Cron:cron Runat 2017-05-22 11:40:00 Use 0.000379 s
+
+[ 2017-05-22T11:40:01+08:00 ] ::1 /eshop/index.php/ForgetPwd/resetPwdDo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000876s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.014920s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016711s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0302s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = null LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-05-22T13:51:40+08:00 ] ::1 /eshop/index.php/ForgetPwd/resetPwd.html?step=3&utype=user&newPwd=&repwd=
+ERR: Cron:cron Runat 2017-05-22 13:51:40 Use 0.000478 s
+
+[ 2017-05-22T13:51:44+08:00 ] ::1 /eshop/index.php/ForgetPwd/resetPwd.html?step=3&utype=user&newPwd=&repwd=
+ERR: Cron:cron Runat 2017-05-22 13:51:44 Use 0.000500 s
+
+[ 2017-05-22T13:51:53+08:00 ] ::1 /eshop/index.php/ForgetPwd/resetPwd.html
+ERR: Cron:cron Runat 2017-05-22 13:51:53 Use 0.000465 s
+
+[ 2017-05-22T13:52:01+08:00 ] ::1 /eshop/index.php/ForgetPwd/foregtPwd.html
+ERR: Cron:cron Runat 2017-05-22 13:52:01 Use 0.000487 s
+
+[ 2017-05-22T13:52:05+08:00 ] ::1 /eshop/index.php/ForgetPwd/verify/id/3.html
+ERR: Cron:cron Runat 2017-05-22 13:52:05 Use 0.000911 s
+
+[ 2017-05-22T13:52:38+08:00 ] ::1 /eshop/index.php/Home/ForgetPwd/index/type/user.html
+ERR: Cron:cron Runat 2017-05-22 13:52:38 Use 0.000512 s
+
+[ 2017-05-22T13:52:42+08:00 ] ::1 /eshop/index.php/ForgetPwd/checkAccount.html
+ERR: Cron:cron Runat 2017-05-22 13:52:42 Use 0.000699 s
+
+[ 2017-05-22T13:52:42+08:00 ] ::1 /eshop/index.php/ForgetPwd/checkAccount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001529s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.025957s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.028716s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0158s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = null LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0157s ]
+SQL: SELECT `id` FROM `eshop_user` WHERE `name` = 'admin' OR `email` = 'admin' OR `tel` = 'admin' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001623s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001776s ]
+
+[ 2017-05-22T13:52:50+08:00 ] ::1 /eshop/index.php/ForgetPwd/checkVerify.html
+ERR: Cron:cron Runat 2017-05-22 13:52:50 Use 0.000579 s
+
+[ 2017-05-22T13:52:50+08:00 ] ::1 /eshop/index.php/ForgetPwd/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001762s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.023872s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.026994s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0141s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = null LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001367s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001521s ]
+
+[ 2017-05-22T13:52:57+08:00 ] ::1 /eshop/index.php/ForgetPwd/checkVerify.html
+ERR: Cron:cron Runat 2017-05-22 13:52:57 Use 0.000856 s
+
+[ 2017-05-22T13:52:57+08:00 ] ::1 /eshop/index.php/ForgetPwd/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002793s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.047871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.052799s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0355s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = null LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002820s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003182s ]
+
+[ 2017-05-22T13:52:58+08:00 ] ::1 /eshop/index.php/ForgetPwd/findPwd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001138s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.010086s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012258s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0147s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = null LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0145s ]
+SQL: SELECT `id`,`name`,`email`,`tel`,`bind_email`,`bind_tel` FROM `eshop_user` WHERE `name` = 'admin' OR `email` = 'admin' OR `tel` = 'admin' LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2017-05-22T13:53:00+08:00 ] ::1 /eshop/index.php/ForgetPwd/foregtPwd.html
+ERR: Cron:cron Runat 2017-05-22 13:53:00 Use 0.000734 s
+
+[ 2017-05-22T13:53:37+08:00 ] ::1 /eshop/index.php/ForgetPwd/checkEmailVerifyCode
+ERR: Cron:cron Runat 2017-05-22 13:53:37 Use 0.000452 s
+
+[ 2017-05-22T13:53:37+08:00 ] ::1 /eshop/index.php/ForgetPwd/checkEmailVerifyCode
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002180s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.028444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.031746s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0538s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = null LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001382s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001519s ]
+
+[ 2017-05-22T13:53:38+08:00 ] ::1 /eshop/index.php/ForgetPwd/findPwd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001270s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.010250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012633s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0157s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = null LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2017-05-22T13:53:42+08:00 ] ::1 /eshop/index.php/ForgetPwd/checkEmailVerifyCode
+ERR: Cron:cron Runat 2017-05-22 13:53:42 Use 0.000741 s
+
+[ 2017-05-22T13:53:42+08:00 ] ::1 /eshop/index.php/ForgetPwd/checkEmailVerifyCode
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001925s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.030189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.034293s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0146s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = null LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001477s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001607s ]
+
+[ 2017-05-22T13:53:43+08:00 ] ::1 /eshop/index.php/ForgetPwd/findPwd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001617s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.012085s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014933s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0140s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = null LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2017-05-22T13:54:06+08:00 ] ::1 /eshop/index.php/ForgetPwd/checkEmailVerifyCode
+ERR: Cron:cron Runat 2017-05-22 13:54:06 Use 0.000855 s
+
+[ 2017-05-22T13:54:06+08:00 ] ::1 /eshop/index.php/ForgetPwd/checkEmailVerifyCode
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001848s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.028858s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.032018s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0202s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = null LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001812s ]
+
+[ 2017-05-22T13:54:06+08:00 ] ::1 /eshop/index.php/ForgetPwd/sendCodeByEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001906s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.017290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020826s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0152s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = null LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2017-05-22T13:54:17+08:00 ] ::1 /eshop/index.php/ForgetPwd/checkEmailVerifyCode
+ERR: Cron:cron Runat 2017-05-22 13:54:17 Use 0.001008 s
+
+[ 2017-05-22T13:54:17+08:00 ] ::1 /eshop/index.php/ForgetPwd/checkEmailVerifyCode
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005257s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.040585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.047638s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0989s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = null LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002557s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002802s ]
+
+[ 2017-05-22T13:54:19+08:00 ] ::1 /eshop/index.php/ForgetPwd/findPwd.html
+ERR: Cron:cron Runat 2017-05-22 13:54:19 Use 0.000832 s
+
+[ 2017-05-22T13:54:19+08:00 ] ::1 /eshop/index.php/ForgetPwd/findPwd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001782s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.025189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.029694s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0210s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = null LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2017-05-22T13:54:21+08:00 ] ::1 /eshop/index.php/ForgetPwd/resetPwd.html
+ERR: Cron:cron Runat 2017-05-22 13:54:21 Use 0.000588 s
+
+[ 2017-05-22T13:55:31+08:00 ] ::1 /eshop/index.php/ForgetPwd/resetPwdDo
+ERR: Cron:cron Runat 2017-05-22 13:55:31 Use 0.000453 s
+
+[ 2017-05-22T13:55:31+08:00 ] ::1 /eshop/index.php/ForgetPwd/resetPwdDo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001438s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.025731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.028722s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0184s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = null LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2017-05-22T14:03:43+08:00 ] ::1 /eshop/index.php/ForgetPwd/resetPwdDo
+ERR: Cron:cron Runat 2017-05-22 14:03:43 Use 0.001134 s
+
+[ 2017-05-22T14:03:43+08:00 ] ::1 /eshop/index.php/ForgetPwd/resetPwdDo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002174s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.036026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.039612s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0286s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = null LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: name D:\wampserver\wamp\www\eshop\App\Home\Common\function.php 第 29 行.
+
+[ 2017-05-22T14:03:50+08:00 ] ::1 /eshop/index.php/ForgetPwd/resetPwd.html
+ERR: Cron:cron Runat 2017-05-22 14:03:50 Use 0.000596 s
+
+[ 2017-05-22T14:04:05+08:00 ] ::1 /eshop/index.php/ForgetPwd/resetPwd.html
+ERR: Cron:cron Runat 2017-05-22 14:04:05 Use 0.000543 s
+
+[ 2017-05-22T14:04:32+08:00 ] ::1 /eshop/index.php/ForgetPwd/resetPwdDo
+ERR: Cron:cron Runat 2017-05-22 14:04:32 Use 0.000943 s
+
+[ 2017-05-22T14:04:32+08:00 ] ::1 /eshop/index.php/ForgetPwd/resetPwdDo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001616s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.040071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.043076s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0210s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = null LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: name D:\wampserver\wamp\www\eshop\App\Home\Common\function.php 第 29 行.
+
+[ 2017-05-22T14:05:56+08:00 ] ::1 /eshop/index.php/ForgetPwd/resetPwdDo
+ERR: Cron:cron Runat 2017-05-22 14:05:56 Use 0.000555 s
+
+[ 2017-05-22T14:05:56+08:00 ] ::1 /eshop/index.php/ForgetPwd/resetPwdDo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002420s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.025624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.030457s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0222s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = null LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: name D:\wampserver\wamp\www\eshop\App\Home\Common\function.php 第 29 行.
+
+[ 2017-05-22T14:06:42+08:00 ] ::1 /eshop/index.php/ForgetPwd/resetPwdDo
+ERR: Cron:cron Runat 2017-05-22 14:06:42 Use 0.000419 s
+
+[ 2017-05-22T14:06:42+08:00 ] ::1 /eshop/index.php/ForgetPwd/resetPwdDo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001200s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.028433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.030708s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0174s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = null LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: name D:\wampserver\wamp\www\eshop\App\Home\Common\function.php 第 29 行.
+
+[ 2017-05-22T14:09:30+08:00 ] ::1 /eshop/index.php/ForgetPwd/resetPwdDo
+ERR: Cron:cron Runat 2017-05-22 14:09:30 Use 0.000464 s
+
+[ 2017-05-22T14:09:30+08:00 ] ::1 /eshop/index.php/ForgetPwd/resetPwdDo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001296s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.025163s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.028217s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0189s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = null LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2017-05-22T14:09:45+08:00 ] ::1 /eshop/index.php/ForgetPwd/resetPwdDo
+ERR: Cron:cron Runat 2017-05-22 14:09:45 Use 0.000584 s
+
+[ 2017-05-22T14:09:45+08:00 ] ::1 /eshop/index.php/ForgetPwd/resetPwdDo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001685s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.032646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.035728s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0174s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = null LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0190s ]
+SQL: UPDATE `eshop_user` SET `password`='0192023a7bbd73250516f069df18b500',`modify_time`='1495433385' WHERE `id` = 20 [ RunTime:0.1518s ]
+SQL: SHOW COLUMNS FROM `eshop_user_log` [ RunTime:0.0330s ]
+NOTIC: [2] fopen(D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Org\Net/UTFWry.dat): failed to open stream: No such file or directory D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Org\Net\IpLocation.class.php 第 54 行.
+SQL: INSERT INTO `eshop_user_log` (`userId`,`action`,`ip`,`location`,`time`) VALUES ('20','密码找回','0.0.0.0',NULL,'1495433385') [ RunTime:0.0249s ]
+
+[ 2017-05-22T14:10:03+08:00 ] ::1 /eshop/index.php/Home/UserCenter/index.html
+ERR: Cron:cron Runat 2017-05-22 14:10:03 Use 0.001243 s
+
+[ 2017-05-22T14:10:04+08:00 ] ::1 /eshop/index.php/User/verify.html
+ERR: Cron:cron Runat 2017-05-22 14:10:04 Use 0.000534 s
+
+[ 2017-05-22T14:15:35+08:00 ] ::1 /eshop/index.php/ForgetPwd/resetPwd.html
+ERR: Cron:cron Runat 2017-05-22 14:15:35 Use 0.000752 s
+
+[ 2017-05-22T14:15:42+08:00 ] ::1 /eshop/index.php/ForgetPwd/resetPwd.html
+ERR: Cron:cron Runat 2017-05-22 14:15:42 Use 0.000827 s
+
+[ 2017-05-22T14:15:59+08:00 ] ::1 /eshop/index.php/ForgetPwd/resetPwdDo
+ERR: Cron:cron Runat 2017-05-22 14:15:59 Use 0.000601 s
+
+[ 2017-05-22T14:15:59+08:00 ] ::1 /eshop/index.php/ForgetPwd/resetPwdDo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001435s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.021837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024453s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = null LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0157s ]
+SQL: UPDATE `eshop_user` SET `password`='1844156d4166d94387f1a4ad031ca5fa',`modify_time`='1495433759' WHERE `id` = 20 [ RunTime:0.0625s ]
+SQL: SHOW COLUMNS FROM `eshop_user_log` [ RunTime:0.0245s ]
+NOTIC: [2] fopen(D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Org\Net/UTFWry.dat): failed to open stream: No such file or directory D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Org\Net\IpLocation.class.php 第 54 行.
+SQL: INSERT INTO `eshop_user_log` (`userId`,`action`,`ip`,`location`,`time`) VALUES ('20','密码找回','0.0.0.0',NULL,'1495433759') [ RunTime:0.0420s ]
+
+[ 2017-05-22T14:17:01+08:00 ] ::1 /eshop/index.php/ForgetPwd/finish.html
+ERR: Cron:cron Runat 2017-05-22 14:17:01 Use 0.002039 s
+
+[ 2017-05-22T14:17:35+08:00 ] ::1 /eshop/index.php/ForgetPwd/finish.html
+ERR: Cron:cron Runat 2017-05-22 14:17:35 Use 0.001333 s
+
+[ 2017-05-22T14:17:49+08:00 ] ::1 /eshop/index.php/ForgetPwd/finish.html
+ERR: Cron:cron Runat 2017-05-22 14:17:49 Use 0.000673 s
+
+[ 2017-05-22T14:18:32+08:00 ] ::1 /eshop/index.php/ForgetPwd/finish.html
+ERR: Cron:cron Runat 2017-05-22 14:18:32 Use 0.000581 s
+
+[ 2017-05-22T14:24:29+08:00 ] ::1 /eshop/index.php/ForgetPwd/finish.html
+ERR: Cron:cron Runat 2017-05-22 14:24:29 Use 0.001122 s
+
+[ 2017-05-22T14:24:51+08:00 ] ::1 /eshop/index.php/ForgetPwd/finish.html
+ERR: Cron:cron Runat 2017-05-22 14:24:51 Use 0.000841 s
+
+[ 2017-05-22T14:25:24+08:00 ] ::1 /eshop/index.php/ForgetPwd/finish.html
+ERR: Cron:cron Runat 2017-05-22 14:25:24 Use 0.000903 s
+
+[ 2017-05-22T14:25:44+08:00 ] ::1 /eshop/index.php/ForgetPwd/finish.html
+ERR: Cron:cron Runat 2017-05-22 14:25:44 Use 0.000515 s
+
+[ 2017-05-22T14:25:54+08:00 ] ::1 /eshop/index.php/ForgetPwd/finish.html
+ERR: Cron:cron Runat 2017-05-22 14:25:54 Use 0.000469 s
+
+[ 2017-05-22T14:26:25+08:00 ] ::1 /eshop/index.php/ForgetPwd/finish.html
+ERR: Cron:cron Runat 2017-05-22 14:26:25 Use 0.000744 s
+
+[ 2017-05-22T14:26:44+08:00 ] ::1 /eshop/index.php/ForgetPwd/finish.html
+ERR: Cron:cron Runat 2017-05-22 14:26:44 Use 0.000502 s
+
+[ 2017-05-22T14:27:00+08:00 ] ::1 /eshop/index.php/ForgetPwd/finish.html
+ERR: Cron:cron Runat 2017-05-22 14:27:00 Use 0.000536 s
+
+[ 2017-05-22T14:27:27+08:00 ] ::1 /eshop/index.php/ForgetPwd/finish.html
+ERR: Cron:cron Runat 2017-05-22 14:27:27 Use 0.000461 s
+
+[ 2017-05-22T14:28:09+08:00 ] ::1 /eshop/index.php/ForgetPwd/finish.html
+ERR: Cron:cron Runat 2017-05-22 14:28:09 Use 0.000485 s
+
+[ 2017-05-22T14:30:54+08:00 ] ::1 /eshop/index.php/ForgetPwd/finish.html
+ERR: Cron:cron Runat 2017-05-22 14:30:54 Use 0.000531 s
+
+[ 2017-05-22T14:31:03+08:00 ] ::1 /eshop/index.php/Home/User/Login.html
+ERR: Cron:cron Runat 2017-05-22 14:31:03 Use 0.000776 s
+
+[ 2017-05-22T14:31:16+08:00 ] ::1 /eshop/index.php/User/verify.html?0.589907021185513
+ERR: Cron:cron Runat 2017-05-22 14:31:16 Use 0.000559 s
+
+[ 2017-05-22T14:31:19+08:00 ] ::1 /eshop/index.php/User/verify.html?0.589907021185513?0.3860277809724386?0.5410162707903357
+ERR: Cron:cron Runat 2017-05-22 14:31:19 Use 0.000444 s
+
+[ 2017-05-22T14:31:20+08:00 ] ::1 /eshop/index.php/User/verify.html?0.589907021185513?0.3860277809724386?0.5410162707903357?0.3706570905508576
+ERR: Cron:cron Runat 2017-05-22 14:31:20 Use 0.000564 s
+
+[ 2017-05-22T14:31:22+08:00 ] ::1 /eshop/index.php/User/verify.html?0.589907021185513?0.3860277809724386?0.5410162707903357?0.3706570905508576?0.4443064901253271
+ERR: Cron:cron Runat 2017-05-22 14:31:22 Use 0.000632 s
+
+[ 2017-05-22T14:31:29+08:00 ] ::1 /eshop/index.php/User/checkVerify.html
+ERR: Cron:cron Runat 2017-05-22 14:31:29 Use 0.000473 s
+
+[ 2017-05-22T14:31:29+08:00 ] ::1 /eshop/index.php/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001784s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.027059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.030286s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0801s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = null LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001401s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001546s ]
+
+[ 2017-05-22T14:31:29+08:00 ] ::1 /eshop/index.php/User/doLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001250s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.010885s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013154s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0146s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = null LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `eshop_user` WHERE `name` = 'admin' LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2017-05-22T14:31:41+08:00 ] ::1 /eshop/index.php/User/checkVerify.html
+ERR: Cron:cron Runat 2017-05-22 14:31:41 Use 0.000574 s
+
+[ 2017-05-22T14:31:41+08:00 ] ::1 /eshop/index.php/User/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001147s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.023443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.025572s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0327s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = null LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001279s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001425s ]
+
+[ 2017-05-22T14:31:41+08:00 ] ::1 /eshop/index.php/User/doLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001227s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.012848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015152s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0148s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_user` [ RunTime:0.0141s ]
+SQL: SELECT * FROM `eshop_user` WHERE `name` = 'admin' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `eshop_user_log` [ RunTime:0.0155s ]
+NOTIC: [2] fopen(D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Org\Net/UTFWry.dat): failed to open stream: No such file or directory D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Org\Net\IpLocation.class.php 第 54 行.
+SQL: INSERT INTO `eshop_user_log` (`userId`,`action`,`ip`,`location`,`time`) VALUES ('20','登录','0.0.0.0',NULL,'1495434701') [ RunTime:0.0459s ]
+NOTIC: [8] Use of undefined constant data - assumed 'data' D:\wampserver\wamp\www\eshop\App\Home\Common\function.php 第 362 行.
+SQL: SHOW COLUMNS FROM `eshop_cart` [ RunTime:0.0147s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0341s ]
+SQL: SELECT `id`,`name`,`shopPrice`,`good_log`,`stock` FROM `eshop_good` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `eshop_cart` WHERE `goodId` = 15 AND `userId` = 20 LIMIT 1   [ RunTime:0.0017s ]
+SQL: INSERT INTO `eshop_cart` (`goodId`,`userId`,`mount`,`time`) VALUES ('15','20','1','1495434701') [ RunTime:0.0429s ]
+
+[ 2017-05-22T14:31:44+08:00 ] ::1 /eshop/index.php/Index/index.html
+ERR: Cron:cron Runat 2017-05-22 14:31:44 Use 0.000946 s
+
+[ 2017-05-22T14:31:49+08:00 ] ::1 /eshop/index.php/Home/UserCenter/index.html
+ERR: Cron:cron Runat 2017-05-22 14:31:49 Use 0.000464 s
+
+[ 2017-05-22T14:32:50+08:00 ] ::1 /eshop/index.php/Home/UserCenter/index.html
+ERR: Cron:cron Runat 2017-05-22 14:32:50 Use 0.000524 s
+
+[ 2017-05-22T14:32:55+08:00 ] ::1 /eshop/index.php/Index/index.html
+ERR: Cron:cron Runat 2017-05-22 14:32:55 Use 0.000724 s
+
+[ 2017-05-22T14:32:58+08:00 ] ::1 /eshop/index.php/Home/UserCenter/userinfo.html
+ERR: Cron:cron Runat 2017-05-22 14:32:58 Use 0.001241 s
+
+[ 2017-05-22T14:33:00+08:00 ] ::1 /eshop/index.php/Home/UserCenter/security.html
+ERR: Cron:cron Runat 2017-05-22 14:33:00 Use 0.000477 s
+
+[ 2017-05-22T14:33:20+08:00 ] ::1 /eshop/index.php/Home/Shoper/index.html
+ERR: Cron:cron Runat 2017-05-22 14:33:20 Use 0.000569 s
+
+[ 2017-05-22T14:33:23+08:00 ] ::1 /eshop/index.php/Home/ForgetPwd/index/type/shoper.html
+ERR: Cron:cron Runat 2017-05-22 14:33:23 Use 0.000552 s
+
+[ 2017-05-22T14:33:39+08:00 ] ::1 /eshop/index.php/ForgetPwd/checkAccount.html
+ERR: Cron:cron Runat 2017-05-22 14:33:39 Use 0.001307 s
+
+[ 2017-05-22T14:33:39+08:00 ] ::1 /eshop/index.php/ForgetPwd/checkAccount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006477s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.043285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.052663s ]
+SQL: SHOW COLUMNS FROM `eshop_cart` [ RunTime:0.0290s ]
+SQL: SELECT `goodId`,`goodNumber`,`mount`,`name`,`shopPrice`,`good_log` FROM eshop_cart c INNER JOIN eshop_good as g on c.goodId = g.id  WHERE `userId` = '20' ORDER BY c.time desc  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0231s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = 20 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0160s ]
+SQL: SELECT `id` FROM `eshop_shoper` WHERE `name` = 'shoper3' OR `email` = 'shoper3' OR `tel` = 'shoper3' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001649s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001804s ]
+
+[ 2017-05-22T14:33:48+08:00 ] ::1 /eshop/index.php/ForgetPwd/checkVerify.html
+ERR: Cron:cron Runat 2017-05-22 14:33:48 Use 0.000630 s
+
+[ 2017-05-22T14:33:48+08:00 ] ::1 /eshop/index.php/ForgetPwd/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001211s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.022817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.025123s ]
+SQL: SHOW COLUMNS FROM `eshop_cart` [ RunTime:0.0149s ]
+SQL: SELECT `goodId`,`goodNumber`,`mount`,`name`,`shopPrice`,`good_log` FROM eshop_cart c INNER JOIN eshop_good as g on c.goodId = g.id  WHERE `userId` = '20' ORDER BY c.time desc  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0140s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = 20 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001492s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001645s ]
+
+[ 2017-05-22T14:33:50+08:00 ] ::1 /eshop/index.php/ForgetPwd/findPwd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001232s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.010416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012825s ]
+SQL: SHOW COLUMNS FROM `eshop_cart` [ RunTime:0.0139s ]
+SQL: SELECT `goodId`,`goodNumber`,`mount`,`name`,`shopPrice`,`good_log` FROM eshop_cart c INNER JOIN eshop_good as g on c.goodId = g.id  WHERE `userId` = '20' ORDER BY c.time desc  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0146s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = 20 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0151s ]
+SQL: SELECT `id`,`name`,`email`,`tel`,`bind_email`,`bind_tel` FROM `eshop_shoper` WHERE `name` = 'shoper3' OR `email` = 'shoper3' OR `tel` = 'shoper3' LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2017-05-22T14:33:51+08:00 ] ::1 /eshop/index.php/ForgetPwd/foregtPwd.html
+ERR: Cron:cron Runat 2017-05-22 14:33:51 Use 0.001102 s
+
+[ 2017-05-22T14:34:09+08:00 ] ::1 /eshop/index.php/ForgetPwd/checkEmailVerifyCode
+ERR: Cron:cron Runat 2017-05-22 14:34:09 Use 0.000611 s
+
+[ 2017-05-22T14:34:09+08:00 ] ::1 /eshop/index.php/ForgetPwd/checkEmailVerifyCode
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001471s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.021236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023728s ]
+SQL: SHOW COLUMNS FROM `eshop_cart` [ RunTime:0.0663s ]
+SQL: SELECT `goodId`,`goodNumber`,`mount`,`name`,`shopPrice`,`good_log` FROM eshop_cart c INNER JOIN eshop_good as g on c.goodId = g.id  WHERE `userId` = '20' ORDER BY c.time desc  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0146s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = 20 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001645s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001833s ]
+
+[ 2017-05-22T14:34:30+08:00 ] ::1 /eshop/index.php/ForgetPwd/checkEmailVerifyCode
+ERR: Cron:cron Runat 2017-05-22 14:34:30 Use 0.000715 s
+
+[ 2017-05-22T14:34:30+08:00 ] ::1 /eshop/index.php/ForgetPwd/checkEmailVerifyCode
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002839s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.040018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.045431s ]
+SQL: SHOW COLUMNS FROM `eshop_cart` [ RunTime:0.0263s ]
+SQL: SELECT `goodId`,`goodNumber`,`mount`,`name`,`shopPrice`,`good_log` FROM eshop_cart c INNER JOIN eshop_good as g on c.goodId = g.id  WHERE `userId` = '20' ORDER BY c.time desc  [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0262s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = 20 LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002469s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002710s ]
+
+[ 2017-05-22T14:34:34+08:00 ] ::1 /eshop/index.php/ForgetPwd/sendCodeByEmail
+ERR: Cron:cron Runat 2017-05-22 14:34:34 Use 0.000926 s
+
+[ 2017-05-22T14:34:34+08:00 ] ::1 /eshop/index.php/ForgetPwd/sendCodeByEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001218s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.029755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.032113s ]
+SQL: SHOW COLUMNS FROM `eshop_cart` [ RunTime:0.0295s ]
+SQL: SELECT `goodId`,`goodNumber`,`mount`,`name`,`shopPrice`,`good_log` FROM eshop_cart c INNER JOIN eshop_good as g on c.goodId = g.id  WHERE `userId` = '20' ORDER BY c.time desc  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0277s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = 20 LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2017-05-22T14:34:43+08:00 ] ::1 /eshop/index.php/Shoper/verify.html
+ERR: Cron:cron Runat 2017-05-22 14:34:43 Use 0.000616 s
+
+[ 2017-05-22T14:34:47+08:00 ] ::1 /eshop/index.php/Home/ForgetPwd/index/type/shoper.html
+ERR: Cron:cron Runat 2017-05-22 14:34:47 Use 0.000486 s
+
+[ 2017-05-22T14:34:54+08:00 ] ::1 /eshop/index.php/ForgetPwd/checkAccount.html
+ERR: Cron:cron Runat 2017-05-22 14:34:54 Use 0.000971 s
+
+[ 2017-05-22T14:34:54+08:00 ] ::1 /eshop/index.php/ForgetPwd/checkAccount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002928s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.041668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.046414s ]
+SQL: SHOW COLUMNS FROM `eshop_cart` [ RunTime:0.0306s ]
+SQL: SELECT `goodId`,`goodNumber`,`mount`,`name`,`shopPrice`,`good_log` FROM eshop_cart c INNER JOIN eshop_good as g on c.goodId = g.id  WHERE `userId` = '20' ORDER BY c.time desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0305s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = 20 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0340s ]
+SQL: SELECT `id` FROM `eshop_shoper` WHERE `name` = 'shoper3' OR `email` = 'shoper3' OR `tel` = 'shoper3' LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004809s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005271s ]
+
+[ 2017-05-22T14:35:01+08:00 ] ::1 /eshop/index.php/ForgetPwd/checkVerify.html
+ERR: Cron:cron Runat 2017-05-22 14:35:01 Use 0.001319 s
+
+[ 2017-05-22T14:35:01+08:00 ] ::1 /eshop/index.php/ForgetPwd/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002959s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.038772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.043726s ]
+SQL: SHOW COLUMNS FROM `eshop_cart` [ RunTime:0.0323s ]
+SQL: SELECT `goodId`,`goodNumber`,`mount`,`name`,`shopPrice`,`good_log` FROM eshop_cart c INNER JOIN eshop_good as g on c.goodId = g.id  WHERE `userId` = '20' ORDER BY c.time desc  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0274s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = 20 LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002487s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002785s ]
+
+[ 2017-05-22T14:35:06+08:00 ] ::1 /eshop/index.php/ForgetPwd/checkVerify.html
+ERR: Cron:cron Runat 2017-05-22 14:35:06 Use 0.000924 s
+
+[ 2017-05-22T14:35:07+08:00 ] ::1 /eshop/index.php/ForgetPwd/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003497s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.042115s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.047756s ]
+SQL: SHOW COLUMNS FROM `eshop_cart` [ RunTime:0.0338s ]
+SQL: SELECT `goodId`,`goodNumber`,`mount`,`name`,`shopPrice`,`good_log` FROM eshop_cart c INNER JOIN eshop_good as g on c.goodId = g.id  WHERE `userId` = '20' ORDER BY c.time desc  [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0240s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = 20 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001838s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002086s ]
+
+[ 2017-05-22T14:35:07+08:00 ] ::1 /eshop/index.php/ForgetPwd/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002510s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.024919s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.031004s ]
+SQL: SHOW COLUMNS FROM `eshop_cart` [ RunTime:0.0252s ]
+SQL: SELECT `goodId`,`goodNumber`,`mount`,`name`,`shopPrice`,`good_log` FROM eshop_cart c INNER JOIN eshop_good as g on c.goodId = g.id  WHERE `userId` = '20' ORDER BY c.time desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0284s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = 20 LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003342s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003807s ]
+
+[ 2017-05-22T14:35:08+08:00 ] ::1 /eshop/index.php/ForgetPwd/findPwd.html
+ERR: Cron:cron Runat 2017-05-22 14:35:08 Use 0.000855 s
+
+[ 2017-05-22T14:35:08+08:00 ] ::1 /eshop/index.php/ForgetPwd/findPwd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003240s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.034817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.040200s ]
+SQL: SHOW COLUMNS FROM `eshop_cart` [ RunTime:0.0340s ]
+SQL: SELECT `goodId`,`goodNumber`,`mount`,`name`,`shopPrice`,`good_log` FROM eshop_cart c INNER JOIN eshop_good as g on c.goodId = g.id  WHERE `userId` = '20' ORDER BY c.time desc  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0260s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = 20 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0261s ]
+SQL: SELECT `id`,`name`,`email`,`tel`,`bind_email`,`bind_tel` FROM `eshop_shoper` WHERE `name` = 'shoper3' OR `email` = 'shoper3' OR `tel` = 'shoper3' LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2017-05-22T14:35:28+08:00 ] ::1 /eshop/index.php/ForgetPwd/checkEmailVerifyCode
+ERR: Cron:cron Runat 2017-05-22 14:35:28 Use 0.000876 s
+
+[ 2017-05-22T14:35:29+08:00 ] ::1 /eshop/index.php/ForgetPwd/checkEmailVerifyCode
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002286s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.039170s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.043410s ]
+SQL: SHOW COLUMNS FROM `eshop_cart` [ RunTime:0.0477s ]
+SQL: SELECT `goodId`,`goodNumber`,`mount`,`name`,`shopPrice`,`good_log` FROM eshop_cart c INNER JOIN eshop_good as g on c.goodId = g.id  WHERE `userId` = '20' ORDER BY c.time desc  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0265s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = 20 LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002800s ]
+
+[ 2017-05-22T14:35:30+08:00 ] ::1 /eshop/index.php/ForgetPwd/findPwd.html
+ERR: Cron:cron Runat 2017-05-22 14:35:30 Use 0.000894 s
+
+[ 2017-05-22T14:35:30+08:00 ] ::1 /eshop/index.php/ForgetPwd/findPwd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002452s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.042685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.046975s ]
+SQL: SHOW COLUMNS FROM `eshop_cart` [ RunTime:0.0339s ]
+SQL: SELECT `goodId`,`goodNumber`,`mount`,`name`,`shopPrice`,`good_log` FROM eshop_cart c INNER JOIN eshop_good as g on c.goodId = g.id  WHERE `userId` = '20' ORDER BY c.time desc  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0324s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = 20 LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2017-05-22T14:36:02+08:00 ] ::1 /eshop/index.php/ForgetPwd/resetPwdDo
+ERR: Cron:cron Runat 2017-05-22 14:36:02 Use 0.000575 s
+
+[ 2017-05-22T14:36:02+08:00 ] ::1 /eshop/index.php/ForgetPwd/resetPwdDo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001418s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.022528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024983s ]
+SQL: SHOW COLUMNS FROM `eshop_cart` [ RunTime:0.0138s ]
+SQL: SELECT `goodId`,`goodNumber`,`mount`,`name`,`shopPrice`,`good_log` FROM eshop_cart c INNER JOIN eshop_good as g on c.goodId = g.id  WHERE `userId` = '20' ORDER BY c.time desc  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0138s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = 20 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0157s ]
+SQL: UPDATE `eshop_shoper` SET `password`='d30625a753ea9fa658bfbfcb363033c4',`modify_time`='1495434962' WHERE `id` = 13 [ RunTime:0.0510s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper_log` [ RunTime:0.0466s ]
+NOTIC: [2] fopen(D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Org\Net/UTFWry.dat): failed to open stream: No such file or directory D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Org\Net\IpLocation.class.php 第 54 行.
+SQL: INSERT INTO `eshop_shoper_log` (`shoperId`,`action`,`ip`,`location`,`time`) VALUES ('13','密码找回','0.0.0.0',NULL,'1495434962') [ RunTime:0.0329s ]
+
+[ 2017-05-22T14:36:07+08:00 ] ::1 /eshop/index.php/Home/Shoper/index.html
+ERR: Cron:cron Runat 2017-05-22 14:36:07 Use 0.000705 s
+
+[ 2017-05-22T14:36:29+08:00 ] ::1 /eshop/index.php/ForgetPwd/verify/id/3.html
+ERR: Cron:cron Runat 2017-05-22 14:36:29 Use 0.000567 s
+
+[ 2017-05-22T14:36:32+08:00 ] ::1 /eshop/index.php/Home/Shoper/index.html
+ERR: Cron:cron Runat 2017-05-22 14:36:32 Use 0.000782 s
+
+[ 2017-05-22T14:38:14+08:00 ] ::1 /eshop/index.php/Home/Shoper/index.html
+ERR: Cron:cron Runat 2017-05-22 14:38:14 Use 0.000558 s
+
+[ 2017-05-22T14:38:21+08:00 ] ::1 /eshop/index.php/Home/Index/index.html
+ERR: Cron:cron Runat 2017-05-22 14:38:21 Use 0.000522 s
+
+[ 2017-05-22T14:38:23+08:00 ] ::1 /eshop/index.php/Home/Index/index.html
+ERR: Cron:cron Runat 2017-05-22 14:38:23 Use 0.000533 s
+
+[ 2017-05-22T14:38:26+08:00 ] ::1 /eshop/index.php/Home/User/login.html
+ERR: Cron:cron Runat 2017-05-22 14:38:26 Use 0.000577 s
+
+[ 2017-05-22T14:39:19+08:00 ] ::1 /eshop/index.php/Home/User/login.html
+ERR: Cron:cron Runat 2017-05-22 14:39:19 Use 0.000618 s
+
+[ 2017-05-22T14:58:38+08:00 ] ::1 /eshop/index.php/Home/Index/index.html
+ERR: Cron:cron Runat 2017-05-22 14:58:38 Use 0.000475 s
+
+[ 2017-05-22T14:58:46+08:00 ] ::1 /eshop/index.php/Index/info.html
+ERR: Cron:cron Runat 2017-05-22 14:58:46 Use 0.003397 s
+
+[ 2017-05-22T14:58:53+08:00 ] ::1 /eshop/index.php/Help/index.html
+ERR: Cron:cron Runat 2017-05-22 14:58:53 Use 0.000323 s
+
+[ 2017-05-22T14:58:58+08:00 ] ::1 /eshop/index.php/Help/index.html
+ERR: Cron:cron Runat 2017-05-22 14:58:58 Use 0.001157 s
+
+[ 2017-05-22T14:59:02+08:00 ] ::1 /eshop/index.php/Home/Index/index.html
+ERR: Cron:cron Runat 2017-05-22 14:59:02 Use 0.000410 s
+
+[ 2017-05-22T15:02:28+08:00 ] ::1 /eshop/index.php/Home/Index/index.html
+ERR: Cron:cron Runat 2017-05-22 15:02:28 Use 0.000458 s
+
+[ 2017-05-22T15:07:08+08:00 ] ::1 /eshop/index.php/Home/Index/index.html
+ERR: Cron:cron Runat 2017-05-22 15:07:08 Use 0.000429 s
+
+[ 2017-05-22T16:08:56+08:00 ] ::1 /eshop/index.php/Home/Index/index.html
+ERR: Cron:cron Runat 2017-05-22 16:08:56 Use 0.000410 s
+
+[ 2017-05-22T16:09:25+08:00 ] ::1 /eshop/index.php/Home/Index/index.html
+ERR: Cron:cron Runat 2017-05-22 16:09:25 Use 0.000393 s
+
+[ 2017-05-22T16:09:58+08:00 ] ::1 /eshop/index.php/Home/Index/index.html
+ERR: Cron:cron Runat 2017-05-22 16:09:58 Use 0.000297 s
+
+[ 2017-05-22T16:11:20+08:00 ] ::1 /eshop/index.php/Home/Index/index.html
+ERR: Cron:cron Runat 2017-05-22 16:11:20 Use 0.000492 s
+
+[ 2017-05-22T16:12:00+08:00 ] ::1 /eshop/index.php/Home/Index/index.html
+ERR: Cron:cron Runat 2017-05-22 16:12:00 Use 0.000477 s
+
+[ 2017-05-22T16:13:50+08:00 ] ::1 /eshop/index.php/Home/Index/index.html
+ERR: Cron:cron Runat 2017-05-22 16:13:50 Use 0.000325 s
+
+[ 2017-05-22T16:14:24+08:00 ] ::1 /eshop/index.php/Home/Index/index.html
+ERR: Cron:cron Runat 2017-05-22 16:14:24 Use 0.000306 s
+
+[ 2017-05-22T16:15:09+08:00 ] ::1 /eshop/index.php/Home/Index/index.html
+ERR: Cron:cron Runat 2017-05-22 16:15:09 Use 0.000323 s
+
+[ 2017-05-22T16:16:15+08:00 ] ::1 /eshop/index.php/Home/Index/index.html
+ERR: Cron:cron Runat 2017-05-22 16:16:15 Use 0.000531 s
+
+[ 2017-05-22T16:16:25+08:00 ] ::1 /eshop/index.php/Home/Index/index.html
+ERR: Cron:cron Runat 2017-05-22 16:16:25 Use 0.000413 s
+
+[ 2017-05-22T16:17:40+08:00 ] ::1 /eshop/index.php/Home/Index/index.html
+ERR: Cron:cron Runat 2017-05-22 16:17:40 Use 0.000364 s
+
+[ 2017-05-22T16:21:10+08:00 ] ::1 /eshop/index.php/Home/Index/index.html
+ERR: Cron:cron Runat 2017-05-22 16:21:10 Use 0.000289 s
+
+[ 2017-05-22T16:24:14+08:00 ] ::1 /eshop/index.php/Home/Index/index.html
+ERR: Cron:cron Runat 2017-05-22 16:24:14 Use 0.000383 s
+
+[ 2017-05-22T16:24:42+08:00 ] ::1 /eshop/index.php/Home/Index/index.html
+ERR: Cron:cron Runat 2017-05-22 16:24:42 Use 0.000304 s
+
+[ 2017-05-22T16:25:39+08:00 ] ::1 /eshop/index.php/Home/Index/index.html
+ERR: Cron:cron Runat 2017-05-22 16:25:39 Use 0.000368 s
+
+[ 2017-05-22T16:26:23+08:00 ] ::1 /eshop/index.php/Home/Index/index.html
+ERR: Cron:cron Runat 2017-05-22 16:26:23 Use 0.000353 s
+
+[ 2017-05-22T16:26:51+08:00 ] ::1 /eshop/index.php/Home/Index/index.html
+ERR: Cron:cron Runat 2017-05-22 16:26:51 Use 0.000312 s
+
+[ 2017-05-22T16:27:35+08:00 ] ::1 /eshop/index.php/Home/Index/index.html
+ERR: Cron:cron Runat 2017-05-22 16:27:35 Use 0.000321 s
+
+[ 2017-05-22T16:28:49+08:00 ] ::1 /eshop/index.php/Home/Index/index.html
+ERR: Cron:cron Runat 2017-05-22 16:28:49 Use 0.000385 s
+
+[ 2017-05-22T16:29:27+08:00 ] ::1 /eshop/index.php/Home/Index/index.html
+ERR: Cron:cron Runat 2017-05-22 16:29:27 Use 0.000356 s
+
+[ 2017-05-22T16:29:34+08:00 ] ::1 /eshop/index.php/Home/Index/index.html
+ERR: Cron:cron Runat 2017-05-22 16:29:34 Use 0.000290 s
+
+[ 2017-05-22T16:30:05+08:00 ] ::1 /eshop/index.php/Home/Index/index.html
+ERR: Cron:cron Runat 2017-05-22 16:30:05 Use 0.000496 s
+
+[ 2017-05-22T16:30:31+08:00 ] ::1 /eshop/index.php/Home/Index/index.html
+ERR: Cron:cron Runat 2017-05-22 16:30:31 Use 0.000312 s
+
+[ 2017-05-22T16:30:58+08:00 ] ::1 /eshop/index.php/Home/Index/index.html
+ERR: Cron:cron Runat 2017-05-22 16:30:58 Use 0.000371 s
+
+[ 2017-05-22T16:31:15+08:00 ] ::1 /eshop/index.php/Home/Index/index.html
+ERR: Cron:cron Runat 2017-05-22 16:31:15 Use 0.000300 s
+
+[ 2017-05-22T16:31:21+08:00 ] ::1 /eshop/index.php/Home/Index/index.html
+ERR: Cron:cron Runat 2017-05-22 16:31:21 Use 0.000340 s
+
+[ 2017-05-22T16:31:30+08:00 ] ::1 /eshop/index.php/Home/Index/index.html
+ERR: Cron:cron Runat 2017-05-22 16:31:30 Use 0.001197 s
+
+[ 2017-05-22T16:32:02+08:00 ] ::1 /eshop/index.php/Home/Index/index.html
+ERR: Cron:cron Runat 2017-05-22 16:32:02 Use 0.000522 s
+
+[ 2017-05-22T16:32:11+08:00 ] ::1 /eshop/index.php/Home/Index/index.html
+ERR: Cron:cron Runat 2017-05-22 16:32:11 Use 0.000372 s
+
+[ 2017-05-22T16:33:19+08:00 ] ::1 /eshop/index.php/Home/Index/index.html
+ERR: Cron:cron Runat 2017-05-22 16:33:19 Use 0.000453 s
+
+[ 2017-05-22T16:40:41+08:00 ] ::1 /eshop/index.php/Home/Index/index.html
+ERR: Cron:cron Runat 2017-05-22 16:40:41 Use 0.000353 s
+
+[ 2017-05-22T16:40:45+08:00 ] ::1 /eshop/index.php/Home/Index/index.html
+ERR: Cron:cron Runat 2017-05-22 16:40:45 Use 0.000446 s
+
+[ 2017-05-22T16:40:49+08:00 ] ::1 /eshop/index.php/Home/Index/index.html
+ERR: Cron:cron Runat 2017-05-22 16:40:49 Use 0.000396 s
+
+[ 2017-05-22T16:41:10+08:00 ] ::1 /eshop/index.php/Index/info.html
+ERR: Cron:cron Runat 2017-05-22 16:41:10 Use 0.000311 s
+
+[ 2017-05-22T16:41:55+08:00 ] ::1 /eshop/index.php/Index/infoDetail.html
+ERR: Cron:cron Runat 2017-05-22 16:41:55 Use 0.000385 s
+
+[ 2017-05-22T16:42:00+08:00 ] ::1 /eshop/index.php/Index/infoDetail.html
+ERR: Cron:cron Runat 2017-05-22 16:42:00 Use 0.000389 s
+
+[ 2017-05-22T16:42:18+08:00 ] ::1 /eshop/index.php/Index/infoDetail.html
+ERR: Cron:cron Runat 2017-05-22 16:42:18 Use 0.000323 s
+
+[ 2017-05-22T16:42:25+08:00 ] ::1 /eshop/index.php/Index/infoDetail.html
+ERR: Cron:cron Runat 2017-05-22 16:42:25 Use 0.000367 s
+
+[ 2017-05-22T16:43:41+08:00 ] ::1 /eshop/index.php/Help/index.html
+ERR: Cron:cron Runat 2017-05-22 16:43:41 Use 0.000964 s
+
+[ 2017-05-22T16:43:43+08:00 ] ::1 /eshop/index.php/Help/index.html
+ERR: Cron:cron Runat 2017-05-22 16:43:43 Use 0.000396 s
+
+[ 2017-05-22T16:43:55+08:00 ] ::1 /eshop/index.php/Home/Index/index.html
+ERR: Cron:cron Runat 2017-05-22 16:43:55 Use 0.000395 s
+
+[ 2017-05-22T16:44:05+08:00 ] ::1 /eshop/index.php/Index/info.html
+ERR: Cron:cron Runat 2017-05-22 16:44:05 Use 0.001522 s
+
+[ 2017-05-22T16:48:30+08:00 ] ::1 /eshop/index.php/Home/Index/index.html
+ERR: Cron:cron Runat 2017-05-22 16:48:30 Use 0.000306 s
+
+[ 2017-05-22T16:49:31+08:00 ] ::1 /eshop/index.php/Home/Shoper/index.html
+ERR: Cron:cron Runat 2017-05-22 16:49:31 Use 0.000389 s
+
+[ 2017-05-22T16:49:50+08:00 ] ::1 /eshop/index.php/Shoper/checkVerify.html
+ERR: Cron:cron Runat 2017-05-22 16:49:50 Use 0.000364 s
+
+[ 2017-05-22T16:49:50+08:00 ] ::1 /eshop/index.php/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000818s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.016012s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017557s ]
+NOTIC: [8] Undefined index: good_cart D:\wampserver\wamp\www\eshop\App\Home\Common\function.php 第 294 行.
+NOTIC: [8] Undefined index: good_cart D:\wampserver\wamp\www\eshop\App\Home\Common\function.php 第 294 行.
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0109s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = null LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001070s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001220s ]
+
+[ 2017-05-22T16:49:50+08:00 ] ::1 /eshop/index.php/Shoper/doLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000769s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.006755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008216s ]
+NOTIC: [8] Undefined index: good_cart D:\wampserver\wamp\www\eshop\App\Home\Common\function.php 第 294 行.
+NOTIC: [8] Undefined index: good_cart D:\wampserver\wamp\www\eshop\App\Home\Common\function.php 第 294 行.
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0096s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `eshop_shoper` WHERE `name` = 'shoper3' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper_log` [ RunTime:0.0102s ]
+NOTIC: [2] fopen(D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Org\Net/UTFWry.dat): failed to open stream: No such file or directory D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Org\Net\IpLocation.class.php 第 54 行.
+SQL: INSERT INTO `eshop_shoper_log` (`shoperId`,`action`,`ip`,`location`,`time`) VALUES ('13','登录','0.0.0.0',NULL,'1495442990') [ RunTime:0.0610s ]
+
+[ 2017-05-22T16:49:54+08:00 ] ::1 /eshop/index.php/Home/ShopCart/index.html
+ERR: Cron:cron Runat 2017-05-22 16:49:54 Use 0.000446 s
+
+[ 2017-05-22T16:49:58+08:00 ] ::1 /eshop/index.php/Home/ShopOrders/waitDelivery.html
+ERR: Cron:cron Runat 2017-05-22 16:49:58 Use 0.000345 s
+
+[ 2017-05-22T16:50:00+08:00 ] ::1 /eshop/index.php/Home/ShopOrders/waitPay.html
+ERR: Cron:cron Runat 2017-05-22 16:50:00 Use 0.000423 s
+
+[ 2017-05-22T16:50:02+08:00 ] ::1 /eshop/index.php/ShopOrders/waitPay/p/2.html
+ERR: Cron:cron Runat 2017-05-22 16:50:02 Use 0.000380 s
+
+[ 2017-05-22T16:50:03+08:00 ] ::1 /eshop/index.php/ShopOrders/waitPay/p/2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000901s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.013173s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014690s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0095s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `eshop_shop` WHERE `id` = 3 AND `is_exam` = 1 AND `is_forbid` = 0 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_firstmenu` [ RunTime:0.0097s ]
+SQL: SELECT `id`,`name` FROM `eshop_shop_firstmenu` WHERE `shopId` = 3 AND `is_show` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_secondmenu` [ RunTime:0.0101s ]
+SQL: SELECT `pid`,`id`,`sname` FROM `eshop_shop_secondmenu` WHERE `pid` IN ('1','5') AND `is_show` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_order` [ RunTime:0.0096s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_order` WHERE `shopId` = 3 AND `is_complaint` = 0 AND `is_deliver` = 0 AND `is_cancel` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0106s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `eshop_goodcomment` [ RunTime:0.0092s ]
+SQL: SELECT AVG(goodScore) AS tp_avg FROM `eshop_goodcomment` WHERE `shopId` = 3 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT AVG(logisticsScore) AS tp_avg FROM `eshop_goodcomment` WHERE `shopId` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT AVG(serviceScore) AS tp_avg FROM `eshop_goodcomment` WHERE `shopId` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_order` WHERE `shopId` = 3 AND `is_complaint` = 0 AND `is_pay` = 0 AND `is_cancel` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM eshop_order o INNER JOIN eshop_order_goods as g on o.id = g.orderId  WHERE `shopId` = '3' AND `is_complaint` = 0 AND `is_pay` = 0 AND `is_cancel` = 0 ORDER BY o.create_time desc LIMIT 5,5   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.073102s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073199s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000606s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000608s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001323s ]
+
+[ 2017-05-22T16:50:07+08:00 ] ::1 /eshop/index.php/Home/ShopOrders/orderSearch
+ERR: Cron:cron Runat 2017-05-22 16:50:07 Use 0.000358 s
+
+[ 2017-05-22T16:50:07+08:00 ] ::1 /eshop/index.php/Home/ShopOrders/orderSearch
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000829s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.013395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014853s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0108s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `eshop_shop` WHERE `id` = 3 AND `is_exam` = 1 AND `is_forbid` = 0 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_firstmenu` [ RunTime:0.0107s ]
+SQL: SELECT `id`,`name` FROM `eshop_shop_firstmenu` WHERE `shopId` = 3 AND `is_show` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_secondmenu` [ RunTime:0.0105s ]
+SQL: SELECT `pid`,`id`,`sname` FROM `eshop_shop_secondmenu` WHERE `pid` IN ('1','5') AND `is_show` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_order` [ RunTime:0.0096s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_order` WHERE `shopId` = 3 AND `is_complaint` = 0 AND `is_deliver` = 0 AND `is_cancel` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `eshop_messages` [ RunTime:0.0092s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_messages` WHERE `status` = 0 AND `receiveId` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `eshop_goodcomment` [ RunTime:0.0098s ]
+SQL: SELECT AVG(goodScore) AS tp_avg FROM `eshop_goodcomment` WHERE `shopId` = 3 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT AVG(logisticsScore) AS tp_avg FROM `eshop_goodcomment` WHERE `shopId` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT AVG(serviceScore) AS tp_avg FROM `eshop_goodcomment` WHERE `shopId` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_order` WHERE `shopId` = 3 AND `payType` = 3 AND `is_complaint` = 0 AND `is_pay` = 0 AND `is_cancel` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM eshop_order o INNER JOIN eshop_order_goods as g on o.id = g.orderId  WHERE `shopId` = '3' AND `payType` = 3 AND `is_complaint` = 0 AND `is_pay` = 0 AND `is_cancel` = 0 ORDER BY o.create_time desc LIMIT 0,6   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: typee D:\wampserver\wamp\www\eshop\App\Home\Controller\ShopOrdersController.class.php 第 128 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014599s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014697s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000533s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001195s ]
+
+[ 2017-05-22T16:50:10+08:00 ] ::1 /eshop/index.php/Home/ShopOrders/waitDelivery.html
+ERR: Cron:cron Runat 2017-05-22 16:50:10 Use 0.000261 s
+
+[ 2017-05-22T16:50:13+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/security.html
+ERR: Cron:cron Runat 2017-05-22 16:50:13 Use 0.000363 s
+
+[ 2017-05-22T16:50:22+08:00 ] ::1 /eshop/index.php/Home/ShopManage/info.html
+ERR: Cron:cron Runat 2017-05-22 16:50:22 Use 0.000416 s
+
+[ 2017-05-22T16:50:42+08:00 ] ::1 /eshop/index.php/Home/ShopManage/setting.html
+ERR: Cron:cron Runat 2017-05-22 16:50:42 Use 0.000315 s
+
+[ 2017-05-22T16:51:02+08:00 ] ::1 /eshop/index.php/Home/Search/index/shopId/3/goodname/%E8%8B%B9%E6%9E%9C/type/1.html
+ERR: Cron:cron Runat 2017-05-22 16:51:02 Use 0.000358 s
+
+[ 2017-05-22T16:51:10+08:00 ] ::1 /eshop/index.php/Home/Search/index/shopId/3/goodname/%E8%8B%B9%E6%9E%9C/type/1.html
+ERR: Cron:cron Runat 2017-05-22 16:51:10 Use 0.000433 s
+
+[ 2017-05-22T16:51:18+08:00 ] ::1 /eshop/index.php/Home/Search/index/shopId/3/goodname/%E5%92%B8%E9%B8%AD%E8%9B%8B/type/1.html
+ERR: Cron:cron Runat 2017-05-22 16:51:18 Use 0.000315 s
+
+[ 2017-05-22T16:51:27+08:00 ] ::1 /eshop/index.php/Home/Search/index/goodname/%E5%92%B8%E9%B8%AD%E8%9B%8B/type/0.html
+ERR: Cron:cron Runat 2017-05-22 16:51:27 Use 0.000695 s
+

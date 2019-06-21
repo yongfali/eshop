@@ -1,0 +1,113 @@
+<!-- 店铺首页头部开始 -->
+<div class="header">
+  <div class="header_wraper">
+    <div class="header_left"> 
+      <span>
+      <a href="javascript:void(0);" onclick="SetHome(this,'http://www.eshop.lyf94.com');">设为首页</a>
+    </span> 
+    <span>
+      <a href="javascript:void(0);" onclick="AddFavorite('微农电商网',location.href)">收藏本站</a>
+    </span>
+    <span>
+      <a href="<if condition="$Think.session.type eq 1">{:U('Home/ShoperCenter/messages')}<else/>{:U('Home/UserMsgManage/messages')}</if>" target="_blank">消息<span <if condition="$noReadMsgNum gt 0"> style="color:red;"</if> >（{$noReadMsgNum}）</span></a>
+    </span>  
+    </div>
+    <div class="header_right">
+      <ul>
+        <li class="header_nav"><a href="{:U('Home/ShoperCenter/info')}">商家中心</a>
+          <if condition="$Think.session.type eq 1">
+            <ul>
+              <li><a href="{:U('Home/ShopCart/index')}">商品管理</a></li>
+              <li><a href="{:U('Home/ShopOrders/waitPay')}">交易管理</a></li>
+              <li><a href="{:U('Home/ShopManage/index')}">店铺管理</a></li>
+            </ul>
+            <else/>
+            <ul>
+              <li><a href="{:U('Home/Shoper/regist')}">免费开店</a></li>
+              <li><a href="{:U('Home/Shoper/index')}">商家登录</a></li> 
+            </ul>
+          </if>
+      </ul>
+      <span class="header_nav"> 
+      <empty name="Think.session.uname"> 欢迎光临eshop商城，<a href="{:U('Home/Shoper/index')}">登录</a>
+        <else />
+        欢迎<span style="color:red;font-size:16px;padding: 0px 8px;">{$Think.session.uname}</span>光临eshop商城，<a href="{:U('Home/Shoper/loginout')}">退出</a> </empty>
+      </span> </div>
+  </div>
+</div>
+<div class="float_clear"></div>
+<!-- 店铺首页头部结束 --> 
+<!-- 头部搜索开始 -->
+<div class="shop_search_wrapper">
+  <div class="shop_search_left">
+    <div class="s_logo"> 
+      <a href="{:U('Home/Shop/index',array('shopId'=> $shopInfo['id']))}" target="_blank">
+        <empty name="shopInfo.logo">
+         <img src="__PUBLIC__/Home/Icon/no-img.png" alt="店铺logo">
+         <else/>
+         <img src="__ROOT__/{$shopInfo.logo}" alt="店铺logo">
+       </empty>
+      </a> 
+    </div>
+    <div class="s_info">
+      <h3>{$shopInfo.name}</h3>
+      <div class="s_info1"> 
+        <img src="__PUBLIC__/Home/ShopImage/renzheng.png"><span>国家认证商家</span> <img src="__PUBLIC__/Home/ShopImage/qitian.png"><span>七天无条件退款</span> <a href="tencent://message/?uin={$shopInfo.service_qq}&Site=qq&Menu=yes"><img src="__PUBLIC__/Home/ShopImage/qq.gif" style="width:65px;height:24px;"></a> </div>
+      <div class="s_info2">
+        <lable>商品评分：<span>{:sprintf("%.1f", $goodScore)}分</span></lable>
+        <lable>服务评价：<span>{:sprintf("%.1f", $logisticsSocre)}分</span></lable>
+        <lable>物流评价：<span>{:sprintf("%.1f", $serviceScore)}分</span></lable>
+        <span>
+          <if condition="checkCollection($shopInfo['id'],1) eq 1">
+            <a href="javascript:void(0);" onclick="cancle({$shopInfo.id},1,{$Think.session.uid})">取消关注</a>
+            <else/> 
+            <a href="javascript:void(0);" onclick="Collection({$shopInfo.id},1)">关注本店</a>
+          </if>
+        </span>
+        <label><a href="{:U('Home/Index/index')}" target="_blank">商城首页</a></label>
+      </div>
+    </div>
+  </div>
+  <!-- 店铺logo和基本信息结束 -->
+  <div class="shop_search_right">
+    <form action=" " method="post" class="s_form">
+      <input type="text" name="words" id="keyWords" placeholder="输入您想要的商品" autocomplete="off"/>
+      <a href="javascript:void(0);" onclick="goodsSearch(1);" id="shopSerch" rel="{$shopInfo.id}" class="btn1">
+        <span>搜本店</span>
+      </a> 
+      <a href="javascript:void(0);" onclick="goodsSearch();" rel="{:U('Home/Search/index')}" id="goodSerch" class="btn1">
+        <span>搜全站</span>
+      </a>
+    </form>
+  </div>
+  <!-- 搜索框结束--> 
+</div>
+<!-- 头部搜索结束 --> 
+<!-- 店铺首页导航开始 -->
+<div class="shop_nav_wrapper">
+  <div class="shop_nav_list">
+    <ul>
+      <li class="allProduct"><a href="javascript:void(0);">本店所有产品</a>
+        <p></p>
+        <ul class="allProduct2">
+          <volist name="shopNav" id="item" key="i">
+            <li><a href="{:U('moreList',array('shopId' => $shopInfo['id'],'scat' => $item[id]))}">{$item.name}</a>
+              <if condition="$item.childNum gt 0">
+                <ul class="allProduct3">
+                  <volist name="item.child" id="data" key="j">
+                    <li><a href="{:U('moreList',array('shopId' => $shopInfo['id'],'scat' => $item[id],'scat2' => $data[id]))}">{$data.sname}</a></li>
+                  </volist>
+                </ul>
+              </if>
+            </li>
+          </volist>
+        </ul>
+      </li>
+      <li><a href="{:U('Home/Shop/index',array('shopId'=> $shopInfo['id']))}" target="_blank">首页</a></li>
+      <volist name="shopNav" id="data" offset="0" length='3'>
+        <li><a href="{:U('moreList',array('shopId' => $shopInfo['id'],'scat' => $data[id]))}" target="_blank">{$data.name}</a></li>
+      </volist>
+    </ul>
+  </div>
+</div>
+<!-- 店铺首页导航结束 -->

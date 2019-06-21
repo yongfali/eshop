@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>忘记密码</title>
+<include file = "Public:common"/>
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/Css/ForgetPass/forgetPass.css">
+<script src="__PUBLIC__/Home/Js/ForgetPass/forgetPass.js"></script>
+<script type="text/javascript">
+	var checkVerify = "{:U('checkVerify')}";
+	var checkAccount = "{:U('checkAccount')}";
+	var findPwd = "{:U('findPwd')}";
+	var forgetPass2 = "{:U('foregtPwd')}";
+</script>
+</head>
+<body>
+<include file='Public:header'/>
+<div class="forgetPwd_wrap">
+	<div id="stepflex" class="stepflex">
+		<dl class="first doing">
+			<dt class="s-num">1</dt>
+			<dd class="s-text">填写账户名</dd>
+			<dd></dd>
+		</dl>
+		<dl class="normal">
+			<dt class="s-num1">2</dt>
+			<dd class="s-text">验证身份</dd>
+		</dl>
+		<dl class="normal">
+			<dt class="s-num1">3</dt>
+			<dd class="s-text">重置密码</dd>
+		</dl>
+		<dl class="last">
+			<dt class="s-num1">4</dt>
+			<dd class="s-text">完成</dd>
+		</dl>
+	</div>
+	<div class="forget-pwd">
+		<form  id="forgetPwdForm" autocomplete="off" method="post">
+			<input type="hidden" id="step" name="step" value="1" autocomplete="off">
+			<input type="hidden" id="utype" name="utype" value="{$type}">
+			<input type="hidden" id="type" name="type" value="3">
+			<table class="forgetPwd-table">
+				<tbody>
+					<tr>
+						<td class="info">账号</td>
+						<td>
+							<input id="account" class="inputs" name="account" type="text" autocomplete="off" placeholder="邮箱/注册账号/手机号"/>
+						</td>
+					</tr>
+					<tr>
+						<td class="info">验证码</td>
+						<td>
+							<div class="verifys">
+								<input id="verifyCode" class="inputs" name="verifyCode" autocomplete="off"  placeholder="验证码"/>
+								<input id="verifyType"type="hidden" val="3"/>
+								<img id='verifyImg' src="{:U('verify',array('id' =>3))}" onclick = "changeVerify()">
+							</div>
+						</td>
+					</tr>
+					<tr style="height:20px;">
+						<td colspan="2" style="padding-left:93px;">
+							<label >看不清？
+								<a style="color:#69b7b5;" href="javascript:changeVerify();">换一张</a>
+							</label>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2" style="padding-left:93px;">
+							<input type="submit" class="next-btn" value="下一步"/>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</form>
+	</div>
+</div>
+<include file = "Public:footer" />
+</body>
+</html>

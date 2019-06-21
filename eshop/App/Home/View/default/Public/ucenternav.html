@@ -1,0 +1,70 @@
+<!-- 用户中心左侧导航标签公共部分 -->
+<div class="ucenter_left">
+  <h3>我的订单</h3>
+  <ul>
+    <a href="{:U('Home/UserOrders/waitPay')}">
+    <li>待支付订单</li>
+    </a> <a href="{:U('Home/UserOrders/waitDelivery')}">
+    <li>待发货订单
+      <notempty name="waitDeliveryNum">
+        <span class="order-num">{$waitDeliveryNum}</span>
+      </notempty>
+    </li>
+    </a> 
+    <a href="{:U('Home/UserOrders/waitReceive')}">
+      <li>待收货订单<notempty name="waitReceiveNum">
+        <span class="order-num">{$waitReceiveNum}</span>
+      </notempty>
+    </li>
+  </a> 
+  <a href="{:U('Home/UserOrders/waitAppraise')}">
+    <li>待评价订单
+      <notempty name="finishedNum">
+        <span class="order-num">{$finishedNum}</span>
+      </notempty>
+    </li>
+  </a> 
+    <a href="{:U('Home/UserOrders/appraised')}">
+    <li>已评论订单</li>
+    </a> <a href="{:U('Home/UserOrders/failure')}">
+    <li>已取消订单</li>
+    </a>
+    <a href="{:U('Home/UserOrders/refund')}">
+    <li>拒收或退款</li>
+    </a>
+  </ul>
+  <h3>我的收藏</h3>
+  <ul>
+    <a href="{:U('Home/UserCollection/goods')}">
+    <li>收藏商品</li>
+    </a> <a href="{:U('Home/UserCollection/shops')}">
+    <li>收藏店铺</li>
+    </a>
+  </ul>
+  <h3>账户设置</h3>
+  <ul>
+    <a href="{:U('Home/UserCenter/userinfo')}">
+    <li>个人资料</li>
+    </a> 
+    <a href="{:U('Home/UserCenter/security')}">
+    <li>账号安全</li>
+    </a> 
+    <a href="{:U('Home/UserCenter/address')}">
+    <li>地址管理</li>
+    </a>
+    <a href="{:U('Home/UserCenter/modifyPwd')}">
+      <li>修改密码</li>
+    </a> 
+    <a href="{:U('Home/UserCenter/index')}">
+    <li>操作记录</li>
+    </a>
+  </ul>
+  <h3>客户管理</h3>
+  <ul>
+    <a href="{:U('Home/UserMsgManage/orderComplainManage')}">
+    <li>投诉管理</li>
+    </a> <a href="{:U('Home/UserMsgManage/messages')}">
+    <li>消息管理</li>
+    </a>
+  </ul>
+</div>

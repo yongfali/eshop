@@ -1,0 +1,99 @@
+/** 页面底部帮助导航样式**/
+.help_content{
+	width: 1200px;
+	margin: 0 auto;
+}
+.help_content_left{
+	float: left;
+	width: 190px;
+}
+.help_title{
+	height: 36px;
+	line-height: 36px;
+	text-align: center;
+	font-size: 16px;
+	color: white;
+	background: #f60;
+	font-weight: bold;
+}
+#help_nav li{
+	line-height: 38px;
+	display: block;
+}
+.h_list_icon{
+	margin: 16px 5px 0px 0px;
+	float: right;
+	display: inline-block;
+	border-left: 8px solid transparent;
+	border-right: 8px solid transparent;
+	
+}
+.h_list_icon_hidden{
+	border-bottom: 8px solid #ccc;
+}
+.h_list_icon_show{
+	border-top: 8px solid #ccc;
+}
+#help_nav li span{
+	display: block;
+	padding-left: 10px;
+	background: #f7f7f7;;
+	color: #595959;;
+	font-weight: bold;
+	border-bottom: 1px solid #fff;
+}
+#help_nav li:hover .h_menus{
+	/*display: block;*/
+}
+.h_menus{
+	border: 1px solid #dedede;
+	display: none;
+}
+.h_menus li{
+	width: 164px;
+	line-height: 20px;
+	padding: 2px 0;
+	padding-left: 20px;
+	cursor: pointer;
+}
+.h_menus li:hover,.active{
+	background: #f7f7f7;
+	border-left: 4px solid red;
+}
+.active{
+	background: #fff;
+	display:block;	
+}
+.help_content_right{
+	float: left;
+	width: 978px;
+	min-height: 400px;
+	margin-left: 30px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	background: #fcfcfc;
+}
+.right_title{
+	height: 36px;
+	background: #eee;
+}
+.right_title h2{
+	line-height: 36px;
+	margin:0 auto;
+	padding-left: 25px;
+	font-size: 18px;
+	color: #595959;
+}
+.right_content{
+	margin:10px auto;
+    padding: 0px 30px;
+}
+.right_content p{
+	line-height: 32px;
+	text-indent: 2em;
+	font-size: 16px;
+	color: #3e3c3c;
+}
+.test{
+	display: block;
+}

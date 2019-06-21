@@ -1,0 +1,728 @@
+[ 2017-03-06T09:46:56+08:00 ] ::1 /eshop/index.php/Home/Index/goods_info.html
+ERR: 非法操作:goods_info
+
+[ 2017-03-06T10:01:29+08:00 ] ::1 /eshop/index.php/Good/goodsSearch.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002191s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003684s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0170s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0109s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `shopId` = '3' AND `is_exam` = 0 AND `status` = 1 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0013s ]
+NOTIC: [8] Undefined variable: page D:\wampserver\wamp\www\eshop\App\Home\Controller\GoodController.class.php 第 343 行.
+NOTIC: [8] Trying to get property of non-object D:\wampserver\wamp\www\eshop\App\Home\Controller\GoodController.class.php 第 343 行.
+NOTIC: [8] Undefined variable: page D:\wampserver\wamp\www\eshop\App\Home\Controller\GoodController.class.php 第 343 行.
+NOTIC: [8] Trying to get property of non-object D:\wampserver\wamp\www\eshop\App\Home\Controller\GoodController.class.php 第 343 行.
+SQL: SELECT eshop_good.* FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `shopId` = '3' AND `is_exam` = 0 AND `status` = 1 AND `is_show` = 1 ORDER BY time desc  [ RunTime:0.0017s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002622s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003066s ]
+
+[ 2017-03-06T10:01:40+08:00 ] ::1 /eshop/index.php/Good/goodsSearch.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002324s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0079s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0099s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `shopId` = '3' AND `is_exam` = 0 AND `status` = 1 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: page D:\wampserver\wamp\www\eshop\App\Home\Controller\GoodController.class.php 第 343 行.
+NOTIC: [8] Trying to get property of non-object D:\wampserver\wamp\www\eshop\App\Home\Controller\GoodController.class.php 第 343 行.
+NOTIC: [8] Undefined variable: page D:\wampserver\wamp\www\eshop\App\Home\Controller\GoodController.class.php 第 343 行.
+NOTIC: [8] Trying to get property of non-object D:\wampserver\wamp\www\eshop\App\Home\Controller\GoodController.class.php 第 343 行.
+SQL: SELECT eshop_good.* FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `shopId` = '3' AND `is_exam` = 0 AND `status` = 1 AND `is_show` = 1 ORDER BY time desc  [ RunTime:0.0016s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001738s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001952s ]
+
+[ 2017-03-06T10:02:13+08:00 ] ::1 /eshop/index.php/Good/goodsSearch.html?cat1=0&cat2=0&goodsName=%E7%A8%8B%E5%BA%A6%E4%B8%8A
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002273s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0083s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0088s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `shopId` = '3' AND `is_exam` = 0 AND `status` = 1 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: page D:\wampserver\wamp\www\eshop\App\Home\Controller\GoodController.class.php 第 343 行.
+NOTIC: [8] Trying to get property of non-object D:\wampserver\wamp\www\eshop\App\Home\Controller\GoodController.class.php 第 343 行.
+NOTIC: [8] Undefined variable: page D:\wampserver\wamp\www\eshop\App\Home\Controller\GoodController.class.php 第 343 行.
+NOTIC: [8] Trying to get property of non-object D:\wampserver\wamp\www\eshop\App\Home\Controller\GoodController.class.php 第 343 行.
+SQL: SELECT eshop_good.* FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `shopId` = '3' AND `is_exam` = 0 AND `status` = 1 AND `is_show` = 1 ORDER BY time desc  [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002631s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002857s ]
+
+[ 2017-03-06T10:02:22+08:00 ] ::1 /eshop/index.php/Good/goodsSearch.html?cat1=0&cat2=0&goodsName=%E7%A8%8B%E5%BA%A6%E4%B8%8A
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002343s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0106s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0114s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `shopId` = '3' AND `is_exam` = 0 AND `status` = 1 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: page D:\wampserver\wamp\www\eshop\App\Home\Controller\GoodController.class.php 第 343 行.
+NOTIC: [8] Trying to get property of non-object D:\wampserver\wamp\www\eshop\App\Home\Controller\GoodController.class.php 第 343 行.
+NOTIC: [8] Undefined variable: page D:\wampserver\wamp\www\eshop\App\Home\Controller\GoodController.class.php 第 343 行.
+NOTIC: [8] Trying to get property of non-object D:\wampserver\wamp\www\eshop\App\Home\Controller\GoodController.class.php 第 343 行.
+SQL: SELECT eshop_good.* FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `shopId` = '3' AND `is_exam` = 0 AND `status` = 1 AND `is_show` = 1 ORDER BY time desc  [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003160s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003338s ]
+
+[ 2017-03-06T10:03:04+08:00 ] ::1 /eshop/index.php/Good/goodsSearch.html?cat1=0&cat2=0&goodsName=%E7%A8%8B%E5%BA%A6%E4%B8%8A
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002576s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0144s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0102s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `shopId` = '3' AND `is_exam` = 0 AND `status` = 1 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: page D:\wampserver\wamp\www\eshop\App\Home\Controller\GoodController.class.php 第 344 行.
+NOTIC: [8] Trying to get property of non-object D:\wampserver\wamp\www\eshop\App\Home\Controller\GoodController.class.php 第 344 行.
+NOTIC: [8] Undefined variable: page D:\wampserver\wamp\www\eshop\App\Home\Controller\GoodController.class.php 第 344 行.
+NOTIC: [8] Trying to get property of non-object D:\wampserver\wamp\www\eshop\App\Home\Controller\GoodController.class.php 第 344 行.
+SQL: SELECT eshop_good.* FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `shopId` = '3' AND `is_exam` = 0 AND `status` = 1 AND `is_show` = 1 ORDER BY time desc  [ RunTime:0.0013s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001710s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001879s ]
+
+[ 2017-03-06T11:01:13+08:00 ] ::1 /eshop/index.php/Home/Index/info/id/13.html
+ERR: 模板不存在:./App/Home/View/default/Index/info.html
+
+[ 2017-03-06T11:01:34+08:00 ] ::1 /eshop/index.php/Home/Index/info/id/13.html
+ERR: 模板不存在:./App/Home/View/default/Home/Good/info.html
+
+[ 2017-03-06T11:01:38+08:00 ] ::1 /eshop/index.php/Home/Index/info/id/13.html
+ERR: 模板不存在:./App/Home/View/default/Home/Good/info.html
+
+[ 2017-03-06T11:01:54+08:00 ] ::1 /eshop/index.php/Home/Index/info/id/13.html
+ERR: 模板不存在:./App/Home/View/default/Home/default/Good/info.html
+
+[ 2017-03-06T11:02:46+08:00 ] ::1 /eshop/index.php/Home/Index/info/id/13.html
+ERR: 非法操作:info
+
+[ 2017-03-06T11:02:49+08:00 ] ::1 /eshop/index.php/Home/Index/info/id/13.html
+ERR: 非法操作:info
+
+[ 2017-03-06T11:02:54+08:00 ] ::1 /eshop/index.php/Home/Index/info/id/13.html
+ERR: 非法操作:info
+
+[ 2017-03-06T11:03:05+08:00 ] ::1 /eshop/index.php/Home/Index/info/id/13.html
+ERR: 非法操作:info
+
+[ 2017-03-06T13:24:48+08:00 ] ::1 /eshop/index.php/Home/Good/info/id/10.html
+ERR: 1052:Column 'id' in where clause is ambiguous
+ [ SQL语句 ] : SELECT eshop_goodimg.* FROM `eshop_good` INNER JOIN eshop_goodimg on eshop_good.id = eshop_goodimg.goodId  WHERE `id` = 10 
+
+[ 2017-03-06T13:26:00+08:00 ] ::1 /eshop/index.php/Home/Good/info/id/10.html
+ERR: 1054:Unknown column 'eshop_good' in 'where clause'
+ [ SQL语句 ] : SELECT eshop_goodimg.* FROM `eshop_good` INNER JOIN eshop_goodimg on eshop_good.id = eshop_goodimg.goodId  WHERE ( eshop_good = 10 ) 
+
+[ 2017-03-06T13:35:11+08:00 ] ::1 /eshop/index.php/Home/Good/info/id/13.html
+ERR: 1054:Unknown column 'eshop_goodservice.content' in 'field list'
+ [ SQL语句 ] : SELECT eshop_goodservice.content FROM eshop_good g INNER JOIN eshop_goodservice as s on g.id = s.goodId  WHERE ( g.id = $goodId and s.is_show = 1 ) 
+
+[ 2017-03-06T13:35:42+08:00 ] ::1 /eshop/index.php/Home/Good/info/id/13.html
+ERR: 1054:Unknown column '$goodId' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM eshop_good g INNER JOIN eshop_goodservice as s on g.id = s.goodId  WHERE ( g.id = $goodId and s.is_show = 1 ) 
+
+[ 2017-03-06T13:46:59+08:00 ] ::1 /eshop/index.php/Home/Good/info/id/13.html
+ERR: Think\Controller:align方法不存在！
+
+[ 2017-03-06T15:59:01+08:00 ] ::1 /eshop/index.php/Home/Good/info/id/13.html
+ERR: 1054:Unknown column 'u' in 'field list'
+ [ SQL语句 ] : SELECT c.content,c.time,u.name,`u`,`photo` FROM eshop_goodcomment c INNER JOIN eshop_user as u on c.userId = u.id  WHERE `goodId` = 13 
+
+[ 2017-03-06T15:59:39+08:00 ] ::1 /eshop/index.php/Home/Good/info/id/13.html
+ERR: 1054:Unknown column 'u' in 'field list'
+ [ SQL语句 ] : SELECT c.content,c.time,u.name,`u`,`photo` FROM eshop_goodcomment c INNER JOIN eshop_user as u on c.userId = u.id  WHERE `goodId` = 13 
+
+[ 2017-03-06T16:00:06+08:00 ] ::1 /eshop/index.php/Home/Good/info/id/13.html
+ERR: 1054:Unknown column 'eshop_user.name' in 'field list'
+ [ SQL语句 ] : SELECT c.content,c.time,eshop_user.name,`eshop_user`,`photo` FROM eshop_goodcomment c INNER JOIN eshop_user as u on c.userId = u.id  WHERE `goodId` = 13 
+
+[ 2017-03-06T18:44:32+08:00 ] ::1 /eshop/index.php/Home/Good/info/id/.html
+ERR: 页面不存在！
+
+[ 2017-03-06T18:48:32+08:00 ] ::1 /eshop/index.php/Home/Good/info/id/ss.html
+ERR: 页面不存在！
+
+[ 2017-03-06T18:48:41+08:00 ] ::1 /eshop/index.php/Home/Good/info/id/0.html
+ERR: 页面不存在！
+
+[ 2017-03-06T18:50:25+08:00 ] ::1 /eshop/index.php/Home/Good/info/id/11w1w1.html
+ERR: 页面不存在！
+
+[ 2017-03-06T18:50:31+08:00 ] ::1 /eshop/index.php/Home/Good/info/id/111w1.html
+ERR: 页面不存在！
+
+[ 2017-03-06T18:50:43+08:00 ] ::1 /eshop/index.php/Home/Good/info/id/1.html
+ERR: 页面不存在！
+
+[ 2017-03-06T18:51:34+08:00 ] ::1 /eshop/index.php/Home/Good/info/id/111s1.html
+ERR: 页面不存在！
+
+[ 2017-03-06T19:24:10+08:00 ] ::1 /eshop/index.php/Home/Good/info/id/0.html
+ERR: 页面不存在！
+
+[ 2017-03-06T19:31:32+08:00 ] ::1 /eshop/index.php/Home/Good/info/id/0.html
+ERR: 页面不存在！
+
+[ 2017-03-06T19:31:42+08:00 ] ::1 /eshop/index.php/Home/Good/info/id/0.html
+ERR: 页面不存在！
+
+[ 2017-03-06T19:34:21+08:00 ] ::1 /eshop/index.php/Home/Good/info/id/0.html
+ERR: 页面不存在！
+
+[ 2017-03-06T19:34:47+08:00 ] ::1 /eshop/index.php/Home/Good/info/id/0.html
+ERR: 页面不存在！
+
+[ 2017-03-06T19:36:05+08:00 ] ::1 /eshop/index.php/Home/Good/info/id/0.html
+ERR: 页面不存在！
+
+[ 2017-03-06T19:36:35+08:00 ] ::1 /eshop/index.php/Home/Good/info/id/0.html
+ERR: 页面不存在！
+
+[ 2017-03-06T19:37:11+08:00 ] ::1 /eshop/index.php/Home/Good/info/id/0.html
+ERR: 页面不存在！
+
+[ 2017-03-06T19:37:27+08:00 ] ::1 /eshop/index.php/Home/Good/info/id/0.html
+ERR: 页面不存在！
+
+[ 2017-03-06T19:37:46+08:00 ] ::1 /eshop/index.php/Home/Good/info/id/0.html
+ERR: 页面不存在！
+
+[ 2017-03-06T19:37:47+08:00 ] ::1 /eshop/index.php/Home/Good/info/id/0.html
+ERR: 页面不存在！
+
+[ 2017-03-06T19:39:00+08:00 ] ::1 /eshop/index.php/Home/Good/info/id/0.html
+ERR: 页面不存在！
+
+[ 2017-03-06T19:39:53+08:00 ] ::1 /eshop/index.php/Home/Good/info/id/0.html
+ERR: 页面不存在！
+
+[ 2017-03-06T19:40:01+08:00 ] ::1 /eshop/index.php/Home/Good/info/id/0.html
+ERR: 页面不存在！
+
+[ 2017-03-06T19:40:43+08:00 ] ::1 /eshop/index.php/Home/Good/info/id/0.html
+ERR: 页面不存在！
+
+[ 2017-03-06T19:40:43+08:00 ] ::1 /eshop/index.php/Home/Good/info/id/%7B:U('__PUBLIC__/Common/Image/exception.jpg')%7D
+ERR: 无法加载控制器:Home
+
+[ 2017-03-06T19:40:58+08:00 ] ::1 /eshop/index.php/Home/Good/info/id/0.html
+ERR: 页面不存在！
+
+[ 2017-03-06T19:41:42+08:00 ] ::1 /eshop/index.php/Home/Good/info/id/0.html
+ERR: 页面不存在！
+
+[ 2017-03-06T19:42:19+08:00 ] ::1 /eshop/index.php/Home/Good/info/id/0.html
+ERR: 页面不存在！
+
+[ 2017-03-06T19:43:18+08:00 ] ::1 /eshop/index.php/Home/Good/info/id/0.html
+ERR: 页面不存在！
+
+[ 2017-03-06T19:43:32+08:00 ] ::1 /eshop/index.php/Home/Good/info/id/0.html
+ERR: 页面不存在！
+
+[ 2017-03-06T19:43:52+08:00 ] ::1 /eshop/index.php/Home/Good/info/id/0.html
+ERR: 页面不存在！
+
+[ 2017-03-06T19:43:53+08:00 ] ::1 /eshop/index.php/Home/Good/info/id/0.html
+ERR: 页面不存在！
+
+[ 2017-03-06T19:44:09+08:00 ] ::1 /eshop/index.php/Home/Good/info/id/0.html
+ERR: 页面不存在！
+
+[ 2017-03-06T19:45:07+08:00 ] ::1 /eshop/index.php/Home/Good/info/id/0.html
+ERR: 页面不存在！
+
+[ 2017-03-06T19:45:24+08:00 ] ::1 /eshop/index.php/Home/Good/info/id/0.html
+ERR: 页面不存在！
+
+[ 2017-03-06T19:46:29+08:00 ] ::1 /eshop/index.php/Home/Good/info/id/0.html
+ERR: 页面不存在！
+
+[ 2017-03-06T19:47:48+08:00 ] ::1 /eshop/index.php/Home/Good/info/id/0.html
+ERR: 页面不存在！
+
+[ 2017-03-06T19:48:07+08:00 ] ::1 /eshop/index.php/Home/Good/info/id/0.html
+ERR: 页面不存在！
+
+[ 2017-03-06T19:48:33+08:00 ] ::1 /eshop/index.php/Home/Good/info/id/0.html
+ERR: 页面不存在！
+
+[ 2017-03-06T19:49:29+08:00 ] ::1 /eshop/index.php/Home/Good/info/id/0.html
+ERR: 页面不存在！
+
+[ 2017-03-06T19:49:55+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T19:51:48+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T19:51:50+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T19:51:51+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T19:51:52+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T19:51:53+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T19:51:54+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T19:51:55+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T19:51:57+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T19:51:58+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T19:51:59+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T19:52:00+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T19:52:01+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T19:52:02+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T19:52:03+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T19:52:05+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T19:52:06+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T19:52:07+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T19:52:08+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T19:52:09+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T19:52:10+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T19:52:12+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T19:52:13+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T19:52:14+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T19:52:15+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T19:52:16+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T19:52:18+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T19:52:19+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T19:52:20+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T19:52:21+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T19:52:23+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T19:52:24+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T19:52:25+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T19:52:26+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T19:52:27+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T19:52:28+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T19:52:29+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T19:52:31+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T19:52:32+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T19:52:33+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T19:52:34+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T19:52:35+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T19:52:37+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T19:52:38+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T19:52:39+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T19:52:40+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T19:52:41+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T19:52:43+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T19:52:44+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T19:52:45+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T19:52:46+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T19:52:47+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T19:52:48+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T19:52:49+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T19:52:50+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T19:52:51+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T19:52:52+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T19:52:53+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T19:52:55+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T19:52:56+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T19:52:57+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T19:52:58+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T19:52:59+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T19:53:00+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T19:53:01+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T19:53:02+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T19:53:04+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T19:53:05+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T19:53:06+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T19:53:07+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T19:53:08+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T19:53:10+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T19:53:12+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T19:53:21+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T19:53:47+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T19:54:52+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T19:55:42+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T19:56:13+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T19:57:27+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T19:58:09+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T19:58:36+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T19:58:46+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T19:58:54+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T20:00:06+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T20:00:15+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T20:00:23+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T20:00:44+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T20:01:11+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T20:01:18+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T20:02:16+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T20:02:51+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T20:02:55+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T20:03:42+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T20:03:43+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T20:03:44+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T20:03:45+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T20:03:46+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T20:03:48+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T20:03:49+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T20:03:50+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T20:03:52+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T20:03:53+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T20:03:54+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T20:03:55+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T20:03:56+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T20:03:57+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T20:03:59+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T20:04:00+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T20:04:01+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T20:04:02+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T20:04:03+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T20:04:06+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T20:04:09+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T20:04:12+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T20:04:16+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T20:04:19+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T20:04:22+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T20:04:25+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T20:04:29+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T20:04:32+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T20:04:35+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T20:04:38+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T20:04:41+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T20:04:44+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T20:04:48+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T20:04:51+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T20:04:54+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T20:04:57+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T20:05:00+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T20:05:03+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T20:05:07+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T20:05:10+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T20:05:13+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T20:05:16+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T20:05:19+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T20:05:22+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T20:05:26+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T20:06:09+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T20:06:44+08:00 ] ::1 /eshop/index.php/Home/sood/info/id/0.html
+ERR: 无法加载控制器:Sood
+
+[ 2017-03-06T20:06:46+08:00 ] ::1 /eshop/index.php/Home/Good/info/id/0.html
+ERR: 页面不存在！
+
+[ 2017-03-06T20:29:30+08:00 ] ::1 /eshop/index.php/Home/Good/info/id/13.html
+ERR: XML标签语法错误 : name="goodLable" id="data" key=$i empty="该商品还没有详细信息！！！"
+
+[ 2017-03-06T21:07:31+08:00 ] ::1 /eshop/index.php/Good/getShopCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000962s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001551s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_secondmenu` [ RunTime:0.0112s ]
+SQL: SELECT `id`,`sname` FROM `eshop_shop_secondmenu` WHERE `pid` = 5 AND `is_show` = 1  [ RunTime:0.0009s ]
+
+[ 2017-03-06T21:07:32+08:00 ] ::1 /eshop/index.php/Good/getShopCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001676s ]
+SQL: SHOW COLUMNS FROM `eshop_shop_secondmenu` [ RunTime:0.0054s ]
+SQL: SELECT `id`,`sname` FROM `eshop_shop_secondmenu` WHERE `pid` = 1 AND `is_show` = 1  [ RunTime:0.0006s ]
+
+[ 2017-03-06T21:07:34+08:00 ] ::1 /eshop/index.php/Good/goodsSearch.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000891s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001512s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0057s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0057s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `shopId` = '3' AND `is_exam` = 0 AND `status` = 1 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: page D:\wampserver\wamp\www\eshop\App\Home\Controller\GoodController.class.php 第 367 行.
+NOTIC: [8] Trying to get property of non-object D:\wampserver\wamp\www\eshop\App\Home\Controller\GoodController.class.php 第 367 行.
+NOTIC: [8] Undefined variable: page D:\wampserver\wamp\www\eshop\App\Home\Controller\GoodController.class.php 第 367 行.
+NOTIC: [8] Trying to get property of non-object D:\wampserver\wamp\www\eshop\App\Home\Controller\GoodController.class.php 第 367 行.
+SQL: SELECT eshop_good.* FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `shopId` = '3' AND `is_exam` = 0 AND `status` = 1 AND `is_show` = 1 ORDER BY time desc  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001330s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001430s ]
+
+[ 2017-03-06T21:07:39+08:00 ] ::1 /eshop/index.php/Good/goodsSearch.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000961s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001546s ]
+SQL: SHOW COLUMNS FROM `eshop_shop` [ RunTime:0.0060s ]
+SQL: SELECT `id` FROM `eshop_shop` WHERE `shoperId` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `eshop_good` [ RunTime:0.0057s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `shopId` = '3' AND `is_exam` = 0 AND `status` = 1 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: page D:\wampserver\wamp\www\eshop\App\Home\Controller\GoodController.class.php 第 367 行.
+NOTIC: [8] Trying to get property of non-object D:\wampserver\wamp\www\eshop\App\Home\Controller\GoodController.class.php 第 367 行.
+NOTIC: [8] Undefined variable: page D:\wampserver\wamp\www\eshop\App\Home\Controller\GoodController.class.php 第 367 行.
+NOTIC: [8] Trying to get property of non-object D:\wampserver\wamp\www\eshop\App\Home\Controller\GoodController.class.php 第 367 行.
+SQL: SELECT eshop_good.* FROM `eshop_good` INNER JOIN eshop_goodnav on eshop_goodnav.goodId = eshop_good.id  WHERE `shopId` = '3' AND `is_exam` = 0 AND `status` = 1 AND `is_show` = 1 ORDER BY time desc  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000961s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001037s ]
+

@@ -1,0 +1,46 @@
+<!-- 预警商品Ajax分页显示 -->
+  <table class="auth_good_table">
+            <thead>
+              <th> 
+                <input type="checkbox" id="allchecked" />
+                <label for="allchecked">全选</label>
+              </th>
+              <th>商品名称</th>
+              <th>商品编号</th>
+              <th>现有库存<span style="color:red;">（可编辑）</span></th>
+              <th>预警库存<span style="color:red;">（可编辑）</span></th>
+              <th>操作</th>
+            </thead>
+            <tbody>
+              <empty name="list">
+                <tr>
+                  <td colspan="11">没有相关数据！！！</td>
+                </tr>
+                <else/>
+                <volist name="list" id="item">
+                  <tr>
+                    <td><input type="checkbox" id="check-{$i}" class="goods_check" value="{$item.id}"/></td>
+                    <td class="good_info"><div class="good_info_wrapper"> <a href="{:U('Home/Index/goodsInfo',array('id' => $item['id']))}" target="_blank"> <img src="__ROOT__/{$item.good_log}" style="width:45px;height:45px;"> </a> <span>{$item.name}</span> </div></td>
+                    <td><span>{$item.goodnumber}</span></td>
+                    <td>
+                      <span>
+                        <input type="text" name="stock" value="{$item.stock}" class="inputs" style="width:60px;text-align:center;" onchange="editStock(this,{$item.id},0)" autocomplete="off"> 
+                      </span>
+                    </td>
+                    <td>
+                      <span>
+                        <input type="text" name="stock" value="{$item.stock_warning}" class="inputs" style="width:60px;text-align:center;" onchange="editStock(this,{$item.id},1)" autocomplete="off"> 
+                      </span>
+                      </td>
+                    <td>
+                      <a href="{:U('Home/Index/goodsInfo',array('id' => $item['id']))}" target='_blank' class="good_view" >查看</a>
+                      <a href="javascript:delGoods(0,{$item.id})" class="good_del">删除</a> 
+                    </td>
+                  </tr>
+                </volist>
+              </empty>
+            </tbody>
+  </table>
+  <!-- 分页开始 -->
+  <div class="pages">{$page}</div>
+  <!-- 分页结束 -->

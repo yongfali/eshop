@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>消息详细内容</title>
+<include file = "Public:common"/>
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/Css/Index/moreInfo.css">
+</head>
+<body>
+<!-- 头部header开始 --> 
+<include file='Public:header' /> 
+<!-- 头部header结束 --> 
+<div class="position_now">
+  <label><a href="index.html">首页</a></label>
+  <span>&gt</span>
+  <label>消息详细内容</label>
+</div>
+<div class="note_wrapper">
+  <div class="moreInfo_wrapper_left">
+    <h3>消息列表</h3>
+     <ul class="moreInfo_menu">
+      <a href="{:U('Home/Index/infoLists',array('type' => 'note'))}">
+      <li <if condition="$infoType eq 'note' ">class = "menu_active"</if> >公告列表</li>
+      </a> 
+      <a href="{:U('Home/Index/infoLists',array('type' => 'info'))}">
+      <li <if condition="$infoType eq 'info' ">class = "menu_active"</if> >资讯列表</li>
+      </a> 
+      <a href="{:U('Home/Index/infoLists',array('type' => 'discount'))}">
+      <li <if condition="$infoType eq 'discount' ">class = "menu_active"</if> >优惠活动列表</li>
+      </a>
+    </ul>
+  </div>
+  <!-- 左侧导航标签结束 -->
+  <div class="noteInfo">
+    <empty name="infoList">
+      <span>该消息不存在或已被管理员删除！！！</span>
+      <else/>
+      <h2>{$infoList.title}</h2>
+      <h3>
+        发布者：{$infoList.publishername}
+        <if condition="$infoList.publishtype eq 1">
+          <span style="color:#f61c1c;font-size:10px;">（商家）</span>
+          <else/>
+          <span style="color:#f61c1c;font-size:10px;">（管理员）</span>
+        </if>
+      </h3>
+      <h4>发布时间：{$infoList.publish_time|date="Y-m-d H:i:s",###}</h4>
+      {$infoList.content|html_entity_decode}
+    </empty>
+  </div>
+</div>
+<!-- 公告详细信息显示结束-->
+<!-- 尾部开始 --> 
+<include file = 'Public:footer'/> 
+<!-- 尾部结束 --> 
+</div>
+</body>
+</html>

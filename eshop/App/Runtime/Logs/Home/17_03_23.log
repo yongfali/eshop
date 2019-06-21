@@ -1,0 +1,1248 @@
+[ 2017-03-23T13:39:57+08:00 ] ::1 /eshop/index.php/Home/Good/audit.html
+ERR: Cron:cron Runat 2017-03-23 13:39:57 Use 0.000609 s
+
+[ 2017-03-23T13:40:13+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/log.html
+ERR: Cron:cron Runat 2017-03-23 13:40:13 Use 0.000761 s
+
+[ 2017-03-23T13:41:17+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/log.html
+ERR: Cron:cron Runat 2017-03-23 13:41:17 Use 0.000568 s
+
+[ 2017-03-23T13:41:19+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/modifyPwd.html
+ERR: Cron:cron Runat 2017-03-23 13:41:19 Use 0.000588 s
+
+[ 2017-03-23T13:41:19+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/modifyPwd.html
+ERR: 模板不存在:./App/Home/View/default/ShoperCenter/modifyPwd.html
+
+[ 2017-03-23T13:41:29+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/log.html
+ERR: Cron:cron Runat 2017-03-23 13:41:29 Use 0.000606 s
+
+[ 2017-03-23T13:42:16+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/log.html
+ERR: Cron:cron Runat 2017-03-23 13:42:16 Use 0.000585 s
+
+[ 2017-03-23T13:43:38+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/log.html
+ERR: Cron:cron Runat 2017-03-23 13:43:38 Use 0.000599 s
+
+[ 2017-03-23T13:43:41+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/modifyPwd.html
+ERR: Cron:cron Runat 2017-03-23 13:43:41 Use 0.000579 s
+
+[ 2017-03-23T13:43:59+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/modifyPwd.html
+ERR: Cron:cron Runat 2017-03-23 13:43:59 Use 0.000579 s
+
+[ 2017-03-23T13:44:17+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/modifyPwd.html
+ERR: Cron:cron Runat 2017-03-23 13:44:17 Use 0.000575 s
+
+[ 2017-03-23T13:44:57+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/modifyPwd.html
+ERR: Cron:cron Runat 2017-03-23 13:44:57 Use 0.000549 s
+
+[ 2017-03-23T13:45:34+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/modifyPwd.html
+ERR: Cron:cron Runat 2017-03-23 13:45:34 Use 0.000535 s
+
+[ 2017-03-23T13:45:51+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/modifyPwd.html
+ERR: Cron:cron Runat 2017-03-23 13:45:51 Use 0.000638 s
+
+[ 2017-03-23T13:46:40+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/modifyPwd.html
+ERR: Cron:cron Runat 2017-03-23 13:46:40 Use 0.000529 s
+
+[ 2017-03-23T13:46:50+08:00 ] ::1 /eshop/index.php/Home/Good/add.html
+ERR: Cron:cron Runat 2017-03-23 13:46:50 Use 0.000547 s
+
+[ 2017-03-23T13:46:55+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/modifyPwd.html
+ERR: Cron:cron Runat 2017-03-23 13:46:55 Use 0.000526 s
+
+[ 2017-03-23T13:47:07+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/modifyPwd.html
+ERR: Cron:cron Runat 2017-03-23 13:47:07 Use 0.000529 s
+
+[ 2017-03-23T13:47:22+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/modifyPwd.html
+ERR: Cron:cron Runat 2017-03-23 13:47:22 Use 0.000586 s
+
+[ 2017-03-23T13:47:33+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/modifyPwd.html
+ERR: Cron:cron Runat 2017-03-23 13:47:33 Use 0.000967 s
+
+[ 2017-03-23T13:47:38+08:00 ] ::1 /eshop/index.php/Home/ShopCart/index.html
+ERR: Cron:cron Runat 2017-03-23 13:47:38 Use 0.000926 s
+
+[ 2017-03-23T13:47:41+08:00 ] ::1 /eshop/index.php/Home/Good/add.html
+ERR: Cron:cron Runat 2017-03-23 13:47:41 Use 0.000700 s
+
+[ 2017-03-23T13:48:19+08:00 ] ::1 /eshop/index.php/Home/Good/add.html
+ERR: Cron:cron Runat 2017-03-23 13:48:19 Use 0.001529 s
+
+[ 2017-03-23T13:48:24+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/modifyPwd.html
+ERR: Cron:cron Runat 2017-03-23 13:48:24 Use 0.000978 s
+
+[ 2017-03-23T13:48:42+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/modifyPwd.html
+ERR: Cron:cron Runat 2017-03-23 13:48:42 Use 0.000534 s
+
+[ 2017-03-23T13:49:23+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/modifyPwd.html
+ERR: Cron:cron Runat 2017-03-23 13:49:23 Use 0.000557 s
+
+[ 2017-03-23T13:49:45+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/modifyPwd.html
+ERR: Cron:cron Runat 2017-03-23 13:49:45 Use 0.000588 s
+
+[ 2017-03-23T13:50:24+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/modifyPwd.html
+ERR: Cron:cron Runat 2017-03-23 13:50:24 Use 0.000599 s
+
+[ 2017-03-23T13:50:34+08:00 ] ::1 /eshop/index.php/Home/Good/add.html
+ERR: Cron:cron Runat 2017-03-23 13:50:34 Use 0.000540 s
+
+[ 2017-03-23T13:51:13+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/modifyPwd.html
+ERR: Cron:cron Runat 2017-03-23 13:51:13 Use 0.000595 s
+
+[ 2017-03-23T13:54:09+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/modifyPwd.html
+ERR: Cron:cron Runat 2017-03-23 13:54:09 Use 0.000497 s
+
+[ 2017-03-23T13:57:58+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/log.html
+ERR: Cron:cron Runat 2017-03-23 13:57:58 Use 0.000453 s
+
+[ 2017-03-23T13:58:56+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/log.html
+ERR: Cron:cron Runat 2017-03-23 13:58:56 Use 0.000726 s
+
+[ 2017-03-23T13:59:09+08:00 ] ::1 /eshop/index.php/Home/ShopCart/index.html
+ERR: Cron:cron Runat 2017-03-23 13:59:09 Use 0.000495 s
+
+[ 2017-03-23T13:59:17+08:00 ] ::1 /eshop/index.php/Home/Good/onsale.html
+ERR: Cron:cron Runat 2017-03-23 13:59:17 Use 0.000892 s
+
+[ 2017-03-23T13:59:27+08:00 ] ::1 /eshop/index.php/Home/Good/onsale.html
+ERR: Cron:cron Runat 2017-03-23 13:59:27 Use 0.000474 s
+
+[ 2017-03-23T14:00:10+08:00 ] ::1 /eshop/index.php/Home/Good/onsale.html
+ERR: Cron:cron Runat 2017-03-23 14:00:10 Use 0.000722 s
+
+[ 2017-03-23T14:00:13+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/log.html
+ERR: Cron:cron Runat 2017-03-23 14:00:13 Use 0.000499 s
+
+[ 2017-03-23T14:00:17+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/modifyPwd.html
+ERR: Cron:cron Runat 2017-03-23 14:00:17 Use 0.000546 s
+
+[ 2017-03-23T14:01:56+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/modifyPwd.html
+ERR: Cron:cron Runat 2017-03-23 14:01:56 Use 0.000561 s
+
+[ 2017-03-23T14:02:17+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/modifyPwd.html
+ERR: Cron:cron Runat 2017-03-23 14:02:17 Use 0.000503 s
+
+[ 2017-03-23T14:02:26+08:00 ] ::1 /eshop/index.php/Home/Good/add.html
+ERR: Cron:cron Runat 2017-03-23 14:02:26 Use 0.000994 s
+
+[ 2017-03-23T14:03:50+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/modifyPwd.html
+ERR: Cron:cron Runat 2017-03-23 14:03:50 Use 0.000606 s
+
+[ 2017-03-23T14:05:05+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/modifyPwd.html
+ERR: Cron:cron Runat 2017-03-23 14:05:05 Use 0.000533 s
+
+[ 2017-03-23T14:05:58+08:00 ] ::1 /eshop/index.php/Home/Good/add.html
+ERR: Cron:cron Runat 2017-03-23 14:05:58 Use 0.000439 s
+
+[ 2017-03-23T14:06:55+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/modifyPwd.html
+ERR: Cron:cron Runat 2017-03-23 14:06:55 Use 0.000578 s
+
+[ 2017-03-23T14:07:55+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/modifyPwd.html
+ERR: Cron:cron Runat 2017-03-23 14:07:55 Use 0.000468 s
+
+[ 2017-03-23T14:09:30+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/modifyPwd.html
+ERR: Cron:cron Runat 2017-03-23 14:09:30 Use 0.000482 s
+
+[ 2017-03-23T14:09:41+08:00 ] ::1 /eshop/index.php/Home/Good/add.html
+ERR: Cron:cron Runat 2017-03-23 14:09:41 Use 0.000456 s
+
+[ 2017-03-23T14:11:02+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/modifyPwd.html
+ERR: Cron:cron Runat 2017-03-23 14:11:02 Use 0.000633 s
+
+[ 2017-03-23T14:11:56+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/modifyPwd.html
+ERR: Cron:cron Runat 2017-03-23 14:11:56 Use 0.000465 s
+
+[ 2017-03-23T14:12:45+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/modifyPwd.html
+ERR: Cron:cron Runat 2017-03-23 14:12:45 Use 0.000702 s
+
+[ 2017-03-23T14:12:53+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/modifyPwd.html
+ERR: Cron:cron Runat 2017-03-23 14:12:53 Use 0.000426 s
+
+[ 2017-03-23T14:13:28+08:00 ] ::1 /eshop/index.php/Home/Good/add.html
+ERR: Cron:cron Runat 2017-03-23 14:13:28 Use 0.000698 s
+
+[ 2017-03-23T14:14:19+08:00 ] ::1 /eshop/index.php/Home/Good/add.html
+ERR: Cron:cron Runat 2017-03-23 14:14:19 Use 0.000466 s
+
+[ 2017-03-23T14:15:39+08:00 ] ::1 /eshop/index.php/Home/Good/add.html
+ERR: Cron:cron Runat 2017-03-23 14:15:39 Use 0.000536 s
+
+[ 2017-03-23T14:15:42+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/modifyPwd.html
+ERR: Cron:cron Runat 2017-03-23 14:15:42 Use 0.000546 s
+
+[ 2017-03-23T14:17:00+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/modifyPwd.html
+ERR: Cron:cron Runat 2017-03-23 14:17:00 Use 0.000770 s
+
+[ 2017-03-23T14:18:12+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/modifyPwd.html
+ERR: Cron:cron Runat 2017-03-23 14:18:12 Use 0.000553 s
+
+[ 2017-03-23T14:18:33+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/modifyPwd.html
+ERR: Cron:cron Runat 2017-03-23 14:18:33 Use 0.000510 s
+
+[ 2017-03-23T14:20:14+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/modifyPwd.html
+ERR: Cron:cron Runat 2017-03-23 14:20:14 Use 0.000753 s
+
+[ 2017-03-23T14:21:21+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/modifyPwd.html
+ERR: Cron:cron Runat 2017-03-23 14:21:21 Use 0.000531 s
+
+[ 2017-03-23T14:22:56+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/modifyPwd.html
+ERR: Cron:cron Runat 2017-03-23 14:22:56 Use 0.000846 s
+
+[ 2017-03-23T14:29:59+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/modifyPwd.html
+ERR: Cron:cron Runat 2017-03-23 14:29:59 Use 0.000277 s
+
+[ 2017-03-23T14:30:19+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/modifyPwd.html
+ERR: Cron:cron Runat 2017-03-23 14:30:19 Use 0.000370 s
+
+[ 2017-03-23T14:31:07+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/modifyPwd.html
+ERR: Cron:cron Runat 2017-03-23 14:31:07 Use 0.000284 s
+
+[ 2017-03-23T19:43:15+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/modifyPwd.html
+ERR: Cron:cron Runat 2017-03-23 19:43:15 Use 0.000425 s
+
+[ 2017-03-23T19:44:12+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/modifyPwd.html
+ERR: Cron:cron Runat 2017-03-23 19:44:12 Use 0.000282 s
+
+[ 2017-03-23T19:45:26+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/modifyPwd.html
+ERR: Cron:cron Runat 2017-03-23 19:45:26 Use 0.000712 s
+
+[ 2017-03-23T19:45:39+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/modifyPwd.html
+ERR: Cron:cron Runat 2017-03-23 19:45:39 Use 0.000813 s
+
+[ 2017-03-23T19:46:48+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/modifyPwd.html
+ERR: Cron:cron Runat 2017-03-23 19:46:48 Use 0.000425 s
+
+[ 2017-03-23T19:47:00+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/modifyPwd.html
+ERR: Cron:cron Runat 2017-03-23 19:47:00 Use 0.000431 s
+
+[ 2017-03-23T19:47:07+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/modifyPwd.html
+ERR: Cron:cron Runat 2017-03-23 19:47:07 Use 0.000412 s
+
+[ 2017-03-23T19:47:47+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/modifyPwd.html
+ERR: Cron:cron Runat 2017-03-23 19:47:47 Use 0.000896 s
+
+[ 2017-03-23T19:48:52+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/modifyPwd.html
+ERR: Cron:cron Runat 2017-03-23 19:48:52 Use 0.000483 s
+
+[ 2017-03-23T19:49:18+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/modifyPwd.html
+ERR: Cron:cron Runat 2017-03-23 19:49:18 Use 0.000376 s
+
+[ 2017-03-23T19:49:48+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/modifyPwd.html
+ERR: Cron:cron Runat 2017-03-23 19:49:48 Use 0.000284 s
+
+[ 2017-03-23T19:54:58+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/modifyPwd.html
+ERR: Cron:cron Runat 2017-03-23 19:54:58 Use 0.000447 s
+
+[ 2017-03-23T20:13:36+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/modifyPwd.html
+ERR: Cron:cron Runat 2017-03-23 20:13:36 Use 0.000343 s
+
+[ 2017-03-23T20:13:55+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/modifyPwd.html
+ERR: Cron:cron Runat 2017-03-23 20:13:55 Use 0.000553 s
+
+[ 2017-03-23T20:15:50+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/modifyPwd.html
+ERR: Cron:cron Runat 2017-03-23 20:15:50 Use 0.000728 s
+
+[ 2017-03-23T20:20:18+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/modifyPwd.html
+ERR: Cron:cron Runat 2017-03-23 20:20:18 Use 0.000402 s
+
+[ 2017-03-23T20:20:49+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/eshop/Home/ShoperCenter/checkPwd
+ERR: Cron:cron Runat 2017-03-23 20:20:49 Use 0.000743 s
+
+[ 2017-03-23T20:20:49+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/eshop/Home/ShoperCenter/checkPwd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001348s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.008113s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010421s ]
+ERR: 非法操作:eshop
+
+[ 2017-03-23T20:21:13+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/modifyPwd.html
+ERR: Cron:cron Runat 2017-03-23 20:21:13 Use 0.000453 s
+
+[ 2017-03-23T20:21:17+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/checkPwd
+ERR: Cron:cron Runat 2017-03-23 20:21:17 Use 0.000295 s
+
+[ 2017-03-23T20:21:17+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/checkPwd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001010s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.005026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006789s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001088s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001210s ]
+
+[ 2017-03-23T20:22:02+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/modifyPwd.html
+ERR: Cron:cron Runat 2017-03-23 20:22:02 Use 0.000490 s
+
+[ 2017-03-23T20:22:06+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/checkPwd
+ERR: Cron:cron Runat 2017-03-23 20:22:06 Use 0.000335 s
+
+[ 2017-03-23T20:22:06+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/checkPwd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000861s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.004419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006243s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002845s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003295s ]
+
+[ 2017-03-23T20:29:51+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/modifyPwd.html
+ERR: Cron:cron Runat 2017-03-23 20:29:51 Use 0.000301 s
+
+[ 2017-03-23T20:29:55+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/checkPwd
+ERR: Cron:cron Runat 2017-03-23 20:29:55 Use 0.000299 s
+
+[ 2017-03-23T20:29:55+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/checkPwd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000795s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.004102s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005684s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000922s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001030s ]
+
+[ 2017-03-23T20:30:36+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/modifyPwd.html
+ERR: Cron:cron Runat 2017-03-23 20:30:36 Use 0.000314 s
+
+[ 2017-03-23T20:30:55+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/checkPwd
+ERR: Cron:cron Runat 2017-03-23 20:30:55 Use 0.001524 s
+
+[ 2017-03-23T20:30:55+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/checkPwd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001871s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.012487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016042s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004510s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004789s ]
+
+[ 2017-03-23T20:33:32+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/modifyPwd.html
+ERR: Cron:cron Runat 2017-03-23 20:33:32 Use 0.000291 s
+
+[ 2017-03-23T20:33:40+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/checkPwd
+ERR: Cron:cron Runat 2017-03-23 20:33:40 Use 0.000346 s
+
+[ 2017-03-23T20:33:40+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/checkPwd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001039s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.004570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006331s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `eshop_shoper` WHERE `id` = 13 AND `password` = 'e00cf25ad42683b3df678c61f42c6bda' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001008s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001102s ]
+
+[ 2017-03-23T20:34:37+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/checkPwd
+ERR: Cron:cron Runat 2017-03-23 20:34:37 Use 0.001007 s
+
+[ 2017-03-23T20:34:37+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/checkPwd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002254s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.010837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015320s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0114s ]
+SQL: SELECT * FROM `eshop_shoper` WHERE `id` = 13 AND `password` = '1844156d4166d94387f1a4ad031ca5fa' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002768s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003051s ]
+
+[ 2017-03-23T20:34:46+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/modifyPwd.html
+ERR: Cron:cron Runat 2017-03-23 20:34:46 Use 0.000394 s
+
+[ 2017-03-23T20:34:53+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/checkPwd
+ERR: Cron:cron Runat 2017-03-23 20:34:53 Use 0.000467 s
+
+[ 2017-03-23T20:34:53+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/checkPwd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001553s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.006210s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008491s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `eshop_shoper` WHERE `id` = 13 AND `password` = '56b517beaae3f132c95938b4047b82c9' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001326s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001457s ]
+
+[ 2017-03-23T20:35:25+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/checkPwd
+ERR: Cron:cron Runat 2017-03-23 20:35:25 Use 0.000305 s
+
+[ 2017-03-23T20:35:25+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/checkPwd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000930s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.004204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005891s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `eshop_shoper` WHERE `id` = 13 AND `password` = '61e352743ecee4ca9c8a94a5eec1a483' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000948s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001037s ]
+
+[ 2017-03-23T20:35:26+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/checkPwd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000713s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.002176s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003523s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `eshop_shoper` WHERE `id` = 13 AND `password` = 'd30625a753ea9fa658bfbfcb363033c4' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000968s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001066s ]
+
+[ 2017-03-23T20:35:49+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/modifyPwd.html
+ERR: Cron:cron Runat 2017-03-23 20:35:49 Use 0.000312 s
+
+[ 2017-03-23T20:36:59+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/checkPwd
+ERR: Cron:cron Runat 2017-03-23 20:36:59 Use 0.000394 s
+
+[ 2017-03-23T20:36:59+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/checkPwd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000842s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.004574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006265s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `eshop_shoper` WHERE `id` = 13 AND `password` = '61e352743ecee4ca9c8a94a5eec1a483' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001129s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001239s ]
+
+[ 2017-03-23T20:37:02+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/checkPwd
+ERR: Cron:cron Runat 2017-03-23 20:37:02 Use 0.000638 s
+
+[ 2017-03-23T20:37:02+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/checkPwd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001661s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.007331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010278s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `eshop_shoper` WHERE `id` = 13 AND `password` = 'd30625a753ea9fa658bfbfcb363033c4' LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001795s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002014s ]
+
+[ 2017-03-23T20:38:33+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/modifyPwd.html
+ERR: Cron:cron Runat 2017-03-23 20:38:33 Use 0.000292 s
+
+[ 2017-03-23T20:38:39+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/checkPwd
+ERR: Cron:cron Runat 2017-03-23 20:38:39 Use 0.000342 s
+
+[ 2017-03-23T20:38:39+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/checkPwd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001436s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.005444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008102s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `eshop_shoper` WHERE `id` = 13 AND `password` = 'd30625a753ea9fa658bfbfcb363033c4' LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001627s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001820s ]
+
+[ 2017-03-23T20:38:53+08:00 ] ::1 /eshop/index.php/ShoperCenter/doModifyPwd.html
+ERR: Cron:cron Runat 2017-03-23 20:38:53 Use 0.000392 s
+
+[ 2017-03-23T20:38:53+08:00 ] ::1 /eshop/index.php/ShoperCenter/doModifyPwd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000797s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.004472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006014s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000912s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001018s ]
+
+[ 2017-03-23T20:52:32+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/checkPwd
+ERR: Cron:cron Runat 2017-03-23 20:52:32 Use 0.000425 s
+
+[ 2017-03-23T20:52:32+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/checkPwd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000953s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.004536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006650s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `eshop_shoper` WHERE `id` = 13 AND `password` = 'c4f94a85d1cf6d8107106e0ca01d2dd1' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001144s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001258s ]
+
+[ 2017-03-23T20:52:37+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/checkPwd
+ERR: Cron:cron Runat 2017-03-23 20:52:37 Use 0.000290 s
+
+[ 2017-03-23T20:52:37+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/checkPwd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000778s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.004410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006055s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `eshop_shoper` WHERE `id` = 13 AND `password` = 'd30625a753ea9fa658bfbfcb363033c4' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000912s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000998s ]
+
+[ 2017-03-23T21:01:11+08:00 ] ::1 /eshop/index.php/ShoperCenter/doModifyPwd.html
+ERR: Cron:cron Runat 2017-03-23 21:01:11 Use 0.000284 s
+
+[ 2017-03-23T21:01:11+08:00 ] ::1 /eshop/index.php/ShoperCenter/doModifyPwd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000801s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.004042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005638s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `eshop_shoper` WHERE `id` = 13 AND `password` = 'd30625a753ea9fa658bfbfcb363033c4' LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2017-03-23T21:02:27+08:00 ] ::1 /eshop/index.php/ShoperCenter/doModifyPwd.html
+ERR: Cron:cron Runat 2017-03-23 21:02:27 Use 0.000275 s
+
+[ 2017-03-23T21:02:27+08:00 ] ::1 /eshop/index.php/ShoperCenter/doModifyPwd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001208s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.004046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006483s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `eshop_shoper` WHERE `id` = 13 AND `password` = 'd30625a753ea9fa658bfbfcb363033c4' LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2017-03-23T21:03:15+08:00 ] ::1 /eshop/index.php/ShoperCenter/doModifyPwd.html
+ERR: Cron:cron Runat 2017-03-23 21:03:15 Use 0.001231 s
+
+[ 2017-03-23T21:03:15+08:00 ] ::1 /eshop/index.php/ShoperCenter/doModifyPwd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003075s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.018496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023525s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `eshop_shoper` WHERE `id` = 13 AND `password` = 'd30625a753ea9fa658bfbfcb363033c4' LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2017-03-23T21:04:28+08:00 ] ::1 /eshop/index.php/ShoperCenter/doModifyPwd.html
+ERR: Cron:cron Runat 2017-03-23 21:04:28 Use 0.000415 s
+
+[ 2017-03-23T21:04:28+08:00 ] ::1 /eshop/index.php/ShoperCenter/doModifyPwd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001161s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.005908s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008157s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0047s ]
+SQL: UPDATE `eshop_shoper` SET `password`='fe8190e55b7de67eef2d3fe259665fc0' WHERE `id` = 13 [ RunTime:0.1968s ]
+
+[ 2017-03-23T21:05:04+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/log.html
+ERR: Cron:cron Runat 2017-03-23 21:05:04 Use 0.000327 s
+
+[ 2017-03-23T21:06:04+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/modifyPwd.html
+ERR: Cron:cron Runat 2017-03-23 21:06:04 Use 0.000435 s
+
+[ 2017-03-23T21:06:10+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/checkPwd
+ERR: Cron:cron Runat 2017-03-23 21:06:10 Use 0.000537 s
+
+[ 2017-03-23T21:06:10+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/checkPwd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001464s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.013640s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016327s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `eshop_shoper` WHERE `id` = 13 AND `password` = 'd30625a753ea9fa658bfbfcb363033c4' LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001573s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001782s ]
+
+[ 2017-03-23T21:06:12+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/checkPwd
+ERR: Cron:cron Runat 2017-03-23 21:06:12 Use 0.000353 s
+
+[ 2017-03-23T21:06:12+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/checkPwd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000831s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.003977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005442s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `eshop_shoper` WHERE `id` = 13 AND `password` = 'fe8190e55b7de67eef2d3fe259665fc0' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000902s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000979s ]
+
+[ 2017-03-23T21:07:18+08:00 ] ::1 /eshop/index.php/ShoperCenter/doModifyPwd.html
+ERR: Cron:cron Runat 2017-03-23 21:07:18 Use 0.000348 s
+
+[ 2017-03-23T21:07:18+08:00 ] ::1 /eshop/index.php/ShoperCenter/doModifyPwd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000836s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.004085s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005645s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0048s ]
+SQL: UPDATE `eshop_shoper` SET `password`='d30625a753ea9fa658bfbfcb363033c4' WHERE `id` = 13 [ RunTime:0.0579s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper_log` [ RunTime:0.0048s ]
+NOTIC: [2] fopen(D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Org\Net/UTFWry.dat): failed to open stream: No such file or directory D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Org\Net\IpLocation.class.php 第 54 行.
+SQL: INSERT INTO `eshop_shoper_log` (`shoperId`,`action`,`ip`,`location`,`time`) VALUES ('13','修改密码','0.0.0.0',NULL,'1490274438') [ RunTime:0.0839s ]
+
+[ 2017-03-23T21:07:33+08:00 ] ::1 /eshop/index.php/Home/ShopCart/index.html
+ERR: Cron:cron Runat 2017-03-23 21:07:33 Use 0.000355 s
+
+[ 2017-03-23T21:07:38+08:00 ] ::1 /eshop/index.php/Home/ShopCart/index.html
+ERR: Cron:cron Runat 2017-03-23 21:07:38 Use 0.000429 s
+
+[ 2017-03-23T21:08:32+08:00 ] ::1 /eshop/index.php/Shoper/checkVerify.html
+ERR: Cron:cron Runat 2017-03-23 21:08:32 Use 0.000329 s
+
+[ 2017-03-23T21:08:32+08:00 ] ::1 /eshop/index.php/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001435s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.006112s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008351s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001565s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001715s ]
+
+[ 2017-03-23T21:08:43+08:00 ] ::1 /eshop/index.php/Shoper/index.html
+ERR: Cron:cron Runat 2017-03-23 21:08:43 Use 0.000359 s
+
+[ 2017-03-23T21:08:50+08:00 ] ::1 /eshop/index.php/Shoper/checkVerify.html
+ERR: Cron:cron Runat 2017-03-23 21:08:50 Use 0.000295 s
+
+[ 2017-03-23T21:08:50+08:00 ] ::1 /eshop/index.php/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001109s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.005586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007378s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000824s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000931s ]
+
+[ 2017-03-23T21:08:53+08:00 ] ::1 /eshop/index.php/Shoper/checkVerify.html
+ERR: Cron:cron Runat 2017-03-23 21:08:53 Use 0.000384 s
+
+[ 2017-03-23T21:08:53+08:00 ] ::1 /eshop/index.php/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000844s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.004351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005816s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001012s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001158s ]
+
+[ 2017-03-23T21:08:53+08:00 ] ::1 /eshop/index.php/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000742s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.002096s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003506s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000804s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000904s ]
+
+[ 2017-03-23T21:08:55+08:00 ] ::1 /eshop/index.php/Shoper/checkVerify.html
+ERR: Cron:cron Runat 2017-03-23 21:08:55 Use 0.000965 s
+
+[ 2017-03-23T21:08:55+08:00 ] ::1 /eshop/index.php/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002560s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.012625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017549s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002832s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003133s ]
+
+[ 2017-03-23T21:08:55+08:00 ] ::1 /eshop/index.php/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000683s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.002004s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003326s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000892s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000986s ]
+
+[ 2017-03-23T21:08:56+08:00 ] ::1 /eshop/index.php/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000990s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.002278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003963s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000837s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000919s ]
+
+[ 2017-03-23T21:08:57+08:00 ] ::1 /eshop/index.php/Shoper/doLogin.html
+ERR: Cron:cron Runat 2017-03-23 21:08:57 Use 0.000613 s
+
+[ 2017-03-23T21:08:57+08:00 ] ::1 /eshop/index.php/Shoper/doLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001496s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.006139s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008881s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0257s ]
+SQL: SELECT * FROM `eshop_shoper` WHERE `name` = 'shoper3' LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper_log` [ RunTime:0.0103s ]
+NOTIC: [2] fopen(D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Org\Net/UTFWry.dat): failed to open stream: No such file or directory D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Org\Net\IpLocation.class.php 第 54 行.
+SQL: INSERT INTO `eshop_shoper_log` (`shoperId`,`action`,`ip`,`location`,`time`) VALUES ('13','登录','0.0.0.0',NULL,'1490274537') [ RunTime:0.0439s ]
+
+[ 2017-03-23T21:09:00+08:00 ] ::1 /eshop/index.php/Home/ShopCart/index.html
+ERR: Cron:cron Runat 2017-03-23 21:09:00 Use 0.000380 s
+
+[ 2017-03-23T21:09:05+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/log.html
+ERR: Cron:cron Runat 2017-03-23 21:09:05 Use 0.000485 s
+
+[ 2017-03-23T21:09:10+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/modifyPwd.html
+ERR: Cron:cron Runat 2017-03-23 21:09:10 Use 0.000499 s
+
+[ 2017-03-23T21:10:42+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/modifyPwd.html
+ERR: Cron:cron Runat 2017-03-23 21:10:42 Use 0.000400 s
+
+[ 2017-03-23T21:10:56+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/modifyPwd.html
+ERR: Cron:cron Runat 2017-03-23 21:10:56 Use 0.000319 s
+
+[ 2017-03-23T21:11:05+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/modifyPwd.html
+ERR: Cron:cron Runat 2017-03-23 21:11:05 Use 0.000467 s
+
+[ 2017-03-23T21:11:13+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/checkPwd
+ERR: Cron:cron Runat 2017-03-23 21:11:13 Use 0.001483 s
+
+[ 2017-03-23T21:11:13+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/checkPwd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003667s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.021551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.027873s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0107s ]
+SQL: SELECT * FROM `eshop_shoper` WHERE `id` = 13 AND `password` = 'd30625a753ea9fa658bfbfcb363033c4' LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002104s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002315s ]
+
+[ 2017-03-23T21:11:20+08:00 ] ::1 /eshop/index.php/ShoperCenter/doModifyPwd.html
+ERR: Cron:cron Runat 2017-03-23 21:11:20 Use 0.000300 s
+
+[ 2017-03-23T21:11:20+08:00 ] ::1 /eshop/index.php/ShoperCenter/doModifyPwd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000834s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.004661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006163s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0046s ]
+SQL: UPDATE `eshop_shoper` SET `password`='fe8190e55b7de67eef2d3fe259665fc0' WHERE `id` = 13 [ RunTime:0.1064s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper_log` [ RunTime:0.0123s ]
+NOTIC: [2] fopen(D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Org\Net/UTFWry.dat): failed to open stream: No such file or directory D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Org\Net\IpLocation.class.php 第 54 行.
+SQL: INSERT INTO `eshop_shoper_log` (`shoperId`,`action`,`ip`,`location`,`time`) VALUES ('13','修改密码','0.0.0.0',NULL,'1490274680') [ RunTime:0.0488s ]
+
+[ 2017-03-23T21:11:40+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/modifyPwd.html
+ERR: Cron:cron Runat 2017-03-23 21:11:40 Use 0.000361 s
+
+[ 2017-03-23T21:12:15+08:00 ] ::1 /eshop/index.php/Shoper/index.html
+ERR: Cron:cron Runat 2017-03-23 21:12:15 Use 0.000336 s
+
+[ 2017-03-23T21:12:31+08:00 ] ::1 /eshop/index.php/Shoper/checkVerify.html
+ERR: Cron:cron Runat 2017-03-23 21:12:31 Use 0.000510 s
+
+[ 2017-03-23T21:12:31+08:00 ] ::1 /eshop/index.php/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001053s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.005428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007128s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000871s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000965s ]
+
+[ 2017-03-23T21:12:31+08:00 ] ::1 /eshop/index.php/Shoper/doLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000808s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.002090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003602s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0411s ]
+SQL: SELECT * FROM `eshop_shoper` WHERE `name` = 'shoper3' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper_log` [ RunTime:0.0041s ]
+NOTIC: [2] fopen(D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Org\Net/UTFWry.dat): failed to open stream: No such file or directory D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Org\Net\IpLocation.class.php 第 54 行.
+SQL: INSERT INTO `eshop_shoper_log` (`shoperId`,`action`,`ip`,`location`,`time`) VALUES ('13','登录','0.0.0.0',NULL,'1490274751') [ RunTime:0.0635s ]
+
+[ 2017-03-23T21:12:34+08:00 ] ::1 /eshop/index.php/Home/ShopCart/index.html
+ERR: Cron:cron Runat 2017-03-23 21:12:34 Use 0.000400 s
+
+[ 2017-03-23T21:12:59+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/modifyPwd.html
+ERR: Cron:cron Runat 2017-03-23 21:12:59 Use 0.000364 s
+
+[ 2017-03-23T21:13:05+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/checkPwd
+ERR: Cron:cron Runat 2017-03-23 21:13:05 Use 0.000480 s
+
+[ 2017-03-23T21:13:05+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/checkPwd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000830s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.005108s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006955s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `eshop_shoper` WHERE `id` = 13 AND `password` = 'd30625a753ea9fa658bfbfcb363033c4' LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001434s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001579s ]
+
+[ 2017-03-23T21:13:36+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/checkPwd
+ERR: Cron:cron Runat 2017-03-23 21:13:36 Use 0.001464 s
+
+[ 2017-03-23T21:13:36+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/checkPwd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003382s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.016595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021812s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0135s ]
+SQL: SELECT * FROM `eshop_shoper` WHERE `id` = 13 AND `password` = 'fe8190e55b7de67eef2d3fe259665fc0' LIMIT 1   [ RunTime:0.0013s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002615s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002911s ]
+
+[ 2017-03-23T21:13:38+08:00 ] ::1 /eshop/index.php/Home/Shoper/loginout.html
+ERR: Cron:cron Runat 2017-03-23 21:13:38 Use 0.000301 s
+
+[ 2017-03-23T21:13:43+08:00 ] ::1 /eshop/index.php/Home/Shoper/index.html
+ERR: Cron:cron Runat 2017-03-23 21:13:43 Use 0.000308 s
+
+[ 2017-03-23T21:14:03+08:00 ] ::1 /eshop/index.php/Shoper/checkVerify.html
+ERR: Cron:cron Runat 2017-03-23 21:14:03 Use 0.000354 s
+
+[ 2017-03-23T21:14:03+08:00 ] ::1 /eshop/index.php/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000842s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.004095s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005516s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000788s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000906s ]
+
+[ 2017-03-23T21:14:03+08:00 ] ::1 /eshop/index.php/Shoper/doLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000872s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.002617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004289s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0161s ]
+SQL: SELECT * FROM `eshop_shoper` WHERE `name` = 'shoper3' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper_log` [ RunTime:0.0279s ]
+NOTIC: [2] fopen(D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Org\Net/UTFWry.dat): failed to open stream: No such file or directory D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Org\Net\IpLocation.class.php 第 54 行.
+SQL: INSERT INTO `eshop_shoper_log` (`shoperId`,`action`,`ip`,`location`,`time`) VALUES ('13','登录','0.0.0.0',NULL,'1490274843') [ RunTime:0.0637s ]
+
+[ 2017-03-23T21:14:06+08:00 ] ::1 /eshop/index.php/Home/ShopCart/index.html
+ERR: Cron:cron Runat 2017-03-23 21:14:06 Use 0.001024 s
+
+[ 2017-03-23T21:14:11+08:00 ] ::1 /eshop/index.php/Home/Shoper/loginout.html
+ERR: Cron:cron Runat 2017-03-23 21:14:11 Use 0.000331 s
+
+[ 2017-03-23T21:14:15+08:00 ] ::1 /eshop/index.php/Home/Shoper/index.html
+ERR: Cron:cron Runat 2017-03-23 21:14:15 Use 0.000335 s
+
+[ 2017-03-23T21:14:30+08:00 ] ::1 /eshop/index.php/Shoper/checkVerify.html
+ERR: Cron:cron Runat 2017-03-23 21:14:30 Use 0.000346 s
+
+[ 2017-03-23T21:14:30+08:00 ] ::1 /eshop/index.php/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000956s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.004448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006074s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000829s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000934s ]
+
+[ 2017-03-23T21:14:31+08:00 ] ::1 /eshop/index.php/Shoper/doLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001108s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.003377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005475s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0285s ]
+SQL: SELECT * FROM `eshop_shoper` WHERE `name` = 'shoper3' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper_log` [ RunTime:0.0419s ]
+NOTIC: [2] fopen(D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Org\Net/UTFWry.dat): failed to open stream: No such file or directory D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Org\Net\IpLocation.class.php 第 54 行.
+SQL: INSERT INTO `eshop_shoper_log` (`shoperId`,`action`,`ip`,`location`,`time`) VALUES ('13','登录','0.0.0.0',NULL,'1490274871') [ RunTime:0.0464s ]
+
+[ 2017-03-23T21:14:34+08:00 ] ::1 /eshop/index.php/Home/ShopCart/index.html
+ERR: Cron:cron Runat 2017-03-23 21:14:34 Use 0.000373 s
+
+[ 2017-03-23T21:18:23+08:00 ] ::1 /eshop/index.php/Home/Shoper/loginout.html
+ERR: Cron:cron Runat 2017-03-23 21:18:23 Use 0.000417 s
+
+[ 2017-03-23T21:18:25+08:00 ] ::1 /eshop/index.php/Home/Shoper/index.html
+ERR: Cron:cron Runat 2017-03-23 21:18:25 Use 0.000479 s
+
+[ 2017-03-23T21:18:37+08:00 ] ::1 /eshop/index.php/Shoper/verify.html?0.44416785674361925
+ERR: Cron:cron Runat 2017-03-23 21:18:37 Use 0.000400 s
+
+[ 2017-03-23T21:18:44+08:00 ] ::1 /eshop/index.php/Shoper/checkVerify.html
+ERR: Cron:cron Runat 2017-03-23 21:18:44 Use 0.000346 s
+
+[ 2017-03-23T21:18:44+08:00 ] ::1 /eshop/index.php/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000858s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.004182s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005840s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001031s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001153s ]
+
+[ 2017-03-23T21:18:50+08:00 ] ::1 /eshop/index.php/Shoper/checkVerify.html
+ERR: Cron:cron Runat 2017-03-23 21:18:50 Use 0.000360 s
+
+[ 2017-03-23T21:18:50+08:00 ] ::1 /eshop/index.php/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000998s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.004915s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006824s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000962s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001092s ]
+
+[ 2017-03-23T21:18:51+08:00 ] ::1 /eshop/index.php/Shoper/doLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000816s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.002393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003872s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0455s ]
+SQL: SELECT * FROM `eshop_shoper` WHERE `name` = 'shoper3' LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2017-03-23T21:18:54+08:00 ] ::1 /eshop/index.php/Home/Shoper/index.html
+ERR: Cron:cron Runat 2017-03-23 21:18:54 Use 0.000453 s
+
+[ 2017-03-23T21:19:51+08:00 ] ::1 /eshop/index.php/Shoper/checkVerify.html
+ERR: Cron:cron Runat 2017-03-23 21:19:51 Use 0.000318 s
+
+[ 2017-03-23T21:19:51+08:00 ] ::1 /eshop/index.php/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000818s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.004241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005736s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000943s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001054s ]
+
+[ 2017-03-23T21:19:53+08:00 ] ::1 /eshop/index.php/Shoper/checkVerify.html
+ERR: Cron:cron Runat 2017-03-23 21:19:53 Use 0.000351 s
+
+[ 2017-03-23T21:19:53+08:00 ] ::1 /eshop/index.php/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000845s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.004224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005766s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000820s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000911s ]
+
+[ 2017-03-23T21:19:53+08:00 ] ::1 /eshop/index.php/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001075s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.002824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004731s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000763s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000869s ]
+
+[ 2017-03-23T21:19:57+08:00 ] ::1 /eshop/index.php/Shoper/checkVerify.html
+ERR: Cron:cron Runat 2017-03-23 21:19:57 Use 0.000576 s
+
+[ 2017-03-23T21:19:57+08:00 ] ::1 /eshop/index.php/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000783s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.004076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005559s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001124s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001262s ]
+
+[ 2017-03-23T21:19:59+08:00 ] ::1 /eshop/index.php/Shoper/checkVerify.html
+ERR: Cron:cron Runat 2017-03-23 21:19:59 Use 0.000404 s
+
+[ 2017-03-23T21:19:59+08:00 ] ::1 /eshop/index.php/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000841s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.004012s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005512s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000862s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000989s ]
+
+[ 2017-03-23T21:20:00+08:00 ] ::1 /eshop/index.php/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001716s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.002240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005377s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000978s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001120s ]
+
+[ 2017-03-23T21:20:00+08:00 ] ::1 /eshop/index.php/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000723s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.002435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003822s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000852s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000934s ]
+
+[ 2017-03-23T21:20:01+08:00 ] ::1 /eshop/index.php/Shoper/doLogin.html
+ERR: Cron:cron Runat 2017-03-23 21:20:01 Use 0.000446 s
+
+[ 2017-03-23T21:20:01+08:00 ] ::1 /eshop/index.php/Shoper/doLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000713s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.003997s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005369s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0517s ]
+SQL: SELECT * FROM `eshop_shoper` WHERE `name` = 'shoper3' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper_log` [ RunTime:0.0038s ]
+NOTIC: [2] fopen(D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Org\Net/UTFWry.dat): failed to open stream: No such file or directory D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Org\Net\IpLocation.class.php 第 54 行.
+SQL: INSERT INTO `eshop_shoper_log` (`shoperId`,`action`,`ip`,`location`,`time`) VALUES ('13','登录','0.0.0.0',NULL,'1490275201') [ RunTime:0.0639s ]
+
+[ 2017-03-23T21:20:04+08:00 ] ::1 /eshop/index.php/Home/ShopCart/index.html
+ERR: Cron:cron Runat 2017-03-23 21:20:04 Use 0.000349 s
+
+[ 2017-03-23T21:20:07+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/log.html
+ERR: Cron:cron Runat 2017-03-23 21:20:07 Use 0.000559 s
+
+[ 2017-03-23T21:20:10+08:00 ] ::1 /eshop/index.php/ShoperCenter/log/p/2.html
+ERR: Cron:cron Runat 2017-03-23 21:20:10 Use 0.000402 s
+
+[ 2017-03-23T21:20:10+08:00 ] ::1 /eshop/index.php/ShoperCenter/log/p/2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000795s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.004342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005806s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper_log` [ RunTime:0.0039s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_shoper_log` WHERE `shoperId` = 13 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `eshop_shoper_log` WHERE `shoperId` = 13 AND `is_show` = 1 ORDER BY time desc LIMIT 12,12   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009654s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009736s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000546s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000554s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001204s ]
+
+[ 2017-03-23T21:20:12+08:00 ] ::1 /eshop/index.php/ShoperCenter/log/p/1.html
+ERR: Cron:cron Runat 2017-03-23 21:20:12 Use 0.000307 s
+
+[ 2017-03-23T21:20:12+08:00 ] ::1 /eshop/index.php/ShoperCenter/log/p/1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000816s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.004557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006082s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper_log` [ RunTime:0.0041s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eshop_shoper_log` WHERE `shoperId` = 13 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `eshop_shoper_log` WHERE `shoperId` = 13 AND `is_show` = 1 ORDER BY time desc LIMIT 0,12   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012505s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012599s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000712s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000654s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001492s ]
+
+[ 2017-03-23T21:20:16+08:00 ] ::1 /eshop/index.php/ShoperCenter/delLog.html
+ERR: Cron:cron Runat 2017-03-23 21:20:16 Use 0.000385 s
+
+[ 2017-03-23T21:20:16+08:00 ] ::1 /eshop/index.php/ShoperCenter/delLog.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000894s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.004373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006040s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper_log` [ RunTime:0.0066s ]
+SQL: DELETE FROM `eshop_shoper_log` WHERE `id` = 32 [ RunTime:0.0980s ]
+
+[ 2017-03-23T21:20:18+08:00 ] ::1 /eshop/index.php/ShoperCenter/modifyPwd.html
+ERR: Cron:cron Runat 2017-03-23 21:20:18 Use 0.000476 s
+
+[ 2017-03-23T21:20:23+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/log.html
+ERR: Cron:cron Runat 2017-03-23 21:20:23 Use 0.000394 s
+
+[ 2017-03-23T21:20:28+08:00 ] ::1 /eshop/index.php/ShoperCenter/delLog.html
+ERR: Cron:cron Runat 2017-03-23 21:20:28 Use 0.000452 s
+
+[ 2017-03-23T21:20:28+08:00 ] ::1 /eshop/index.php/ShoperCenter/delLog.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000956s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.004460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006105s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper_log` [ RunTime:0.0048s ]
+SQL: DELETE FROM `eshop_shoper_log` WHERE `id` = 26 [ RunTime:0.0481s ]
+
+[ 2017-03-23T21:20:31+08:00 ] ::1 /eshop/index.php/ShoperCenter/delLog.html
+ERR: Cron:cron Runat 2017-03-23 21:20:31 Use 0.000415 s
+
+[ 2017-03-23T21:20:31+08:00 ] ::1 /eshop/index.php/ShoperCenter/delLog.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000864s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.004375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006095s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper_log` [ RunTime:0.0043s ]
+SQL: DELETE FROM `eshop_shoper_log` WHERE `id` = 35 [ RunTime:0.0840s ]
+
+[ 2017-03-23T21:20:35+08:00 ] ::1 /eshop/index.php/ShoperCenter/delLog.html
+ERR: Cron:cron Runat 2017-03-23 21:20:35 Use 0.000367 s
+
+[ 2017-03-23T21:20:35+08:00 ] ::1 /eshop/index.php/ShoperCenter/delLog.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000769s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.005025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006476s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper_log` [ RunTime:0.0039s ]
+SQL: DELETE FROM `eshop_shoper_log` WHERE `id` = 36 [ RunTime:0.1246s ]
+
+[ 2017-03-23T21:20:37+08:00 ] ::1 /eshop/index.php/ShoperCenter/delLog.html
+ERR: Cron:cron Runat 2017-03-23 21:20:37 Use 0.000368 s
+
+[ 2017-03-23T21:20:38+08:00 ] ::1 /eshop/index.php/ShoperCenter/delLog.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000778s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.004454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005936s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper_log` [ RunTime:0.0046s ]
+SQL: DELETE FROM `eshop_shoper_log` WHERE `id` = 37 [ RunTime:0.0902s ]
+
+[ 2017-03-23T21:20:43+08:00 ] ::1 /eshop/index.php/ShoperCenter/delLog.html
+ERR: Cron:cron Runat 2017-03-23 21:20:43 Use 0.000413 s
+
+[ 2017-03-23T21:20:43+08:00 ] ::1 /eshop/index.php/ShoperCenter/delLog.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003147s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.005621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009478s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper_log` [ RunTime:0.0043s ]
+SQL: DELETE FROM `eshop_shoper_log` WHERE `id` = 42 [ RunTime:0.0432s ]
+
+[ 2017-03-23T21:20:45+08:00 ] ::1 /eshop/index.php/ShoperCenter/delLog.html
+ERR: Cron:cron Runat 2017-03-23 21:20:45 Use 0.000440 s
+
+[ 2017-03-23T21:20:45+08:00 ] ::1 /eshop/index.php/ShoperCenter/delLog.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000776s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.004314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005843s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper_log` [ RunTime:0.0065s ]
+SQL: DELETE FROM `eshop_shoper_log` WHERE `id` = 41 [ RunTime:0.0638s ]
+
+[ 2017-03-23T21:20:48+08:00 ] ::1 /eshop/index.php/ShoperCenter/delLog.html
+ERR: Cron:cron Runat 2017-03-23 21:20:48 Use 0.000310 s
+
+[ 2017-03-23T21:20:48+08:00 ] ::1 /eshop/index.php/ShoperCenter/delLog.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000829s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.004113s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005925s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper_log` [ RunTime:0.0045s ]
+SQL: DELETE FROM `eshop_shoper_log` WHERE `id` = 43 [ RunTime:0.0580s ]
+
+[ 2017-03-23T21:20:52+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/modifyPwd.html
+ERR: Cron:cron Runat 2017-03-23 21:20:52 Use 0.000287 s
+
+[ 2017-03-23T21:20:59+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/checkPwd
+ERR: Cron:cron Runat 2017-03-23 21:20:59 Use 0.000450 s
+
+[ 2017-03-23T21:20:59+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/checkPwd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001135s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.004486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006262s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `eshop_shoper` WHERE `id` = 13 AND `password` = 'fe8190e55b7de67eef2d3fe259665fc0' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001383s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001507s ]
+
+[ 2017-03-23T21:21:06+08:00 ] ::1 /eshop/index.php/ShoperCenter/doModifyPwd.html
+ERR: Cron:cron Runat 2017-03-23 21:21:06 Use 0.000587 s
+
+[ 2017-03-23T21:21:06+08:00 ] ::1 /eshop/index.php/ShoperCenter/doModifyPwd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001235s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.006381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008678s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0063s ]
+SQL: UPDATE `eshop_shoper` SET `password`='d30625a753ea9fa658bfbfcb363033c4' WHERE `id` = 13 [ RunTime:0.0830s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper_log` [ RunTime:0.0124s ]
+NOTIC: [2] fopen(D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Org\Net/UTFWry.dat): failed to open stream: No such file or directory D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Org\Net\IpLocation.class.php 第 54 行.
+SQL: INSERT INTO `eshop_shoper_log` (`shoperId`,`action`,`ip`,`location`,`time`) VALUES ('13','修改密码','0.0.0.0',NULL,'1490275266') [ RunTime:0.0461s ]
+
+[ 2017-03-23T21:21:23+08:00 ] ::1 /eshop/index.php/Shoper/checkVerify.html
+ERR: Cron:cron Runat 2017-03-23 21:21:23 Use 0.000314 s
+
+[ 2017-03-23T21:21:23+08:00 ] ::1 /eshop/index.php/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000906s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.004576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006153s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001077s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001363s ]
+
+[ 2017-03-23T21:21:25+08:00 ] ::1 /eshop/index.php/Shoper/doLogin.html
+ERR: Cron:cron Runat 2017-03-23 21:21:25 Use 0.000734 s
+
+[ 2017-03-23T21:21:25+08:00 ] ::1 /eshop/index.php/Shoper/doLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001379s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.008454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011061s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0277s ]
+SQL: SELECT * FROM `eshop_shoper` WHERE `name` = 'shoper3' LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2017-03-23T21:21:28+08:00 ] ::1 /eshop/index.php/Shoper/index.html
+ERR: Cron:cron Runat 2017-03-23 21:21:28 Use 0.000351 s
+
+[ 2017-03-23T21:21:35+08:00 ] ::1 /eshop/index.php/Shoper/checkVerify.html
+ERR: Cron:cron Runat 2017-03-23 21:21:35 Use 0.000808 s
+
+[ 2017-03-23T21:21:35+08:00 ] ::1 /eshop/index.php/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002537s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.045559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.049671s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004849s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005225s ]
+
+[ 2017-03-23T21:21:42+08:00 ] ::1 /eshop/index.php/Shoper/checkVerify.html
+ERR: Cron:cron Runat 2017-03-23 21:21:42 Use 0.000447 s
+
+[ 2017-03-23T21:21:42+08:00 ] ::1 /eshop/index.php/Shoper/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001021s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.004731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007029s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001163s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001297s ]
+
+[ 2017-03-23T21:21:43+08:00 ] ::1 /eshop/index.php/Shoper/doLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000724s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.002129s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003541s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper` [ RunTime:0.0564s ]
+SQL: SELECT * FROM `eshop_shoper` WHERE `name` = 'shoper3' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `eshop_shoper_log` [ RunTime:0.0050s ]
+NOTIC: [2] fopen(D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Org\Net/UTFWry.dat): failed to open stream: No such file or directory D:\wampserver\wamp\www\eshop\ThinkPHP\Library\Org\Net\IpLocation.class.php 第 54 行.
+SQL: INSERT INTO `eshop_shoper_log` (`shoperId`,`action`,`ip`,`location`,`time`) VALUES ('13','登录','0.0.0.0',NULL,'1490275303') [ RunTime:0.0636s ]
+
+[ 2017-03-23T21:21:47+08:00 ] ::1 /eshop/index.php/Home/ShopCart/index.html
+ERR: Cron:cron Runat 2017-03-23 21:21:47 Use 0.000315 s
+
+[ 2017-03-23T21:21:49+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/modifyPwd.html
+ERR: Cron:cron Runat 2017-03-23 21:21:49 Use 0.000365 s
+
+[ 2017-03-23T21:21:53+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/log.html
+ERR: Cron:cron Runat 2017-03-23 21:21:53 Use 0.000328 s
+
+[ 2017-03-23T21:27:33+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/log.html
+ERR: Cron:cron Runat 2017-03-23 21:27:33 Use 0.000446 s
+
+[ 2017-03-23T21:27:36+08:00 ] ::1 /eshop/index.php/Home/ShoperCenter/modifyPwd.html
+ERR: Cron:cron Runat 2017-03-23 21:27:36 Use 0.000370 s
+
+[ 2017-03-23T21:29:21+08:00 ] ::1 /eshop/index.php/Home/Shop/index.html
+ERR: Cron:cron Runat 2017-03-23 21:29:21 Use 0.000668 s
+
+[ 2017-03-23T21:30:36+08:00 ] ::1 /eshop/index.php/Home/Index/index.html
+ERR: Cron:cron Runat 2017-03-23 21:30:36 Use 0.000880 s
+
+[ 2017-03-23T21:30:53+08:00 ] ::1 /eshop/index.php/Home/Index/goods_info.html
+ERR: Cron:cron Runat 2017-03-23 21:30:53 Use 0.000483 s
+
+[ 2017-03-23T21:30:53+08:00 ] ::1 /eshop/index.php/Home/Index/goods_info.html
+ERR: 非法操作:goods_info
+
+[ 2017-03-23T21:32:23+08:00 ] ::1 /eshop/index.php/Home/Index/more_info.html
+ERR: Cron:cron Runat 2017-03-23 21:32:23 Use 0.000293 s
+
+[ 2017-03-23T21:32:23+08:00 ] ::1 /eshop/index.php/Home/Index/more_info.html
+ERR: 非法操作:more_info
+
+[ 2017-03-23T21:32:28+08:00 ] ::1 /eshop/index.php/Home/Index/index.html
+ERR: Cron:cron Runat 2017-03-23 21:32:28 Use 0.000368 s
+
+[ 2017-03-23T21:33:23+08:00 ] ::1 /eshop/index.php/ShoppingCart/index.html
+ERR: Cron:cron Runat 2017-03-23 21:33:23 Use 0.000792 s
+

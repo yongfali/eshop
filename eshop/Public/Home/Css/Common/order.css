@@ -1,0 +1,211 @@
+/*交易管理下待付款订单页面样式*/
+.orders_table{
+	width: 100%;
+	border-collapse:collapse;
+}
+.orders_table thead{
+	height: 32px;
+	background: #eee;
+	border-bottom: 1.6px solid #ccc;
+}
+.orders_table .orders_items{
+	border-bottom: 1px solid #e0e1e3;
+	color: #666;
+	font: 12px/150% Arial,Verdana,"宋体";
+}
+.orders_table .orders_head{
+	height: 32px;
+	background: #f5f5f5;
+}
+.orders_head .order_time{
+	float: left;
+}
+.orders_head .order_status{
+	float: right;
+}
+.order_time,.order_status{
+	line-height: 32px;
+	padding:0 20px;
+	color: #6b6767;
+	font-size: 13px;
+}
+.orders_table .orders_info{
+	height: 90px;
+}
+.orders_info td{
+	text-align: center;
+}
+.orders_info .line{
+	border-right: 1px solid  #e5e5e5;
+}
+.orders_info .good_img,.orders_info .good_detail{
+	float: left;
+}
+.orders_info  .good_num{
+	float: right;
+}
+.good_img{
+	width: 80px;
+	height: 90px;
+}
+.good_img img{
+	max-width: 60px;
+	max-height: 60px;
+	padding: 15px 10px;
+}
+.good_detail{
+	width: 350px;
+	height: 70px;
+	text-align: left;
+	padding: 15px 0 5px 0;
+	overflow: hidden;
+}
+.good_num{
+	width: 80px;
+	padding: 6px 0px;
+}
+.money_item{
+	height: 26px;
+	line-height: 26px;
+}
+.orders_action a{
+	display: inline-block;
+	color: #32a9ea;
+	margin-right: 2px;
+	line-height: 22px;
+}
+.orders_action a:hover{
+	color: red;
+}
+/*订单详情页面样式*/
+.order-progress,.order-cancle,.order-info,.buyer-info,.logistics{
+	width: 95%;
+	padding:10px 25px;
+	border-bottom: 1px solid #eee; 
+}
+.order-cancle{
+	min-height: 100px;
+}
+.order-cancle .info{
+	height: 32px;
+	line-height: 32px;
+	margin-left: 0px;
+}
+.order-progress{
+	height: 160px;
+}
+.order-progress img{
+	max-width: 40px;
+	max-height: 40px;
+	vertical-align: middle;
+}
+.order-progress .icons{
+	float: left;
+}
+.icons-img{
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	margin-left: 10px;
+}
+.icons-line{
+	font-size: 18px;
+	color: #979797;
+}
+.order-progress .active{
+	color: red;
+}
+.order-progress .icons-info{
+	clear: both;
+	height: 80px;
+}
+.order-progress .icons-info span{
+	display: inline-block;
+	float: left;
+	width: 80px;
+	height: 80px;
+	/*text-align: center;*/
+	margin-right: 100px;
+	overflow: hidden;
+}
+.order-info{
+	min-height: 170px;
+}
+.order-info p,.buyer-info p{
+	height: 32px;
+	line-height: 32px;
+	/*text-indent: 2em;*/
+}
+.order-info p span,.buyer-info p span{
+	display: inline-block;
+    width: 100px;
+    text-align: right;
+    padding-right: 3px;
+}
+.buyer-info{
+	height: 140px;
+}
+.logistics{
+	min-height: 160px;
+	border-bottom: none;
+}
+.order-progress .titles,.order-cancle .titles,.order-info .titles,.buyer-info .titles,.logistics .titles{
+	height: 32px;
+	line-height: 32px;
+	margin-bottom: 5px;
+}
+/*投诉订单页面样式*/
+.orders_table .complaint_items tr{
+	height: 60px;
+	text-align: center;
+	border-bottom: 1px solid #b2fbb2;
+}
+.complaint_items .reason{
+	width: 380px;
+	height: 50px;
+	padding: 5px 10px;
+	color: red;
+	line-height: 25px;
+	overflow: hidden;
+}
+/*投诉订单详情页面样式*/
+.complaint-detail{
+	width: 98%;
+	min-height: 200px;
+	padding: 10px;
+	border-bottom: 1px solid #ccc;
+}
+.complaint-detail .titles{
+	height: 36px;
+	line-height: 36px;
+	font-size: 18px;
+}
+.complaint-detail-items{
+	padding: 0px 40px;
+}
+.complaint-detail-items p{
+	height: 36px;
+	line-height: 36px;
+}
+.complaint-detail-imgs span{
+	display: inline-block;
+	height: 32px;
+	line-height: 32px;
+}
+.complaint-detail-imgs img{
+	max-width: 100px;
+	max-height: 100px;
+}
+.complaint-detail-imgs ul li{
+	float: left;
+	margin: 5px 15px;
+}
+/*用户以评论订单页面新增样式*/
+.orders_table .order-appraise{
+	height: 50px;
+	background: #fffcfc;
+	border-top: 1px solid #e5e5e5;
+}
+.orders_table .order-appraise td{
+	padding: 0px 15px;
+}

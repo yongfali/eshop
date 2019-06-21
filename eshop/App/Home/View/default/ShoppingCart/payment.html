@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>在线支付</title>
+	<include file = "Public:common"/>
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/Css/shopcart.css">
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/Css/shoporders.css">
+<body>
+<!-- header开始 --> 
+<include file ='Public:header' /> 
+<!-- header结束 -->
+	<div class="orderPay_wrapper">
+		<div class="shopcart_nav">
+			<dl class="first doing">
+				<dt class="cart_num">1</dt>
+				<dd class="cart_text">我的购物车</dd>
+				<dd></dd>
+			</dl>
+			<dl class="second doing">
+				<dt class="cart_num">2</dt>
+				<dd class="cart_text">填写（确认）订单</dd>
+			</dl>
+			<dl class="third doing">
+				<dt class="cart_num">3</dt>
+				<dd class="cart_text">付款（完成订单）</dd>
+			</dl>
+		</div>
+		<div class="orderPay_content">
+			<div class="s_submit">
+				<img src="__PUBLIC__/Home/OrderImage/order_submit.jpg">
+			</div>
+			<div class="order_info">
+				订单号：
+				<notempty name="orderNumber"> 
+					<span>
+						<volist name="orderNumber" id="item">
+							{$item}，
+						</volist>
+					</span>
+				</notempty>
+				消费金额：<span>&yen;{$totalPrice}</span>
+			</div>
+			<div class="pay_left">
+				<form　action="" method="post" id="pay" autocomplete="off">
+					<div class="left_items"><label>账号：</label><input type="text" placeholder="acount" /></div>
+					<div class="left_items"><label>密码：</label><input type="password" placeholder="password" /></div>
+					<div class="left_items1"><button>确认付款</button></div>
+				</form>	
+			</div>
+			<div class="pay_right">
+				<img src="__PUBLIC__/Home/Image/float_icon_weixin.jpg">
+			</div>
+			<div class="continue_shoping">
+				<a href="{:U('home/Index/index')}">继续购物</a>
+			</div>
+		</div><!-- 支付页面包裹内容结束 -->
+		<!-- 导航标题结束 -->
+	</div><!-- 支付页面中间结束 --> 
+	<include file='Public:footer'/>
+</body>
+</html>

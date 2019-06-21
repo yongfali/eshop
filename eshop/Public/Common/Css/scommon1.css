@@ -1,0 +1,51 @@
+/*店铺热卖商品公共样式*/
+.shop_hotProduct_show{
+	width: 100%;
+	height: 280px;
+	overflow: hidden;
+	background: #f8feef;
+	margin-top: 10px;
+	border-radius: 10px;
+}
+.goodlists li{
+	float: left;
+	width: 230px;
+	overflow: hidden;
+	margin:10px 0px 0px 10px;
+	border:1px solid transparent; 
+}
+.goodlists li:hover{
+	border: 1px solid #f60;
+	 /*-webkit-box-shadow:0 0 1px #f60;  
+	  -moz-box-shadow:0 0 1px #f60;  
+	  box-shadow:0 0 1px #f60;*/  
+}
+.goodlists .good_pic{
+	text-align: center;
+	padding-top: 4px;
+}
+.good_pic  a{
+	display: block;
+	overflow: hidden;
+}
+.good_pic img{
+	max-width: 195px;
+	max-height: 195px;
+}
+.goodlists .good_name,.goodlists .good_sales{
+	min-height: 26px;
+	line-height: 26px;
+	text-align: center;
+}
+.good_sales{
+	/*width: 190px;*/
+	padding:0 5px;
+}
+.good_price,.good_amounts{
+	float: left;
+	padding: 0px 15px;
+	line-height: 25px;
+}
+.good_price span{
+	color: red;
+}

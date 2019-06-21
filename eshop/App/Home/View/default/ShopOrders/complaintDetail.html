@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>投诉订单详情</title>
+<include file = "Public:common"/>
+<include file = "Good:commonnav" />
+</head>
+<body>
+<include file = "Public:sheader"/>
+<div class="position_now">
+  <label><a href="{:U('Home/Index/index')}" target="_blankx">首页</a></label>
+  <span>&gt</span>
+  <label>投诉订单详情</label>
+</div>
+<div class="scenter_wrapper"> 
+  <!-- 交易管理左侧导航开始 --> 
+  <include file = "Public:scenternav"/> 
+  <!-- 交易管理左侧导航结束 --> 
+  <!-- 交易管理右侧内容显示开始 -->
+  <div class="scenter_right">
+    <div class="scenter_right_title"> <span>投诉订单详情</span> 
+    </div>
+    <div class="scenter_right_content"> 
+      <!-- 投诉订单详情展示 -->
+        <div class="complaint-detail">
+            <div class="titles">投诉信息</div>
+            <div class="complaint-detail-items">
+              <p><span>订单编号：</span>{$info.ordernum}</p>
+              <p>
+                <span>投诉类型：</span> 
+                <switch name="info.complaintype">
+                  <case value="1">卖家存在欺诈行为</case>
+                  <case value="2">未按约定时间发货</case>
+                  <case value="3">未按成交价格进行交易</case>
+                  <case value="4">虚假销售</case>
+                  <default />其它
+                </switch>
+              </p>
+              <p><span>投诉具体内容：</span>{$info.reason}</p>
+              <p><span>投诉时间：</span>{$info.time|date="Y-m-d H:i:s",###}</p>
+              <div class="complaint-detail-imgs">
+                <span>附件信息：</span>
+                <empty name="info.img">
+                  暂无附件信息！！！
+                  <else/>
+                  <ul>
+                    <li><img src="__PUBLIC__/Home/Image/sg1.png"></li>
+                    <li><img src="__PUBLIC__/Home/Image/sg1.png"></li>
+                    <li><img src="__PUBLIC__/Home/Image/sg1.png"></li>
+                    <li><img src="__PUBLIC__/Home/Image/sg1.png"></li>
+                  </ul>
+                </empty>
+              </div>
+              <p style="clear:both;">
+                <span>仲裁结果：</span>
+                 <if condition="$info.is_cancle eq 1">
+                  已取消投诉！&nbsp;&nbsp;<span style="color:red;">取消时间：{$info.cancletime|date="Y-m-d H：m：s",###}</span>
+                  <elseif condition=" ($info.is_cancle eq 0) AND ($info.is_deal eq 0)"/>
+                  系统未受理！
+                  <elseif  condition="($info.is_deal eq 1) AND ($info.is_complete eq 0)"/>
+                  正在处理中...&nbsp;&nbsp;<span style="color:red;">受理时间：{$info.dealtime|date="Y-m-d H：m：s",###}</span>
+                  <else/>
+                  已处理
+                </if>
+              </p>
+            </div>
+        </div>
+      <!-- 投诉订单详情展示 --> 
+    </div>
+  </div>
+  <!-- 交易管理右侧内容显示结束 --> 
+</div>
+<include file= "Public:footer" />
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>消息中心列表</title>
+<include file = "Public:common"/>
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/Css/Index/moreInfo.css">
+<script src="__PUBLIC__/Home/Js/common.js"></script>
+</head>
+<body>
+<!-- 头部header开始 --> 
+<include file='Public:header' /> 
+<!-- 头部header结束 --> 
+<div class="position_now">
+  <label><a href="index.html">首页</a></label>
+  <span>&gt</span>
+  <label>消息中心</label>
+</div>
+<!-- 消息中心显示开始-->
+<div class="moreInfo_wrapper">
+  <div class="moreInfo_wrapper_left">
+    <h3>消息列表</h3>
+    <ul class="moreInfo_menu">
+      <a href="{:U('Home/Index/infoLists',array('type' => 'note'))}">
+      <li <if condition="$infoType eq 'note' ">class = "menu_active"</if> >公告列表</li>
+      </a> 
+      <a href="{:U('Home/Index/infoLists',array('type' => 'info'))}">
+      <li <if condition="$infoType eq 'info' ">class = "menu_active"</if> >资讯列表</li>
+      </a> 
+      <a href="{:U('Home/Index/infoLists',array('type' => 'discount'))}">
+      <li <if condition="$infoType eq 'discount' ">class = "menu_active"</if> >优惠活动列表</li>
+      </a>
+    </ul>
+  </div>
+  <!-- 左侧导航标签 -->
+  <div  class="moreInfo_wrapper_right">
+    <div class="moreInfo_right_head"> 
+      <span>
+        <switch name="infoType">
+          <case value="info">资讯列表</case>
+          <case value="discount">优惠活动列表</case>
+          <default />公告列表
+        </switch>
+      </span> 
+    </div>
+    <!-- 标题 -->
+    <div class="ucenter_right_content">
+      <div class="moreInfo_lists">
+        <ul>
+          <empty name="infoList">
+            <li>暂无信息！！！</li>
+            <else/>
+            <volist name="infoList" id="data">
+              <li>
+                <a href="{:U('Home/Index/infoDetail',array('id' => $data['id']))}">{$data.title}</a>
+                <span>{$data.modify_time|date="Y-m-d h：m：s",###}</span>
+              </li>
+            </volist>
+          </empty>
+        </ul>
+      </div>
+      <!-- 分页开始 -->
+      <div class="pages">{$page}</div>
+      <!-- 分页结束 -->
+    </div> 
+    <!-- 公告列表 --> 
+  </div>
+  <!-- 右侧内容显示模块 --> 
+</div>
+<!-- 消息中心显示结束-->
+<!-- 尾部开始 --> 
+<include file = 'Public:footer'/> 
+<!-- 尾部结束 --> 
+</div>
+</body>
+</html>

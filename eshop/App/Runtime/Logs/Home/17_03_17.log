@@ -1,0 +1,18 @@
+[ 2017-03-17T23:00:54+08:00 ] ::1 /eshop/index.php/Home/Index/goods_info.html
+ERR: 非法操作:goods_info
+
+[ 2017-03-17T23:01:18+08:00 ] ::1 /eshop/index.php/Home/Index/more_info.html
+ERR: 非法操作:more_info
+
+[ 2017-03-17T23:01:54+08:00 ] ::1 /eshop/index.php/Home/Index/goods_info.html
+ERR: 非法操作:goods_info
+
+[ 2017-03-17T23:01:59+08:00 ] ::1 /eshop/index.php/Home/Index/goods_info.html
+ERR: 非法操作:goods_info
+
+[ 2017-03-17T23:02:07+08:00 ] ::1 /eshop/index.php/Home/Index/lists.html
+ERR: 非法操作:lists
+
+[ 2017-03-17T23:03:21+08:00 ] ::1 /eshop/index.php/Home/Index/lists.html
+ERR: 非法操作:lists
+
